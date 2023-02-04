@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/gui.rpy", line 33: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    define gui.idle_small_color = '#888888'
+    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Jan 23 22:25:57 2023
