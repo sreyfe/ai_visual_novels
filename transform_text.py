@@ -163,7 +163,7 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
 
     for i, sex_character in enumerate(characters):
         shutil.copy(
-            Path(f'{PATH_TO_CHARACTERS_PICTURES}/male/{numbers[i]}.png'),
+            Path(f'{PATH_TO_CHARACTERS_PICTURES}/{sex.lower()}/{numbers[i]}.png'),
             Path(f'{PATH_TO_CHARACTERS_DIRECTORY}/{sex_character}.png')
         )
 
@@ -537,38 +537,38 @@ def add_notes_to_text(text: str, notes: List[str]) -> str:
 
 
 @text_splitter
-def add_line(elem, characters: List[str], indent: str = "", notes: List[str] = None) -> str:
+def add_line(line, characters: List[str], indent: str = "", notes: List[str] = None) -> str:
     if notes is None:
         notes = []
 
     s: str = ""
 
-    text: str = get_text(elem)
+    text: str = line.text
 
     if not text.strip():
         return s
 
-    s += play_sound(elem, indent)
+    s += play_sound(line, indent)
 
-    s += before_characters(elem, characters, indent)
+    s += before_characters(line, characters, indent)
 
     additional_spaces = ''
-    if "part" in elem.attrib:
-        if elem.attrib["part"] == 'M':
+    if "part" in line.attrib:
+        if line.attrib["part"] == 'M':
             additional_spaces = '{space=200}'
-        elif elem.attrib["part"] == 'F':
+        elif line.attrib["part"] == 'F':
             additional_spaces = '{space=400}'
-    if "rend" in elem.attrib:
-        if elem.attrib["rend"] == 'indent':
+    if "rend" in line.attrib:
+        if line.attrib["rend"] == 'indent':
             additional_spaces = '{space=400}'
 
     text = add_notes_to_text(text, notes)
 
     s += f'{indent}{characters[0] + " " if characters else ""}"{additional_spaces}{text}"\n\n'
 
-    s += after_characters(elem, characters, indent)
+    s += after_characters(line, characters, indent)
 
-    s += stop_sound(elem, indent)
+    s += stop_sound(line, indent)
 
     return s
 
@@ -1241,6 +1241,8 @@ def parse_list_person(list_person, indent: str) -> str:
     characters = []
     for elem in list_person:
         if elem.tag in ["person", "personGrp"]:
+            if elem.tag == "personGrp":
+                elem.attrib["sex"] = "UNKNOWN"
             characters.append(elem)
 
     s += f'{indent}{create_character_variables(characters)}\n'
@@ -1257,6 +1259,7 @@ def parse_any(elem, characters, indent: str) -> str:
         s += add_stage(elem, characters, indent)
     elif elem.tag == "sp":
         s += get_sp(elem, characters, indent)
+        characters.clear()
     elif elem.tag == "listPerson":
         s += parse_list_person(elem, indent)
     else:

@@ -122,10 +122,10 @@
             <persName>Звездочет</persName>
             <persName xml:lang="ger">Sternedeuter</persName>
           </person>
-          <person xml:id="razjarennye_dvorniki" sex="MALE">
+          <personGrp xml:id="razjarennye_dvorniki" sex="MALE">
             <persName>Разъяренные дворники</persName>
             <persName xml:lang="ger">Zwei erboste Hauswarte</persName>
-          </person>
+          </personGrp>
           <person xml:id="goluboj" sex="MALE">
             <persName>Голубой</persName>
             <persName xml:lang="ger">Der Himmelblaue</persName>
@@ -348,7 +348,7 @@
           <speaker>Верлэн</speaker>
           <stage>(бормочет громко сам с собою)</stage>
           <p>Каждому свое. Каждому свое...</p>
-          <stage>Гауптман делает выразительные знаки половому. Входят рыжий мужчина и девушка в
+            <stage>Гауптман делает выразительные знаки половому. Входят рыжий мужчина и девушка в
             платочке.</stage>
         </sp>
         <sp who="#devushka">
@@ -1158,7 +1158,8 @@
         </sp>
         <sp who="#hozjajka">
           <speaker>Хозяйка</speaker>
-          <p>Cher<note>Дорогой (франц.). – Ред.</note> Иван Павлович! Идите скорее! Только вас и
+          <note>Cher : Дорогой (франц.). – Ред.</note>
+          <p>Cher Иван Павлович! Идите скорее! Только вас и
             ждали! Вот, Аркадий Романович обещался нам сегодня спеть!</p>
           <stage>Аркадий Романович, подходя к хозяйке, делает различные жесты, долженствующие
             показать, что он невысокого о себе мнения. Хозяйка жестами же старается показать ему
@@ -1460,7 +1461,7 @@
         </sp>
         <stage>У темной занавеси уже нет никого. За окном горит яркая звезда. Падает голубой снег,
           такой же голубой, как вицмундир исчезнувшего Звездочета.</stage>
-        <p>〈1906〉</p>
+        <stage>〈1906〉</stage>
       </div>
     </body>
   </text>
