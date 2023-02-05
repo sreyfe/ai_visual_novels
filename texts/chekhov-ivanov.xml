@@ -133,6 +133,17 @@
             <name xml:lang="eng">Voices from the ball-room</name>
             <name xml:lang="ger">Stimmen im Saal</name>
           </personGrp>
+          <person xml:id="ChetvyortyjGost" sex="MALE">
+            <persName>4-й гость</persName>
+            <persName xml:lang="eng">Fourth Guest</persName>
+          </person>
+          <person xml:id="Petr" sex="MALE">
+            <persName>Петр</persName>
+            <persName xml:lang="eng">Peter</persName>
+          </person>
+          <person xml:id="Gavrila" sex="MALE">
+            <persName>Гаврила</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#Lebedev" passive="#Sasha"/>
             <relation name="parent_of" active="#ZinaidaSavishna" passive="#Sasha"/>
@@ -211,7 +222,9 @@
         <castItem>4-й гость.</castItem>
         <castItem>Петр, лакей Иванова.</castItem>
         <castItem>Гаврила, лакей Лебедевых.</castItem>
-        <castItem>Гости обоего пола, лакеи.</castItem>
+        <castGroup>
+          <roleDesc>Гости обоего пола, лакеи.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в одном из уездов средней полосы России.</p>

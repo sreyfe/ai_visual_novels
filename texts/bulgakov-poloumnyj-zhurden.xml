@@ -49,6 +49,8 @@
         <listPerson>
           <person xml:id="bezhar" sex="MALE">
             <persName>Бежар</persName>
+            <persName type="variant">Луи Бежар</persName>
+            <persName type="variant">Журден</persName>
             <persName xml:lang="ger">Béjart</persName>
           </person>
           <person xml:id="brendavuan" sex="MALE">
@@ -57,10 +59,12 @@
           </person>
           <person xml:id="juber" sex="MALE">
             <persName>Юбер</persName>
+            <persName type="variant">Госпожа Журден</persName>
             <persName xml:lang="ger">Hubert</persName>
           </person>
           <person xml:id="dju_kruazi" sex="MALE">
             <persName>Дю Круази</persName>
+            <persName type="variant">Панкрасс</persName>
             <persName xml:lang="ger">du Croisy</persName>
           </person>
           <person xml:id="uchitel_tantsev" sex="MALE">
@@ -69,14 +73,12 @@
           </person>
           <person xml:id="uchitel_muzyki" sex="MALE">
             <persName>Учитель музыки</persName>
+            <persName type="variant">Учитель театра и музыки</persName>
             <persName xml:lang="ger">Musikmeister</persName>
-          </person>
-          <person xml:id="zhurden" sex="MALE">
-            <persName>Журден</persName>
-            <persName xml:lang="ger">Jourdain</persName>
           </person>
           <person xml:id="uchitel_fehtovanija" sex="MALE">
             <persName>Учитель фехтования</persName>
+            <persName type="variant">Господин Дебри</persName>
             <persName xml:lang="ger">Fechtmeister</persName>
           </person>
           <person xml:id="pevets" sex="MALE">
@@ -89,30 +91,26 @@
           </person>
           <person xml:id="nikol" sex="FEMALE">
             <persName>Николь</persName>
+            <persName type="variant">Госпожа Боваль</persName>
             <persName xml:lang="ger">Nicole</persName>
-          </person>
-          <person xml:id="pankrass" sex="MALE">
-            <persName>Панкрасс</persName>
-            <persName xml:lang="ger">Pancrace</persName>
           </person>
           <person xml:id="statuja" sex="MALE">
             <persName>Статуя</persName>
+            <persName type="variant">Статуя Командора</persName>
             <persName xml:lang="ger">Statue</persName>
           </person>
           <person xml:id="don_zhuan" sex="MALE">
             <persName>Дон Жуан</persName>
             <persName xml:lang="ger">Don Juan</persName>
           </person>
-          <person xml:id="gospozha_zhurden" sex="FEMALE">
-            <persName>Госпожа Журден</persName>
-            <persName xml:lang="ger">Madame Jourdain</persName>
-          </person>
           <person xml:id="dorant" sex="MALE">
             <persName>Дорант</persName>
+            <persName type="variant">Латорильер</persName>
             <persName xml:lang="ger">Dorante</persName>
           </person>
           <person xml:id="kleont" sex="MALE">
             <persName>Клеонт</persName>
+            <persName type="variant">Лагранж</persName>
             <persName xml:lang="ger">Cleonte</persName>
           </person>
           <person xml:id="kovel" sex="MALE">
@@ -121,10 +119,12 @@
           </person>
           <person xml:id="ljusil" sex="FEMALE">
             <persName>Люсиль</persName>
+            <persName type="variant">Госпожа Мольер</persName>
             <persName xml:lang="ger">Lucile</persName>
           </person>
           <person xml:id="dorimena" sex="FEMALE">
             <persName>Доримена</persName>
+            <persName type="variant">Госпожа Дебри</persName>
             <persName xml:lang="ger">Dorimène</persName>
           </person>
           <person xml:id="portnoj" sex="MALE">
@@ -137,7 +137,7 @@
           </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#kovel" passive="#kleont"/>
-            <relation name="associated_with" active="#brendavuan" passive="#zhurden"/>
+            <relation name="associated_with" active="#brendavuan" passive="#bezhar"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -194,7 +194,9 @@
         <castItem>Нотариус.</castItem>
         <castItem>Дон Жуан.</castItem>
         <castItem>Статуя Командора.</castItem>
-        <castItem>Танцовщики, танцовщицы, музыканты, повара.</castItem>
+        <castGroup>
+          <roleDesc>Танцовщики, танцовщицы, музыканты, повара.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в Париже в 1670 году.</p>
@@ -471,7 +473,7 @@
           <p>Да. Его необходимо выжить из дому. Тссс... идет Журден.</p>
         </sp>
         <stage>Торжественно появляется Журден, а за ним Брэндавуан.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Здравствуйте, господа преподаватели.</p>
         </sp>
@@ -479,7 +481,7 @@
           <speaker>Учителя.</speaker>
           <p>Как чувствуете вы себя, господин Журден?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я заставил вас ждать, господа? Но виноват мой портной. Это дрянь, а не портной. Он
             сделал такие узкие штаны, что я еле поворачиваюсь в них. Как вы находите их?</p>
@@ -488,7 +490,7 @@
           <speaker>Учитель музыки.</speaker>
           <p>Исключительные штаны.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Занятные люди по утрам носят такие штаны. Это мои утренние штаны.</p>
         </sp>
@@ -496,7 +498,7 @@
           <speaker>Учитель танцев.</speaker>
           <p>Они вам удивительно к лицу.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Благодарю вас. Итак, с чего мы начнем сегодняшний урок театра?</p>
         </sp>
@@ -505,7 +507,7 @@
           <p>Благоволите прослушать, господин Журден, серенаду, сочиненную одним из моих
             учеников.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Очень хорошо. Брэндавуан!</p>
         </sp>
@@ -513,7 +515,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Что угодно, сударь?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мне ничего не угодно. Я просто проверял, тут ли ты. Впрочем, нет, надень на меня
             халат.</p>
@@ -527,7 +529,7 @@
           <l>Никто не в силах мне помочь.</l>
           <l>Прекрасная Ирис...</l>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <p>Нет, не могу больше! Ах черт!..</p>
         </sp>
         <stage>Пение прекращается.</stage>
@@ -535,7 +537,7 @@
           <speaker>Учитель музыки.</speaker>
           <p>Виноват, господин Журден...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Это не сапожник, это каналья! Не могу больше, до того жмут, Брэндавуан! Сними с меня
             башмаки. Продолжайте господа.</p>
@@ -550,7 +552,7 @@
           <speaker>Учитель музыки.</speaker>
           <p>Как вы находите?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Да, песня мрачновата. На кладбище тянет. Признаюсь вам, мне не хочется ее учить. А вот
             на днях я слышал песенку. Превосходная песенка!</p>
@@ -565,7 +567,7 @@
           <speaker>Учитель танцев.</speaker>
           <p>Превосходно. И мило и просто!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А я хорошо пою?</p>
         </sp>
@@ -573,7 +575,7 @@
           <speaker>Учитель музыки.</speaker>
           <p>Превосходно. Просто хорошо. Вот ее и будем учить.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну-с, теперь танцы.</p>
         </sp>
@@ -581,7 +583,7 @@
           <speaker>Учитель танцев.</speaker>
           <p>Внимание. Менуэт.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я люблю менуэт.</p>
         </sp>
@@ -591,7 +593,7 @@
           <p>Ну-с, пожалуйте, сударь, на сцену. Благоволите повторять.</p>
         </sp>
         <stage>Все поют: ла-ла-ла-ла...</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Меня немножко смущает, видите ли, что я хромаю.</p>
         </sp>
@@ -599,7 +601,7 @@
           <speaker>Учитель танцев.</speaker>
           <p>Кто хромает? Вы? С чего вы это взяли, господин Журден?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Неужели это незаметно?</p>
         </sp>
@@ -621,7 +623,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Доброе утро, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Аа!</p>
         </sp>
@@ -630,7 +632,7 @@
           <stage>(Учителю музыки).</stage>
           <p>Явился, негодяй!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну-с, господа, теперь урок фехтования.</p>
         </sp>
@@ -651,7 +653,7 @@
           <p>Сударь, я не советовал бы вам прислушиваться к тому, что говорит господин
             фехтовальщик.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господа, господа, не будем ссориться. Знатные люди совмещают и танцы и фехтование.</p>
         </sp>
@@ -661,7 +663,7 @@
             Начинайте, сударь. Выпадайте. Плохо выпали.</p>
           <stage>(Колет Журдена.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ох... Господи...</p>
         </sp>
@@ -670,7 +672,7 @@
           <p>Еще удар. Раз, два. Выпадайте. Плохо выпали.</p>
           <stage>(Колет Журдена.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мать, Пресвятая Богородица...</p>
         </sp>
@@ -679,7 +681,7 @@
           <p>Прыжок назад. Еще раз выпадайте. Плохо выпали.</p>
           <stage>(Колет Журдена.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Святая Дева...</p>
         </sp>
@@ -688,7 +690,7 @@
           <p>Она вам не поможет. Прыжок вперед. Выпадайте. Плохо выпали. Опять плохо выпали.</p>
           <stage>(Колет Журдена.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(выпадает, разбивает вазу).</stage>
           <p>Ox...</p>
@@ -698,7 +700,7 @@
           <p>Хорошо выпали.</p>
           <stage>(Колет Журдена, разрывает на нем камзол.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(садясь на пол).</stage>
           <p>Сдаюсь.</p>
@@ -707,7 +709,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Ну, достаточно на сей раз. Хватит. Видите, сударь, какое это искусство.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вижу.</p>
         </sp>
@@ -715,7 +717,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Искусство фехтования значительно выше этих всяких танцев и тому подобной музыки.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Извините, господа, я пойду переменить камзол. Брэндавуан!</p>
           <stage>(Уходит с Брэндавуаном.)</stage>
@@ -804,22 +806,22 @@
           <p>Батюшки, этого не хватало! <stage>(Скрывается с криком.)</stage> Господин Журден!
             Господин Журден! Ваши учителя подрались! </p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(вбежав в другом камзоле).</stage>
           <p>Господа! Господа! Что вы делаете? Господа! Господа!</p>
         </sp>
         <stage>Меняется свет, и из люка появляется философ Панкрасс.</stage>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Что за гам? Что за содом? Мне кажется, что здесь избивают человека?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Чистейшая правда, господин философ. Они чуть не ухлопали его совсем. Господа! Господин
             философ, умоляю, успокойте их. Господа, учитель Философии, господин Панкрасс.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Я успокою. В чем дело, сударь?</p>
         </sp>
@@ -828,7 +830,7 @@
           <stage>(плача).</stage>
           <p>Они меня поколотили.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Почему же вы не закололи их?</p>
         </sp>
@@ -836,7 +838,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Вот я на них в суд подам, будут они знать.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Спокойствие. Прежде всего, сударь, измените вашу манеру выражаться. Вы должны были
             сказать: мне кажется, что меня поколотили.</p>
@@ -845,7 +847,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Как — кажется?!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господа, берите стулья. Это замечательный человек, он моментально вам все объяснит.</p>
         </sp>
@@ -853,12 +855,12 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Как — кажется?!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Сударь, философия учит нас, что не должно быть вполне решительных суждений. Вам может
             казаться, а факт на самом деле может и не существовать.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну, вот видите.</p>
         </sp>
@@ -866,11 +868,11 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Чего видите? Это глупости какие-то!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>И опять-таки вам кажется, что это глупости.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну вот, я вам говорил.</p>
         </sp>
@@ -878,7 +880,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Но позвольте, у меня на физиономии синяк!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Вам кажется, что он на физиономии.</p>
         </sp>
@@ -886,7 +888,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Ничего не понимаю!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Вам кажется, что вы ничего не понимаете! Вы сейчас все поймете. Изложите мне ваше
             дело.</p>
@@ -899,11 +901,11 @@
           <speaker>Учитель музыки. Учитель танцев.</speaker>
           <p>Мы тебе покажем негодяев!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господа, господа...</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Прежде всего, на каком языке вы хотите со мной говорить?</p>
         </sp>
@@ -911,19 +913,19 @@
           <speaker>Учитель фехтования.</speaker>
           <p>На том, который у меня во рту.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Вы не поняли.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вы не поняли.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>На каком наречии? Хотите, по-гречески?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ах, черт...</p>
         </sp>
@@ -931,7 +933,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Нет.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>По-латыни?</p>
         </sp>
@@ -939,7 +941,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Нет.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>По-сирийски?</p>
         </sp>
@@ -947,7 +949,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Нет.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>По-еврейски?</p>
         </sp>
@@ -955,7 +957,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Нет.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>По-арабски? Давайте, давайте.</p>
         </sp>
@@ -963,7 +965,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Да нет же.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>По-итальянски, по-испански, по-английски, по-немецки?</p>
         </sp>
@@ -971,7 +973,7 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Нет. На родном языке.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>А-а! На родном. В таком случае, прошу вас, перейдите к этому уху. Это ухо предназначено
             у меня для иностранных языков, а это отдельно, — для родного.</p>
@@ -980,11 +982,11 @@
           <speaker>Учитель фехтования.</speaker>
           <p>Это болван, а не философ.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Вам кажется, что я болван.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вам кажется.</p>
         </sp>
@@ -993,11 +995,11 @@
           <p>Тьфу!</p>
           <stage>(Плюет в Панкрасса.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что вы делаете? Господин философ, простите!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Пожалуйста, пожалуйста, он не попал.</p>
         </sp>
@@ -1007,23 +1009,23 @@
           <stage>(Бросается на Панкрасса.)</stage>
         </sp>
         <stage>Журден подворачивается и получает по физиономии.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Спасибо! Что же это такое?</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Ничего, ничего, он даже и не коснулся меня.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Но позвольте...</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Только одно — не гневайтесь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я не буду гневаться. Гоните его вон, подлеца! И навсегда из дому!</p>
         </sp>
@@ -1032,68 +1034,68 @@
           <p>Давно пора! С удовольствием!</p>
         </sp>
         <stage>Учителя музыки и танцев схватывают Учителя фехтования и волокут его вон.</stage>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Без гнева, без гнева, господин Журден.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я без гнева. Негодяй!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Ну-с, чем же мы сегодня займемся, господин Журден?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Видите ли... я влюблен... Что вы по этому поводу скажете?</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Скажу, что это возможно.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Очаровательная женщина!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>И это возможно.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мне хотелось бы ей послать любовную записку.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>И это возможно. Стихами или прозой?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Не стихами и не прозой.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>А вот это невозможно.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Почему?</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Существуют только или стихи, или проза. Никак иначе ни писать, ни говорить нельзя.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я потрясен. Спасибо вам за это открытие. Но позвольте, а в театре? Я бы хотел, чтобы
             было как в театре, так же красиво.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Все равно — или проза или стихи.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господин учитель театра и музыки!</p>
         </sp>
@@ -1102,7 +1104,7 @@
           <stage>(появляется).</stage>
           <p>Да, да, я здесь, господин Журден.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вы не могли бы сейчас представить нам что-нибудь театральное, только прозой?</p>
         </sp>
@@ -1111,7 +1113,7 @@
           <p>Ничего нет легче, сударь. Разрешите, я вам покажу заключительную сцену из "Дон Жуана",
             сочинение господина Мольера?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господин философ, берите стул.</p>
         </sp>
@@ -1145,15 +1147,15 @@
           <speaker>Дон Жуан.</speaker>
           <p>Что я чувствую! Невидимый огонь жжет меня!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Проза?</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Она.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден</speaker>
           <stage>(возникнув внезапно, обращается к Статуе).</stage>
           <p>Пошел вон!</p>
@@ -1162,83 +1164,83 @@
           <speaker>Статуя.</speaker>
           <p>Виноват, кто?</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден</speaker>
           <stage>(Дон Жуану и Статуе).</stage>
           <p>Оба пошли вон из моего дома сию секунду! Провалитесь!</p>
         </sp>
         <stage>Дон Жуан и Статуя проваливаются.</stage>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Мне кажется, что это ваша супруга?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Увы. На сей раз это вам не кажется, Это она на самом деле. О Боже мой. Прозой умоляю
             тебя, не устраивай скандала при учителе!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Что же такое творится в доме?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ничего не делается. Просто мы смотрели "Дон Жуана".</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Это Дон Жуан разбил лучшую вазу? Это Дон Жуан топал здесь, как лошадь? Что делается в
             нашем доме?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Крошка моя, успокойся.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Какая я тебе крошка! Что это за крошка! Ты смеешься надо мной, старый безобразник!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вот какая пошла проза, господин философ. Перейди к этому уху... то есть, нет, не
             переходи...</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Без гнева, сударыня.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Этот шут еще вмешивается!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что ты говоришь! Это философ Панкрасс. <stage>(Панкрассу.)</stage> Сударь, мы окончим
             урок в другое время... Видите... </p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Да, мне кажется, что я вижу... До свиданья, сударь.</p>
           <stage>(Уходит.)</stage>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Что это такое? Ведь это же срам! Ты окончательно спятил, с тех пор как вообразил, что
             ты знатный дворянин, — с утра в доме безобразие, какие-то шуты гороховые, музыка,
             соседей стыдно! Почтенный человек! Совершенно ополоумел! Вместо того. чтобы заниматься
             своей лавкой, куролесит!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Замолчи, невежественная женщина!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Кто такая невежественная женщина? Нагнал полный дом всякого сброда! Чего стоит один
             этот знатный проходимец с кружевами на, штанах, который сосет из тебя деньги! Этот
             мошенник!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Кто такой этот мошенник?</p>
         </sp>
@@ -1247,7 +1249,7 @@
           <stage>(появляясь).</stage>
           <p>Маркиз Дорант.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Тссс!... Замолчи сию минуту!</p>
         </sp>
@@ -1256,7 +1258,7 @@
           <stage>(появляется).</stage>
           <p>Милейший Журден! Как ваше здоровье?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>О маркиз! Какая честь! Мое здоровье превосходно!</p>
         </sp>
@@ -1265,7 +1267,7 @@
           <p>Прежде всего прошу вас, господин Журден, немедленно накройтесь шляпой, вы
             простудитесь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ни за что, маркиз.</p>
           <stage>(Остается с непокрытой головой.)</stage>
@@ -1274,7 +1276,7 @@
           <speaker>Дорант.</speaker>
           <p>Господин Журден, вы вынудите меня удалиться.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вы? Удалиться? Я надеваю шляпу.</p>
         </sp>
@@ -1282,7 +1284,7 @@
           <speaker>Дорант.</speaker>
           <p>Ба! Как вы прекрасно одеты! По утрам так одеваются только придворные кавалеры.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я похож на придворного кавалера?</p>
         </sp>
@@ -1290,7 +1292,7 @@
           <speaker>Дорант.</speaker>
           <p>Если вы не похожи на него, пусть отсохнет мой язык.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Маркиз, если бы у вас отсох язык, я умер бы с горя.</p>
         </sp>
@@ -1299,7 +1301,7 @@
           <p>А если бы вы умерли, то в свою очередь немедленно умер бы я. Тоже с горя. Позвольте мне
             вас поцеловать, господин Журден.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ни за что! Я не могу допустить этой чести!</p>
         </sp>
@@ -1309,7 +1311,7 @@
             подумал: я поцелую сегодня господина Журдена. <stage>(Целует.)</stage> Одна щека готова.
             Позвольте другую. </p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Вот мерзкий подлиза!</p>
         </sp>
@@ -1317,7 +1319,7 @@
           <speaker>Дорант.</speaker>
           <p>Виноват! А! Госпожа Журден! Простите, я вас не заметил.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Пожалуйста, пожалуйста...</p>
         </sp>
@@ -1325,7 +1327,7 @@
           <speaker>Дорант.</speaker>
           <p>Вашу ручку, госпожа Журден.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Не беспокойтесь, не беспокойтесь...</p>
         </sp>
@@ -1335,7 +1337,7 @@
           <stage>Госпожа Журден ворчит.</stage>
           <p>Ну-с, милейший Журден, я приехал к вам, чтобы свести с вами счет.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(тихо, госпоже Журден).</stage>
           <p>Видала? Какая ты свинья. <stage>(Доранту.)</stage> Сударь, в этом нет никакой
@@ -1346,7 +1348,7 @@
           <p>Ни слова, Журден. Я привык быть аккуратным в своих делах. Итак, сколько же я вам
             должен?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я составил маленький мемуарчик. Вот он. Вначале вам было дано двести ливров.</p>
         </sp>
@@ -1354,7 +1356,7 @@
           <speaker>Дорант.</speaker>
           <p>Совершенно верно.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Далее по трем счетам вашим я уплатил... портным пять тысяч ливров... в магазины...
             седельному мастеру... всего пятнадцать тысяч восемьсот ливров.</p>
@@ -1364,7 +1366,7 @@
           <p>Идеально верно. Прибавьте к этому те двести ливров, которые я возьму у вас сейчас, и
             будет ровно шестнадцать тысяч ливров.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Боже, какой мерзавец!</p>
         </sp>
@@ -1372,7 +1374,7 @@
           <speaker>Дорант.</speaker>
           <p>Виноват, сударыня...</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Нет, ничего. Это я просто сказала, что господин Журден дурак.</p>
         </sp>
@@ -1380,12 +1382,12 @@
           <speaker>Дорант.</speaker>
           <p>Помилуйте, сударыня, он очень умный человек.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Тьфу!</p>
           <stage>(Плюет и уходит.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Слушаю, маркиз, я сейчас их вам принесу.</p>
           <stage>(Уходит.)</stage>
@@ -1399,7 +1401,7 @@
             же поделаешь. <stage>(Входящему Журдену.)</stage> Может быть, вас это затрудняет, милый
             Журден? </p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ничуть, маркиз! Для вас я готов на все.</p>
           <stage>(Вручает деньги.)</stage>
@@ -1408,7 +1410,7 @@
           <speaker>Дорант.</speaker>
           <p>Может быть, я вам в свою очередь могу быть чем-нибудь полезен?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(шепотом).</stage>
           <p>Я хотел бы узнать маркиз, относительно...</p>
@@ -1418,7 +1420,7 @@
           <p>Я понимаю вас с полуслова. Маркиза Доримена, в которую вы влюблены, чувствует себя
             превосходно. <stage>(Про себя.)</stage> Ох, сейчас спросит про кольцо, чувствую... </p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А это кольцо...</p>
         </sp>
@@ -1427,7 +1429,7 @@
           <p>Я понял вас с полуслова. Вы хотите спросить, понравилось ли ей то бриллиантовое кольцо,
             которое вы ей подарили и передали через меня?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вы угадали.</p>
         </sp>
@@ -1435,7 +1437,7 @@
           <speaker>Дорант.</speaker>
           <p>Она была в восторге.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А, скажите, когда...</p>
         </sp>
@@ -1443,7 +1445,7 @@
           <speaker>Дорант.</speaker>
           <p>Я понял вас с полуслова...</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден</speaker>
           <stage>(тихо появившись).</stage>
           <p>Не нравится мне этот разговор. <stage>(Шепотом.)</stage> Николь! </p>
@@ -1456,7 +1458,7 @@
           <stage>(тихо).</stage>
           <p>Я намерен завтра позвать к вам обедать... маркизу Доримену...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Неужели меня ждет такое счастье?</p>
         </sp>
@@ -1464,7 +1466,7 @@
           <speaker>Дорант.</speaker>
           <p>Ждет.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я думаю сплавить мою драгоценную супругу... <stage>(Замечает Николь, дает ей
               пощечину.)</stage> Ах, дрянь! <stage>(Доранту.)</stage> Уйдемте отсюда. </p>
@@ -1475,7 +1477,7 @@
           <stage>(держась за щеку, госпоже Журден).</stage>
           <p>Вот, сударыня... видите...</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Ничего, моя бедная Николь, я награжу тебя. О чем говорили эти подлецы?</p>
         </sp>
@@ -1483,7 +1485,7 @@
           <speaker>Николь.</speaker>
           <p>Ох, сударыня, ваш драгоценный затевает шашни с некоей маркизой Дорименой.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Мерзавец! Не прошло и двадцати четырех лет с тех пор, как мы женаты, а он уже разлюбил
             меня!</p>
@@ -1492,7 +1494,7 @@
           <speaker>Николь.</speaker>
           <p>Не расстраивайтесь, сударыня.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Я и не думаю расстраиваться. Просто я беспокоюсь, что он спустит все состояние, и
             бедная моя дочурка останется без приданого. Ну, вот что, дальше так продолжаться не
@@ -1872,7 +1874,7 @@
         </sp>
         <stage>Целуются. Слышны шаги. Люсиль и Николь убегают. Из другой двери входит госпожа
           Журден.</stage>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>А, Клеонт! Я рада вас видеть.</p>
         </sp>
@@ -1880,7 +1882,7 @@
           <speaker>Клеонт.</speaker>
           <p>Милая госпожа Журден.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Ах, Клеонт, я расстроена.</p>
         </sp>
@@ -1888,7 +1890,7 @@
           <speaker>Клеонт.</speaker>
           <p>Что вас огорчает, сударыня?</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Огорчает меня один идиот, Клеонт.</p>
         </sp>
@@ -1896,7 +1898,7 @@
           <speaker>Клеонт.</speaker>
           <p>За что такие слова, сударыня, помилуйте!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Ах, дружок, я не о вас говорю.</p>
         </sp>
@@ -1904,7 +1906,7 @@
           <speaker>Ковьель.</speaker>
           <p>Стало быть, обо мне.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Идиот этот — мой муж, Клеонт. Да, да. Спятил он, как ни горько мне признаться.
             Помешался на том, что он знатный дворянин. Одним словом, Клеонт, делайте скорее
@@ -1915,7 +1917,7 @@
           <speaker>Клеонт.</speaker>
           <p>О, сударыня, если бы вы знали, как мне сладки ваши слова!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Расцелуйте меня, Клеонт.</p>
           <stage>Ковьель целует госпожу Журден.</stage>
@@ -1926,14 +1928,14 @@
           <p>Ах, сударыня, признаюсь вам, что и у меня есть свой план. Я люблю вашу служанку Николь.
             Надеюсь, что вы не учините никаких препятствий к моему браку.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Не учиню.</p>
           <stage>Ковьель целует госпожу Журден.</stage>
           <p>Отстань! Ну, я сейчас его позову.</p>
           <stage>(Уходит.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(войдя).</stage>
           <p>А, сударь!</p>
@@ -1943,7 +1945,7 @@
           <p>Сударь, я прибыл к вам, чтобы сообщить, что честь быть вашим зятем так велика, что я не
             мог удержаться от того, чтобы не попросить у вас руки вашей дочери.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Очень приятно. Но прежде всего, сударь, скажите мне, на каком языке вы желаете
             разговаривать со мной?</p>
@@ -1953,7 +1955,7 @@
           <p>На родном языке, сударь, если позволите. К тому же я не знаю никакого другого
             языка.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я прошу вас, перейдите тогда к этому уху, Это ухо предназначено у меня для родного
             языка. А другое ухо — для языков иностранных.</p>
@@ -1971,7 +1973,7 @@
           <speaker>Клеонт.</speaker>
           <p>Итак, сударь...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Виноват. Вы хотите говорить со мной стихами или прозой?</p>
         </sp>
@@ -1979,7 +1981,7 @@
           <speaker>Клеонт.</speaker>
           <p>Прозой, если позволите. Я не умею говорить стихами.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ах, как жаль. Ну, слушаю вашу прозу.</p>
         </sp>
@@ -1987,7 +1989,7 @@
           <speaker>Клеонт.</speaker>
           <p>Итак, сударь, я хотел бы жениться на вашей дочери. ,</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(поразмыслив).</stage>
           <p>Это возможно.</p>
@@ -1996,7 +1998,7 @@
           <speaker>Клеонт.</speaker>
           <p>Я обожаю ее, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(подумав).</stage>
           <p>И это возможно.</p>
@@ -2006,7 +2008,7 @@
           <stage>(волнуясь).</stage>
           <p>Так что же вы скажете мне на это, о сударь...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Это невозможно.</p>
         </sp>
@@ -2014,7 +2016,7 @@
           <speaker>Клеонт.</speaker>
           <p>О, сударь!..</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я спрошу вас, — вы дворянин, сударь?</p>
         </sp>
@@ -2038,7 +2040,7 @@
           <speaker>Ковьель.</speaker>
           <p>О, Господи!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я уважаю вас, сударь, за прямоту. Придите в мои объятия.</p>
           <stage>Целуются.</stage>
@@ -2053,7 +2055,7 @@
           <speaker>Ковьель.</speaker>
           <p>Вот какая вышла проза.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я твердо решил выдать свою дочь только за маркиза. Простите меня, сударь, мне нужно
             отдать некоторые распоряжения моим многочисленным лакеям. С совершенным почтением имею
@@ -2144,7 +2146,7 @@
             мозольте глаза господину Журдену.</p>
           <stage>(Уходит.)</stage>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден</speaker>
           <stage>(появляясь).</stage>
           <p>Ну что, милый Клеонт?</p>
@@ -2154,34 +2156,34 @@
           <stage>(заплакал).</stage>
           <p>Ах, сударыня, он отказал мне.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Быть не может! А! Проклятый сумасброд! Ну, ладно, я покажу! <stage>(Кричит.)</stage>
             Журден! Журден! </p>
         </sp>
         <stage>Клеонт убегает, махнув рукой.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(входя).</stage>
           <p>Мне кажется, что ты кричишь, матушка?</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Ты зачем отказал Клеонту? Хорошему человеку, которого любит твоя дочь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Он мне и самому очень нравится.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Разве он не порядочный человек?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Порядочный. Чем больше я думаю, тем больше убеждаюсь — порядочный.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Разве Люсиль не любит его?</p>
         </sp>
@@ -2190,11 +2192,11 @@
           <stage>(вбегая).</stage>
           <p>Да, я люблю его.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Любит, любит, да.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>А он не любит ее?</p>
         </sp>
@@ -2202,23 +2204,23 @@
           <speaker>Люсиль.</speaker>
           <p>Я любима!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Бесспорно любима, только ты не кричи так.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>У него хорошее состояние!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мало этого сказать, превосходное состояние.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Так что же ты...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А выдать нельзя. Горе, но выдать нельзя. Не маркиз.</p>
         </sp>
@@ -2227,16 +2229,16 @@
           <stage>(появившись внезапно).</stage>
           <p>А вы сами, сударь, маркиз?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ах, вот и ты! Да, тебя только не хватало. Я не маркиз, к сожалению, но я вращаюсь в
             обществе маркизов и буду вращаться только среди них.</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Я не позволю сделать мою дочь несчастной. Кто рожал ее?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я ро... тьфу! Ты!.. испугала меня! Ты ее рожала, отстань от меня!</p>
         </sp>
@@ -2249,7 +2251,7 @@
           <speaker>Николь.</speaker>
           <p>Милая барышня, не делайте этого!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господи, вы меня замучаете!</p>
         </sp>
@@ -2258,7 +2260,7 @@
           <stage>(рыдает).</stage>
           <p>О я несчастная!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Посмотри, что ты делаешь с бедной девочкой!</p>
         </sp>
@@ -2266,7 +2268,7 @@
           <speaker>Люсиль.</speaker>
           <p>Мама! Я ухожу!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Куда ты, бедная крошка?</p>
         </sp>
@@ -2279,12 +2281,12 @@
           <p>Или топиться, или к тетке!</p>
           <stage>(Убегает.)</stage>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Николь, за мной! Не выпускай ее!</p>
         </sp>
         <stage>Убегают.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вот полюбуйтесь, господа, на этот сумасшедший дом! Брэндавуан!</p>
           <stage>Брэндавуан появляется.</stage>
@@ -2294,7 +2296,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Сударь, там маркиз Дорант с какой-то дамой спрашивают вас.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Это она! Боже, это она! Какое счастье, что их унесло из дому! Проси... то есть нет, не
             проси... подожди... то есть нет... Боже, ведь я не одет... скажи.... проси сюда и скажи,
@@ -2322,7 +2324,7 @@
           <stage>Входит Журден.</stage>
           <p>А вот и наш милейший Журден!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Сударыня... как благодарить мне вас за ту честь... которую я имел честь... когда вы
             оказали мне честь... меня посетить... такая честь, маркиза...</p>
@@ -2341,7 +2343,7 @@
           <p>Вы... вот что... не говорите маркизе ни одного слова о кольце, которое вы ей
             подарили.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(тихо).</stage>
           <p>Но мне хочется все-таки узнать, понравилось ли оно ей?</p>
@@ -2351,7 +2353,7 @@
           <p>Ни-ни-ни. Это будет совершенно не по-светски. Сделайте вид, что вы его даже не
             замечаете.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вот досада...</p>
         </sp>
@@ -2360,7 +2362,7 @@
           <speaker>Доримена.</speaker>
           <p>Вы смотрите на мое кольцо? Не правда ли, оно великолепно?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Даже и не думаю смотреть. И притом это такой вздор, пустяковое колечко...</p>
         </sp>
@@ -2372,7 +2374,7 @@
           <speaker>Доримена.</speaker>
           <p>Пустяковое? Я вижу, что вы очень избалованный человек.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Такие ли бывают кольца, маркиза?</p>
         </sp>
@@ -2386,7 +2388,7 @@
           <p>Черт тебя возьми.</p>
         </sp>
         <stage>Входит Брэндавуан с мокрой тряпкой и кладет ее на лоб Журдену.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Это что такое?</p>
         </sp>
@@ -2394,7 +2396,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Компресс, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(тихо).</stage>
           <p>Вылетай к черту!</p>
@@ -2406,7 +2408,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Чего изволите?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну, что же обед?</p>
         </sp>
@@ -2414,7 +2416,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Все готово, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Сударыня, разрешите мне просить вас... такая честь... отобедать... мой скромный
             обед...</p>
@@ -2423,7 +2425,7 @@
           <speaker>Доримена.</speaker>
           <p>С большим удовольствием, господин Журден.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Эй! Музыкантов! Обедать!</p>
           <stage>На эстраде возникают музыканты, а из-под пола появляется роскошно накрытый стол и
@@ -2438,7 +2440,7 @@
           <speaker>Дорант.</speaker>
           <p>Маркиза, господин Журден славится своими обедами.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Такие ли еще бывают обеды!</p>
         </sp>
@@ -2462,7 +2464,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Такие ли еще бывают вина!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ты ошалел, Брэндавуан!</p>
         </sp>
@@ -2470,7 +2472,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Никак нет, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вели подавать следующее блюдо.</p>
         </sp>
@@ -2478,20 +2480,20 @@
           <speaker>Дорант.</speaker>
           <p>Интересно, каким это следующим блюдом угостит нас наш милейший хозяин?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А вот увидите. Это секрет моего повара.</p>
           <stage>Из-под пола вылетает стол, и на нем сидит госпожа Журден.</stage>
           <p>Ой!..</p>
         </sp>
         <stage>Пауза.</stage>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>А-а! Честная компания! Вот оно что! Когда хозяйки нет дома, хозяин проматывает свое
             состояние в компании с какой-то развеселой дамочкой и ее поклонником! Очень хорошо!
             Очень хорошо!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Зарезала!</p>
         </sp>
@@ -2500,7 +2502,7 @@
           <p>Сударыня, что с вами! Какие выражения! Во-первых, этот обед даю я, а не господин
             Журден...</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Молчите, дорогой проходимец!</p>
         </sp>
@@ -2508,12 +2510,12 @@
           <speaker>Дорант.</speaker>
           <p>Сударыня!</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Да что — сударыня! Сударыня! Двадцать три года я сударыня, а вот вам, сударыня, не
             стыдно ли врываться в чужой семейный дом!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Боже мой!</p>
         </sp>
@@ -2534,7 +2536,7 @@
           <stage>(госпоже Журден).</stage>
           <p>Стыдитесь, сударыня!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Убит... Зарезан...</p>
         </sp>
@@ -2543,7 +2545,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Убирать стол, сударь?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Убери... <stage>(Указывает на госпожу Журден)</stage>. И ее... и стол... все убери... я
             опозорен... </p>
@@ -2552,7 +2554,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Компресс принести, сударь?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Пошел ты к черту!</p>
         </sp>
@@ -2565,7 +2567,7 @@
       <div type="act">
         <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
         <stage>Вечер. Журден один.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(расстроен).</stage>
           <p>Да, угостила меня любезная супруга... Боже, Боже... Стыдно людям на глаза показаться...
@@ -2581,7 +2583,7 @@
           <stage>(входит).</stage>
           <p>Что прикажете, сударь?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мне скучно, Брэндавуан.</p>
         </sp>
@@ -2589,7 +2591,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>А вы закусите, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Нет, не хочу. Супруги моей нету дома?</p>
         </sp>
@@ -2597,7 +2599,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Нету, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну, и слава Богу. Вели-ка, чтоб мне сыграли менуэт.</p>
         </sp>
@@ -2605,7 +2607,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Музыкантов сейчас нету, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вот... видишь... все меня бросили на произвол судьбы... Брэндавуан, спой ты мне
             менуэт.</p>
@@ -2614,7 +2616,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Я, сударь, очень плохо пою.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ничего, давай вдвоем.</p>
           <stage>Поют вдвоем менуэт. Журден при этом подтанцовывает.</stage>
@@ -2626,7 +2628,7 @@
           <p>Слушаю, сударь. <stage>(Уходит и через некоторое время возвращается.)</stage> Сударь,
             вас там какой-то ТУРОК спрашивает. </p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>...Ла-ла-ла... Турок? Уж не пьян ли ты, голубчик? Откуда может быть турок?</p>
         </sp>
@@ -2634,7 +2636,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Не могу знать, сударь, откуда турок,</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ну, проси его сюда.</p>
         </sp>
@@ -2644,7 +2646,7 @@
           <speaker>Ковьель.</speaker>
           <p>Сударь, я не знаю, имею ли я честь... быть вам известным?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Нет, сударь.</p>
         </sp>
@@ -2652,7 +2654,7 @@
           <speaker>Ковьель.</speaker>
           <p>А я, сударь, знал вас вот таким крошкой...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что вы говорите?</p>
         </sp>
@@ -2661,7 +2663,7 @@
           <p>Да, вы были увлекательнейшим ребенком. И все дамы брали вас на руки специально с тем,
             чтобы облобызать вас.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Благодарю вас. Облобызать? Но вы, сударь, производите впечатление довольно молодого
             человека.</p>
@@ -2670,7 +2672,7 @@
           <speaker>Ковьель.</speaker>
           <p>Это неудивительно, сударь, я в последнее время жил в Турции.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ага... Ага...</p>
         </sp>
@@ -2679,7 +2681,7 @@
           <p>Да-с, сударь, я был в большой дружбе с вашим батюшкой. Покойник был настоящий
             дворянин.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Как, сударь, вы и с покойником были знакомы?</p>
         </sp>
@@ -2687,7 +2689,7 @@
           <speaker>Ковьель.</speaker>
           <p>Еще бы!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>И вы говорите, что он был дворянин. Bы не ошибаетесь?</p>
         </sp>
@@ -2695,7 +2697,7 @@
           <speaker>Ковьель.</speaker>
           <p>Неподдельный дворянин.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(жмет руку Ковьелю).</stage>
           <p>Вы меня радуете, сударь. Прощу вас покорнейше, садитесь. Вы знаете, нашлись дураки,
@@ -2707,7 +2709,7 @@
             материях. Он покупал разные товары, а потом раздавал их, за деньги натурально, своим
             приятелям, чтобы доставить им удовольствие, не задевая их самолюбия.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Сударь, вы меня просто воскрешаете.</p>
         </sp>
@@ -2716,7 +2718,7 @@
           <p>Ну, вот видите... так вот, сударь, я пришел к вам, чтобы сообщить вам приятнейшую
             новость. В Париж прибыл сын турецкого султана!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Я ничего не знал об этом.</p>
         </sp>
@@ -2727,7 +2729,7 @@
           <p>Садитесь, сударь, без церемоний. Я должен сообщить вам весьма важное дело... Нас никто
             не подслушивает?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Брэндавуан, пошел вон.</p>
         </sp>
@@ -2736,7 +2738,7 @@
           <p>Слушаю, сударь.</p>
           <stage>(Выходит.)</stage>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Говорите смело, сударь.</p>
         </sp>
@@ -2744,7 +2746,7 @@
           <speaker>Ковьель.</speaker>
           <p>Его высочество влюблен в вашу дочь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>А... э... когда... почему... а где же он ее видел?</p>
         </sp>
@@ -2753,7 +2755,7 @@
           <p>Случайно на улице. Да это не важно, где он ее видел, сударь. Важно то, что он хочет
             стать вашим зятем.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Сударь, я потрясен.</p>
         </sp>
@@ -2762,7 +2764,7 @@
           <p>Сегодня утром я заговорил с его высочеством. Вдруг он говорит: "Акчиам крок солер
             сншалла мустафа гиделлу аманахем варахани усерекарбулат".</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Так и сказал?</p>
         </sp>
@@ -2770,7 +2772,7 @@
           <speaker>Ковьель.</speaker>
           <p>Совершенно этими словами. Каково?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(про себя).</stage>
           <p>Пороть бы моего родителя за то, что он меня не выучил по-турецки!</p>
@@ -2779,7 +2781,7 @@
           <speaker>Ковьель.</speaker>
           <p>Нет, как вам это понравится? Сын турецкого султана!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Признаться вам сказать, господин переводчик, я немножко подзабыл турецкий язык... вы
             знаете, эти гувернантки... половину-то я понял... но вот...</p>
@@ -2792,7 +2794,7 @@
             мне: "Поезжай и проси ее руки у господина Журдена и объяви ему, что я его жалую чином
             мамамуши".</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Мамамуши?.. Возможно... А что такое — мамамуши?</p>
         </sp>
@@ -2800,7 +2802,7 @@
           <speaker>Ковьель.</speaker>
           <p>Камергер.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ай-яй-яй!..</p>
         </sp>
@@ -2808,7 +2810,7 @@
           <speaker>Ковьель.</speaker>
           <p>Но этого мало, он сейчас сам приедет к вам.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Быть не может!.. Я...</p>
         </sp>
@@ -2816,7 +2818,7 @@
           <speaker>Ковьель.</speaker>
           <p>Впрочем, может быть, вы против этого брака?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господин переводчик, разве я смею? Боже, какое несчастье! Вы знаете, эта моя дочь,
             сумасбродная Люсиль, она влюблена в некоего Клеонта, а она упряма, признаюсь вам, как
@@ -2829,7 +2831,7 @@
             поразительно похож на этого Клеонта. Я его встречал на улице. Но, однако, сударь,
             поторопитесь, вам нужно переодеться в турецкое платье</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Как же быть? У меня ничего нет.</p>
         </sp>
@@ -2839,7 +2841,7 @@
             Эй!</p>
         </sp>
         <stage>Входит Портной.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Да это же мой портной! Как, сударь, это вы?</p>
         </sp>
@@ -2975,7 +2977,7 @@
           <stage>(Уходит.)</stage>
         </sp>
         <stage>Входят Журден в турецком костюме, за ним Портной.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Будьте добры, господин переводчик — все ли в порядке?</p>
         </sp>
@@ -2991,7 +2993,7 @@
           <speaker>Клеонт.</speaker>
           <p>Амбузахим акибараф саламалеки!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господин переводчик, на помощь!</p>
         </sp>
@@ -3000,7 +3002,7 @@
           <p>Это обозначает: господин Журден, да цветет ваше сердце, в течение целого года, подобно
             пышному розовому кусту!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Покорнейший слуга его высочества.</p>
         </sp>
@@ -3012,7 +3014,7 @@
           <speaker>Ковьель.</speaker>
           <p>Да ниспошлет вам небо силу льва и мудрость змеи!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>От всей души его высочеству желаю того же!</p>
         </sp>
@@ -3024,7 +3026,7 @@
           <speaker>Клеонт.</speaker>
           <p>Бель мен.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что значит-бель мен.</p>
         </sp>
@@ -3034,7 +3036,7 @@
             же увидеться с вашей дочерью и немедленно заключить с нею брак, вследствие необычайной
             любви к ней, пожирающей его сердце. Все.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>И все это в двух словах — бель мен?! Замечательный язык. Гораздо лучше нашего.</p>
         </sp>
@@ -3047,7 +3049,7 @@
           <speaker>Дорант.</speaker>
           <p>Господин Журден, Я надеюсь, вы разрешите маркизе и мне присутствовать?</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Да, маркиз, я весьма рад. <stage>(Доримене.)</stage> Я рад, маркиза, что отвратительная
             выходка моей супруги не помешала вам все-таки вновь войти в мой дом. </p>
@@ -3057,7 +3059,7 @@
           <p>О, это пустяки, о которых я давно уже забыла. И потом, я буду под маской, она не узнает
             меня. Поздравляю вас, господин Журден, с вашим новым саном.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Да-с, камергер, сударыня.</p>
           <stage>(Протягивает ей руку для поцелуя.)</stage>
@@ -3071,7 +3073,7 @@
           <stage>(указывая на Доранта).</stage>
           <p>Козури мана. Это значит: позвольте вам представить маркиза Доранта.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(тихо Доранту).</stage>
           <p>Руку, руку поцелуйте.</p>
@@ -3087,7 +3089,7 @@
           <stage>Дорант с отвращением целует руку Клеонту.</stage>
           <p>Эй, послать за невестой!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(тревожно).</stage>
           <p>Да, за невестой бы послать.</p>
@@ -3098,7 +3100,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Ее ведут, сударь, но она упирается.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ох, так я и знал... Ох, темные люди!..</p>
         </sp>
@@ -3107,7 +3109,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Вот она, сударь.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден</speaker>
           <stage>(Люсиль).</stage>
           <p>Каригар комбато. Это значит потурецки, что ты сейчас будешь обвенчана с его высочеством
@@ -3117,7 +3119,7 @@
           <speaker>Люсиль.</speaker>
           <p>Караул!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Брэндавуан! Брэндавуан, держи ее!</p>
         </sp>
@@ -3125,7 +3127,7 @@
           <speaker>Брэндавуан.</speaker>
           <p>Сударь, она выдирается.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что ты делаешь, дура! Устин мараф... тебе надо будет подзубрить по-турецки...
             Брэндавуан, умоляю, за руку, за руку!.. Ваше высочество, не обращайте внимания... просто
@@ -3135,7 +3137,7 @@
           <speaker>Люсиль.</speaker>
           <p>Добрые люди!.. Спасите меня!..</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Бель мен... бель мен...</p>
         </sp>
@@ -3148,7 +3150,7 @@
           <speaker>Ковьель.</speaker>
           <p>Здесь, здесь, здесь, пожалуйте.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Да что ж нотариус?.. Виноват... Саламалеки базуль... посмотрите, что делается...
             Брэндавуан!</p>
@@ -3224,7 +3226,7 @@
           <stage>(внезапно влетая).</stage>
           <p>Что делают с моей барышней? Караул! Не отдам ее в турецкие руки!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Вяжи ее, Брэндавуан!</p>
         </sp>
@@ -3249,7 +3251,7 @@
           <speaker>Люсиль.</speaker>
           <p>Отец, я согласна!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ф-фу! Ну вот... ваше высочество, она согласна! Бель мен... словом, все в порядке!</p>
           <stage>Внезапно разверзается пол, и появляется госпожа Журден.</stage>
@@ -3257,7 +3259,7 @@
             змея... Чувствую, что не то говорю... Не порть отношений с Турцией... Уйди отсюда,
             заклинаю... устин иок... ваше высочество, рекомендую, моя жена... она ведьма...</p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Что ты затеял еще, старая каналья?! Погубить свою дочь! Брэндавуан, зови сюда
             полицию!</p>
@@ -3282,12 +3284,12 @@
           <p>Госпожа Журден, прежде чем бить по лицу, вы гляньте хоть в это лицо.</p>
         </sp>
         <stage>Из-под полу появляется Панкрасс.</stage>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Господин Журден, среди философов Парижа, а также и среди простого населения разнеслись
             слухи о счастливом событии в вашем доме. Позвольте вас поздравить...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что — поздравить... Знаете, что случилось? Эта фурия дала плюху переводчику турецкого
             султана, и после свадьбы будет война с Турцией...</p>
@@ -3301,11 +3303,11 @@
           <p>Ничего не будет. Прощаю плюху. <stage>(Госпоже Журден, тихо.)</stage> Сударыня, я —
             Ковьель, а он Клеонт. </p>
         </sp>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Ах! Я согласна, выдавай дочь за турецкого султана!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ох!.. Внял Господь вашим мольбам, ваше высочество, ниспослало ей небо мудрость.</p>
         </sp>
@@ -3317,7 +3319,7 @@
           <speaker>Нотариус.</speaker>
           <p>Да, действительно, все пришло как-то само собой в порядок!.. Имя брачущихся...</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Господин сын турецкого султана, с одной стороны...</p>
         </sp>
@@ -3341,7 +3343,7 @@
           <p>Второй контракт: с одной стороны — слуга Ковьель, с другой — служанка Николь.
               <stage>(Журдену.)</stage> Сударь, признаюсь вам, я влюбился в вашу служанку. </p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что вы делаете, сударь, это — стерва! Если уж вам так приспичило, женитесь на моей
             жене, славно бы зажили в Турции!</p>
@@ -3350,13 +3352,13 @@
           <speaker>Ковьель.</speaker>
           <p>Нет, сударь, не смею вас лишать счастья.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Ваше дело, сударь... Господа, не хочет ли кто-нибудь из вас жениться на моей супруге, я
             ей дам развод, благо нотариус здесь, а? Господин философ, вам не угодно? Вам все равно
             будет казаться только, что вы на ней женаты.</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>Зачем же? Пусть это продолжает казаться вам.</p>
         </sp>
@@ -3374,7 +3376,7 @@
           <p>Ну вот... с одной... и с другой...</p>
         </sp>
         <stage>Нотариус пишет.</stage>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Как же так?.. Вы... она... мое кольцо...</p>
         </sp>
@@ -3383,7 +3385,7 @@
           <p>Господин Журден, стоит ли вам, богатому человеку, говорить о таком пустяке? Да будет
             оно свадебным подарком очаровательной жене.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Бель мен.</p>
         </sp>
@@ -3398,7 +3400,7 @@
             мы были вынуждены прибегнуть к маскарадному обману. Да, я — Клеонт, сударь, но я
             надеюсь, сударь, что при виде счастливого лица вашей дочери вы примиритесь с нами!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Что такое? Дайте мне фонарь! <stage>(Вглядывается.)</stage> Ковьель! Клеонт! Мой Бог!..
             Что же это такое?! Я окружен видениями! Марабаба сахем! Акчиам крок солер!.. Вы турки
@@ -3406,13 +3408,13 @@
               <stage>(Срывает чалму с Учителя танцев.)</stage> Учитель танцев! Что происходит
             здесь?! Не верю ничему! Не верю никому! </p>
         </sp>
-        <sp who="#brendavuan #kovel #uchitel_tantsev #dorant #kleont #dorimena #ljusil #notarius #nikol #gospozha_zhurden #pankrass #uchitel_fehtovanija #uchitel_muzyki">
+        <sp who="#brendavuan #kovel #uchitel_tantsev #dorant #kleont #dorimena #ljusil #notarius #nikol #juber #dju_kruazi #uchitel_fehtovanija #uchitel_muzyki">
           <speaker>Учителя. Актеры.</speaker>
           <stage>(хором).</stage>
           <p>Поздравляем вас, господин Журден, и желаем счастья молодым!</p>
         </sp>
         <stage>Взрыв музыки.</stage>
-        <sp who="#gospozha_zhurden">
+        <sp who="#juber">
           <speaker>Госпожа Журден.</speaker>
           <p>Прозрей же наконец, о дорогой мой муженек, и мы заживем мирно и сладко, как жили до
             твоих сумасбродств.</p>
@@ -3422,23 +3424,23 @@
           <stage>(бросается в объятия Журдена).</stage>
           <p>Отец! Я счастлива!</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Нет, нет! Все на свете обман! <stage>(Госпоже Журден.)</stage> Не верю, что ты моя
             жена! <stage>(Срывает женский наряд с госпожи Журден.)</stage> Конечно, нет, это Юбер! Я
             действительно, кажется, схожу с ума! Держите меня! </p>
         </sp>
-        <sp who="#brendavuan #kovel #uchitel_tantsev #dorant #kleont #dorimena #ljusil #notarius #nikol #gospozha_zhurden #pankrass #uchitel_fehtovanija #uchitel_muzyki">
+        <sp who="#brendavuan #kovel #uchitel_tantsev #dorant #kleont #dorimena #ljusil #notarius #nikol #juber #dju_kruazi #uchitel_fehtovanija #uchitel_muzyki">
           <speaker>Все.</speaker>
           <p>Успокойтесь, господин Журден.</p>
         </sp>
-        <sp who="#zhurden">
+        <sp who="#bezhar">
           <speaker>Журден.</speaker>
           <p>Философа ко мне! Пусть он, единственный мой друг, утешит меня.</p>
           <stage>Панкрасс возникает возле Журдена.</stage>
           <p>Господин Панкрасс, скажите мне что-нибудь приятное!</p>
         </sp>
-        <sp who="#pankrass">
+        <sp who="#dju_kruazi">
           <speaker>Панкрасс.</speaker>
           <p>С удовольствием. Спектакль окончен!</p>
         </sp>

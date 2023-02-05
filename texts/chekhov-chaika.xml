@@ -50,6 +50,7 @@
         <listPerson>
           <person xml:id="medvedenko" sex="MALE">
             <persName>Медведенко</persName>
+            <persName type="variant">Медведенка</persName>
             <persName xml:lang="eng">Medvedenko</persName>
             <persName xml:lang="ger">Medwedenko</persName>
           </person>
@@ -107,6 +108,9 @@
             <persName>Повар</persName>
             <persName xml:lang="eng">A cook</persName>
             <persName xml:lang="ger">Ein Koch</persName>
+          </person>
+          <person xml:id="gornichnaya" sex="FEMALE">
+            <persName>Горничная</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#arkadina" passive="#treplev"/>
@@ -680,8 +684,9 @@
           </sp>
           <sp who="#shamraev">
             <speaker>Шамраев.</speaker>
+            <note place="foot"><key>De gustibus aut bene, aut nihil</key><value>О вкусах — или хорошо или ничего (лат.).</value></note>
             <p>Не могу с вами согласиться. Впрочем, это дело вкуса. De gustibus aut bene, aut
-                nihil<note place="foot">О вкусах — или хорошо или ничего (лат.).</note>.</p>
+                nihil.</p>
           </sp>
         </div>
         <div type="configuration">
@@ -1296,8 +1301,9 @@
           </sp>
           <sp who="#arkadina">
             <speaker>Аркадина.</speaker>
+            <note place="foot"><key>comme il faut</key><value>как следует (франц.)</value></note>
             <p>Затем, я корректна, как англичанин. Я, милая, держу себя в струне, как говорится, и
-              всегда одета и причесана comme il faut<note place="foot">как следует (франц.)</note>.
+              всегда одета и причесана comme il faut.
               Чтобы я позволила себе выйти из дому, хотя бы вот в сад, в блузе или непричесанной?
               Никогда. Оттого я и сохранилась, что никогда не была фефёлой, не распускала себя, как
               некоторые... <stage>(Подбоченясь, прохаживается по площадке.)</stage> Вот вам – как

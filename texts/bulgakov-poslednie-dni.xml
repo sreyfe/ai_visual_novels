@@ -191,6 +191,15 @@
             <persName>Пономарев</persName>
             <persName xml:lang="ger">Ponomarev</persName>
           </person>
+          <person xml:id="pervyj_preobrazhenec" sex="MALE">
+            <persName>Первый преображенец</persName>
+          </person>
+          <person xml:id="vtoroy_preobrazhenec" sex="MALE">
+            <persName>Второй преображенец</persName>
+          </person>
+          <person xml:id="negr" sex="MALE">
+            <persName>Негр</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -282,11 +291,21 @@
         <castItem>Василий Максимович.</castItem>
         <castItem>Слуга.</castItem>
         <castItem>Квартальный.</castItem>
-        <castItem>Жандармские офицеры.</castItem>
-        <castItem>Жандармы.</castItem>
-        <castItem>Полиция.</castItem>
-        <castItem>Группа студентов.</castItem>
-        <castItem>Толпа.</castItem>
+        <castGroup>
+          <roleDesc>Жандармские офицеры.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Жандармы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Полиция.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Группа студентов.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Толпа.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в конце января и в начале февраля 1837 года.</p>

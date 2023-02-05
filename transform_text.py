@@ -1,20 +1,19 @@
 import random
 import re
 import shutil
+import warnings
 from copy import copy
-from difflib import SequenceMatcher
 from pathlib import Path
 from typing import *
 
 from lxml import etree, objectify
 from pymystem3 import Mystem
 
-import warnings
 warnings.filterwarnings("ignore")
 
 PLAY_NAME = "test"
 MAIN_DIRECTORY = f"{PLAY_NAME}/game"
-PATH_TO_INPUT_FILE: str = "texts/blok-neznakomka.xml"
+PATH_TO_INPUT_FILE: str = "texts/chekhov-tatjana-repina.xml"
 PATH_TO_OUTPUT_FILE: str = f"{MAIN_DIRECTORY}/script.rpy"
 
 PATH_TO_IMAGES_DIRECTORY: str = f"{MAIN_DIRECTORY}/images"
@@ -130,13 +129,16 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
         sex_attrib: str = character_elem.attrib['sex']
 
         if sex_attrib == sex:
-            pers_code: str = character_elem.get(f"{XML_SCHEME}id").replace('-', '_')
+            pers_code: str = character_elem.get(f"{XML_SCHEME}id").replace('-', '_').lower()
 
             main_name: Optional[str] = None
             for elem in character_elem:
                 if elem.tag in ["persName", "name"]:
                     name = get_text(elem)
                     CHARACTER_NAME_TO_CODE[name] = pers_code
+                    if not name.endswith("а"):
+                        # adding "а" in case of an error in morphological analysis
+                        CHARACTER_NAME_TO_CODE[name + "а"] = pers_code
                     if main_name is None:
                         main_name = name
                         CHARACTER_CODE_TO_NAME[pers_code] = main_name
@@ -238,14 +240,14 @@ def play_music(tag, indent: str = "", attrib_name: str = "music", get_random=Fal
     return s
 
 
-def get_text_parts(text: str) -> List[str]:
-    parts = re.split(r"(?<=[.;!?])\s+", text)
+def get_text_parts(elem, text: str) -> List[str]:
+    parts = re.split(r"(?<=[.;!?»,])\s+", text)
 
     text_parts: List[str] = []
     curr_parts: List[str] = []
     curr_length: int = 0
     for part in parts:
-        if curr_length + len(part) >= 250:
+        if curr_length + len(part) >= 260:
             text_parts.append(' '.join(curr_parts))
             curr_parts = []
             curr_length = 0
@@ -263,7 +265,7 @@ def text_splitter(func):
 
         text = re.sub(r"\s+", " ", item.text)
 
-        text_parts: List[str] = get_text_parts(text)
+        text_parts: List[str] = get_text_parts(item, text)
 
         s: str = ''
         for text_part in text_parts:
@@ -283,13 +285,13 @@ def text_splitter(func):
 
 
 @text_splitter
-def parse_cast_item(elem, indent: str = "", notes: List[str] = None) -> str:
+def parse_cast_item(elem, indent: str = "", notes: List = None) -> str:
     if notes is None:
         notes = []
 
     s: str = ''
 
-    text: str = "".join(elem.itertext())
+    text: str = get_text(elem)
 
     text = add_notes_to_text(text, notes=notes)
 
@@ -358,7 +360,7 @@ def after_characters(elem, characters: List[str], indent: str = "") -> str:
 
 def enrich_stage(stage, main_character: str):
     stage_types = stage.attrib["type"].split("/") if "type" in stage.attrib else []
-    stage_text = stage.text.lower()
+    stage_text = stage.text.lower().strip()
 
     lexemes_dict = get_lexemes(stage_text)
     lexemes = [key for key in lexemes_dict.keys()]
@@ -383,8 +385,8 @@ def enrich_stage(stage, main_character: str):
             any(word in lexemes for word in ["courir", "бежать", "бегать"]):
         sounds.append('running')
     if any(stage_type in stage_types for stage_type in ['cry']) or \
-            any(word in lexemes for word in ["larme", "слеза"]) or \
-            any(any(lexeme.endswith(word) for lexeme in lexemes) for word in ["плакать"]):
+            any(word in lexemes for word in ["larme", "слеза", "плач"]) or \
+            any(any(lexeme.endswith(word) for lexeme in lexemes) for word in ["плакать", "рыдать"]):
         sounds.append(f'{prefix}_cry')
     if any(word in lexemes for word in ["вздох", "вздыхать"]):
         sounds.append(f'{prefix}_sigh')
@@ -403,7 +405,7 @@ def enrich_stage(stage, main_character: str):
         sounds.append('kiss')
     if any(word in lexemes for word in ['лобызание']):
         sounds.append('kisses')
-    if any(word in lexemes for word in ['стучаться', "стучать"]):
+    if any(word in lexemes for word in ['стучаться', "стучать", "стук"]):
         sounds.append('knocking')
     if any(lexemes[i:i + 2] in [["часы", "бить"], ["бить", "часы"], ["часовой", "музыка"], ["часы", "ударять"],
                                 ["часы", "ударить"]]
@@ -463,7 +465,7 @@ def stop_sound(elem, indent: str = "") -> str:
 
 
 @text_splitter
-def add_stage(elem, characters: List[str], indent: str = "") -> str:
+def add_stage(elem, characters: List[str], indent: str, notes: List) -> str:
     enrich_elem(elem, characters[0] if characters else None)
 
     s: str = ""
@@ -474,7 +476,7 @@ def add_stage(elem, characters: List[str], indent: str = "") -> str:
 
     s += before_characters(elem, characters, indent)
 
-    s += f'{indent}{characters[0] + " " if characters else ""}"<{{i}}{get_text(elem)}{{/i}}>"\n\n'
+    s += add_line(elem, characters, indent, notes)
 
     s += after_characters(elem, characters, indent)
 
@@ -483,67 +485,35 @@ def add_stage(elem, characters: List[str], indent: str = "") -> str:
     return s
 
 
-def get_strings_similarity(key: str, seq: str) -> float:
-    return SequenceMatcher(None, key, seq).ratio()
-
-
-def get_the_most_similar_part(key: str, words: List[str]) -> List[int]:
-    num_of_words_in_key: int = len(key.split())
-
-    max_ratio = -1
-    indices = [0, 0]
-    for step in range(1, num_of_words_in_key + 1):
-        for i in range(0, len(words) + 1 - step):
-            seq = ' '.join(words[i: i + step])
-            ratio: float = get_strings_similarity(key, seq)
-            # print(key, seq, ratio)
-            if ratio - max_ratio > 0.05:
-                indices = [i, i + step - 1]
-                max_ratio = ratio
-
-    return indices
-
-
-def add_notes_to_text(text: str, notes: List[str]) -> str:
+def add_notes_to_text(text: str, notes: List) -> str:
     if notes is None:
         notes = []
 
-    words = text.split()
-
     for note in notes:
-        note_parts = note.split(":")
+        key_text = ''
+        value_text = ''
+        for elem in note:
+            if elem.tag == "key":
+                key_text = get_text(elem)
+            elif elem.tag == "value":
+                value_text = get_text(elem)
 
-        the_most_similar_part: List[int] = [0, -1]
-        if len(note_parts) != 1:
-            key = note_parts[0]
-            the_most_similar_part = get_the_most_similar_part(key, words)
+        text = text.replace(
+            key_text,
+            f'{{a=myshow|tooltip|text={value_text}}}{key_text}{{/a}}'
+        )
 
-        start_word = words[the_most_similar_part[0]]
-        start_index = 0
-        match = re.search("[a-zA-Zа-яА-ЯёéàèùâêîôûçëïüЁÉÀÈÙÂÊÎÔÛÇËÏÜ']", start_word)
-        if match is not None:
-            start_index = match.start()
-        words[the_most_similar_part[0]] =\
-            f'{start_word[:start_index]}{{a=myshow|tooltip|text={note}}}{start_word[start_index:]}'
-
-        end_word = words[the_most_similar_part[1]]
-        end_index = len(end_word)
-        match = re.search("[^a-zA-Zа-яА-ЯёéàèùâêîôûçëïüЁÉÀÈÙÂÊÎÔÛÇËÏÜ']*$", end_word)
-        if match is not None:
-            end_index = match.start()
-        words[the_most_similar_part[1]] = f'{end_word[:end_index]}{{/a}}{end_word[end_index:]}'
-
-    return ' '.join(words)
+    return text
 
 
 @text_splitter
-def add_line(line, characters: List[str], indent: str = "", notes: List[str] = None) -> str:
+def add_line(line, characters: List[str], indent: str = "", notes: List = None) -> str:
     if notes is None:
         notes = []
 
     s: str = ""
 
-    text: str = line.text
+    text: str = line.text.replace('"', '\\"').replace("[", "\\[").strip()
 
     if not text.strip():
         return s
@@ -564,23 +534,14 @@ def add_line(line, characters: List[str], indent: str = "", notes: List[str] = N
 
     text = add_notes_to_text(text, notes)
 
+    if line.tag == "stage":
+        text = f'<{{i}}{text}{{/i}}>'
+
     s += f'{indent}{characters[0] + " " if characters else ""}"{additional_spaces}{text}"\n\n'
 
     s += after_characters(line, characters, indent)
 
     s += stop_sound(line, indent)
-
-    return s
-
-
-def get_lg(lg_elem, characters: List[str], indent: str = "") -> str:
-    s: str = ""
-
-    for elem in lg_elem:
-        if elem.tag == "stage":
-            s += add_stage(elem, characters, indent)
-        elif elem.tag in ["l", "p"]:
-            s += add_line(elem, characters, indent)
 
     return s
 
@@ -619,47 +580,17 @@ def hide_characters(characters: List[str], indent: str = "") -> str:
 def get_sp(sp_elem, characters: List[str], indent: str = ""):
     s: str = ""
 
-    characters.clear()
     for speaker in sp_elem.get("who").split():
-        characters.append(speaker[1:].replace('-', '_'))
+        characters.append(speaker[1:].replace('-', '_').lower())
 
     s += show_stage_characters(characters, indent)
 
     if sp_elem.find('./speaker') is None:
         s += f'{indent}$ {characters[0]}_var = "{{noalt}}{CHARACTER_CODE_TO_NAME[characters[0]]}"\n\n'
 
-    notes: List[str] = []
-
+    notes = []
     for outer_elem in sp_elem:
-        outer_elems = []
-        if outer_elem:
-            texts = [value for value in outer_elem.itertext()]
-
-            elem_i = 0
-            for text in texts:
-                if elem_i < len(outer_elem) and text == outer_elem[elem_i].text:
-                    outer_elems.append(outer_elem[elem_i])
-                    elem_i += 1
-                else:
-                    new_elem = copy(outer_elem)
-                    new_elem.text = text
-                    outer_elems.append(new_elem)
-        else:
-            outer_elems.append(outer_elem)
-
-        global PREV_CHARACTER
-        for elem in outer_elems:
-            if elem.tag == "speaker":
-                s += f'{indent}$ {characters[0]}_var = "{{noalt}}{get_text(elem)}"\n\n'
-            elif elem.tag == "stage":
-                s += add_stage(elem, characters, indent)
-            elif elem.tag == "lg":
-                s += get_lg(elem, characters, indent)
-            elif elem.tag in ["l", "p"]:
-                s += add_line(elem, characters, indent, notes=notes)
-                notes.clear()
-            elif elem.tag == "note":
-                notes.append(get_text(elem))
+        s += parse_any(outer_elem, characters, indent, notes)
 
     s += hide_characters(characters, indent)
 
@@ -669,7 +600,7 @@ def get_sp(sp_elem, characters: List[str], indent: str = ""):
 def get_text(elem) -> str:
     return re.sub(r"\s+", " ", "".join(elem.itertext())) \
         .replace("[", "\\[") \
-        .replace('"', '\\"')
+        .replace('"', '\\"').strip()
 
 
 def show_background(tag, indent: str = "", get_random: bool = False) -> str:
@@ -738,61 +669,94 @@ def get_lexemes(text: str, parts_of_speech: List[str] = None, add_text: bool = F
 
             lexeme: str = source_text if return_text else analysis['lex']
             lexemes[lexeme] = source_text
-            if lexeme.endswith("а"):
-                lexemes[lexeme[:-1]] = source_text
+            # if lexeme.endswith("а"):
+            #     lexemes[lexeme[:-1]] = source_text
 
     return lexemes
 
 
-def search_for_character(items, characters, main_character, lexemes, text, lexemes_dict, used_lexemes_indices,
-                         character_name_to_index):
+def search_for_characters(items, characters, main_character, lexemes, text, used_lexemes_indices,
+                          character_name_to_index):
+    split_text_lexemes = [elem for elem in re.split("[^a-zA-zа-яА-ЯёЁ]+", text.lower()) if elem]
+
     for character_name, character_code in items:
+        # for castItems
+        if text.lower().startswith(character_name.lower()):
+            # removing previous value
+            keys_to_remove = []
+            for key, value in character_name_to_index.items():
+                if value == 0:
+                    keys_to_remove.append(key)
+
+            for key_to_remove in keys_to_remove:
+                characters.remove(key_to_remove)
+                del character_name_to_index[key_to_remove]
+
+            if character_code in characters:
+                characters.remove(character_code)
+                used_lexemes_indices.remove(character_name_to_index[character_code])
+                del character_name_to_index[character_code]
+
+            used_lexemes_indices.add(0)
+            character_name_to_index[character_code] = 0
+            characters.append(character_code)
+            continue
+
         if character_code in characters or character_code == main_character:
             continue
 
-        character_name_lexemes_dict = get_lexemes(character_name, parts_of_speech=["S", "A"], add_text=True)
-        for lower_character_name in character_name_lexemes_dict:
-            if lower_character_name in lexemes:
-                # name should start with a capital letter
-                if lexemes_dict[lower_character_name][0] == lexemes_dict[lower_character_name][0].lower():
-                    continue
-                index: int = text.index(lexemes_dict[lower_character_name])
-                if index in used_lexemes_indices:
-                    continue
-                used_lexemes_indices.add(index)
-                character_name_to_index[character_code] = index
-                characters.append(character_code)
+        # character_name_lexemes_dict = get_lexemes(character_name)  # , properties=["им,ед"], parts_of_speech=["S", "A", "ANUM"], add_text=True
+        # character_name_lexemes = list(character_name_lexemes_dict.keys())
+        character_name_lexemes = [elem for elem in re.split("[^a-zA-zа-яА-ЯёЁ]+", character_name.lower()) if elem]
+
+        for text_lexemes in [lexemes, split_text_lexemes]:
+            was_break = False
+            for i in range(0, len(text_lexemes) - len(character_name_lexemes) + 1):
+                if character_name_lexemes and text_lexemes[i: i + len(character_name_lexemes)] == character_name_lexemes:
+                    # name should start with a capital letter (if tag is not "castItem")
+                    # if elem.tag != "castItem" and \
+                    #         lexemes_dict[lower_character_name][0] == lexemes_dict[lower_character_name][0].lower():
+                    #     continue
+                    index: int = i
+                    if index in used_lexemes_indices:
+                        continue
+                    used_lexemes_indices.add(index)
+                    character_name_to_index[character_code] = index
+                    characters.append(character_code)
+                    was_break = True
+                    break
+            if was_break:
                 break
 
 
 def enrich_elem(elem, main_character: str = None):
-    text: str = elem.text
-    lexemes_dict = get_lexemes(text, parts_of_speech=["S", "A"], add_text=True)
+    text: str = elem.text.strip()
+    lexemes_dict = get_lexemes(text)  # , parts_of_speech=["S", "A", "ANUM"], add_text=True
     lexemes = [key for key in lexemes_dict.keys()]
 
     character_name_to_index = {}
     characters = []
 
     used_lexemes_indices = set()
-    search_for_character(CHARACTER_NAME_TO_CODE.items(), characters, main_character, lexemes, text, lexemes_dict,
-                         used_lexemes_indices, character_name_to_index)
+    search_for_characters(CHARACTER_NAME_TO_CODE.items(), characters, main_character, lexemes, text,
+                          used_lexemes_indices, character_name_to_index)
 
-    for character_code, role_desc in CHARACTER_CODE_TO_ROLE_DESC.items():
-        if character_code in characters or character_code == main_character or character_code is None:
-            continue
+    # for character_code, role_desc in CHARACTER_CODE_TO_ROLE_DESC.items():
+    #     if character_code in characters or character_code == main_character or character_code is None:
+    #         continue
+    #
+    #     role_desc_lexemes_dict = get_lexemes(role_desc, parts_of_speech=["S"], properties=["им,ед"])
+    #     for lower_role_desc in role_desc_lexemes_dict:
+    #         if lower_role_desc in lexemes:
+    #             index: int = text.index(lexemes_dict[lower_role_desc])
+    #             if index in used_lexemes_indices:
+    #                 continue
+    #             used_lexemes_indices.add(index)
+    #             character_name_to_index[character_code] = index
+    #             characters.append(character_code)
+    #             break
 
-        role_desc_lexemes_dict = get_lexemes(role_desc, parts_of_speech=["S"], properties=["им,ед"])
-        for lower_role_desc in role_desc_lexemes_dict:
-            if lower_role_desc in lexemes:
-                index: int = text.index(lexemes_dict[lower_role_desc])
-                if index in used_lexemes_indices:
-                    continue
-                used_lexemes_indices.add(index)
-                character_name_to_index[character_code] = index
-                characters.append(character_code)
-                break
-
-    global PREV_CHARACTER
+    # global PREV_CHARACTER
     # if PREV_CHARACTER is not None and PREV_CHARACTER not in characters and PREV_CHARACTER != main_character:
     #     pronoun_lexemes_dict = get_lexemes(
     #         text, parts_of_speech=["SPRO", "APRO"],  # if you will add "APRO" then there would be a lot of noise
@@ -804,18 +768,19 @@ def enrich_elem(elem, main_character: str = None):
     #         character_name_to_index[PREV_CHARACTER] = text.index(next(iter(pronoun_lexemes_dict)))
     #         characters.append(PREV_CHARACTER)
 
-    characters.sort(key=lambda e: character_name_to_index[e])
+    # if not characters and main_character is None and 'UNKNOWN' in SEX_TO_CHARACTER_CODE:
+    #     # weren't able to find male/female characters, so we are searching for unknown characters
+    #     search_for_characters(
+    #         elem, {CHARACTER_CODE_TO_NAME[code]: code for code in SEX_TO_CHARACTER_CODE['UNKNOWN']}.items(),
+    #         characters, main_character, lexemes, text, lexemes_dict, used_lexemes_indices, character_name_to_index
+    #     )
 
-    if not characters and main_character is None:
-        # weren't able to find male/female characters, so we are searching for unknown characters
-        search_for_character(
-            {CHARACTER_CODE_TO_NAME[code]: code for code in SEX_TO_CHARACTER_CODE['UNKNOWN']}.items(),
-            characters, main_character, lexemes, text, lexemes_dict, used_lexemes_indices, character_name_to_index
-        )
+    characters.sort(key=lambda e: character_name_to_index[e])
 
     elem.set("characters", " ".join(characters))
 
     if characters:
+        global PREV_CHARACTER
         PREV_CHARACTER = characters[0]
     enrich_stage(elem, characters[0] if characters else main_character)
 
@@ -871,7 +836,11 @@ def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
 
     scene_name = f'{scene_div.attrib.get("type")}_{scene_num}'
 
+    if not scene_div.findall("head"):
+        s += f'{indent}"{{b}}{scene_name}{{/b}}"\n\n'
+
     characters = []
+    notes: List = []
     for elem in scene_div:
         if characters and characters[0] != PREV_CHARACTER:
             PREV_CHARACTER = characters[0]
@@ -887,9 +856,9 @@ def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
                 scene_stage = etree.Element("stage")
                 scene_stage.text = "".join(scene_parts[1:]).strip()
 
-                s += add_stage(scene_stage, [], indent)
+                s += add_stage(scene_stage, [], indent, notes)
         else:
-            s += parse_any(elem, characters, indent)
+            s += parse_any(elem, characters, indent, notes)
 
     PREV_CHARACTER = None
 
@@ -921,8 +890,12 @@ def parse_act_div(act_div, indent: str) -> str:
 
     act_name = f'{act_div.attrib.get("type")}_{act_num}'
 
+    if not act_div.findall("head"):
+        s += f'{indent}"{{b}}{act_name}{{/b}}"\n\n'
+
     characters = []
     scenes: str = ''
+    notes = []
     for elem in act_div:
         if elem.tag == "head":
             act_text: str = get_text(elem)
@@ -935,11 +908,13 @@ def parse_act_div(act_div, indent: str) -> str:
                 act_stage = etree.Element("stage")
                 act_stage.text = "".join(act_parts[1:]).strip()
 
-                s += add_stage(act_stage, [], indent)
+                s += add_stage(act_stage, [], indent, notes)
         elif elem.tag == "div":
             scenes += parse_scene_div(elem, act_num, indent)
+        elif elem.tag == "trailer":
+            scenes += parse_any(elem, characters, indent, notes)
         else:
-            s += parse_any(elem, characters, indent)
+            s += parse_any(elem, characters, indent, notes)
 
     s += get_act_menu(indent)
 
@@ -957,8 +932,10 @@ def parse_body(body, indent: str = "") -> str:
     s: str = ""
 
     for elem in body:
-        if elem.tag == "div":
+        if elem.tag == "div":  # and elem.attrib["type"] in ["act", "scene"]
             s += parse_act_div(elem, indent)
+        else:
+            s += parse_any(elem, [], indent)
 
     return s
 
@@ -1144,7 +1121,7 @@ def parse_doc_title(doc_title, indent: str) -> str:
     return s
 
 
-def parse_cast_group(cast_group, indent: str, notes: List[str] = None) -> str:
+def parse_cast_group(cast_group, indent: str, notes: List = None) -> str:
     s: str = ""
 
     role_descs = []
@@ -1180,7 +1157,7 @@ def parse_case_list(cast_list, indent: str) -> str:
     # background
     s += show_background(cast_list, indent, get_random=True)
 
-    notes: List[str] = []
+    notes: List = []
     for elem in cast_list:
         if elem.tag == "head":
             global CHARACTERS_NAME
@@ -1196,7 +1173,7 @@ def parse_case_list(cast_list, indent: str) -> str:
 
             notes.clear()
         elif elem.tag == "note":
-            notes.append(get_text(elem))
+            notes.append(elem)
         else:
             raise NotImplemented
 
@@ -1250,21 +1227,54 @@ def parse_list_person(list_person, indent: str) -> str:
     return s
 
 
-def parse_any(elem, characters, indent: str) -> str:
+def is_line(value):
+    return value.tag in ["p", "l", "bibl", "head", "docAuthor", "trailer"] and \
+        (value.text is not None or value.itertext())
+
+
+def parse_any(elem, characters, indent: str, notes: List = None) -> str:
+    if notes is None:
+        notes = []
+
     s: str = ""
 
-    if elem.tag in ["p", "l", "bibl", "head"] and elem.text is not None:
-        s += add_line(elem, characters, indent)
+    if is_line(elem):
+        outer_elems = []
+
+        texts = [value for value in elem.itertext()]
+
+        elem_i = 0
+        for text in texts:
+            if elem_i < len(elem) and text == elem[elem_i].text:
+                outer_elems.append(elem[elem_i])
+                elem_i += 1
+            else:
+                new_elem = copy(elem)
+                new_elem.text = text
+                outer_elems.append(new_elem)
+
+        for outer_elem in outer_elems:
+            if is_line(outer_elem):
+                s += add_line(outer_elem, characters, indent, notes)
+            else:
+                s += parse_any(outer_elem, characters, indent, notes)
+
+        notes.clear()
     elif elem.tag == "stage":
-        s += add_stage(elem, characters, indent)
+        s += add_stage(elem, characters, indent, notes)
     elif elem.tag == "sp":
+        characters.clear()
         s += get_sp(elem, characters, indent)
         characters.clear()
     elif elem.tag == "listPerson":
         s += parse_list_person(elem, indent)
+    elif elem.tag == "note":
+        notes.append(elem)
+    elif elem.tag == "speaker":
+        s += f'{indent}$ {characters[0]}_var = "{{noalt}}{get_text(elem)}"\n\n'
     else:
         for inner_elem in elem:
-            s += parse_any(inner_elem, characters, indent)
+            s += parse_any(inner_elem, characters, indent, notes)
 
     return s
 

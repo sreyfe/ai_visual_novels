@@ -50,12 +50,14 @@
         <listPerson>
           <person xml:id="nikolka" sex="MALE">
             <persName>Николка</persName>
+            <persName type="variant">Николай</persName>
           </person>
           <person xml:id="aleksej" sex="MALE">
             <persName>Алексей</persName>
           </person>
           <person xml:id="elena" sex="FEMALE">
             <persName>Елена</persName>
+            <persName type="variant">Тальберг Елена Васильевна</persName>
           </person>
           <person xml:id="myshlaevskij" sex="MALE">
             <persName>Мышлаевский</persName>
@@ -65,6 +67,7 @@
           </person>
           <person xml:id="talberg" sex="MALE">
             <persName>Тальберг</persName>
+            <persName type="variant">Тальберг Владимир Робертович</persName>
           </person>
           <person xml:id="shervinskij" sex="MALE">
             <persName>Шервинский</persName>
@@ -74,6 +77,7 @@
           </person>
           <person xml:id="lakej" sex="MALE">
             <persName>Лакей</persName>
+            <persName type="variant">Камер-лакей</persName>
           </person>
           <person xml:id="getman" sex="MALE">
             <persName>Гетман</persName>
@@ -219,7 +223,9 @@
         <castItem>Первый юнкер.</castItem>
         <castItem>Второй юнкер.</castItem>
         <castItem>Третий юнкер.</castItem>
-        <castItem>Юнкера и гайдамаки.</castItem>
+        <castGroup>
+          <roleDesc>Юнкера и гайдамаки.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Первое, второе и третье действия происходят зимой 1918 года, четвертое действие – в

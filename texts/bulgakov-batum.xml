@@ -161,6 +161,7 @@
           </person>
           <person xml:id="pervyj_nadziratel" sex="MALE">
             <persName>Первый надзиратель</persName>
+            <persName type="variant">1-й тюремный надзиратель</persName>
             <persName xml:lang="ger">Erster Aufseher</persName>
           </person>
           <person xml:id="ugolovnyj" sex="MALE">
@@ -169,6 +170,7 @@
           </person>
           <person xml:id="vtoroj_nadziratel" sex="MALE">
             <persName>Второй надзиратель</persName>
+            <persName type="variant">2-й тюремный надзиратель</persName>
             <persName xml:lang="ger">Zweiter Aufseher</persName>
           </person>
           <person xml:id="nachalnik_tjurmy" sex="MALE">
@@ -190,6 +192,9 @@
           <person xml:id="ministr" sex="MALE">
             <persName>Министр</persName>
             <persName xml:lang="ger">Minister</persName>
+          </person>
+          <person xml:id="zenshina_v_tolpe" sex="FEMALE">
+            <persName>Женщина в толпе</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#silvestr" passive="#natasha"/>
@@ -278,9 +283,11 @@
         <castItem>Флигель-адъютант.</castItem>
         <castItem>Городовой.</castItem>
         <castItem>Женщина в толпе.</castItem>
-        <castItem>Воспитанники 6-го класса семинарии, преподаватели семинарии, батумские рабочие,
+        <castGroup>
+          <roleDesc>Воспитанники 6-го класса семинарии, преподаватели семинарии, батумские рабочие,
           городовые, стражники, жандармы, уголовные в тюрьме, тюремные надзиратели,
-          женщины-заключенные в тюрьме, два казака и курьер при губернаторе.</castItem>
+          женщины-заключенные в тюрьме, два казака и курьер при губернаторе.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит: в прологе - в 1898 году, а в остальных картинах - в годы

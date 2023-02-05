@@ -18,3 +18,8 @@
   <roleDesc>богатыри татарские - басы</roleDesc>
 </castGroup>
 => богатыри => показывать всех в группе
+-- redo notes
+
+regex to replace notes:
+<note place="foot">([^:<]*?) : (.*?)</note>
+<note place="foot"><key>$1</key><value>$2</value></note>

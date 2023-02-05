@@ -78,6 +78,7 @@
           </person>
           <person xml:id="pervaja" sex="FEMALE">
             <persName>Первая</persName>
+            <persName type="variant">1-я</persName>
             <persName xml:lang="ger">Erste Dame</persName>
           </person>
           <person xml:id="zakrojschitsa" sex="FEMALE">
@@ -86,10 +87,12 @@
           </person>
           <person xml:id="vtoraja" sex="FEMALE">
             <persName>Вторая</persName>
+            <persName type="variant">2-я</persName>
             <persName xml:lang="ger">Zweite Dame</persName>
           </person>
           <person xml:id="tretja" sex="FEMALE">
             <persName>Третья</persName>
+            <persName type="variant">3-я</persName>
             <persName xml:lang="ger">Dritte Dame</persName>
           </person>
           <person xml:id="golos" sex="UNKNOWN">
@@ -222,7 +225,9 @@
         <castItem>Толстяк.</castItem>
         <castItem>Ванечка.</castItem>
         <castItem>Швея.</castItem>
-        <castItem>Голоса.</castItem>
+        <castGroup>
+          <roleDesc>Голоса.</roleDesc>
+        </castGroup>
         <castItem>Фокстротчик.</castItem>
         <castItem>Поэт.</castItem>
         <castItem>Курильщик.</castItem>
@@ -463,7 +468,8 @@
           </sp>
           <sp who="#manjushka">
             <speaker>Манюшка.</speaker>
-            <p>Ма тант<note place="foot">Ма tantе.-Тетя (фр.).</note>.</p>
+            <note place="foot"><key>Ма тант</key><value>Ма tantе.-Тетя (фр.).</value></note>
+            <p>Ма тант.</p>
           </sp>
           <sp who="#alliluja">
             <speaker>Аллилуя.</speaker>
@@ -1535,8 +1541,8 @@
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
             <p>Пардон-пардон! Лучшего администратора на эту должность вам не найти.</p>
-            <p>Вам просто свезло, господа. Дорогая кузиночка, же ву салю<note place="foot">je vous
-                salue! - я вас приветствую! (фр.)</note>! Прошу извинения, что перебил столь
+            <note place="foot"><key>же ву салю!</key><value>je vous salue! - я вас приветствую! (фр.)</value></note>
+            <p>Вам просто свезло, господа. Дорогая кузиночка, же ву салю! Прошу извинения, что перебил столь
               приятную беседу.</p>
           </sp>
           <stage>Зоя (окаменев).</stage>
@@ -1560,8 +1566,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Кузиночка, позвольте мне попросить вас на два слова а парт<note place="foot">a parte
-                - в сторону (фр.).</note>, как говорится.</p>
+            <note place="foot"><key>а парт</key><value>a parte - в сторону (фр.).</value></note>
+            <p>Кузиночка, позвольте мне попросить вас на два слова а парт, как говорится.</p>
           </sp>
           <sp who="#zoja">
             <speaker>Зоя.</speaker>
@@ -1844,8 +1850,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Итак, я грустную повесть скитальца доверил змее. Мон дье!<note place="foot">Mon dieu!
-                - Мой бог! (фр.)</note></p>
+            <note place="foot"><key>Мон дье!</key><value>Mon dieu! - Мой бог! (фр.)</value></note>
+            <p>Итак, я грустную повесть скитальца доверил змее. Мон дье!</p>
           </sp>
           <sp who="#zoja">
             <speaker>Зоя.</speaker>
@@ -1973,8 +1979,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Кель кестьон!<note place="foot">Quelle question! - Что за вопрос! (фр.)</note> Что
-              вы!</p>
+            <note place="foot"><key>Кель кестьон!</key><value>Quelle question! - Что за вопрос! (фр.)</value></note>
+            <p>Кель кестьон! Что вы!</p>
           </sp>
           <sp who="#oboljaninov">
             <speaker>Обольянинов.</speaker>
@@ -2045,9 +2051,9 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
+            <note place="foot"><key>Деван ле жан</key><value>Devant les gens. - Не при чужих (фр.).</value></note>
             <p>А! Очень приятно. <stage>(Надевает медальон.)</stage> Я сам, знаете ли, бывший
-              партийный. <stage>(Тихо, Обольянинову.)</stage> Деван ле жан<note place="foot">Devant
-                les gens. - Не при чужих (фр.).</note>. Хитрость.</p>
+              партийный. <stage>(Тихо, Обольянинову.)</stage> Деван ле жан. Хитрость.</p>
           </sp>
           <sp who="#alliluja">
             <speaker>Аллилуя.</speaker>
@@ -2248,8 +2254,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Вотр сервитер<note place="foot">Votre serviteur. - Ваш слуга (фр.).</note>,
-              мадам?</p>
+            <note place="foot"><key>Вотр сервитер</key><value>Votre serviteur. - Ваш слуга (фр.).</value></note>
+            <p>Вотр сервитер, мадам?</p>
           </sp>
           <sp who="#vtoraja">
             <speaker>Вторая.</speaker>
@@ -2276,7 +2282,8 @@
             <speaker>Аметистов</speaker>
             <stage>(в передней).</stage>
             <p>Извините, товарищ, ничего не могу сделать.</p>
-            <p>Апсольман<note place="foot">Absolument. - Абсолютно (фр.).</note>.</p>
+            <note place="foot"><key>Апсольман</key><value>Absolument. - Абсолютно (фр.).</value></note>
+            <p>Апсольман.</p>
             <p>Ежели бы у вас было удостоверение с биржи труда. Место-то есть...</p>
           </sp>
           <sp who="#golos">
@@ -2399,7 +2406,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>О ревуар<note place="foot">Аu revoir. - До свидания (фр.).</note>, мадам.</p>
+            <note place="foot"><key>О ревуар</key><value>Аu revoir. - До свидания (фр.).</value></note>
+            <p>О ревуар, мадам.</p>
             <stage>Звонок.</stage>
             <p>Чтоб тебя громом убило! <stage>(Улетает.)</stage></p>
           </sp>
@@ -2595,7 +2603,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Эн момэн<note place="foot">Un moment. - Одно мгновенье (фр.).</note>, мадам.
+            <note place="foot"><key>Эн момэн</key><value>Un moment. - Одно мгновенье (фр.).</value></note>
+            <p>Эн момэн, мадам.
                 <stage>(Надевает платье на манекен.)</stage></p>
           </sp>
           <sp who="#vtoraja">
@@ -2801,8 +2810,9 @@
             <p>Говорю тебе, баба задумывается, на отлете она. Ежели женщина задумывается, это
               означает только одно из двух, - или она с мужем разводится, или из СЕСЕРЕ лататы хочет
               дать.</p>
+            <note place="foot"><key>панданчик</key><value>pendant - в пару (фр.).</value></note>
             <p>Деньги ей нужны до зарезу, а денег нет. Ты подумай, экземпляр какой. Украшение
-              квартиры. Мадам Ивановой панданчик<note place="foot">pendant - в пару (фр.).</note>. А
+              квартиры. Мадам Ивановой панданчик. А
               Мымра твоя и Лизанька только и умеют визжать.</p>
           </sp>
           <sp who="#zoja">
@@ -2811,7 +2821,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Так нельзя же, шер маман<note place="foot">chere maman - мамочка (фр.).</note>, все
+            <note place="foot"><key>шер маман</key><value>chere maman - мамочка (фр.).</value></note>
+            <p>Так нельзя же, шер маман, все
               на втором сорте отъезжать.</p>
             <stage>Звонок.</stage>
             <p>Еще кого-то черт несет. Ты Аметистова слушай. Аметистов большой человек.</p>
@@ -2859,7 +2870,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Мез' уй<note place="foot">Mais oui. - Ну разумеется (фр.).</note>.</p>
+            <note place="foot"><key>Мез' уй</key><value>Mais oui. - Ну разумеется (фр.).</value></note>
+            <p>Мез' уй.</p>
           </sp>
           <sp who="#alla">
             <speaker>Алла.</speaker>
@@ -3223,8 +3235,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Это нахальство, Зоя. Пароль донер<note place="foot">Parole d'honneur. - Честное слово
-                (фр.).</note>. Я с десяти лет играю в шмендефер, и на тебе. Плохо говорю
+            <note place="foot"><key>Пароль донер</key><value>Parole d'honneur. - Честное слово (фр.).</value></note>
+            <p>Это нахальство, Зоя. Пароль донер. Я с десяти лет играю в шмендефер, и на тебе. Плохо говорю
               по-французски!</p>
           </sp>
           <sp who="#zoja">
@@ -3306,7 +3318,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Мерси боку<note place="foot">Merci beaucoup. - Большое спасибо (фр.).</note>.</p>
+            <note place="foot"><key>Мерси боку</key><value>Merci beaucoup. - Большое спасибо (фр.).</value></note>
+            <p>Мерси боку.</p>
           </sp>
           <sp who="#oboljaninov">
             <speaker>Обольянинов.</speaker>
@@ -3342,7 +3355,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Вуаля!<note place="foot">Voila!-Смотрнте-ка! (фр.)</note> Ведь это рай. А? Граф, да
+            <note place="foot"><key>Вуаля!</key><value>Voila!-Смотрите-ка! (фр.)</value></note>
+            <p>Вуаля! Ведь это рай. А? Граф, да
               вы гляньте, развеселитесь, что вы сидите, как квашня!</p>
           </sp>
           <sp who="#oboljaninov">
@@ -3491,7 +3505,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Бон суар<note place="foot">Bonsoir.-Добрый вечер (фр.).</note>, Лизанька. Летите
+            <note place="foot"><key>Бон суар</key><value>Bonsoir.-Добрый вечер (фр.).</value></note>
+            <p>Бон суар, Лизанька. Летите
               переодевайтесь, сейчас будет важное лицо.</p>
           </sp>
           <sp who="#lizanka">
@@ -3818,8 +3833,9 @@
           </sp>
           <sp who="#gus">
             <speaker>Гусь.</speaker>
+            <note place="foot"><key>Же панс!</key><value>Je pense!-Я думаю! (фр.)</value></note>
             <p>Это шампанское? Замечательно вы поставили дело, гражданин администратор. Аметистов.
-              Же панс!<note place="foot">Je pensel-Я думаю! (фр.)</note> Поработав у Пакэна в
+              Же панс! Поработав у Пакэна в
               Париже, можно приобрести навык.</p>
           </sp>
           <sp who="#gus">
@@ -3902,7 +3918,8 @@
           <stage>Обольянинов выходит.</stage>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Конт<note place="foot">Comte - граф (фр.).</note> Обольянинов. Располагайтесь
+            <note place="foot"><key>Конт</key><value>Comte - граф (фр.).</value></note>
+            <p>Конт Обольянинов. Располагайтесь
               поудобнее, милейший Борис Семенович. Миндалю? <stage>(Затемняет сцену, хлопнув в
                 ладоши.)</stage> Ателье!</p>
           </sp>
@@ -3917,7 +3934,8 @@
             <stage>Лизанька умирает возле уличной урны.</stage>
             <p>Ваш сиреневый трупик закроет саваном мгла.</p>
             <stage>Лизанька оживает, танцует бурно.</stage>
-            <p>Анфан террибль<note place="foot">Enfant terrible. - Ужасное дитя (фр.).</note>.
+            <note place="foot"><key>Анфан террибль</key><value>Enfant terrible. - Ужасное дитя (фр.).</value></note>
+            <p>Анфан террибль.
               Мерси, мадмазель.</p>
           </sp>
           <sp who="#lizanka">
@@ -3999,8 +4017,8 @@
           <sp who="#ametistov">
             <speaker>Аметистов</speaker>
             <stage>(ей вслед).</stage>
-            <p>By зет тре земабль<note place="foot">Vous-etez tres aimable. - Вы очень любезны
-                (фр.).</note>. Как вы находите, очаровательнейший Борис Семенович?</p>
+            <note place="foot"><key>By зет тре земабль</key><value>Vous-etez tres aimable. - Вы очень любезны (фр.).</value></note>
+            <p>By зет тре земабль. Как вы находите, очаровательнейший Борис Семенович?</p>
           </sp>
           <stage>Манюшка появляется на эстраде в русском костюме.</stage>
           <sp who="#ametistov">
@@ -4026,7 +4044,8 @@
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
             <p>Цсс. Манюшка, скатывайся с эстрады, накрывай ужин в два счета.</p>
-            <p><stage>(Гусю.)</stage> Э бьен?<note place="foot">Et bien?-Hy как? (фр.)</note></p>
+            <note place="foot"><key>Э бьен?</key><value>Et bien?-Hy как? (фр.)</value></note>
+            <p><stage>(Гусю.)</stage> Э бьен?</p>
           </sp>
           <sp who="#gus">
             <speaker>Гусь</speaker>
@@ -4041,9 +4060,12 @@
             страстный вальс.</stage>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
+            <note place="foot"><key>Декольте сюр ле бра</key><value>Dékollté sur les bras. – Декольтированные плечи (фр.).</value></note>
+            <note place="foot"><key>Декольте</key><value>Dékollté. – Открытая (фр.).</value></note>
+            <note place="foot"><key>сюр ле до</key><value>sur le dos. – спина (фр.).</value></note>
             <p>Что скажете, Борис Семенович? Моя постановочка. <stage>(Вбегает на эстраду, танцует с
-                Ивановой. В паузе показывает.)</stage> Декольте сюр ле бра<note place="foot">Dékollté sur les bras. – Декольтированные плечи (фр.).</note>. <stage>(Танцует. В
-                паузе.)</stage> Декольте... <stage>(ищет складку)</stage> сюр ле до<note place="foot">Dékollté sur le dos. – Открытая спина (фр.).</note>.
+                Ивановой. В паузе показывает.)</stage> Декольте сюр ле бра. <stage>(Танцует. В
+                паузе.)</stage> Декольте... <stage>(ищет складку)</stage> сюр ле до.
                 <stage>(Танцует.)</stage> В сущности, я очень несчастлив, мадам Иванова. Моя мечта
               уехать с любимой женщиной в Ниццу, туда, где цветут рододендроны...</p>
           </sp>
@@ -4305,8 +4327,8 @@
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
             <p>Ах, это... В этом... Не хочу даже вспоминать, потому что мне тяжело.</p>
-            <p>Белые колонны, как сейчас помню... Эн, де, труа, фир, фюнф, зехс...<note place="foot">Un. deux. trois, vier, fiinf. sechx...-Один. два, три (фр.), четыре, пять, шесть...
-                (нем..)</note> Семь колонн, одна красивее другой. Эх! Да что говорить! А племенной
+            <note place="foot"><key>Эн, де, труа, фир, фюнф, зехс</key><value>Un. deux. trois, vier, fiinf. sechx...-Один. два, три (фр.), четыре, пять, шесть... (нем..)</value></note>
+            <p>Белые колонны, как сейчас помню... Эн, де, труа, фир, фюнф, зехс... Семь колонн, одна красивее другой. Эх! Да что говорить! А племенной
               скот, а кирпичный завод!</p>
           </sp>
           <sp who="#oboljaninov">
@@ -4415,11 +4437,11 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
+            <note place="foot"><key>Алле ву зан</key><value>Allez-vous en.-Пошли вон (фр.).</value></note>
             <p>По глазам вижу, что ничего не понял. Одним словом, через двадцать минут придем.
               Первое - шампанское поставить в ледник и водку тож, а красное наоборот, в теплое место
               в кухню. Второе... Одним словом, дорогой мажордом желтой расы, поручаю тебе квартиру и
-              ответственность возлагаю на тебя. Граф! Алле ву зан<note place="foot">AIlez-vous
-                en.-Пошли вон (фр.).</note>. Во-раки!.. <stage>(Выходит с
+              ответственность возлагаю на тебя. Граф! Алле ву зан. Во-раки!.. <stage>(Выходит с
               Обольяниновым.)</stage></p>
           </sp>
           <sp who="#heruvim">
@@ -5278,7 +5300,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Гран мерси<note place="foot">Grand merci.-Большое спасибо (фр.).</note>. Фирма бьет.
+            <note place="foot"><key>Гран мерси</key><value>Grand merci.-Большое спасибо (фр.).</value></note>
+            <p>Гран мерси. Фирма бьет.
               Фирма не уступит. Пятнадцать-раз, пятнадцать - два.</p>
           </sp>
           <stage>Зойка исчезает, нее время звучит фокс-трот за сценой.</stage>
@@ -5673,7 +5696,8 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
-            <p>Данке зэр<note place="foot">Dankе sehr. - Благодарю (нем.).</note>. <stage>(Манит
+            <note place="foot"><key>Данке зэр</key><value>Dankе sehr. - Благодарю (нем.).</value></note>
+            <p>Данке зэр. <stage>(Манит
                 пальцами кого-то из-за занавески.)</stage></p>
           </sp>
           <stage>Лизанька и Иванова появляются.</stage>
@@ -6276,8 +6300,9 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
+            <note place="foot"><key>ординер</key><value>ordinaire - обычная (фр.).</value></note>
             <p>Коврик грязный! Все устроится. Одна она, что ли, на свете? Плюньте! Она даже и не
-              красива. Так, ординер<note place="foot">ordinaire - обычная (фр.).</note>.</p>
+              красива. Так, ординер.</p>
           </sp>
           <sp who="#gus">
             <speaker>Гусь.</speaker>

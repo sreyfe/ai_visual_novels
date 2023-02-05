@@ -130,8 +130,12 @@
         <castItem>Татьяна Алексеевна, его жена, 25 лет.</castItem>
         <castItem>Хирин Кузьма Николаевич, бухгалтер банка, старик.</castItem>
         <castItem>Мерчуткина Настасья Федоровна, старуха в салопе.</castItem>
-        <castItem>Члены банка.</castItem>
-        <castItem>Служащие в банке.</castItem>
+        <castGroup>
+          <roleDesc>Члены банка.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Служащие в банке.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в N-ском Банке взаимного кредита.</p>

@@ -92,6 +92,9 @@
             <persName>Лакей</persName>
             <persName xml:lang="ger">Pjotr (Lakai)</persName>
           </person>
+          <person xml:id="kovalenko" sex="MALE">
+            <persName>Коваленко</persName>
+          </person>
           <listRelation type="personal">
             <relation name="spouses" mutual="#sergej_petrovich #elena_nikolaevna"/>
             <relation name="spouses" mutual="#klavdіja_mihajlovna #semen_semenovich"/>
@@ -145,7 +148,9 @@
         <castItem>Поручикъ Ивановъ.</castItem>
         <castItem>Военный докторъ Коваленко.</castItem>
         <castItem>Лакей Петръ.</castItem>
-        <castItem>Грузины-музыканты.</castItem>
+        <castGroup>
+          <roleDesc>Грузины-музыканты.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

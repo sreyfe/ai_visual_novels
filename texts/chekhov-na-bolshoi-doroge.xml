@@ -103,6 +103,10 @@
             <persName xml:lang="eng">Marʹâ Egorovna</persName>
             <persName xml:lang="ger">Marʹâ Egorovna</persName>
           </person>
+          <person xml:id="pochtalyon" sex="MALE">
+            <persName>Почтальон</persName>
+            <persName xml:lang="eng">Postman</persName>
+          </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#kucher" passive="#marja_egorovna"/>
             <relation name="spouses" mutual="#marja_egorovna #bortsov"/>
@@ -166,7 +170,9 @@
         <castItem>Кузьма, проезжий.</castItem>
         <castItem>Почтальон.</castItem>
         <castItem>Кучер Борцовой.</castItem>
-        <castItem>Богомольцы, гуртовщики, проезжие и проч.</castItem>
+        <castGroup>
+          <roleDesc>Богомольцы, гуртовщики, проезжие и проч.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в одной из южнорусских губерний.</p>

@@ -224,8 +224,12 @@
         <castItem>Ренэ – дряхлая нянька Мольера.</castItem>
         <castItem>Суфлер.</castItem>
         <castItem>Монашка.</castItem>
-        <castItem>Члены Кабалы Священного писания в масках и черных плащах.</castItem>
-        <castItem>Придворные Мушкетеры и другие.</castItem>
+        <castGroup>
+          <roleDesc>Члены Кабалы Священного писания в масках и черных плащах.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Придворные Мушкетеры и другие.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Париже в век Людовика XIV.</p>

@@ -59,10 +59,6 @@
             <persName>Барабанчикова</persName>
             <persName xml:lang="ger">Barabantschikowa</persName>
           </person>
-          <person xml:id="mahrov" sex="MALE">
-            <persName>Махров</persName>
-            <persName xml:lang="ger">Machrow</persName>
-          </person>
           <person xml:id="paisij" sex="MALE">
             <persName>Паисий</persName>
             <persName xml:lang="ger">Paissi</persName>
@@ -89,6 +85,7 @@
           </person>
           <person xml:id="afrikan" sex="MALE">
             <persName>Африкан</persName>
+            <persName type="variant">Махров</persName>
             <persName xml:lang="ger">Afrikan</persName>
           </person>
           <person xml:id="igumen" sex="MALE">
@@ -304,10 +301,12 @@
         <castItem>Проститутка-красавица.</castItem>
         <castItem>Грек-донжуан.</castItem>
         <castItem>Антуан Грищенко, лакей Корзухина.</castItem>
-        <castItem>Монахи, белые штабные офицеры, конвойные казаки белого главнокомандующего,
+        <castGroup>
+          <roleDesc>Монахи, белые штабные офицеры, конвойные казаки белого главнокомандующего,
           контрразведчики; казаки в бурках; английские, французские и итальянские моряки; турецкие и
           итальянские полицейские, мальчишки турки и греки, армянские и греческие головы в окнах;
-          толпа в Константинополе.</castItem>
+          толпа в Константинополе.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Сон первый происходит в Северной Таврии в октябре 1920 года.</p>
@@ -392,7 +391,7 @@
             <p>Не надо.</p>
           </sp>
           <stage>Серафима и Голубков в недоумении.</stage>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров</speaker>
             <stage>(тихо, Голубкову).</stage>
             <p>Загадочная, и весьма загадочная особа!</p>
@@ -402,7 +401,7 @@
             <stage>(шепотом).</stage>
             <p>Вы думаете, что...</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>Я ничего не думаю, а так... лихолетье, сударь, мало ли кого не встретишь на своем
               пути! Лежит какая-то странная дама в церкви...</p>
@@ -478,7 +477,7 @@
             <stage>Барабанчикова простонала.</stage>
             <p>Нашли время, место рожать! <stage>(К Махрову.)</stage> Документ!</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>Вот документик! Я — химик из Мариуполя.</p>
           </sp>
@@ -486,7 +485,7 @@
             <speaker>Баев.</speaker>
             <p>Много вас тут химиков во фронтовой полосе!</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>Я продукты ездил покупать, огурчики...</p>
           </sp>
@@ -526,7 +525,7 @@
           </sp>
           <stage>За окнами послышалась глухая команда, и все стихло, как бы ничего и не было. Паисий
             жадно и часто крестится, зажигает свечи и исчезает.</stage>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>Расточились... Недаром сказано: и даст им начертание на руках или на челах их...
               Звезды-то пятиконечные, обратили внимание?</p>
@@ -560,7 +559,7 @@
             <speaker>Барабанчикова.</speaker>
             <p>Малый в червах объявил.</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров</speaker>
             <stage>(тихо).</stage>
             <p>Ого-го, до чего интересная особа!</p>
@@ -583,7 +582,7 @@
             <speaker>Барабанчикова.</speaker>
             <p>Совершенно определенно, в болото.</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>А откуда вам все это известно, мадам?</p>
           </sp>
@@ -591,7 +590,7 @@
             <speaker>Барабанчикова.</speaker>
             <p>Очень уж ты, архипастырь, любопытен!</p>
           </sp>
-          <sp who="#mahrov">
+          <sp who="#afrikan">
             <speaker>Махров.</speaker>
             <p>Позвольте, почему вы именуете меня архипастырем?!</p>
           </sp>
@@ -725,8 +724,8 @@
           </sp>
           <sp who="#de_brizar">
             <speaker>Де Бризар.</speaker>
-            <p>Миль экскюз, мадам!<note place="foot">Mille excuses, madame! — Тысяча извинений,
-                мадам! (фр.)</note> А вы, гусеница в штатском, уж не обер ли вы прокурор?</p>
+            <note place="foot"><key>Миль экскюз, мадам!</key><value>Mille excuses, madame! — Тысяча извинений, мадам! (фр.)</value></note>
+            <p>Миль экскюз, мадам! А вы, гусеница в штатском, уж не обер ли вы прокурор?</p>
           </sp>
           <sp who="#golubkov">
             <speaker>Голубков.</speaker>
@@ -755,7 +754,8 @@
           <sp who="#monahi">
             <speaker>Монахи</speaker>
             <stage>(внезапно запели).</stage>
-            <p>Исполла эти деспота!..<note place="foot">Многая лета, владыка! (греч.)</note></p>
+            <note place="foot"><key>Исполла эти деспота!</key><value>Многая лета, владыка! (греч.)</value></note>
+            <p>Исполла эти деспота!..</p>
           </sp>
           <stage>В дверях вырастает Чарнота, с ним Люська.</stage>
           <sp who="#charnota">
@@ -2624,6 +2624,7 @@
           <epigraph>
             <p>...Янычар сбоит!..</p>
           </epigraph>
+          <note place="foot"><key>Пресс дю суар</key><value>«Presse du soir» — «Вечерняя газета» (фр.)</value></note>
           <stage>Странная симфония. Поют турецкие напевы, в них вплетается русская шарманочная
             «Разлука», стоны уличных торговцев, гудение трамваев. И вдруг загорается Константинополь
             в предвечернем солнце. Виден господствующий минарет, кровли домов. Стоит необыкновенного
@@ -2639,38 +2640,39 @@
             зное своей жизнью узкий переулок: проходят турчанки в чарчафах, турки в красных фесках,
             иностранные моряки в белом, изредка проводят осликов с корзинами. Лавчонка с кокосовыми
             орехами. Мелькают русские в военной потрепанной форме. Слышны звоночки продавцов
-            лимонада. Где-то отчаянно вопит мальчишка: «Пресс дю суар!»<note place="foot">«Presse du
-              soir» — «Вечерняя газета» (фр.)</note> У выхода с переулка вниз к сооружению Чарнота в
+            лимонада. Где-то отчаянно вопит мальчишка: «Пресс дю суар!» У выхода с переулка вниз к сооружению Чарнота в
             черкеске без погон, выпивший, несмотря на жару, и мрачный, торгует резиновыми чертями,
             тещиными языками и какими-то прыгающими фигурками с лотка, который у него на
             животе.</stage>
           <sp who="#charnota">
             <speaker>Чарнота.</speaker>
+            <note place="foot"><key>Аштэ пур вотр анфан!</key><value>Achetez pour votre enfant! — Купите для вашего ребенка! (фр.)</value></note>
             <p>Не бьется, не ломается, а только кувыркается! Купите красного комиссара для
-              увеселения ваших детишек-ангелочков! Мадам! Мадам! Аштэ пур вотр анфан!<note place="foot">Achetez pour votre enfant! — Купите для вашего ребенка!
-              (фр.)</note></p>
+              увеселения ваших детишек-ангелочков! Мадам! Мадам! Аштэ пур вотр анфан!</p>
           </sp>
           <sp who="#turchanka_ljubjaschaja_mat">
             <speaker>Турчанка, любящая мать.</speaker>
-            <p>Бунун фиаты надыр? Комбьен?<note place="foot">Bunun fiyatl nedir? — Сколько это
-                стоит? (тур.) Combien? — Сколько? (фр.)</note></p>
+            <note place="foot"><key>Бунун фиаты надыр?</key><value>Bunun fiyatl nedir? — Сколько это стоит? (тур.)</value></note>
+            <note place="foot"><key>Комбьен?</key><value>Combien? — Сколько? (фр.)</value></note>
+            <p>Бунун фиаты надыр? Комбьен?</p>
           </sp>
           <sp who="#charnota">
             <speaker>Чарнота.</speaker>
-            <p>Сенкан пиастр, мадам, сенкан!<note place="foot">Cinquante piastres, madame,
-                cinquante! — Пятьдесят пиастров, мадам, пятьдесят! (фр.)</note></p>
+            <note place="foot"><key>Сенкан пиастр, мадам, сенкан!</key><value>Cinquante piastres, madame, cinquante! — Пятьдесят пиастров, мадам, пятьдесят! (фр.)</value></note>
+            <p>Сенкан пиастр, мадам, сенкан!</p>
           </sp>
           <sp who="#turchanka_ljubjaschaja_mat">
             <speaker>Турчанка, любящая мать.</speaker>
-            <p>О, иох! Бу пахалы дыр!<note place="foot">О, yok! Bu pahalidir! — Ох, нет! Это дорого!
-                (тур.)</note>
+            <note place="foot"><key>О, иох! Бу пахалы дыр!</key><value>О, yok! Bu pahalidir! — Ох, нет! Это дорого! (тур.)</value></note>
+            <p>О, иох! Бу пахалы дыр!
               <stage>(Проходит.)</stage></p>
           </sp>
           <sp who="#charnota">
             <speaker>Чарнота.</speaker>
+            <note place="foot"><key>Каран!</key><value>Quarante! — Сорок! (фр.)</value></note>
+            <note place="foot"><key>Геен зи!.. Геен зи!..</key><value>Gehen Sie!.. Gehen Sie!.. — Пошла ты!.. Пошла!.. (нем.)</value></note>
             <p>Мадам! Каран! А, чтоб тебе пропасть! Да у тебя и детей никогда не было! Геен зи!..
-              Геен зи!..<note place="foot">Quarante!.. Gehen Sie!.. Gehen Sie!.. — Сорок! (фр.)
-                Пошла ты!.. Пошла!.. (нем.)</note> Ступай в гарем! Боже мой, до чего же сволочной
+              Геен зи!.. Ступай в гарем! Боже мой, до чего же сволочной
               город!</p>
             <stage>Где-то надрываются продавцы, кричат: «Каймаки, каймаки!», «Амбуляси!
               Амбуляси!»</stage>
@@ -2746,7 +2748,8 @@
             <speaker>Чарнота.</speaker>
             <p>Вот скотина!</p>
           </sp>
-          <stage>В ресторане появляются двое французских моряков, кричат: «Эн бок! Эн бок!»<note place="foot">«Un bock! Un bock!» — «Кружку пива! Кружку пива!» (фр.)</note> Лакей
+          <note place="foot"><key>Эн бок! Эн бок!</key><value>«Un bock! Un bock!» — «Кружку пива! Кружку пива!» (фр.)</value></note>
+          <stage>В ресторане появляются двое французских моряков, кричат: «Эн бок! Эн бок!» Лакей
             подает пиво.</stage>
           <sp who="#lichiko">
             <speaker>Личико.</speaker>
@@ -2876,10 +2879,11 @@
             взвился над каруселью. Марш смолк.</stage>
           <sp who="#artur">
             <speaker>Артур.</speaker>
+            <note place="foot"><key>Курс де кафар! Ламюземан префере де ла дефянт эмператрис рюсс!</key><value>Courses de cafards! L'amusement prefere de la defiante Imperatrice russe! (фр.)</value></note>
+            <note place="foot"><key>Корсо дель пьятелла!</key><value>Corso del piatella! (ит.)</value></note>
+            <note place="foot"><key>Рейс оф кок-рочс!</key><value>Races of cock-roaches! (англ.)</value></note>
             <p>Мсье, дам! Бега открыты! Не виданная нигде в мире русская придворная игра! Тараканьи
-              бега! Курс де кафар! Ламюземан префере де ла дефянт эмператрис рюсс!<note place="foot">Courses de cafards! L'amusement prefere de la defiante Imperatrice russe!
-                (фр.)</note> Корсо дель пьятелла! Рейс оф кок-рочс!<note place="foot">Corso del
-                piatella! Races of cock-roaches! (ит., англ.)</note></p>
+              бега! Курс де кафар! Ламюземан префере де ла дефянт эмператрис рюсс! Корсо дель пьятелла! Рейс оф кок-рочс!</p>
             <stage>Появляются двое полицейских — итальянский и турецкий.</stage>
             <p>Первый заезд! Бегут: первый номер — Черная Жемчужина! Номер второй — фаворит
               Янычар.</p>
@@ -2887,13 +2891,14 @@
           <sp who="#italjantsy-matrosy">
             <speaker>Итальянцы-матросы</speaker>
             <stage>(аплодируют, кричат).</stage>
-            <p>Эввива Янычарре!<note place="foot">Evviva Janicharre! — Да здравствует Янычар!
-                (ит.)</note></p>
+            <note place="foot"><key>Эввива Янычарре!</key><value>Evviva Janicharre! — Да здравствует Янычар! (ит.)</value></note>
+            <p>Эввива Янычарре!</p>
           </sp>
           <sp who="#anglichane-matrosy">
             <speaker>Англичане-матросы</speaker>
             <stage>(свистят, кричат).</stage>
-            <p>Эу эй! Эуэй!<note place="foot">Away! Away! — Долой! Долой! (англ.)</note></p>
+            <note place="foot"><key>Эу эй! Эуэй!</key><value>Away! Away! — Долой! Долой! (англ.)</value></note>
+            <p>Эу эй! Эуэй!</p>
           </sp>
           <stage>Вламывается потная, взволнованная фигура в котелке и в интендантских
             погонах.</stage>
@@ -2905,16 +2910,16 @@
           <sp who="#artur">
             <speaker>Артур.</speaker>
             <p>Третий — Баба-Яга! Четвертый — Не плачь, дитя! Серый в яблоках таракан!</p>
-            <stage>Крики: «Ура! Не плачь, дитя!», «Ит из э суиндл! Ит из э суиндл!»<note place="foot">It is a swindle! It is a swindle! — Афера! Афера!
-              (англ.)</note>
-            </stage>
+            <note place="foot"><key>Ит из э суиндл! Ит из э суиндл!</key><value>It is a swindle! It is a swindle! — Афера! Афера! (англ.)</value></note>
+            <stage>Крики: «Ура! Не плачь, дитя!», «Ит из э суиндл! Ит из э суиндл!»</stage>
             <p>Шестой — Хулиган! Седьмой — Пуговица!</p>
           </sp>
-          <stage>Крики: «Э трэп!»<note place="foot">A trap! — Ловушка! (англ.)</note> Свист.</stage>
+          <note place="foot"><key>Э трэп!</key><value>A trap! — Ловушка! (англ.)</value></note>
+          <stage>Крики: «Э трэп!» Свист.</stage>
           <sp who="#artur">
             <speaker>Артур.</speaker>
-            <p>Ай бег ер пардон!<note place="foot">I beg your pardon! — Прошу прощения!
-                (англ.)</note> Никаких шансов! Тараканы бегут на открытой доске, с бумажными
+            <note place="foot"><key>Ай бег ер пардон!</key><value>I beg your pardon! — Прошу прощения! (англ.)</value></note>
+            <p>Ай бег ер пардон! Никаких шансов! Тараканы бегут на открытой доске, с бумажными
               наездниками! Тараканы живут в опечатанном ящике под наблюдением профессора энтомологии
               Казанского императорского университета, еле спасшегося от рук большевиков! Итак, к
               началу! <stage>(Проваливается в карусель.)</stage></p>
@@ -2950,17 +2955,19 @@
           <sp who="#italjantsy-matrosy">
             <speaker>Итальянцы-матросы</speaker>
             <stage>(кричат).</stage>
-            <p>Лядро! Скрокконе! Труффаторре!<note place="foot">Ladro! Scroccone! Truffatore! — Вор!
-                Жулик! Мошенник! (ит.)</note></p>
+            <note place="foot"><key>Лядро! Скрокконе! Труффаторре!</key><value>Ladro! Scroccone! Truffatore! — Вор! Жулик! Мошенник! (ит.)</value></note>
+            <p>Лядро! Скрокконе! Труффаторре!</p>
           </sp>
           <sp who="#prostitutka-krasavitsa">
             <speaker>Проститутка-красавица.</speaker>
-            <p>Бей Артура, Джанни! <stage>(Артуру.)</stage> Инганаторрэ!<note place="foot">Ingannatore! — Мерзавец! (ит.)</note></p>
+            <note place="foot"><key>Инганаторрэ!</key><value>Ingannatore! — Мерзавец! (ит.)</value></note>
+            <p>Бей Артура, Джанни! <stage>(Артуру.)</stage> Инганаторрэ!</p>
           </sp>
           <sp who="#anglichane-matrosy">
             <speaker>Матросы-англичане.</speaker>
-            <p>Hip! Hip! Hurah! Лонг ляйф Пуговитца!<note place="foot">Long live Pugowitza! — Хип,
-                хип, ура! Да здравствует Пуговица! (англ.)</note></p>
+            <note place="foot"><key>Hip! Hip! Hurah!</key><value>Хип, хип, ура! (англ.)</value></note>
+            <note place="foot"><key>Лонг ляйф Пуговитца!</key><value>Long live Pugowitza! — Да здравствует Пуговица! (англ.)</value></note>
+            <p>Hip! Hip! Hurah! Лонг ляйф Пуговитца!</p>
           </sp>
           <sp who="#prostitutka-krasavitsa">
             <speaker>Проститутка-красавица.</speaker>
@@ -2970,19 +2977,22 @@
           <sp who="#artur">
             <speaker>Артур</speaker>
             <stage>(в отчаянии).</stage>
+            <note place="foot"><key>Же ву деманд эн пе, у э-секе ву заве вю эн кафар суль?</key><value>Je vous demande un peu, où est-ce-que vous avez vu un cafard soûle? — Я вас спрашиваю, где вы видели пьяного таракана? (фр.)</value></note>
+            <note place="foot"><key>Полис! Полис! О скур!</key><value>Police! Police! Au secours! — Полиция! Полиция! На помощь! (фр.)</value></note>
             <p>Где вы видели когда-либо пьяного таракана? Же ву деманд эн пе, у э-секе ву заве вю эн
-              кафар суль? Полис! Полис! О скур!..<note place="foot">Police! Police! Au secours! —
-                Полиция! Полиция! На помощь! (фр.)</note></p>
+              кафар суль? Полис! Полис! О скур!..</p>
           </sp>
           <sp who="#prostitutka-krasavitsa">
             <speaker>Проститутка-красавица.</speaker>
-            <p>Мансонж!<note place="foot">Mensonge! — Ложь! (фр.)</note> Вся публика играла Янычара!
+            <note place="foot"><key>Мансонж!</key><value>Mensonge! — Ложь! (фр.)</value></note>
+            <p>Мансонж! Вся публика играла Янычара!
               Бейте его, мошенника!</p>
           </sp>
           <sp who="#italjanets-matros">
             <speaker>Итальянец-матрос</speaker>
             <stage>(схватывает Артура за глотку, кричит).</stage>
-            <p>А, мармалья!!<note place="foot">Ah, marmaglia!! — Жулье!! (ит.)</note></p>
+            <note place="foot"><key>А, мармалья!!</key><value>Ah, marmaglia!! — Жулье!! (ит.)</value></note>
+            <p>А, мармалья!!</p>
           </sp>
           <sp who="#italjantsy-matrosy">
             <speaker>Итальянцы</speaker>
@@ -2997,7 +3007,8 @@
           <sp who="#botsman-anglichanin">
             <speaker>Боцман-англичанин</speaker>
             <stage>(итальянцу).</stage>
-            <p>Стоп! Кип бэк!<note place="foot">Stop! Keep back! — Стой! Назад! (англ.)</note>
+            <note place="foot"><key>Стоп! Кип бэк!</key><value>Stop! Keep back! — Стой! Назад! (англ.)</value></note>
+            <p>Стоп! Кип бэк!
               <stage>(Схватывает итальянца.)</stage></p>
           </sp>
           <sp who="#figura">
@@ -3012,8 +3023,8 @@
           <stage>Англичанин ударяет итальянца, тот падает.</stage>
           <sp who="#prostitutka-krasavitsa">
             <speaker>Проститутка-красавица.</speaker>
-            <p>О, соккорсо, фрателли!<note place="foot">A soccorso, fratelli! — На помощь, братишки!
-                (ит.)</note> Бейте, братишки, англичан! Итальянцы, на помощь!</p>
+            <note place="foot"><key>О, соккорсо, фрателли!</key><value>A soccorso, fratelli! — На помощь, братишки! (ит.)</value></note>
+            <p>О, соккорсо, фрателли! Бейте, братишки, англичан! Итальянцы, на помощь!</p>
           </sp>
           <stage>Англичане схватываются с итальянцами. Итальянцы вытаскивают ножи. При виде ножей
             публика с воем бросается в разные стороны. Мальчишка-грек, танцуя на стене, кричит:
@@ -3640,9 +3651,9 @@
                 часов.)</stage> Возьми медальон, в случае крайности — продашь.
                 <stage>(Уходит.)</stage></p>
           </sp>
+          <note place="foot"><key>Ла иль Алла иль Махомет рассуль алла!</key><value>Нет бога, кроме Аллаха, и Магомет посланник его!</value></note>
           <stage>Вечерние тени гуще. С минарета полился сладкий голос муэдзина «Ла иль Алла иль
-            Махомет рассуль алла!»<note place="foot">Нет бога, кроме Аллаха, и Магомет посланник
-              его!</note>
+            Махомет рассуль алла!»
           </stage>
           <sp who="#golubkov">
             <speaker>Голубков.</speaker>
@@ -3686,14 +3697,12 @@
             <p>Антуан!</p>
             <stage>Входит очень благообразного французского вида лакей Антуан, в зеленом
               фартуке.</stage>
+            <note place="foot"><key>Мсье Маршен маве аверти киль не виендра па зожурдюи, не ремюэ па ля табль, же ме сервирэ плю тар.</key><value>Monsieur Marchand m'avait averti qu'il ne viendra pas aujourd'hui. Ne remuez pas la table. Je me servirai plus tard. — Мсье Маршан сообщил, что не придет сегодня. Со стола не надо убирать. Я буду обедать позднее (фр.)</value></note>
             <p>Мсье Маршен маве аверти киль не виендра па зожурдюи, не ремюэ па ля табль, же ме
               сервирэ плю тар.</p>
             <stage>Молчание.</stage>
-            <p>Репондэ донк кельк шоз!<note place="foot">Monsieur Marchand m'avait averti qu'il ne
-                viendra pas aujourd'hui. Ne remuez pas la table. Je me servirai plus tard.
-                Repondez-donc quelque chose! — Мсье Маршан сообщил, что не придет сегодня. Со стола
-                не надо убирать. Я буду обедать позднее Да отвечайте же что-нибудь! (фр.)</note> Да
-              вы, кажется, ничего не поняли?</p>
+            <note place="foot"><key>Репондэ донк кельк шоз!</key><value>Да отвечайте же что-нибудь! (фр.)</value></note>
+            <p>Репондэ донк кельк шоз! Да вы, кажется, ничего не поняли?</p>
           </sp>
           <sp who="#antuan">
             <speaker>Антуан.</speaker>
@@ -3731,17 +3740,17 @@
             <speaker>Корзухин.</speaker>
             <p>Правильно. Учитесь, Антуан.</p>
             <stage>Звонок.</stage>
+            <note place="foot"><key>Же сюи а ля мезон</key><value>Je suis a la maison. — Я — дома (фр.)</value></note>
             <p><stage>(Расстегивает пижаму, говорит, выходя.)</stage> Принять. Авось партнер
-              подвернется. Же сюи а ля мезон.<note place="foot">Je suis a la maison. — Я — дома
-                (фр.)</note>
+              подвернется. Же сюи а ля мезон.
               <stage>(Выходит.)</stage></p>
           </sp>
           <stage>Антуан выходит и возвращается с Голубковым. Тот в матросских черных брюках, сером
             потертом пиджачке, в руках у него кепка.</stage>
           <sp who="#golubkov">
             <speaker>Голубков.</speaker>
-            <p>Же вудрэ парлэ а мсье Корзухин!.<note place="foot">Je voudrais parler a monsieur... —
-                Я хотел бы поговорить с мсье... (фр.)</note></p>
+            <note place="foot"><key>Же вудрэ парлэ а мсье Корзухин</key><value>Je voudrais parler a monsieur... — Я хотел бы поговорить с мсье... (фр.)</value></note>
+            <p>Же вудрэ парлэ а мсье Корзухин!.</p>
           </sp>
           <sp who="#antuan">
             <speaker>Антуан.</speaker>
@@ -4012,8 +4021,8 @@
           <sp who="#antuan">
             <speaker>Антуан</speaker>
             <stage>(удивленно, но почтительно улыбнувшись).</stage>
-            <p>Слушаю-с... А лэнстан!<note place="foot">A l'instant! — Сию минуту! (фр.)</note>
-              <stage>(Исчезает.)</stage></p>
+            <note place="foot"><key>А лэнстан!</key><value>A l'instant! — Сию минуту! (фр.)</value></note>
+            <p>Слушаю-с... А лэнстан!<stage>(Исчезает.)</stage></p>
           </sp>
           <sp who="#charnota">
             <speaker>Чарнота.</speaker>
@@ -4367,11 +4376,13 @@
           </sp>
           <sp who="#charnota">
             <speaker>Чарнота.</speaker>
-            <p>О ревуар,<note place="foot">Au revoir — до свиданья (фр.)</note> мадемуазель.</p>
+            <note place="foot"><key>О ревуар</key><value>Au revoir — до свиданья (фр.)</value></note>
+            <p>О ревуар, мадемуазель.</p>
           </sp>
           <sp who="#ljuska">
             <speaker>Люська.</speaker>
-            <p>Адье!<note place="foot">Adieu! — Прощайте! (фр.)</note></p>
+            <note place="foot"><key>Адье!</key><value>Adieu! — Прощайте! (фр.)</value></note>
+            <p>Адье!</p>
             <stage>Чарнота и Голубков уходят.</stage>
             <p>Слава тебе господи, унесло их! Боже мой! Когда же я, наконец, отдохну!</p>
             <stage>В пустынной улице послышались шаги.</stage>

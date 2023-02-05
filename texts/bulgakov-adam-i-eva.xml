@@ -99,6 +99,9 @@
             <persName>Павлов</persName>
             <persName xml:lang="ger">Pawlow</persName>
           </person>
+          <person xml:id="de_timoneda" sex="MALE">
+            <persName>Де Тимонеда</persName>
+          </person>
           <listRelation type="personal">
             <relation name="siblings" mutual="#tuller_vtoroj #tuller_pervyj"/>
           </listRelation>
@@ -4243,7 +4246,15 @@
           в летном костюме. Сбрасывает шлем. Лицо ее обезображено одним шрамом.</stage>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
-          <p>Adam! Efrossimoff! <stage>(Увидев Адама.)</stage> Buenos dias! Ole! Ole!<note place="foot">Адам! Ефросимов! Здравствуйте! Привет! Привет! (исп.)</note></p>
+          <note place="foot">
+            <key>Adam! Efrossimoff!</key>
+            <value>Адам! Ефросимов! (исп.)</value>
+          </note>
+          <note place="foot">
+            <key>Buenos dias! Ole! Ole!</key>
+            <value>Здравствуйте! Привет! Привет! (исп.)</value>
+          </note>
+          <p>Adam! Efrossimoff! <stage>(Увидев Адама.)</stage> Buenos dias! Ole! Ole!</p>
         </sp>
         <sp who="#adam">
           <speaker>Адам</speaker>
@@ -4252,25 +4263,42 @@
         </sp>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
+          <note place="foot">
+            <key>Escolta!</key>
+            <value>Эскорт! (фр.)</value>
+          </note>
+          <note place="foot">
+            <key>Gobierno mundial. Soy aviador espanol!.. Оu est-ce que se trouve Adam?</key>
+            <value>Всемирное правительство. Я испанский летчик! (исп.) где Адам? (фр.)</value>
+          </note>
           <p>Escolta! <stage>(Указывая на небо.)</stage> Gobierno mundial. Soy aviador espanol!.. Оu
-            est-ce que se trouve Adam?<note place="foot">Эскорт! Всемирное правительство. Я
-              испанский летчик! (исп.) где Адам? (фр.)</note></p>
+            est-ce que se trouve Adam?</p>
         </sp>
         <stage>Слышен второй прилет. Адам берется за револьвер, отступает.</stage>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
-          <p>Non, non! Je ne suis pas ennemie fasciste! Etes-vous Adam?<note place="foot">Нет, нет!
-              Я не фашистский враг! Вы Адам? (фр.)</note></p>
+          <note place="foot">
+            <key>Non, non! Je ne suis pas ennemie fasciste! Etes-vous Adam?</key>
+            <value>Нет, нет! Я не фашистский враг! Вы Адам? (фр.)</value>
+          </note>
+          <p>Non, non! Je ne suis pas ennemie fasciste! Etes-vous Adam?</p>
         </sp>
         <stage>Трубный сигнал.</stage>
         <sp who="#adam">
           <speaker>Адам.</speaker>
-          <p>Я - Адам. Я. Где Дараган? Оu est Daragane?<note place="foot">Где Дараган?
-            (фр.)</note></p>
+          <note place="foot">
+            <key>Оu est Daragane?</key>
+            <value>Где Дараган? (фр.)</value>
+          </note>
+          <p>Я - Адам. Я. Где Дараган? Оu est Daragane?</p>
         </sp>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
-          <p>Daragane viendra, viendra!<note place="foot">Дараган придет, придет! (фр.)</note></p>
+          <note place="foot">
+            <key>Daragane viendra, viendra!</key>
+            <value>Дараган придет, придет! (фр.)</value>
+          </note>
+          <p>Daragane viendra, viendra!</p>
         </sp>
         <stage>В лесу солнце. Выбегает Тимонеда. Жмет руку Адаму, сбрасывает шлем, жадно пьет воду.
           И тогда появляется Дараган.</stage>
@@ -4296,13 +4324,24 @@
         <sp who="#zevald">
           <speaker>Зевальд</speaker>
           <stage>(вбегая, кричит).</stage>
+          <note place="foot">
+            <key>Russen! Hoch!</key>
+            <value>Русские! Ура! (нем.)</value>
+          </note>
+          <note place="foot">
+            <key>Ist das Professor Efrossimoff?</key>
+            <value>Это профессор Ефросимов? (нем.)</value>
+          </note>
           <p>Russen! Hoch! <stage>(Спрашивает у Дарагана.)</stage> Ist das Professor
-              Efrossimoff?<note place="foot">Русские! Ура! Это профессор Ефросимов?
-            (нем.)</note></p>
+              Efrossimoff?</p>
         </sp>
         <sp who="#daragan">
           <speaker>Дараган.</speaker>
-          <p>Nein, nein!<note place="foot">Нет, нет! (нем.)</note> Это - Адам!</p>
+          <note place="foot">
+            <key>Nein, nein!</key>
+            <value>Нет, нет! (нем.)</value>
+          </note>
+          <p>Nein, nein! Это - Адам!</p>
         </sp>
         <sp who="#zevald">
           <speaker>Зевальд.</speaker>
@@ -4353,7 +4392,11 @@
         </sp>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
-          <p>Abrazar?<note place="foot">Обнять? (исп.)</note>
+          <note place="foot">
+            <key>Abrazar?</key>
+            <value>Обнять? (исп.)</value>
+          </note>
+          <p>Abrazar?
             <stage>(Обнимает Адама.)</stage></p>
         </sp>
         <stage>Адам вдруг плачет, уткнувшись в плечо Вируэс.</stage>
@@ -4389,7 +4432,11 @@
         </sp>
         <sp who="#zevald">
           <speaker>Зевальд.</speaker>
-          <p>Nein, nein!<note place="foot">Нет, нет! (нем.)</note></p>
+          <note place="foot">
+            <key>Nein, nein!</key>
+            <value>Нет, нет! (нем.)</value>
+          </note>
+          <p>Nein, nein!</p>
         </sp>
         <sp who="#daragan">
           <speaker>Дараган.</speaker>
@@ -4417,7 +4464,11 @@
         </sp>
         <sp who="#zevald">
           <speaker>Зевальд.</speaker>
-          <p>Zu den Apparaten!<note place="foot">К аппаратам! (нем.)</note>
+          <note place="foot">
+            <key>Zu den Apparaten!</key>
+            <value>К аппаратам! (нем.)</value>
+          </note>
+          <p>Zu den Apparaten!
             <stage>(Убегает.)</stage></p>
         </sp>
         <stage>Убегает и Тимонеда.</stage>
@@ -4483,7 +4534,11 @@
         </sp>
         <sp who="#virues">
           <speaker>Вируэс.</speaker>
-          <p>Hombre genial!<note place="foot">Гениальный человек! (исп.)</note>
+          <note place="foot">
+            <key>Hombre genial!</key>
+            <value>Гениальный человек! (исп.)</value>
+          </note>
+          <p>Hombre genial!
             <stage>(Указывает на свой шрам.)</stage></p>
         </sp>
         <sp who="#eva">

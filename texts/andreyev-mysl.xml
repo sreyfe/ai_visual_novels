@@ -157,7 +157,9 @@
           <roleDesc>доктора в больнице.</roleDesc>
         </castGroup>
         <castItem>Сиделка.</castItem>
-        <castItem>Служители в больнице.</castItem>
+        <castGroup>
+          <roleDesc>Служители в больнице.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -2725,7 +2727,10 @@
           </sp>
           <sp who="#semyonov">
             <speaker>Семенов.</speaker>
-            <note>in optima forma: В лучшем виде (лат.).</note>
+            <note>
+              <key>in optima forma</key>
+              <value>В лучшем виде (лат.)</value>
+            </note>
             <p>А пишет он хорошо, вертляво: и туда может, и сюда может -- хорошо пишет! И когда
               доказывает, что здоровый, так и видишь сумасшедшего in optima forma, а начнет
               доказывать, что сумасшедший,-- хоть на кафедру сажай лекции читать молодым докторам,

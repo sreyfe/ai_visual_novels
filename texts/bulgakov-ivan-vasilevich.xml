@@ -158,9 +158,11 @@
       </docTitle>
       <castList>
         <head>Действуют:</head>
-        <castItem>Зинаида Михайловна – киноактриса.</castItem>
-        <castItem>Ульяна Андреевна – жена управдома.</castItem>
-        <castItem>Бунши.</castItem>
+        <castGroup>
+          <castItem>Зинаида Михайловна – киноактриса.</castItem>
+          <castItem>Ульяна Андреевна – жена управдома.</castItem>
+          <roleDesc>Бунши.</roleDesc>
+        </castGroup>
         <castItem>Царица.</castItem>
         <castItem>Тимофеев – изобретатель.</castItem>
         <castItem>Милославский Жорж.</castItem>
@@ -171,10 +173,18 @@
         <castItem>Дьяк.</castItem>
         <castItem>Шведский посол.</castItem>
         <castItem>Патриарх.</castItem>
-        <castItem>Опричники.</castItem>
-        <castItem>Стольники.</castItem>
-        <castItem>Гусляры.</castItem>
-        <castItem>Милиция.</castItem>
+        <castGroup>
+          <roleDesc>Опричники.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Стольники.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Гусляры.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Милиция.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

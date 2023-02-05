@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 140: menu statement expects a non-empty block.
-    menu:
-        ^
-
-File "game/script.rpy", line 167: menu statement expects a non-empty block.
-    menu:
-        ^
-
-File "game/script.rpy", line 244: menu statement expects a non-empty block.
-    menu:
-        ^
+File "game/script.rpy", line 101: expected statement.
+    "Маркиз д'Орсиньи – дуэлянт, по кличке "Одноглазый, помолись!"."
+                                                      ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Feb  3 19:56:57 2023
+Sun Feb  5 16:24:24 2023
