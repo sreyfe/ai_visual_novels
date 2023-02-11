@@ -169,11 +169,15 @@
         </castGroup>
         <castItem>Фолет, новопоселившийся гишпанец.</castItem>
         <castItem>Фердинанд, подчиненный Гусмана.</castItem>
-        <castItem>Воины гишпанские.</castItem>
-        <castItem>Воины американские.</castItem>
+        <castGroup>
+          <roleDesc>Воины гишпанские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Воины американские.</roleDesc>
+        </castGroup>
       </castList>
       <set>
-        <p>Действие в Америке.</p>
+        <stage>Действие в Америке.</stage>
       </set>
     </front>
     <body>

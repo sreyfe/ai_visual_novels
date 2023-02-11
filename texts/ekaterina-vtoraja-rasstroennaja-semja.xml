@@ -76,6 +76,7 @@
           </person>
           <person xml:id="ivan_sobrin" sex="MALE">
             <persName>Иван Собрин</persName>
+            <persName type="variant">Иван Панкратьевич</persName>
             <persName xml:lang="ger">Johann Pankratjewitsch</persName>
           </person>
           <person xml:id="takkov" sex="MALE">
@@ -93,6 +94,10 @@
           <person xml:id="dobrin" sex="MALE">
             <persName>Добрин</persName>
             <persName xml:lang="ger">Dobrin</persName>
+          </person>
+          <person xml:id="zinka" sex="MALE">
+            <persName>Зинька</persName>
+            <persName xml:lang="ger">Zinka</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#sobrin" passive="#prelesta #ivan_sobrin"/>
@@ -3232,7 +3237,7 @@
           </sp>
           <sp who="#sobrin">
             <speaker>Собрин.</speaker>
-            <p>Зинька, Зинька! <stage>(Зинька приодит)</stage>. Позови Прелесту.</p>
+            <p>Зинька, Зинька! <stage>(Зинька приходит)</stage>. Позови Прелесту.</p>
             <stage>(Зинька уходит).</stage>
           </sp>
           <sp who="#sobrina">

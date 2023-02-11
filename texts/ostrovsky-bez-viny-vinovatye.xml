@@ -4246,7 +4246,9 @@
           <castItem>Дудукин.</castItem>
           <castItem>Шмага.</castItem>
           <castItem>Муров.</castItem>
-          <castItem>Гости и прислуга.</castItem>
+          <castGroup>
+            <roleDesc>Гости и прислуга.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Лунная ночь. Площадка в большом барском саду, окруженная старыми липами; на площадке
           скамейки и столики ясеневые, на чугунных ножках; на сцену выходит терраса большого дома, у

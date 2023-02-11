@@ -4,109 +4,664 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23e487f5-dfaf-4add-a882-319e4e1052b7" name="Changes" comment="changed code a bit">
-      <change afterPath="$PROJECT_DIR$/pictures/background/13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/characters/male/31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/characters/male/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/characters/male/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/characters/male/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/characters/male/35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/audio/sounds/female_blow_candle.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/audio/sounds/horse_run.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/audio/sounds/male_blow_candle.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/audio/sounds/male_cough.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/bg/13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/annapetrovna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/avdotjanazarovna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/babakina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvyortyjgost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/djadin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/egorushka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/elenaandreevna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/fedja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/fedorivanovich.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gusev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/hirin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ivanov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/julja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kucher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kuzma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lomov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/luka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lvov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marja_egorovna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marjavasilevna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/merchutkina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/merik.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/natalja_stepanovna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nazarovna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/orlovskij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/perviygost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pochtalyon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/popova.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sasha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/savva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/serebrjakov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shabelskij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shipuchin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/smirnov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/smotritel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sonja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tatjanaalekseevna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tihon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretijgost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vasilij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vojnitskij.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtorojgost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zajtsev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zheltuhin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zinaidasavishna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zinochka.png" afterDir="false" />
+    <list default="true" id="23e487f5-dfaf-4add-a882-319e4e1052b7" name="Changes" comment="code refactoring">
+      <change afterPath="$PROJECT_DIR$/audio/music/14.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/15.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/16.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/17.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/18.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/19.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/20.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/21.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/22.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/23.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/24.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/25.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/26.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/27.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/28.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/music/29.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/21.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/29.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/background/30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/female/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/male/70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/characters/unknown/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/14.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/15.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/16.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/17.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/18.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/19.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/20.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/21.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/22.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/23.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/24.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/25.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/26.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/27.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/28.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/music/29.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/audio/sounds/kisses.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/21.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/29.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/bg/30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/amerikanec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/amvrosij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/andrej.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/angel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/angelskij_golos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/angely.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/anglichanin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/anisia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/anna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/annaivanovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/annushka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/argamakov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/arina_ivanovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/avdotja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/avstraliec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/avstralijka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/bashilov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/basmanov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/bayan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/bedonegova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/belskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/benigsen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/bosoj_paren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/buchinskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/buhgalter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/bulochnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chelovek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/cheprakov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chert_ceremonijmejster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/cherti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_posadskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_pozharnyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chinovnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/chistye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/cyplunov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/cyplunova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/darja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dasha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/desjatskie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/desjatskij_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/desjatskij_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/deti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devjatyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devushka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devushka_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devushka_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devushki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/devyatyj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/diplomat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/direktor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dmitrij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dmitrij_shujskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dobrotvorskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/drugie_streltsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dudukin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dunja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dvojkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/dvoretskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/edy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/efimovich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/elizaveta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/evgenija_pavlovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/feldfebel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/filatov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/fonarschik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/fortunkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/fosforicheskaja_zhenschina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/francuz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/galchiha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gardanov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gavrilo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/glumov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gnevyshov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gof_furery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golitsyn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_2_4c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_2_4d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_2_4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_2_4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_chertej_3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_chertej_3b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_chertej_3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_tolpy_chistyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_gostej.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_tolpa_2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_v_narode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_vse_odni_drugie_4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golosa_zagovorschikov_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/golovkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gordejkarpych.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gornichnaya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/grigoriy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/gruber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/guslin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/horkov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/horkova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/horom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/iezuit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ilja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/istopnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/italianets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ivan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ivan_ivanovich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/iz_za_sceny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/izobretatel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/izvozchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/jashvil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/jurodivyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kadykov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kalachnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kalistratka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kameristka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kapeldiner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kapitan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/karandyshev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/karaulny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/katja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kharchin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kirillov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kitaec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/klokachev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/knurov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kochergin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/konev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/konstantin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/korinkina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/korshunov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/krasavin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/krasnoarmeec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kriki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kruchinina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kruton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kuchumov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kukarnikova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kupec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kupets_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kupets_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kupets_novgorodskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kuptsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kurakin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kushelev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kutajsov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kuzmich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/kuznec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lakej.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/larisa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lidia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/lidiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/liven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/liza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ljubimkarpych.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ljubovgordeevna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ljudmila.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mafusail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/malchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/malchishki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mamaev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mansurov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marfa_lukinishna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marija_fedorovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marja_andreevna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/marzheret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/masalskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/masha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mashinist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mashiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/melochnoj_torgovets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/merich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mezaljansova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mihail_lomonosov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/milana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/milashin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/milicioner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/militsioner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/milovzorov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mitja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mnishek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/modstrih.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/molchanov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/molodoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/molodoj_rabochij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/molokov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/molot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/momentalnikov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mordvinov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mosevna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/mstislavskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/murov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/muzhchina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/naborshchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nachalnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nadezhda_antonovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nadmen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/narod_1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/naryshkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nechistye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nechistyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/negus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nemec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nemtsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/neskolko_golosov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/neznamov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nikolaj_zubov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/nochkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/novgorodskie_streltsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ober_chert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/odin_golos_1_4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/odin_golos_1_4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/odin_iz_angelov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/odin_iz_tolpy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/odna_iz_tolpy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ofitser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ofitsiant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ogudalova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ohotnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/olesnitskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/orator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/osipov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/osipova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/otradina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/panfil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pankratevna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/paratov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/paren_s_knigoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/parikmaher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/parohod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/parovoz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pasha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/passazhiry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pavel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pelagejaegorovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervaja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervajagostja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervaya_devushka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervaya_staruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_4_1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_4_1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_4_1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_golos_iz_naroda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_krestjanin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_kupets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_molodoj_chelovek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_muzhchina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_posadskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_pozharnyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_starik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_vestovoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_vrach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pila.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/piramidalov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pjatyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pjatyj_posadskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/platon_zubov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/plotnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pobedonosikov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/podjachij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/polja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/poljaki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/poltoratskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pont_kich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/posazhennaya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/povar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pozharnye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prachka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/preddomkoma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/predsedatel_soveta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prisypkin_skripkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prodavec_kleya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prodavec_knig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prodavec_seldej.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prodavec_sharov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/professor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prohodyaschij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prositel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/prositelnitsa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pskovskie_streltsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pugovichnyj_raznoschik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pyatyj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pyatyj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/pyatyj_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/radzha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rasporyaditel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/razljuljaev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschica_duhov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschica_galanterei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschica_yablok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschik_igrushek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschik_kukol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschik_seledok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/razruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rezhisser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/robinzon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rodzherson.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ropshinskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rosina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rozaliya_pavlovna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rozen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rupert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/rybak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sapozhnik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/savaof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/schelkalov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/scherbatova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/schetkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sedmoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sedmoj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shafer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shelavina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shestoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shestoj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shestoj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shestoj_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shestoj_vrach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shmaga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/shveya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sidyaschie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/skarjatin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/skopin_shujskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/slesar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sluga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/soglashatel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/soldaty_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/soldaty_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/soldaty_5_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sotnik_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/sotnik_streletskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/starik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/starik_v_lohmotjah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/staruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/staryj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/strannik_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/strannik_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/strelets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/streltsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/strujkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/suhozilov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/suhozilova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/svyatye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/talyzin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tanja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tatarin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tatarinov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tatischev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/telyatev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/titov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/torgovka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_4_1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_4_1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_4_1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_krestjanin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_kupets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_posadskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_pozharnyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretij_starik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretya_devushka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tretya_staruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/triumviratov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/trojkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/trubochist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tsaritsa_marfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tuchkov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tutolmin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/tuzov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/uborschik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/underton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/valerian_zubov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/valuev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vanjushin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vasilij_shujskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vasilkov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vavochka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/velenev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/veleneva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/velzevul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/ves_narod_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/veschi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vishnevetskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vlasev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vojska_vse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vojsko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/volkonskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/volkova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vorotov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vorotynskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vosmoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vosmoj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vosmoj_reporter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vostorzhennyj_golos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vostorzhennyj_golos_sverhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vozhak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vozhevatov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vrach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vse_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vse_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoraja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoraja_staruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtorajagostja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoraya_devushka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoraya_staruha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_4_1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_4_1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_4_1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_angel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_gazetchik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_golos_iz_naroda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_krestjanin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_kupets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_kupets_moskovskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_molodoj_chelovek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_posadskij.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_pozharnyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_sluzhitel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_starik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_vestovoj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_vrach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zaporozhtsy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zasypkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zhenschina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zhenschina_v_kapote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/game/images/characters/zhenskij_vizg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/characters/male/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/characters/male/14.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/errors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/cache/bytecode.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/cache/bytecode.rpyb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/cache/screens.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/cache/screens.rpyb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/cache/shaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/cache/shaders.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/chelovek_v_palto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/dama.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/baryshni.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/devushka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/drugoj.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/lebedev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/drugoj_trete_videnie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/gauptman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/goluboj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/gospodin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/semen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/gost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/hozjain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/hozjain_trete_videnie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/hozjajka.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/efimovna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/kto_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/golos_iz_ugla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/misha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/molodoj_chelovek.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/muzhchina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/neznakomka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/odin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/pervyj.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/kosyh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/pervyj_sobutylnik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/poet.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/hruschov.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/polovoj.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/petr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/razjarennye_dvorniki.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/golosavzale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/raznye_golosa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/ryzhij_gospodin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chubukov.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/seminarist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/sobesednik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/starik.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chlenbanka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/tretij_usatyj.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/bortsov.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/verlen.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/borkin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/vtoroj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/vtoroj_sobutylnik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zhorzh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zvezdochet.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/gavrila.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/annapetrovna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/anna_petrovna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/avdotjanazarovna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/korela.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/babakina.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/klavdija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/baryshni.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/elzevira.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/borkin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/bibikov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/bortsov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/optimistenko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/chetvyortyjgost.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/shahter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/chlenbanka.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/ametistov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/chubukov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/belonosov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/djadin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/shenshin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/efimovna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/anja.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/egorushka.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/egorushka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/elenaandreevna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/inna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/fedja.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/fedja.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/fedorivanovich.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/benevolenskij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/gavrila.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/belvedonskij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/golos_iz_ugla.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/characters/unknown/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/golosavzale.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/characters/unknown/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/gusev.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/foskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/hirin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chetvertyj_kupets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/hruschov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/aleksandr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/ivanov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/palen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/julja.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/zoya_berezkina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/kosyh.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/pers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/kucher.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/kucher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/kuzma.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/pervyj_kupets_moskovskij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/lebedev.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/dolgorukij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/lomov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chudakov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/luka.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschik_tochilnyh_kamnej.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/lvov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/vtoroj_reporter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/marja_egorovna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/belesova.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/marjavasilevna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/karpovna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/merchutkina.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/pervaja_staruha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/merik.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chesnodum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/natalja_stepanovna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/akulina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/nazarovna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/orlovskij.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/chumakov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/perviygost.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/grigorij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/petr.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/grenader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/pochtalyon.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/aleksej.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/popova.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/anisja_tihonovna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/sasha.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/dama.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/savva.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/sharov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/semen.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/depreradovich.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/serebrjakov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/kupets_1_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/shabelskij.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/kutska.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/shipuchin.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/intelligenciya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/smirnov.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/sedmoj_gazetchik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/smotritel.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/shirinkin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/sonja.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/evfrosinjapotapovna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/tatjanaalekseevna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/tihon.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/raznoschik_abazhurov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/tretijgost.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/gost.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/vasilij.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/vasilij.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/vojnitskij.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/shofer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/vtorojgost.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/batrak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zajtsev.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/velosipedkin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zheltuhin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zinaidasavishna.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/images/characters/arina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/images/characters/zinochka.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/_reload-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/_reload-2-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-1-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-1-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-10-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-10-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-2-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/game/saves/auto-3-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-3-LT1.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/game/saves/auto-3-LT1.save" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-4-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-4-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-5-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-5-LT1.save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/game/saves/auto-6-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/saves/auto-6-LT1.save" afterDir="false" />
@@ -119,28 +674,80 @@
       <change beforePath="$PROJECT_DIR$/test/game/script.rpyc" beforeDir="false" afterPath="$PROJECT_DIR$/test/game/script.rpyc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/traceback.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/traceback.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/andreyev-mysl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/andreyev-mysl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/artsybashev-revnost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/artsybashev-revnost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/babel-marija.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/babel-marija.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/babel-zakat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/babel-zakat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/blok-korol-na-ploschadi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/blok-korol-na-ploschadi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/blok-neznakomka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/blok-neznakomka.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-adam-i-eva.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-adam-i-eva.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-batum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-batum.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-beg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-beg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-dni-turbinyh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-dni-turbinyh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-ivan-vasilevich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-ivan-vasilevich.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/texts/bulgakov-kabala-svjatosh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-kabala-svjatosh.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/texts/bulgakov-poloumnyj-zhurden.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-poloumnyj-zhurden.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/texts/bulgakov-poslednie-dni.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-poslednie-dni.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/bulgakov-zojkina-kvartira.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/bulgakov-zojkina-kvartira.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/chekhov-chaika.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-chaika.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/chekhov-ivanov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-ivanov.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/chekhov-jubilej.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-jubilej.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/chekhov-na-bolshoi-doroge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-na-bolshoi-doroge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts/chekhov-svadba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-svadba.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/chekhov-tatjana-repina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-tatjana-repina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/chekhov-tri-sestry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-tri-sestry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/chekhov-vishnevyi-sad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/chekhov-vishnevyi-sad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/dashkova-toisiokov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/dashkova-toisiokov.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ekaterina-vtoraja-iz-zhizni-rjurika.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ekaterina-vtoraja-iz-zhizni-rjurika.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ekaterina-vtoraja-rasstroennaja-semja.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ekaterina-vtoraja-rasstroennaja-semja.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/fonvizin-korion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/fonvizin-korion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/fonvizin-vybor-guvernera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/fonvizin-vybor-guvernera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/glinka-velzen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/glinka-velzen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gogol-igroki.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gogol-igroki.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gogol-otryvok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gogol-otryvok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gogol-revizor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gogol-revizor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gorky-egor-bulychov-i-drugie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gorky-egor-bulychov-i-drugie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gorky-na-dne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gorky-na-dne.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gorky-vassa-zheleznova.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gorky-vassa-zheleznova.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gumilyov-akteon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gumilyov-akteon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/gumilyov-gondla.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/gumilyov-gondla.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kapnist-antigona.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kapnist-antigona.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kedrin-rembrandt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kedrin-rembrandt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kheraskov-osvobozhdennaja-moskva.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kheraskov-osvobozhdennaja-moskva.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kheraskov-plamena.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kheraskov-plamena.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kheraskov-venecianskaya-monahinya.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kheraskov-venecianskaya-monahinya.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/khlebnikov-snezhimochka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/khlebnikov-snezhimochka.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/khmelnitsky-govorun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/khmelnitsky-govorun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/khmelnitsky-svetskiy-sluchay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/khmelnitsky-svetskiy-sluchay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/khmelnitsky-vozdushnye-zamki.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/khmelnitsky-vozdushnye-zamki.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-chudaki.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-chudaki.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-didona.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-didona.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-hvastun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-hvastun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-neudachnyj-primiritel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-neudachnyj-primiritel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-olga.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-olga.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-rosslav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-rosslav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/knyazhnin-vadim-novgorodskij.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/knyazhnin-vadim-novgorodskij.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kokoshkin-vospitanie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kokoshkin-vospitanie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/kropotov-fomushka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/kropotov-fomushka.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-amerikantsy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-amerikantsy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-filomela.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-filomela.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-modnaja-lavka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-modnaja-lavka.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-podschipa-ili-trumf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-podschipa-ili-trumf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-prokazniki.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-prokazniki.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-sonnyj-poroshok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-sonnyj-poroshok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/krylov-urok-dochkam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/krylov-urok-dochkam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lazhechnikov-okopirovalsya.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lazhechnikov-okopirovalsya.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lensky-horosha-i-durna.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lensky-horosha-i-durna.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lermontov-maskarad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lermontov-maskarad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lermontov-menschen-und-leidenschaften.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lermontov-menschen-und-leidenschaften.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lermontov-strannyj-chelovek.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lermontov-strannyj-chelovek.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/leskov-rastochitel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/leskov-rastochitel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lomonosov-demofont.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lomonosov-demofont.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/lomonosov-tamira-i-selim.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/lomonosov-tamira-i-selim.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/majkov-agriopa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/majkov-agriopa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/majkov-femist-i-ieronima.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/majkov-femist-i-ieronima.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/mamin-sibirjak-malenkaja-pravda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/mamin-sibirjak-malenkaja-pravda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/mayakovsky-banja.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/mayakovsky-banja.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/mayakovsky-klop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/mayakovsky-klop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/mayakovsky-misteriya-buff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/mayakovsky-misteriya-buff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/merezhkovsky-pavel-pervyj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/merezhkovsky-pavel-pervyj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/naydyonov-deti-vanjushina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/naydyonov-deti-vanjushina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/nekrasov-akter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/nekrasov-akter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/nekrasov-junost-lomonosova.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/nekrasov-junost-lomonosova.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/nekrasov-shila-v-meshke-ne-utaish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/nekrasov-shila-v-meshke-ne-utaish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/nekrasov-zabrakovannye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/nekrasov-zabrakovannye.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-bednaja-nevesta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-bednaja-nevesta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-bednost-ne-porok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-bednost-ne-porok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-beshenye-dengi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-beshenye-dengi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-bespridannitsa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-bespridannitsa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-bez-viny-vinovatye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-bez-viny-vinovatye.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts/ostrovsky-dmitrij-samozvanets-i-vasilij-shujskij.xml" beforeDir="false" afterPath="$PROJECT_DIR$/texts/ostrovsky-dmitrij-samozvanets-i-vasilij-shujskij.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transform_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/transform_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Машенька/transform_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Машенька/transform_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,12 +821,20 @@
       <option name="project" value="LOCAL" />
       <updated>1675537977664</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code refactoring">
+      <created>1675623966897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675623966897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed code a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed code a bit" />
+    <MESSAGE value="code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refactoring" />
   </component>
 </project>

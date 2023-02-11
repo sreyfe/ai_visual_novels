@@ -114,6 +114,9 @@
           <personGrp xml:id="vse_5-9" sex="UNKNOWN">
             <name>Все (V/9)</name>
           </personGrp>
+          <person xml:id="syn" sex="MALE">
+            <persName>Сын</persName>
+          </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#ehdvald" passive="#floran"/>
             <relation name="parent_of" active="#inslar" passive="#godmila"/>
@@ -170,7 +173,9 @@
         <castItem>Малолетний сын Вельзенов.</castItem>
         <castItem>Тайный посол от Англии.</castItem>
         <castItem>Раненый служитель.</castItem>
-        <castItem>Вестники, воины и народ.</castItem>
+        <castGroup>
+          <roleDesc>Вестники, воины и народ.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в древнем Амстердаме.</p>
@@ -179,7 +184,7 @@
     <body>
       <div type="act">
         <head>Действие I</head>
-        <stage>Театр представляет замок Иисларов, окруженный лесом; с правой стороны высокие горы,
+        <stage>Театр представляет замок Инсларов, окруженный лесом; с правой стороны высокие горы,
           на них видно несколько древних замков: вдали синеющее море. Луна светит. Инслар, Эрик и
           Гильдерберг стоят при входе пещеры, ведущей в подземелья замка.</stage>
         <div type="scene">

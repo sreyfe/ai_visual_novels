@@ -5148,7 +5148,9 @@
           <castItem>Илья.</castItem>
           <castItem>Гаврило.</castItem>
           <castItem>Иван.</castItem>
-          <castItem>Цыгане и цыганки.</castItem>
+          <castGroup>
+            <roleDesc>Цыгане и цыганки.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Декорация первого действия. Светлая летняя ночь.</stage>
         <div type="scene">

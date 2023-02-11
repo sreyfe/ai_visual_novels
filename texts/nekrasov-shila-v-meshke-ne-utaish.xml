@@ -118,7 +118,9 @@
         <castItem>Розина, племянница Руперта.</castItem>
         <castItem>Анисья, служанка Руперта.</castItem>
         <castItem>Слуга доктора.</castItem>
-        <castItem>Слуги без речей.</castItem>
+        <castGroup>
+          <roleDesc>Слуги без речей.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -344,11 +346,12 @@
           </sp>
           <sp who="#fortunkin">
             <speaker>Фортункин.</speaker>
+            <note place="foot">Excellentissime, prestantissime : Превосходно, отлично (лат.)</note>
             <p>Ах, Розина! за всякой запятой не угонишься. То было тогда, а это теперь. Тогда я был
               студент -- теперь я свободен, как ветер в небе, как птица в <pb n="221"/> воздухе, как
               инфузория в воде. Вот моя радость, большая пергаментная радость, с гербом, с
               печатями... <stage>(Вынимает бумагу и читает.)</stage> Excellentissime,
-                prestantissime.<note place="foot">Превосходно, отлично (лат.)</note></p>
+                prestantissime.</p>
           </sp>
           <sp who="#rosina">
             <speaker>Розина.</speaker>

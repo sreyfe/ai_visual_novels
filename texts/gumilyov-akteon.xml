@@ -54,7 +54,7 @@
           <person xml:id="ehion" sex="MALE">
             <persName>Эхион</persName>
           </person>
-          <person xml:id="agava" sex="MALE">
+          <person xml:id="agava" sex="FEMALE">
             <persName>Агава</persName>
           </person>
           <person xml:id="akteon" sex="MALE">
@@ -144,9 +144,18 @@
         <castItem>Актеон, сын Кадма.</castItem>
         <castItem>Агава, жена Эхиона.</castItem>
         <castItem>Диана.</castItem>
-        <castItem>Крокале, Ранис, Хиале, нимфы Дианы.</castItem>
-        <castItem>Трое юношей, спутники Актеона.</castItem>
-        <castItem>Три пса, преследующие Актеона.</castItem>
+        <castGroup>
+          <castItem>Крокале,</castItem>
+          <castItem>Ранис,</castItem>
+          <castItem>Хиале,</castItem>
+          <roleDesc>нимфы Дианы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Трое юношей, спутники Актеона.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Три пса, преследующие Актеона.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Место действия — долина Гаргафии, покрытая тёмным кипарисовым лесом. В глубине — пещера
@@ -755,7 +764,7 @@
           <l>Хуже самого последнего сатира.</l>
         </sp>
         <stage>Занавес</stage>
-        <p>1913</p>
+        <stage>1913</stage>
       </div>
     </body>
   </text>

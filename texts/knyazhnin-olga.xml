@@ -119,8 +119,12 @@
         <castItem>Мирвед, наперсник Ольгин.</castItem>
         <castItem>Всевеста, наперсница Ольгина.</castItem>
         <castItem>Зловред, наперсник Малов.</castItem>
-        <castItem>Воины.</castItem>
-        <castItem>Жрецы.</castItem>
+        <castGroup>
+          <roleDesc>Воины.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Жрецы.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

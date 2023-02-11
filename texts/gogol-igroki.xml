@@ -69,6 +69,7 @@
           </person>
           <person xml:id="aleksandr_mihalych_glov" sex="MALE">
             <persName>Александр Михалыч Глов</persName>
+            <persName type="variant">Глов</persName>
           </person>
           <person xml:id="zamuhryshkin" sex="MALE">
             <persName>Замухрышкин</persName>
@@ -115,9 +116,9 @@
           <quote>Дела давно минувших дней.</quote>
         </cit>
       </epigraph>
+      <set>Комната в городском трактире.</set>
     </front>
     <body>
-      <stage>Комната в городском трактире.</stage>
       <div type="scene">
         <head>Явление I</head>
         <stage>Ихарев входит в сопровождении трактирного слуги Алексея и своего собственного,

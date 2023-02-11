@@ -120,10 +120,10 @@
   </standOff>
   <text>
     <front>
-      <div type="front">
-        <head>Подщипа или Трумф</head>
-        <p>Шуто-трагедия в двух действиях, в стихах</p>
-      </div>
+      <docTitle>
+        <titlePart type="main">Подщипа или Трумф</titlePart>
+        <titlePart type="sub">Шуто-трагедия в двух действиях, в стихах</titlePart>
+      </docTitle>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Царь Вакула.</castItem>
@@ -134,7 +134,9 @@
         <castItem>Чернавка, наперсница Подщипы.</castItem>
         <castItem>Паж царя Вакулы.</castItem>
         <castItem>Цыганка.</castItem>
-        <castItem>Бояре, члены совета царя Вакулы.</castItem>
+        <castGroup>
+          <roleDesc>Бояре, члены совета царя Вакулы.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в палатах царя Вакулы.</p>

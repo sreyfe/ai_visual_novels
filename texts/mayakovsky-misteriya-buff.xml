@@ -63,10 +63,12 @@
           <person xml:id="ohotnik" sex="MALE">
             <persName>Охотник</persName>
             <persName type="variant">Эскимос</persName>
+            <persName type="variant">Эскимос-охотник</persName>
             <persName xml:lang="ger">Der Eskimo-Jäger</persName>
           </person>
           <person xml:id="rybak" sex="MALE">
             <persName>Рыбак</persName>
+            <persName type="variant">Эскимос-рыбак</persName>
             <persName xml:lang="ger">Der Eskimo-Fischer</persName>
           </person>
           <person xml:id="nemec" sex="MALE">
@@ -79,6 +81,7 @@
           </person>
           <person xml:id="avstralijka" sex="FEMALE">
             <persName>Австралийка</persName>
+            <persName type="variant">Жена австралийца</persName>
             <persName xml:lang="ger">Die Australierin</persName>
           </person>
           <person xml:id="anglichanin" sex="MALE">
@@ -95,6 +98,7 @@
           </person>
           <person xml:id="kupec" sex="MALE">
             <persName>Купец</persName>
+            <persName type="variant">Спекулянт</persName>
             <persName type="variant">Купчина</persName>
             <persName xml:lang="ger">Der Kaufherr</persName>
           </person>
@@ -227,6 +231,7 @@
           </personGrp>
           <person xml:id="pervyj_vestovoj" sex="UNKNOWN">
             <persName>1-й вестовой</persName>
+            <persName type="variant">Вестовой</persName>
             <persName xml:lang="ger">Der erste Meldeteufel</persName>
           </person>
           <person xml:id="vtoroj_vestovoj" sex="UNKNOWN">
@@ -280,6 +285,7 @@
           </person>
           <person xml:id="vtoroj_angel" sex="UNKNOWN">
             <persName>Второй ангел</persName>
+            <persName type="variant">2-й ангел</persName>
             <persName xml:lang="ger">Der zweite Engel</persName>
           </person>
           <person xml:id="savaof" sex="MALE">
@@ -325,6 +331,12 @@
           <person xml:id="molot" sex="UNKNOWN">
             <persName>Молот</persName>
             <persName xml:lang="ger">Der Hammer</persName>
+          </person>
+          <person xml:id="ober_chert" sex="UNKNOWN">
+            <persName>Обер-черт</persName>
+          </person>
+          <person xml:id="karaulny" sex="UNKNOWN">
+            <persName>Караульный</persName>
           </person>
           <listRelation type="personal">
             <relation name="spouses" mutual="#avstraliec #avstralijka"/>
@@ -430,7 +442,9 @@
           <castItem>3) Вестовой,</castItem>
           <castItem>4) 2-й вестовой,</castItem>
           <castItem>5) Караульный,</castItem>
-          <castItem>6) 20 чистых с рогами и хвостами.</castItem>
+          <castGroup>
+            <roleDesc>6) 20 чистых с рогами и хвостами.</roleDesc>
+          </castGroup>
         </castGroup>
         <castGroup>
           <head>7. Святые:</head>
@@ -440,7 +454,9 @@
           <castItem>4) Гавриил,</castItem>
           <castItem>5) Ангел,</castItem>
           <castItem>6) 2-й ангел и</castItem>
-          <castItem>7) ангелы.</castItem>
+          <castGroup>
+            <roleDesc>7) ангелы.</roleDesc>
+          </castGroup>
         </castGroup>
         <castItem>8. Саваоф.</castItem>
         <castGroup>
@@ -457,9 +473,9 @@
           <castItem>10) Хлеб,</castItem>
           <castItem>11) Соль,</castItem>
           <castItem>12) Сахар,</castItem>
-          <castItem>13) Материя, 14)</castItem>
-          <castItem>Сапог, 15)</castItem>
-          <castItem>Доска с рычагом.</castItem>
+          <castItem>13) Материя,</castItem>
+          <castItem>14) Сапог,</castItem>
+          <castItem>15) Доска с рычагом.</castItem>
         </castGroup>
         <castItem>10. Человек будущего.</castItem>
       </castList>

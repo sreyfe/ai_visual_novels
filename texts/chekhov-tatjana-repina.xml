@@ -257,7 +257,9 @@
         <castItem>Кузьма, церковный сторож.</castItem>
         <castItem>Дама в черном.</castItem>
         <castItem>Товарищ прокурора.</castItem>
-        <castItem>Актеры и актрисы.</castItem>
+        <castGroup>
+          <roleDesc>Актеры и актрисы.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -334,7 +336,7 @@
           <speaker>О. Иван</speaker>
           <stage>(берет с налоя венец и обращается лицом к Сабинину).</stage>
           <p>Венчается раб божий Петр рабе божией Вере во имя отца и сына и святаго духа, аминь.
-              <stage>(Передает венец Котелъникову.)</stage></p>
+              <stage>(Передает венец Котельникову.)</stage></p>
         </sp>
         <sp who="#VTolpe">
           <speaker>В толпе.</speaker>

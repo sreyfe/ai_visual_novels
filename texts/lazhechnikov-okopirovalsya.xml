@@ -53,6 +53,7 @@
           </person>
           <person xml:id="rezinkin" sex="MALE">
             <persName>Резинкин</persName>
+            <persName type="variant">Александр Парфеныч</persName>
           </person>
           <person xml:id="grivennichkin" sex="MALE">
             <persName>Гривенничкин</persName>
@@ -77,6 +78,7 @@
           </person>
           <person xml:id="rezinkina" sex="FEMALE">
             <persName>Резинкина</persName>
+            <persName type="variant">Марфа Осиповна</persName>
           </person>
           <person xml:id="raznesenskij" sex="MALE">
             <persName>Разнесенский</persName>
@@ -98,6 +100,7 @@
           </personGrp>
           <person xml:id="muzykant" sex="MALE">
             <persName>Музыкант</persName>
+            <persName type="variant">Шарманщик</persName>
           </person>
           <person xml:id="odin_iz_cygan" sex="MALE">
             <persName>Один из цыган</persName>
@@ -179,9 +182,14 @@
         <castItem>Дворовый человек.</castItem>
         <castItem>Половой.</castItem>
         <castItem>Кухарка Поддевкиной.</castItem>
-        <castItem>Мальчик и девочка, лет по девяти.</castItem>
-        <castItem>Шарманщик и с ним женщина.</castItem>
-        <castItem>Цыгане.</castItem>
+        <castGroup>
+          <roleDesc>Мальчик и девочка, лет по девяти.</roleDesc>
+        </castGroup>
+        <castItem>Шарманщик</castItem>
+        <castItem>и с ним женщина.</castItem>
+        <castGroup>
+          <roleDesc>Цыгане.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в губернском городе.</p>

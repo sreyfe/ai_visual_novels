@@ -58,9 +58,11 @@
           </person>
           <person xml:id="gospozha_kuterma" sex="FEMALE">
             <persName>Г-жа Кутерьма</persName>
+            <persName type="variant">Госпожа Кутерьма</persName>
           </person>
           <person xml:id="gospodin_kuterma" sex="MALE">
             <persName>Г. Кутерьма</persName>
+            <persName type="variant">Господин Кутерьма</persName>
           </person>
           <person xml:id="mirotvor" sex="MALE">
             <persName>Миротвор</persName>

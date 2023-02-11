@@ -143,7 +143,9 @@
         <castItem>Портной</castItem>
         <castItem>Приказчик.</castItem>
         <castItem>Благочинный.</castItem>
-        <castItem>Лакеи, гейдуки, скороходы Верхолетовы.</castItem>
+        <castGroup>
+          <roleDesc>Лакеи, гейдуки, скороходы Верхолетовы.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Петербурге, в наемном доме, где Верхолет и Чванкина живут.</p>

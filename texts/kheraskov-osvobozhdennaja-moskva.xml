@@ -88,6 +88,7 @@
           </person>
           <person xml:id="getman_zhelkovskij" sex="MALE">
             <persName>Гетман Желковский</persName>
+            <persName type="variant">Желковский</persName>
           </person>
           <person xml:id="vestnik" sex="MALE">
             <persName>Вестник</persName>
@@ -100,6 +101,7 @@
           </person>
           <person xml:id="voenachalnik_polskij" sex="MALE">
             <persName>Военачальник польский</persName>
+            <persName type="variant">Страженачальник польский</persName>
           </person>
           <person xml:id="velmozha" sex="MALE">
             <persName>Вельможа</persName>
@@ -158,7 +160,10 @@
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Князь Димитрий</castItem>
         <castItem>Князь Феодор</castItem>
-        <castItem>Боярин Иоанн бояре московские.</castItem>
+        <castGroup>
+          <castItem>Боярин Иоанн</castItem>
+          <roleDesc>бояре московские.</roleDesc>
+        </castGroup>
         <castItem>Князь Руксалон</castItem>
         <castItem>Князь Пожарский.</castItem>
         <castItem>Леон, сын Димитрия.</castItem>
@@ -170,9 +175,15 @@
         <castItem>Хоткеев, вельможа польский.</castItem>
         <castItem>Вестник российский.</castItem>
         <castItem>Страженачальник польский.</castItem>
-        <castItem>Девицы российские.</castItem>
-        <castItem>Военачальники российские и польские.</castItem>
-        <castItem>Воины российские и польские.</castItem>
+        <castGroup>
+          <roleDesc>Девицы российские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Военачальники российские и польские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Воины российские и польские.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

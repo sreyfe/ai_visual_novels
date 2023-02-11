@@ -47,7 +47,7 @@ CHARACTER_CODE_TO_ROLE_DESC: OrderedDict[str, str] = OrderedDict()
 
 # MENU labels
 CHARACTERS: str = "Characters"
-CHARACTERS_NAME: str = ''  # name of the `CHARACTERS` label
+CHARACTERS_NAMES: str = ''  # name of the `CHARACTERS` label
 ACT: str = "Act"
 SCENE: str = "Scene"
 FURTHER: str = "Further"
@@ -186,8 +186,8 @@ def get_menu(indent: str = ""):
 
     indent += TAB
 
-    if CHARACTERS_NAME:
-        s += f'{indent}"{{color={BLACK_COLOR}}}{CHARACTERS_NAME}{{/color}}":\n'
+    if CHARACTERS_NAMES:
+        s += f'{indent}"{{color={BLACK_COLOR}}}{CHARACTERS_NAMES}{{/color}}":\n'
         s += f'    {indent}jump {CHARACTERS}\n'
 
     num_of_pages: int = (len(ACT_CODES) - 1) // MAX_NUM_OF_VALUES_IN_LIST + 1
@@ -1183,7 +1183,7 @@ def parse_case_list(cast_list, indent: str) -> str:
     notes: List[str] = []
     for elem in cast_list:
         if elem.tag == "head":
-            global CHARACTERS_NAME
+            global CHARACTERS_NAMES
             CHARACTERS_NAME = get_text(elem)
 
             s += f'{indent}"{{b}}{CHARACTERS_NAME}{{/b}}"\n\n'

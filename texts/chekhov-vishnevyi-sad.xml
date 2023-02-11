@@ -118,6 +118,9 @@
             <persName xml:lang="eng">Stationmaster</persName>
             <persName xml:lang="ger">Der Stationsvorsteher</persName>
           </person>
+          <person xml:id="PochtovyjChinovnik" sex="MALE">
+            <persName>Почтовый чиновник</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#LjubovAndreevna" passive="#Anja"/>
             <relation name="parent_of" active="#LjubovAndreevna" passive="#Varja"/>
@@ -186,7 +189,9 @@
         <castItem>Прохожий.</castItem>
         <castItem>Начальник станции.</castItem>
         <castItem>Почтовый чиновник.</castItem>
-        <castItem>Гости, прислуга.</castItem>
+        <castGroup>
+          <roleDesc>Гости, прислуга.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в имении Л. А. Раневской.</p>

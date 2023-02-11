@@ -51,9 +51,11 @@
         <listPerson>
           <person xml:id="tanja" sex="FEMALE">
             <persName>Таня</persName>
+            <persName type="variant">Татьяна</persName>
           </person>
           <person xml:id="evgenija_pavlovna" sex="FEMALE">
             <persName>Евгения Павловна</persName>
+            <persName type="variant">Осипова Евгения Павловна</persName>
           </person>
           <person xml:id="sharov" sex="MALE">
             <persName>Шаров</persName>
@@ -72,6 +74,7 @@
           </person>
           <person xml:id="osipova" sex="FEMALE">
             <persName>Осипова</persName>
+            <persName type="variant">Прасковья Семеновна</persName>
           </person>
           <person xml:id="ljudmila" sex="FEMALE">
             <persName>Людмила</persName>
@@ -84,6 +87,7 @@
           </person>
           <person xml:id="veleneva" sex="FEMALE">
             <persName>Веленьева</persName>
+            <persName type="variant">Агнесса Александровна</persName>
           </person>
           <person xml:id="vavochka" sex="FEMALE">
             <persName>Вавочка</persName>
@@ -359,13 +363,12 @@
           </sp>
           <sp who="#ametistov">
             <speaker>Аметистов.</speaker>
+            <note place="foot"><key>поэт</key><value>(имеется в виду Некрасов Н. А. (1821 -- 1877 гг.), цитируются заключительные строки его стихотворения "Сеятелям" (1876 г.))</value></note>
             <p>Спасибо... Что же, я, пожалуй, останусь. А вот ласковое слово и пьяному человеку
               дорого... Да, дорого. Ведь я вас, барышня, помню еще вот такими... <stage>(Показывает
                 рукой от полу с аршин).</stage> Да... И в гимназию вот вместе с Василем Васильичем
               отдавали, к кладезю всякой премудрости... Да... А вот вы и большие сейчас... "Сейте
-              разумное, доброе, вечное", -- сказал поэт<note place="foot">(имеется в виду Некрасов
-                Н. А. (1821 -- 1877 гг.), цитируются заключительные строки его стихотворения
-                "Сеятелям" (1876 г.))</note>. "Спасибо сердечное вам скажет русский народ".
+              разумное, доброе, вечное", -- сказал поэт. "Спасибо сердечное вам скажет русский народ".
               Доброе-то слово не всякому дано. Истина, добро, красота... <stage>(Смотрит на Евгению
                 Павловну).</stage> Зачем вы меня укорили, барышня?..</p>
           </sp>
@@ -403,8 +406,8 @@
             <p>Дай, братец, папироску. <stage>(Берет ее и закуривает).</stage> А как это сказано у
               поэта:</p>
             <l>Гирей сидел, потупив взор,</l>
-            <l>Кальян в устах его дымился...<note place="foot">(Первые строки поэмы А. С. Пушкина
-                (1799 -- 1837 гг.) "Бахчисарайский фонтан" (1823 г.)).</note></l>
+            <note place="foot"><key>Кальян в устах его дымился...</key><value>(Первые строки поэмы А. С. Пушкина (1799 -- 1837 гг.) "Бахчисарайский фонтан" (1823 г.)).</value></note>
+            <l>Кальян в устах его дымился...</l>
           </sp>
           <sp who="#chumakov">
             <speaker>Чумаков.</speaker>
@@ -791,8 +794,8 @@
               некогда. <stage>(Вынимает часы).</stage> Для нас, простых смертных, время -- деньги...
               Завернул домой предупредить сестру. <stage>(Громко).</stage> Таня!</p>
             <stage>За сценой: "Сейчас".</stage>
-            <p>У нас сегодня устраивается partie des pleaisirs<note place="foot">(пикник на открытом
-                воздухе)</note>, все свои... Не хочешь ли к нам примкнуть?</p>
+            <note place="foot"><key>partie des pleaisirs</key><value>(пикник на открытом воздухе)</value></note>
+            <p>У нас сегодня устраивается partie des pleaisirs, все свои... Не хочешь ли к нам примкнуть?</p>
           </sp>
           <sp who="#sharov">
             <speaker>Шаров.</speaker>
@@ -873,11 +876,13 @@
           </sp>
           <sp who="#aleksej">
             <speaker>Алексей.</speaker>
-            <p>Итак, mesdames<note place="foot">(барышни)</note>, до свиданья!..</p>
+            <note place="foot"><key>mesdames</key><value>(барышни)</value></note>
+            <p>Итак, mesdames, до свиданья!..</p>
           </sp>
           <sp who="#evgenija_pavlovna">
             <speaker>Женя.</speaker>
-            <p>Au revoir, monsieur<note place="foot">(прощайте, сударь)</note>...</p>
+            <note place="foot"><key>Au revoir, monsieur</key><value>(прощайте, сударь)</value></note>
+            <p>Au revoir, monsieur...</p>
           </sp>
           <sp who="#sharov">
             <speaker>Шаров.</speaker>
@@ -3219,8 +3224,8 @@
           <sp who="#velenev">
             <speaker>Коля</speaker>
             <stage>(с азартом).</stage>
-            <p>Я -- я знаю. Я все знаю, а вы не умеете меня спрашивать. Я "Историю" Карамзина<note place="foot">(имеется в виду "История государства Российского" (1818 г.), сочинение
-                Н. М. Карамзина (1766 -- 1826 гг.))</note> вместе с maman читал.</p>
+            <note place="foot"><key>"Историю" Карамзина</key><value>(имеется в виду "История государства Российского" (1818 г.), сочинение Н. М. Карамзина (1766 -- 1826 гг.))</value></note>
+            <p>Я -- я знаю. Я все знаю, а вы не умеете меня спрашивать. Я "Историю" Карамзина вместе с maman читал.</p>
           </sp>
           <sp who="#aleksej">
             <speaker>Алексей</speaker>
@@ -3230,8 +3235,8 @@
           <sp who="#veleneva">
             <speaker>Веленьева</speaker>
             <stage>(поднимается).</stage>
-            <p>Mes enfants, aliens a la maison<note place="foot">(Дети мои, пора
-              домой)</note>...</p>
+            <note place="foot"><key>Mes enfants, aliens a la maison</key><value>(Дети мои, пора домой)</value></note>
+            <p>Mes enfants, aliens a la maison...</p>
           </sp>
           <stage>До свидания, Алексей Васильич. Надеюсь, что вы не будете нас забывать...</stage>
           <sp who="#aleksej">
@@ -3251,8 +3256,8 @@
           <sp who="#veleneva">
             <speaker>Веленьева</speaker>
             <stage>(строго).</stage>
-            <p>Allons... Au revoir, mesdames et messieurs.<note place="foot">(Пойдем... Прощайте,
-                дамы и господа).</note>
+            <note place="foot"><key>Allons... Au revoir, mesdames et messieurs.</key><value>(Пойдем... Прощайте, дамы и господа).</value></note>
+            <p>Allons... Au revoir, mesdames et messieurs.
               <stage>(Делает общий поклон и идет к двери).</stage></p>
           </sp>
           <sp who="#velenev">
@@ -3381,8 +3386,8 @@
             <speaker>Аметистов.</speaker>
             <p>Да, может случиться... Вообще, скверная привычка, когда в доме заводится рабство:</p>
             <l>... И человека человек</l>
-            <l>Послал к анчару властным взглядом.<note place="foot">(Строки из стихотворения А. С.
-                Пушкина "Анчар" (1828 г.)</note></l>
+            <note place="foot"><key>Послал к анчару властным взглядом.</key><value>(Строки из стихотворения А. С. Пушкина "Анчар" (1828 г.)</value></note>
+            <l>Послал к анчару властным взглядом.</l>
           </sp>
           <sp who="#chumakov">
             <speaker>Чумаков.</speaker>
@@ -3703,11 +3708,11 @@
               поет. <stage>(Напевает)</stage>.</p>
             <l>"Милый друг, с рассветом ясным</l>
             <l>Я пришла к тебе с тоской"...</l>
+            <note place="foot"><key>Вот повилика... Вот анютины глазки. А вот розмарин</key><value>(Реплики Офелии из 2-ой сцены 4-вёртого акта трагедии У. Шекспира "Гамлет" приводятся в переводе Н. А. Полевого)</value></note>
             <p>А знаете, кто была эта несчастная девушка? <stage>(Оглядывается).</stage> Пожалуйста,
               никому не сказывайте: это была я... да. <stage>(Плачет и смеется).</stage> Ведь и вы,
               Вавочка, тоже Офелия... <stage>(Бормочет).</stage> "Вот повилика... Вот анютины
-              глазки. А вот розмарин"<note place="foot">(Реплики Офелии из 2-ой сцены 4-вёртого акта
-                трагедии У. Шекспира "Гамлет" приводятся в переводе Н. А. Полевого)</note>...</p>
+              глазки. А вот розмарин"...</p>
           </sp>
           <sp who="#vavochka">
             <speaker>Вавочка.</speaker>
@@ -3725,7 +3730,8 @@
           <stage>Те же и Веленьев.</stage>
           <sp who="#velenev">
             <speaker>Николай.</speaker>
-            <p>Bon jour, mesdames<note place="foot">(Добрый день, барышни)</note>! Татьяна
+            <note place="foot"><key>Bon jour, mesdames</key><value>(Добрый день, барышни)</value></note>
+            <p>Bon jour, mesdames! Татьяна
               Васильевна, новость: maman мне обещала купить велосипед... да...</p>
           </sp>
           <sp who="#tanja">
@@ -4046,9 +4052,10 @@
           </sp>
           <sp who="#veleneva">
             <speaker>Веленьева.</speaker>
+            <note place="foot"><key>mon ange</key><value>(ангел мой)</value></note>
             <p>Ах, мне страшно, дитя мое... Иди ближе ко мне. <stage>(Берет ее за руку и
                 оглядывается).</stage> Мне кажется, что она гонится за нами... да. И ты могла, mon
-                ange<note place="foot">(ангел мой)</note>, оставаться с ней одна?</p>
+                ange, оставаться с ней одна?</p>
           </sp>
           <sp who="#velenev">
             <speaker>Николай.</speaker>
@@ -4521,7 +4528,8 @@
           <stage>Шаров и Аметистов удерживают его; Осипова уводит Таню, за ними идет Женя.</stage>
           <sp who="#veleneva">
             <speaker>Веленьева.</speaker>
-            <p>Mes enfants, allons<note place="foot">(дети мои, пойдемте)</note>...</p>
+            <note place="foot"><key>Mes enfants, allons</key><value>(дети мои, пойдемте)</value></note>
+            <p>Mes enfants, allons...</p>
           </sp>
           <sp who="#aleksej">
             <speaker>Алексей</speaker>

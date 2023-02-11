@@ -59,6 +59,7 @@
           </person>
           <person xml:id="nadezhda_antonovna" sex="FEMALE">
             <persName>Надежда Антоновна</persName>
+            <persName type="variant">Чебоксарова</persName>
             <persName xml:lang="ger">Nadeschda Antonowna</persName>
           </person>
           <person xml:id="lidiya" sex="FEMALE">
@@ -80,6 +81,12 @@
           <person xml:id="vasilij" sex="MALE">
             <persName>Василий</persName>
             <persName xml:lang="ger">Wassilij</persName>
+          </person>
+          <person xml:id="malchik" sex="MALE">
+            <persName>Мальчик из кофейной</persName>
+          </person>
+          <person xml:id="gornichnaya" sex="FEMALE">
+            <persName>Горничная</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#nadezhda_antonovna" passive="#lidiya"/>
@@ -146,7 +153,9 @@
           <castItem>Григорий, слуга Телятева.</castItem>
           <castItem>Николай, слуга Кучумова.</castItem>
           <castItem>Мальчик из кофейной.</castItem>
-          <castItem>Гуляющие.</castItem>
+          <castGroup>
+            <roleDesc>Гуляющие.</roleDesc>
+          </castGroup>
         </castList>
         <stage>В Петровском парке, в саду Сакса; направо от зрителей ворота в парк, налево
           кофейная.</stage>
@@ -1049,8 +1058,8 @@
           <sp who="#kuchumov">
             <speaker>Кучумов</speaker>
             <stage>(издали).</stage>
-            <p>Ма in Ispania, ma in Ispania... mille e tre...<note place="foot">А в Испании, а в
-                Испании... тысяча и три...</note>
+            <note place="foot"><key>Ма in Ispania, ma in Ispania... mille e tre...</key><value>А в Испании, а в Испании... тысяча и три...</value></note>
+            <p>Ма in Ispania, ma in Ispania... mille e tre...
               <stage>(Подходит гордо, подымая голову кверху.)</stage></p>
           </sp>
           <sp who="#telyatev">
@@ -1519,8 +1528,8 @@
           <stage>Кучумов и Надежда Антоновна.</stage>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
-            <p>Мuta d'accento e de pensier...<note place="foot">Меняет выражение и
-              мысли...</note></p>
+            <note place="foot"><key>Мuta d'accento e de pensier...</key><value>Меняет выражение и мысли...</value></note>
+            <p>Мuta d'accento e de pensier...</p>
           </sp>
           <sp who="#nadezhda_antonovna">
             <speaker>Надежда Антоновна.</speaker>
@@ -2953,8 +2962,8 @@
           <stage>Надежда Антоновна и Кучумов.</stage>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
-            <p>Расе е gioia son con voi.<note place="foot">Мир и радость пусть будут с
-              вами.</note></p>
+            <note place="foot"><key>Расе е gioia son con voi</key><value>Мир и радость пусть будут с вами.</value></note>
+            <p>Расе е gioia son con voi.</p>
           </sp>
           <sp who="#nadezhda_antonovna">
             <speaker>Надежда Антоновна.</speaker>
@@ -3192,7 +3201,8 @@
           <stage>Андрей уходит.</stage>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
-            <p>Аddio mia carina!<note place="foot">Прощай, моя дорогая!</note> Лечу по вашим
+            <note place="foot"><key>Аddio mia carina!</key><value>Прощай, моя дорогая!</value></note>
+            <p>Аddio mia carina! Лечу по вашим
               делам.</p>
           </sp>
           <sp who="#lidiya">
@@ -3317,8 +3327,9 @@
           </sp>
           <sp who="#telyatev">
             <speaker>Телятев.</speaker>
+            <note place="foot"><key>саvalier serventе</key><value>поклонника</value></note>
             <p>Как жаль, что вы не привыкли! Привыкайте поскорей, а то скучно. Обратимся к старому.
-              Скоро вы заведете саvalier serventе?<note place="foot">поклонника</note></p>
+              Скоро вы заведете саvalier serventе?</p>
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>
@@ -4304,7 +4315,8 @@
           </sp>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
-            <p>Веnissimo.<note place="foot">Отлично.</note> Я никак не мог ожидать, чтобы в такой
+            <note place="foot"><key>Веnissimo</key><value>Отлично.</value></note>
+            <p>Веnissimo. Я никак не мог ожидать, чтобы в такой
               молодой женщине было столько житейской мудрости.</p>
           </sp>
           <sp who="#lidiya">
@@ -4604,10 +4616,11 @@
               <l>Князек надуть тебя намерен</l>
               <l>У Васильковой в два часа.</l>
             </lg>
+            <note place="foot"><key>statua gentilissima</key><value>благороднейшая статуя</value></note>
             <p>И все так точно и надул. Он сродственник, а меня и принимать не приказано. Что же мне
               делать? Уступить даром как-то неловко, что-то за сердце скребет. Подожду их, посмотрю,
               как она его будет провожать. Вот удивятся, вот рты-то разинут, как я встану перед
-              ними, как statua gentilissima.<note place="foot">благороднейшая статуя</note> А статуя
+              ними, как statua gentilissima. А статуя
               Командора, - мне один немец божился до того, что заплакал, - представляет совесть.
               Ужасно будет их положение. А не лучше ли явиться к ним самому, оно, конечно, не совсем
               учтиво... Где они скрываются? <stage>(Подходит к двери и прислушивается.)</stage>
@@ -4873,7 +4886,8 @@
           <sp who="#kuchumov">
             <speaker>Кучумов</speaker>
             <stage>(поет).</stage>
-            <p>In mia mano al fin tu sei!<note place="foot">Ты, наконец, в моих руках!</note></p>
+            <note place="foot"><key>In mia mano al fin tu sei!</key><value>Ты, наконец, в моих руках!</value></note>
+            <p>In mia mano al fin tu sei!</p>
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>
@@ -4882,8 +4896,8 @@
           <sp who="#kuchumov">
             <speaker>Кучумов</speaker>
             <stage>(поет).</stage>
-            <p>Лобзай меня! Твои лобзанья... Аddio mia carina!<note place="foot">Прощай, моя
-                дорогая!</note></p>
+            <note place="foot"><key>Аddio mia carina!</key><value>Прощай, моя дорогая!</value></note>
+            <p>Лобзай меня! Твои лобзанья... Аddio mia carina!</p>
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>
@@ -4897,7 +4911,8 @@
           <sp who="#kuchumov">
             <speaker>Кучумов</speaker>
             <stage>(грозя пальцем).</stage>
-            <p>Но, но, но, господа! Я по правам старой дружбы... Ноnni soit qui mal y pense!<note place="foot">Да будет стыдно тому, кто плохо об этом думает!</note></p>
+            <note place="foot"><key>Ноnni soit qui mal y pense!</key><value>Да будет стыдно тому, кто плохо об этом думает!</value></note>
+            <p>Но, но, но, господа! Я по правам старой дружбы... Ноnni soit qui mal y pense!</p>
           </sp>
           <sp who="#vasilkov">
             <speaker>Васильков</speaker>
@@ -5126,7 +5141,8 @@
           <sp who="#kuchumov">
             <speaker>Кучумов</speaker>
             <stage>(становясь на колена и целуя руку Лидии).</stage>
-            <p>Il segretto per esser felice.<note place="foot">Секрет быть счастливым.</note></p>
+            <note place="foot"><key>Il segretto per esser felice.</key><value>Секрет быть счастливым.</value></note>
+            <p>Il segretto per esser felice.</p>
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>
@@ -5163,11 +5179,11 @@
           </sp>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
+            <note place="foot"><key>Io son rico! tu sei bella!</key><value>Я богат! а ты прекрасна!</value></note>
             <p>Иначе и быть не может, я дал доверенность Василькову, одному знакомому купцу. Я у
               него сына крестил. Он законов не знает и передоверил от себя другому. Какое он мне
               уморительное письмо прислал! Я вам привезу его через десять минут. <stage>(Встает и
-                оглядывает комнату. Поет.)</stage> Io son rico! tu sei bella!<note place="foot">Я
-                богат! а ты прекрасна!</note> Вот это мило и это недурно. Какой у вас вкус! Тут надо
+                оглядывает комнату. Поет.)</stage> Io son rico! tu sei bella! Вот это мило и это недурно. Какой у вас вкус! Тут надо
               зелени. Я пришлю большую пальму и тропических растений. Здесь под пальмой будет место
               наших интимных разговоров. Я это сегодня же пришлю <stage>(Садится подле
                 Лидии.)</stage></p>
@@ -5205,9 +5221,10 @@
           </sp>
           <sp who="#kuchumov">
             <speaker>Кучумов.</speaker>
+            <note place="foot"><key>idol mio</key><value>мой кумир</value></note>
             <p>Пища для разговора дана, следовательно, разговор будет, как вы строго себя ни ведите.
               По-моему, уж если переносить осуждения, так лучше недаром; терпеть напраслину дело
-              ужасное, idol mio.<note place="foot">мой кумир</note> Ведь я вам говорю, через
+              ужасное, idol mio. Ведь я вам говорю, через
               полчаса... ну... могут там встретиться обстоятельства: необходимые взносы; в конторе
               вдруг столько денег нет; ну через день, два... в крайнем случае, через неделю вы
               будете иметь все, больше чего желать невозможно.</p>
@@ -5710,7 +5727,8 @@
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>
-            <p>Un secretaire intime?<note place="foot">Личный секретарь?</note></p>
+            <note place="foot"><key>Un secretaire intime?</key><value>Личный секретарь?</value></note>
+            <p>Un secretaire intime?</p>
           </sp>
           <sp who="#glumov">
             <speaker>Глумов.</speaker>
@@ -6277,7 +6295,8 @@
           </sp>
           <sp who="#telyatev">
             <speaker>Телятев.</speaker>
-            <p>Неправда. Noi siamo poveri.<note place="foot">Мы бедны.</note></p>
+            <note place="foot"><key>Noi siamo poveri</key><value>Мы бедны.</value></note>
+            <p>Неправда. Noi siamo poveri.</p>
           </sp>
           <sp who="#lidiya">
             <speaker>Лидия.</speaker>

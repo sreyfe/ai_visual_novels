@@ -198,6 +198,7 @@
           </person>
           <person xml:id="nachalnik" sex="MALE">
             <persName>Начальник</persName>
+            <persName type="variant">Брандмейстер</persName>
             <persName xml:lang="ger">Der Hauptmann</persName>
           </person>
           <person xml:id="vtoroj_pozharnyj" sex="MALE">
@@ -422,6 +423,7 @@
           </personGrp>
           <person xml:id="predsedatel_soveta" sex="MALE">
             <persName>Председатель совета</persName>
+            <persName type="variant">Председатель горсовета</persName>
             <persName xml:lang="ger">Der Vorsitzende des Stadtsowjets</persName>
           </person>
           <person xml:id="golos_iz_tolpy_1" sex="UNKNOWN">
@@ -499,15 +501,23 @@
         <castItem>Профессор.</castItem>
         <castItem>Директор зоосада.</castItem>
         <castItem>Брандмейстер.</castItem>
-        <castItem>Пожарные.</castItem>
+        <castGroup>
+          <roleDesc>Пожарные.</roleDesc>
+        </castGroup>
         <castItem>Ша́фер.</castItem>
         <castItem>Репортер.</castItem>
-        <castItem>Рабочие аудитории.</castItem>
+        <castGroup>
+          <roleDesc>Рабочие аудитории.</roleDesc>
+        </castGroup>
         <castItem>Председатель горсовета.</castItem>
         <castItem>Оратор.</castItem>
-        <castItem>Вузовцы.</castItem>
+        <castGroup>
+          <roleDesc>Вузовцы.</roleDesc>
+        </castGroup>
         <castItem>Распорядитель празднества.</castItem>
-        <castItem>Президиум горсовета, охотники, дети, старики.</castItem>
+        <castGroup>
+          <roleDesc>Президиум горсовета, охотники, дети, старики.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

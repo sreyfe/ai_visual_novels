@@ -49,9 +49,10 @@
         <listPerson>
           <person xml:id="konstantin_prohorovich" sex="MALE">
             <persName>Константин Прохорович Яузов</persName>
+            <persName type="variant">Константин Прохорович</persName>
           </person>
           <person xml:id="stepanida_karpovna" sex="FEMALE">
-            <persName>Степанида Карловна</persName>
+            <persName>Степанида Карповна</persName>
           </person>
           <person xml:id="padcheretsin" sex="MALE">
             <persName>Иван Григорьевич Падчерицын</persName>
@@ -106,7 +107,7 @@
       <castList>
         <head>Действующие лица</head>
         <castItem>Константин Прохорович Яузов, отставной штабс-капитан.</castItem>
-        <castItem>Степанида Карловна, жена его.</castItem>
+        <castItem>Степанида Карповна, жена его.</castItem>
         <castItem>Наденька, дочь их.</castItem>
         <castItem>Александр Иванович Алинской, гусарский офицер, жених Наденьки.</castItem>
         <castItem>Иван Григорьевич Падчерицын, уездный судья, крестный отец Наденьки.</castItem>
@@ -414,7 +415,7 @@
           <l>Деревеньку наживет.</l>
         </sp>
         <sp who="#stepanida_karpovna">
-          <speaker>Степанида Карловна.</speaker>
+          <speaker>Степанида Карповна.</speaker>
           <p>Наш будущий зять не имеет в этом никакой надобности по той причине -- у него у самого
             прекрасное состояние... тысяч тридцать дохода!</p>
         </sp>
@@ -801,7 +802,7 @@
       </div>
       <div type="scene">
         <head>Явление VI</head>
-        <stage>Степанида Карловна вбегает с левой стороны; Емельян, Константин Прохорович и
+        <stage>Степанида Карповна вбегает с левой стороны; Емельян, Константин Прохорович и
           Падчерицын. Люди бегают из стороны в сторону... хлопоты, суета.</stage>
         <sp who="#stepanida_karpovna">
           <speaker>Степанида Карповна</speaker>
@@ -827,7 +828,7 @@
             взяли чистить.</p>
         </sp>
         <sp who="#stepanida_karpovna">
-          <speaker>Степанида Карловна.</speaker>
+          <speaker>Степанида Карповна.</speaker>
           <p>Ах ты чудак! Что-ж делать-то? А у меня завтрак не готов, надобно за всем присмотреть...
             да и самой еще одеться!</p>
         </sp>
@@ -1033,7 +1034,7 @@
           модной прической, в пунцовом платье с блондами, на голове фермуар, на шее жемчужное
           ожерелье.</stage>
         <sp who="#konstantin_prohorovich #stepanida_karpovna">
-          <speaker>Константин Прохорович и Степанида Карловна</speaker>
+          <speaker>Константин Прохорович и Степанида Карповна</speaker>
           <stage>(Наденьке).</stage>
           <l>Ну что ж? Сойди хоть с места!</l>
           <l>Мой бог! Какой прием!</l>

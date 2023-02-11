@@ -136,8 +136,12 @@
           <roleDesc>наперсницы Дидонины.</roleDesc>
         </castGroup>
         <castItem>Воин говорящий Дидонин.</castItem>
-        <castItem>Воины Ярбовы.</castItem>
-        <castItem>Воины Дидонины.</castItem>
+        <castGroup>
+          <roleDesc>Воины Ярбовы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Воины Дидонины.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Карфагене, в Дидониных чертогах.</p>

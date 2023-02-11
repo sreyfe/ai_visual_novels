@@ -82,6 +82,7 @@
           </person>
           <person xml:id="preddomkoma" sex="MALE">
             <persName>Преддомкома</persName>
+            <persName type="variant">Преддомком</persName>
             <persName xml:lang="ger">Der Vorsitzende des Wohnungskomitees</persName>
           </person>
           <person xml:id="optimistenko" sex="MALE">
@@ -219,11 +220,15 @@
           <castItem>Товарищ Тройкин</castItem>
           <roleDesc>рабочие.</roleDesc>
         </castGroup>
-        <castItem>Просители.</castItem>
+        <castGroup>
+          <roleDesc>Просители.</roleDesc>
+        </castGroup>
         <castItem>Преддомком.</castItem>
         <castItem>Режиссер.</castItem>
         <castItem>Иван Иванович.</castItem>
-        <castItem>Учрежденская толпа.</castItem>
+        <castGroup>
+          <roleDesc>Учрежденская толпа.</roleDesc>
+        </castGroup>
         <castItem>Милиционер.</castItem>
         <castItem>Капельдинер.</castItem>
         <castItem>Фосфорическая женщина.</castItem>

@@ -210,7 +210,9 @@
           <roleDesc>князи варягорусские, сыновья финского короля Людбрата и супруги его Умилы,
             средней дочери Гостомысла.</roleDesc>
         </castGroup>
-        <castItem>Старейшины от Славян, Руси, Чуди, Веся, Мери, Кривич и Дрягович.</castItem>
+        <castGroup>
+          <roleDesc>Старейшины от Славян, Руси, Чуди, Веся, Мери, Кривич и Дрягович.</roleDesc>
+        </castGroup>
         <castItem>Людбрат, король финский, отец Рюрика, Синеуса и Трувора.</castItem>
         <castItem>Умила, его супруга, дочь Гостомысла.</castItem>
         <castItem>Едвинда, княжна урманская, супрута Рюрика.</castItem>
@@ -222,10 +224,16 @@
           <castItem>Радбрат,</castItem>
           <roleDesc>вельможи короля Людбрата.</roleDesc>
         </castGroup>
-        <castItem>Бояре новогородские.</castItem>
-        <castItem>Бояре варягорусские.</castItem>
+        <castGroup>
+          <roleDesc>Бояре новогородские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Бояре варягорусские.</roleDesc>
+        </castGroup>
         <castItem>Дан, военачальник варего-русский.</castItem>
-        <castItem>Два вестника новогородские.</castItem>
+        <castGroup>
+          <roleDesc>Два вестника новогородские.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -1652,7 +1660,8 @@
           </sp>
           <sp who="#rjurik">
             <speaker>[Рюрик.</speaker>
-            <p>Поедем теперь в Новгород, а потом объеду я западные свои границы].<note place="foot">Поставленных в скобки слов в рукописи нет.</note></p>
+            <note place="foot"><key>Поедем теперь в Новгород, а потом объеду я западные свои границы</key><value>Поставленных в скобки слов в рукописи нет.</value></note>
+            <p>Поедем теперь в Новгород, а потом объеду я западные свои границы].</p>
           </sp>
         </div>
       </div>

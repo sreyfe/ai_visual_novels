@@ -116,8 +116,12 @@
         <castItem>Зафира, княжна, остаток рода прежних шведских правителей.</castItem>
         <castItem>Росслав, полководец российский в плену у Христиерна.</castItem>
         <castItem>Любомир, посланник российский.</castItem>
-        <castItem>Воины Христиерновы.</castItem>
-        <castItem>Народ.</castItem>
+        <castGroup>
+          <roleDesc>Воины Христиерновы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Народ.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Стокгольме в Христиерновых чертогах.</p>

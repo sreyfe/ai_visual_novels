@@ -169,6 +169,9 @@
           <person xml:id="odin_iz_meshan" sex="MALE">
             <persName>Один из мещан</persName>
           </person>
+          <person xml:id="sasha" sex="FEMALE">
+            <persName>Саша</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#drosida" passive="#alena"/>
             <relation name="related_with" active="#miakishev" passive="#molchanov"/>
@@ -260,8 +263,12 @@
         </castGroup>
         <castItem>Дросида, мать Алены.</castItem>
         <castItem>Приезжий парень.</castItem>
-        <castItem>Двое детей Молчанова.</castItem>
-        <castItem>Фабричные,купцы мещане, полицейские солдаты квартальный. </castItem>
+        <castGroup>
+          <roleDesc>Двое детей Молчанова.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Фабричные,купцы мещане, полицейские солдаты квартальный.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в 1867 году, в большом торговом городе:</p>
@@ -2049,10 +2056,12 @@
           </sp>
           <sp who="#kolokolcov">
             <speaker>Колокольцов.</speaker>
+            <note place="foot"><key>entre nous soit dit</key><value>Между нами говоря (франц.).</value></note>
+            <note place="foot"><key>cum eximia laude</key><value>С высшей похвалой (лат.).</value></note>
             <p>Но как ловко-то и в то же время ведь и совершенно безвредно! Ах, друг мой, я того
               убеждения, что ведь они не мы. Их положение другое. Мы ведь гиганты... наше имя
               исполин, а исполины всегда снисходительны. Ты вот, я знаю, ты не любишь Фирса
-              Григорьича; а я его за что люблю? Я знаю что он — entre nous soit dit<note place="foot">Между нами говоря (франц.).</note> — мерзавец cum eximia laude,<note place="foot">С высшей похвалой (лат.).</note> но я его люблю за его прекрасную
+              Григорьича; а я его за что люблю? Я знаю что он — entre nous soit dit — мерзавец cum eximia laude, но я его люблю за его прекрасную
               натуру — за его русскую натуру. Он русский человек, и зато посмотри, как он
               снисходительно относится к полякам. Он говорит: что поляки? это вздор, говорит,
               поляки... Так-таки и говорит: «это вздор», их нет — и я в этом с ним совершенно

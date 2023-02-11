@@ -1199,8 +1199,10 @@
         <sp who="#italianets">
           <speaker>Итальянец</speaker>
           <stage>(за кулисами, с гневом).</stage>
-          <p>Morbleu! <note place="foot">Черт возьми! (франц.).</note> Что вы делай! Vous avez perdu
-            la tête!<note place="foot">Вы потеряли голову! (франц.).</note> Вы разбили мой <pb n="132"/> статуй; отдайте мне деньга... Это не карашо, синьор... Сюда?.. карашо!</p>
+          <note place="foot"><key>Morbleu!</key><value>Черт возьми! (франц.).</value></note>
+          <note place="foot"><key>Vous avez perdu la tête!</key><value>Вы потеряли голову! (франц.).</value></note>
+          <p>Morbleu! Что вы делай! Vous avez perdu
+            la tête! Вы разбили мой <pb n="132"/> статуй; отдайте мне деньга... Это не карашо, синьор... Сюда?.. карашо!</p>
         </sp>
         <sp who="#kochergin">
           <speaker>Кочергин.</speaker>
@@ -1213,9 +1215,10 @@
           разбиты.</stage>
         <sp who="#italianets">
           <speaker>Итальянец.</speaker>
-          <p>Parbleu!.. <note place="foot">Черт возьми!.. (франц.).</note> Мой Вольтер разбил... два
-            двугривенник... Donnez-moi l'argent...<note place="foot">Отдайте мне деньги...
-              (франц.).</note> отдайте мне деньга... деньга...</p>
+          <note place="foot"><key>Parbleu!..</key><value>Черт возьми!.. (франц.).</value></note>
+          <note place="foot"><key>Donnez-moi l'argent...</key><value>Отдайте мне деньги... (франц.).</value></note>
+          <p>Parbleu!..  Мой Вольтер разбил... два
+            двугривенник... Donnez-moi l'argent... отдайте мне деньга... деньга...</p>
         </sp>
         <sp who="#kochergin">
           <speaker>Кочергин.</speaker>
@@ -1260,7 +1263,8 @@
         </sp>
         <sp who="#italianets">
           <speaker>Итальянец.</speaker>
-          <p>Се n'est pas bien...<note place="foot">Это нехорошо... (франц.).</note> обижать так
+          <note place="foot"><key>Се n'est pas bien...</key><value>Это нехорошо... (франц.).</value></note>
+          <p>Се n'est pas bien... обижать так
             честна итальянца... мой вам ничего не сделай...</p>
         </sp>
         <sp who="#kochergin">
@@ -1272,21 +1276,25 @@
           <p>Что... вы ругай... не карашо, синьор, ругать честна итальянец... Я не дурак! Не пуста
             голова.</p>
           <pb n="133"/>
-          <l>Ma<note place="foot">Но (итал.).</note> -- зачем вы так бранитесь,</l>
+          <note place="foot"><key>Ma</key><value>Но (итал.).</value></note>
+          <l>Ma -- зачем вы так бранитесь,</l>
           <l>Я не глупа человек:</l>
-          <l>Regardez-vous,<note place="foot">Посмотрите (франц.).</note> осмотритесь,--</l>
+          <note place="foot"><key>Regardez-vous</key><value>Посмотрите (франц.).</value></note>
+          <l>Regardez-vous, осмотритесь,--</l>
           <l>Я с умом ношусь весь век.</l>
           <l>Был я прежде лазарони,</l>
           <l>Да на разум вдруг попал:</l>
           <l>Продавать не макароны,</l>
-          <l>A les grands<note place="foot">великих (франц.).</note> синьора стал.</l>
+          <note place="foot"><key>les grands</key><value>великих (франц.).</value></note>
+          <l>A les grands синьора стал.</l>
           <l>У меня карманы пусты,</l>
           <l>Так фортуна чтоб нажить,</l>
           <l>По домам носить стал бюсты,</l>
           <l>Стал чужою слава жить,</l>
           <l>У меня есть Шиллер, Гете...</l>
           <l>Все, о ком известна я,</l>
-          <l>Tout ce qu'il у а<note place="foot">Сколько есть (франц.).</note> ума на свете,</l>
+          <note place="foot"><key>Tout ce qu'il у а</key><value>Сколько есть (франц.).</value></note>
+          <l>Tout ce qu'il у а ума на свете,</l>
           <l>Всё на голова моя!</l>
         </sp>
         <sp who="#kochergin">
@@ -1295,8 +1303,9 @@
         </sp>
         <sp who="#italianets">
           <speaker>Итальянец.</speaker>
+          <note place="foot"><key>Il a cessé mes statues...</key><value>Он разбил мои статуи... (франц.).</value></note>
           <p>Как не понимай... видит... <stage>(Показывая на лоток.)</stage> Il a cessé mes
-              statues...<note place="foot">Он разбил мои статуи... (франц.).</note> разбил... отдайт
+              statues... разбил... отдайт
             мне деньга, синьор... нехорошо обижал бедна итальянца...</p>
         </sp>
         <sp who="#kochergin">
@@ -1326,14 +1335,17 @@
           <pb n="134"/>
           <l>Можно всё продай задаром,</l>
           <l>Только деньга нам давай.</l>
-          <l>Trois<note place="foot">Три (франц.).</note> рубль за Шиллер с Гете,</l>
+          <note place="foot"><key>Trois</key><value>Три (франц.).</value></note>
+          <l>Trois рубль за Шиллер с Гете,</l>
           <l>Много ль тут за два синьор?</l>
           <l>Матерьял возьми в расчете,</l>
-          <l>Выйдет вздор, parole d'lioimeur.<note place="foot">честное слово (франц.).</note></l>
+          <note place="foot"><key>parole d'lioimeur</key><value>честное слово (франц.).</value></note>
+          <l>Выйдет вздор, parole d'lioimeur.</l>
           <l>За Сенека, за Гораций,</l>
           <l>За Сократ и за Платон</l>
           <l>По полтина ассигнаций</l>
-          <l>Можно взять за chaque peisonne.<note place="foot">каждого (франц.).</note></l>
+          <note place="foot"><key>chaque personne</key><value>каждого (франц.).</value></note>
+          <l>Можно взять за chaque personne.</l>
           <l>Нынче древняя персона</l>
           <l>Очень дурно сходит с рук,</l>
           <l>А вот Эльслер и Тальона</l>
@@ -1362,7 +1374,8 @@
         <sp who="#italianets">
           <speaker>Итальянец</speaker>
           <stage>(ставя два бюста рядом).</stage>
-          <p>Вот что-с! Regardez...<note place="foot">Посмотрите... (франц.).</note> та Талиони
+          <note place="foot"><key>Regardez...</key><value>Посмотрите... (франц.).</value></note>
+          <p>Вот что-с! Regardez... та Талиони
             немножко повыше; а Наполеон пониже... вот разнис.</p>
         </sp>
         <sp who="#kochergin">
@@ -1371,8 +1384,9 @@
         </sp>
         <sp who="#italianets">
           <speaker>Итальянец.</speaker>
+          <note place="foot"><key>il furioso</key><value>одержимый (итал.).</value></note>
           <p>Точно так, синьор. Пожалуй же деньга мне... Всего шесть рублей без десять копейка...
-            этот молодой персон, который выбежал отсюда из двери, как il furioso,<note place="foot">одержимый (итал.).</note> и скажи мне, что я здесь получит...</p>
+            этот молодой персон, который выбежал отсюда из двери, как il furioso, и скажи мне, что я здесь получит...</p>
         </sp>
         <sp who="#kochergin">
           <speaker>Кочергин.</speaker>
@@ -1382,8 +1396,8 @@
         <pb n="135"/>
         <sp who="#italianets">
           <speaker>Итальянец.</speaker>
-          <p>Благодарю... А больше, синьор, ничего не купит? Rien?<note place="foot">Ничего?
-              (франц.).</note></p>
+          <note place="foot"><key>Rien?</key><value>Ничего? (франц.).</value></note>
+          <p>Благодарю... А больше, синьор, ничего не купит? Rien?</p>
         </sp>
         <sp who="#kochergin">
           <speaker>Кочергин.</speaker>
@@ -1392,7 +1406,8 @@
         <sp who="#italianets">
           <speaker>Итальянец</speaker>
           <stage>(уходя).</stage>
-          <p>Возьмит, синьор, хоть Сократа; такой тяжелый... голова болит! Prenez...<note place="foot">Возьмите... (франц.).</note></p>
+          <note place="foot"><key>Prenez...</key><value>Возьмите... (франц.).</value></note>
+          <p>Возьмит, синьор, хоть Сократа; такой тяжелый... голова болит! Prenez...</p>
         </sp>
         <sp who="#kochergin">
           <speaker>Кочергин.</speaker>

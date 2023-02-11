@@ -214,8 +214,11 @@
         <head>ЛИЦА:</head>
         <castItem>Анна Петровна Незабудкина, вдова небогатого чиновника.</castItem>
         <castItem>Марья Андреевна, ее дочь.</castItem>
-        <castItem>Владимир Васильевич Мерич, Иван Иванович Милашин, молодые люди, знакомые
-          Незабудкиной.</castItem>
+        <castGroup>
+          <castItem>Владимир Васильевич Мерич,</castItem>
+          <castItem>Иван Иванович Милашин,</castItem>
+          <roleDesc>молодые люди, знакомые Незабудкиной.</roleDesc>
+        </castGroup>
         <castItem>Платон Маркович Добротворский, старый стряпчий.</castItem>
         <castItem>Максим Дорофеевич Беневоленский, чиновник.</castItem>
         <castItem>Арина Егоровна Хорькова, вдова, мещанка.</castItem>
@@ -224,8 +227,15 @@
         <castItem>Панкратьевна, сваха (по дворянству) в чепчике.</castItem>
         <castItem>Дарья, горничная Незабудкиных.</castItem>
         <castItem>Мальчик Добротворского.</castItem>
-        <castItem>Дуня, Паша, молодые девушки.</castItem>
-        <castItem>Официант и разные лица, являющиеся в пятом действии смотреть свадьбу.</castItem>
+        <castGroup>
+          <castItem>Дуня,</castItem>
+          <castItem>Паша,</castItem>
+          <roleDesc>молодые девушки.</roleDesc>
+        </castGroup>
+        <castItem>Официант</castItem>
+        <castGroup>
+          <roleDesc>и разные лица, являющиеся в пятом действии смотреть свадьбу.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -2734,7 +2744,8 @@
           </sp>
           <sp who="#benevolenskij">
             <speaker>Беневоленский.</speaker>
-            <p>Est mater studiorum {...мать учения.}. Да, это правда. Налей.</p>
+            <note place="foot"><key>Est mater studiorum</key><value>мать учения</value></note>
+            <p>Est mater studiorum. Да, это правда. Налей.</p>
           </sp>
           <sp who="#dobrotvorskij">
             <speaker>Добротворский</speaker>

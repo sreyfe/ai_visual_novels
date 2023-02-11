@@ -150,8 +150,12 @@
           <castItem>Жанета</castItem>
           <roleDesc>сестры Жульеты.</roleDesc>
         </castGroup>
-        <castItem>Крестьяне деревни, где живет Филипп.</castItem>
-        <castItem>Крестьяне деревни Блеза.</castItem>
+        <castGroup>
+          <roleDesc>Крестьяне деревни, где живет Филипп.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Крестьяне деревни Блеза.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

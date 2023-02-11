@@ -123,9 +123,15 @@
         <castItem>Эмон, сын Креонта.</castItem>
         <castItem>Димас.</castItem>
         <castItem>Форбат, наперсник Креонта.</castItem>
-        <castItem>Стража, фивские.</castItem>
-        <castItem>Жрицы</castItem>
-        <castItem>Народ</castItem>
+        <castGroup>
+          <roleDesc>Стража, фивские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Жрицы</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Народ</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>

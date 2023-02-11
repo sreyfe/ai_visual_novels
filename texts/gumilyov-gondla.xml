@@ -155,8 +155,12 @@
         </castGroup>
         <castItem>Гондла, ирландский королевич на воспитании у Конунга.</castItem>
         <castItem>Лера, она же Лаик, знатная исландская девушка.</castItem>
-        <castItem>Ирландские воины.</castItem>
-        <castItem>Рабы.</castItem>
+        <castGroup>
+          <roleDesc>Ирландские воины.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Рабы.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в Исландии в IX веке</p>

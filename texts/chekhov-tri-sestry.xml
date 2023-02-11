@@ -100,6 +100,7 @@
           </person>
           <person xml:id="Natasha" sex="FEMALE">
             <persName>Наташа</persName>
+            <persName type="variant">Наталья Ивановна</persName>
             <persName xml:lang="eng">Nataša</persName>
             <persName xml:lang="ger">Nataša</persName>
           </person>

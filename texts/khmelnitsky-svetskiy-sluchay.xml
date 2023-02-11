@@ -114,7 +114,7 @@
         <castItem>Столицын.</castItem>
       </castList>
       <set>
-        <p>Действие в доме князя Радугина.</p>
+        <stage>Действие в доме князя Радугина.</stage>
       </set>
     </front>
     <body>

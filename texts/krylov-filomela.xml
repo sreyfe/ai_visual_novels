@@ -69,6 +69,9 @@
           <person xml:id="heres" sex="MALE">
             <persName>Херес</persName>
           </person>
+          <person xml:id="ifis" sex="MALE">
+            <persName>Ифис</persName>
+          </person>
           <listRelation type="personal">
             <relation name="spouses" mutual="#progneya #terej"/>
             <relation name="siblings" mutual="#filomela #progneya"/>

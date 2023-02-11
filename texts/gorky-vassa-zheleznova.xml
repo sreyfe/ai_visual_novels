@@ -58,9 +58,11 @@
           </person>
           <person xml:id="dunja" sex="FEMALE">
             <persName>Дуня</persName>
+            <persName type="variant">Дунечка</persName>
           </person>
           <person xml:id="mihail" sex="MALE">
             <persName>Михаил</persName>
+            <persName type="variant">Михайло</persName>
           </person>
           <person xml:id="pavel" sex="MALE">
             <persName>Павел</persName>
@@ -631,7 +633,8 @@
         </sp>
         <sp who="#prohor">
           <speaker>Прохор.</speaker>
-          <p>Уроду. Скотина! Опять мне на голубятню кота пустил... Риголета кособокая...<note place="foot">rigoletto -- рогоносец (итал.) -- Ред.</note> Даже ноги дрожат... со
+          <note place="foot"><key>Риголета</key><value>rigoletto -- рогоносец (итал.) -- Ред.</value></note>
+          <p>Уроду. Скотина! Опять мне на голубятню кота пустил... Риголета кособокая... Даже ноги дрожат... со
             зла...</p>
         </sp>
         <sp who="#semen">
@@ -1821,9 +1824,8 @@
         </sp>
         <sp who="#semen">
           <speaker>Семён.</speaker>
-          <p>Она у меня -- тихая! Староверка, в корчаге крестили...<note place="foot">корчага --
-              большой глиняный горшок или чугун, чугунник, развалистее горшка. Т. е. крестили дома,
-              не в церкви, по обычаям староверов -- Ред.</note></p>
+          <note place="foot"><key>корчаге</key><value>большой глиняный горшок или чугун, чугунник, развалистее горшка. Т. е. крестили дома, не в церкви, по обычаям староверов -- Ред.</value></note>
+          <p>Она у меня -- тихая! Староверка, в корчаге крестили...</p>
         </sp>
         <sp who="#prohor">
           <speaker>Прохор.</speaker>

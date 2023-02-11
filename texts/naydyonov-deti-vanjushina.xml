@@ -157,14 +157,16 @@
           <roleDesc>их дети.</roleDesc>
         </castGroup>
         <castItem>Елена — племянница Ванюшина.</castItem>
-        <castItem>Павел Сергеевич Щеткин — муж Клавдии, чиновник. </castItem>
-        <castItem>Степан Федорович Красавин — муж Людмилы, доверенный богатой московской фирмы. </castItem>
+        <castItem>Павел Сергеевич Щеткин — муж Клавдии, чиновник.</castItem>
+        <castItem>Степан Федорович Красавин — муж Людмилы, доверенный богатой московской фирмы.</castItem>
         <castItem>Генеральша Кукарникова — вдова.</castItem>
         <castItem>Инна — ее дочь.</castItem>
         <castItem>Авдотья — экономка в доме Ванюшина.</castItem>
         <castItem>Акулина — горничная.</castItem>
         <castItem>Старик в лохмотьях.</castItem>
-        <castItem>Несколько человек с улицы.</castItem>
+        <castGroup>
+          <roleDesc>Несколько человек с улицы.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в одном из больших губернских городов.</p>

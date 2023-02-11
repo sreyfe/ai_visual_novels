@@ -1450,10 +1450,10 @@
           <stage>Лентягина, Улинька, Ветромах, Марина.</stage>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Ma charmante<note place="foot">Моя прелестная (франц.). — Ред.</note> Улинька! Ах,
-              как же вы прелестны!</l>
-            <l>Tous ces gens, madame!<note place="foot">Все те люди, сударыня (франц.). —
-                Ред.</note> как глупы, как бесчестны,</l>
+            <note place="foot"><key>Ma charmante</key><value>Моя прелестная (франц.). — Ред.</value></note>
+            <l>Ma charmante Улинька! Ах, как же вы прелестны!</l>
+            <note place="foot"><key>Tous ces gens, madame</key><value>Все те люди, сударыня (франц.). — Ред.</value></note>
+            <l>Tous ces gens, madame! как глупы, как бесчестны,</l>
             <pb n="456"/>
             <l>Которы не найдут у вас того в глазах,</l>
             <l part="I">Что вижу я.</l>
@@ -1464,15 +1464,16 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Friponne!<note place="foot">Плутовка! (франц.). — Ред.</note> будто бы не ведаешь
-              того,</l>
+            <note place="foot"><key>Friponne</key><value>Плутовка! (франц.). — Ред.</value></note>
+            <l>Friponne! будто бы не ведаешь того,</l>
             <l>Что вас, сударыня, не можно ненавидеть,</l>
             <l>Что вы прекраснее и неба самого!</l>
             <stage>Улинька приседает.</stage>
             <l>Вы приседаете! какое просвещенье!</l>
             <l>Иметь такую дочь какое утешенье!</l>
             <stage>(Лентягиной)</stage>
-            <l part="I">Не правда ли, maman?<note place="foot">Матушка (франц.). — Ред.</note></l>
+            <note place="foot"><key>maman</key><value>Матушка (франц.). — Ред.</value></note>
+            <l part="I">Не правда ли, maman?</l>
           </sp>
           <sp who="#lentjagina">
             <speaker>Лентягина</speaker>
@@ -1493,13 +1494,13 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <l>Браво́, мадам! вот всё, что надобно для света</l>
-            <l>И для людей — как бишь? — pour les gens du haut ton.<note place="foot">Для людей
-                высшего света (франц.). — Ред.</note></l>
+            <note place="foot"><key>pour les gens du haut ton</key><value>Для людей высшего света (франц.). — Ред.</value></note>
+            <l>И для людей — как бишь? — pour les gens du haut ton.</l>
             <l>Меня вы извинить, мадам, должны немного</l>
             <l>В том, что и я, храня свою честь так же строго,</l>
             <pb n="457"/>
-            <l>Считаю наш язык за подлинный jargon.<note place="foot">Жаргон (франц.). —
-              Ред.</note></l>
+            <note place="foot"><key>jargon</key><value>Жаргон (франц.). — Ред.</value></note>
+            <l>Считаю наш язык за подлинный jargon.</l>
             <l>И экспримировать на нем всего не можно</l>
             <l>Чтоб мысль свою сыскать, замучишься безбожно</l>
             <l>По ну́жде говорю я этим языком</l>
@@ -1507,19 +1508,19 @@
             <l>Где думать ну́жды нет А с нашим знатным родом,</l>
             <l>Не знав французского, я был бы дураком.</l>
             <l>Скажите, как бы мне влюбиться было можно?</l>
-            <l>Je brûle, je languis!<note place="foot">Я горю, я млею! (франц.). — Ред.</note> — мне
-              как бы то сказать</l>
+            <note place="foot"><key>Je brûle, je languis!</key><value>Я горю, я млею! (франц.). — Ред.</value></note>
+            <l>Je brûle, je languis! — мне как бы то сказать</l>
             <l>Прелестной Улиньке? — неужто бы мычать:</l>
-            <l>«Я млею, я горю!..» — fi donc!<note place="foot">Фи! (франц.). — Ред.</note> — мне
-              думать должно,</l>
-            <l>Что по-французски вы и также ваш époux...<note place="foot">Супруг (франц.). —
-                Ред.</note></l>
+            <note place="foot"><key>fi donc!</key><value>Фи! (франц.). — Ред.</value></note>
+            <l>«Я млею, я горю!..» — fi donc! — мне думать должно,</l>
+            <note place="foot"><key>époux</key><value>Супруг (франц.). — Ред.</value></note>
+            <l>Что по-французски вы и также ваш époux...</l>
           </sp>
           <sp who="#lentjagina">
             <speaker>Лентягина</speaker>
             <stage>(скоропостижно)</stage>
-            <l>Сомнения в том нет! comment vous portez-vous?<note place="foot">Как вы поживаете?
-                (франц.). — Ред.</note></l>
+            <note place="foot"><key>comment vous portez-vous?</key><value>Как вы поживаете? (франц.). — Ред.</value></note>
+            <l>Сомнения в том нет! comment vous portez-vous?</l>
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
@@ -1532,21 +1533,21 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Je vous jure,<note place="foot">Клянусь (франц.). — Ред.</note> мадам! что русский
-              мне язык</l>
+            <note place="foot"><key>Je vous jure</key><value>Клянусь (франц.). — Ред.</value></note>
+            <l>Je vous jure, мадам! что русский мне язык</l>
             <l>Как будто кляп во рту, притом же очень вреден.</l>
             <l>Вы не поверите, я сколько с русским беден!</l>
             <l>По-русски разум мой как узок, невелик;</l>
-            <l>А по-французски, о! que le diable m’emporte!<note place="foot">Черт меня побери!
-                (франц.). — Ред.</note></l>
-            <l>Выходит разум мой par une grande porte.<note place="foot">В широкие ворота (франц.).
-                — Ред.</note></l>
+            <note place="foot"><key>que le diable m’emporte!</key><value>Черт меня побери! (франц.). — Ред.</value></note>
+            <l>А по-французски, о! que le diable m’emporte!</l>
+            <note place="foot"><key>par une grande porte</key><value>В широкие ворота (франц.). — Ред.</value></note>
+            <l>Выходит разум мой par une grande porte.</l>
             <l>Я расскажу о том, случилось что со мной:</l>
             <l>Однажды я сидел у дамы молодой,</l>
             <l>Французских ни двух слов она не разумела;</l>
             <pb n="458"/>
-            <l>И оттого ma tête horriblement<note place="foot">Моя голова ужасно (франц.). —
-                Ред.</note> болела,</l>
+            <note place="foot"><key>ma tête horriblement</key><value>Моя голова ужасно (франц.). — Ред.</value></note>
+            <l>И оттого ma tête horriblement болела,</l>
             <l>Так что я целый день был дома не одет.</l>
           </sp>
           <sp who="#lentjagina">
@@ -1556,8 +1557,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Imagination<note place="foot">Воображение, фантазия (франц.). — Ред.</note> — хотели
-              вы сказать.</l>
+            <note place="foot"><key>Imagination</key><value>Воображение, фантазия (франц.). — Ред.</value></note>
+            <l>Imagination — хотели вы сказать.</l>
           </sp>
           <sp who="#lentjagina">
             <speaker>Лентягина</speaker>
@@ -1585,13 +1586,13 @@
             <l>Ma charmante Улинька, тебя моей почесть!</l>
             <stage>Улинька приседает</stage>
             <l>И всё у нас равно: и грасы, и приятства,</l>
-            <l>И ум, je m’en flatte,<note place="foot">Я льщу себе (франц.). — Ред.</note> и даже
-              рода честь.</l>
+            <note place="foot"><key>je m’en flatte</key><value>Я льщу себе (франц.). — Ред.</value></note>
+            <l>И ум, je m’en flatte, и даже рода честь.</l>
             <stage>Улинька приседает</stage>
             <l>По чести, выдумка прекрасна — приседанье.</l>
             <l>Оно — другой язык, и может сокращать</l>
-            <l>De discours frivole<note place="foot">Игривой беседы (франц.). — Ред.</note> излишнее
-              болтанье</l>
+            <note place="foot"><key>De discours frivole</key><value>Игривой беседы (франц.). — Ред.</value></note>
+            <l>De discours frivole излишнее болтанье</l>
             <pb n="459"/>
             <l>На все умеет та прелестно отвечать</l>
             <l>И с скромностью казать нескромное желанье,</l>
@@ -1665,16 +1666,18 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="F">Хочу ли я? о, ciel!<note place="foot">О, небо! (франц.). — Ред.</note></l>
-            <l>В том только tous mes voeux!..<note place="foot">Все мои желания! (франц.). —
-                Ред.</note> Сама Agnes Sorel<note place="foot">Агнеса Сорель (франц.). —
-              Ред.</note></l>
+            <note place="foot"><key>о, ciel!</key><value>О, небо! (франц.). — Ред.</value></note>
+            <l part="F">Хочу ли я? о, ciel!</l>
+            <note place="foot"><key>tous mes voeux!</key><value>Все мои желания! (франц.). — Ред.</value></note>
+            <note place="foot"><key>Agnes Sorel</key><value>Агнеса Сорель (франц.). — Ред.</value></note>
+            <l>В том только tous mes voeux!.. Сама Agnes Sorel</l>
             <l>Французским королем так те была любима,</l>
-            <l>Как мною ваша дочь. — Je jurerai toujours,<note place="foot">Я поклянусь всегда
-                (франц.). — Ред.</note></l>
+            <note place="foot"><key>Je jurerai toujours</key><value>Я поклянусь всегда (франц.). — Ред.</value></note>
+            <l>Как мною ваша дочь. — Je jurerai toujours,</l>
             <l>Что я могу сказать, не делая ей кур,</l>
             <l>И тем не сделаю нималого я крима:</l>
-            <l part="I">Она divinite!<note place="foot">Божество! (франц.). — Ред.</note></l>
+            <note place="foot"><key>divinite</key><value>Божество! (франц.). — Ред.</value></note>
+            <l part="I">Она divinite!</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -1685,8 +1688,8 @@
           <pb n="461"/>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Beaucoup d’honneur, monsieur!<note place="foot">Много чести, сударь! (франц.). —
-                Ред.</note> Так я угоден стал?</l>
+            <note place="foot"><key>Beaucoup d’honneur, monsieur!</key><value>Много чести, сударь! (франц.). — Ред.</value></note>
+            <l>Beaucoup d’honneur, monsieur! Так я угоден стал?</l>
             <l>Я знал то наперед. — Не на́йдете примера</l>
             <l part="I">Другого мне, monsieur!</l>
           </sp>
@@ -1709,14 +1712,15 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <l part="F">Правда то, что есть во мне мери́т,</l>
-            <l>Без хвастовства, j’ose vous<note place="foot">Я осмеливаюсь вам (франц.). —
-                Ред.</note> это dire,<note place="foot">Сказать (франц.). — Ред.</note></l>
-            <l>Однако чтоб он мог вас привести в delire,<note place="foot">Бред (франц.). —
-                Ред.</note></l>
+            <note place="foot"><key>j’ose vous</key><value>Я осмеливаюсь вам (франц.). — Ред.</value></note>
+            <note place="foot"><key>dire</key><value>Сказать (франц.). — Ред.</value></note>
+            <l>Без хвастовства, j’ose vous это dire,</l>
+            <note place="foot"><key>delire</key><value>Бред (франц.). — Ред.</value></note>
+            <l>Однако чтоб он мог вас привести в delire,</l>
             <l>Не чаю... только свет весь это говорит,</l>
             <l>Что, кто б ни был, меня в талантах не объедет;</l>
-            <l part="I">Qu’un homme tel que moi...<note place="foot">Что человек, как я... (франц.).
-                — Ред.</note></l>
+            <note place="foot"><key>Qu’un homme tel que moi...</key><value>Что человек, как я... (франц.). — Ред.</value></note>
+            <l part="I">Qu’un homme tel que moi...</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -1724,7 +1728,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="I">Comment?<note place="foot">Как? (франц.). — Ред.</note></l>
+            <note place="foot"><key>Comment?</key><value>Как? (франц.). — Ред.</value></note>
+            <l part="I">Comment?</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -1732,7 +1737,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="I">Hélas!<note place="foot">Увы! (франц.). — Ред.</note> я не француз!</l>
+            <note place="foot"><key>Hélas!</key><value>Увы! (франц.). — Ред.</value></note>
+            <l part="I">Hélas! я не француз!</l>
           </sp>
           <pb n="462"/>
           <sp who="#lentjagin">
@@ -1752,13 +1758,15 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <l part="F">Я очень, очень рад,</l>
-            <l>On ne peut plus,<note place="foot">Лучше быть не может (франц.). — Ред.</note> что
-              вам, мосье, попал я в лад,</l>
-            <l>Que<note place="foot">Что (франц.). — Ред.</note> мысли vous avez<note place="foot">Вы имеете (франц.). — Ред.</note> со мною одинаки.</l>
+            <note place="foot"><key>On ne peut plus</key><value>Лучше быть не может (франц.). — Ред.</value></note>
+            <l>On ne peut plus, что вам, мосье, попал я в лад,</l>
+            <note place="foot"><key>Que</key><value>Что (франц.). — Ред.</value></note>
+            <note place="foot"><key>vous avez</key><value>Вы имеете (франц.). — Ред.</value></note>
+            <l>Que мысли vous avez со мною одинаки.</l>
             <l>И благородство чем мы можем доказать?</l>
             <l>По-русски не уметь, всё наше презирать —</l>
-            <l>Вот это знатности veritable<note place="foot">Истиной (франц.). — Ред.</note>
-              призна́ки.</l>
+            <note place="foot"><key>veritable</key><value>Истиной (франц.). — Ред.</value></note>
+            <l>Вот это знатности veritable призна́ки.</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -1767,8 +1775,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Vous-vous moquez, monsieur.<note place="foot">Вы насмехаетесь, сударь (франц.). —
-                Ред.</note> — Изволите уметь</l>
+            <note place="foot"><key>Vous-vous moquez, monsieur</key><value>Вы насмехаетесь, сударь (франц.). — Ред.</value></note>
+            <l>Vous-vous moquez, monsieur. — Изволите уметь</l>
             <l part="I">Вы по-французски...</l>
           </sp>
           <sp who="#lentjagin">
@@ -1791,8 +1799,8 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <stage>(с досадою)</stage>
-            <l>Je ne le croirai point!<note place="foot">Я не поверил бы! (франц.). — Ред.</note>
-              Какая ж в вас упорность!</l>
+            <note place="foot"><key>Je ne le croirai point!</key><value>Я не поверил бы! (франц.). — Ред.</value></note>
+            <l>Je ne le croirai point! Какая ж в вас упорность!</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -1853,7 +1861,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="I">Qu’entends-je!<note place="foot">Что я слышу! (франц.). — Ред.</note></l>
+            <note place="foot"><key>Qu’entends-je!</key><value>Что я слышу! (франц.). — Ред.</value></note>
+            <l part="I">Qu’entends-je!</l>
             <stage>(Уходит, запев французскую песню.)</stage>
           </sp>
           <sp who="#lentjagin">
@@ -2285,8 +2294,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Maraud!<note place="foot">Мошенник! (франц.). — Ред.</note> мне кажется, что ты учить
-              дерзаешь</l>
+            <note place="foot"><key>Maraud!</key><value>Мошенник! (франц.). — Ред.</value></note>
+            <l>Maraud! мне кажется, что ты учить дерзаешь</l>
             <l part="I">И смеешь...</l>
           </sp>
           <sp who="#vysonos">
@@ -2323,7 +2332,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="I">Pourquoi?<note place="foot">Почему? (франц.). — Ред.</note></l>
+            <note place="foot"><key>Pourquoi?</key><value>Почему? (франц.). — Ред.</value></note>
+            <l part="I">Pourquoi?</l>
           </sp>
           <sp who="#vysonos">
             <speaker>Высонос</speaker>
@@ -2334,8 +2344,8 @@
             <speaker>Ветромах</speaker>
             <l>Скажи, я не могу причины отгадать.</l>
             <l>На дружеской ноге с Сибулем быть стараюсь</l>
-            <l>И очень poliment<note place="foot">Вежливо, учтиво (франц.). — Ред.</note> всегда я с
-              ним встречаюсь:</l>
+            <note place="foot"><key>poliment</key><value>Вежливо, учтиво (франц.). — Ред.</value></note>
+            <l>И очень poliment всегда я с ним встречаюсь:</l>
             <l>Зову мосье Сибуль. Ты знаешь это сам,</l>
             <l part="I">С какой отличностью я обхожусь.</l>
           </sp>
@@ -2360,7 +2370,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="M">Отдам. Bagatelle!<note place="foot">Безделица! (франц.). — Ред.</note></l>
+            <note place="foot"><key>Bagatelle!</key><value>Безделица! (франц.). — Ред.</value></note>
+            <l part="M">Отдам. Bagatelle!</l>
           </sp>
           <sp who="#vysonos">
             <speaker>Высонос</speaker>
@@ -2385,8 +2396,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Tais-toi,<note place="foot">Замолчи (франц.). — Ред.</note> не говори о подлости мне
-              этой.</l>
+            <note place="foot"><key>Tais-toi</key><value>Замолчи (франц.). — Ред.</value></note>
+            <l>Tais-toi, не говори о подлости мне этой.</l>
           </sp>
           <sp who="#vysonos">
             <speaker>Высонос</speaker>
@@ -2524,8 +2535,9 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Je me rends,<note place="foot">Я сдаюсь (франц.). — Ред.</note> Высонос, tu
-                triomphes,<note place="foot">Ты победил (франц.). — Ред.</note> а я сдаюся;</l>
+            <note place="foot"><key>Je me rends</key><value>Я сдаюсь (франц.). — Ред.</value></note>
+            <note place="foot"><key>tu triomphes</key><value>Ты победил (франц.). — Ред.</value></note>
+            <l>Je me rends, Высонос, tu triomphes, а я сдаюся;</l>
             <l>И, сердце я скрепя, на Улиньке женюся.</l>
           </sp>
           <sp who="#vysonos">
@@ -2665,8 +2677,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="I">L’impertinent! le fat!<note place="foot">Наглец! хлыщ! (франц.). —
-                Ред.</note></l>
+            <note place="foot"><key>L’impertinent! le fat!</key><value>Наглец! хлыщ! (франц.). — Ред.</value></note>
+            <l part="I">L’impertinent! le fat!</l>
           </sp>
           <sp who="#vysonos">
             <speaker>Высонос</speaker>
@@ -2962,8 +2974,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="M">Qu’entends-je! о, ciel!<note place="foot">Что я слышу! о, небо! (франц.). —
-                Ред.</note></l>
+            <note place="foot"><key>Qu’entends-je! о, ciel!</key><value>Что я слышу! о, небо! (франц.). — Ред.</value></note>
+            <l part="M">Qu’entends-je! о, ciel!</l>
           </sp>
           <pb n="487"/>
           <sp who="#lentjagina">
@@ -4325,8 +4337,8 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <stage>(Лентягину)</stage>
-            <l>Я к вам, мосье, пришел exprès,<note place="foot">Нарочно (франц.). — Ред.</note> чтоб
-              извиниться.</l>
+            <note place="foot"><key>exprès</key><value>Нарочно (франц.). — Ред.</value></note>
+            <l>Я к вам, мосье, пришел exprès, чтоб извиниться.</l>
           </sp>
           <sp who="#lentjagin">
             <speaker>Лентягин</speaker>
@@ -4433,14 +4445,14 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <stage>(грозя вслед Пролазу)</stage>
-            <l>Заплатишь мне, maraud!<note place="foot">Мошенник! (франц.). — Ред.</note> ты жизнию
-              твоею.</l>
-            <l>Что сделал я bassesse,<note place="foot">Низость (франц.). — Ред.</note> о том лишь
-              сожалею.</l>
-            <l>О честь! ты мне obstacle<note place="foot">Препятствие (франц.). — Ред.</note>
-              бездельника убить,</l>
-            <l>Который смеет мне, о, sort!<note place="foot">О, рок! (франц.). — Ред.</note> ривалем
-              быть.</l>
+            <note place="foot"><key>maraud!</key><value>Мошенник! (франц.). — Ред.</value></note>
+            <l>Заплатишь мне, maraud! ты жизнию твоею.</l>
+            <note place="foot"><key>bassesse</key><value>Низость (франц.). — Ред.</value></note>
+            <l>Что сделал я bassesse, о том лишь сожалею.</l>
+            <note place="foot"><key>obstacle</key><value>Препятствие (франц.). — Ред.</value></note>
+            <l>О честь! ты мне obstacle бездельника убить,</l>
+            <note place="foot"><key>о, sort!</key><value>О, рок! (франц.). — Ред.</value></note>
+            <l>Который смеет мне, о, sort! ривалем быть.</l>
             <pb n="517"/>
             <l>Я знатный дворянин, а он слуга ничтожный,</l>
             <l>А то бы на тот свет ссудил я подорожной.</l>
@@ -4460,8 +4472,8 @@
             <speaker>Ветромах</speaker>
             <l>Иль право чести мне, ты мыслишь, неизвестно?</l>
             <l>Maraud! И можешь ли мне тем колоть ты в глаз,</l>
-            <l>Чтоб point d’honneur<note place="foot">Достоинство (франц.). — Ред.</note> возмог
-              забыть в моей я мести?</l>
+            <note place="foot"><key>point d’honneur</key><value>Достоинство (франц.). — Ред.</value></note>
+            <l>Чтоб point d’honneur возмог забыть в моей я мести?</l>
             <l>Хочу, чтоб ты убил путем французской чести.</l>
           </sp>
           <sp who="#vysonos">
@@ -4470,8 +4482,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l part="F">О, sot!<note place="foot">О, дурак! (франц.). — Ред.</note> Служа так долго
-              мне,</l>
+            <note place="foot"><key>О, sot!</key><value>О, дурак! (франц.). — Ред.</value></note>
+            <l part="F">О, sot! Служа так долго мне,</l>
             <l>Быть надобно тебе так глупу, как стене.</l>
           </sp>
           <sp who="#vysonos">
@@ -5846,10 +5858,10 @@
             <l>Что вижу! стали вы, мадам, теперь хоть брось!</l>
             <l>Не стыдно ль с чернью вам такою унижаться</l>
             <l>Или хотите вы, мадам, денигреваться?</l>
-            <l>Что скажем мы о вас, nous, des gens du haut ton.<note place="foot">Мы, люди высшего
-                света (франц.). — Ред.</note></l>
-            <l>Подумайте, мадам, a quel propos, fi donc.<note place="foot">С какой стати, фи
-                (франц.). — Ред.</note></l>
+            <note place="foot"><key>nous, des gens du haut ton</key><value>Мы, люди высшего света (франц.). — Ред.</value></note>
+            <l>Что скажем мы о вас, nous, des gens du haut ton.</l>
+            <note place="foot"><key>fi donc</key><value>С какой стати, фи (франц.). — Ред.</value></note>
+            <l>Подумайте, мадам, a quel propos, fi donc.</l>
             <l>Все эти рифмачи что делают здесь с вами?</l>
           </sp>
           <sp who="#lentjagina">
@@ -5862,8 +5874,8 @@
             <l>Итак, пленились вы их рифмами, стихами?</l>
             <l>Но берегитеся взмоститься на Парнас.</l>
             <l>Ведь вы не знаете, что то у знатных нас</l>
-            <l>Считается за honte<note place="foot">Позор, стыд (франц.). — Ред.</note> читать стихи
-              по-русски.</l>
+            <note place="foot"><key>honte</key><value>Позор, стыд (франц.). — Ред.</value></note>
+            <l>Считается за honte читать стихи по-русски.</l>
             <l>Какие б ни были, лишь только б по-французски, —</l>
             <l>И лучших наших всех получше во сто раз.</l>
           </sp>
@@ -5898,8 +5910,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Ils sont foux!<note place="foot">Они сумасшедшие! (франц.).— Ред.</note> А на что ж я
-              знатного толь рода?</l>
+            <note place="foot"><key>Ils sont foux!</key><value>Они сумасшедшие! (франц.).— Ред.</value></note>
+            <l>Ils sont foux! А на что ж я знатного толь рода?</l>
             <l>На то ль, чтоб голову учением трутить</l>
             <l>И не уметь без книг, всё знав, разумным быть?</l>
             <l>Лишь черни не дана отличная свобода</l>
@@ -5920,10 +5932,10 @@
             <l>Но доказательства, как смерть, я ненавижу.</l>
             <l>Что знаю, знаю то; чтоб словом всё сказать, —</l>
             <l>Я думаю, что вас я этим не обижу,</l>
-            <l>Когда скажу я вам en trois ou quatre mots:<note place="foot">В трех или четырех
-                словах (франц.). — Ред.</note></l>
-            <l>С своей ученостью vous étes des grands sots.<note place="foot">Вы большие дураки
-                (франц.). — Ред.</note></l>
+            <note place="foot"><key>en trois ou quatre mots</key><value>В трех или четырех словах (франц.). — Ред.</value></note>
+            <l>Когда скажу я вам en trois ou quatre mots:</l>
+            <note place="foot"><key>vous étes des grands sots</key><value>Вы большие дураки (франц.). — Ред.</value></note>
+            <l>С своей ученостью vous étes des grands sots.</l>
           </sp>
         </div>
         <div type="scene">
@@ -6064,10 +6076,11 @@
           <pb n="550"/>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Qu’entends-je!<note place="foot">Что я слышу! (франц.). — Ред.</note> таковым приемом
-              tout à fait<note place="foot">Совсем (франц.). — Ред.</note></l>
-            <l>До бесконечности interdit, stupéfait<note place="foot">Ошеломлен, изумлен (франц.). —
-                Ред.</note>...</l>
+            <note place="foot"><key>Qu’entends-je!</key><value>Что я слышу! (франц.). — Ред.</value></note>
+            <note place="foot"><key>tout à fait</key><value>Совсем (франц.). — Ред.</value></note>
+            <l>Qu’entends-je! таковым приемом tout à fait</l>
+            <note place="foot"><key>interdit, stupéfait</key><value>Ошеломлен, изумлен (франц.). — Ред.</value></note>
+            <l>До бесконечности interdit, stupéfait...</l>
             <l>Когда бы каракте́р мой не был толь спокойный...</l>
           </sp>
           <sp who="#lentjagina">
@@ -6093,10 +6106,10 @@
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
             <l>Ну, есть ли тут о чем, мадам, вдаваться в спор?</l>
-            <l>И можно ль bagatelle<note place="foot">Безделицей (франц.). — Ред.</note> такою
-              заниматься?</l>
-            <l>Я сделал ce contrat<note place="foot">Этот договор (франц.).— Ред.</note> — грех этот
-              невелик, —</l>
+            <note place="foot"><key>bagatelle</key><value>Безделицей (франц.). — Ред.</value></note>
+            <l>И можно ль bagatelle такою заниматься?</l>
+            <note place="foot"><key>ce contrat</key><value>Этот договор (франц.).— Ред.</value></note>
+            <l>Я сделал ce contrat — грех этот невелик, —</l>
             <l>Чтоб не забыть, мадам, французский мне язык.</l>
           </sp>
           <sp who="#svirelkin">
@@ -6144,8 +6157,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Vous êtes en délire et vous radotez,<note place="foot">Вы бредите и заговариваетесь
-                (франц.).— Ред.</note> мадам.</l>
+            <note place="foot"><key>Vous êtes en délire et vous radotez</key><value>Вы бредите и заговариваетесь (франц.).— Ред.</value></note>
+            <l>Vous êtes en délire et vous radotez, мадам.</l>
             <l>Знакомство это всех нас, знатных, позабавит.</l>
             <l>Нет, нет, я Улиньку не допущу к тому.</l>
           </sp>
@@ -6181,8 +6194,8 @@
             <speaker>Ветромах</speaker>
             <l part="F">Что ну́жды в том, мадам,</l>
             <l>Он красен, бледен ли? Я этим оскорбляюсь,</l>
-            <l>Что вы в нем prenez part,<note place="foot">Принимаете участие (франц.). —
-                Ред.</note> — а вот и Уля к нам!</l>
+            <note place="foot"><key>prenez part</key><value>Принимаете участие (франц.). — Ред.</value></note>
+            <l>Что вы в нем prenez part, — а вот и Уля к нам!</l>
             <l>Теперь в любви ее могу я вас уверить.</l>
             <l>Она, имея вкус, людей умеет мерить.</l>
           </sp>
@@ -6223,8 +6236,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Любя вы дочь, hélas!<note place="foot">Увы! (франц.). — Ред.</note> вы сжальтеся над
-              нею.</l>
+            <note place="foot"><key>hélas!</key><value>Увы! (франц.). — Ред.</value></note>
+            <l>Любя вы дочь, hélas! вы сжальтеся над нею.</l>
           </sp>
           <sp who="#ulinka">
             <speaker>Улинька</speaker>
@@ -6237,8 +6250,8 @@
             <speaker>Ветромах</speaker>
             <l part="F">Не дайте умереть</l>
             <l>Вы вашей дочери. Вы видите: страдает</l>
-            <l>И счастья быть моей en tremblant<note place="foot">С трепетом (франц.).— Ред.</note>
-              ожидает.</l>
+            <note place="foot"><key>en tremblant</key><value>С трепетом (франц.).— Ред.</value></note>
+            <l>И счастья быть моей en tremblant ожидает.</l>
             <l>Иль, черт меня возьми, иначе поступлю!</l>
           </sp>
           <sp who="#ulinka">
@@ -6274,10 +6287,10 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Tout est dit,<note place="foot">Все сказано (франц.). — Ред.</note> мадам! для ней я
-              всех милей.</l>
-            <l>Excepté moi<note place="foot">За исключением меня (франц.). — Ред.</note>, у ней
-              иного нет в предмете.</l>
+            <note place="foot"><key>Tout est dit</key><value>Все сказано (франц.). — Ред.</value></note>
+            <l>Tout est dit, мадам! для ней я всех милей.</l>
+            <note place="foot"><key>Excepté moi</key><value>За исключением меня (франц.). — Ред.</value></note>
+            <l>Excepté moi, у ней иного нет в предмете.</l>
           </sp>
           <sp who="#ulinka">
             <speaker>Улинька</speaker>
@@ -6291,8 +6304,8 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Que vois-je!<note place="foot">Что вижу! (франц.). — Ред.</note> Для чего ж я
-              просьбой унижался?</l>
+            <note place="foot"><key>Que vois-je!</key><value>Что вижу! (франц.). — Ред.</value></note>
+            <l>Que vois-je! Для чего ж я просьбой унижался?</l>
           </sp>
           <sp who="#lentjagina">
             <speaker>Лентягина</speaker>
@@ -6589,10 +6602,11 @@
           </sp>
           <sp who="#vetromah">
             <speaker>Ветромах</speaker>
-            <l>Je suis content,<note place="foot">Я доволен (франц.). — Ред.</note> что я не вшел в
-              мещанский род.</l>
+            <note place="foot"><key>Je suis content</key><value>Я доволен (франц.). — Ред.</value></note>
+            <l>Je suis content, что я не вшел в мещанский род.</l>
             <l>Мне кажется, что я весь кузницей воняю.</l>
-            <l part="I">Adieu.<note place="foot">Прощайте (франц.). — Ред.</note></l>
+            <note place="foot"><key>Adieu</key><value>Прощайте (франц.). — Ред.</value></note>
+            <l part="I">Adieu.</l>
           </sp>
           <sp who="#sudja">
             <speaker>Судья</speaker>

@@ -53,7 +53,7 @@
             <persName xml:lang="eng">Andrei</persName>
           </person>
           <person xml:id="krestjanin" sex="MALE">
-            <persName>Крестянин</persName>
+            <persName>Крестьянин</persName>
             <persName xml:lang="eng">A peasant</persName>
           </person>
           <person xml:id="korion" sex="MALE">

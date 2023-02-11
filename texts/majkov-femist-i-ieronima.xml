@@ -111,7 +111,10 @@
           визирем.</castItem>
         <castItem>Клит, друг Фемистов, под именем Мурата, начальник садов серальских.</castItem>
         <castItem>Осман, наперсник Магометов.</castItem>
-        <castItem>Стража и начальник оныя.</castItem>
+        <castGroup>
+          <roleDesc>Стража</roleDesc>
+        </castGroup>
+        <castItem>и начальник оныя.</castItem>
       </castList>
       <set>
         <p>Действие в Константинополе, в султанском серале.</p>

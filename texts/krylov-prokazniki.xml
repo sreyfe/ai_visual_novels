@@ -337,8 +337,8 @@
           </sp>
           <sp who="#tyanislov">
             <speaker>Тянислов</speaker>
-            <p>Да что же... итак ладно! бон форбон!..<note place="foot">Bon, fort bon (франц.) —
-                хорошо, очень хорошо.</note> послушайте-ка, благодетельница.</p>
+            <note place="foot"><key>бон форбон</key><value>Bon, fort bon (франц.) — хорошо, очень хорошо.</value></note>
+            <p>Да что же... итак ладно! бон форбон!.. послушайте-ка, благодетельница.</p>
           </sp>
           <sp who="#taratora">
             <speaker>Таратора</speaker>
@@ -404,9 +404,10 @@
           </sp>
           <sp who="#taratora">
             <speaker>Таратора</speaker>
+            <note place="foot"><key>премиереман... premiérement</key><value>Прежде всего (франц.)</value></note>
             <p>Оставь, пожалуй, свою дурацкую привычку, не зная по-французски, болтать и портить
               французские слова, да и вечно мямлить. Ну, кстати ли говорить премиереман...
-                premiérement<note place="foot">Прежде всего (франц.)</note> надобно, сударь.</p>
+                premiérement надобно, сударь.</p>
           </sp>
           <pb n="228"/>
           <sp who="#tyanislov">
@@ -523,8 +524,8 @@
           <stage>Тянислов и Ланцетин</stage>
           <sp who="#tyanislov">
             <speaker>Тянислов</speaker>
-            <p>Viens, мой ami!<note place="foot">Поди сюда, мой друг! (франц.)</note> помоги
-              мне!</p>
+            <note place="foot"><key>Viens, мой ami!</key><value>Поди сюда, мой друг! (франц.)</value></note>
+            <p>Viens, мой ami! помоги мне!</p>
           </sp>
           <sp who="#lancetin">
             <speaker>Ланцетин</speaker>
@@ -584,7 +585,8 @@
           </sp>
           <sp who="#tyanislov">
             <speaker>Тянислов</speaker>
-            <p>Богатель!<note place="foot">Bagatelle (франц.) — пустяки! вздор!</note> ты можешь все
+            <note place="foot"><key>Богатель</key><value>Bagatelle (франц.) — пустяки! вздор!</value></note>
+            <p>Богатель! ты можешь все
               своим убеждением; ты знаешь, как ты здесь важен, как Палладина статуя в Трое: здесь
               нет тебе врагов.</p>
           </sp>
@@ -1051,9 +1053,10 @@
           <sp who="#trojkina">
             <speaker>Княжна Тройкина</speaker>
             <stage>(одна.)</stage>
+            <note place="foot"><key>sans honneurs</key><value>Без онеров (франц.) — в карточной игре.</value></note>
             <p>Какой несчастливый день! все тузы и короли меня оставили, а с ними вместе и неверный
               Тянислов меня покидает! Он женится на Прияте! Я б лучше согласилась дней десять сряду
-              играть sans honneurs<note place="foot">Без онеров (франц.) — в карточной игре.</note>
+              играть sans honneurs
               нежели слышать такую ведомость. Но постараюсь отыграться. Уже здесь велено подать
               столы. Если счастие ко мне возвратится, так и Тянислов опять будет мой. Любезные тузы,
               на вас моя надежда! Правда, говорят, вы часто изменяете, но зато если вы держите
@@ -1821,10 +1824,12 @@
           <stage>Таратора, Рифмокрад и Плутана (в мужском платье).</stage>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Pardonnez moi, monsieur<note place="foot">Простите меня, господин (франц.)</note>
+            <note place="foot"><key>Pardonnez moi, monsieur</key><value>Простите меня, господин (франц.)</value></note>
+            <note place="foot"><key>connoissance</key><value>Знакомство (франц.)</value></note>
+            <p>Pardonnez moi, monsieur
               что, не имея чести вас знать, я рискую своими знаниями к вам адресоваться. Ваше
               познание, monsieur, и ваша слава, мадам, так фрапировала мои уши, что я сам,
-              интересуясь Парнасом, должностью почел сделать с вами connoissance<note place="foot">Знакомство (франц.)</note>.</p>
+              интересуясь Парнасом, должностью почел сделать с вами connoissance.</p>
           </sp>
           <pb n="257"/>
           <sp who="#rifmokrad">
@@ -1842,7 +1847,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Я все пишу, что мне вздумается, сударь, и пишу бесподобно. Sans vanité<note place="foot">Не хвастаясь (франц.)</note> сказать: я довольно умен; иные говорят,
+            <note place="foot"><key>Sans vanité</key><value>Не хвастаясь (франц.)</value></note>
+            <p>Я все пишу, что мне вздумается, сударь, и пишу бесподобно. Sans vanité сказать: я довольно умен; иные говорят,
               что я невежа, по прошу вас им не верить, для того, что я сам анонсирую, что я умен; а
               мне ведь самому себя знать гораздо легче можно.</p>
           </sp>
@@ -1857,8 +1863,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>О сударыня! вы им много чести делаете! Mais diable m’emporte<note place="foot">Чорт
-                меня побери (франц.)</note>, я и сам об них хорошего мнения, например: вот стихи,
+            <note place="foot"><key>Mais diable m’emporte</key><value>Чорт меня побери (франц.)</value></note>
+            <p>О сударыня! вы им много чести делаете! Mais diable m’emporte, я и сам об них хорошего мнения, например: вот стихи,
               которые я сделал вашей красоте... Но эти стихи до такой степени чувствительны, что и
               французский мой парикмахер смеялся, как русский толстый откупщик, когда я их ему
               читал.</p>
@@ -1919,8 +1925,8 @@
           </sp>
           <sp who="#taratora">
             <speaker>Таратора</speaker>
-            <p>Чрез минуту, mon coeur<note place="foot">Сердце мое (франц.)</note>, как ты
-              нетерпелив!</p>
+            <note place="foot"><key>mon coeur</key><value>Сердце мое (франц.)</value></note>
+            <p>Чрез минуту, mon coeur, как ты нетерпелив!</p>
           </sp>
         </div>
         <div type="scene">
@@ -2155,7 +2161,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Раrbleu, madame<note place="foot">Чорт возьми, мадам! (франц.)</note>, мне не учиться
+            <note place="foot"><key>Раrbleu, madame</key><value>Чорт возьми, мадам! (франц.)</value></note>
+            <p>Раrbleu, madame, мне не учиться
               писать любовные письма... Но я еще не получал от вас ответа, неужели вам это
               первоучинка?</p>
           </sp>
@@ -2286,10 +2293,11 @@
           </sp>
           <sp who="#taratora">
             <speaker>Таратора</speaker>
+            <note place="foot"><key>бревис</key><value>Brevis (лат.) — короткий, краткий.</value></note>
             <p>Признаться: что если муж меня делает славною, то не меньше и он мною славен. Но как
               бы ни было, новая выдумка его прибавит о нем много шуму; а мне его слог при долгих еще
               более понравится. Признаюсь: я бы и ныне им восхищалась, но беда, что у него почти
-              всегда бревис<note place="foot">Brevis (лат.) — короткий, краткий.</note>.</p>
+              всегда бревис.</p>
           </sp>
           <trailer>Конец второго действия</trailer>
         </div>
@@ -2411,8 +2419,8 @@
           <sp who="#plutana">
             <speaker>Плутана</speaker>
             <stage>(лекарю.)</stage>
-            <p>Parbleu, monsieur le docteur<note place="foot">Чорт возьми, господин доктор!
-                (франц.)</note>, что ж вы не скрипите?</p>
+            <note place="foot"><key>Parbleu, monsieur le docteur</key><value>Чорт возьми, господин доктор! (франц.)</value></note>
+            <p>Parbleu, monsieur le docteur, что ж вы не скрипите?</p>
           </sp>
           <sp who="#lancetin">
             <speaker>Ланцетин</speaker>
@@ -2650,7 +2658,8 @@
           <stage>Прежние, кроме Тянислова.</stage>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Parbleu! Eh bien, madame!<note place="foot">Ну, мадам (франц.)</note> часто ли вы
+            <note place="foot"><key>Eh bien, madame</key><value>Ну, мадам (франц.)</value></note>
+            <p>Parbleu! Eh bien, madame! часто ли вы
               делаете такие прекрасные спектакли?</p>
           </sp>
           <sp who="#taratora">
@@ -3071,8 +3080,8 @@
           </sp>
           <sp who="#tyanislov">
             <speaker>Тянислов</speaker>
-            <p>Сядем же; забудем все прошедшее и порезонируем иöнь пиö<note place="foot">Un peu
-                (франц.) — немножко.</note>.</p>
+            <note place="foot"><key>иöнь пиö</key><value>Un peu (франц.) — немножко.</value></note>
+            <p>Сядем же; забудем все прошедшее и порезонируем иöнь пиö.</p>
           </sp>
           <sp who="#rifmokrad">
             <speaker>Рифмокрад</speaker>
@@ -3180,8 +3189,8 @@
           <pb n="285"/>
           <sp who="#rifmokrad">
             <speaker>Рифмокрад</speaker>
-            <p>Как же, сударь, это будет божественный coup de théâtre!<note place="foot">Сценический
-                эффект! (франц.)</note></p>
+            <note place="foot"><key>coup de théâtre!</key><value>Сценический эффект! (франц.)</value></note>
+            <p>Как же, сударь, это будет божественный coup de théâtre!</p>
           </sp>
           <sp who="#azbukin">
             <speaker>Азбукин</speaker>
@@ -3842,8 +3851,8 @@
           </sp>
           <sp who="#tyanislov">
             <speaker>Тянислов</speaker>
-            <p>Что ты это, бонмо<note place="foot">Bon mot (франц.) — острота, острое
-              словцо.</note>, что ли, говоришь?.. так это самое глупое!</p>
+            <note place="foot"><key>бонмо</key><value>Bon mot (франц.) — острота, острое словцо.</value></note>
+            <p>Что ты это, бонмо, что ли, говоришь?.. так это самое глупое!</p>
           </sp>
           <sp who="#lancetin">
             <speaker>Ланцетин</speaker>
@@ -3956,7 +3965,8 @@
           <stage>Таратора и Плутана.</stage>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Ah! madame! Pardonnez!<note place="foot">Ах! мадам! Простите! (франц.)</note> Я весь
+            <note place="foot"><key>Ah! madame! Pardonnez!</key><value>Ах! мадам! Простите! (франц.)</value></note>
+            <p>Ah! madame! Pardonnez! Я весь
               виноват перед вами.</p>
           </sp>
           <sp who="#taratora">
@@ -3973,7 +3983,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Mais à propos<note place="foot">Но, кстати (франц.)</note> о наказании: я хочу также
+            <note place="foot"><key>Mais à propos</key><value>Но, кстати (франц.)</value></note>
+            <p>Mais à propos о наказании: я хочу также
               наказать Тянислова за то, что я его подозреваю, и за то, что он не <pb n="301"/>
               примечает моих достоинств, и за то, что он невежа. И для того-то я, любя ваш дом и
               почитая вас, не хочу, чтоб вы были ему пищею. А если это случится, так один из нас
@@ -4002,7 +4013,8 @@
           </sp>
           <sp who="#taratora">
             <speaker>Таратора</speaker>
-            <p>Ты просишь, mon cher<note place="foot">Дорогой (франц.)</note> мне нельзя тебе
+            <note place="foot"><key>mon cher</key><value>Дорогой (франц.)</value></note>
+            <p>Ты просишь, mon cher мне нельзя тебе
               отказать; но что же я стану делать? Э! постой! я дам тайное позволение Прияте, чтоб
               она уехала с Милоном к приходскому священнику и обвенчалась; а к нему напишу письмецо,
               так он тотчас их и обвенчает; потом пусть он приедет сюда и признается в своем
@@ -4010,7 +4022,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Que diable, madame!<note place="foot">Чорт возьми, сударыня! (франц.)</note> Я не
+            <note place="foot"><key>Que diable, madame!</key><value>Чорт возьми, сударыня! (франц.)</value></note>
+            <p>Que diable, madame! Я не
               думал, чтоб у вас была такая острая голова.</p>
           </sp>
           <pb n="302"/>
@@ -4818,7 +4831,8 @@
           </sp>
           <sp who="#plutana">
             <speaker>Плутана</speaker>
-            <p>Mais je crois, madame<note place="foot">Но я думаю, сударыня! (франц.)</note>, что
+            <note place="foot"><key>Mais je crois, madame</key><value>Но я думаю, сударыня! (франц.)</value></note>
+            <p>Mais je crois, madame, что
               все дамы завидуют вашему нежному сердцу: вы ей-ей примерная женщина!</p>
           </sp>
           <sp who="#taratora">

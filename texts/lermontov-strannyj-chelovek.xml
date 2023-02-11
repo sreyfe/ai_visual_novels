@@ -742,7 +742,8 @@
         </sp>
         <sp who="#gost_2d">
           <speaker>Гость 4.)</speaker>
-          <p>C'est une coquette.<note place="foot">Это кокетка.</note> —</p>
+          <note place="foot"><key>C'est une coquette</key><value>Это кокетка.</value></note>
+          <p>C'est une coquette. —</p>
         </sp>
         <sp who="#natalya_fedorovna">
           <speaker>Наталья Ф.</speaker>
@@ -1980,9 +1981,10 @@
         </sp>
         <sp who="#belinskoj">
           <speaker>Белинской.</speaker>
+          <note place="foot"><key>beau-monde</key><value>Свет.</value></note>
           <p>Хорошо! — в первом ряду? — хорошо. <stage>(Про себя.)</stage> Скучно будет сегодня во
             Французском театре: играют скверно, тесно, душно. — А нечего делать! — весь
-              beau-monde!<note place="foot">Свет.</note> —</p>
+              beau-monde! —</p>
         </sp>
         <stage>(Закуривает трубку и уходит.)</stage>
       </div>
@@ -2088,10 +2090,10 @@
         <sp who="#natasha">
           <speaker>Наташа</speaker>
           <stage>(в сторону).</stage>
+          <note place="foot"><key>un jeune homme charmant</key><value>Очаровательный молодой человек.</value></note>
           <p>Он делает глупости! — я теперь на него так сердита, так сердита! — хвалится! — кто б
             подумал! — это слишком! — <stage>(Громко.)</stage> Ты знаешь, кузина, у нас был вчера
-            Белинской! un jeune homme charmant!<note place="foot">Очаровательный молодой
-              человек.</note> прелесть как хорош, умен и любезен. Вот уж не надует губы! Как
+            Белинской! un jeune homme charmant! прелесть как хорош, умен и любезен. Вот уж не надует губы! Как
             воспитан, точно будто всю жизнь провел при дворе! —</p>
         </sp>
         <sp who="#knyazhna_sofya">
@@ -4023,7 +4025,8 @@
         </sp>
         <sp who="#gost_13b">
           <speaker>2.) Гость.</speaker>
-          <p>Недурна. Une figure piquante!<note place="foot">Пикантная фигура.</note></p>
+          <note place="foot"><key>Une figure piquante</key><value>Пикантная фигура.</value></note>
+          <p>Недурна. Une figure piquante!</p>
         </sp>
         <sp who="#dama_13a">
           <speaker>1.) Дама</speaker>

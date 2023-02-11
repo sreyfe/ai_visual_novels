@@ -116,12 +116,19 @@
         <castItem>Рурик, князь Новгородский.</castItem>
         <castItem>Вадим, посадник и полководец.</castItem>
         <castItem>Рамида, дочь его.</castItem>
-        <castItem>Пренест,</castItem>
-        <castItem>Вигор  посадники.</castItem>
+        <castGroup>
+          <castItem>Пренест,</castItem>
+          <castItem>Вигор</castItem>
+          <roleDesc>посадники.</roleDesc>
+        </castGroup>
         <castItem>Извед, наперсник Руриков.</castItem>
         <castItem>Селена, наперсница Рамидина.</castItem>
-        <castItem>Воины.</castItem>
-        <castItem>Народ.</castItem>
+        <castGroup>
+          <roleDesc>Воины.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Народ.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Новегороде на площади.</p>

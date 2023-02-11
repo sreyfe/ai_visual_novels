@@ -113,6 +113,9 @@
           <person xml:id="propotej" sex="MALE">
             <persName>Пропотей</persName>
           </person>
+          <person xml:id="aleksandra" sex="FEMALE">
+            <persName>Александра</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#ksenija" passive="#varvara"/>
             <relation name="associated_with" active="#laptev" passive="#bulychov"/>

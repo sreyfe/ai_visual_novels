@@ -81,6 +81,12 @@
           <person xml:id="ogorodnik" sex="MALE">
             <persName>Огородник</persName>
           </person>
+          <person xml:id="pravdin" sex="MALE">
+            <persName>Правдин</persName>
+          </person>
+          <person xml:id="starodum" sex="MALE">
+            <persName>Стародум</persName>
+          </person>
           <listRelation type="personal">
             <relation name="lover_of" active="#slavin" passive="#sofya"/>
             <relation name="related_with" active="#sofya" passive="#flyugerova"/>
@@ -131,11 +137,11 @@
       <epigraph>
         <cit>
           <quote>
-            <sp>
+            <sp who="#pravdin">
               <speaker>Правдин.</speaker>
               <p>Воспитание действительно состояло в нескольких правилах.</p>
             </sp>
-            <sp>
+            <sp who="#starodum">
               <speaker>Стародум.</speaker>
               <p>В одном. Отец мой мне всегда говаривал: имей сердце, имей душу - и ты будешь
                 человек во всякое время.</p>
@@ -163,7 +169,9 @@
         <castItem>Панфил, под именем Лафлеша, камердинер князя Бирюлев с ним вместе живший в
           Париже.</castItem>
         <castItem>Огородник Флюгеровой.</castItem>
-        <castItem>Несколько лакеев.</castItem>
+        <castGroup>
+          <roleDesc>Несколько лакеев.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие с 8 часов утра до 7 вечера происходит в губернском городе, в доме Флюгеровой, на
@@ -1033,8 +1041,8 @@
             <l>Ну, так и думала: он мне уж надоел,</l>
             <l>Не выживешь отсель. - В уме ли он? Как смел?</l>
             <l>Муж Флюгеровой кто? кабацкий здесь начальник,</l>
-            <l>Который сам, fi donc!<note place="foot">Тьфу! (франц.). - Ред.</note> и сам был
-              целовальник.</l>
+            <note place="foot"><key>fi donc!</key><value>Тьфу! (франц.). - Ред.</value></note>
+            <l>Который сам, fi donc! и сам был целовальник.</l>
           </sp>
           <sp who="#dasha">
             <speaker>Даша</speaker>
@@ -1222,13 +1230,13 @@
           <stage>Те же и Панфил, одет франтом.</stage>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
-            <l part="I">Bonjour, la Fleche!<note place="foot">Здравствуй, Лафлеш! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Bonjour, la Fleche!</key><value>Здравствуй, Лафлеш! (франц.). - Ред.</value></note>
+            <l part="I">Bonjour, la Fleche!</l>
           </sp>
           <sp who="#panfil">
             <speaker>Панфил</speaker>
-            <l part="F">Madame!<note place="foot">Мадам! (франц.). - Ред.</note> я прислан за
-              прощеньем.</l>
+            <note place="foot"><key>Madame!</key><value>Мадам! (франц.). - Ред.</value></note>
+            <l part="F">Madame! я прислан за прощеньем.</l>
             <l>Князь должен был вчера весь день без вас прожить,</l>
             <l>Зато велел его из списков исключить,</l>
             <l>Как день потерянный. Здесь свет взбесился модный,</l>
@@ -1513,8 +1521,8 @@
           </sp>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
-            <l>Mon cher la Fleche!<note place="foot">Дорогой Лафлеш! (франц.). - Ред.</note> сейчас
-              я к князю напишу.</l>
+            <note place="foot"><key>Mon cher la Fleche!</key><value>Дорогой Лафлеш! (франц.). - Ред.</value></note>
+            <l>Mon cher la Fleche! сейчас я к князю напишу.</l>
             <l part="I">Останься, Даша, с ним.</l>
           </sp>
           <sp who="#panfil">
@@ -1738,8 +1746,8 @@
             <stage>(Хохочет)</stage>
             <l>Как тетушка смешна! влюбилася как дура</l>
             <l>И думает, что князь ей может быть жених.</l>
-            <l>Нет, нет, ma tante!<note place="foot">Тетушка! (франц.). - Ред.</note> Зефир не любит
-              роз таких,</l>
+            <note place="foot"><key>ma tante!</key><value>Тетушка! (франц.). - Ред.</value></note>
+            <l>Нет, нет, ma tante! Зефир не любит роз таких,</l>
             <l>Которым лишь шипы остались для наряда.</l>
             <stage>Панфил выглядывает с улицы в окно.</stage>
             <l>Кто там? - Опять Лафлеш? - С письмом? Ах! как я рада!</l>
@@ -1757,8 +1765,8 @@
             <l>Что б, это значило?.. Недаром сердце бьется.</l>
             <l>Ужели Федра вновь Тезеем увезется?</l>
             <stage>(Читает)</stage>
-            <l>"Charmante amie, о Lila! du courage!<note place="foot">Прелестный друг, Лиля! Смелей!
-                (франц.). - Ред.</note></l>
+            <note place="foot"><key>Charmante amie, о Lila! du courage!</key><value>Прелестный друг, Лиля! Смелей! (франц.). - Ред.</value></note>
+            <l>"Charmante amie, о Lila! du courage!</l>
             <l>Ведеркина и тетушкина блажь</l>
             <l>Дают нам способы жениться.</l>
             <l>К обеду жди меня: в последний раз дозволь</l>
@@ -1838,8 +1846,8 @@
           <sp who="#liya">
             <speaker>Лия</speaker>
             <stage>(приседая)</stage>
-            <l part="F">Merci, ma tres chere tante!<note place="foot">Спасибо, бесценная тетушка!
-                (франц.). - Ред.</note></l>
+            <note place="foot"><key>Merci, ma tres chere tante!</key><value>Спасибо, бесценная тетушка! (франц.). - Ред.</value></note>
+            <l part="F">Merci, ma tres chere tante!</l>
             <l>Да откупщик почти ведь то ж, что маркитант.</l>
           </sp>
           <sp who="#flyugerova">
@@ -1942,8 +1950,8 @@
           </sp>
           <sp who="#liya">
             <speaker>Лия</speaker>
-            <l part="F">Adieu, ma soeur ainee.<note place="foot">До свидания, моя старшая сестра
-                (франц.). - Ред.</note></l>
+            <note place="foot"><key>Adieu, ma soeur ainee.</key><value>До свидания, моя старшая сестра (франц.). - Ред.</value></note>
+            <l part="F">Adieu, ma soeur ainee.</l>
           </sp>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
@@ -2546,25 +2554,25 @@
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
             <stage>(идя к нему)</stage>
-            <l part="I">Bonjour, mon ange!<note place="foot">Здравствуйте, мой ангел! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Bonjour, mon ange!</key><value>Здравствуйте, мой ангел! (франц.). - Ред.</value></note>
+            <l part="I">Bonjour, mon ange!</l>
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
             <l part="M">Браво!</l>
             <stage>(Вслух)</stage>
-            <l part="F">Bonjour, о, ma deesse!<note place="foot">Здравствуйте, моя богиня! (франц.).
-                - Ред.</note></l>
+            <note place="foot"><key>Bonjour, о, ma deesse!</key><value>Здравствуйте, моя богиня! (франц.). - Ред.</value></note>
+            <l part="F">Bonjour, о, ma deesse!</l>
           </sp>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
-            <l part="I">Mon adorable prince!<note place="foot">Обожаемый князь! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Mon adorable prince!</key><value>Обожаемый князь! (франц.). - Ред.</value></note>
+            <l part="I">Mon adorable prince!</l>
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
-            <l part="F">Mon aimable princesse!<note place="foot">Любимая княгиня! (франц.) -
-                Ред.</note></l>
+            <note place="foot"><key>Mon aimable princesse!</key><value>Любимая княгиня! (франц.) - Ред.</value></note>
+            <l part="F">Mon aimable princesse!</l>
             <l>Monsieur Ведеркин! - как? - приятель уж и здесь?</l>
           </sp>
           <sp who="#vederkin">
@@ -2612,8 +2620,8 @@
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
-            <l part="F">C'est bien, tres bien, ma chere!<note place="foot">Это хорошо, очень хорошо,
-                дорогая! (франц.). - Ред.</note></l>
+            <note place="foot"><key>C'est bien, tres bien, ma chere!</key><value>Это хорошо, очень хорошо, дорогая! (франц.). - Ред.</value></note>
+            <l part="F">C'est bien, tres bien, ma chere!</l>
             <l>И благодарности моей, божусь, нет мер!</l>
             <l part="I">Но торг!..</l>
           </sp>
@@ -2680,8 +2688,8 @@
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
-            <l>Sans doute!<note place="foot">Конечно! (франц.). - Ред.</note> - и вечером вас славно
-              прокачу:</l>
+            <note place="foot"><key>Sans doute!</key><value>Конечно! (франц.). - Ред.</value></note>
+            <l>Sans doute! - и вечером вас славно прокачу:</l>
             <l part="I">Мне прислано ландо.</l>
           </sp>
           <sp who="#flyugerova">
@@ -2724,8 +2732,8 @@
             <l part="F">Взгляни, mon cher, - модель!</l>
             <l>Уж видно, что была воспитана не худо.</l>
             <l>Мамзель Лежер и я - мы сотворили чудо!</l>
-            <l>Ведь спит с романами. - Не новый ли, mon сoeur?<note place="foot">Мое сердце
-                (франц.). - Ред.</note></l>
+            <note place="foot"><key>mon сoeur</key><value>Мое сердце (франц.). - Ред.</value></note>
+            <l>Ведь спит с романами. - Не новый ли, mon сoeur?</l>
           </sp>
           <sp who="#liya">
             <speaker>Лия</speaker>
@@ -2826,13 +2834,13 @@
             <speaker>Лия</speaker>
             <stage>(почтительно приседает. Князь кланяется, и когда он целует руку, оба
               смеются.)</stage>
-            <l part="I">Mon tres cher oncle!<note place="foot">Дражайший дядюшка! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Mon tres cher oncle!</key><value>Дражайший дядюшка! (франц.). - Ред.</value></note>
+            <l part="I">Mon tres cher oncle!</l>
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
-            <l part="F">Ma tres chere niece!<note place="foot">Дражайшая племянница! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Ma tres chere niece!</key><value>Дражайшая племянница! (франц.). - Ред.</value></note>
+            <l part="F">Ma tres chere niece!</l>
           </sp>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
@@ -2963,15 +2971,16 @@
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
             <stage>(с нежностию)</stage>
-            <l part="M">Adieu, mon ange!<note place="foot">До свидания, мой ангел! (франц.). -
-                Ред.</note></l>
+            <note place="foot"><key>Adieu, mon ange!</key><value>До свидания, мой ангел! (франц.). - Ред.</value></note>
+            <l part="M">Adieu, mon ange!</l>
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
             <stage>(подражая ей)</stage>
+            <note place="foot"><key>Adieu, mon coeur!</key><value>До свидания, мое сердце! (франц.). - Ред.</value></note>
             <l part="F">Adieu, mon coeur!</l>
-            <l part="I">Adieu! ma reine! Adieu!<note place="foot">До свидания, мое сердце! До
-                свидания, моя царица! До свидания! (франц.). - Ред.</note></l>
+            <note place="foot"><key>Adieu! ma reine! Adieu!</key><value>До свидания, моя царица! До свидания! (франц.). - Ред.</value></note>
+            <l part="I">Adieu! ma reine! Adieu!</l>
           </sp>
           <stage>Флюгерова уходит.</stage>
         </div>
@@ -2980,12 +2989,13 @@
           <stage>Лия и князь, хохочут.</stage>
           <sp who="#liya">
             <speaker>Лия</speaker>
-            <l part="F">Какой же ты farceur!<note place="foot">Шутник (франц.). - Ред.</note></l>
+            <note place="foot"><key>farceur</key><value>Шутник (франц.). - Ред.</value></note>
+            <l part="F">Какой же ты farceur!</l>
           </sp>
           <sp who="#knyaz">
             <speaker>Князь</speaker>
-            <l>La farce est ma passion!<note place="foot">Шутка - это моя страсть (франц.). -
-                Ред.</note> Люблю их больше балов.</l>
+            <note place="foot"><key>La farce est ma passion</key><value>Шутка - это моя страсть (франц.). - Ред.</value></note>
+            <l>La farce est ma passion! Люблю их больше балов.</l>
           </sp>
           <sp who="#liya">
             <speaker>Лия</speaker>
@@ -3149,9 +3159,10 @@
           <sp who="#panfil">
             <speaker>Панфил</speaker>
             <stage>(держа бокал, поет)</stage>
+            <note place="foot"><key>Vive le vin! Vive l'amour!</key><value>Да здравствует вино! Да здравствует любовь! (франц.). - Ред.</value></note>
             <l>Vive le vin! Vive l'amour!</l>
-            <l>Amant et buveur tour a tour...<note place="foot">Да здравствует вино! Да здравствует
-                любовь! Влюбленный и пьяница неразлучны... (франц.). - Ред.</note></l>
+            <note place="foot"><key>Amant et buveur tour a tour...</key><value>Влюбленный и пьяница неразлучны... (франц.). - Ред.</value></note>
+            <l>Amant et buveur tour a tour...</l>
             <stage>(Выпив несколько)</stage>
             <l>Да что ж ты, милая, меня не угощаешь?</l>
           </sp>
@@ -3164,8 +3175,8 @@
             <speaker>Панфил</speaker>
             <l>Здоровье женихов с невестами я пил.</l>
             <l>Так водится, мой друг, в большом, меж нами, свете.</l>
-            <l>Две свадьбы вдруг - charmant!<note place="foot">Прелестно! (франц.). - Ред.</note> Не
-              худо быть и третьей.</l>
+            <note place="foot"><key>charmant!</key><value>Прелестно! (франц.). - Ред.</value></note>
+            <l>Две свадьбы вдруг - charmant! Не худо быть и третьей.</l>
             <l part="I">Послушай,</l>
             <stage>(наливает)</stage>
             <l part="F">я твое здоровье, Даша, пью.</l>
@@ -3772,8 +3783,8 @@
             <speaker>Князь</speaker>
             <stage>(Лие тихо и скоро)</stage>
             <l part="F">Тут надобна отвага.</l>
-            <l>Courage, ma chere, courage!<note place="foot">Смелей, дорогая, смелей! (франц.). -
-                Ред.</note> - В ландо и мигом мах.</l>
+            <note place="foot"><key>Courage, ma chere, courage!</key><value>Смелей, дорогая, смелей! (франц.). - Ред.</value></note>
+            <l>Courage, ma chere, courage! - В ландо и мигом мах.</l>
             <l part="I">Я в сад пойду.</l>
             <stage>(Шепчет Панфилу.)</stage>
           </sp>
@@ -3790,14 +3801,14 @@
           <sp who="#knyaz">
             <speaker>Князь</speaker>
             <stage>(тихо Лие)</stage>
-            <l part="F">Ай! ай! Allons!<note place="foot">Идем! (франц.). - Ред.</note> иль
-              худо!</l>
+            <note place="foot"><key>Allons!</key><value>Идем! (франц.). - Ред.</value></note>
+            <l part="F">Ай! ай! Allons! иль худо!</l>
           </sp>
           <sp who="#liya">
             <speaker>Лия</speaker>
             <stage>(скоро и тихо)</stage>
-            <l>Allons, mon cher Thesee!<note place="foot">Идем, дорогой Тезей! (франц.). -
-                Ред.</note> Я выйду в эту дверь.</l>
+            <note place="foot"><key>Allons, mon cher Thesee!</key><value>Идем, дорогой Тезей! (франц.). - Ред.</value></note>
+            <l>Allons, mon cher Thesee! Я выйду в эту дверь.</l>
           </sp>
           <sp who="#pryamikov">
             <speaker>Прямиков</speaker>
@@ -3815,8 +3826,8 @@
           <sp who="#knyaz">
             <speaker>Князь</speaker>
             <stage>(возвратясь)</stage>
-            <l>Так... голова дурна!.. я шел... pour prendre l'air.<note place="foot">Подышать
-                воздухом (франц.). - Ред.</note></l>
+            <note place="foot"><key>pour prendre l'air</key><value>Подышать воздухом (франц.). - Ред.</value></note>
+            <l>Так... голова дурна!.. я шел... pour prendre l'air.</l>
           </sp>
           <sp who="#flyugerova">
             <speaker>Флюгерова</speaker>
@@ -4841,14 +4852,14 @@
             <speaker>Панфил</speaker>
             <l>Позвольте, Князева рука знакомей мне.</l>
             <l>Писал-то наскоро и, так сказать, в огне.</l>
+            <note place="foot"><key>aimable, adorable et diablement gangereuse femme</key><value>Милая, обожаемая и дьявольски опасная женщина (франц.).</value></note>
             <p>"Милостивая государыня тетушка Глафира Климовна! Судьба, сила страстей над сердцами
               чувствительными, непреодолимая сила прелестей ваших... Чувство филантропическое и
               симпатическо-романическое - словом, всё побудило меня вырвать себя из могущества
               красоты вашей и, так сказать, не изменяя вам, отдать себя вам же самим, то есть той,
               которая образована вами и в миниатюре есть точная вы! Чувствую, милостивая государыня
               тетушка, что вы не вдруг это изволите понять, а потому объясняюсь: неужли, aimable,
-              adorable et diablement gangereuse femme,<note place="foot">Милая, обожаемая и
-                дьявольски опасная женщина (франц.).</note> вы не заметили истинно вертеровской
+              adorable et diablement gangereuse femme, вы не заметили истинно вертеровской
               страсти к себе г. Ведеркина? - Не очевидное ли тому доказательство то, что он поспешил
               быть свидетелем при нашей свадьбе? Он человек прехороший, а притом и неглуп. Мог ли я
               с моею чувствительностию лишить его всей надежды? Увы! я жертвовал собою! Не уморите и

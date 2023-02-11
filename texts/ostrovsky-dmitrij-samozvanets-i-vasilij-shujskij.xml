@@ -1885,8 +1885,8 @@
           </sp>
           <sp who="#marzheret">
             <speaker>Маржерет</speaker>
-            <l>Votre majesté!<note place="foot">Ваше величество! (франц.)</note> Доколе капля
-              крови</l>
+            <note place="foot"><key>Votre majesté!</key><value>Ваше величество! (франц.)</value></note>
+            <l>Votre majesté! Доколе капля крови</l>
             <l>Французская останется во мне,</l>
             <l>Я ваш слуга; я только жажду часу,</l>
             <l>Чтоб показать пред вашими глазами</l>
@@ -1932,16 +1932,16 @@
             <l>О бритые затылки бесермен.</l>
             <l>Мне хочется померяться с тобою;</l>
             <l>Ты храбр, а я завистлив; ты, я знаю,</l>
-            <l>Доволен будешь мной, jak boga kocham!<note place="foot">клянусь богом!
-                (польск.)</note></l>
+            <note place="foot"><key>jak boga kocham!</key><value>клянусь богом! (польск.)</value></note>
+            <l>Доволен будешь мной, jak boga kocham!</l>
           </sp>
           <sp who="#marzheret">
             <speaker>Маржерет</speaker>
-            <l part="I">Vive l'empereur!<note place="foot">Да здравствует император!
-              (франц.)</note></l>
+            <note place="foot"><key>Vive l'empereur!</key><value>Да здравствует император! (франц.)</value></note>
+            <l part="I">Vive l'empereur!</l>
             <stage>(Солдатам.)</stage>
-            <l part="F">Ruft: "Hoch! vivat der Kaiser!"<note place="foot">Кричите: "Да здравствует
-                император!" (нем.)</note></l>
+            <note place="foot"><key>Ruft: "Hoch! vivat der Kaiser!"</key><value>Кричите: "Да здравствует император!" (нем.)</value></note>
+            <l part="F">Ruft: "Hoch! vivat der Kaiser!"</l>
           </sp>
           <sp who="#nemtsy">
             <speaker>Немцы</speaker>
@@ -2013,11 +2013,13 @@
           </sp>
           <sp who="#iezuit">
             <speaker>Иезуит</speaker>
-            <l part="F">Те Deum laudamus!<note place="foot">Тебя, бога, хвалим! (лат.)</note></l>
+            <note place="foot"><key>Те Deum laudamus!</key><value>Тебя, бога, хвалим! (лат.)</value></note>
+            <l part="F">Те Deum laudamus!</l>
           </sp>
           <sp who="#dmitrij">
             <speaker>Дмитрий</speaker>
-            <l part="I">За нами, pater!<note place="foot">отец! (лат.)</note></l>
+            <note place="foot"><key>pater!</key><value>отец! (лат.)</value></note>
+            <l part="I">За нами, pater!</l>
             <stage>Уходит во дворец, за ним Мстиславский, Голицын, Дмитрий Шуйский,. Воротынский,
               Куракин и другие: Василий Шуйский останавливается на слова Бельского.</stage>
           </sp>
@@ -2091,7 +2093,8 @@
           </sp>
           <sp who="#buchinskij">
             <speaker>Бучинский</speaker>
-            <l part="I">Пахолик<note place="foot">Слуга (от польск. pacholek)</note>, коня!</l>
+            <note place="foot"><key>Пахолик</key><value>Слуга (от польск. pacholek)</value></note>
+            <l part="I">Пахолик, коня!</l>
           </sp>
           <sp who="#zaporozhtsy">
             <speaker>Запорожцы</speaker>
@@ -2255,8 +2258,8 @@
             <speaker>Иезуит</speaker>
             <l part="F">Как тебе угодно:</l>
             <l>Коль хочешь--здесь, не хочешь -- нет меня.</l>
-            <l part="I">Monarcha invictissime!<note place="foot">непобедимейший монарх!
-                (лат.)</note></l>
+            <note place="foot"><key>Monarcha invictissime!</key><value>непобедимейший монарх! (лат.)</value></note>
+            <l part="I">Monarcha invictissime!</l>
           </sp>
           <sp who="#dmitrij">
             <speaker>Дмитрий</speaker>
@@ -2271,8 +2274,8 @@
             <l>Ведет тебя, путем прямым и верным,</l>
             <l>К величию; да ведают народы,</l>
             <l>Что твой оплот, что твой руководитель</l>
-            <l>Не есть иной кто, nisi Deus noster!<note place="foot">только Бог наш!
-              (лат.)</note></l>
+            <note place="foot"><key>nisi Deus noster!</key><value>только Бог наш! (лат.)</value></note>
+            <l>Не есть иной кто, nisi Deus noster!</l>
             <l>Да ведаешь и ты, что избран Богом</l>
             <l>Для дел великих. Ни мирская слава,</l>
             <l>Ни гром побед да не прельстят тебя!</l>
@@ -2282,8 +2285,10 @@
             <l>Давно они московских государей,</l>
             <l>Схизматиков, апостольского трона</l>
             <l>Чуждавшихся, к спасению зовут</l>
-            <l>И, scilicet<note place="foot">разумеется (лат.).</note>, к спасенью их народов.</l>
-            <l>И ныне наш universalis pater<note place="foot">римский папа (лат.)</note>,</l>
+            <note place="foot"><key>scilicet</key><value>разумеется (лат.).</value></note>
+            <l>И, scilicet, к спасенью их народов.</l>
+            <note place="foot"><key>universalis pater</key><value>римский папа (лат.)</value></note>
+            <l>И ныне наш universalis pater,</l>
             <l>Святейший Павел Пятый, умоляет</l>
             <l>Всевышнего, да дарует он силу</l>
             <l>Димитрию, второму Константину,</l>
@@ -2465,8 +2470,8 @@
             <l>Великий царь и государь Димитрий</l>
             <l>Иванович всея России созвал</l>
             <l>Бояр своих, окольничих, дворян</l>
-            <l>И вас, житые, выборные люди<note place="foot">Житые люди -- среднее сословие между
-                боярами, первостатейными гражданами и черным людом.</note>.</l>
+            <note place="foot"><key>житые, выборные люди</key><value>Житые люди -- среднее сословие между боярами, первостатейными гражданами и черным людом.</value></note>
+            <l>И вас, житые, выборные люди.</l>
             <l>Для государского больного дела!</l>
             <l>Его боярин, князь Василий Шуйский,</l>
             <l>Забыв Господень страх, а целованья</l>
@@ -4797,8 +4802,8 @@
             <l>В Московии, кто знает, после свадьбы</l>
             <l>Каков он будет! Грубая природа</l>
             <l>В нем скажется. Отец, ты знаешь, z chama</l>
-            <l part="I">Nie będzie pana<note place="foot">из хама не будет пана
-              (польск.)</note>.</l>
+            <note place="foot"><key>Nie będzie pana</key><value>из хама не будет пана (польск.)</value></note>
+            <l part="I">Nie będzie pana.</l>
           </sp>
           <sp who="#mnishek">
             <speaker>Мнишек</speaker>
@@ -5038,7 +5043,8 @@
           </sp>
           <sp who="#marina">
             <speaker>Марина</speaker>
-            <l>Да будет так! Я принимаю! Amen!<note place="foot">Аминь! (лат.)</note></l>
+            <note place="foot"><key>Amen!</key><value>Аминь! (лат.)</value></note>
+            <l>Да будет так! Я принимаю! Amen!</l>
             <stage>(Кланяется и уходит.)</stage>
             <stage>Дмитрий быстро убегает.</stage>
           </sp>
@@ -6180,8 +6186,8 @@
           <sp who="#kapitan">
             <speaker>Капитан</speaker>
             <stage>(народу)</stage>
-            <l>Пошел домой! Ходи домой! Ihr, Schurken!<note place="foot">Вы, негодяи
-              (нем.)</note></l>
+            <note place="foot"><key>Ihr, Schurken!</key><value>Вы, негодяи (нем.)</value></note>
+            <l>Пошел домой! Ходи домой! Ihr, Schurken!</l>
           </sp>
           <sp who="#kalachnik">
             <speaker>Калачник</speaker>
@@ -6203,8 +6209,8 @@
           </sp>
           <sp who="#kapitan">
             <speaker>Капитан</speaker>
-            <l>Бери его! Вяжи! Das ist ihr Hauptmann!<note place="foot">Это их атаман!
-              (нем.)</note></l>
+            <note place="foot"><key>Das ist ihr Hauptmann!</key><value>Это их атаман! (нем.)</value></note>
+            <l>Бери его! Вяжи! Das ist ihr Hauptmann!</l>
             <stage>Весь народ разбегается. Дурака уводят немцы.</stage>
           </sp>
         </div>
@@ -6411,8 +6417,8 @@
           <sp who="#vishnevetskij">
             <speaker>Вишневецкий</speaker>
             <stage>(Мнишку)</stage>
-            <l part="I">Moskiewskie barbarzyństwo<note place="foot">Московское варварство
-                (польск.).</note>.</l>
+            <note place="foot"><key>Moskiewskie barbarzyństwo</key><value>Московское варварство (польск.).</value></note>
+            <l part="I">Moskiewskie barbarzyństwo.</l>
             <stage>Отходят.</stage>
           </sp>
           <sp who="#golitsyn">
@@ -6468,7 +6474,8 @@
           </sp>
           <sp who="#mnishek">
             <speaker>Мнишек</speaker>
-            <l>Dziękuję<note place="foot">Благодарим (польск.).</note>, пан Голицын; мы за ласку</l>
+            <note place="foot"><key>Dziękuję</key><value>Благодарим (польск.).</value></note>
+            <l>Dziękuję, пан Голицын; мы за ласку</l>
             <l part="I">Заплатим вам.</l>
           </sp>
           <sp who="#vishnevetskij">
@@ -6519,8 +6526,8 @@
             <speaker>Василий Шуйский</speaker>
             <l>Бог дал, у нас народ не то, что в Польше:</l>
             <l>Земля царю, а царь народу верит.</l>
-            <l>У вас мятеж и рокош<note place="foot">Рокош -- крамола, измена, мятеж</note> каждый
-              день.</l>
+            <note place="foot"><key>рокош</key><value>Рокош -- крамола, измена, мятеж</value></note>
+            <l>У вас мятеж и рокош каждый день.</l>
             <l>А если вам и тут все рокош снится,</l>
             <l>Для верности прикажем днем и ночью</l>
             <l>По улицам стрельцам ходить дозором...</l>
@@ -6935,8 +6942,8 @@
           <sp who="#dmitrij">
             <speaker>Дмитрий</speaker>
             <stage>(с отчаянием)</stage>
-            <l>Не вор! Не вор! О! wszyscy djabli!<note place="foot">черт возьми! (польск.)</note>
-              Знали</l>
+            <note place="foot"><key>wszyscy djabli!</key><value>черт возьми! (польск.)</value></note>
+            <l>Не вор! Не вор! О! wszyscy djabli! Знали</l>
             <l>И прежде вы... Зачем же я на троне!</l>
             <l>Зачем меня вы прежде не убили.</l>
             <l>Пока я был ничтожен, как и вы!</l>

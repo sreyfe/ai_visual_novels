@@ -2,9 +2,35 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 101: expected statement.
-    "Маркиз д'Орсиньи – дуэлянт, по кличке "Одноглазый, помолись!"."
-                                                      ^
+The label Characters is defined twice, at File "game/script.rpy", line 70:
+    label Characters:
+and File "game/script.rpy", line 165:
+    label Characters:
+
+
+The label Characters is defined twice, at File "game/script.rpy", line 165:
+    label Characters:
+and File "game/script.rpy", line 3721:
+    label Characters:
+
+
+The label Characters is defined twice, at File "game/script.rpy", line 3721:
+    label Characters:
+and File "game/script.rpy", line 6618:
+    label Characters:
+
+
+The label Characters is defined twice, at File "game/script.rpy", line 6618:
+    label Characters:
+and File "game/script.rpy", line 10545:
+    label Characters:
+
+
+The label Characters is defined twice, at File "game/script.rpy", line 10545:
+    label Characters:
+and File "game/script.rpy", line 13551:
+    label Characters:
+
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb  5 16:24:24 2023
+Sat Feb 11 21:41:04 2023

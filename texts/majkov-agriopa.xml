@@ -117,7 +117,9 @@
         <castItem>Альбина, наперсница Агриопы.</castItem>
         <castItem>Аристон, наперсник Телефа.</castItem>
         <castItem>Военачальник.</castItem>
-        <castItem>Воины греческие и мизийкие.</castItem>
+        <castGroup>
+          <roleDesc>Воины греческие и мизийкие.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в городе Теуфрании, в царском доме.</p>

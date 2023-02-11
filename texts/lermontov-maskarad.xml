@@ -133,6 +133,7 @@
           </person>
           <person xml:id="maska_neizvestnyj" sex="MALE">
             <persName>Маска (Неизвестный)</persName>
+            <persName type="variant">Маска</persName>
             <persName xml:lang="ger">Eine Maske (der Unbekannte)</persName>
           </person>
           <person xml:id="sluga_arbenina" sex="MALE">
@@ -296,9 +297,15 @@
         <castItem>Шприх, Адам Петрович.</castItem>
         <castItem>Маска.</castItem>
         <castItem>Чиновник.</castItem>
-        <castItem>Игроки.</castItem>
-        <castItem>Гости.</castItem>
-        <castItem>Слуги и служанки.</castItem>
+        <castGroup>
+          <roleDesc>Игроки.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Гости.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Слуги и служанки.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
