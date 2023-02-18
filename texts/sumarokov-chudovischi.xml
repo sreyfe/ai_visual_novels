@@ -405,7 +405,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Что? вы думаете, что я говорю по-немецки. Quelle pensee! Quelle impertinence!<note place="foot">Что за мысль! Что за наглость! (франц.).</note> Чтоб я этим языком
+            <note place="foot"><key>Quelle pensee! Quelle impertinence!</key><value>Что за мысль! Что за наглость! (франц.).</value></note>
+            <p>Что? вы думаете, что я говорю по-немецки. Quelle pensee! Quelle impertinence! Чтоб я этим языком
               говорить стал!</p>
           </sp>
           <sp who="#barmas">
@@ -430,8 +431,8 @@
           <sp who="#djulizh">
             <speaker>Дюлиж</speaker>
             <stage>(Хабзею).</stage>
-            <p>Ah, mon ami, vous etes un tres bon garcon<note place="foot">Ах, мой друг, вы
-                чрезвычайно добрый малый (франц.).</note>.</p>
+            <note place="foot"><key>Ah, mon ami, vous etes un tres bon garcon</key><value>Ах, мой друг, вы чрезвычайно добрый малый (франц.).</value></note>
+            <p>Ah, mon ami, vous etes un tres bon garcon.</p>
           </sp>
           <sp who="#habzej">
             <speaker>Хабзей.</speaker>
@@ -481,9 +482,9 @@
           <sp who="#djulizh">
             <speaker>Дюлиж</speaker>
             <stage>(Критициондиусу).</stage>
+            <note place="foot"><key>Colin la, la-la-la-la, jetta par terre</key><value>Колен ее, ля-ля-ля-ля, повалил на землю (франц.).</value></note>
             <p>Эта одна песенка, которую я давича пел, всего русского языка стоит: Colin la,
-              la-la-la-la, jetta par terre<note place="foot">Колен ее, ля-ля-ля-ля, повалил на землю
-                (франц.).</note>.</p>
+              la-la-la-la, jetta par terre.</p>
           </sp>
           <sp who="#habzej">
             <speaker>Хабзей.</speaker>
@@ -558,7 +559,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Vous aves raison<note place="foot">Вы правы (франц.).</note>.</p>
+            <note place="foot"><key>Vous aves raison</key><value>Вы правы (франц.).</value></note>
+            <p>Vous aves raison.</p>
           </sp>
           <sp who="#krititsiondius">
             <speaker>Критициондиус.</speaker>
@@ -567,7 +569,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Justement<note place="foot">Справедливо (франц.).</note>.</p>
+            <note place="foot"><key>Justement</key><value>Справедливо (франц.).</value></note>
+            <p>Justement.</p>
           </sp>
           <sp who="#krititsiondius">
             <speaker>Критициондиус.</speaker>
@@ -575,7 +578,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Assurement<note place="foot">Определенно (франц.).</note>.</p>
+            <note place="foot"><key>Assurement</key><value>Определенно (франц.).</value></note>
+            <p>Assurement.</p>
           </sp>
           <sp who="#krititsiondius">
             <speaker>Критициондиус.</speaker>
@@ -583,8 +587,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Vous parlez, comme un oracle<note place="foot">Вы говорите, как оракул
-                (франц.).</note>.</p>
+            <note place="foot"><key>Vous parlez, comme un oracle</key><value>Вы говорите, как оракул (франц.).</value></note>
+            <p>Vous parlez, comme un oracle.</p>
           </sp>
           <sp who="#krititsiondius">
             <speaker>Критициондиус.</speaker>
@@ -608,8 +612,8 @@
           </sp>
           <sp who="#djulizh">
             <speaker>Дюлиж.</speaker>
-            <p>Я, право, не знаю, чья она: Medecin malgre lui<note place="foot">"Лекарь поневоле"
-                (комедия Ж.-Б. Мольера).</note>. Это пуще всего жалко, как бить-то стали, крайне
+            <note place="foot"><key>Medecin malgre lui</key><value>"Лекарь поневоле" (комедия Ж.-Б. Мольера).</value></note>
+            <p>Я, право, не знаю, чья она: Medecin malgre lui. Это пуще всего жалко, как бить-то стали, крайне
               жалко.</p>
           </sp>
           <sp who="#krititsiondius">

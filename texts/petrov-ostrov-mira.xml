@@ -58,6 +58,7 @@
           </person>
           <person xml:id="m-ss_dzhekobs" sex="FEMALE">
             <persName>М-сс Джекобс</persName>
+            <persName type="variant">Миссис Джекобс</persName>
             <persName xml:lang="ger">Mrs. Jacobs</persName>
           </person>
           <person xml:id="doktor" sex="MALE">
@@ -66,6 +67,7 @@
           </person>
           <person xml:id="m-r_dzhekobs" sex="MALE">
             <persName>М-р Джекобс</persName>
+            <persName type="variant">Джозеф Джекобс младший</persName>
             <persName xml:lang="ger">Mr. Jacobs junior</persName>
           </person>
           <person xml:id="golos_iz_radio_1-6" sex="UNKNOWN">
@@ -94,6 +96,7 @@
           </person>
           <person xml:id="m-ss_simpson" sex="FEMALE">
             <persName>М-сс Симпсон</persName>
+            <persName type="variant">Миссис Симпсон</persName>
             <persName xml:lang="ger">Mrs. Simpson</persName>
           </person>
           <person xml:id="admiral" sex="MALE">
@@ -102,10 +105,12 @@
           </person>
           <person xml:id="m-r_dzhekobs-starshij" sex="MALE">
             <persName>М-р Джекобс-старший</persName>
+            <persName type="variant">Джекобс-старший</persName>
             <persName xml:lang="ger">Mr. Jacobs senior</persName>
           </person>
           <person xml:id="m-r_simpson" sex="MALE">
             <persName>М-р Симпсон</persName>
+            <persName type="variant">Роберт Симпсон</persName>
             <persName xml:lang="ger">Mr. Simpson</persName>
           </person>
           <person xml:id="politsejskij_ofitser" sex="MALE">
@@ -155,6 +160,10 @@
           <person xml:id="soldat" sex="MALE">
             <persName>Солдат</persName>
             <persName xml:lang="ger">Soldat</persName>
+          </person>
+          <person xml:id="sluga" sex="MALE">
+            <persName>Слуга</persName>
+            <persName xml:lang="ger"/>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#m-ss_dzhekobs #m-r_dzhekobs" passive="#pamela"/>
@@ -224,7 +233,10 @@
         <castItem>Мистер Баба -- капитан японского парохода, старик.</castItem>
         <castItem>Махунхина -- царь маленького племени.</castItem>
         <castItem>Мистер Джефрис -- специальный корреспондент "Дейли-Мейль".</castItem>
-        <castItem>Полицейский офицер, слуги в доме Джекобса.</castItem>
+        <castItem>Полицейский офицер,</castItem>
+        <castGroup>
+          <roleDesc>слуги в доме Джекобса.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в наши дни.</p>
@@ -1547,8 +1559,9 @@
             <p>Что касается остальных слуг, то вы, друзья, обдумайте все, что я сказал, и сообщите
               мне завтра о своем решении.</p>
             <stage>Слуги уходят.</stage>
+            <note place="foot"><key>рано</key><value>В рукописи слово пропущено.</value></note>
             <p>Теперь самый сложный и тонкий вопрос. Артур -- еще мальчик, ему двадцать лет и о
-              женитьбе ему еще рано<note place="foot">В рукописи слово пропущено.</note>. Через
+              женитьбе ему еще рано. Через
               десять лет он вернется в Лондон возмужавшим молодым человеком тридцати лет и тогда,
               конечно, составит свое счастье. Остается Памела, перед которой стоит такой важный
               жизненный вопрос, как замужество. Я, разумеется, далек от мысли искать для нее жениха

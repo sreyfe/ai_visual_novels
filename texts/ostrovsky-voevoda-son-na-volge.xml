@@ -69,14 +69,14 @@
             <persName>Цаплин</persName>
           </person>
           <person xml:id="nezdan" sex="MALE">
-            <persName>Heждан</persName>
+            <persName>Неждан</persName>
           </person>
           <person xml:id="smirnoj" sex="MALE">
             <persName>Смирной</persName>
           </person>
-          <personGrp xml:id="druzhina" sex="MALE">
+          <person xml:id="druzhina" sex="MALE">
             <name>Дружина</name>
-          </personGrp>
+          </person>
           <person xml:id="starosta" sex="MALE">
             <persName>Староста</persName>
           </person>
@@ -106,9 +106,11 @@
           </person>
           <person xml:id="semen_bastryukov" sex="MALE">
             <persName>Бастрюков Семен</persName>
+            <persName type="variant">Семен Бастрюков</persName>
           </person>
           <person xml:id="stepan_bastryukov" sex="MALE">
             <persName>Бастрюков Степан</persName>
+            <persName type="variant">Степан Бастрюков</persName>
           </person>
           <person xml:id="baim" sex="MALE">
             <persName>Баим</persName>
@@ -130,12 +132,14 @@
           </person>
           <person xml:id="maria" sex="FEMALE">
             <persName>Марья Власьевна</persName>
+            <persName type="variant">Марья</persName>
           </person>
-          <person xml:id="nedviga" sex="MALE">
+          <person xml:id="nedviga" sex="FEMALE">
             <persName>Недвига</persName>
           </person>
-          <person xml:id="praskov" sex="MALE">
+          <person xml:id="praskov" sex="FEMALE">
             <persName>Прасковья Власьевна</persName>
+            <persName type="variant">Прасковья</persName>
           </person>
           <person xml:id="sluga_1-9" sex="MALE">
             <persName>Один из слуг (I/9)</persName>
@@ -230,6 +234,15 @@
           <personGrp xml:id="posadskie" sex="MALE">
             <name>Посадские</name>
           </personGrp>
+          <person xml:id="shishiga" sex="MALE">
+            <persName>Шишига</persName>
+          </person>
+          <person xml:id="mizgir" sex="MALE">
+            <persName>Мизгирь</persName>
+          </person>
+          <person xml:id="zorja" sex="MALE">
+            <persName>Зоря</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#semen_bastryukov" passive="#stepan_bastryukov"/>
             <relation name="spouses" active="#vlas" passive="#nastasja"/>
@@ -288,21 +301,32 @@
           <castItem>Степан Бастрюков, его сын.</castItem>
           <castItem>Неустройко, ключник воеводы.</castItem>
           <castItem>Бессудный, шут воеводы.</castItem>
-          <castItem>Heждан, земский староста.</castItem>
+          <castItem>Неждан, земский староста.</castItem>
           <castItem>Роман Дубровин, беглый посадский.</castItem>
           <castItem>Влас Дюжой, богатый посадский.</castItem>
           <castItem>Настасья, жена его.</castItem>
-          <castItem>Смирной и Дружина, посадские из лучших людей.</castItem>
+          <castGroup>
+            <castItem>Смирной</castItem>
+            <castItem>и Дружина,</castItem>
+            <roleDesc>посадские из лучших людей.</roleDesc>
+          </castGroup>
           <castItem>Несмеянов, старик.</castItem>
-          <castItem>Брусенин, Цаплин, Тыра, посадские из средних людей.</castItem>
+          <castGroup>
+            <castItem>Брусенин,</castItem>
+            <castItem>Цаплин,</castItem>
+            <castItem>Тыра,</castItem>
+            <roleDesc>посадские из средних людей.</roleDesc>
+          </castGroup>
           <castItem>Баим, стрелецкий сотник.</castItem>
           <castItem>Гришка Жилка, отставной подьячий.</castItem>
           <castItem>Резвый, слуга Бастрюкова.</castItem>
           <castItem>Щербак, разбойник в виде нищего.</castItem>
           <castItem>Бирюч.</castItem>
           <castItem>Слуга воеводы.</castItem>
-          <castItem>Дворяне, служилые люди, стрельцы, слуги воеводы и Бастрюкова, крестьяне,
-            женщины, дети, нищие, слепые и убогие.</castItem>
+          <castGroup>
+            <roleDesc>Дворяне, служилые люди, стрельцы, слуги воеводы и Бастрюкова, крестьяне,
+            женщины, дети, нищие, слепые и убогие.</roleDesc>
+          </castGroup>
         </castList>
         <div type="set">
           <p>Площадь в городе. Налево ворота воеводского двора, несколько узких домов, в углу проезд
@@ -361,7 +385,7 @@
             <l>Мы думали, что свежи, ан всё те же.</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l>Разбойников и татей и убойцев</l>
             <l>В посаде нет, разбойничья приезду</l>
             <l>Не держим мы; так не́почто и кликать.</l>
@@ -377,7 +401,7 @@
             <l>А кликать по торгам -- какая польза!</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l>Зачем же к нам посажен воевода,</l>
             <l>Как не затем, чтоб татей и убойцев</l>
             <l part="I">Разыскивать.</l>
@@ -418,7 +442,7 @@
             <l part="I">Пора писать и челобитье.</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l part="F">Слышу</l>
             <l>Давно уж я, что надо челобитье</l>
             <l>Царю послать, да только разговоры,</l>
@@ -436,12 +460,12 @@
             <l>Да только бы избыть его от нас.</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l>Московские расходы разверстаем,</l>
             <l>Рассудим, что и как, и много ль денег</l>
             <l>На проести собрать да на гостинцы.</l>
           </sp>
-          <stage>Heждан, Смирной, Дружина уходят к собору. Отворяются воеводские ворота, выходят:
+          <stage>Неждан, Смирной, Дружина уходят к собору. Отворяются воеводские ворота, выходят:
             ключник Неустройко с палкой и слуги с метлами.</stage>
         </div>
         <div type="scene">
@@ -1589,13 +1613,24 @@
             <head>ЛИЦА:</head>
             <castItem>Влас Дюжой.</castItem>
             <castItem>Настасья.</castItem>
-            <castItem>Прасковья, Марья, дочери их.</castItem>
-            <castItem>Heдвига, мамка.</castItem>
+            <castGroup>
+              <castItem>Прасковья,</castItem>
+              <castItem>Марья,</castItem>
+              <roleDesc>дочери их.</roleDesc>
+            </castGroup>
+            <castItem>Недвига, мамка.</castItem>
             <castItem>Воевода.</castItem>
             <castItem>Шут.</castItem>
             <castItem>Степан Бастрюков.</castItem>
-            <castItem>Резвый, Кубас, Шишига, слуги Бастрюкова.</castItem>
-            <castItem>Слуги Дюжова и воеводы; сенные девушки.</castItem>
+            <castGroup>
+              <castItem>Шут.</castItem>
+              <castItem>Кубас,</castItem>
+              <castItem>Шишига,</castItem>
+              <roleDesc>слуги Бастрюкова.</roleDesc>
+            </castGroup>
+            <castGroup>
+              <roleDesc>Слуги Дюжова и воеводы; сенные девушки.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Густой сад. Налево терем с выходом и крыльцом; направо баня; в глубине стоячий тын,
             из которого несколько надолб вынуто; за тыном, когда он разобран, виден берег
@@ -1685,7 +1720,7 @@
               <l part="F">Ну, и ладно!</l>
             </sp>
             <stage>Уходят в баню. </stage>
-            <stage>Входят Прасковья Власьевна, Марья Власьевна, Heдвига; сенные девушки вносят
+            <stage>Входят Прасковья Власьевна, Марья Власьевна, Недвига; сенные девушки вносят
               ковры, подушки и разное шитье.</stage>
           </div>
           <div type="scene">
@@ -2750,7 +2785,10 @@
             <castItem>Степан Бастрюков.</castItem>
             <castItem>Роман Дубровин.</castItem>
             <castItem>Резвый.</castItem>
-            <castItem>Кубас и другие слуги.</castItem>
+            <castItem>Кубас</castItem>
+            <castGroup>
+              <roleDesc>и другие слуги.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Сени в доме Бастрюкова.</stage>
           <div type="scene">
@@ -3359,8 +3397,14 @@
           <castItem>Олена, жена Дубровина.</castItem>
           <castItem>Гришка Жилка.</castItem>
           <castItem>Шут.</castItem>
-          <castItem>Девушки сенные 1-я и 2-я.</castItem>
-          <castItem>Мужская и женская прислуга.</castItem>
+          <castGroup>
+            <roleDesc>Девушки сенные</roleDesc>
+            <castItem id="pervaja_devushka">1-я</castItem>
+            <castItem id="vtoraja_devushka">и 2-я.</castItem>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Мужская и женская прислуга.</roleDesc>
+          </castGroup>
           <castItem>Домовой.</castItem>
         </castList>
         <stage>Светлые сени в доме воеводы на посаде. Прямо -- входная дверь; налево от актеров --
@@ -4505,7 +4549,7 @@
             <speaker>Олена</speaker>
             <l part="F">Дай срок, не то увидишь.</l>
           </sp>
-          <stage>Входит Heдвига.</stage>
+          <stage>Входит Недвига.</stage>
         </div>
         <div type="scene">
           <head>ЯВЛЕНИЕ ПЯТНАДЦАТОЕ</head>
@@ -4669,17 +4713,30 @@
           <castItem>Неустройко.</castItem>
           <castItem>Старуха, крестьянка, хозяйка постоялого двора.</castItem>
           <castItem>Иван, ее сын.</castItem>
-          <castItem>Гаврило и Клим, бортники из Нижнего.</castItem>
+          <castGroup>
+            <castItem>Гаврило</castItem>
+            <castItem>и Клим,</castItem>
+            <roleDesc>бортники из Нижнего.</roleDesc>
+          </castGroup>
           <castItem>Сидор, лесной промышленник из Унжи.</castItem>
-          <castItem>Курчай и Кулик, целовальники с казенной рыбой и солью.</castItem>
-          <castItem>Слуги воеводы.</castItem>
+          <castGroup>
+            <castItem>Курчай</castItem>
+            <castItem>и Кулик,</castItem>
+            <roleDesc>целовальники с казенной рыбой и солью.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Слуги воеводы.</roleDesc>
+          </castGroup>
         </castList>
         <ab>СОН ВОЕВОДЫ</ab>
         <castList>
           <head>ЛИЦА:</head>
           <castItem>Степан Бастрюков.</castItem>
           <castItem>Роман Дубровин.</castItem>
-          <castItem>Резвый и слуги.</castItem>
+          <castItem>Резвый</castItem>
+          <castGroup>
+            <roleDesc>и слуги.</roleDesc>
+          </castGroup>
           <castItem>Марья Власьевна.</castItem>
         </castList>
         <stage>Деревенская изба, направо печь, перед печью люлька с ребенком, налево стол.</stage>
@@ -5459,9 +5516,21 @@
           <castItem>Воевода.</castItem>
           <castItem>Пустынник.</castItem>
           <castItem>Монастырский служка.</castItem>
-          <castItem>Щербак, Каурый, Заяц, Вотря, Калга, Ерголь -- разбойники.</castItem>
-          <castItem>Свита воеводы.</castItem>
-          <castItem>Прохожие богомольцы.</castItem>
+          <castGroup>
+            <castItem>Щербак,</castItem>
+            <castItem>Каурый,</castItem>
+            <castItem>Заяц,</castItem>
+            <castItem>Вотря,</castItem>
+            <castItem>Калга,</castItem>
+            <castItem>Ерголь</castItem>
+            <roleDesc>-- разбойники.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Свита воеводы.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Прохожие богомольцы.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Вершина лесного оврага, круто сбегающего к Волге, на нагорной стороне. На авансцене
           пещера пустынника; далее с одной стороны оврага мост на другую, через который идет дорога
@@ -6452,12 +6521,22 @@
           <castItem>Дружина.</castItem>
           <castItem>Влас.</castItem>
           <castItem>Несмеянов.</castItem>
-          <castItem>Посадские.</castItem>
+          <castGroup>
+            <roleDesc>Посадские.</roleDesc>
+          </castGroup>
           <castItem>Резвый.</castItem>
-          <castItem>Слуги Бастрюкова.</castItem>
-          <castItem>Слуги воеводы.</castItem>
-          <castItem>Стрельцы.</castItem>
-          <castItem>Народ.</castItem>
+          <castGroup>
+            <roleDesc>Слуги Бастрюкова.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Слуги воеводы.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Стрельцы.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Народ.</roleDesc>
+          </castGroup>
           <castItem>Кубас.</castItem>
           <castItem>Шишига.</castItem>
           <castItem>Зоря.</castItem>
@@ -7230,7 +7309,7 @@
         </div>
         <div type="scene">
           <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
-          <stage>Ульяна, Неустройко, Облезлов, Heждан, Смирной, Дружина, Дюжой, Брусенин, Цаплин,
+          <stage>Ульяна, Неустройко, Облезлов, Неждан, Смирной, Дружина, Дюжой, Брусенин, Цаплин,
             Тыра, Марья Власьевна, шут, посадские, стрельцы, народ, слуги воеводы, сенные девки,
             потом Степан Бастрюков, воевода.</stage>
           <sp who="#uliana">
@@ -7414,7 +7493,7 @@
             <l>Сама идет, так разговор короток.</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l part="I">Да вот отец! Спросить его!</l>
           </sp>
           <sp who="#duzoj">
@@ -7467,7 +7546,7 @@
             <l>Посадские! Кого Дубровин грабил?</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l part="I">Не грабил нас.</l>
           </sp>
           <sp who="#smirnoj">
@@ -7479,7 +7558,7 @@
             <l part="F">А убойства?</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l>Не ведаем, и слыхом не слыхали.</l>
           </sp>
           <sp who="#oblezlov">
@@ -7561,7 +7640,7 @@
             <l part="I">Где голову приклоним?</l>
           </sp>
           <sp who="#nezdan">
-            <speaker>Heждан</speaker>
+            <speaker>Неждан</speaker>
             <l part="F">На посаде</l>
             <l>Дворов немало; приютим, покуда</l>
             <l part="I">Отстроитесь.</l>

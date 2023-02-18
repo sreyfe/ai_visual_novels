@@ -78,6 +78,7 @@
           </person>
           <person xml:id="mina" sex="FEMALE">
             <persName>Мина</persName>
+            <persName type="variant">Минхен</persName>
             <persName xml:lang="ger">Minnchen</persName>
           </person>
           <person xml:id="gotlib" sex="MALE">
@@ -86,6 +87,7 @@
           </person>
           <person xml:id="neznakomyj_graf" sex="MALE">
             <persName>Незнакомый (Граф Юрий)</persName>
+            <persName type="variant">Незнакомый</persName>
             <persName xml:lang="ger">Ein Unbekannter (Graf Jurij)</persName>
           </person>
           <person xml:id="dvoretskij" sex="MALE">
@@ -139,15 +141,18 @@
         <castItem>Валентин - друг Евгения, в гостях у него.</castItem>
         <castItem>Незнакомый.</castItem>
         <castItem>Няня Зои.</castItem>
-        <castItem>Минхен - швейцарка, дочь молочницы в по-</castItem>
-        <castItem>местье Зои.</castItem>
-        <castItem>Готлиб - чухонец<note place="foot">Финн (в драме Ростопчиной это финн, получивший
-            немецкое воспитание).- В. А.</note>, сын управляющего Зои.</castItem>
+        <castItem>Минхен - швейцарка, дочь молочницы в поместье Зои.</castItem>
+        <note place="foot"><key>чухонец</key><value>Финн (в драме Ростопчиной это финн, получивший немецкое воспитание).- В. А.</value></note>
+        <castItem>Готлиб - чухонец, сын управляющего Зои.</castItem>
         <castItem>Дворецкий.</castItem>
-        <castItem>Молодые люди - соседи и гости Евгения.</castItem>
-        <castItem>Мать Минхен, отец Готлиба, прислуга, девушки,</castItem>
-        <castItem>поселяне из именья Зои; купцы и мещане из</castItem>
-        <castItem>ближнего городка; охотники и люди Евгения.</castItem>
+        <castGroup>
+          <roleDesc>Молодые люди - соседи и гости Евгения.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Мать Минхен, отец Готлиба, прислуга, девушки,
+            поселяне из именья Зои; купцы и мещане из
+            ближнего городка; охотники и люди Евгения.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в деревне, в поместье Зои.</p>
@@ -1529,13 +1534,13 @@
             <speaker>Зоя</speaker>
             <l part="F">Шуберт!</l>
             <l>Любимец мой!</l>
+            <note place="foot"><key>Brausender Wald, rauschender Bach</key><value>Шумный лес, ручей журчащий (нем.).</value></note>
+            <note place="foot"><key>Je suis Lorette, et je règne à Paris</key><value>Меня зовут Лоретта, я царствую в Париже (франц.).</value></note>
             <stage>(Она перелистывает альбом, потом прелюдирует, все более и более задумываясь, и
-              наконец начинает петь: "Brausender Wald, rauschender Bach"<note place="foot">Шумный
-                лес, ручей журчащий (нем.).</note>. Валентин все ближе к ней наклоняется; оба
+              наконец начинает петь: "Brausender Wald, rauschender Bach". Валентин все ближе к ней наклоняется; оба
               тронуты, его дыхание тревожно, у нее слезы на глазах и голос дрожит. Вдруг она
               останавливается посреди строфы, меняет тон и звонко подхватывает куплет из песни: "Je
-              suis Lorette, et je règne à Paris"<note place="foot">Меня зовут Лоретта, я царствую в
-                Париже (франц.).</note>.- Валентин в сердцах ударил кулаком о фортепьяны, потом
+              suis Lorette, et je règne à Paris".- Валентин в сердцах ударил кулаком о фортепьяны, потом
               отходит прочь и садится на диван. Она, кончивши куплет, начинает хохотать и хохочет
               долго и язвительно, глядя на него.)</stage>
             <l>Вы мне смешны!.. Растрогались не в меру</l>
@@ -1839,23 +1844,22 @@
             розовой занавеской. Мина и Готлиб.</stage>
           <sp who="#mina">
             <speaker>Мина</speaker>
-            <stage>(плаксивым голосом)<note place="foot">Вся роль читается немецким наречием.
-                (Примеч. автора.)</note>
-            </stage>
+            <note place="foot"><key>(плаксивым голосом)</key><value>Вся роль читается немецким наречием. (Примеч. автора.)</value></note>
+            <stage>(плаксивым голосом)</stage>
             <p>Нет, мусье Готлиб, я фам сказифал, это от фас очень дурна! Это также зафзем
               некарашо!.. Так не годится делать...</p>
           </sp>
           <sp who="#gotlib">
             <speaker>Готлиб</speaker>
-            <p>Aber, mein Неrr Gott, Mamselle Minchen<note place="foot">Но, боже мой, мамзель Минхен
-                (нем.).</note>, я никак зебе не фообрашал, фи буду так зебе зердит на мене... Я это
+            <note place="foot"><key>Aber, mein Неrr Gott, Mamselle Minchen</key><value>Но, боже мой, мамзель Минхен (нем.).</value></note>
+            <p>Aber, mein Неrr Gott, Mamselle Minchen, я никак зебе не фообрашал, фи буду так зебе зердит на мене... Я это
               зафзем не для того зделал.</p>
           </sp>
           <sp who="#mina">
             <speaker>Мина</speaker>
+            <note place="foot"><key>kurmachen</key><value>ухаживать (нем.).</value></note>
             <p>Вам очень знал, мне не можно быть приятно, что вам подарил другой такая прекрасна
-              букет... Вам очень знал, мой не хочу вас видеть kurmachen<note place="foot">ухаживать
-                (нем.).</note> другой, в тот самый день, что нам должно праздновать своя сговор.</p>
+              букет... Вам очень знал, мой не хочу вас видеть kurmachen другой, в тот самый день, что нам должно праздновать своя сговор.</p>
           </sp>
           <sp who="#gotlib">
             <speaker>Готлиб</speaker>
@@ -1884,12 +1888,14 @@
           </sp>
           <sp who="#gotlib">
             <speaker>Готлиб</speaker>
-            <p>Дом, im Comptoir!..<note place="foot">в конторе (нем.).</note> наш с мой папенька
+            <note place="foot"><key>im Comptoir</key><value>в конторе (нем.).</value></note>
+            <p>Дом, im Comptoir!.. наш с мой папенька
               писал счета.</p>
           </sp>
           <sp who="#mina">
             <speaker>Мина</speaker>
-            <p>Неправда! Я знаю, когда счета была кончен, я был у gnädige Frau<note place="foot">милостивой госпожи (нем.).</note>, когда ваша папинька принес счета; а я говорю про
+            <note place="foot"><key>gnädige Frau</key><value>милостивой госпожи (нем.).</value></note>
+            <p>Неправда! Я знаю, когда счета была кончен, я был у gnädige Frau, когда ваша папинька принес счета; а я говорю про
               другое время, когда im Comptoir все было заперто.</p>
           </sp>
           <sp who="#gotlib">
@@ -1961,8 +1967,9 @@
           <sp who="#mina">
             <speaker>Мина</speaker>
             <stage>(очень живо)</stage>
+            <note place="foot"><key>Guten Tag</key><value>добрый день (нем.).</value></note>
             <p>А! ваш мене не понимай?.. а я вам надоел... а так ваш изволь послушай!.. Я нынче утро
-              пошла сказать Guten Tag<note place="foot">добрый день (нем.).</note> для gnädige Frau,
+              пошла сказать Guten Tag для gnädige Frau,
               a gnädige Frau она уже была в церкви, так я идти хотела зебе прогуливать; иду возле
               Orangerie и вижу вас тут, мусье Готлиб; ваш с садовником выбирайт цветы для самый
               прекрасный букет. Я думала, верно, букет для меня, для ваши невеста, и тиконько себе
@@ -1978,15 +1985,16 @@
           </sp>
           <sp who="#mina">
             <speaker>Мина</speaker>
-            <p>Ах какой вы лгун! Entsetzlich! Abscheulich!<note place="foot">Ужасный! Гадкий!
-                (нем.).</note></p>
+            <note place="foot"><key>Entsetzlich! Abscheulich!</key><value>Ужасный! Гадкий! (нем.).</value></note>
+            <p>Ах какой вы лгун! Entsetzlich! Abscheulich!</p>
           </sp>
           <sp who="#gotlib">
             <speaker>Готлиб</speaker>
-            <p>Liebe, liebe, gute Mamsell Mina...<note place="foot">Милая, милая, добрая мамзель
-                Мина (нем.).</note>, а пожалуйста, вам не зердиться так зебе!.. Вы только меня
+            <note place="foot"><key>Liebe, liebe, gute Mamsell Mina</key><value>Милая, милая, добрая мамзель Мина (нем.).</value></note>
+            <note place="foot"><key>Sehr viel</key><value>Очень, очень (нем.).</value></note>
+            <p>Liebe, liebe, gute Mamsell Mina..., а пожалуйста, вам не зердиться так зебе!.. Вы только меня
               послушай... Я никогда больше не буду!.. Я вам уверяю, я вам прошу... я вам так много
-              люблю!.. Sehr viel<note place="foot">Очень, очень (нем.).</note> люблю...</p>
+              люблю!.. Sehr viel люблю...</p>
           </sp>
         </div>
         <div type="scene">
@@ -2045,13 +2053,13 @@
             <speaker>Мина</speaker>
             <stage>(начинает довольно спокойно, но, говоря, постепенно горячится и кончает в ужасных
               слезах)</stage>
+            <note place="foot"><key>Aber</key><value>Но (нем.).</value></note>
+            <note place="foot"><key>Неrr Papa</key><value>отца (нем.).</value></note>
             <p>Вот видите, это давно я заметил, что мусье Готлиб стала очень часто бывайт в городе,
               в магазейн, где работает мамзель Анет; я тоже видел, как он по праздникам все вместе
               себе прогуливайт. Это мене не нравилзя... Я прозила мусье Готлиб перестать, но он
-              называли мене рефнифи... и только смеялся надо мною... Aber<note place="foot">Но
-                (нем.).</note>, ей-богу, я не рефнифи, но мой глаза фидели... мой уши слышали...
-              Вчера вешеру мусье Готлиб он зебе зкрылся от своего Неrr Papa<note place="foot">отца
-                (нем.).</note> и пошел потихоньку на лошади в город, в магазейн... Нынша он взяли
+              называли мене рефнифи... и только смеялся надо мною... Aber, ей-богу, я не рефнифи, но мой глаза фидели... мой уши слышали...
+              Вчера вешеру мусье Готлиб он зебе зкрылся от своего Неrr Papa и пошел потихоньку на лошади в город, в магазейн... Нынша он взяли
               букет из Orangerie и отдал его мамзель Анет... Как мне теперь можно быть дофольна и
               зебе не зердит?..</p>
             <stage>(Плачет.)</stage>
@@ -2083,8 +2091,8 @@
           <sp who="#mina">
             <speaker>Мина</speaker>
             <stage>(целует руку у Зои)</stage>
-            <p>Ach, liebe, gute, gnädige Frau<note place="foot">Ах, дорогая, добрая, милостивая
-                госпожа (нем.).</note>, вам всегда так добра... я вас так люблю!.. Мой вас буду
+            <note place="foot"><key>Ach, liebe, gute, gnädige Frau</key><value>Ах, дорогая, добрая, милостивая госпожа (нем.).</value></note>
+            <p>Ach, liebe, gute, gnädige Frau, вам всегда так добра... я вас так люблю!.. Мой вас буду
               послушался.</p>
             <stage>(Протягивает руку Готлибу.)</stage>
             <p>На, возьми,- только уж это в самый последний раз.</p>

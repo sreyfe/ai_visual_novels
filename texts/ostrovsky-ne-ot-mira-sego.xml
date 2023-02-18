@@ -66,6 +66,7 @@
           </person>
           <person xml:id="hioniya" sex="FEMALE">
             <persName>Хиония</persName>
+            <persName type="variant">Прокофьевна</persName>
           </person>
           <person xml:id="kseniya" sex="FEMALE">
             <persName>Ксения</persName>

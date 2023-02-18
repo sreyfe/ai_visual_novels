@@ -119,12 +119,14 @@
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Димитрий Самозванец</castItem>
-        <castItem>Шуйскиий</castItem>
+        <castItem>Шуйский</castItem>
         <castItem>Георгий, князь Галицкий</castItem>
         <castItem>Ксения, дочь Шуйского</castItem>
         <castItem>Пармен, наперсник Димитриев</castItem>
         <castItem>Начальник стражи</castItem>
-        <castItem>Бояря и прочие</castItem>
+        <castGroup>
+          <roleDesc>Бояря и прочие</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Кремле, в царском доме</p>

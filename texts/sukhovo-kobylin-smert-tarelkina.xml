@@ -53,6 +53,7 @@
         <listPerson>
           <person xml:id="Tarelkin" sex="MALE">
             <persName>Тарелкин</persName>
+            <persName type="variant">Копылов</persName>
             <persName xml:lang="ger">Tarelkin</persName>
             <persName xml:lang="eng">Tarelkin</persName>
           </person>
@@ -63,6 +64,7 @@
           </person>
           <person xml:id="Varravin" sex="MALE">
             <persName>Варравин</persName>
+            <persName type="variant">Полутатаринов</persName>
             <persName xml:lang="ger">Varravin</persName>
             <persName xml:lang="eng">Varravin</persName>
           </person>
@@ -211,13 +213,12 @@
   </standOff>
   <text>
     <front>
-      <div type="front">
-        <head>Смерть Тарелкина</head>
-      </div>
-    </front>
-    <body>
-      <p>Действующие лица</p>
+      <docTitle>
+        <titlePart type="main">Смерть Тарелкина</titlePart>
+        <titlePart type="sub">Комедия-шутка в трех действиях</titlePart>
+      </docTitle>
       <castList>
+        <head>Действующие лица</head>
         <castGroup>
           <castItem>Максим Кузьмич Варравин</castItem>
           <castItem>Капитан Полутатаринов — военная шинель надета в рукава, зеленые очки и
@@ -251,22 +252,30 @@
           <roleDesc>мушкатеры богатырских размеров.</roleDesc>
         </castGroup>
         <castItem>Ванечка — сын Расплюева, писарь.</castItem>
-      </castList>
-      <p>Кредиторы Тарелкина:</p>
-      <castList>
         <castGroup>
-          <castItem>1-й кредитор</castItem>
-          <castItem>2-й кредитор</castItem>
-          <roleDesc>азартного свойства.</roleDesc>
+          <roleDesc>Кредиторы Тарелкина:</roleDesc>
+          <castGroup>
+            <castItem>1-й кредитор</castItem>
+            <castItem>2-й кредитор</castItem>
+            <roleDesc>азартного свойства.</roleDesc>
+          </castGroup>
+          <castItem>3-й кредитор — пиявкообразный человечек сутяжного свойства.</castItem>
+          <castItem>4-й кредитор — дюжая натура, с большими усами и крокодилообразным
+            телом.</castItem>
+          <castGroup>
+            <roleDesc>Еще кредиторы ad libitum. Все они одеты в самые фантастические шубы и
+            шинели.</roleDesc>
+          </castGroup>
         </castGroup>
-        <castItem>3-й кредитор — пиявкообразный человечек сутяжного свойства.</castItem>
-        <castItem>4-й кредитор — дюжая натура, с большими усами и крокодилообразным
-          телом.</castItem>
-        <castItem>Еще кредиторы ad libitum. Все они одеты в самые фантастические шубы и
-          шинели.</castItem>
-        <castItem>Чиновники.</castItem>
-        <castItem>Дети Брандахлыстовой.</castItem>
+        <castGroup>
+          <roleDesc>Чиновники.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Дети Брандахлыстовой.</roleDesc>
+        </castGroup>
       </castList>
+    </front>
+    <body>
       <div type="act">
         <head>Действие первое</head>
         <stage>Комната: в средине дверь в прихожую, направо дверь в кухню и на черный выход, налево

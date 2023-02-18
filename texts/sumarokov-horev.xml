@@ -87,6 +87,9 @@
           <person xml:id="edinyj_voin" sex="MALE">
             <persName>Единый воин</persName>
           </person>
+          <person xml:id="plennik" sex="MALE">
+            <persName>Пленник</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#zavloh" passive="#osnelda"/>
             <relation name="associated_with" active="#astrada" passive="#osnelda"/>
@@ -147,8 +150,12 @@
         <castItem>Сталверх, первый боярин Киев</castItem>
         <castItem>Велькар, наперсник Хоревов</castItem>
         <castItem>Астрада, мамка Оснельдина</castItem>
-        <castItem>Два стража</castItem>
-        <castItem>Три воина</castItem>
+        <castGroup>
+          <roleDesc>Два стража</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Три воина</roleDesc>
+        </castGroup>
         <castItem>Пленник</castItem>
       </castList>
       <set>

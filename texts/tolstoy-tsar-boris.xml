@@ -265,6 +265,8 @@
           </person>
           <person xml:id="glavnyj_syschik" sex="MALE">
             <persName>Главный сыщик</persName>
+            <persName type="variant">Сыщик</persName>
+            <persName type="variant">Первый сыщик</persName>
             <persName xml:lang="ger">Erster Häscher</persName>
           </person>
           <person xml:id="vtoroj_syschik" sex="MALE">
@@ -282,10 +284,6 @@
           <person xml:id="tretij_posadskij" sex="MALE">
             <persName>Третий посадский</persName>
             <persName xml:lang="ger">Dritter Bürger</persName>
-          </person>
-          <person xml:id="syschik" sex="MALE">
-            <persName>Сыщик</persName>
-            <persName xml:lang="ger">Häscher</persName>
           </person>
           <person xml:id="odin_4-1a" sex="MALE">
             <persName>Один</persName>
@@ -401,6 +399,7 @@
           </person>
           <person xml:id="stolnik_4-3" sex="MALE">
             <persName>Стольник (IV/3)</persName>
+            <persName type="variant">Стольник</persName>
             <persName xml:lang="ger">Kammerdiener (IV/3)</persName>
           </person>
           <person xml:id="pervyj_chasovoj" sex="MALE">
@@ -508,9 +507,12 @@
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Царь Борис Федорович Годунов.</castItem>
-        <castItem>Царь Борис Федорович Годунов.</castItem>
         <castItem>Царица Мария Григорьевна, его жена, дочь Малюты Скуратова.</castItem>
-        <castItem>Царевич Федор, Царевна Ксения — их дети.</castItem>
+        <castGroup>
+          <castItem>Царевич Федор,</castItem>
+          <castItem>Царевна Ксения</castItem>
+          <roleDesc>— их дети.</roleDesc>
+        </castGroup>
         <castItem>Царица Ирина Федоровна, во иночестве Александра, сестра царя Бориса, вдова царя
           Федора Иоанновича.</castItem>
         <castItem>Царица Мария Федоровна Нагая, во иночестве Марфа, вдова Иоанна
@@ -520,8 +522,16 @@
         <castItem>Семен Годунов, ближний боярин.</castItem>
         <castItem>Князь Василий Иванович Шуйский.</castItem>
         <castItem>Петр Федорович Басманов, боярин и воевода.</castItem>
-        <castItem>Федор Никитич Романов, Александр Никитич Романов, Князь Репнин, Князь Черкасский,
-          Князь Сицкий, Князь Голицын, Салтыков — бояре.</castItem>
+        <castGroup>
+          <castItem>Федор Никитич Романов,</castItem>
+          <castItem>Александр Никитич Романов,</castItem>
+          <castItem>Князь Репнин,</castItem>
+          <castItem>Князь Черкасский,</castItem>
+          <castItem>Князь Сицкий,</castItem>
+          <castItem>Князь Голицын,</castItem>
+          <castItem>Салтыков</castItem>
+          <roleDesc>— бояре.</roleDesc>
+        </castGroup>
         <castItem>Андрей Петрович Луп-Клешнин, во схиме брат Левкий.</castItem>
         <castItem>Василиса Волохова, боярыня.</castItem>
         <castItem>Афанасий Власьев, думный дьяк.</castItem>
@@ -538,21 +548,45 @@
         <castItem>Лачин-Бек, посол персидский.</castItem>
         <castItem>Челибей, посол турецкий.</castItem>
         <castItem>Хлопко-Косолап, атаман разбойников.</castItem>
-        <castItem>Решето, Наковальня — его есаулы.</castItem>
+        <castGroup>
+          <castItem>Решето,</castItem>
+          <castItem>Наковальня</castItem>
+          <roleDesc>— его есаулы.</roleDesc>
+        </castGroup>
         <castItem>Митька, разбойник.</castItem>
         <castItem>Посадский.</castItem>
-        <castItem>Мисаил Повадин, Григорий Отрепьев — беглые монахи.</castItem>
-        <castItem>1-й, 2-й — часовые.</castItem>
-        <castItem>1-й, 2-й — сыщики.</castItem>
-        <castItem>1-я, 2-я, 3-я, 4-я — бабы.</castItem>
+        <castGroup>
+          <castItem>Мисаил Повадин,</castItem>
+          <castItem>Григорий Отрепьев</castItem>
+          <roleDesc>— беглые монахи.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem id="pervyj_chasovoj">1-й,</castItem>
+          <castItem id="vtoroj_chasovoj">2-й</castItem>
+          <roleDesc>— часовые.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem id="glavnyj_syschik">1-й,</castItem>
+          <castItem id="vtoroj_syschik">2-й</castItem>
+          <roleDesc>— сыщики.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem id="odna_baba">1-я,</castItem>
+          <castItem id="vtoraja_baba">2-я,</castItem>
+          <castItem id="tretja_baba">3-я,</castItem>
+          <castItem id="chetvertaja_baba">4-я</castItem>
+          <roleDesc>— бабы.</roleDesc>
+        </castGroup>
         <castItem>Врач.</castItem>
         <castItem>Стрелецкий голова.</castItem>
         <castItem>Спальник.</castItem>
         <castItem>Стольник.</castItem>
         <castItem>Крилошанка.</castItem>
         <castItem>Пристав.</castItem>
-        <castItem>Бояре, боярыни, стольники, рынды, стрельцы, посольская свита, монахи, беглые
-          крестьяне, разбойники, нищие, сыщики, слуги и народ.</castItem>
+        <castGroup>
+          <roleDesc>Бояре, боярыни, стольники, рынды, стрельцы, посольская свита, монахи, беглые
+          крестьяне, разбойники, нищие, сыщики, слуги и народ.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие — в Москве и ее окрестностях, в конце XVI и начале XVII столетий.</p>
@@ -5240,7 +5274,7 @@
             <l>Молчи!</l>
             <l>Нас слушают.</l>
           </sp>
-          <sp who="#syschik">
+          <sp who="#glavnyj_syschik">
             <speaker>Сыщик</speaker>
             <l>О чем вы, государи,</l>
             <l>Ведете речь?</l>
@@ -5252,7 +5286,7 @@
             <l>Что Дмитрием осмелился назваться,</l>
             <l>Поймать скорей!</l>
           </sp>
-          <sp who="#syschik">
+          <sp who="#glavnyj_syschik">
             <speaker>Сыщик</speaker>
             <stage>про себя</stage>
             <l>Гм! Эти-то с чутьем!</l>

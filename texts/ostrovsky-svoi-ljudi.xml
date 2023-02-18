@@ -49,6 +49,8 @@
         <listPerson>
           <person xml:id="lipochka" sex="FEMALE">
             <persName>Липочка (Олимпиада Самсоновна)</persName>
+            <persName type="variant">Олимпиада Самсоновна</persName>
+            <persName type="variant">Липочка</persName>
           </person>
           <person xml:id="agrafena_kondratevna" sex="FEMALE">
             <persName>Аграфена Кондратьевна</persName>

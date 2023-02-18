@@ -1,22 +1,22 @@
-"Дмитрий Самозванец и Василий Шуйский"
+"Благородный театр"
 
-"Dmitry the Pretender and Vasily Shuisky"
+"The Noble Theatre"
 
-"Драматическая хроника в двух частях"
+"Комедия в четырех действиях, в стихах"
 
-"Dramatic Chronicle in Two Parts"
+"A Comedy in Four Act, in Verse"
 
-"Александр"
+"Михаил"
 
 "Николаевич"
 
-"Островский"
+"Загоскин"
 
-"Alexander"
+"Mikhail"
 
-"Ostrovsky"
+"Zagoskin"
 
-"Q171976"
+"Q629784"
 
 "DraCor"
 
@@ -26,19517 +26,19600 @@
 
 "Библиотека Максима Мошкова (lib.ru)"
 
-"http://az.lib.ru/o/ostrowskij_a_n/text_0102.shtml"
+"http://az.lib.ru/z/zagoskin_m_n/text_0160.shtml"
 
 "<{i}In the public domain.{/i}>"
 
-"<{i}По изд. А. Н. Островский. Собрание сочинений в 10 томах. Под общ. ред. Г. И. Владыкина, А. И. Ревякина, В. А. Филиппова. -- М.: Гос. изд-во худ. лит-ры, 1960. -- Том 5. -- Комментарии Н. С. Гродской.{/i}>"
+"<{i}Серия \"Библиотека поэта\". Большая серия. Второе издание. М.-Л., \"Советский писатель\", 1964{/i}>"
 
-define pervyj_kupets_moskovskij = Character("pervyj_kupets_moskovskij_var", color="#FFB300", dynamic=True)
-define vtoroj_kupets_moskovskij = Character("vtoroj_kupets_moskovskij_var", color="#803E75", dynamic=True)
-define podjachij = Character("podjachij_var", color="#FF6800", dynamic=True)
-define konev = Character("konev_var", color="#A6BDD7", dynamic=True)
-define pervyj_krestjanin = Character("pervyj_krestjanin_var", color="#C10020", dynamic=True)
-define vtoroj_krestjanin = Character("vtoroj_krestjanin_var", color="#CEA262", dynamic=True)
-define tretij_krestjanin = Character("tretij_krestjanin_var", color="#817066", dynamic=True)
-define kupets_novgorodskij = Character("kupets_novgorodskij_var", color="#007D34", dynamic=True)
-define strannik_1_1 = Character("strannik_1_1_var", color="#F6768E", dynamic=True)
-define pop = Character("pop_var", color="#00538A", dynamic=True)
-define kalachnik = Character("kalachnik_var", color="#FF7A5C", dynamic=True)
-define jurodivyj = Character("jurodivyj_var", color="#53377A", dynamic=True)
-define melochnoj_torgovets = Character("melochnoj_torgovets_var", color="#FF8E00", dynamic=True)
-define osipov = Character("osipov_var", color="#B32851", dynamic=True)
-define dvoretskij = Character("dvoretskij_var", color="#F4C800", dynamic=True)
-define vasilij_shujskij = Character("vasilij_shujskij_var", color="#7F180D", dynamic=True)
-define kupets_1_1 = Character("kupets_1_1_var", color="#93AA00", dynamic=True)
-define dmitrij_shujskij = Character("dmitrij_shujskij_var", color="#593315", dynamic=True)
-define basmanov = Character("basmanov_var", color="#F13A13", dynamic=True)
-define desjatskij_1_2 = Character("desjatskij_1_2_var", color="#232C16", dynamic=True)
-define mstislavskij = Character("mstislavskij_var", color="#182D83", dynamic=True)
-define golitsyn = Character("golitsyn_var", color="#1CAA15", dynamic=True)
-define kurakin = Character("kurakin_var", color="#4AA750", dynamic=True)
-define vorotynskij = Character("vorotynskij_var", color="#D2C20A", dynamic=True)
-define belskij = Character("belskij_var", color="#E31244", dynamic=True)
-define masalskij = Character("masalskij_var", color="#09DF8F", dynamic=True)
-define dmitrij = Character("dmitrij_var", color="#19AF6A", dynamic=True)
-define marzheret = Character("marzheret_var", color="#0CDFDB", dynamic=True)
-define kutska = Character("kutska_var", color="#152F85", dynamic=True)
-define iezuit = Character("iezuit_var", color="#AAC2EC", dynamic=True)
-define buchinskij = Character("buchinskij_var", color="#A062B0", dynamic=True)
-define schelkalov = Character("schelkalov_var", color="#B7C19F", dynamic=True)
-define skopin_shujskij = Character("skopin_shujskij_var", color="#7F54EC", dynamic=True)
-define tatischev = Character("tatischev_var", color="#E104E6", dynamic=True)
-define vlasev = Character("vlasev_var", color="#08B8DD", dynamic=True)
-define mnishek = Character("mnishek_var", color="#032B22", dynamic=True)
-define odin_iz_tolpy = Character("odin_iz_tolpy_var", color="#D0C2C0", dynamic=True)
-define sotnik_2_3 = Character("sotnik_2_3_var", color="#A8F1AD", dynamic=True)
-define kupets_2_3 = Character("kupets_2_3_var", color="#B05D24", dynamic=True)
-define pervyj_kupets = Character("pervyj_kupets_var", color="#B721C9", dynamic=True)
-define vtoroj_kupets = Character("vtoroj_kupets_var", color="#49CB4A", dynamic=True)
-define tretij_kupets = Character("tretij_kupets_var", color="#35CD14", dynamic=True)
-define chetvertyj_kupets = Character("chetvertyj_kupets_var", color="#E0BEE9", dynamic=True)
-define pervyj_posadskij = Character("pervyj_posadskij_var", color="#D05A4A", dynamic=True)
-define vtoroj_posadskij = Character("vtoroj_posadskij_var", color="#3B7A28", dynamic=True)
-define tretij_posadskij = Character("tretij_posadskij_var", color="#76A8C1", dynamic=True)
-define chetvertyj_posadskij = Character("chetvertyj_posadskij_var", color="#266068", dynamic=True)
-define pjatyj_posadskij = Character("pjatyj_posadskij_var", color="#72A2A4", dynamic=True)
-define desjatskij_2_4 = Character("desjatskij_2_4_var", color="#4FFC08", dynamic=True)
-define povar = Character("povar_var", color="#FAC740", dynamic=True)
-define strannik_2_4 = Character("strannik_2_4_var", color="#FA31BE", dynamic=True)
-define strelets = Character("strelets_var", color="#BDAB6E", dynamic=True)
-define starik = Character("starik_var", color="#A65C1D", dynamic=True)
-define kupets_2_4 = Character("kupets_2_4_var", color="#C85CB2", dynamic=True)
-define ivan = Character("ivan_var", color="#938A1C", dynamic=True)
-define kapitan = Character("kapitan_var", color="#1C93EA", dynamic=True)
-define olesnitskij = Character("olesnitskij_var", color="#7E8EB7", dynamic=True)
-define vishnevetskij = Character("vishnevetskij_var", color="#E8A153", dynamic=True)
-define molchanov = Character("molchanov_var", color="#0DF4F1", dynamic=True)
-define sotnik_streletskij = Character("sotnik_streletskij_var", color="#F4AB71", dynamic=True)
-define valuev = Character("valuev_var", color="#E90AC7", dynamic=True)
-define korela = Character("korela_var", color="#C00DA0", dynamic=True)
-define tsaritsa_marfa = Character("tsaritsa_marfa_var", color="#17D959", dynamic=True)
-define marina = Character("marina_var", color="#39A60B", dynamic=True)
-define kameristka = Character("kameristka_var", color="#4E7D7D", dynamic=True)
-define torgovka = Character("torgovka_var", color="#C6C2F1", dynamic=True)
-define kuptsy = Character("kuptsy_var", color="#3EB0EB", dynamic=True)
-define golosa_v_narode = Character("golosa_v_narode_var", color="#9B6C13", dynamic=True)
-define pervyj_golos_iz_naroda = Character("pervyj_golos_iz_naroda_var", color="#3A26C5", dynamic=True)
-define vtoroj_golos_iz_naroda = Character("vtoroj_golos_iz_naroda_var", color="#D4F405", dynamic=True)
-define desjatskie = Character("desjatskie_var", color="#2A1347", dynamic=True)
-define ves_narod_1_2 = Character("ves_narod_1_2_var", color="#ED6C11", dynamic=True)
-define nemtsy = Character("nemtsy_var", color="#43E241", dynamic=True)
-define zaporozhtsy = Character("zaporozhtsy_var", color="#BE677D", dynamic=True)
-define golosa_1_4 = Character("golosa_1_4_var", color="#A4209A", dynamic=True)
-define odin_golos_1_4a = Character("odin_golos_1_4a_var", color="#CB7112", dynamic=True)
-define odin_golos_1_4b = Character("odin_golos_1_4b_var", color="#379740", dynamic=True)
-define narod_1_5 = Character("narod_1_5_var", color="#8DBB4D", dynamic=True)
-define golosa_2_3 = Character("golosa_2_3_var", color="#19BA0B", dynamic=True)
-define novgorodskie_streltsy = Character("novgorodskie_streltsy_var", color="#092C5A", dynamic=True)
-define pskovskie_streltsy = Character("pskovskie_streltsy_var", color="#E36C26", dynamic=True)
-define poljaki = Character("poljaki_var", color="#6BDF95", dynamic=True)
-define golosa_2_4 = Character("golosa_2_4_var", color="#C08056", dynamic=True)
-define malchishki = Character("malchishki_var", color="#B53438", dynamic=True)
-define golos_iz_tolpy_2_4a = Character("golos_iz_tolpy_2_4a_var", color="#32B18B", dynamic=True)
-define golos_iz_tolpy_2_4b = Character("golos_iz_tolpy_2_4b_var", color="#48D283", dynamic=True)
-define golos_2_4c = Character("golos_2_4c_var", color="#3A99E7", dynamic=True)
-define golos_2_4d = Character("golos_2_4d_var", color="#0233EC", dynamic=True)
-define golos_2_6 = Character("golos_2_6_var", color="#B54C0D", dynamic=True)
-define golosa_tolpa_2_6 = Character("golosa_tolpa_2_6_var", color="#670D42", dynamic=True)
-define streltsy = Character("streltsy_var", color="#58D5C9", dynamic=True)
-define drugie_streltsy = Character("drugie_streltsy_var", color="#203C81", dynamic=True)
-define neskolko_golosov = Character("neskolko_golosov_var", color="#699A04", dynamic=True)
+define lyubskij = Character("lyubskij_var", color="#FFB300", dynamic=True)
+define izvedov = Character("izvedov_var", color="#803E75", dynamic=True)
+define pososhkov = Character("pososhkov_var", color="#FF6800", dynamic=True)
+define velskij = Character("velskij_var", color="#A6BDD7", dynamic=True)
+define biryulkin = Character("biryulkin_var", color="#C10020", dynamic=True)
+define lileev = Character("lileev_var", color="#CEA262", dynamic=True)
+define chestonov = Character("chestonov_var", color="#817066", dynamic=True)
+define mestonov = Character("mestonov_var", color="#007D34", dynamic=True)
+define pervyj_sluga = Character("pervyj_sluga_var", color="#F6768E", dynamic=True)
+define pervyj_plemyannik = Character("pervyj_plemyannik_var", color="#00538A", dynamic=True)
+define vtoroj_plemyannik = Character("vtoroj_plemyannik_var", color="#FF7A5C", dynamic=True)
+define volgin = Character("volgin_var", color="#53377A", dynamic=True)
+define vtoroj_sluga = Character("vtoroj_sluga_var", color="#FF8E00", dynamic=True)
+define uchitel = Character("uchitel_var", color="#B32851", dynamic=True)
+define lyubskaya = Character("lyubskaya_var", color="#F4C800", dynamic=True)
+define olenka = Character("olenka_var", color="#7F180D", dynamic=True)
+define natasha = Character("natasha_var", color="#93AA00", dynamic=True)
+define kutermina = Character("kutermina_var", color="#593315", dynamic=True)
+define pervaja_plemyannica = Character("pervaja_plemyannica_var", color="#F13A13", dynamic=True)
+define vtoraja_plemyannica = Character("vtoraja_plemyannica_var", color="#232C16", dynamic=True)
+define guvernantka = Character("guvernantka_var", color="#AA750D", dynamic=True)
+define nyanjushka = Character("nyanjushka_var", color="#2C20AE", dynamic=True)
+
+"Comedy"
+
+"Q40831"
 
 "(eg) convert from source"
 
-"(ff) fix character IDs"
-
 label start:
-    play music "audio/music/27.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/117.mp3" fadeout 1.0 fadein 1.0
 
-    scene 28 with fade
+    scene 56 with fade
 
-    "А. Н. Островский"
+    "Благородный театр"
 
-    "Дмитрий Самозванец и Василий Шуйский"
-
-    "Драматическая хроника в двух частях"
+    "Комедия в четырех действиях, в стихах"
 
     menu:
-        "{color=#000}Characters{/color}":
-            jump Characters
-        "{color=#000}standOff{/color}":
-            jump Act_1
-        "{color=#000}I{/color}":
-            jump Act_2
-        "{color=#000}II{/color}":
-            jump Act_3
-
-    label Characters:
-        play music "audio/music/15.mp3" fadeout 1.0 fadein 1.0
-
-        scene 2 with fade
-
-        "{b}Characters{/b}"
-
-        show pervyj_kupets_moskovskij at truecenter
-        "1-й купец московский"
-        hide pervyj_kupets_moskovskij
-
-        show vtoroj_kupets_moskovskij at truecenter
-        "2-й купец московский"
-        hide vtoroj_kupets_moskovskij
-
-        show podjachij at truecenter
-        "Подьячий"
-        hide podjachij
-
-        show konev at truecenter
-        "Конёв"
-        hide konev
-
-        show pervyj_krestjanin at truecenter
-        "1-й крестьянин"
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-        "2-й крестьянин"
-        hide vtoroj_krestjanin
-
-        show tretij_krestjanin at truecenter
-        "3-й крестьянин"
-        hide tretij_krestjanin
-
-        show kupets_novgorodskij at truecenter
-        "Купец новгородский"
-        hide kupets_novgorodskij
-
-        show strannik_1_1 at truecenter
-        "Странник (I/1)"
-        hide strannik_1_1
-
-        show pop at truecenter
-        "Поп"
-        hide pop
-
-        show kalachnik at truecenter
-        "Калачник"
-        hide kalachnik
-
-        show jurodivyj at truecenter
-        "Юродивый (Афоня)"
-        hide jurodivyj
-
-        show melochnoj_torgovets at truecenter
-        "Мелочной торговец"
-        hide melochnoj_torgovets
-
-        show osipov at truecenter
-        "Осипов"
-        hide osipov
-
-        show dvoretskij at truecenter
-        "Дворецкий"
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-        "Василий Шуйский"
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-        "Купцы"
-        hide kuptsy
-
-        show kupets_1_1 at truecenter
-        "Купец (I/1)"
-        hide kupets_1_1
-
-        show dmitrij_shujskij at truecenter
-        "Дмитрий Шуйский"
-        hide dmitrij_shujskij
-
-        show golosa_v_narode at truecenter
-        "Голоса в народе"
-        hide golosa_v_narode
-
-        show pervyj_golos_iz_naroda at truecenter
-        "1-й голос из народа"
-        hide pervyj_golos_iz_naroda
-
-        show vtoroj_golos_iz_naroda at truecenter
-        "2-й голос из народа"
-        hide vtoroj_golos_iz_naroda
-
-        show basmanov at truecenter
-        "Басманов"
-        hide basmanov
-
-        show desjatskij_1_2 at truecenter
-        "Десятский (I/2)"
-        hide desjatskij_1_2
-
-        show mstislavskij at truecenter
-        "Мстиславский"
-        hide mstislavskij
-
-        show golitsyn at truecenter
-        "Голицын"
-        hide golitsyn
-
-        show kurakin at truecenter
-        "Куракин"
-        hide kurakin
-
-        show vorotynskij at truecenter
-        "Воротынский"
-        hide vorotynskij
-
-        show belskij at truecenter
-        "Бельский"
-        hide belskij
-
-        show masalskij at truecenter
-        "Масальский"
-        hide masalskij
-
-        show desjatskie at truecenter
-        "Десятские"
-        hide desjatskie
-
-        show ves_narod_1_2 at truecenter
-        "Весь народ (I/2)"
-        hide ves_narod_1_2
-
-        show dmitrij at truecenter
-        "Дмитрий"
-        hide dmitrij
-
-        show marzheret at truecenter
-        "Маржерет"
-        hide marzheret
-
-        show kutska at truecenter
-        "Куцька"
-        hide kutska
-
-        show korela at truecenter
-        "Корела"
-        hide korela
-
-        show nemtsy at truecenter
-        "Немцы"
-        hide nemtsy
-
-        show iezuit at truecenter
-        "Иезуит"
-        hide iezuit
-
-        show buchinskij at truecenter
-        "Бучинский"
-        hide buchinskij
-
-        show zaporozhtsy at truecenter
-        "Запорожцы"
-        hide zaporozhtsy
-
-        show schelkalov at truecenter
-        "Щелкалов"
-        hide schelkalov
-
-        show golosa_1_4 at truecenter
-        "Голоса (I/4)"
-        hide golosa_1_4
-
-        show odin_golos_1_4a at truecenter
-        "Один голос"
-        hide odin_golos_1_4a
-
-        show odin_golos_1_4b at truecenter
-        "Один голос"
-        hide odin_golos_1_4b
-
-        show tsaritsa_marfa at truecenter
-        "Царица Марфа"
-        hide tsaritsa_marfa
-
-        show skopin_shujskij at truecenter
-        "Скопин-Шуйский"
-        hide skopin_shujskij
-
-        show narod_1_5 at truecenter
-        "Народ (I/5)"
-        hide narod_1_5
-
-        show tatischev at truecenter
-        "Татищев"
-        hide tatischev
-
-        show vlasev at truecenter
-        "Власьев"
-        hide vlasev
-
-        show marina at truecenter
-        "Марина"
-        hide marina
-
-        show mnishek at truecenter
-        "Мнишек"
-        hide mnishek
-
-        show kameristka at truecenter
-        "Камеристка"
-        hide kameristka
-
-        show golosa_2_3 at truecenter
-        "Голоса (II/3)"
-        hide golosa_2_3
-
-        show odin_iz_tolpy at truecenter
-        "Один из толпы"
-        hide odin_iz_tolpy
-
-        show novgorodskie_streltsy at truecenter
-        "Новгородские стрельцы"
-        hide novgorodskie_streltsy
-
-        show pskovskie_streltsy at truecenter
-        "Псковские стрельцы"
-        hide pskovskie_streltsy
-
-        show sotnik_2_3 at truecenter
-        "Сотник (II/3)"
-        hide sotnik_2_3
-
-        show kupets_2_3 at truecenter
-        "Купец (II/3)"
-        hide kupets_2_3
-
-        show pervyj_kupets at truecenter
-        "1-й купец"
-        hide pervyj_kupets
-
-        show vtoroj_kupets at truecenter
-        "2-й купец"
-        hide vtoroj_kupets
-
-        show tretij_kupets at truecenter
-        "3-й купец"
-        hide tretij_kupets
-
-        show chetvertyj_kupets at truecenter
-        "4-й купец"
-        hide chetvertyj_kupets
-
-        show poljaki at truecenter
-        "Поляки"
-        hide poljaki
-
-        show golosa_2_4 at truecenter
-        "Голоса (II/4)"
-        hide golosa_2_4
-
-        show malchishki at truecenter
-        "Мальчишки"
-        hide malchishki
-
-        show pervyj_posadskij at truecenter
-        "1-й посадский"
-        hide pervyj_posadskij
-
-        show vtoroj_posadskij at truecenter
-        "2-й посадский"
-        hide vtoroj_posadskij
-
-        show tretij_posadskij at truecenter
-        "3-й посадский"
-        hide tretij_posadskij
-
-        show chetvertyj_posadskij at truecenter
-        "4-й посадский"
-        hide chetvertyj_posadskij
-
-        show pjatyj_posadskij at truecenter
-        "5-й посадский"
-        hide pjatyj_posadskij
-
-        show desjatskij_2_4 at truecenter
-        "Десятский (II/4)"
-        hide desjatskij_2_4
-
-        show povar at truecenter
-        "Повар"
-        hide povar
-
-        show torgovka at truecenter
-        "Торговка"
-        hide torgovka
-
-        show strannik_2_4 at truecenter
-        "Странник (II/4)"
-        hide strannik_2_4
-
-        show strelets at truecenter
-        "Стрелец"
-        hide strelets
-
-        show starik at truecenter
-        "Старик"
-        hide starik
-
-        show golos_iz_tolpy_2_4a at truecenter
-        "Голос из толпы (II/4)"
-        hide golos_iz_tolpy_2_4a
-
-        show golos_iz_tolpy_2_4b at truecenter
-        "Голос из толпы (II/4)"
-        hide golos_iz_tolpy_2_4b
-
-        show golos_2_4c at truecenter
-        "Голос (II/4)"
-        hide golos_2_4c
-
-        show kupets_2_4 at truecenter
-        "Купец (II/4)"
-        hide kupets_2_4
-
-        show golos_2_4d at truecenter
-        "Голос (II/4)"
-        hide golos_2_4d
-
-        show ivan at truecenter
-        "Иван"
-        hide ivan
-
-        show kapitan at truecenter
-        "Капитан"
-        hide kapitan
-
-        show olesnitskij at truecenter
-        "Олесницкий"
-        hide olesnitskij
-
-        show vishnevetskij at truecenter
-        "Вишневецкий"
-        hide vishnevetskij
-
-        show golos_2_6 at truecenter
-        "Голос (II/6)"
-        hide golos_2_6
-
-        show molchanov at truecenter
-        "Молчанов"
-        hide molchanov
-
-        show golosa_tolpa_2_6 at truecenter
-        "Голоса/Толпа (II/6)"
-        hide golosa_tolpa_2_6
-
-        show streltsy at truecenter
-        "Стрельцы"
-        hide streltsy
-
-        show drugie_streltsy at truecenter
-        "Другие стрельцы"
-        hide drugie_streltsy
-
-        show sotnik_streletskij at truecenter
-        "Сотник стрелецкий"
-        hide sotnik_streletskij
-
-        show valuev at truecenter
-        "Валуев"
-        hide valuev
-
-        show neskolko_golosov at truecenter
-        "Несколько голосов"
-        hide neskolko_golosov
-
-
-    label Act_1:
-        play music "audio/music/7.mp3" fadeout 1.0 fadein 1.0
-
-        scene 3 with fade
-
-        "{b}standOff{/b}"
-
-        "\"Впервые опубликована в журнале «Вестник Европы», 1867, № 1.\" (ru.wikipedia.org)"
-
-        "\"30 января 1867, Малый театр\" (ru.wikipedia.org)"
-
-        "\"1866\" (lib.ru)"
-
-
-
-label Act_2:
-    play music "audio/music/18.mp3" fadeout 1.0 fadein 1.0
-
-    scene 30 with fade
-
-    "{b}I{/b}"
-
-    menu:
-        "{color=#000}СЦЕНА ПЕРВАЯ{/color}":
+        "{color=#000}ДЕЙСТВУЮЩИЕ ЛИЦА{/color}":
             jump Characters_1
-        "{color=#000}(СЦЕНА ПЕРВАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_1
-        "{color=#000}СЦЕНА ВТОРАЯ{/color}":
-            jump Characters_2
-        "{color=#000}(СЦЕНА ВТОРАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_3
-        "{color=#000}СЦЕНА ТРЕТЬЯ{/color}":
-            jump Characters_3
-        "{color=#000}(СЦЕНА ТРЕТЬЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_5
-        "{color=#000}>{/color}":
-            jump Further_Act_2_Scene_5_1
+        "{color=#000}epigraph{/color}":
+            jump EPIGRAPH_1_1_1
+        "{color=#000}set{/color}":
+            jump SET_2_2_1
+        "{color=#000}ДЕЙСТВИЕ ПЕРВОЕ{/color}":
+            jump Act_3
+        "{color=#000}ДЕЙСТВИЕ ВТОРОЕ{/color}":
+            jump Act_4
+        "{color=#000}ДЕЙСТВИЕ ТРЕТЬЕ{/color}":
+            jump Act_5
+        "{color=#000}ДЕЙСТВИЕ ЧЕТВЕРТОЕ{/color}":
+            jump Act_6
 
-label Further_Act_2_Scene_5_1:
-    menu:
-        "{color=#000}СЦЕНА ЧЕТВЕРТАЯ{/color}":
-            jump Characters_4
-        "{color=#000}(СЦЕНА ЧЕТВЕРТАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_7
-        "{color=#000}СЦЕНА ПЯТАЯ{/color}":
-            jump Characters_5
-        "{color=#000}(СЦЕНА ПЯТАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_9
-        "{color=#000}СЦЕНА ШЕСТАЯ{/color}":
-            jump Characters_6
-        "{color=#000}(СЦЕНА ШЕСТАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_11
-        "{color=#000}>{/color}":
-            jump Further_Act_2_Scene_11_2
+    label Characters_1:
+        play music "audio/music/34.mp3" fadeout 1.0 fadein 1.0
 
-label Further_Act_2_Scene_11_2:
-    menu:
-        "{color=#000}СЦЕНА СЕДЬМАЯ{/color}":
-            jump Characters_7
-        "{color=#000}(СЦЕНА СЕДЬМАЯ) ЛИЦА:{/color}":
-            jump Act_2_Scene_13
+        scene 61 with fade
 
-    label Act_2_Scene_1:
-        "{b}СЦЕНА ПЕРВАЯ{/b}"
+        "{b}ДЕЙСТВУЮЩИЕ ЛИЦА{/b}"
 
-        label Characters_1:
-            play music "audio/music/10.mp3" fadeout 1.0 fadein 1.0
+        show lyubskij at truecenter
+        "Г. Любский, дядя Оленьки."
+        hide lyubskij
 
-            scene 23 with fade
+        show lyubskaya at truecenter
+        "Г-жа Любская, жена его."
+        hide lyubskaya
 
-            "{b}(СЦЕНА ПЕРВАЯ) ЛИЦА:{/b}"
+        show olenka at truecenter
+        "Оленька, племянница их."
+        hide olenka
 
-            show vasilij_shujskij at truecenter
-            "Князь Василий Иванович Шуйский."
-            hide vasilij_shujskij
+        show velskij at truecenter
+        "Вельский, влюбленный в Оленьку."
+        hide velskij
 
-            show dmitrij at truecenter
-            "Князь Дмитрий Иванович Шуйский."
-            hide dmitrij
+        show chestonov at truecenter
+        "Честонов, брат Любского, от другого отца."
+        hide chestonov
 
-            show osipov at truecenter
-            "Тимофей Осипов, дьяк из приказа."
-            hide osipov
+        show volgin at truecenter
+        "Волгин, дядя Вельского."
+        hide volgin
 
-            show konev at truecenter
-            "Федор Конёв, купец московский."
-            hide konev
+        show pososhkov at truecenter
+        "Посошков, жених Оленьки."
+        hide pososhkov
 
-            show ivan at truecenter
-            "Иван, калачник."
-            hide ivan
+        show kutermina at truecenter
+        "Кутермина, знакомая Любских."
+        hide kutermina
 
-            "Афоня, юродивый."
+        show lileev at truecenter
+        "Лилеев"
+        hide lileev
 
-            show kuptsy at truecenter
-            "Московский, новгородские, псковские купцы; подьячие, попы безместные, странники, мелочные торговцы, разносчики и крестьяне."
-            hide kuptsy
+        show biryulkin at truecenter
+        "Бирюлькин"
+        hide biryulkin
 
-        show vasilij_shujskij at truecenter
+        "актеры Благородной труппы"
 
-        show vasilij_shujskij at truecenter
+        show izvedov at truecenter
+        "Изведов, отставной придворный актер."
+        hide izvedov
 
-        "<{i}Сени в доме Василия Шуйского.{/i}>"
+        show natasha at truecenter
+        "Наташа, горничная Оленьки."
+        hide natasha
 
-        hide vasilij_shujskij
+        show pervaja_plemyannica at truecenter
+        "1-я племянница"
+        hide pervaja_plemyannica
 
-        hide vasilij_shujskij
+        show vtoraja_plemyannica at truecenter
+        "2-я племянница"
+        hide vtoraja_plemyannica
 
-        "<{i}(19 июня 1605 года){/i}>"
+        show pervyj_plemyannik at truecenter
+        "1-й племянник"
+        hide pervyj_plemyannik
 
-        show kuptsy at left
-        show podjachij at truecenter
-        show ves_narod_1_2 at right
+        show vtoroj_plemyannik at truecenter
+        "2-й племянник"
+        hide vtoroj_plemyannik
 
-        show kuptsy at left
-        show podjachij at truecenter
-        show ves_narod_1_2 at right
+        "Кутерминой."
 
-        "<{i}Купцы и подьячие сидят на лавках; простой народ -- на полу.{/i}>"
+        show pervyj_sluga at truecenter
+        "1-й"
+        hide pervyj_sluga
 
-        hide kuptsy
-        hide podjachij
-        hide ves_narod_1_2
+        show vtoroj_sluga at truecenter
+        "и 2-й"
+        hide vtoroj_sluga
 
-        hide kuptsy
-        hide podjachij
-        hide ves_narod_1_2
+        "слуги Любского"
 
-        show pervyj_kupets_moskovskij at truecenter
+        "4 девочки"
 
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
+        "2 мальчика"
 
-        pervyj_kupets_moskovskij "Привел господь! Царевич прирожденный"
+        show uchitel at truecenter
+        "Учитель"
+        hide uchitel
 
-        pervyj_kupets_moskovskij "На дедовских и отческих престолах"
+        show guvernantka at truecenter
+        "Гувернантка"
+        hide guvernantka
 
-        pervyj_kupets_moskovskij "И на своих на всех великих царствах"
+        show nyanjushka at truecenter
+        "Нянюшка"
+        hide nyanjushka
 
-        pervyj_kupets_moskovskij "Воссел опять и утвердился..."
+        "без слов."
 
-        hide pervyj_kupets_moskovskij
 
-        show vtoroj_kupets_moskovskij at truecenter
+    label EPIGRAPH_1_1_1:
+        play music "audio/music/74.mp3" fadeout 1.0 fadein 1.0
 
-        $ vtoroj_kupets_moskovskij_var = "{noalt}2-й купец московский"
+        scene 62 with fade
 
-        vtoroj_kupets_moskovskij "{space=400}Чудо"
+        "{b}epigraph{/b}"
 
-        vtoroj_kupets_moskovskij "Великое свершилось! Божий промысл"
+        "{a=myshow|tooltip|text=Это для тех, кто молод, влюблен, для принцев или принцесс. А театр - часто прелестный сюжет для пьесы.}C'est a qui sera jeune, amant, prince ou princesse. Et la troupe est souvent un beau sujet de piece.{/a}"
 
-        vtoroj_kupets_moskovskij "Изменников достойно покарал"
+        "<{i}{a=myshow|tooltip|text=Делиль (франц.). - Ред.}Delille{/a}{/i}>"
 
-        vtoroj_kupets_moskovskij "И сохранил лепорожденну отрасль"
 
-        vtoroj_kupets_moskovskij "От племени царей благочестивых."
 
-        hide vtoroj_kupets_moskovskij
 
-        show podjachij at truecenter
+    label SET_2_2_1:
+        play music "audio/music/108.mp3" fadeout 1.0 fadein 1.0
 
-        $ podjachij_var = "{noalt}Подьячий"
+        scene 5 with fade
 
-        podjachij "Вот праздник-то! Такого не видала"
+        "{b}set{/b}"
 
-        podjachij "Москва давно. В нарядах береженых,"
+        show lyubskij at truecenter
 
-        podjachij "С сияющим на лицах торжеством,"
+        show lyubskij at truecenter
 
-        podjachij "Идет народ веселыми стопами"
+        "<{i}Действие происходит в губернском городе, в доме Любского.{/i}>"
 
-        podjachij "В предшествии хоругвей и икон..."
+        hide lyubskij
 
-        hide podjachij
+        hide lyubskij
 
-        show konev at truecenter
 
-        $ konev_var = "{noalt}Конёв"
 
-        hide konev
-
-        show konev at truecenter
-
-        hide konev
-
-        show konev at truecenter
-
-        konev "<{i}(Тихо.){/i}>"
-
-        show konev at truecenter
-
-        show konev at truecenter
-
-        konev "Антихриста встречать!"
-
-        hide konev
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "{space=400}А что народу!"
-
-        pervyj_krestjanin "Начни считать -- умрешь и не сочтешь:"
-
-        pervyj_krestjanin "Идут и едут, и ползут и лезут."
-
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-
-        $ vtoroj_krestjanin_var = "{noalt}2-й крестьянин"
-
-        vtoroj_krestjanin "Пора-то вольная, в полях убрались,"
-
-        vtoroj_krestjanin "Посеяли, а сенокос не вдруг..."
-
-        vtoroj_krestjanin "Ну и сошлись..."
-
-        hide vtoroj_krestjanin
-
-        show tretij_krestjanin at truecenter
-
-        $ tretij_krestjanin_var = "{noalt}3-й крестьянин"
-
-        tretij_krestjanin "{space=400}И все-то, братцы, рады"
-
-        tretij_krestjanin "И веселы! Веселие такое,"
-
-        tretij_krestjanin "Что об святой, в великий день Христов."
-
-        hide tretij_krestjanin
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Греха-то что! Греха-то что!"
-
-        hide konev
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Болтали,"
-
-        podjachij "Что в Угличе царевича убили,"
-
-        podjachij "И верили тогда; а вот он с нами!"
-
-        podjachij "И, значит, Бог его соблюл для нас."
-
-        hide podjachij
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "Была молва, и прежде толковали,"
-
-        pervyj_krestjanin "Что Дмитрий, Углицкий царевич, жив..."
-
-        hide pervyj_krestjanin
-
-        show kupets_novgorodskij at truecenter
-
-        $ kupets_novgorodskij_var = "{noalt}Купец новгородский"
-
-        kupets_novgorodskij "В Москве молва, а в городах подавно..."
-
-        hide kupets_novgorodskij
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "И чуда нет, и нечему дивиться,"
-
-        podjachij "Что сохранил его Господь живого."
-
-        hide podjachij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        pervyj_kupets_moskovskij "Никто тому и не дивится -- знают,"
-
-        pervyj_kupets_moskovskij "Что Господу возможно все: он может"
-
-        pervyj_kupets_moskovskij "И мертвого из гроба воскресить."
-
-        hide pervyj_kupets_moskovskij
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}Крестьянин"
-
-        pervyj_krestjanin "Само собой!"
-
-        hide pervyj_krestjanin
-
-        show strannik_1_1 at truecenter
-
-        $ strannik_1_1_var = "{noalt}Странник"
-
-        strannik_1_1 "{space=400}Уж если Бог захочет,"
-
-        strannik_1_1 "Так сделает."
-
-        hide strannik_1_1
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}Крестьянин"
-
-        pervyj_krestjanin "{space=400}Ну, что и говорить!"
-
-        hide pervyj_krestjanin
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        hide pervyj_kupets_moskovskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        hide pervyj_kupets_moskovskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        pervyj_kupets_moskovskij "<{i}(новгородскому){/i}>"
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        pervyj_kupets_moskovskij "И веришь ли, когда пришли к нам вести"
-
-        pervyj_kupets_moskovskij "Про смерть царевича, рыданье слезно"
-
-        pervyj_kupets_moskovskij "По всей Москве пошло; заговорили,"
-
-        pervyj_kupets_moskovskij "Что легче нам опять царя Ивана"
-
-        pervyj_kupets_moskovskij "Мучительство, чем вовсе сиротать"
-
-        pervyj_kupets_moskovskij "Без царского потомства; хоть и жутко"
-
-        pervyj_kupets_moskovskij "Бывало нам, а все-таки мы знали,"
-
-        pervyj_kupets_moskovskij "Что он -- царева отрасль, не холопья..."
-
-        pervyj_kupets_moskovskij "И вот опять потомство Мономаха"
-
-        pervyj_kupets_moskovskij "На грозный стол родительский вступает!"
-
-        hide pervyj_kupets_moskovskij
-
-        show pop at truecenter
-
-        $ pop_var = "{noalt}Поп"
-
-        pop "Веселие духовное и радость"
-
-        pop "Вселенская..."
-
-        hide pop
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}Ну, радость не велика"
-
-        konev "Под клятвой жить! Святителя проклятье"
-
-        konev "Лежит на нас и чадах. Мы давно ли"
-
-        konev "Предстателя пред богом, патриарха,"
-
-        konev "Во время службы, в полном облаченье,"
-
-        konev "Свели с амвона, рубищем одели,"
-
-        konev "По улицам позорно волокли?!"
-
-        konev "И поднял он на нас свою десницу,"
-
-        konev "И проклял всю Москву и в ней живущих,"
-
-        konev "И, точно камнем. придавил нам души"
-
-        konev "Проклятием... Дела и мысли наши,"
-
-        konev "Утробы все проклятием покрыты;"
-
-        konev "Молитвы наши к Богу не доходят..."
-
-        hide konev
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "Ты не болтал бы громко при народе,"
-
-        podjachij "А то как раз в застенок попадешь."
-
-        hide podjachij
-
-        show podjachij at truecenter
-
-        hide podjachij
-
-        show podjachij at truecenter
-
-        podjachij "<{i}Молчание.{/i}>"
-
-        show podjachij at truecenter
-
-        show podjachij at truecenter
-
-        hide podjachij
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "Ахти, грехи! Ох, Господи помилуй!"
-
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-
-        $ vtoroj_krestjanin_var = "{noalt}2-й крестьянин"
-
-        vtoroj_krestjanin "Хоть пожевать чего бы, скуки ради."
-
-        hide vtoroj_krestjanin
-
-        show tretij_krestjanin at truecenter
-
-        $ tretij_krestjanin_var = "{noalt}3-й крестьянин"
-
-        tretij_krestjanin "Вон у него за пазухой отдулось..."
-
-        tretij_krestjanin "Что у тебя: мошна али коврига?"
-
-        hide tretij_krestjanin
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "Моя мошна-то по людям пошла,"
-
-        pervyj_krestjanin "Да и домой нейдет."
-
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-
-        $ vtoroj_krestjanin_var = "{noalt}2-й крестьянин"
-
-        vtoroj_krestjanin "{space=400}Ты, видно, тоже"
-
-        vtoroj_krestjanin "Бессребреник?"
-
-        hide vtoroj_krestjanin
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "{space=400}Наг золота не копит!"
-
-        pervyj_krestjanin "Краюха есть в запасе, часом с квасом,"
-
-        pervyj_krestjanin "А то и так. С утра пошел из дома,"
-
-        pervyj_krestjanin "А брюхо -- враг -- вчерашнего не помнит."
-
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-
-        $ vtoroj_krestjanin_var = "{noalt}2-й крестьянин"
-
-        vtoroj_krestjanin "Тащи ее, ломай да нам давай!"
-
-        vtoroj_krestjanin "Поделимся!"
-
-        hide vtoroj_krestjanin
-
-        show pop at truecenter
-
-        $ pop_var = "{noalt}Поп"
-
-        pop "{space=400}Не о единем хлебе..."
-
-        hide pop
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "Да тише вы!"
-
-        hide pervyj_kupets_moskovskij
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Вот дурья-то порода!"
-
-        podjachij "В боярские хоромы затесался,"
-
-        podjachij "Сидит, как гость; кадык-то свой распустит,"
-
-        podjachij "И не уймешь; не мимо говорится:"
-
-        podjachij "\"Ты посади свинью...\""
-
-        hide podjachij
-
-        show pervyj_krestjanin at truecenter
-
-        $ pervyj_krestjanin_var = "{noalt}1-й крестьянин"
-
-        pervyj_krestjanin "{space=400}Ты не гневися!"
-
-        pervyj_krestjanin "Мы замолчим: робята, жуйте тише!"
-
-        hide pervyj_krestjanin
-
-        show pervyj_krestjanin at truecenter
-
-        hide pervyj_krestjanin
-
-        show pervyj_krestjanin at truecenter
-
-        pervyj_krestjanin "<{i}Молчание.{/i}>"
-
-        show pervyj_krestjanin at truecenter
-
-        show pervyj_krestjanin at truecenter
-
-        hide pervyj_krestjanin
-
-        show vtoroj_krestjanin at truecenter
-
-        $ vtoroj_krestjanin_var = "{noalt}2-й крестьянин"
-
-        vtoroj_krestjanin "Чем так сидеть, давай перебуваться."
-
-        hide vtoroj_krestjanin
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "Да что вы, в хлев зашли?!"
-
-        hide pervyj_kupets_moskovskij
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Позвать холопей"
-
-        podjachij "Да вытолкать вас в шею за ворота."
-
-        hide podjachij
-
-        show podjachij at left
-        show kalachnik at right
-
-        hide podjachij
-
-        show podjachij at left
-        show kalachnik at right
-
-        podjachij "<{i}Входят калачник и юродивый.{/i}>"
-
-        hide kalachnik
-
-        show podjachij at truecenter
-
-        hide kalachnik
-
-        show podjachij at truecenter
-
-        hide podjachij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Судьям, дьякам и вам, отцы честные,"
-
-        kalachnik "Гостям-купцам и прочему народу --"
-
-        kalachnik "До матери сырой земли поклон."
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(Садится на пол.){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "Убогонький, садись со мной рядком!"
-
-        hide kalachnik
-
-        show jurodivyj at truecenter
-
-        $ jurodivyj_var = "{noalt}Юродивый"
-
-        jurodivyj "Антихриста боюсь!"
-
-        hide jurodivyj
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}А разве скоро,"
-
-        konev "Афоня, ждать его?"
-
-        hide konev
-
-        show jurodivyj at truecenter
-
-        $ jurodivyj_var = "{noalt}Юродивый"
-
-        jurodivyj "{space=400}Пришел нежданный!"
-
-        hide jurodivyj
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        pervyj_kupets_moskovskij "Не надивлюсь! Боярин, князь Василий"
-
-        pervyj_kupets_moskovskij "Иванович, людей торговых лучших"
-
-        pervyj_kupets_moskovskij "Равняет с площадными торгашами;"
-
-        pervyj_kupets_moskovskij "Идет к нему и умный и безумный,"
-
-        pervyj_kupets_moskovskij "И скоморох и думный дворянин."
-
-        hide pervyj_kupets_moskovskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Да ты зачем к боярину-то ходишь?"
-
-        kalachnik "Ума занять?.. А я своим торгую"
-
-        kalachnik "По мелочи. Эх, бороды большие,"
-
-        kalachnik "Вы рады бы простой народ заесть,"
-
-        kalachnik "Да воли нет!"
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        $ melochnoj_torgovets_var = "{noalt}Мелочной торговец"
-
-        hide melochnoj_torgovets
-
-        show melochnoj_torgovets at left
-        show kalachnik at right
-
-        hide melochnoj_torgovets
-
-        show melochnoj_torgovets at left
-        show kalachnik at right
-
-        melochnoj_torgovets "<{i}(калачнику){/i}>"
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        melochnoj_torgovets "{space=400}Куда тебя носило?"
-
-        melochnoj_torgovets "Ни по торгам, ни в лавках не видать..."
-
-        hide melochnoj_torgovets
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Я в Туле был."
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        $ melochnoj_torgovets_var = "{noalt}Мелочной торговец"
-
-        melochnoj_torgovets "{space=200}Зачем?"
-
-        hide melochnoj_torgovets
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Хотел в казаки..."
-
-        hide kalachnik
-
-        show jurodivyj at truecenter
-
-        $ jurodivyj_var = "{noalt}Юродивый"
-
-        jurodivyj "Казак -- поляк!"
-
-        hide jurodivyj
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Полякам да казакам"
-
-        kalachnik "Житье пришло, Афоня; царь Димитрий"
-
-        kalachnik "Вперед бояр к руке их допущает."
-
-        kalachnik "Бояр казаки чуть не бьют..."
-
-        hide kalachnik
-
-        show jurodivyj at truecenter
-
-        $ jurodivyj_var = "{noalt}Юродивый"
-
-        jurodivyj "{space=400}Боярин --"
-
-        jurodivyj "Татарин!"
-
-        hide jurodivyj
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Что за диво, что бояре --"
-
-        kalachnik "Татаровья: царем татарин был!"
-
-        hide kalachnik
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        pervyj_kupets_moskovskij "Что было, то прошло! Теперь Димитрий"
-
-        pervyj_kupets_moskovskij "Иванович, царевич благоверный"
-
-        pervyj_kupets_moskovskij "От племени Владимира святого..."
-
-        hide pervyj_kupets_moskovskij
-
-        show jurodivyj at truecenter
-
-        $ jurodivyj_var = "{noalt}Юродивый"
-
-        jurodivyj "В могилке Дмитрий!"
-
-        hide jurodivyj
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Мы тебе, блаженный,"
-
-        podjachij "И руки свяжем, да и рот замажем..."
-
-        hide podjachij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Он простенький, с него взыскать нельзя."
-
-        hide kalachnik
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        hide konev
-
-        show konev at truecenter
-
-        hide konev
-
-        show konev at truecenter
-
-        konev "<{i}(дает серебряную копейку юродивому){/i}>"
-
-        show konev at truecenter
-
-        show konev at truecenter
-
-        konev "Блаженный, на копеечку! Молися"
-
-        konev "О грешных нас!"
-
-        hide konev
-
-        show melochnoj_torgovets at truecenter
-
-        $ melochnoj_torgovets_var = "{noalt}Мелочной торговец"
-
-        hide melochnoj_torgovets
-
-        show melochnoj_torgovets at left
-        show kalachnik at right
-
-        hide melochnoj_torgovets
-
-        show melochnoj_torgovets at left
-        show kalachnik at right
-
-        melochnoj_torgovets "<{i}(калачнику){/i}>"
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        melochnoj_torgovets "{space=400}Ты говорил, в казаки..."
-
-        hide melochnoj_torgovets
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Охотой шел; да не горазд, сказали..."
-
-        hide kalachnik
-
-        show melochnoj_torgovets at truecenter
-
-        $ melochnoj_torgovets_var = "{noalt}Мелочной торговец"
-
-        melochnoj_torgovets "Чего ж не стало?"
-
-        hide melochnoj_torgovets
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Воровать не ловок!"
-
-        kalachnik "Чем воровать, так лучше торговать"
-
-        kalachnik "Я золотыми, угорскими стану."
-
-        kalachnik "Цена теперь хорошая на них:"
-
-        kalachnik "Нужда пришла царю нести в подарок."
-
-        hide kalachnik
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        pervyj_kupets_moskovskij "А калачами полно?"
-
-        hide pervyj_kupets_moskovskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Пользы мало."
-
-        kalachnik "Вот накупи ты польских кунтушей,"
-
-        kalachnik "Так наживешь, товар не залежится!.."
-
-        kalachnik "Идет молва, что князь Рубец-Масальский,"
-
-        kalachnik "Петр Федорыч Басманов и другие"
-
-        kalachnik "Хотят свои боярские кафтаны"
-
-        kalachnik "На кунтуши сменять..."
-
-        hide kalachnik
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Язык-то длинно"
-
-        podjachij "Ты распустил, держал бы покороче."
-
-        hide podjachij
-
-        show podjachij at left
-        show osipov at truecenter
-        show dvoretskij at right
-
-        hide podjachij
-
-        show podjachij at left
-        show osipov at truecenter
-        show dvoretskij at right
-
-        podjachij "<{i}Входят Осипов и дворецкий.{/i}>"
-
-        hide osipov
-        hide dvoretskij
-
-        show podjachij at truecenter
-
-        hide osipov
-        hide dvoretskij
-
-        show podjachij at truecenter
-
-        hide podjachij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Так не бывал?"
-
-        hide osipov
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "{space=400}Всё там еще покуда,"
-
-        dvoretskij "В Коломенском стану, у государя."
-
-        hide dvoretskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "А скоро быть, ты чаешь?"
-
-        hide osipov
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "{space=400}Да пора бы;"
-
-        dvoretskij "Ты погляди, его боярску милость"
-
-        dvoretskij "Народу сколько ждет -- скопились."
-
-        hide dvoretskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}По что?"
-
-        hide osipov
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "Наехали из Новгорода, Пскова"
-
-        dvoretskij "Посадские царевича встречать,"
-
-        dvoretskij "Московские торговцы площадные,"
-
-        dvoretskij "Крестьянишки из ближних деревень,"
-
-        dvoretskij "Попы без мест, дьячишки из приказов,"
-
-        dvoretskij "Убогие и всякие сироты,"
-
-        dvoretskij "И деловой и шлющийся народ."
-
-        dvoretskij "Не всякий видел очи государя"
-
-        dvoretskij "Димитрия Иваныча, так лестно"
-
-        dvoretskij "У нашего боярина проведать"
-
-        dvoretskij "Про царское здоровье; не слыхать ли"
-
-        dvoretskij "Про милости какие для народа..."
-
-        dvoretskij "Не обессудь! Шум некакий в воротах,"
-
-        dvoretskij "Так побежать... Все как-то не на месте"
-
-        dvoretskij "Душонка-то холопская; все мнится,"
-
-        dvoretskij "Что вот наедет... Обожди часок."
-
-        hide dvoretskij
-
-        show dvoretskij at truecenter
-
-        hide dvoretskij
-
-        show dvoretskij at truecenter
-
-        dvoretskij "<{i}(Уходит.){/i}>"
-
-        show dvoretskij at truecenter
-
-        show dvoretskij at truecenter
-
-        hide dvoretskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        hide osipov
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show osipov at truecenter
-
-        osipov "<{i}(у окна){/i}>"
-
-        show osipov at truecenter
-
-        show osipov at truecenter
-
-        osipov "Приехал князь."
-
-        hide osipov
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show osipov at truecenter
-
-        osipov "<{i}Все встают.{/i}>"
-
-        show osipov at truecenter
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(у окна){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "{space=400}А что-нибудь неладно!"
-
-        kalachnik "Угрюм старик, нависли брови тучей,"
-
-        kalachnik "Глаза горят и скачут. Ну, сироты,"
-
-        kalachnik "Не лучше ль нам сбираться восвояси,"
-
-        kalachnik "С добра ума, покуда не прогнали?"
-
-        hide kalachnik
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец московский"
-
-        pervyj_kupets_moskovskij "Прогонит раз, придем к нему в другой."
-
-        hide pervyj_kupets_moskovskij
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "Тебе нужда, а у него их двадцать,"
-
-        podjachij "Да не чета бездельным нашим требам."
-
-        hide podjachij
-
-        show jurodivyj at left
-        show melochnoj_torgovets at truecenter
-        show osipov at right
-
-        $ jurodivyj_var = "{noalt}Все"
-
-        jurodivyj "Да знамо, знамо, что и говорить! --"
-
-        jurodivyj "Такие ли его дела!"
-
-        hide jurodivyj
-        hide melochnoj_torgovets
-        hide osipov
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "Так часом"
-
-        podjachij "И не до нас... И отдохнуть захочет"
-
-        podjachij "От дел житейских."
-
-        hide podjachij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Человек бо есть."
-
-        hide pervyj_kupets_moskovskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "То недосуг, то гневен, ну и в шею,"
-
-        kalachnik "Не погневись."
-
-        hide kalachnik
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        podjachij "{space=400}Да хоть и погневися,"
-
-        podjachij "Кому нужда, кого ты испугаешь?"
-
-        hide podjachij
-
-        show pop at truecenter
-
-        $ pop_var = "{noalt}Поп"
-
-        pop "Смирен боярин, яко голубица,"
-
-        pop "И благости исполнен, претворяет"
-
-        pop "Свой гнев на милость вскоре, по писаныо:"
-
-        pop "\"Не зайдет солнце в гневе вашем...\""
-
-        hide pop
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Ну, брат,"
-
-        kalachnik "Ты не скажи!"
-
-        hide kalachnik
-
-        show kalachnik at left
-        show dvoretskij at right
-
-        hide kalachnik
-
-        show kalachnik at left
-        show dvoretskij at right
-
-        kalachnik "<{i}Дворецкий входит.{/i}>"
-
-        hide dvoretskij
-
-        show kalachnik at truecenter
-
-        hide dvoretskij
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "{space=400}Идет боярин, тише!"
-
-        hide dvoretskij
-
-        show dvoretskij at left
-        show vasilij_shujskij at right
-
-        hide dvoretskij
-
-        show dvoretskij at left
-        show vasilij_shujskij at right
-
-        dvoretskij "<{i}Входит Василий Шуйский; все кланяются по нескольку раз в землю.{/i}>"
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(в раздумье останавливаясь перед Осиновым){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Никто, как Бог! Никто, как Бог!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Боярин!"
-
-        osipov "О здравии твоем позволь проведать!"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(оглядывает всех, потом кивает головой к дверям){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        vasilij_shujskij "<{i}Дворецкий из-за него машет рукой.{/i}>"
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Я позову, кого мне нужно будет."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show osipov at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show osipov at right
-
-        vasilij_shujskij "<{i}(Садится к столу; все уходят, кроме Осипова.){/i}>"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Коль не в пору, так я и ко двору."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Нет, обожди часок! За прегрешенья"
-
-        vasilij_shujskij "Казнит Господь рабов своих не редко,"
-
-        vasilij_shujskij "Да все не так же! Горе всем живущим!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Молчание.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Ты был в стану?"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=200}Я быть-то был..."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Ну, что же?"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Смешение языков, песни, грохот,"
-
-        osipov "Пальба, стрельба, бесовское гуденье!"
-
-        osipov "Далеко гул идет по чисту полю,"
-
-        osipov "И мать сыра-земля верст на семь стонет;"
-
-        osipov "Для русского крещеного народа"
-
-        osipov "Позорище противное зело!"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Царя-то видел?"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Точно ефиопы,"
-
-        osipov "Кругом него поляки, да черкасы,"
-
-        osipov "Да казаки донские оттирают"
-
-        osipov "И поглядеть поближе не дают."
-
-        hide osipov
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show osipov at truecenter
-
-        osipov "<{i}Молчание.{/i}>"
-
-        show osipov at truecenter
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ну, что ж молчишь?"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Спросить бы, да не смею."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Чего бояться! Развяжи язык!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        hide osipov
-
-        show osipov at left
-        show vasilij_shujskij at right
-
-        hide osipov
-
-        show osipov at left
-        show vasilij_shujskij at right
-
-        osipov "<{i}(подвигаясь к Шуйскому){/i}>"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        osipov "Чернец?"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Ну нет, не чернецом он смотрит..."
-
-        vasilij_shujskij "Ошиблись мы с Борисом. Монастырской"
-
-        vasilij_shujskij "Повадки в нем не видно. Речи быстры"
-
-        vasilij_shujskij "И дерзостны, и поступью проворен,"
-
-        vasilij_shujskij "Войнолюбив и смел, очами зорок,"
-
-        vasilij_shujskij "Орудует доспехом чище ляхов"
-
-        vasilij_shujskij "И на коня взлетает, как татарин;"
-
-        vasilij_shujskij "А чернеца не скоро ты обучишь"
-
-        vasilij_shujskij "Вертеть конем ногайским или саблей."
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Умом я прост, а душу соблюдаю,"
-
-        osipov "Геенского огня боюсь безмерно!"
-
-        osipov "Скажи, кому мы крестным целованьем"
-
-        osipov "Свою навеки душу эаручили?"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Он -- вор, не царь, и сходства очень мало"
-
-        vasilij_shujskij "С покойником; не царская осанка,"
-
-        vasilij_shujskij "Вертляв, и говорлив, и безбород,"
-
-        vasilij_shujskij "Обличие и поступь препростые,"
-
-        vasilij_shujskij "Не сановит, да и летами старше."
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "А кто ж бы он? Ты как мекать изволишь?"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Крестись, Тимоша!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}С нами крестна сила!"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Антихрист он или его предтеча."
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "О Господи помилуй! Эко слово"
-
-        osipov "Ты вымолвил!"
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}И верить и не верить"
-
-        vasilij_shujskij "Ты сам волен."
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Василий, свет Иваныч,"
-
-        osipov "Не мучь меня! Душа велико дело."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Не знаю, друг, похоже-то похоже,"
-
-        vasilij_shujskij "А заверять не стану: ошибешься,"
-
-        vasilij_shujskij "Да и тебя введешь в обман и грех."
-
-        vasilij_shujskij "Что он поляк и езовитской веры --"
-
-        vasilij_shujskij "Вот это верно, Бог тебе порукой."
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Боярин, ты убил меня! Ну, как же"
-
-        osipov "Еретику служить! Святая церковь"
-
-        osipov "Противиться велит до смерти крестной."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ты что толкуешь! Умирать за веру!"
-
-        vasilij_shujskij "Тебя ли хватит на такое дело!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "В моей душе ты не бывал, боярин."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ты не смеши!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Ты погоди смеяться,"
-
-        osipov "Не торопись."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Вот новый страстотерпец!"
-
-        vasilij_shujskij "В московские угодники задумал?"
-
-        vasilij_shujskij "Не к рылу честь! Таких речей нелепых"
-
-        vasilij_shujskij "Ни говорить, ни слушать непригоже..."
-
-        vasilij_shujskij "Служи Царю по крестной клятве, вправду,"
-
-        vasilij_shujskij "И всякого добра ему желай!"
-
-        vasilij_shujskij "Ты -- молодой слуга, себе ты должен"
-
-        vasilij_shujskij "Искать богатства и служилой чести!"
-
-        vasilij_shujskij "Покаешься под старость во грехах;"
-
-        vasilij_shujskij "Служи пока мамону!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Ты, боярин,"
-
-        osipov "Меня в тоску вогнал и закручинил,"
-
-        osipov "До слез довел; мне жизнь теперь постыла."
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Назавтра въезд, так приходи к пречистой,"
-
-        vasilij_shujskij "Ко всенощной, молиться за царя!"
-
-        hide vasilij_shujskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Прости, боярин. Эко дело, право!"
-
-        hide osipov
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show osipov at truecenter
-
-        osipov "<{i}(Уходит.){/i}>"
-
-        show osipov at truecenter
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show osipov at left
-        show dvoretskij at right
-
-        hide osipov
-
-        show osipov at left
-        show dvoretskij at right
-
-        osipov "<{i}Входит дворецкий.{/i}>"
-
-        hide dvoretskij
-
-        show osipov at truecenter
-
-        hide dvoretskij
-
-        show osipov at truecenter
-
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Пусти Конёва!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at truecenter
-        show konev at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at truecenter
-        show konev at right
-
-        vasilij_shujskij "<{i}Дворецкий уходит, входит Конёв.{/i}>"
-
-        hide dvoretskij
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "{space=400}Что, Конёв, ты скажешь?"
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Да что сказать! В миру погибла правда,"
-
-        konev "Простор врагу. Бесовское мечтанье"
-
-        konev "ОсИтило проклятую Москву."
-
-        konev "Ослеп народ, и смотрит, да не видит!"
-
-        konev "Царевичем расстригу величают."
-
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Неужто все?"
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}Да, почитай что все:"
-
-        konev "Крестьяне сплошь, торговцы мелочные,"
-
-        konev "Разносчики и площадная голь"
-
-        konev "От радости ликуют -- даровое"
-
-        konev "Зачуявши вино. Из нашей братьи,"
-
-        konev "Торгующих, боярин, двое только"
-
-        konev "Шатаются! и верят, и не верят..."
-
-        konev "Привел к тебе."
-
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Да люди-то надежны ль?"
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Церковные строители, любимцы"
-
-        konev "И ближние святому патриарху,"
-
-        konev "Ревнители о православной церкви."
-
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ну, милости прошу. Пускай войдут."
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        hide konev
-
-        show konev at truecenter
-
-        hide konev
-
-        show konev at truecenter
-
-        konev "<{i}(отворив дверь){/i}>"
-
-        show konev at truecenter
-
-        show konev at truecenter
-
-        konev "Не бойтеся боярина, идите!"
-
-        hide konev
-
-        show konev at truecenter
-
-        hide konev
-
-        show konev at truecenter
-
-        konev "<{i}Входят двое купцов.{/i}>"
-
-        show konev at truecenter
-
-        show konev at truecenter
-
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Какое ваше дело?"
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Мы -- сироты,"
-
-        pervyj_kupets_moskovskij "За спасеньем пришли к тебе, боярин."
-
-        hide pervyj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Я вам не поп!"
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}К святому патриарху"
-
-        pervyj_kupets_moskovskij "Ходили мы, бывало, за советом"
-
-        pervyj_kupets_moskovskij "О всех делах, духовных и мирских..."
-
-        hide pervyj_kupets_moskovskij
-
-        show vtoroj_kupets_moskovskij at truecenter
-
-        $ vtoroj_kupets_moskovskij_var = "{noalt}2-й купец"
-
-        vtoroj_kupets_moskovskij "Женить ли сына, дочь ли выдать замуж,"
-
-        vtoroj_kupets_moskovskij "Когда купить, когда продать товары"
-
-        vtoroj_kupets_moskovskij "Повыгодней -- за всем к нему ходили."
-
-        hide vtoroj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Чего же вам?"
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Пришли за утвержденьем."
-
-        pervyj_kupets_moskovskij "На чем стоять..."
-
-        hide pervyj_kupets_moskovskij
-
-        show vtoroj_kupets_moskovskij at truecenter
-
-        $ vtoroj_kupets_moskovskij_var = "{noalt}2-й купец"
-
-        vtoroj_kupets_moskovskij "{space=400}Ты вместо патриарха"
-
-        vtoroj_kupets_moskovskij "Отцом нам будь! Наставь и накажи!"
-
-        hide vtoroj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Какого же вы, братцы, наказанья"
-
-        vasilij_shujskij "Желаете?"
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Доподлинный царевич"
-
-        pervyj_kupets_moskovskij "В Коломенском иль вор и чернокнижник --"
-
-        pervyj_kupets_moskovskij "Смущаемся."
-
-        hide pervyj_kupets_moskovskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}Уверь ты их, боярин,"
-
-        konev "Не верят мне, что вор, расстрига, Гришка,"
-
-        konev "Богданов сын, Отрепьев, по совету"
-
-        konev "Дияволю на царстве утвердился."
-
-        hide konev
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "Боярин, так?"
-
-        hide pervyj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Чего же вам еще!"
-
-        hide vasilij_shujskij
-
-        show vtoroj_kupets_moskovskij at truecenter
-
-        $ vtoroj_kupets_moskovskij_var = "{noalt}2-й купец"
-
-        vtoroj_kupets_moskovskij "Отрепьев ли?"
-
-        hide vtoroj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=200}Отрепьев."
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Побожися!"
-
-        pervyj_kupets_moskovskij "Дай руку!"
-
-        hide pervyj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Вот рука, зачем божиться!"
-
-        vasilij_shujskij "Я целовал икону всенародно"
-
-        vasilij_shujskij "И с лобного сказал, что он -- Отрепьев."
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Ну, слышали?"
-
-        hide konev
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}Спасибо, князь Василий"
-
-        pervyj_kupets_moskovskij "Иванович! Не погневись за нашу"
-
-        pervyj_kupets_moskovskij "Любовь к тебе и дурость! Мы за ласку"
-
-        pervyj_kupets_moskovskij "Боярскую челом тебе! Напредки"
-
-        pervyj_kupets_moskovskij "Не оставляй нас, мужиков..."
-
-        hide pervyj_kupets_moskovskij
-
-        show vtoroj_kupets_moskovskij at truecenter
-
-        $ vtoroj_kupets_moskovskij_var = "{noalt}2-й купец"
-
-        vtoroj_kupets_moskovskij "{space=400}Боярин,"
-
-        vtoroj_kupets_moskovskij "А жить-то как? Приказывай! Что скажешь,"
-
-        vtoroj_kupets_moskovskij "Тому и быть."
-
-        hide vtoroj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Живите как хотите."
-
-        vasilij_shujskij "Терпи, поколь потерпится."
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "{space=400}А если..."
-
-        hide pervyj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Никто, как бог, и кончен разговор."
-
-        hide vasilij_shujskij
-
-        show pervyj_kupets_moskovskij at truecenter
-
-        $ pervyj_kupets_moskovskij_var = "{noalt}1-й купец"
-
-        pervyj_kupets_moskovskij "Мы в Старицу сбираемся, боярин,"
-
-        pervyj_kupets_moskovskij "В темнице патриарха навестить."
-
-        pervyj_kupets_moskovskij "Допустят ли нас к Иову?"
-
-        hide pervyj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Пытайтесь!"
-
-        hide vasilij_shujskij
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Не будет ли приказу от тебя?"
-
-        hide konev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Приказу нет. Поклон земной свезите"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(кланяется, касаясь рукой до земли){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "И нерушимое благословенье"
-
-        vasilij_shujskij "Мне попросите!"
-
-        hide vasilij_shujskij
-
-        show konev at left
-        show pervyj_kupets_moskovskij at truecenter
-        show vtoroj_kupets_moskovskij at right
-
-        $ konev_var = "{noalt}Конёв и купцы"
-
-        konev "{space=400}С миром оставайся!"
-
-        hide konev
-        hide pervyj_kupets_moskovskij
-        hide vtoroj_kupets_moskovskij
-
-        show konev at left
-        show pervyj_kupets_moskovskij at truecenter
-        show vtoroj_kupets_moskovskij at right
-
-        hide konev
-        hide pervyj_kupets_moskovskij
-        hide vtoroj_kupets_moskovskij
-
-        show konev at left
-        show pervyj_kupets_moskovskij at truecenter
-        show vtoroj_kupets_moskovskij at right
-
-        konev "<{i}Уходят.{/i}>"
-
-        show konev at left
-        show pervyj_kupets_moskovskij at truecenter
-        show vtoroj_kupets_moskovskij at right
-
-        show konev at left
-        show pervyj_kupets_moskovskij at truecenter
-        show vtoroj_kupets_moskovskij at right
-
-        hide konev
-        hide pervyj_kupets_moskovskij
-        hide vtoroj_kupets_moskovskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(один){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Сегодня трое, завтра будет больше,"
-
-        vasilij_shujskij "А через месяц вся Москва -- моя."
-
-        vasilij_shujskij "Безвестный царь, бродяга безымянный,"
-
-        vasilij_shujskij "Душой поляк: как девка, малодушен;"
-
-        vasilij_shujskij "Как малолеток, падок на утехи;"
-
-        vasilij_shujskij "Как скоморох, без разума проворен;"
-
-        vasilij_shujskij "Как пьяный дьяк, болтает без умолка."
-
-        vasilij_shujskij "Он вскормленник прямой панов хвастливых!"
-
-        vasilij_shujskij "Недолго ждать, он прыть свою покажет,"
-
-        vasilij_shujskij "И скоро люд московский, православный,"
-
-        vasilij_shujskij "Бесчиния такого на престоле"
-
-        vasilij_shujskij "Насмотрится, чего во сие не снилось!"
-
-        vasilij_shujskij "Забвения отеческих преданий,"
-
-        vasilij_shujskij "Кощунства иноземцев над святыней,"
-
-        vasilij_shujskij "На грозном троне шутовских забав"
-
-        vasilij_shujskij "Народ не любит. Грозному Ивану"
-
-        vasilij_shujskij "Народ простил распутства, злодеянья,"
-
-        vasilij_shujskij "Мучительства безропотно стерпел --"
-
-        vasilij_shujskij "За сановитость царскую, за строгость"
-
-        vasilij_shujskij "Его лица и поступи, за чинность"
-
-        vasilij_shujskij "И набожность. Москва привыкла видеть,"
-
-        vasilij_shujskij "Как царь ее великий, православный,"
-
-        vasilij_shujskij "На высоте своей недостижимой"
-
-        vasilij_shujskij "Одной святыне молится с народом,"
-
-        vasilij_shujskij "Уставы церкви строгие блюдет,"
-
-        vasilij_shujskij "По праздникам духовно веселится,"
-
-        vasilij_shujskij "А в дни поста, в смиренном одеянье,"
-
-        vasilij_shujskij "С народом вместе каяться идет;"
-
-        vasilij_shujskij "Но скомороха на престоле царском"
-
-        vasilij_shujskij "Терпеть не станет! Рано или поздно"
-
-        vasilij_shujskij "Бродяга, царь московский самовольный,"
-
-        vasilij_shujskij "Поплатится удалой головой."
-
-        vasilij_shujskij "Потом... потом.. я -- царь. Начнется снова"
-
-        vasilij_shujskij "И благолепие, и чинность, и порядок."
-
-        vasilij_shujskij "По-старому мы царствовать начнем,"
-
-        vasilij_shujskij "По-старому, в день нашего венчанья,"
-
-        vasilij_shujskij "По всей Руси, под колокольный звон,"
-
-        vasilij_shujskij "Польются милости народу щедро;"
-
-        vasilij_shujskij "По-старому грозить полякам будем,"
-
-        vasilij_shujskij "Пугать татар; по-старому... бояться"
-
-        vasilij_shujskij "Изменников!., волжбы и чародейства!"
-
-        vasilij_shujskij "По-старому... боярская крамола!"
-
-        vasilij_shujskij "О Господи!., измены да опалы!"
-
-        vasilij_shujskij "Xa-xa, xa-xa! Тревоги да крамолы!"
-
-        vasilij_shujskij "Бояться их? Рожденному на троне"
-
-        vasilij_shujskij "Тяжка она -- корона Мокомаха!"
-
-        vasilij_shujskij "А мне, рабу, холопу Годунова,"
-
-        vasilij_shujskij "Почувствовать себя хоть раз владыкой,"
-
-        vasilij_shujskij "Почувствовать, что между мной и Богом"
-
-        vasilij_shujskij "Ни власти нет, ни силы! О!.. Каких же"
-
-        vasilij_shujskij "Тревог, забот я побоюсь, какими"
-
-        vasilij_shujskij "Крамолами во мне смутится сердце!"
-
-        vasilij_shujskij "Решился я! Отныне каждый помысл"
-
-        vasilij_shujskij "И каждый шаг ведут меня к престолу;"
-
-        vasilij_shujskij "Умом, обманом, даже преступленьем"
-
-        vasilij_shujskij "Добьюсь венца. О Господи! помилуй"
-
-        vasilij_shujskij "Нас, грешников!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Молчание.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "{space=200}Богданка, где ты?"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        vasilij_shujskij "<{i}Входит дворецкий.{/i}>"
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "{space=400}Ась?"
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Зови народ! Кого, чего им нужно?"
-
-        vasilij_shujskij "Калачника с блаженным на поварне"
-
-        vasilij_shujskij "И накормить, и ночевать оставить,"
-
-        vasilij_shujskij "И рано утром привести ко мне."
-
-        hide vasilij_shujskij
-
-        show dvoretskij at left
-        show kuptsy at truecenter
-        show podjachij at right
-
-        hide vasilij_shujskij
-
-        show dvoretskij at left
-        show kuptsy at truecenter
-        show podjachij at right
-
-        vasilij_shujskij "<{i}Дворецкий отворяет дверь; входят купцы, подьячие, странники и проч.{/i}>"
-
-        hide dvoretskij
-        hide kuptsy
-        hide podjachij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-        hide kuptsy
-        hide podjachij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ну, живы ль вы?"
-
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-
-        $ kuptsy_var = "{noalt}Купцы"
-
-        kuptsy "{space=400}По милости Господней!"
-
-        hide kuptsy
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ходили в стан?"
-
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-
-        $ kuptsy_var = "{noalt}Купцы"
-
-        kuptsy "{space=400}Ходили. -- Все ходили."
-
-        hide kuptsy
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "А грамоты вам чли? Царевич Дмитрий"
-
-        vasilij_shujskij "И пошлины и подати во льготе"
-
-        vasilij_shujskij "И облегченьи учинить велел."
-
-        vasilij_shujskij "По милости своей и по совету"
-
-        vasilij_shujskij "Бояр великих. Ну! Вы рады?"
-
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-
-        $ kuptsy_var = "{noalt}Купцы"
-
-        kuptsy "{space=400}Рады --"
-
-        kuptsy "Благодарим небесного Царя."
-
-        hide kuptsy
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(прочим){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Крестьяне, вам, и вам, отцы честные,"
-
-        vasilij_shujskij "И вам, и вам всем будет хорошо!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Купцам.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Ну, вот у вас и денег больше будет,"
-
-        vasilij_shujskij "И животов прибудет."
-
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-
-        $ kuptsy_var = "{noalt}Купцы"
-
-        kuptsy "{space=400}Мы, боярин,"
-
-        kuptsy "От радости себя не помним."
-
-        hide kuptsy
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}То-то ж!"
-
-        vasilij_shujskij "За деньги-то смотрите не продайте"
-
-        vasilij_shujskij "Чего другого, что дороже стоит."
-
-        hide vasilij_shujskij
-
-        show kuptsy at truecenter
-
-        $ kuptsy_var = "{noalt}Купцы"
-
-        kuptsy "Хоть умереть, а не понять ни зА что"
-
-        kuptsy "Твоих речей."
-
-        hide kuptsy
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Захочешь, так поймешь."
-
-        vasilij_shujskij "Душа нужна, а деньги -- тлен."
-
-        hide vasilij_shujskij
-
-        show podjachij at truecenter
-
-        $ podjachij_var = "{noalt}Подьячий"
-
-        hide podjachij
-
-        show podjachij at truecenter
-
-        hide podjachij
-
-        show podjachij at truecenter
-
-        podjachij "<{i}(подавая свиток){/i}>"
-
-        show podjachij at truecenter
-
-        show podjachij at truecenter
-
-        podjachij "{space=400}Боярин,"
-
-        podjachij "Я, многогрешный Богови и грубый,"
-
-        podjachij "Писанием предати покусихся --"
-
-        podjachij "Читающим на пользу и на память --"
-
-        podjachij "Восшествие исконного царя"
-
-        podjachij "На прародительские царства, еже"
-
-        podjachij "Очима видехом..."
-
-        hide podjachij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Запел ты рано!"
-
-        vasilij_shujskij "Не торопись! Не в сутки город строят."
-
-        vasilij_shujskij "Не под дождем, мы лучше подождем."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Отдает свиток ){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Ты через гол приди, и почитаю."
-
-        hide vasilij_shujskij
-
-        show kupets_1_1 at truecenter
-
-        $ kupets_1_1_var = "{noalt}Купец"
-
-        kupets_1_1 "Кругом царя мы иноверцев видим;"
-
-        kupets_1_1 "Дозволь спросить, прилежен ли Димитрий"
-
-        kupets_1_1 "До церкви Божьей?"
-
-        hide kupets_1_1
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Царь благочестивый"
-
-        vasilij_shujskij "И набожный: с ним два попа латинских..."
-
-        vasilij_shujskij "Ну, с богом! Эй, Богданка! Бочку меду"
-
-        vasilij_shujskij "Им выкати! Да потчуй хорошенько."
-
-        vasilij_shujskij "Чтоб пили все за царское здоровье."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Машет рукой, все уходят с поклонами.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        vasilij_shujskij "<{i}Входит быстро Дмитрий Иванович Шуйский.{/i}>"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "Василий, брат, за что же ты остаток"
-
-        dmitrij_shujskij "Широкого и славного потомства"
-
-        dmitrij_shujskij "Василия Кирдяпы вдосталь губишь!"
-
-        dmitrij_shujskij "Последние мы четверо остались"
-
-        dmitrij_shujskij "Без племени..."
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Да что как угорелый"
-
-        vasilij_shujskij "Ты мечешься?"
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "{space=400}Из стана я, Василий..."
-
-        dmitrij_shujskij "Душа моя во мне захолодела."
-
-        dmitrij_shujskij "Послушай ты меня!"
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Тебя послушать."
-
-        vasilij_shujskij "Так доброго не ждать! Ты, Дмитрий, глуп."
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "Я глуп не глуп, а голову жалею."
-
-        dmitrij_shujskij "В запасе нет, всего одна на плечах."
-
-        dmitrij_shujskij "Вот ты умен, а над собой не видишь"
-
-        dmitrij_shujskij "Погибели. Четвертый день мы ездим"
-
-        dmitrij_shujskij "С поклоном в стан, а проку что? Все хуже:"
-
-        dmitrij_shujskij "Между бояр смешки идут да шепот;"
-
-        dmitrij_shujskij "А царь, что день, грознее да грознее."
-
-        dmitrij_shujskij "Чем это пахнет? Плахой либо ссылкой"
-
-        dmitrij_shujskij "И печною опалой!"
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Плакать, что ли,"
-
-        vasilij_shujskij "И кланяться?"
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "{space=400}Иди скорей на площадь,"
-
-        dmitrij_shujskij "Сбирай народ, клянись перед иконой,"
-
-        dmitrij_shujskij "Что в Угличе ты хоронил другого;"
-
-        dmitrij_shujskij "Что Дмитрий жив, что подлинный царевич,"
-
-        dmitrij_shujskij "Царя Ивана сын, на трон вступает!"
-
-        dmitrij_shujskij "Винись во всем; скажи, что страха ради"
-
-        dmitrij_shujskij "Борисова вы лгали с патриархом."
-
-        dmitrij_shujskij "Иди теперь, а завтра будет поздно."
-
-        dmitrij_shujskij "Богдашка Бельский да Голицын Васька"
-
-        dmitrij_shujskij "По площадям и в улицах московских"
-
-        dmitrij_shujskij "Одно твердят, что Шуйский с патриархом,"
-
-        dmitrij_shujskij "Изменники царевы, обманули"
-
-        dmitrij_shujskij "И довели до клятвопреступленья"
-
-        dmitrij_shujskij "Народ в Москве; а ты молчишь и губишь"
-
-        dmitrij_shujskij "Себя и нас!"
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}А чем же мне заплатят"
-
-        vasilij_shujskij "За ложь мою? Насмешками, что поздно"
-
-        vasilij_shujskij "Опомнился, что раньше нужно было"
-
-        vasilij_shujskij "Покаяться. Меня на то и ловят,"
-
-        vasilij_shujskij "Да не поймать! Я даром лгать не стану."
-
-        vasilij_shujskij "Я хоронил царевича; я знаю,"
-
-        vasilij_shujskij "Кто жив, кто нет; один я правду знаю..."
-
-        vasilij_shujskij "Им ложь нужна, а я почет люблю."
-
-        vasilij_shujskij "Я подожду, куда мне торопиться;"
-
-        vasilij_shujskij "Придет пора, и правда пригодится."
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "Опомнись, брат! Мы на волос от смерти."
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Уж лучше смерть; позор еще тяжеле!"
-
-        vasilij_shujskij "Не сладко жить без чести, быть холопом"
-
-        vasilij_shujskij "Басманова и Бельского с Масальским!"
-
-        vasilij_shujskij "А говорят: \"Спесивый Дмитрий Шуйский!\""
-
-        vasilij_shujskij "Ну где же спесь твоя! Лишь в том, что кверху"
-
-        vasilij_shujskij "Ты бороду дерешь, да слова толком"
-
-        vasilij_shujskij "Не вымолвишь, ворчишь, как кот запечный!"
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "Да не до жиру, брат, а быть бы живу!"
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Не Шуйский ты! Наш род в последних не был;"
-
-        vasilij_shujskij "Немало нас погибло смертной казнью;"
-
-        vasilij_shujskij "Мы шли на смерть, а чести не теряли."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Благовест. Василий Шуйский крестится, берет шапку и трость.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Ко всенощной! Помолимся усердно"
-
-        vasilij_shujskij "Пред Господом о крепости и силе"
-
-        vasilij_shujskij "В борьбе с врагом. Для нас теперь, Димитрий,"
-
-        vasilij_shujskij "Нет выбора другого: или плаха,"
-
-        vasilij_shujskij "Иль золотая шапка Мономаха!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Уходят.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-    label Act_2_Scene_3:
-        "{b}СЦЕНА ВТОРАЯ{/b}"
-
-        label Characters_2:
-            play music "audio/music/1.mp3" fadeout 1.0 fadein 1.0
-
-            scene 7 with fade
-
-            "{b}(СЦЕНА ВТОРАЯ) ЛИЦА:{/b}"
-
-            show dmitrij at truecenter
-            "Дмитрий Иванович, самозванец."
-            hide dmitrij
-
-            show mstislavskij at truecenter
-            "Мстиславский, князь Федор Иванович."
-            hide mstislavskij
-
-            show vasilij_shujskij at truecenter
-            "Шуйский, князь Василий Иванович."
-            hide vasilij_shujskij
-
-            show vasilij_shujskij at truecenter
-            "Шуйский, князь Дмитрий Иванович."
-            hide vasilij_shujskij
-
-            show golitsyn at truecenter
-            "Голицын, князь Василий Васильевич."
-            hide golitsyn
-
-            show vorotynskij at truecenter
-            "Воротынский, князь Иван Михайлович."
-            hide vorotynskij
-
-            show kurakin at truecenter
-            "Куракин, князь Иван Семенович."
-            hide kurakin
-
-            show masalskij at truecenter
-            "Рубец-Mасальский, князь Василий Михайлович,"
-            hide masalskij
-
-            show basmanov at truecenter
-            "Басманов, Петр Федорович."
-            hide basmanov
-
-            show belskij at truecenter
-            "Бельский, Богдан Яковлевич."
-            hide belskij
-
-            show buchinskij at truecenter
-            "Ян Бучинский, секретарь Дмитрия."
-            hide buchinskij
-
-            show marzheret at truecenter
-            "Яков Маржерет, капитан немецкой роты."
-            hide marzheret
-
-            show korela at truecenter
-            "Корела, донской атаман."
-            hide korela
-
-            show kutska at truecenter
-            "Куцька, запорожский атаман."
-            hide kutska
-
-            show iezuit at truecenter
-            "Савицкий, иезуит."
-            hide iezuit
-
-            show konev at truecenter
-            "Конёв."
-            hide konev
-
-            show kalachnik at truecenter
-            "Калачник."
-            hide kalachnik
-
-            show desjatskie at truecenter
-            "Десятские, венгры, поляки, запорожцы, казаки, татары, немцы, польские латники, бояре, дворяне, купцы, стрельцы и всякий народ обоего пола."
-            hide desjatskie
-
-        "<{i}Кремль.{/i}>"
-
-        "<{i}(20 июня 1605 года){/i}>"
-
-        show ves_narod_1_2 at left
-        show kalachnik at truecenter
-        show konev at right
-
-        show ves_narod_1_2 at left
-        show kalachnik at truecenter
-        show konev at right
-
-        "<{i}Налево дворец, направо Архангельский собор; у Красного крыльца Маржерет и немецкая стража; от крыльца до собора стрельцы и польские латники. Вся площадь и здания покрыты народом; впереди, между народом, Конёв и калачник. Колокольный звон и музыка.{/i}>"
-
-        hide marzheret
-        hide strelets
-        hide streltsy
-        hide ves_narod_1_2
-        hide kalachnik
-        hide konev
-
-        hide marzheret
-        hide strelets
-        hide streltsy
-        hide ves_narod_1_2
-        hide kalachnik
-        hide konev
-
-        show kurakin at left
-        show masalskij at truecenter
-        show belskij at right
-
-        show kurakin at left
-        show masalskij at truecenter
-        show belskij at right
-
-        "<{i}Бояре: Мстиславский, Василий и Дмитрий Шуйские, Воротынский, Голицын, Куракин, Масальский, Бельский -- выходят из Успенского собора и становятся подле крыльца. Мстиславский, в сопровождении двух бояр, идет во дворец и возвращается с хлебом и солью.{/i}>"
-
-        hide mstislavskij
-        hide dmitrij_shujskij
-        hide vorotynskij
-        hide golitsyn
-        hide kurakin
-        hide masalskij
-        hide belskij
-
-        hide mstislavskij
-        hide dmitrij_shujskij
-        hide vorotynskij
-        hide golitsyn
-        hide kurakin
-        hide masalskij
-        hide belskij
-
-        "<{i}На ступенях крыльца Савицкий.{/i}>"
-
-        show golosa_v_narode at truecenter
-
-        $ golosa_v_narode_var = "{noalt}Голоса в народе"
-
-        golosa_v_narode "К Архангелу, к родителям пошел!"
-
-        hide golosa_v_narode
-
-        show pervyj_golos_iz_naroda at truecenter
-
-        $ pervyj_golos_iz_naroda_var = "{noalt}1-й голос из народа"
-
-        pervyj_golos_iz_naroda "Какой народ за ним! Все в разном платье."
-
-        hide pervyj_golos_iz_naroda
-
-        show vtoroj_golos_iz_naroda at truecenter
-
-        $ vtoroj_golos_iz_naroda_var = "{noalt}2-й голос из народа"
-
-        vtoroj_golos_iz_naroda "Известно кто: черкасы, угры, ляхи."
-
-        hide vtoroj_golos_iz_naroda
-
-        show pervyj_golos_iz_naroda at truecenter
-
-        $ pervyj_golos_iz_naroda_var = "{noalt}1-й голос из народа"
-
-        pervyj_golos_iz_naroda "Крещеные?"
-
-        hide pervyj_golos_iz_naroda
-
-        show vtoroj_golos_iz_naroda at truecenter
-
-        $ vtoroj_golos_iz_naroda_var = "{noalt}2-й голос из народа"
-
-        vtoroj_golos_iz_naroda "{space=200}А кто их знает!"
-
-        hide vtoroj_golos_iz_naroda
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}Бесы."
-
-        hide konev
-
-        show pervyj_golos_iz_naroda at truecenter
-
-        $ pervyj_golos_iz_naroda_var = "{noalt}1-й голос из народа"
-
-        pervyj_golos_iz_naroda "Ну, полно ты! Бесов сейчас узнаешь."
-
-        hide pervyj_golos_iz_naroda
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Отведены глаза, на нас мечтанье"
-
-        konev "Напущено."
-
-        hide konev
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}А ты узнаешь беса?"
-
-        kalachnik "Так вон гляди! как есть в своем наряде."
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(Показывает на Савицкого.){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show pervyj_golos_iz_naroda at truecenter
-
-        $ pervyj_golos_iz_naroda_var = "{noalt}1-й голос из народа"
-
-        pervyj_golos_iz_naroda "И то ведь бес. Глядите-ка, робята!"
-
-        hide pervyj_golos_iz_naroda
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "Мы прокляты, живем без благодати,"
-
-        konev "И волен бес над нами: патриархом"
-
-        konev "Мы отданы ему во власть; он кажет"
-
-        konev "Что хочет нам, а мы глядим и верим."
-
-        hide konev
-
-        show pervyj_golos_iz_naroda at truecenter
-
-        $ pervyj_golos_iz_naroda_var = "{noalt}1-й голос из народа"
-
-        pervyj_golos_iz_naroda "Да вправду ли?"
-
-        hide pervyj_golos_iz_naroda
-
-        show konev at truecenter
-
-        $ konev_var = "{noalt}Конёв"
-
-        konev "{space=400}Молчи да слушай, глупый!"
-
-        hide konev
-
-        show konev at left
-        show basmanov at right
-
-        hide konev
-
-        show konev at left
-        show basmanov at right
-
-        konev "<{i}Басманов выходит из Архангельского собора.{/i}>"
-
-        hide basmanov
-
-        show konev at truecenter
-
-        hide basmanov
-
-        show konev at truecenter
-
-        hide konev
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Десятские и сотские, смотрите,"
-
-        basmanov "Чтоб тесноты от множества народа"
-
-        basmanov "Не сталося, да накрепко блюдите,"
-
-        basmanov "Чтоб пустотных речей не говорили."
-
-        basmanov "А буде кто лишь только заикнется"
-
-        basmanov "О вымысле нелепом Годунова"
-
-        basmanov "И патриарха, взять его скорее"
-
-        basmanov "За приставы, потом ко мне привесть."
-
-        hide basmanov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Боярин наш Петр Федорыч, сироты"
-
-        kalachnik "Мы бедные, дозволь взглянуть поближе"
-
-        kalachnik "Нa батюшку, на наше солнце красно."
-
-        hide kalachnik
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Ты кто таков?"
-
-        hide basmanov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Калачник, государь."
-
-        hide kalachnik
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Почем меня ты знаешь?"
-
-        hide basmanov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Как, боярин,"
-
-        kalachnik "Не знать тебя? Кто всех бояр храбрее?"
-
-        kalachnik "Кто всех умней? Петр Федорыч Басманов."
-
-        hide kalachnik
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Ты с виду прост, а не дурак, я вижу."
-
-        basmanov "Ну, рад ли ты, калачник, государю?"
-
-        hide basmanov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Уж так-то рад, что и сказать нельзя;"
-
-        kalachnik "Пригожих слов, по глупости, не знаю."
-
-        hide kalachnik
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(десятскому){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Пустить его поближе."
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Отходит.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(десятскому){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "{space=400}Я, робята,"
-
-        kalachnik "Вам помогать."
-
-        hide kalachnik
-
-        show desjatskij_1_2 at truecenter
-
-        $ desjatskij_1_2_var = "{noalt}Десятский"
-
-        desjatskij_1_2 "{space=400}Ну ладно, встань вот здеся,"
-
-        desjatskij_1_2 "Поталкивай, осаживай назад!"
-
-        hide desjatskij_1_2
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        hide mstislavskij
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show mstislavskij at truecenter
-
-        mstislavskij "<{i}(на крыльце){/i}>"
-
-        show mstislavskij at truecenter
-
-        show mstislavskij at truecenter
-
-        mstislavskij "Веселый день, играет солнце красно"
-
-        mstislavskij "На золоте крестов церквей соборных."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Пора взыграть и солнышку над нами!"
-
-        golitsyn "В час утренний, с высоких сих ступеней,"
-
-        golitsyn "При ярком блеске солнца над Москвой,"
-
-        golitsyn "Прошедшее каким-то сном тяжелым,"
-
-        golitsyn "Мучительным, минувшим невозвратно,"
-
-        golitsyn "Мне кажется. Великие потомки"
-
-        golitsyn "Князей удельных и бояр исконных,"
-
-        golitsyn "Мы не жили, мы только трепетали:"
-
-        golitsyn "Не сон ли то, что царь Иван нарочно,"
-
-        golitsyn "По выбору, губил мужей совета"
-
-        golitsyn "И воевод, бестрепетных во бранях?"
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "Ему царей татарских покоряют"
-
-        kurakin "И городы немецкие берут,"
-
-        kurakin "От крымских орд Москву оберегают,"
-
-        kurakin "А он, едва опомнившись от страха,"
-
-        kurakin "На сковродах железных воевод"
-
-        kurakin "Огнем палит и угли подгребает!"
-
-        hide kurakin
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "Напомнил ты родителя кончину,"
-
-        vorotynskij "Победоносца князя Михаила"
-
-        vorotynskij "Иваныча, спасителя России,"
-
-        vorotynskij "И опечалил сыну ясный день."
-
-        hide vorotynskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "А легче ль нам от Годунова было?"
-
-        belskij "Ты то скажи, Ивана-то оставь."
-
-        hide belskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Терпели мы владык своих законных"
-
-        golitsyn "Столетний гнев, потомков Мономаха,"
-
-        golitsyn "А выходцев ордынских с корнем вон."
-
-        hide golitsyn
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Ох, речи смелы!"
-
-        hide belskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Время таково."
-
-        golitsyn "Ты не привык; ну, ничего, привыкнешь."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "К мучительству труднее привыкать,"
-
-        kurakin "А к воле легче."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Да, настало время"
-
-        golitsyn "Вздохнуть и нам. Димитрий, Богом данный,"
-
-        golitsyn "Видал иные царства и уставы,"
-
-        golitsyn "Иную жизнь боярства и царей;"
-
-        golitsyn "Оставит он татарские порядки;"
-
-        golitsyn "Народу льготы, нам, боярам, вольность"
-
-        golitsyn "Пожалует; вкруг трона соберет"
-
-        golitsyn "Блистательный совет вельмож свободных,"
-
-        golitsyn "А не рабов, трепещущих и льстивых,"
-
-        golitsyn "Иль бражников опричнины кровавой,"
-
-        golitsyn "На всех концах России проклятой."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Веселый день!"
-
-        hide mstislavskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}И царь у нас веселый:"
-
-        vasilij_shujskij "Сам молится, а музыка играй!"
-
-        vasilij_shujskij "Повеселить отцов и дедов хочет."
-
-        vasilij_shujskij "Давно они в тиши гробниц смиренно,"
-
-        vasilij_shujskij "Под пение молебное, под дымом"
-
-        vasilij_shujskij "Кадильных ароматов, почивают"
-
-        vasilij_shujskij "И музыки доселе не слыхали..."
-
-        vasilij_shujskij "Прими, Господь, и упокой их души,"
-
-        vasilij_shujskij "Князей великих, сродников моих,"
-
-        vasilij_shujskij "Царей, цариц и чад их благоверных,"
-
-        vasilij_shujskij "Скончавшихся и здесь похороненных,"
-
-        vasilij_shujskij "Царя Ивана, Федора-царя!"
-
-        hide vasilij_shujskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Неладно, князь Василий, княж Иваныч!"
-
-        mstislavskij "Ты знаешь сам, в день радости царевой"
-
-        mstislavskij "Речей и лиц печальных не бывает;"
-
-        mstislavskij "Все веселы."
-
-        hide mstislavskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Промолвился оплошкой."
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "В церквах поют заздравные молебны,"
-
-        belskij "А он оплошкой панихиду начал."
-
-        hide belskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "О здравии молись! За упокой-то"
-
-        basmanov "Ты сродников своих помянешь после."
-
-        hide basmanov
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Ты подожди родительской субботы."
-
-        hide masalskij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "Обмолвился, не всяко лыко в строку"
-
-        hide dmitrij_shujskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Царя Ивана рано позабыли:"
-
-        belskij "Оплошек не было; за них он на кол"
-
-        belskij "Сажал, бывало."
-
-        hide belskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Нет, Иван-то только"
-
-        vasilij_shujskij "Приказывал, сажал-то ты с Малютой"
-
-        vasilij_shujskij "Скуратовым."
-
-        hide vasilij_shujskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Молчать бы нам, бояре,"
-
-        mstislavskij "Пригожее."
-
-        hide mstislavskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Я замолчу, я смирен."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Не бойся злой собаки, бойся смирной."
-
-        hide basmanov
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        hide kurakin
-
-        show kurakin at left
-        show golitsyn at right
-
-        hide kurakin
-
-        show kurakin at left
-        show golitsyn at right
-
-        kurakin "<{i}(тихо Голицыну){/i}>"
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        kurakin "А Бельский все Ивана вспоминает;"
-
-        kurakin "Кому что мило, тот про то и грезит."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "У них в крови с Басмановым холопство;"
-
-        golitsyn "По их уму: не хам -- так не слуга."
-
-        hide golitsyn
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        hide masalskij
-
-        show masalskij at left
-        show basmanov at right
-
-        hide masalskij
-
-        show masalskij at left
-        show basmanov at right
-
-        masalskij "<{i}(тихо Басманову){/i}>"
-
-        hide basmanov
-
-        show masalskij at truecenter
-
-        hide basmanov
-
-        show masalskij at truecenter
-
-        masalskij "А Шуйский все родней своей кичится."
-
-        hide masalskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Как ни кичись, родней родного сына"
-
-        basmanov "Не сделаться."
-
-        hide basmanov
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at left
-        show vasilij_shujskij at right
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at left
-        show vasilij_shujskij at right
-
-        dmitrij_shujskij "<{i}(тихо Василию Шуйскому){/i}>"
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        dmitrij_shujskij "{space=400}Голицыным все воли"
-
-        dmitrij_shujskij "Недостает."
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}По Курбскому пошли;"
-
-        vasilij_shujskij "Литва мила, завидно панам-раде!"
-
-        hide vasilij_shujskij
-
-        show desjatskie at truecenter
-
-        $ desjatskie_var = "{noalt}Десятские"
-
-        hide desjatskie
-
-        show desjatskie at truecenter
-
-        hide desjatskie
-
-        show desjatskie at truecenter
-
-        desjatskie "<{i}(у собора){/i}>"
-
-        show desjatskie at truecenter
-
-        show desjatskie at truecenter
-
-        desjatskie "Идет, идет! -- Давай дорогу шире! --"
-
-        desjatskie "Проваливай!"
-
-        hide desjatskie
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Да ты лупи их крепче!"
-
-        kalachnik "Затылок наш к побоям притерпелся."
-
-        kalachnik "Ты православной шеи не жалей!"
-
-        hide kalachnik
-
-        show poljaki at left
-        show korela at truecenter
-        show kutska at right
-
-        hide kalachnik
-
-        show poljaki at left
-        show korela at truecenter
-        show kutska at right
-
-        kalachnik "<{i}Дмитрий выходит из собора, за ним бояре и дворяне, Бучинский, поляки, венгры, запорожские и донские атаманы Корела и Куцька. Звон и музыка.{/i}>"
-
-        hide dmitrij
-        hide buchinskij
-        hide poljaki
-        hide korela
-        hide kutska
-
-        show kalachnik at truecenter
-
-        hide dmitrij
-        hide buchinskij
-        hide poljaki
-        hide korela
-        hide kutska
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show ves_narod_1_2 at truecenter
-
-        $ ves_narod_1_2_var = "{noalt}Весь народ"
-
-        ves_narod_1_2 "Отец ты наш! ты наше солнце красно!"
-
-        hide ves_narod_1_2
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Пресветлый царь и князь великий Дмитрий"
-
-        mstislavskij "Иванович!"
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show dmitrij at truecenter
-        show marzheret at right
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show dmitrij at truecenter
-        show marzheret at right
-
-        mstislavskij "<{i}Дмитрий останавливается пред Маржеретом.{/i}>"
-
-        hide dmitrij
-        hide marzheret
-
-        show mstislavskij at truecenter
-
-        hide dmitrij
-        hide marzheret
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Не торопись, поспеешь!"
-
-        vasilij_shujskij "Боярам честь потом, а немцам прежде."
-
-        vasilij_shujskij "Дай с немцами ему наговориться."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ну, Маржерет, мой храбрый капитан!"
-
-        dmitrij "Вы -- молодцы, вы бьетесь лучше русских."
-
-        dmitrij "Ты -- мой слуга! Я знаю, ты не станешь"
-
-        dmitrij "Жалеть врагов моих; а так же больно"
-
-        dmitrij "Побьешь и их, как нас тогда побили"
-
-        dmitrij "В Добрыничах. Ты что на это скажешь?"
-
-        hide dmitrij
-
-        show marzheret at truecenter
-
-        $ marzheret_var = "{noalt}Маржерет"
-
-        marzheret "{a=myshow|tooltip|text=Ваше величество! (франц.)}Votre majesté!{/a} Доколе капля крови"
-
-        marzheret "Французская останется во мне,"
-
-        marzheret "Я ваш слуга; я только жажду часу,"
-
-        marzheret "Чтоб показать пред вашими глазами"
-
-        marzheret "И преданность французскую и храбрость,"
-
-        marzheret "И умереть пред вашим MajestИ!"
-
-        hide marzheret
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Добрынской битвы долго не забудешь!"
-
-        dmitrij "Побили нас! О боже, як побили!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Обращаясь к Куцьке.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Надейся вот на этих атаманов;"
-
-        dmitrij "Вы, лыцарство, всех прежде утекли."
-
-        hide dmitrij
-
-        show kutska at truecenter
-
-        $ kutska_var = "{noalt}Куцька"
-
-        kutska "Да дуже ж бьются нимци, вражи диты."
-
-        hide kutska
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Вперед бегут, как дурни, запорожцы;"
-
-        dmitrij "За ними вслед донские казаки."
-
-        hide dmitrij
-
-        show korela at truecenter
-
-        $ korela_var = "{noalt}Корела"
-
-        korela "И побежишь! Крещеные мы люди,"
-
-        korela "А немцам что... им черти помогают."
-
-        hide korela
-
-        show kutska at truecenter
-
-        $ kutska_var = "{noalt}Куцька"
-
-        kutska "Ось так! Ось так! Корела правду каже,"
-
-        kutska "Як бы не бис, мы б, мабуть, не втекли."
-
-        hide kutska
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marzheret at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marzheret at right
-
-        dmitrij "<{i}(Маржерету){/i}>"
-
-        hide marzheret
-
-        show dmitrij at truecenter
-
-        hide marzheret
-
-        show dmitrij at truecenter
-
-        dmitrij "Придет пора, тогда тебя я вспомню;"
-
-        dmitrij "Я здесь, в Москве -- среди своих детей,"
-
-        dmitrij "И мне не нужно иноземной стражи."
-
-        dmitrij "А вот начнем войну с султаном турским,"
-
-        dmitrij "Тогда пойдем, мой храбрый Маржерет,"
-
-        dmitrij "Зубритъ мечи и бердыши стальные"
-
-        dmitrij "О бритые затылки бесермен."
-
-        dmitrij "Мне хочется померяться с тобою;"
-
-        dmitrij "Ты храбр, а я завистлив; ты, я знаю,"
-
-        dmitrij "Доволен будешь мной, {a=myshow|tooltip|text=клянусь богом! (польск.)}jak boga kocham!{/a}"
-
-        hide dmitrij
-
-        show marzheret at truecenter
-
-        $ marzheret_var = "{noalt}Маржерет"
-
-        marzheret "{a=myshow|tooltip|text=Да здравствует император! (франц.)}Vive l'empereur!{/a}"
-
-        hide marzheret
-
-        show marzheret at truecenter
-
-        hide marzheret
-
-        show marzheret at truecenter
-
-        marzheret "<{i}(Солдатам.){/i}>"
-
-        show marzheret at truecenter
-
-        show marzheret at truecenter
-
-        marzheret "{space=400}{a=myshow|tooltip|text=Кричите: \"Да здравствует император!\" (нем.)}Ruft: \"Hoch! vivat der Kaiser!\"{/a}"
-
-        hide marzheret
-
-        show nemtsy at truecenter
-
-        $ nemtsy_var = "{noalt}Немцы"
-
-        nemtsy "Vivat! hoch! hoch!"
-
-        hide nemtsy
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Заохали, собаки."
-
-        play sound1 female_laughter
-
-        hide kalachnik
-
-        show kalachnik at left
-        show ves_narod_1_2 at right
-
-        play sound1 female_laughter
-
-        hide kalachnik
-
-        show kalachnik at left
-        show ves_narod_1_2 at right
-
-        kalachnik "<{i}В народе смех.{/i}>"
-
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        stop sound1
-
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        stop sound1
-
-        hide kalachnik
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Пресветлый царь и князь великий, Дмитрий"
-
-        mstislavskij "Иванович, всея Руссии, Божьим"
-
-        mstislavskij "Произволеньем чудно сохраненный"
-
-        mstislavskij "И покровенный крепкою десницей"
-
-        mstislavskij "Наш государь и самодержец, ныне"
-
-        mstislavskij "Пожалуй нас, вступи в свои хоромы"
-
-        mstislavskij "И на отеческом престоле сядь!"
-
-        hide mstislavskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Мне Бог вручил московскую державу"
-
-        dmitrij "И возвратил родительский престол."
-
-        dmitrij "От юных лет невидимою силой"
-
-        dmitrij "Я сохранен для царского венца."
-
-        dmitrij "Изгнанником безвестным я покинул"
-
-        dmitrij "Родной земли пределы -- возвращаюсь"
-
-        dmitrij "Непобедимым цесарем, карая"
-
-        dmitrij "Врагов своих и милуя покорных."
-
-        dmitrij "И радостно вступаю в отчий дом"
-
-        dmitrij "Творить и суд и милость. Вам, бояре,"
-
-        dmitrij "Мы скажем завтра жалованье наше."
-
-        dmitrij "Сегодня пир; гостей иноплеменных"
-
-        dmitrij "Мы удивим московским хлебосольством."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show ves_narod_1_2 at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show ves_narod_1_2 at right
-
-        dmitrij "<{i}(К народу.){/i}>"
-
-        hide ves_narod_1_2
-
-        show dmitrij at truecenter
-
-        hide ves_narod_1_2
-
-        show dmitrij at truecenter
-
-        dmitrij "По площадям велю вина поставить --"
-
-        dmitrij "Гуляйте все с утра до поздней ночи"
-
-        dmitrij "На радости о нашем возвращенье."
-
-        hide dmitrij
-
-        show ves_narod_1_2 at truecenter
-
-        $ ves_narod_1_2_var = "{noalt}Народ"
-
-        ves_narod_1_2 "Храни тебя Господь на многи лета"
-
-        ves_narod_1_2 "И одоленье даруй над врагом!"
-
-        hide ves_narod_1_2
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Великий царь, дозволь ты мне, холопу,"
-
-        belskij "Усердие явить перед тобою!"
-
-        belskij "Мы, государь, с Барановым, с Масальским"
-
-        belskij "Хотим скакать к народу -- благо, много"
-
-        belskij "Сошлось его с окольных деревень --"
-
-        belskij "И с лобного поклясться всенародно"
-
-        hide belskij
-
-        show belskij at truecenter
-
-        hide belskij
-
-        show belskij at truecenter
-
-        belskij "<{i}(срывая с шеи крест),{/i}>"
-
-        show belskij at truecenter
-
-        show belskij at truecenter
-
-        belskij "Целуя сей животворящий крест,"
-
-        belskij "Что ты наш подлинный царевич Дмитрий,"
-
-        belskij "Почившего царя Ивана сын."
-
-        hide belskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Зачем скакать и всенародно клясться!"
-
-        dmitrij "Народ меня не позабыл и любит."
-
-        dmitrij "Ты видел сам сегодняшнюю встречу,"
-
-        dmitrij "И моего приказу нет тебе."
-
-        dmitrij "Но если ты усердствовать желаешь,"
-
-        dmitrij "Благодарю, я воли не снимаю."
-
-        dmitrij "Скачи к народу, говори, что знаешь..."
-
-        dmitrij "Идем наверх!"
-
-        hide dmitrij
-
-        show iezuit at truecenter
-
-        $ iezuit_var = "{noalt}Иезуит"
-
-        iezuit "{space=400}{a=myshow|tooltip|text=Тебя, бога, хвалим! (лат.)}Те Deum laudamus!{/a}"
-
-        hide iezuit
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "За нами, {a=myshow|tooltip|text=отец! (лат.)}pater!{/a}"
-
-        hide dmitrij
-
-        show kurakin at left
-        show vasilij_shujskij at truecenter
-        show belskij at right
-
-        hide dmitrij
-
-        show kurakin at left
-        show vasilij_shujskij at truecenter
-        show belskij at right
-
-        dmitrij "<{i}Уходит во дворец, за ним Мстиславский, Голицын, Дмитрий Шуйский,. Воротынский, Куракин и другие: Василий Шуйский останавливается на слова Бельского.{/i}>"
-
-        hide mstislavskij
-        hide golitsyn
-        hide dmitrij_shujskij
-        hide vorotynskij
-        hide kurakin
-        hide vasilij_shujskij
-        hide belskij
-
-        show dmitrij at truecenter
-
-        hide mstislavskij
-        hide golitsyn
-        hide dmitrij_shujskij
-        hide vorotynskij
-        hide kurakin
-        hide vasilij_shujskij
-        hide belskij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        hide belskij
-
-        show belskij at left
-        show basmanov at right
-
-        hide belskij
-
-        show belskij at left
-        show basmanov at right
-
-        belskij "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show belskij at truecenter
-
-        hide basmanov
-
-        show belskij at truecenter
-
-        belskij "{space=200}Едем!"
-
-        hide belskij
-
-        show belskij at left
-        show vasilij_shujskij at right
-
-        hide belskij
-
-        show belskij at left
-        show vasilij_shujskij at right
-
-        belskij "<{i}(Шуйскому.){/i}>"
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        belskij "{space=400}Князь Василий!"
-
-        belskij "За нами, что ль? Оно бы не мешало"
-
-        belskij "Поправить грех, покаяться народу."
-
-        hide belskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Не ты б молол, не я бы это слушал!"
-
-        vasilij_shujskij "Тебе учить меня не довелось."
-
-        vasilij_shujskij "Я стар, Богдан, да на подъем не легок."
-
-        vasilij_shujskij "Басманов и Масальский помоложе,"
-
-        vasilij_shujskij "И молода боярская их честь."
-
-        vasilij_shujskij "Ну, пусть они и скачут вперегонку"
-
-        vasilij_shujskij "С черкасами и польскими панами;"
-
-        vasilij_shujskij "А мне с Мстиславским в царские хоромы --"
-
-        vasilij_shujskij "Хозяина встречать."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Остальным боярам.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "{space=400}Идем, бояре!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Уходят.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Петр Федорыч, ты -- ближний государю,"
-
-        belskij "Ужли стерпеть обиду от Василья?"
-
-        hide belskij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Не выдай нас! Тебе стерпеть обиду,"
-
-        masalskij "Так нам житья от Шуйских не видать."
-
-        hide masalskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Нет, я не дам себя обидеть даром,"
-
-        basmanov "Не дам себе дорогу перейти."
-
-        basmanov "Я поклялся царю и государю"
-
-        basmanov "Беречь его и выводить измену;"
-
-        basmanov "Изменников найду я в думе царской"
-
-        basmanov "И выведу царю измену их."
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}Подходит десятский.{/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Чего тебе? Что надо?"
-
-        hide basmanov
-
-        show desjatskij_1_2 at truecenter
-
-        $ desjatskij_1_2_var = "{noalt}Десятский"
-
-        desjatskij_1_2 "{space=400}Мы, боярин"
-
-        desjatskij_1_2 "Петр Федорыч, купчину изымали:"
-
-        desjatskij_1_2 "Мутил народ и пустотные вести"
-
-        desjatskij_1_2 "Рассказывал о старом патриархе."
-
-        hide desjatskij_1_2
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Кто он такой?"
-
-        hide basmanov
-
-        show desjatskij_1_2 at truecenter
-
-        $ desjatskij_1_2_var = "{noalt}Десятский"
-
-        desjatskij_1_2 "{space=400}Прозванием -- Конёв."
-
-        hide desjatskij_1_2
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Хоть побожусь, что он подослан Шуйским."
-
-        basmanov "Ко мне его, а вечером к допросу."
-
-        basmanov "Поедемте!"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Полякам.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "{space=400}Поедемте, паны!"
-
-        hide basmanov
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{a=myshow|tooltip|text=Слуга (от польск. pacholek)}Пахолик{/a}, коня!"
-
-        hide buchinskij
-
-        show zaporozhtsy at truecenter
-
-        $ zaporozhtsy_var = "{noalt}Запорожцы"
-
-        zaporozhtsy "{space=400}Хлопци! Коней живо!"
-
-        hide zaporozhtsy
-
-        show zaporozhtsy at truecenter
-
-        hide zaporozhtsy
-
-        show zaporozhtsy at truecenter
-
-        zaporozhtsy "<{i}Уходят.{/i}>"
-
-        show zaporozhtsy at truecenter
-
-        show zaporozhtsy at truecenter
-
-        hide zaporozhtsy
-
-    label Act_2_Scene_5:
-        "{b}СЦЕНА ТРЕТЬЯ{/b}"
-
-        label Characters_3:
-            play music "audio/music/22.mp3" fadeout 1.0 fadein 1.0
-
-            scene 5 with fade
-
-            "{b}(СЦЕНА ТРЕТЬЯ) ЛИЦА:{/b}"
-
-            show dmitrij at truecenter
-            "Дмитрий Иванович, самозванец."
-            hide dmitrij
-
-            show basmanov at truecenter
-            "Басманов, Петр Федорович."
-            hide basmanov
-
-            show iezuit at truecenter
-            "Савицкий, иезуит."
-            hide iezuit
-
-            show buchinskij at truecenter
-            "Ян Бучинский. секретарь Дмитрия."
-            hide buchinskij
-
-        "<{i}Золотая палата.{/i}>"
-
-        "<{i}(21 июня 1605 года){/i}>"
-
-        show dmitrij at left
-        show basmanov at right
-
-        show dmitrij at left
-        show basmanov at right
-
-        "<{i}Дмитрий и Басманов входят.{/i}>"
-
-        hide dmitrij
-        hide basmanov
-
-        hide dmitrij
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Так вот она -- палата крепкой власти"
-
-        dmitrij "И грозных дум, святой и неприступный"
-
-        dmitrij "Приют царей!.. По золотому полю"
-
-        dmitrij "Тяжелое и строгое письмо..."
-
-        dmitrij "Так прочно все, такое вековое!"
-
-        dmitrij "Вот старый трон; на нем мой брат Феодор"
-
-        dmitrij "Сидел в мечтах о житии небесном,"
-
-        dmitrij "О царственных заботах не радея."
-
-        dmitrij "Отец Иван для буйств своих татарских"
-
-        dmitrij "Святую тишь палаты покидал"
-
-        dmitrij "И в слободе кромешной запирался;"
-
-        dmitrij "А здесь сидел, посаженный для смеха,"
-
-        dmitrij "Крещеный царь татарский, богомольный,"
-
-        dmitrij "Судил народ и жил благочестиво..."
-
-        dmitrij "Где он теперь?"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Про князя Симеона"
-
-        basmanov "Ты спрашивать изволишь? Годуновым"
-
-        basmanov "Он сослан был: Борис его боялся."
-
-        basmanov "Он в вотчине, в Кушалине селе;"
-
-        basmanov "Слепой старик, едва волочит ноги."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(с усмешкой){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Великий князь и царь всея России --"
-
-        dmitrij "В изгнании! Гонцов к нему отправить,"
-
-        dmitrij "Привезть опять в Москву с большим почетом"
-
-        dmitrij "И величать по-прежнему царем."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Но, государь..."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Басманов! Мне ль бояться"
-
-        dmitrij "Татарина! Я не Борис. Я милость"
-
-        dmitrij "Дарую всем опальным годуновским!"
-
-        dmitrij "Довольно мук, Басманов! Ныне милость,"
-
-        dmitrij "Одна лишь милость царствует над вами."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Ты милостью себя навек прославишь,"
-
-        basmanov "Но без грозы ты царством не управишь."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не диво мне такие речи! Править"
-
-        dmitrij "Вы знаете одно лишь средство -- страх!"
-
-        dmitrij "Везде, во всем вы властвуете страхом:"
-
-        dmitrij "Вы жен своих любить вас приучали"
-
-        dmitrij "Побоями и страхом; ваши дети"
-
-        dmitrij "От страха глаз поднять на вас не смеют;"
-
-        dmitrij "От страха пахарь пашет ваше поле;"
-
-        dmitrij "Идет от страха воин на войну;"
-
-        dmitrij "Ведет его под страхом воевода;"
-
-        dmitrij "Со страхом ваш посол посольство правит;"
-
-        dmitrij "От страха вы молчите в думе царской!"
-
-        dmitrij "Отцы мои и деды, государи,"
-
-        dmitrij "В орде татарской, за широкой Волгой,"
-
-        dmitrij "По ханским ставкам страха набирались"
-
-        dmitrij "И страхом править у татар учились."
-
-        dmitrij "Другое средство лучше и надежней --"
-
-        dmitrij "Щедротами и милостью царить."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Великий царь, являй свои щедроты"
-
-        basmanov "И милости несчетные; но, ради"
-
-        basmanov "Сирот твоих, для нашего спокоя,"
-
-        basmanov "Жалей свою венчанную главу!"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Становится на колени.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Не дай расти и созревать измене!"
-
-        basmanov "Изменников казни!"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(быстро){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}А где измена?"
-
-        dmitrij "Изменник кто?"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Боярин твой великий,"
-
-        basmanov "Василий Шуйский. Проследил измену"
-
-        basmanov "И вывел я; она ясна как день."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не верю я. Владычество тирана"
-
-        dmitrij "Пугливого вас приучило видеть"
-
-        dmitrij "Изменников везде."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Бояр пронырство"
-
-        basmanov "Неведомо тебе, ты с нами не жил."
-
-        basmanov "Грозна была опала государей,"
-
-        basmanov "Родителей твоих и Годунова;"
-
-        basmanov "Но если б знать ты мог бояр крамольных"
-
-        basmanov "Все помыслы, ты казням бы Ивана"
-
-        basmanov "Не подивился. В самой преисподней,"
-
-        basmanov "На самом дне клокочущего ада,"
-
-        basmanov "Не выковать таких сетей, какими"
-
-        basmanov "Они тебя и Русь опутать могут."
-
-        basmanov "Великий царь, не верь своим боярам,"
-
-        basmanov "Не верь речам, улыбкам и поклонам --"
-
-        basmanov "Казни ты их направо и налево,"
-
-        basmanov "А Шуйского вперед -- он всем начало."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ужасен смысл речей твоих, Басманов!"
-
-        dmitrij "Ты холодом меня обвеял. Думал"
-
-        dmitrij "Я милостью привлечь сердца народа,"
-
-        dmitrij "А ты казнить велишь."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Я умоляю."
-
-        hide basmanov
-
-        show basmanov at left
-        show iezuit at right
-
-        hide basmanov
-
-        show basmanov at left
-        show iezuit at right
-
-        basmanov "<{i}Входит иезуит Савицкий.{/i}>"
-
-        hide iezuit
-
-        show basmanov at truecenter
-
-        hide iezuit
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        dmitrij "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        dmitrij "Я никого не осужу один"
-
-        dmitrij "И не пролью ни капли крови русской!"
-
-        dmitrij "Над Шуйским суд назначить в нашей думе"
-
-        dmitrij "Из выборных от всех чинов народа"
-
-        dmitrij "И дать ему все средства оправдаться."
-
-        dmitrij "Оставь меня! Бучинского пошли!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        dmitrij "<{i}Басманов уходит.{/i}>"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        dmitrij "Ты здесь был, pater?"
-
-        hide dmitrij
-
-        show iezuit at truecenter
-
-        $ iezuit_var = "{noalt}Иезуит"
-
-        iezuit "{space=400}Как тебе угодно:"
-
-        iezuit "Коль хочешь--здесь, не хочешь -- нет меня."
-
-        iezuit "{a=myshow|tooltip|text=непобедимейший монарх! (лат.)}Monarcha invictissime!{/a}"
-
-        hide iezuit
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Свершились"
-
-        dmitrij "Пророчества твои: престол московский"
-
-        dmitrij "Мы заняли."
-
-        hide dmitrij
-
-        show iezuit at truecenter
-
-        $ iezuit_var = "{noalt}Иезуит"
-
-        iezuit "{space=400}Что трудно человеку,"
-
-        iezuit "То Господу легко. Небесный промысл"
-
-        iezuit "Ведет тебя, путем прямым и верным,"
-
-        iezuit "К величию; да ведают народы,"
-
-        iezuit "Что твой оплот, что твой руководитель"
-
-        iezuit "Не есть иной кто, {a=myshow|tooltip|text=только Бог наш! (лат.)}nisi Deus noster!{/a}"
-
-        iezuit "Да ведаешь и ты, что избран Богом"
-
-        iezuit "Для дел великих. Ни мирская слава,"
-
-        iezuit "Ни гром побед да не прельстят тебя!"
-
-        iezuit "Святая церковь ждет побед духовных;"
-
-        iezuit "Давно умы святейших наших пап"
-
-        iezuit "Обращены на этот север дальний;"
-
-        iezuit "Давно они московских государей,"
-
-        iezuit "Схизматиков, апостольского трона"
-
-        iezuit "Чуждавшихся, к спасению зовут"
-
-        iezuit "И, {a=myshow|tooltip|text=разумеется (лат.).}scilicet{/a}, к спасенью их народов."
-
-        iezuit "И ныне наш {a=myshow|tooltip|text=римский папа (лат.)}universalis pater{/a},"
-
-        iezuit "Святейший Павел Пятый, умоляет"
-
-        iezuit "Всевышнего, да дарует он силу"
-
-        iezuit "Димитрию, второму Константину,"
-
-        iezuit "Овец заблудших дома своего"
-
-        iezuit "Привесть к стопам наместника Христова!"
-
-        hide iezuit
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(рассеянно){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Бучинского ко мне!"
-
-        hide dmitrij
-
-        show iezuit at truecenter
-
-        $ iezuit_var = "{noalt}Иезуит"
-
-        hide iezuit
-
-        show iezuit at truecenter
-
-        hide iezuit
-
-        show iezuit at truecenter
-
-        iezuit "<{i}(пожимая плечами){/i}>"
-
-        show iezuit at truecenter
-
-        show iezuit at truecenter
-
-        iezuit "{space=400}Он -- лютеранин!"
-
-        hide iezuit
-
-        show iezuit at truecenter
-
-        hide iezuit
-
-        show iezuit at truecenter
-
-        iezuit "<{i}(Уходит.){/i}>"
-
-        show iezuit at truecenter
-
-        show iezuit at truecenter
-
-        hide iezuit
-
-        show iezuit at left
-        show buchinskij at right
-
-        hide iezuit
-
-        show iezuit at left
-        show buchinskij at right
-
-        iezuit "<{i}Бучинский входит.{/i}>"
-
-        hide buchinskij
-
-        show iezuit at truecenter
-
-        hide buchinskij
-
-        show iezuit at truecenter
-
-        hide iezuit
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "На Шуйского донос; но я не верю"
-
-        dmitrij "Басманову: он ослеплен враждою"
-
-        dmitrij "И слишком предан мне. Василий Шуйский"
-
-        dmitrij "Умнее всех бояр; его осудят,"
-
-        dmitrij "Сомненья нет. И вот, Бучинский, средство"
-
-        dmitrij "Из бывшего врага мне сделать друга"
-
-        dmitrij "И лучшего слугу!"
-
-        dmitrij "{space=400}Поздравить папу"
-
-        dmitrij "Со днем вступленья на престол Петра."
-
-        dmitrij "Пиши ему учтивостей побольше!"
-
-        dmitrij "А вместо прежних наших обещаний --"
-
-        dmitrij "Вводить латинство -- мы теперь напишем,"
-
-        dmitrij "Что мы не праздны на престоле царском."
-
-        dmitrij "Что мы, для пользы и для блага церкви,"
-
-        dmitrij "Хотим начать войну с султаном турским."
-
-        dmitrij "А между тем поди скажи Игнатью,"
-
-        dmitrij "Чтоб грамоты теперь же заготовил"
-
-        dmitrij "И разослал, как будет патриархом,"
-
-        dmitrij "По городам, чтобы молебны пели"
-
-        dmitrij "За нас, царя и за царицу-мать"
-
-        dmitrij "И Господа просили, да возвысит"
-
-        dmitrij "И вознесет он царскую десницу"
-
-        dmitrij "Над бесерменством и латинством."
-
-        hide dmitrij
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{space=400}Мудрость"
-
-        buchinskij "В лице твоем воссела на престоле."
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Поди, пиши, Бучинский!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        dmitrij "<{i}Бучинский уходит.{/i}>"
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Сиротливо"
-
-        dmitrij "В душе моей! Расписанные своды"
-
-        dmitrij "Гнетут меня, и неприветно смотрят,"
-
-        dmitrij "Не родственно, таинственные лики"
-
-        dmitrij "Из темной позолоты стен угрюмых..."
-
-        dmitrij "Мне рада Русь, но ты, холодный камень,"
-
-        dmitrij "Святым письмом расписанный, ты гонишь,"
-
-        dmitrij "Ты трепетом мою обвеял душу --"
-
-        dmitrij "Я здесь чужой! Сюда без страха входят"
-
-        dmitrij "Отшельники святые только или"
-
-        dmitrij "Московские законные цари..."
-
-        dmitrij "Гляжу и жду, что с низенького трона"
-
-        dmitrij "Сухой старик, с орлиными глазами,"
-
-        dmitrij "Поднимется и взглянет грозно... грозно!"
-
-        dmitrij "И зазвучит под сводами глухими"
-
-        dmitrij "Презрительно-насмешливая речь:"
-
-        dmitrij "\"Зачем ты здесь? Столетними трудами"
-
-        dmitrij "И бранями потомство Мономаха"
-
-        dmitrij "Среди лесов Сарматии холодной"
-
-        dmitrij "Поставило и утвердило трон,"
-
-        dmitrij "Блистающий нетелеными венцами"
-
-        dmitrij "Святых князей, замученных в Орде,"
-
-        dmitrij "Окутанных одеждой херувимской"
-
-        dmitrij "Святителей и чудотворцев русских, --"
-
-        dmitrij "Гремящий трон! Кругом его подножья"
-
-        dmitrij "Толпы князей, склоненные, трепещут"
-
-        dmitrij "В молчании... Бродяга безбородый!"
-
-        dmitrij "Легко тебе, взлелеянному смутой,"
-
-        dmitrij "Внесенному бурливыми волнами"
-
-        dmitrij "Бунтующей Украйны в сердце Руси,"
-
-        dmitrij "Подъятому преступными руками"
-
-        dmitrij "Бояр крамольных, взлезть на опустелый"
-
-        dmitrij "Московский трон с казацкого седла:"
-
-        dmitrij "Вскочить легко, но усидеть попробуй!\""
-
-        dmitrij "Отец названый! Я себя не знаю,"
-
-        dmitrij "Младенчества не помню. Царским сыном"
-
-        dmitrij "Я назвался не сам; твои бояре"
-
-        dmitrij "Давно меня царевичем назвали"
-
-        dmitrij "И, с торжеством и злобным смехом, в Польшу"
-
-        dmitrij "На береженье отдали. Не сам я"
-
-        dmitrij "На Русь пошел; на смену Годунова"
-
-        dmitrij "Давно зовет меня твоя столица;"
-
-        dmitrij "Давно идет по всей России шепот,"
-
-        dmitrij "Что Дмитрий жив. Опальное боярство"
-
-        dmitrij "Из монастырских келий посылало"
-
-        dmitrij "Ко мне в Литву, окольными путями,"
-
-        dmitrij "Своих покорных, молчаливых слуг"
-
-        dmitrij "На Годунова с челобитьем. В Польше"
-
-        dmitrij "Король меня царевичем признал,"
-
-        dmitrij "Благословил меня на царство папа,"
-
-        dmitrij "Царевичем зовут меня бояре,"
-
-        dmitrij "Царевичем зовет меня народ,"
-
-        dmitrij "Усыновлен тебе я целой Русью!"
-
-        dmitrij "Не твой я сын; а разве Годуновы"
-
-        dmitrij "Наследники тебе? А разве Ромул,"
-
-        dmitrij "Пастуший сын, волчицею вздоенный,"
-
-        dmitrij "Царем рожден?"
-
-        dmitrij "{space=400}Как сон припоминаю,"
-
-        dmitrij "Что в детстве я был вспыльчив, как огонь;"
-
-        dmitrij "И здесь, в Москве, в большом дому боярском,"
-
-        dmitrij "Шептали мне, что я в отца родился,"
-
-        dmitrij "И радостно во мне играло сердце."
-
-        dmitrij "Так кто же я?.. Ну, если я не Дмитрий,"
-
-        dmitrij "То сын любви иль прихоти царевой..."
-
-        dmitrij "Я чувствую, что не простая кровь"
-
-        dmitrij "Течет во мне; войнолюбивым духом"
-
-        dmitrij "Кипит душа -- побед, корон я жажду,"
-
-        dmitrij "Мне битв кровавых нужно, нужно славы"
-
-        dmitrij "И целый свет в свидетели геройства"
-
-        dmitrij "И подвигов моих. Отец мой грозный,"
-
-        dmitrij "Пусти меня! Счастливый самозванец"
-
-        dmitrij "И царств твоих невольный похититель,"
-
-        dmitrij "Я не возьму тиранских прав твоих --"
-
-        dmitrij "Губить и мучить. Я себе оставлю"
-
-        dmitrij "Одно святое право всех владык --"
-
-        dmitrij "Прощать и миловать. Я обещаю"
-
-        dmitrij "Прославить Русь и вознести высоко,"
-
-        dmitrij "И потому теперь сажусь я смело"
-
-        dmitrij "На сей священный, грозный майестат."
-
-        hide dmitrij
-
-    label Act_2_Scene_7:
-        "{b}СЦЕНА ЧЕТВЕРТАЯ{/b}"
-
-        label Characters_4:
-            play music "audio/music/28.mp3" fadeout 1.0 fadein 1.0
-
-            scene 21 with fade
-
-            "{b}(СЦЕНА ЧЕТВЕРТАЯ) ЛИЦА:{/b}"
-
-            show dmitrij at truecenter
-            "Дмитрий, самозванец."
-            hide dmitrij
-
-            "Бояре:"
-
-            show mstislavskij at truecenter
-            "Мстиславский."
-            hide mstislavskij
-
-            show vasilij_shujskij at truecenter
-            "Василий Шуйский."
-            hide vasilij_shujskij
-
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
-
-            show vorotynskij at truecenter
-            "Воротынский."
-            hide vorotynskij
-
-            show kurakin at truecenter
-            "Куракин."
-            hide kurakin
-
-            show belskij at truecenter
-            "Бельский."
-            hide belskij
-
-            show masalskij at truecenter
-            "Масальский."
-            hide masalskij
-
-            show basmanov at truecenter
-            "Басманов."
-            hide basmanov
-
-            show skopin_shujskij at truecenter
-            "М. В. Скопин-Шуйский, великий мечник"
-            hide skopin_shujskij
-
-            show schelkalov at truecenter
-            "В. Щелкалов, дьяк."
-            hide schelkalov
-
-            "Окольничие, думные дворяне, выборные люди, рынды, стражи."
-
-        "<{i}Грановитая палата.{/i}>"
-
-        "<{i}Трон; по обе стороны трона скамьи; близ трона на столе три короны царские.{/i}>"
-
-        "<{i}(24 июня 1605 года){/i}>"
-
-        show masalskij at left
-        show belskij at truecenter
-        show schelkalov at right
-
-        show masalskij at left
-        show belskij at truecenter
-        show schelkalov at right
-
-        "<{i}Мстиславский, Воротынский, Голицын, Масальский, Бельский, окольничие, дворяне, выборные люди, дьяк Щелкалов.{/i}>"
-
-        hide mstislavskij
-        hide vorotynskij
-        hide golitsyn
-        hide masalskij
-        hide belskij
-        hide schelkalov
-
-        hide mstislavskij
-        hide vorotynskij
-        hide golitsyn
-        hide masalskij
-        hide belskij
-        hide schelkalov
-
-        show dmitrij at left
-        show skopin_shujskij at truecenter
-        show basmanov at right
-
-        show dmitrij at left
-        show skopin_shujskij at truecenter
-        show basmanov at right
-
-        "<{i}Входит Дмитрий, впереди его рынды и Скопин-Шуйский с мечом, за ним Басманов.{/i}>"
-
-        hide dmitrij
-        hide skopin_shujskij
-        hide basmanov
-
-        hide dmitrij
-        hide skopin_shujskij
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(перед коронами){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Короны царств моих! Еще корону"
-
-        dmitrij "Желал бы я прибавить к этим трем --"
-
-        dmitrij "Корону Крыма. Если ж наше счастье"
-
-        dmitrij "Послужит нам, то, с помощию Польши"
-
-        dmitrij "И императора, врагов Христовых"
-
-        dmitrij "Мы выгоним из царства Константина;"
-
-        dmitrij "И завоюют вере христианской"
-
-        dmitrij "Иван -- Казань, а Дмитрий -- Византию."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Садится на трон.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at truecenter
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at truecenter
-        show basmanov at right
-
-        dmitrij "<{i}Все садятся по своим местам; Скопин-Шуйский с мечом и Басманов становятся по сторонам трона. Рынды впереди.{/i}>"
-
-        hide skopin_shujskij
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide skopin_shujskij
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "Великий царь и государь Димитрий"
-
-        schelkalov "Иванович всея России созвал"
-
-        schelkalov "Бояр своих, окольничих, дворян"
-
-        schelkalov "И вас, {a=myshow|tooltip|text=Житые люди -- среднее сословие между боярами, первостатейными гражданами и черным людом.}житые, выборные люди{/a}."
-
-        schelkalov "Для государского больного дела!"
-
-        schelkalov "Его боярин, князь Василий Шуйский,"
-
-        schelkalov "Забыв Господень страх, а целованья"
-
-        schelkalov "И милостей царя к себе не помня,"
-
-        schelkalov "Виновен стал ему в изменном деле."
-
-        hide schelkalov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ни гнева, ни вражды я не имею"
-
-        dmitrij "На Шуйского и мести не хочу;"
-
-        dmitrij "Но, чтоб в Московском славном государстве"
-
-        dmitrij "Без наказанья не был виноватый,"
-
-        dmitrij "Велели мы московским всем народом"
-
-        dmitrij "Судить его, чему он доведется."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Великий государь, велишь поставить"
-
-        basmanov "Изменника, боярина Василья,"
-
-        basmanov "К тебе на суд соборный?"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=200}Ввесть!"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(страже){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "{space=400}Ведите!"
-
-        hide basmanov
-
-        show basmanov at left
-        show vasilij_shujskij at right
-
-        hide basmanov
-
-        show basmanov at left
-        show vasilij_shujskij at right
-
-        basmanov "<{i}Стража приводит Шуйского.{/i}>"
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show schelkalov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show schelkalov at right
-
-        dmitrij "<{i}(Щелкалову){/i}>"
-
-        hide schelkalov
-
-        show dmitrij at truecenter
-
-        hide schelkalov
-
-        show dmitrij at truecenter
-
-        dmitrij "Скажи ему вину его, Василий!"
-
-        dmitrij "Пусть он оправится, коль прав, винится --"
-
-        dmitrij "Коль виноват."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "{space=400}Благодарю за милость!"
-
-        vasilij_shujskij "Невинному защита: суд да Бог."
-
-        hide vasilij_shujskij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        hide schelkalov
-
-        show schelkalov at truecenter
-
-        hide schelkalov
-
-        show schelkalov at truecenter
-
-        schelkalov "<{i}(читает){/i}>"
-
-        show schelkalov at truecenter
-
-        show schelkalov at truecenter
-
-        schelkalov "\"В нынешнем, в 113 году, июня в 20 день, как был государя царя Дмитрия Ивановича всея России в Москву въезд, изыманы торговые и иных чинов люди в пустотных речах. И те люди в расспросе в тех своих пустотных,"
-
-        schelkalov "затейных речах винились и сказали: торговый человек Федька Конёв говорил: как был-де великого государя в Москву въезд и стоял он, Федька, перво у Архангела с народом и, выдя из городских ворот, был-де он с народом же на Пожаре, там его и изымали;"
-
-        schelkalov "а говорил он, Федька, на государя Дмитрия Ивановича составные затейные речи, что он государь царевич не прямой, а прямой-де царевич убит от лихих людей в Угличе, там-де у Спаса его и положили, и клепал государя еретичеством и латинством;"
-
-        schelkalov "а те-де речи он, Федька, говорил не своим умыслом, слышал он про то от князя Василия Ивановича Шуйского не единожды. А Костька лекарь в расспросе говорил на Василия Шуйского ж, что говорил ему Василий про царя Дмитрия Ивановича дурно много раз...\""
-
-        hide schelkalov
-
-        show schelkalov at truecenter
-
-        hide schelkalov
-
-        show schelkalov at truecenter
-
-        schelkalov "<{i}(Останавливается.){/i}>"
-
-        show schelkalov at truecenter
-
-        show schelkalov at truecenter
-
-        hide schelkalov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "А дальше что?"
-
-        hide vasilij_shujskij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "{space=400}Чего ж тебе еще!"
-
-        schelkalov "Кажись, довольно, есть за что повесить."
-
-        hide schelkalov
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "Изменникам царевым суд короткий! --"
-
-        golosa_1_4 "Изменников и Бог велит казнить! --"
-
-        golosa_1_4 "Он -- лиходей царев! -- Его измена"
-
-        golosa_1_4 "Всем видима. Повинен смертной казни! --"
-
-        golosa_1_4 "Что нам судить его! Повинен смерти!"
-
-        hide golosa_1_4
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Василий, что ты скажешь в оправданье?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Царь-государь! Боярин твой великий,"
-
-        vasilij_shujskij "Петр Федорыч, слуга тебе хороший!"
-
-        vasilij_shujskij "Лихих людей он сыскивать горазд"
-
-        vasilij_shujskij "И накрепко разведывать измену;"
-
-        vasilij_shujskij "Изменники в речах своих расспросных"
-
-        vasilij_shujskij "Басманову всю правду показали."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "И ты теперь перед моим лицом,"
-
-        dmitrij "Передо всем собором, признаешься"
-
-        dmitrij "В своих речах бездельных?!"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "{space=400}Государь!"
-
-        vasilij_shujskij "Обманом жить я не умею, не был"
-
-        vasilij_shujskij "И смолоду обманщиком, зачем же"
-
-        vasilij_shujskij "Под старость мне обманывать учиться!"
-
-        vasilij_shujskij "Моя вина! Винюсь перед собором."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не верю я. От слов своих злодейских,"
-
-        dmitrij "Предательских, ты лучше откажись!"
-
-        dmitrij "Иль повтори их громко пред собором,"
-
-        dmitrij "Тогда уж я оправдываться стану"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(встает),{/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Доказывать, что я-- царя Ивана"
-
-        dmitrij "Сын подлинный."
-
-        hide dmitrij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        hide belskij
-
-        show belskij at truecenter
-
-        hide belskij
-
-        show belskij at truecenter
-
-        belskij "<{i}(встает с места){/i}>"
-
-        show belskij at truecenter
-
-        show belskij at truecenter
-
-        belskij "{space=400}Да разве мы попустим?"
-
-        belskij "Ни вымолвить, ни даже заикнуться"
-
-        belskij "Изменникам твоим мы не дадим!"
-
-        hide belskij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        hide masalskij
-
-        show masalskij at truecenter
-
-        hide masalskij
-
-        show masalskij at truecenter
-
-        masalskij "<{i}(встает){/i}>"
-
-        show masalskij at truecenter
-
-        show masalskij at truecenter
-
-        masalskij "Мы голову за батюшку царя"
-
-        masalskij "Димитрия Иваныча положим,"
-
-        masalskij "Мы все умрем!"
-
-        hide masalskij
-
-        show basmanov at left
-        show belskij at truecenter
-        show masalskij at right
-
-        $ basmanov_var = "{noalt}Басманов, Бельский и Масальский"
-
-        basmanov "{space=400}Мы за тебя умрем!"
-
-        hide basmanov
-        hide belskij
-        hide masalskij
-
-        show basmanov at left
-        show belskij at truecenter
-        show masalskij at right
-
-        hide basmanov
-        hide belskij
-        hide masalskij
-
-        show basmanov at left
-        show belskij at truecenter
-        show masalskij at right
-
-        basmanov "<{i}(Становятся у трона.){/i}>"
-
-        show basmanov at left
-        show belskij at truecenter
-        show masalskij at right
-
-        show basmanov at left
-        show belskij at truecenter
-        show masalskij at right
-
-        hide basmanov
-        hide belskij
-        hide masalskij
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "Ты наш царевич! -- Наше солнце красно! --"
-
-        golosa_1_4 "Казнить его, изменника, казнить!"
-
-        hide golosa_1_4
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Последний раз скажи мне, Шуйский, правду:"
-
-        dmitrij "Твои ль слова, твоим ли наученьем"
-
-        dmitrij "Изменники в народе говорили?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Мои слова, великий государь!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Становится на колени.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "Вести его без всякой волокиты"
-
-        golosa_1_4 "На лобное!--На лобное его!"
-
-        hide golosa_1_4
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        dmitrij "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        dmitrij "Вели молчать!"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Молчите! Тише! Смирно!"
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        hide golitsyn
-
-        show golitsyn at left
-        show mstislavskij at right
-
-        hide golitsyn
-
-        show golitsyn at left
-        show mstislavskij at right
-
-        golitsyn "<{i}(Мстиславскому){/i}>"
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        golitsyn "Иль он себя нарочно губит, или --"
-
-        golitsyn "Тут умысел!"
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Темна душа Василья."
-
-        hide mstislavskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "По силам ли борьбу ты затевал?"
-
-        dmitrij "Иль головы своей ты не жалеешь,"
-
-        dmitrij "Иль помощи себе откуда ждешь?"
-
-        dmitrij "Иль испытать меня ты только хочешь,"
-
-        dmitrij "Не слабо ль я держу свою державу?"
-
-        dmitrij "Не буду ль я, меня твои заслуги,"
-
-        dmitrij "Высокий сан и старческие лета,"
-
-        dmitrij "На замыслы твои глядеть сквозь пальцы?"
-
-        dmitrij "Ошибся ты! Я взял свою державу"
-
-        dmitrij "Железною рукой. Я принял царство"
-
-        dmitrij "Для счастия подвластных мне народов,"
-
-        dmitrij "А для грозы врагам и на измену"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(берет у Скопина меч){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Держу сей меч, и сим мечом клянусь,"
-
-        dmitrij "Что всякого, кто помешать захочет"
-
-        dmitrij "Моей священной воле, уничтожу"
-
-        dmitrij "И прах его развею далеко."
-
-        dmitrij "Ну, что же ты не молишь о пощаде?"
-
-        dmitrij "Что не трепещешь? Иль тебе не страшен"
-
-        dmitrij "Ни суд мирской, ни грозный гнев царя?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Не стану я просить себе пощады."
-
-        vasilij_shujskij "Моя вина -- слепое исполненье"
-
-        vasilij_shujskij "Велений царских."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at right
-
-        dmitrij "<{i}(отдает меч Скопину-Шуйскому){/i}>"
-
-        hide skopin_shujskij
-
-        show dmitrij at truecenter
-
-        hide skopin_shujskij
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Говори прямее!"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Мы утверждались крестным целованьем"
-
-        vasilij_shujskij "Царю Борису."
-
-        hide vasilij_shujskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        hide golitsyn
-
-        show golitsyn at left
-        show mstislavskij at right
-
-        hide golitsyn
-
-        show golitsyn at left
-        show mstislavskij at right
-
-        golitsyn "<{i}(Мстиславскому){/i}>"
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        golitsyn "{space=400}Ишь куда пошло."
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Ты знаешь сам, что всяка власть от Бога."
-
-        vasilij_shujskij "Иной за страх служил, иной за совесть,"
-
-        vasilij_shujskij "Да не порок служить и за награду."
-
-        vasilij_shujskij "Боярин твой, Петр Федорыч Басманов,"
-
-        vasilij_shujskij "Не по уму и не по летам, рано"
-
-        vasilij_shujskij "Добился чести преданностью рабской"
-
-        vasilij_shujskij "Царю Борису. Царь бояр крамольных"
-
-        vasilij_shujskij "Не миловал, грозна была опала"
-
-        vasilij_shujskij "Ослушникам! Вон Бельский попытался,"
-
-        vasilij_shujskij "Да сам не рад, проворовался в службе"
-
-        vasilij_shujskij "И надолго себе бесчестья добыл."
-
-        vasilij_shujskij "Меня, раба, Борис послал к народу,"
-
-        vasilij_shujskij "И раб пошел, творя его веленье,"
-
-        vasilij_shujskij "И говорил, что не царевич Дмитрий"
-
-        vasilij_shujskij "Идет в Москву с иноплеменной силой,"
-
-        vasilij_shujskij "А вор, расстрига, еретик Отрепьев."
-
-        vasilij_shujskij "Поверили иль нет, и кто поверил"
-
-        vasilij_shujskij "Словам моим -- не знаю; я исполнил,"
-
-        vasilij_shujskij "Что царь велел. Вот вся вина моя!"
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Не верь ему, великий государь!"
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Я все сказал, что за собою ведал,"
-
-        vasilij_shujskij "Перед лицом царя я повинился,"
-
-        vasilij_shujskij "И больше нет вины за мной. Велите"
-
-        vasilij_shujskij "Пытать меня, хоть до смерти замучьте,"
-
-        vasilij_shujskij "Вы не услышите ни слова больше!"
-
-        vasilij_shujskij "Напрасно ты, Петр Федорыч, безвинных"
-
-        vasilij_shujskij "Сирот пытал! Узнать тебе хотелось,"
-
-        vasilij_shujskij "Что говорил, по царскому приказу,"
-
-        vasilij_shujskij "Я с лобного; на каждом перекрестке"
-
-        vasilij_shujskij "Спросил бы ты -- тебе без пытки скажут,"
-
-        vasilij_shujskij "Да не запрусь и я, не потихоньку --"
-
-        vasilij_shujskij "На всю Москву я громко говорил."
-
-        vasilij_shujskij "Ждет милостей народ, а ты пытаешь."
-
-        vasilij_shujskij "Что значит -- кровь! Отец был в палачах,"
-
-        vasilij_shujskij "И ты по нем."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Он лжет перед собором,"
-
-        basmanov "Бесстыдно лжет! он ведомый обманщик!"
-
-        basmanov "Не с лобного -- то было, да прошло, --"
-
-        basmanov "В своем дому недавно он народу"
-
-        basmanov "Бездельные те речи говорил."
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Ни слова! Стой! Заглазно сколько хочешь"
-
-        vasilij_shujskij "Нашептывай; в глаза не смей порочить"
-
-        vasilij_shujskij "Вернейших слуг московских государей!"
-
-        vasilij_shujskij "Чем клеветать на Шуйских, вы бы лучше"
-
-        vasilij_shujskij "Царям служить у Шуйских поучились."
-
-        hide vasilij_shujskij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "У тех ли Шуйских, что в Литву бежали?"
-
-        schelkalov "У тех ли Шуйских, что царя Ивана"
-
-        schelkalov "В младенчестве не досыта кормили,"
-
-        schelkalov "В его глазах бояр его губили,"
-
-        schelkalov "С митрополитов облаченье рвали?"
-
-        schelkalov "Или у тех, что черный люд московский"
-
-        schelkalov "Не раз, не два водили бунтом в Кремль?"
-
-        hide schelkalov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Наш род большой, в семье не без урода."
-
-        vasilij_shujskij "Я б насчитал тебе десятки Шуйских,"
-
-        vasilij_shujskij "Проливших кровь и головы сложивших"
-
-        vasilij_shujskij "На всех концах, на всех украйнах русских,"
-
-        vasilij_shujskij "В бою ручном и в городских осадах --"
-
-        vasilij_shujskij "Да говорить я не хочу с тобой."
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Боясь Бориса, ты солгал народу;"
-
-        belskij "Зачем же ты потом не повинился"
-
-        belskij "Во лжи своей? Когда Гаврило Пушкин"
-
-        belskij "С Плещеевым нам грамоты читали"
-
-        belskij "Димитрия Иваныча, ты где был?"
-
-        belskij "Ты что ж молчал? А в день царева въезда"
-
-        belskij "Опять не ты, а я да Петр Басманов"
-
-        belskij "Поехали с народом говорить;"
-
-        belskij "А ехать бы, по совести, тебе!"
-
-        belskij "Ты Федором Иванычем был послан"
-
-        belskij "Похоронить царевича, ты знаешь,"
-
-        belskij "Кого ты хоронил. Вы с патриархом"
-
-        belskij "Не раз божились, что царевич Дмитрий"
-
-        belskij "Похоронен тобой в соборной церкви;"
-
-        belskij "Зачем же ты молчишь теперь, не скажешь"
-
-        belskij "Народу правды? Вы похоронили"
-
-        belskij "Попова сына, так бы ты и молвил;"
-
-        belskij "А ты молчишь да морщишься -- мол, знаю,"
-
-        belskij "Да не скажу до случая"
-
-        hide belskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Василий,"
-
-        dmitrij "Зачем молчал ты о своем обмане?"
-
-        dmitrij "Ты виноват передо всем народом --"
-
-        dmitrij "Ты лгал ему. Я здесь, я на престоле,"
-
-        dmitrij "Не в Угличе, не мертвый! Хоронили"
-
-        dmitrij "Другого вы. Кого вы хоронили?"
-
-        dmitrij "Ну, говори!"
-
-        hide dmitrij
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "{space=400}Казнить его, злодея!"
-
-        hide golosa_1_4
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Шуйский"
-
-        vasilij_shujskij "Ты выслушай, великий государь!"
-
-        vasilij_shujskij "Про мой обман, про вымыслы Бориса"
-
-        vasilij_shujskij "Народ забыл и знать про то не хочет"
-
-        vasilij_shujskij "На радости. Бездельные те речи"
-
-        vasilij_shujskij "Я говорил давно; с Мстиславским после"
-
-        vasilij_shujskij "Мы за тебя, под звоном колокольным,"
-
-        vasilij_shujskij "Народ московский ко кресту водили"
-
-        vasilij_shujskij "И верой, правдой, не жалея жизни,"
-
-        vasilij_shujskij "Служить тебе учили. Для чего же"
-
-        vasilij_shujskij "Про старое напоминать народу!"
-
-        vasilij_shujskij "И Бельский да Басманов неразумно"
-
-        vasilij_shujskij "Народ московский на Пожар сбивали,"
-
-        vasilij_shujskij "Чтоб клясться в том, чему и так все верят."
-
-        vasilij_shujskij "Недаром же руками им махали,"
-
-        vasilij_shujskij "Чтоб не клялись: \"Мы и без вас-де знаем\"."
-
-        vasilij_shujskij "А без нужды божиться, лишь в сомненье"
-
-        vasilij_shujskij "Народ вводить... И стало им обидно,"
-
-        vasilij_shujskij "Что я разумно сделал, не поехал"
-
-        vasilij_shujskij "На лобное. Чему бы обижаться?"
-
-        vasilij_shujskij "Кому как бог даст: разум или глупость,"
-
-        vasilij_shujskij "Так и живи! На Бога с челобитьем"
-
-        vasilij_shujskij "К кому пойдешь!"
-
-        vasilij_shujskij "{space=400}Великий государь,"
-
-        vasilij_shujskij "Я все сказал тебе, что может правый"
-
-        vasilij_shujskij "Сказать в защиту правоты своей."
-
-        vasilij_shujskij "Теперь в твоих руках и суд и милость,"
-
-        vasilij_shujskij "И головы и честь холопей царских,"
-
-        vasilij_shujskij "Бояр исконных, суздальских князей."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Увесть его!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        dmitrij "<{i}Шуйского уводят.{/i}>"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Вы слышали, бояре,"
-
-        dmitrij "Окольничьи и думные дворяне,"
-
-        dmitrij "И вы, честные люди; обсудите"
-
-        dmitrij "И приговор поставьте по закону"
-
-        dmitrij "И совести и расходитесь с Богом!"
-
-        dmitrij "Чему приговорите, так и быть."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show skopin_shujskij at right
-
-        dmitrij "<{i}Выходит из палаты, впереди идут рынды и Скопин-Шуйский.{/i}>"
-
-        hide skopin_shujskij
-
-        show dmitrij at truecenter
-
-        hide skopin_shujskij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Подумайте! Чтоб не было обиды:"
-
-        mstislavskij "Казнить легко, да после не воротишь."
-
-        hide mstislavskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Хоть думайте, хоть нет, а он изменник!"
-
-        hide basmanov
-
-        show basmanov at left
-        show schelkalov at right
-
-        hide basmanov
-
-        show basmanov at left
-        show schelkalov at right
-
-        basmanov "<{i}(Щелкалову.){/i}>"
-
-        hide schelkalov
-
-        show basmanov at truecenter
-
-        hide schelkalov
-
-        show basmanov at truecenter
-
-        basmanov "Пиши скорее приговор соборный!"
-
-        hide basmanov
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "Честной собор, чему повинен Шуйский?"
-
-        hide schelkalov
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "Казнить его! -- Повинен смертной казни. --"
-
-        golosa_1_4 "Изменник он! Ему и смерти мало! --"
-
-        golosa_1_4 "Все Шуйские изменники! -- И братьев"
-
-        golosa_1_4 "Помиловать нельзя. Какая милость! --"
-
-        golosa_1_4 "Всем Шуйским смерть! На том и порешили."
-
-        hide golosa_1_4
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "А тех за что? Они не виноваты."
-
-        hide mstislavskij
-
-        show odin_golos_1_4a at truecenter
-
-        $ odin_golos_1_4a_var = "{noalt}Один голос"
-
-        odin_golos_1_4a "Чай, Дмитрий-то свояки с Годуновым,"
-
-        odin_golos_1_4a "Вот и вина."
-
-        hide odin_golos_1_4a
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Нет, этак не порядок!"
-
-        hide mstislavskij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "Так что ж писать?"
-
-        hide schelkalov
-
-        show odin_golos_1_4b at truecenter
-
-        $ odin_golos_1_4b_var = "{noalt}Один голос"
-
-        odin_golos_1_4b "{space=400}Пиши: казнить Василья,"
-
-        odin_golos_1_4b "А Дмитрию с Иваном снять боярство"
-
-        odin_golos_1_4b "И в ссылку их по дальним городам."
-
-        hide odin_golos_1_4b
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "Согласны все?"
-
-        hide schelkalov
-
-        show golosa_1_4 at truecenter
-
-        $ golosa_1_4_var = "{noalt}Голоса"
-
-        golosa_1_4 "{space=400}Согласны! -- Ладно, ладно! --"
-
-        golosa_1_4 "Чтоб так и быть тому без перемены!"
-
-        hide golosa_1_4
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Пиши, Василий! Расходитесь с Богом!"
-
-        hide mstislavskij
-
-        show masalskij at left
-        show basmanov at truecenter
-        show schelkalov at right
-
-        hide mstislavskij
-
-        show masalskij at left
-        show basmanov at truecenter
-        show schelkalov at right
-
-        mstislavskij "<{i}Все расходятся с поклонами. Остаются Мстиславский, Голицын, Воротынский, Бельский, Масальский, Басманов и Щелкалов, который садится за стол и пишет.{/i}>"
-
-        hide golitsyn
-        hide vorotynskij
-        hide belskij
-        hide masalskij
-        hide basmanov
-        hide schelkalov
-
-        show mstislavskij at truecenter
-
-        hide golitsyn
-        hide vorotynskij
-        hide belskij
-        hide masalskij
-        hide basmanov
-        hide schelkalov
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Народ -- волна: куда его подует,"
-
-        mstislavskij "Туда и льет. Уж Шуйских ли не любят,"
-
-        mstislavskij "А вымолви за них в защиту слово,"
-
-        mstislavskij "Так разорвут."
-
-        hide mstislavskij
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "{space=400}Не знаю только, ладно ль"
-
-        vorotynskij "Судить бояр собором черни буйной!"
-
-        hide vorotynskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Короток суд народный -- беспощадный."
-
-        golitsyn "Кровавый суд, без совести, без толку --"
-
-        golitsyn "В нем Бога нет."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}И затевать не надо б."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Служу царю, пусть царь меня и судит,"
-
-        golitsyn "А не торговцы из лубочных лавок."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Убийство, а не суд. Мне Шуйских жалко."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Кому ж не жаль! Нет, Шуйский пригодился б,"
-
-        golitsyn "Что ни толкуй! Он плут и проидоха,"
-
-        golitsyn "А все наш брат боярин, нам он свой."
-
-        hide golitsyn
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "О чем, бояре?"
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}О суде толкуем,"
-
-        golitsyn "Что глуп народ, и бестолков, и буен,"
-
-        golitsyn "А рассудил по правде."
-
-        hide golitsyn
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Это верно."
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "А все ж не дело черному народу"
-
-        golitsyn "Судить бояр. Он должен их бояться"
-
-        golitsyn "Да слушаться; а дай ему почуять,"
-
-        golitsyn "Что он судья над нами, плохо будет:"
-
-        golitsyn "Он сам начнет без царского указа"
-
-        golitsyn "Судить, рядить да головы рубить."
-
-        hide golitsyn
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "А что, ведь правда!"
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Есть о чем подумать;"
-
-        golitsyn "Подумаешь -- зачешется затылок."
-
-        hide golitsyn
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Не напророчь! Не дай Господь дождаться!"
-
-        hide basmanov
-
-        show basmanov at left
-        show dmitrij at right
-
-        hide basmanov
-
-        show basmanov at left
-        show dmitrij at right
-
-        basmanov "<{i}Входит Дмитрий.{/i}>"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "На чем решили?"
-
-        hide dmitrij
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "{space=400}Шуйского Василья"
-
-        schelkalov "Собором всем казнить приговорили,"
-
-        schelkalov "А братьев разослать по городам."
-
-        schelkalov "Как ты прикажешь?"
-
-        hide schelkalov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Приговор исполнить!"
-
-        dmitrij "На лобном месте завтра прочитать"
-
-        dmitrij "Его Василью; положить на плаху"
-
-        dmitrij "Бунтовщика, занесть топор над ним"
-
-        dmitrij "И объявить, что мы его прощаем,"
-
-        dmitrij "Что вместо казни посылаем в ссылку"
-
-        dmitrij "По смерть его, с лишением боярства;"
-
-        dmitrij "А вотчины и все именье Шуйских"
-
-        dmitrij "Мы отписать велим в свою казну."
-
-        hide dmitrij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Пошли Господь тебе на многи лета"
-
-        mstislavskij "И радостей и счастья, государь!"
-
-        hide mstislavskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Довольны вы?"
-
-        hide dmitrij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Язык всего не скажет,"
-
-        golitsyn "Что чувствует душа; мы лучше дома"
-
-        golitsyn "Помолимся о здравии твоем"
-
-        golitsyn "И долголетии."
-
-        hide golitsyn
-
-        show schelkalov at truecenter
-
-        $ schelkalov_var = "{noalt}Щелкалов"
-
-        schelkalov "{space=400}Куда прикажешь,"
-
-        schelkalov "Великий государь, сослать Василья?"
-
-        hide schelkalov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "За Кострому -- и завтра же отправить!"
-
-        dmitrij "Не доезжая места, воротить"
-
-        dmitrij "Его в Москву и возвратить боярство,"
-
-        dmitrij "И вотчины, и все его именье..."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show masalskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show masalskij at right
-
-        dmitrij "<{i}(Масальскому.){/i}>"
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        dmitrij "А Ксения все плачет, все тоскует?"
-
-        hide dmitrij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "У нас уход за ней, как за царицей."
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не знаешь ли, чем слезы ей унять?"
-
-        hide dmitrij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Уймутся сами. Скоро высыхает"
-
-        masalskij "Роса на солнце, а девичьи слезы"
-
-        masalskij "Еще скорей."
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Заметил ты, Масальский:"
-
-        dmitrij "В слезах она становится красивей,"
-
-        dmitrij "Чем так, без слез?"
-
-        hide dmitrij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "{space=400}Так пусть она и плачет!"
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Таких очей я ни в Литве, ни в Польше"
-
-        dmitrij "Не видывал. Она меня полюбит!"
-
-        dmitrij "Как думаешь, Масальский, ведь полюбит?"
-
-        hide dmitrij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Великий государь, ума не хватит"
-
-        masalskij "О девках думать. Что ж об девке думать,"
-
-        masalskij "Полюбит ли! Да что ж ей больше делать."
-
-        masalskij "Как не любить? Одна у них забота..."
-
-        hide masalskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Поедем к ней! Желал бы я пред нею"
-
-        dmitrij "С соперником сразиться, чтобы сердце"
-
-        dmitrij "Красавицы от страха трепетало"
-
-        dmitrij "И победителю наградой было."
-
-        dmitrij "Я Ксению люблю. Скажи, Масальский,"
-
-        dmitrij "Чем покорить могу ее я сердце?"
-
-        hide dmitrij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Что покорять! Она не враг тебе;"
-
-        masalskij "Вели любить, и разговор короток."
-
-        hide masalskij
-
-        show masalskij at truecenter
-
-        hide masalskij
-
-        show masalskij at truecenter
-
-        masalskij "<{i}Уходят.{/i}>"
-
-        show masalskij at truecenter
-
-        show masalskij at truecenter
-
-        hide masalskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        hide golitsyn
-
-        show golitsyn at left
-        show basmanov at right
-
-        hide golitsyn
-
-        show golitsyn at left
-        show basmanov at right
-
-        golitsyn "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        golitsyn "Что приуныл, Петр Федорыч? Обидно,"
-
-        golitsyn "Что службишка твоя пропала даром?"
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Служи царю мечом на ратном поле"
-
-        mstislavskij "Да в думе головой, а не доносом,"
-
-        mstislavskij "Никто тебя обидеть не посмеет."
-
-        hide mstislavskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Обидно мне не за себя, бояре!"
-
-        basmanov "Он добрый царь, но молод и доверчив;"
-
-        basmanov "Играет он короной Мономаха,"
-
-        basmanov "И головой своей, и всеми нами."
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}Уходят.{/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-    label Act_2_Scene_9:
-        "{b}СЦЕНА ПЯТАЯ{/b}"
-
-        label Characters_5:
-            play music "audio/music/17.mp3" fadeout 1.0 fadein 1.0
-
-            scene 4 with fade
-
-            "{b}(СЦЕНА ПЯТАЯ) ЛИЦА:{/b}"
-
-            show dmitrij at truecenter
-            "Дмитрий Иванович, самозванец."
-            hide dmitrij
-
-            show tsaritsa_marfa at truecenter
-            "Царица Марфа, мать Дмитрия-царевича."
-            hide tsaritsa_marfa
-
-            show skopin_shujskij at truecenter
-            "Михаило Скопин-Шуйский."
-            hide skopin_shujskij
-
-            show basmanov at truecenter
-            "Басманов и народ."
-            hide basmanov
-
-        "<{i}Шатер в селе Тайнинском.{/i}>"
-
-        "<{i}(18 июля 1605 года){/i}>"
-
-        show ves_narod_1_2 at left
-        show tsaritsa_marfa at truecenter
-        show skopin_shujskij at right
-
-        show ves_narod_1_2 at left
-        show tsaritsa_marfa at truecenter
-        show skopin_shujskij at right
-
-        "<{i}Полы шатра распахнуты; видны два ряда стрельцов, за ними народ, вдали деревянный дворец. Входят царица Марфа и Скопин-Шуйский.{/i}>"
-
-        hide strelets
-        hide ves_narod_1_2
-        hide tsaritsa_marfa
-        hide skopin_shujskij
-
-        hide strelets
-        hide ves_narod_1_2
-        hide tsaritsa_marfa
-        hide skopin_shujskij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(садясь на стул и робко осматриваясь){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "Младый, цветущий юнош, князь Михайло"
-
-        tsaritsa_marfa "Васильевич, зачем меня, старуху,"
-
-        tsaritsa_marfa "Ты вытащил из монастырской кельи?"
-
-        tsaritsa_marfa "От суеты мирской давно отвыкла,"
-
-        tsaritsa_marfa "Ох, я давно отвыкла!"
-
-        hide tsaritsa_marfa
-
-        show skopin_shujskij at truecenter
-
-        $ skopin_shujskij_var = "{noalt}Скопин-Шуйский"
-
-        skopin_shujskij "{space=400}Государем"
-
-        skopin_shujskij "Приказано мне привезти тебя;"
-
-        skopin_shujskij "Он по тебе давно скучает. Будешь"
-
-        skopin_shujskij "Ты, наша мать, царицею московской."
-
-        hide skopin_shujskij
-
-        show skopin_shujskij at truecenter
-
-        hide skopin_shujskij
-
-        show skopin_shujskij at truecenter
-
-        skopin_shujskij "<{i}(Кланяется.){/i}>"
-
-        show skopin_shujskij at truecenter
-
-        show skopin_shujskij at truecenter
-
-        hide skopin_shujskij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Поверь ты мне, голубчик, ничего-то,"
-
-        tsaritsa_marfa "Ох, ничего-то мне не надо! Только"
-
-        tsaritsa_marfa "В монастыре и жить мне; я забыла,"
-
-        tsaritsa_marfa "Как люди-то живут."
-
-        hide tsaritsa_marfa
-
-        show skopin_shujskij at truecenter
-
-        $ skopin_shujskij_var = "{noalt}Скопин-Шуйский"
-
-        skopin_shujskij "{space=400}В Москве немало"
-
-        skopin_shujskij "Жилья тебе; в любом монастыре"
-
-        skopin_shujskij "Великой государыне есть место."
-
-        skopin_shujskij "Попомни нас тогда, своих холопей!"
-
-        skopin_shujskij "За дядю гнева не держи на нас!"
-
-        hide skopin_shujskij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Забыла я, голубчик, все забыла!"
-
-        tsaritsa_marfa "Ты млад еси, а красен и разумен;"
-
-        tsaritsa_marfa "Гуляешь холост?"
-
-        hide tsaritsa_marfa
-
-        show skopin_shujskij at truecenter
-
-        $ skopin_shujskij_var = "{noalt}Скопин-Шуйский"
-
-        skopin_shujskij "{space=400}Не женат пока..."
-
-        skopin_shujskij "Петр Федорыч идет к тебе, царица."
-
-        hide skopin_shujskij
-
-        show skopin_shujskij at truecenter
-
-        hide skopin_shujskij
-
-        show skopin_shujskij at truecenter
-
-        skopin_shujskij "<{i}(Уходит.){/i}>"
-
-        show skopin_shujskij at truecenter
-
-        show skopin_shujskij at truecenter
-
-        hide skopin_shujskij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Ну пусть идет! О, Господи помилуй!"
-
-        tsaritsa_marfa "Вот грех какой, какое попущенье!"
-
-        tsaritsa_marfa "Туман в глазах, кружится голова."
-
-        tsaritsa_marfa "Что говорить, что делать? Где набраться"
-
-        tsaritsa_marfa "Мне разума? Ну, буди власть Господня!"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at left
-        show basmanov at right
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at left
-        show basmanov at right
-
-        tsaritsa_marfa "<{i}Басманов входит; полы шатра закрываются.{/i}>"
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(кланяясь в ноги){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Царица наша, наша мать родная, Ужли холопа Петьку позабыла?"
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Ты, Петя, встань! Ты молод был тогда."
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Великий царь и государь Димитрий"
-
-        basmanov "Иванович зовет в свой город стольный"
-
-        basmanov "Тебя, царицу."
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "{space=400}Ох, везут насильно,"
-
-        tsaritsa_marfa "А не зовут меня!"
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Он повелитель,"
-
-        basmanov "Не только звать и приказать он может --"
-
-        basmanov "Сама бы ты должна навстречу сыну"
-
-        basmanov "Не ехать, а лететь."
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "{space=400}Навстречу сыну?"
-
-        tsaritsa_marfa "Где сын-то мой, Петр Федорыч? Где сын-то?!"
-
-        tsaritsa_marfa "Не знаешь ты, так я тебе скажу:"
-
-        tsaritsa_marfa "Я в Угличе его похоронила,"
-
-        tsaritsa_marfa "От слез моих там реки протекли..."
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Не говори, царица! жив Димитрий"
-
-        basmanov "Иванович."
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(не слушая){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "{space=400}У Спаса мы стояли"
-
-        tsaritsa_marfa "Обедню с ним в субботний день, на память"
-
-        tsaritsa_marfa "Пахомия Великого; в ту пору"
-
-        tsaritsa_marfa "Послал Господь такой-то красный день,"
-
-        tsaritsa_marfa "И таково тепло..."
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Царица наша,"
-
-        basmanov "Таких речей мне слушать непригоже!"
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(не слушая){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "И, быть греху, пришли мы от обедни,"
-
-        tsaritsa_marfa "Пошла я вверх, сижу да отдыхаю,"
-
-        tsaritsa_marfa "А он внизу с ребятками играет;"
-
-        tsaritsa_marfa "Известно дело, ноги молодые"
-
-        tsaritsa_marfa "Не устают; и понесли нам еству;"
-
-        tsaritsa_marfa "Хочу я встать -- царевича покликать,"
-
-        tsaritsa_marfa "Вдруг слышу крик, так сердце и упало!"
-
-        tsaritsa_marfa "Бегу с крыльца, кормилка держит Митю,"
-
-        tsaritsa_marfa "А он кончается, а сука мамка..."
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Забудь про все! Одно, царица, помни,"
-
-        basmanov "Что ты всю жизнь терпела от злодеев."
-
-        basmanov "И сам Борис, и все его холопы"
-
-        basmanov "Над царскою вдовою издевались."
-
-        basmanov "Пришла пора поцарствовать тебе,"
-
-        basmanov "Назло врагам твоим, на радость братьям"
-
-        basmanov "И сродникам, опальным, заключенным."
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Прошли года, во мне затихла злоба;"
-
-        tsaritsa_marfa "От радостей мирских я отреклась."
-
-        tsaritsa_marfa "Борис в могиле -- нас Господь рассудит"
-
-        tsaritsa_marfa "Его холопям мстить я не хочу!"
-
-        tsaritsa_marfa "Вот если б вы в то время догадались,"
-
-        tsaritsa_marfa "Как я в слезах, обрызганная кровью"
-
-        tsaritsa_marfa "Царевича, по Угличу металась,"
-
-        tsaritsa_marfa "Безумная, звала людей и Бога,"
-
-        tsaritsa_marfa "Кровавые поднявши к небу руки,"
-
-        tsaritsa_marfa "На месть Борису, -- если бы тогда"
-
-        tsaritsa_marfa "Восстала Русь, Литва и вся Украйна"
-
-        tsaritsa_marfa "На этот род проклятый годуновский,"
-
-        tsaritsa_marfa "Разлучников единокровных братьев,"
-
-        tsaritsa_marfa "И надо было, чтоб царевич ожил,"
-
-        tsaritsa_marfa "Воскрес убитый,-- я тогда бы сыном"
-
-        tsaritsa_marfa "Подкидыша паршивого признала,"
-
-        tsaritsa_marfa "Щенка слепого детищем родным!.."
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Замкни уста! Ты Дмитрия не знаешь!"
-
-        basmanov "Он наша радость, наше упованье."
-
-        basmanov "Остановись! Душа моя не стерпит,"
-
-        basmanov "Не вынесет она позорной брани."
-
-        hide basmanov
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Пугать меня! -- жену царя Ивана,"
-
-        tsaritsa_marfa "Того Ивана, перед кем вы прежде,"
-
-        tsaritsa_marfa "Как листья на осине, трепетали!"
-
-        tsaritsa_marfa "Я не боялась и царя Бориса,"
-
-        tsaritsa_marfa "Не побоюсь тебя, холоп!"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at left
-        show dmitrij at right
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at left
-        show dmitrij at right
-
-        tsaritsa_marfa "<{i}Входит Дмитрий.{/i}>"
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Царевич!"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Уходит.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(бросается к царице){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Родимая!"
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(останавливая его посохом){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "{space=400}Постой-ка! Ничего-то"
-
-        tsaritsa_marfa "Ты не похож."
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(Отворачивается ){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Зачем тебе наружность?"
-
-        dmitrij "Моя душа горит к тебе любовью"
-
-        dmitrij "Сыновнею!"
-
-        play sound1 kiss
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        play sound1 kiss
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Целует ей руку.){/i}>"
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        dmitrij "{space=400}Пока ты в заключенье,"
-
-        dmitrij "Среди старух, отживших и бранчивых,"
-
-        dmitrij "Постом невольным изнуряла тело,"
-
-        dmitrij "И молодость свою в слезах губила,"
-
-        dmitrij "И вянул даром блеск очей твоих"
-
-        dmitrij "И величавость царственного стана,"
-
-        dmitrij "Я трон тебе готовил, я злодеев"
-
-        dmitrij "Твоих губил, сбирал твой род и племя"
-
-        dmitrij "По годуновским тюрьмам, и вкруг трона"
-
-        dmitrij "Поставил их в блестящем одеянье"
-
-        dmitrij "Сановников ближайших! Я очистил"
-
-        dmitrij "Широкий путь тебе в твою столицу;"
-
-        dmitrij "А ты взглянуть не хочешь на меня"
-
-        dmitrij "И гонишь прочь, как недруга?"
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "{space=400}Молиться"
-
-        tsaritsa_marfa "Всю жизнь мою за милости твои"
-
-        tsaritsa_marfa "И чтить в тебе царя -- рабой, коль хочешь,"
-
-        tsaritsa_marfa "Служить тебе я с радостию буду;"
-
-        tsaritsa_marfa "Но матерью!.. Нет! сердца не обманешь!"
-
-        tsaritsa_marfa "Не так оно забьется, если сына"
-
-        tsaritsa_marfa "Родимого прижмешь к своей груди."
-
-        tsaritsa_marfa "Пусти меня опять в мою обитель --"
-
-        tsaritsa_marfa "Не сын ты мне."
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}А много ль нежной ласки"
-
-        dmitrij "Ты видела от сына? И не скучно"
-
-        dmitrij "Без ласки жить тебе?.. Ребенком малым,"
-
-        dmitrij "Играючи, он прибегал к тебе"
-
-        dmitrij "Склонить свою головку на колена"
-
-        dmitrij "И засыпать под шепот нежных слов;"
-
-        dmitrij "Другой любви и ласки он не ведал."
-
-        dmitrij "Прошло и то, и рано ты осталась"
-
-        dmitrij "С сиротскими слезами вековать!"
-
-        play sound1 female_cry
-
-        hide dmitrij
-
-        show dmitrij at left
-        show tsaritsa_marfa at right
-
-        play sound1 female_cry
-
-        hide dmitrij
-
-        show dmitrij at left
-        show tsaritsa_marfa at right
-
-        dmitrij "<{i}Царица Марфа плачет.{/i}>"
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        dmitrij "Припал ли он хоть раз к твоим коленам"
-
-        dmitrij "Царем в венце и бармах Мономаха,"
-
-        dmitrij "При радостных слезах всего народа?"
-
-        dmitrij "Просил ли он себе благословенья"
-
-        dmitrij "Землею править, суд и правду деять,"
-
-        dmitrij "Прощать виновных именем священным"
-
-        dmitrij "Царицы-матери, несчастным слезы"
-
-        dmitrij "Ее руками отирать?"
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "{space=400}О, если б"
-
-        tsaritsa_marfa "Ты был мой сын! Поди ко мне поближе,"
-
-        tsaritsa_marfa "Взгляни еще в мой глаза!.."
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(Тихо.){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "{space=400}Димитрий,"
-
-        tsaritsa_marfa "Ты сирота, без племени и рода!"
-
-        tsaritsa_marfa "Я ласк твоих не отниму у той..."
-
-        tsaritsa_marfa "Другой!.. Она, быть может, втихомолку,"
-
-        tsaritsa_marfa "В своем углу убогом, пред иконой"
-
-        tsaritsa_marfa "О милом сыне молится украдкой?"
-
-        tsaritsa_marfa "Иль здесь, в толпе народной укрывает"
-
-        tsaritsa_marfa "Лицо свое, смоченное слезами,"
-
-        tsaritsa_marfa "И издали, дрожащею рукою"
-
-        tsaritsa_marfa "Благословляет сына?"
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Нет! О нет!"
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "Одна ли буду матерью твоей,"
-
-        tsaritsa_marfa "Одна ль любить тебя, меня одну ли"
-
-        tsaritsa_marfa "Полюбишь ты?"
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}О да! Одну тебя!"
-
-        dmitrij "Ты назовись лишь матерью -- я сыном"
-
-        dmitrij "Сумею быть таким, что и родного"
-
-        dmitrij "Забудешь ты."
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        tsaritsa_marfa "{space=400}Тебя я полюбила..."
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Невиданным почетом и богатством"
-
-        dmitrij "Украшу я твое уединенье"
-
-        dmitrij "В обители; под этой грубой ризой"
-
-        dmitrij "По золоту парчой пойдешь ты к трону!"
-
-        dmitrij "Смотри сюда..."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Открывает полу палатки.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}От нашей царской ставки"
-
-        dmitrij "До стен Кремля шумят народа волны"
-
-        dmitrij "И ждут тебя. Одно лишь только слово!"
-
-        dmitrij "И весь народ, и я, твой сын венчанный,"
-
-        dmitrij "К твоим стопам, царица, упадем."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Склоняется перед нею.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show tsaritsa_marfa at truecenter
-
-        $ tsaritsa_marfa_var = "{noalt}Царица Марфа"
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        hide tsaritsa_marfa
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "<{i}(поднимая его){/i}>"
-
-        show tsaritsa_marfa at truecenter
-
-        show tsaritsa_marfa at truecenter
-
-        tsaritsa_marfa "Ты мой! Ты мой!"
-
-        hide tsaritsa_marfa
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}И сын, и раб покорный!"
-
-        dmitrij "Обнимемся! Союзом неразрывным"
-
-        dmitrij "Мы связаны на жизнь и смерть. Пойдем!"
-
-        dmitrij "Отбрось теперь свой посох: эти плечи"
-
-        dmitrij "Могучие тебе опорой будут."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show ves_narod_1_2 at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show ves_narod_1_2 at right
-
-        dmitrij "<{i}Выходят к народу.{/i}>"
-
-        hide ves_narod_1_2
-
-        show dmitrij at truecenter
-
-        hide ves_narod_1_2
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show narod_1_5 at truecenter
-
-        $ narod_1_5_var = "{noalt}Народ"
-
-        narod_1_5 "Царица! -- Мать родная! -- Ты сиротам,"
-
-        narod_1_5 "Рабам твоим, покров и заступленье!"
-
-        hide narod_1_5
-
-    label Act_2_Scene_11:
-        "{b}СЦЕНА ШЕСТАЯ{/b}"
-
-        label Characters_6:
-            play music "audio/music/23.mp3" fadeout 1.0 fadein 1.0
-
-            scene 27 with fade
-
-            "{b}(СЦЕНА ШЕСТАЯ) ЛИЦА:{/b}"
-
-            show mstislavskij at truecenter
-            "Мстиславский."
-            hide mstislavskij
-
-            show vorotynskij at truecenter
-            "Воротынский."
-            hide vorotynskij
-
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
-
-            show kurakin at truecenter
-            "Куракин."
-            hide kurakin
-
-        show golitsyn at truecenter
-
-        show golitsyn at truecenter
-
-        "<{i}Комната в доме Голицына.{/i}>"
-
-        hide golitsyn
-
-        hide golitsyn
-
-        show mstislavskij at left
-        show vorotynskij at truecenter
-        show golitsyn at right
-
-        show mstislavskij at left
-        show vorotynskij at truecenter
-        show golitsyn at right
-
-        "<{i}Входят Мстиславский, Воротынский и Голицын. Слуги вносят чаши с медом.{/i}>"
-
-        hide mstislavskij
-        hide vorotynskij
-        hide golitsyn
-
-        hide mstislavskij
-        hide vorotynskij
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show golitsyn at right
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show golitsyn at right
-
-        mstislavskij "<{i}(Голицыну){/i}>"
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        mstislavskij "Ты нас зазвал к себе на перепутье,"
-
-        mstislavskij "На пирожок, на чарочку винца,"
-
-        mstislavskij "А угостил и допьяна и сыто."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Чем Бог послал! Какое угощенье!"
-
-        golitsyn "Вот в Кракове Афонька наш пирует,"
-
-        golitsyn "Не нам чета, и черт ему не брат,"
-
-        golitsyn "Ломается -- гляди, что курам на смех."
-
-        golitsyn "А мы в Москве играем в городки."
-
-        golitsyn "Однако царь изрядно проминает"
-
-        golitsyn "Бояр своих. На земляную стену"
-
-        golitsyn "Полезет сам, и ты за ним ступай!"
-
-        golitsyn "А тут-то нас, не из пищалей, правда,"
-
-        golitsyn "А палками по чем попало лупят."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Ученье -- свет, а неученье -- тьма."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Бока болят от этого ученья,"
-
-        golitsyn "А толку нет. Не на кулачки драться,"
-
-        golitsyn "Не лезть на башню прямо под обух;"
-
-        golitsyn "Приказывать боярское есть дело."
-
-        hide golitsyn
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "Бока болят! Ну, поболят немного,"
-
-        vorotynskij "Да заживут; бесчестье не велико."
-
-        vorotynskij "А вот бесчестье: Юрий Мнишек пишет"
-
-        vorotynskij "Высоко больно, к умаленью чести"
-
-        vorotynskij "Боярской нашей."
-
-        hide vorotynskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Так ли, князь Иван"
-
-        mstislavskij "Михайлович?"
-
-        hide mstislavskij
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "{space=400}Чего ж еще! Он пишет:"
-
-        vorotynskij "\"Я вам царя поставил, я-де начал"
-
-        vorotynskij "И кончил все, и как-де я приеду,"
-
-        vorotynskij "Перед царем о вас стараться буду,"
-
-        vorotynskij "О умноженье ваших прав боярских\"."
-
-        vorotynskij "Каких еще нам прав?"
-
-        hide vorotynskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Оно б не худо"
-
-        golitsyn "Шляхетские нам вольности иметь;"
-
-        golitsyn "Да вот беда -- пан Юрий Мнишек сядет"
-
-        golitsyn "На нас на всех, между царем и нами."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Оставим лучше эти разговоры."
-
-        mstislavskij "Не нам судить! Что будет, то и будет."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Ну пусть бы Мнишек, а гляди -- наедет"
-
-        golitsyn "Родня его и сядет в думе царской"
-
-        golitsyn "С боярами. Гоняет, как мальчишек."
-
-        golitsyn "Нас царь теперь, а уж тогда и вовсе"
-
-        golitsyn "Молчать придется да глазами хлопать."
-
-        golitsyn "Как дуракам."
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Ты хмелен, князь Василий."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "И хмелен, да умен, -- так два угодья."
-
-        hide golitsyn
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "А что писать нам Юрию? Вот Шуйский"
-
-        vorotynskij "И нужен бы!"
-
-        hide vorotynskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Без Шуйского напишем,"
-
-        mstislavskij "Подумавши. Подумай, князь Василий,"
-
-        mstislavskij "И нам скажи!"
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Пишите вот что:"
-
-        golitsyn "\"Пан Юрий! Грамотку твою читали,"
-
-        golitsyn "А пишешь ты про службу государю,"
-
-        golitsyn "Что в дохожденье прирожденных панств"
-
-        golitsyn "Служил ему и промышлял с раденьем,"
-
-        golitsyn "И хочешь впредь добра ему хотеть,"
-
-        golitsyn "И мы тебя теперь за это хвалим\"."
-
-        golitsyn "Вот и конец!"
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Разумно! Так и надо!"
-
-        mstislavskij "Пускай его читает."
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show kurakin at right
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show kurakin at right
-
-        mstislavskij "<{i}Входит Куракин.{/i}>"
-
-        hide kurakin
-
-        show mstislavskij at truecenter
-
-        hide kurakin
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=400}Шуйский едет"
-
-        kurakin "В Москву опять."
-
-        hide kurakin
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "{space=400}Ну, радость не велика."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Не всё на волка, ты скажи -- по волку!"
-
-        golitsyn "Ну, хочешь ли побиться, князь Феодор"
-
-        golitsyn "Иванович, а вот князья разнимут:"
-
-        golitsyn "Я бьюсь с тобою о велик заклад,"
-
-        golitsyn "Что не пройдет недели, князь Василий"
-
-        golitsyn "И в думе первый, и в совете будет,"
-
-        golitsyn "И самый ближний друг царю. Ну, хочешь?"
-
-        hide golitsyn
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Завидовать не стану, не завистлив --"
-
-        mstislavskij "Его при нем! Прощай!"
-
-        hide mstislavskij
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show mstislavskij at truecenter
-
-        mstislavskij "<{i}(Уходит.){/i}>"
-
-        show mstislavskij at truecenter
-
-        show mstislavskij at truecenter
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Прощай, князь Федор"
-
-        golitsyn "Иванович."
-
-        hide golitsyn
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "{space=200}И я за шапку."
-
-        hide vorotynskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Что же!"
-
-        golitsyn "Ты, князь Иван Михайлыч, посидел бы."
-
-        golitsyn "Ну, посиди."
-
-        hide golitsyn
-
-        show vorotynskij at truecenter
-
-        $ vorotynskij_var = "{noalt}Воротынский"
-
-        vorotynskij "{space=400}До дому, князь Василий"
-
-        vorotynskij "Васильевич, пора. Прощенья просим,"
-
-        vorotynskij "Женишка ждет."
-
-        hide vorotynskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Ну, как, князья, хотите!"
-
-        golitsyn "Я не держу: насильно мил не будешь."
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        golitsyn "<{i}Уходят.{/i}>"
-
-        show golitsyn at truecenter
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        golitsyn "<{i}Голицын скоро возвращается; наливает два кубка: один Куракину, другой себе.{/i}>"
-
-        show golitsyn at truecenter
-
-        show golitsyn at truecenter
-
-        golitsyn "За весть спасибо!"
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=400}Было бы за что!"
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Не торопись. Недолго ждать, увидишь,"
-
-        golitsyn "Я во хмелю, язык поразвязался,"
-
-        golitsyn "Душа горит. Ты -- друг; перед тобою"
-
-        golitsyn "Могу я смело душу распахнуть."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "Еще бы нет! Одна душа, два тела!"
-
-        kurakin "Умрет со мной."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Дай Шуйскому приехать"
-
-        golitsyn "Да осмотреться; он сейчас увидит,"
-
-        golitsyn "Куда ведут советники слепые"
-
-        golitsyn "Царька слепого..."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=200}Ну!"
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Он им поможет."
-
-        golitsyn "С Басмановым он больше не заспорит:"
-
-        golitsyn "Поддакивать и поблажать им будет;"
-
-        golitsyn "И царик наш напрыгает недолго."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "А после что? На трон Мстиславский сядет."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Мстиславский? Нет! Его на то не хватит;"
-
-        golitsyn "Ума не нажил, смелости подавно;"
-
-        golitsyn "А сесть на царство -- мудрена наука."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "Ну, Шуйский."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Верно. Только с уговором:"
-
-        golitsyn "Пусть грамоту напишет он боярству"
-
-        golitsyn "И поцелует крест -- без нашей думы"
-
-        golitsyn "Не делать шагу: смертью не казнить,"
-
-        golitsyn "Поместий, отчин и дворов не трогать"
-
-        golitsyn "Без нашего суда; а кто по сыску"
-
-        golitsyn "Дойдет до казни -- жен, детей не грабить;"
-
-        golitsyn "Доводчиков не слушать! Да не токмо"
-
-        golitsyn "На нас, бояр, не класть своей опалы,"
-
-        golitsyn "Не осудя, -- гостей, людей торговых"
-
-        golitsyn "И волосом не трогать без суда!"
-
-        golitsyn "Когда язык ему и руки свяжем,"
-
-        golitsyn "Пусть царствует."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=400}Такое дело ново,"
-
-        kurakin "И Шуйскому какая же неволя"
-
-        kurakin "Приказчиком боярским быть на троне?"
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Без записи такой не сесть на царство"
-
-        golitsyn "Ни одному из нас: друг друга знаем;"
-
-        golitsyn "Переплелись обидой да бесчестьем"
-
-        golitsyn "Боярские роды; одной семьи нет,"
-
-        golitsyn "Чтоб на другую зубы не точила."
-
-        golitsyn "Свои друзья, свои враги у всех;"
-
-        golitsyn "Кто ни взойди теперь на трон московский,"
-
-        golitsyn "Родня, друзья сейчас его облепят --"
-
-        golitsyn "Врагам не жить."
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=400}Мудреная задача!"
-
-        kurakin "Не думаю, чтоб Шуйский поддался:"
-
-        kurakin "Он травленый."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Ну, мы не будем плакать;"
-
-        golitsyn "Тогда пошлем к Жигмонту Владислава"
-
-        golitsyn "Просить на царство: ешь меня собака"
-
-        golitsyn "Неведомая, только не своя..."
-
-        golitsyn "Пора к царю, телят нарядных кушать."
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        golitsyn "<{i}Уходят.{/i}>"
-
-        show golitsyn at truecenter
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-    label Act_2_Scene_13:
-        "{b}СЦЕНА СЕДЬМАЯ{/b}"
-
-        label Characters_7:
-            play music "audio/music/14.mp3" fadeout 1.0 fadein 1.0
-
-            scene 26 with fade
-
-            "{b}(СЦЕНА СЕДЬМАЯ) ЛИЦА:{/b}"
-
-            show vasilij_shujskij at truecenter
-            "Василий Шуйский."
-            hide vasilij_shujskij
-
-            show masalskij at truecenter
-            "Князь Масальский с боярами и дворянами."
-            hide masalskij
-
-            show kalachnik at truecenter
-            "Калачник."
-            hide kalachnik
-
-            show dvoretskij at truecenter
-            "Дворецкий."
-            hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        "<{i}Черная изба у Шуйского.{/i}>"
-
-        hide vasilij_shujskij
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        "<{i}Входят Василий Шуйский в крестьянском кафтане и дворецкий.{/i}>"
-
-        hide vasilij_shujskij
-        hide dvoretskij
-
-        hide vasilij_shujskij
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Пускай не всех, а только самых близких,"
-
-        vasilij_shujskij "И то простых людей; из думы только"
-
-        vasilij_shujskij "Татищева; а прочим говори,"
-
-        vasilij_shujskij "Что скорбен, мол: не только человека,"
-
-        vasilij_shujskij "И свету Божьего не хочет видеть."
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "Калачник Ваня раз десяток мимо"
-
-        dvoretskij "Ворот прошел, за тыном притулился,"
-
-        dvoretskij "Войти не смеет."
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Ну, пусти его,"
-
-        vasilij_shujskij "Введи его тихонько задним ходом."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        vasilij_shujskij "<{i}Дворецкий уходит.{/i}>"
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Калачники, разносчики, торговцы,"
-
-        vasilij_shujskij "Попы без мест, да странный, да убогий,"
-
-        vasilij_shujskij "Да голь кабацкая -- меня жалеют"
-
-        vasilij_shujskij "И помнят обо мне, а наша братья"
-
-        vasilij_shujskij "Советчики, да судьи, да думцы"
-
-        vasilij_shujskij "Великие -- что борода, то дума,"
-
-        vasilij_shujskij "Что лоб, то разум -- те меня забыли:"
-
-        vasilij_shujskij "Поклона ждут... Да не дождутся: с ними"
-
-        vasilij_shujskij "Заигрывать, как с девками, не стану."
-
-        vasilij_shujskij "Придет пора, поклонятся и сами."
-
-        vasilij_shujskij "Я не брезглив, мне всякий друг, кто нужен."
-
-        vasilij_shujskij "И сволочь хороша. Не плюй в колодезь!"
-
-        vasilij_shujskij "Велика сила шлющийся народ!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show kalachnik at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show kalachnik at right
-
-        vasilij_shujskij "<{i}Калачник входит.{/i}>"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Что скажешь, друг Иван?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Тебя, боярин,"
-
-        kalachnik "Отец ты наш, в живых не чаял видеть;"
-
-        kalachnik "Вот, Бог привел! Ну, как ты воротился?"
-
-        kalachnik "Здорово ли? Об нас не позабыл ли?"
-
-        kalachnik "Не бросишь ли сирот своих?"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Не брошу."
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Ну, дай тебе Господь! А мы всё те же,"
-
-        kalachnik "Мы все твои. Я бьюсь теперь, боярин,"
-
-        kalachnik "Из пустяков; повесили б уж, что ли,"
-
-        kalachnik "Меня скорей иль голову срубили!"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "С чего бы так?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Жить не мило, боярин!"
-
-        kalachnik "Рассказывать аль нет? Коль будешь слушать,"
-
-        kalachnik "Я все скажу, а то вели отправить"
-
-        kalachnik "К Басманову меня: я ворог царский."
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "И то, пошлю."
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Так посылай скорее!"
-
-        kalachnik "Я голова отпетая. Довольно"
-
-        kalachnik "Погуляно, пора костям на место."
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Куда спешить! Басманов подождет."
-
-        vasilij_shujskij "А ты покуда говори, что знаешь!"
-
-        vasilij_shujskij "Что нового?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Все новое, боярин!"
-
-        kalachnik "Палаты новы у царя; у немцев"
-
-        kalachnik "Кафтаны новы -- бархат фиолетов;"
-
-        kalachnik "У русских вера новая -- латинцы"
-
-        kalachnik "В самом Кремле поставили костел"
-
-        kalachnik "И целый день гнусят свои обедни,"
-
-        kalachnik "Своим душам на вечную погибель"
-
-        kalachnik "И на соблазн крещеному народу."
-
-        kalachnik "Теперь обедать с музыкой садятся,"
-
-        kalachnik "Не молятся, ни рук не умывают."
-
-        kalachnik "Поляки бьют народ, секут и рубят"
-
-        kalachnik "И встречного, и поперечных; бродят"
-
-        kalachnik "По улицам, по лавкам, по базарам,"
-
-        kalachnik "Берут добро без денег и без спросу."
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "И все молчат?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Нельзя и рта разинуть,"
-
-        kalachnik "Защиты нет. В застенок да на плаху!"
-
-        kalachnik "Петр Федорыч лютее волка стал:"
-
-        kalachnik "Живого съест. Казнит немилосердо;"
-
-        kalachnik "Монахов чудовских поразослали;"
-
-        kalachnik "Тургенева казнили на Пожаре."
-
-        kalachnik "Чай, брата знал меньшого, Федьку?"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Как же,"
-
-        vasilij_shujskij "Ну как не знать!"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Горячий был, как я же;"
-
-        kalachnik "Доводчики его оговорили."
-
-        kalachnik "Короток суд: свели его на плаху."
-
-        kalachnik "Без брата жизнь постыла мне, боярин;"
-
-        kalachnik "Я жив брожу, а он в сырой земле;"
-
-        kalachnik "И мне туда ж. Да лишь бы поскорее!"
-
-        kalachnik "Задешево я голову бы продал!"
-
-        kalachnik "Нужна тебе?"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Повремени до срока,"
-
-        vasilij_shujskij "Ты голову сложить всегда поспеешь;"
-
-        vasilij_shujskij "Не торопись: быть может, пригодится"
-
-        vasilij_shujskij "На что-нибудь. Бери лоток на плечи,"
-
-        vasilij_shujskij "Торгуй опять. Помалчивай о брате,"
-
-        vasilij_shujskij "Повеселей гляди, на прибаутки"
-
-        vasilij_shujskij "Не поскупись, да не болтай пустого!"
-
-        vasilij_shujskij "А я тебя за прежние заслуги,"
-
-        vasilij_shujskij "Уж так и быть, помилую: Петрушке"
-
-        vasilij_shujskij "Басманову речей твоих не выдам."
-
-        play sound1 male_laughter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        play sound1 male_laughter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Смеются оба.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        stop sound1
-
-        show vasilij_shujskij at truecenter
-
-        stop sound1
-
-        vasilij_shujskij "В нужде иль горе, приходи ко мне,"
-
-        vasilij_shujskij "И выручу, и денег дам на нужду."
-
-        vasilij_shujskij "Убогий где?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}В Москве. Да мелет что-то"
-
-        kalachnik "Нескладное."
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=200}А где живет?"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}В поварне"
-
-        kalachnik "У патриарха, только кормят плохо."
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Пришли его. Да заходите чаще."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at right
-
-        vasilij_shujskij "<{i}Входит дворецкий.{/i}>"
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "Масальский князь с боярами наехал"
-
-        dvoretskij "От самого царя."
-
-        hide dvoretskij
-
-        show dvoretskij at left
-        show kalachnik at right
-
-        hide dvoretskij
-
-        show dvoretskij at left
-        show kalachnik at right
-
-        dvoretskij "<{i}Калачник уходит.{/i}>"
-
-        hide kalachnik
-
-        show dvoretskij at truecenter
-
-        hide kalachnik
-
-        show dvoretskij at truecenter
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Ворота настежь!"
-
-        hide vasilij_shujskij
-
-        show dvoretskij at truecenter
-
-        $ dvoretskij_var = "{noalt}Дворецкий"
-
-        dvoretskij "Я растворил."
-
-        hide dvoretskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}И двери настежь живо!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at truecenter
-        show masalskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dvoretskij at truecenter
-        show masalskij at right
-
-        vasilij_shujskij "<{i}Дворецкий отворяет дверь. Входят Масальский, бояре и дворяне.{/i}>"
-
-        hide dvoretskij
-        hide masalskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dvoretskij
-        hide masalskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Великий царь и государь Димитрий"
-
-        masalskij "Иванович велел тебе сказать,"
-
-        masalskij "Боярин князь Василий, княж Иваныч,"
-
-        masalskij "Что он вины не помнит, и опалу"
-
-        masalskij "Твою с тебя снимает, сан боярский,"
-
-        masalskij "И вотчины, и все добро твое"
-
-        masalskij "Он жалует тебе, и дозволяет"
-
-        masalskij "Опять его царевы очи видеть"
-
-        masalskij "Пресветлые, и жалует кафтаном,"
-
-        masalskij "И шубою, и шапкою боярской."
-
-        hide masalskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Великие бояре; вы, царевы"
-
-        vasilij_shujskij "Советчики, краса земли Московской!"
-
-        vasilij_shujskij "Скажите мне, последнему холопу,"
-
-        vasilij_shujskij "Каким путем-дорогой иль тропами"
-
-        vasilij_shujskij "Звериными вы ехали ко мне?"
-
-        vasilij_shujskij "Да разве есть ко мне дорога, лесом"
-
-        vasilij_shujskij "Не заросла, не завилась травою?"
-
-        vasilij_shujskij "Каких людей попутных вы встречали?"
-
-        vasilij_shujskij "Кто вас провел, кто показал домишко"
-
-        vasilij_shujskij "Убогий мой? Да разве есть на свете"
-
-        vasilij_shujskij "Василий Шуйский? Разве люди помнят"
-
-        vasilij_shujskij "В Москве о нем? Великие бояре!"
-
-        vasilij_shujskij "Не вы нашли, не люди вам казали"
-
-        vasilij_shujskij "Пути-дороги -- царь вам приказал"
-
-        vasilij_shujskij "Найти меня, и лесы преклонились,"
-
-        vasilij_shujskij "И развился, как скатерть, путь широкий"
-
-        vasilij_shujskij "И поднялся и светел стал мой дом,"
-
-        vasilij_shujskij "Как царские высокие палаты:"
-
-        vasilij_shujskij "И жив опять, и радостен хозяин;"
-
-        vasilij_shujskij "Вчерашний смерд -- опять боярин царский."
-
-        vasilij_shujskij "Скажите вы царю и государю,"
-
-        vasilij_shujskij "Что дней моих остаток и дыханье"
-
-        vasilij_shujskij "Последнее, душевный каждый помысл"
-
-        vasilij_shujskij "Я отдаю ему; что стар и хил я,"
-
-        vasilij_shujskij "Но сил еще у Шуйского достанет,"
-
-        vasilij_shujskij "Чтоб доползти до ног его, коснуться"
-
-        vasilij_shujskij "Его стопам холопскими устами"
-
-        vasilij_shujskij "И верным псом на страже стать у трона..."
-
-        vasilij_shujskij "Седлать коней! Боярскую одежду!"
-
-        vasilij_shujskij "Лохмотья прочь! Я еду к государю;"
-
-        vasilij_shujskij "А завтра вас прошу к себе, бояре,"
-
-        vasilij_shujskij "На званый стол, на разливанный пир --"
-
-        vasilij_shujskij "Отпраздновать со мной цареву милость!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}Уходят.{/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
 
 label Act_3:
-    play music "audio/music/24.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/99.mp3" fadeout 1.0 fadein 1.0
 
-    scene 29 with fade
+    scene 40 with fade
 
-    "{b}II{/b}"
+    "{b}ДЕЙСТВИЕ ПЕРВОЕ{/b}"
 
     menu:
-        "{color=#000}СЦЕНА ПЕРВАЯ{/color}":
-            jump Characters_8
-        "{color=#000}(СЦЕНА ПЕРВАЯ) ЛИЦА:{/color}":
-            jump Act_3_Scene_1
-        "{color=#000}СЦЕНА ВТОРАЯ{/color}":
-            jump Characters_9
-        "{color=#000}(СЦЕНА ВТОРАЯ) ЛИЦА:{/color}":
-            jump Act_3_Scene_3
-        "{color=#000}СЦЕНА ТРЕТЬЯ{/color}":
-            jump Characters_10
-        "{color=#000}(СЦЕНА ТРЕТЬЯ) ЛИЦА:{/color}":
-            jump Act_3_Scene_5
+        "{color=#000}ЯВЛЕНИЕ 1{/color}":
+            jump Act_0_Scene_1
+        "{color=#000}ЯВЛЕНИЕ 2{/color}":
+            jump Act_0_Scene_2
+        "{color=#000}ЯВЛЕНИЕ 3{/color}":
+            jump Act_0_Scene_3
+        "{color=#000}ЯВЛЕНИЕ 4{/color}":
+            jump Act_0_Scene_4
+        "{color=#000}ЯВЛЕНИЕ 5{/color}":
+            jump Act_0_Scene_5
+        "{color=#000}ЯВЛЕНИЕ 6{/color}":
+            jump Act_0_Scene_6
         "{color=#000}>{/color}":
-            jump Further_Act_3_Scene_5_1
+            jump Further_Act_0_Scene_6_1
 
-label Further_Act_3_Scene_5_1:
+label Further_Act_0_Scene_6_1:
     menu:
-        "{color=#000}СЦЕНА ЧЕТВЕРТАЯ{/color}":
-            jump Characters_11
-        "{color=#000}(СЦЕНА ЧЕТВЕРТАЯ) ЛИЦА:{/color}":
+        "{color=#000}ЯВЛЕНИЕ 7{/color}":
+            jump Act_0_Scene_7
+        "{color=#000}ЯВЛЕНИЕ 8{/color}":
+            jump Act_0_Scene_8
+        "{color=#000}ЯВЛЕНИЕ 9{/color}":
+            jump Act_0_Scene_9
+        "{color=#000}ЯВЛЕНИЕ 10{/color}":
+            jump Act_0_Scene_10
+        "{color=#000}ЯВЛЕНИЕ 11{/color}":
+            jump Act_0_Scene_11
+        "{color=#000}ЯВЛЕНИЕ 12{/color}":
+            jump Act_0_Scene_12
+        "{color=#000}>{/color}":
+            jump Further_Act_0_Scene_12_2
+
+label Further_Act_0_Scene_12_2:
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 13{/color}":
+            jump Act_0_Scene_13
+        "{color=#000}ЯВЛЕНИЕ 14{/color}":
+            jump Act_0_Scene_14
+
+    label Act_0_Scene_1:
+        "{b}ЯВЛЕНИЕ 1{/b}"
+
+        show pososhkov at left
+        show velskij at truecenter
+        show izvedov at right
+
+        show pososhkov at left
+        show velskij at truecenter
+        show izvedov at right
+
+        "<{i}Г-жа Любская, Оленька, Наташа, Любский, Посошков, Вельский и Изведов.{/i}>"
+
+        hide lyubskaya
+        hide olenka
+        hide natasha
+        hide lyubskij
+        hide pososhkov
+        hide velskij
+        hide izvedov
+
+        hide lyubskaya
+        hide olenka
+        hide natasha
+        hide lyubskij
+        hide pososhkov
+        hide velskij
+        hide izvedov
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        "<{i}Все сидят, включая Изведова и Наташу.{/i}>"
+
+        hide natasha
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Итак, мои друзья, спектаклю должно быть"
+
+        lyubskij "Сегодня ввечеру. Прошу не позабыть,"
+
+        lyubskij "Что ровно в семь часов начнется представленье;"
+
+        lyubskij "Потом дадим мы бал, и, верно, угощенье"
+
+        lyubskij "Весь город удивит. Не правда ли, жена?"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Конечно, удивит. Ну, те ли времена,"
+
+        lyubskaya "Чтоб праздники давать?"
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Опять браниться стала!"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Да, да! Рублей пятьсот как будто б не бывало."
+
+        lyubskaya "К чему, сударь, зачем? Большая ведь нужда..."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "И полно, матушка! - Ну, что же, господа?"
+
+        lyubskij "Пора бы, кажется, за пробу приниматься."
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Конечно бы пора; но должно всем собраться."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Слуги и дяди нет."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да что за чудеса!"
+
+        lyubskij "Их вечно нет как нет."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}А скоро два часа."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Мне кажется, в таких делах единодушно"
+
+        pososhkov "Все действовать должны, а это уж и скучно,"
+
+        pososhkov "Всё я, да я: толкуй, показывай, учи,"
+
+        pososhkov "Пиесу сочиняй, со всеми хлопочи."
+
+        pososhkov "За что?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ох, эти мне Бирюлькин и Лилеев!"
+
+        lyubskij "Всегда последние."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}От этих нам злодеев"
+
+        pososhkov "Житья уж вовсе нет, играют хуже всех ..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Сердись на них, брани, - а им лишь только смех."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Последней не хотят порядком сделать пробы."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Изволь их ждать! Да что за важные особы?"
+
+        lyubskij "Уж им опаздывать! - Бирюлькин, например,"
+
+        lyubskij "Ведь барин небольшой - в отставке землемер,"
+
+        lyubskij "Актер весьма плохой и человек прескучный."
+
+        lyubskij "По милости моей имеет хлеб насущный,"
+
+        lyubskij "И если б только я хотел его прижать..."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Вот то-то, батюшка, всех хочешь одолжать,"
+
+        lyubskaya "Готов хоть всё отдать за пару комплиментов."
+
+        lyubskaya "Он год по векселю не платит и процентов,"
+
+        lyubskaya "А ты, сударь, молчишь."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну да, теперь молчу,"
+
+        lyubskij "Зато уж после я порядкам проучу,"
+
+        lyubskij "И если вечером по нашему желанью"
+
+        lyubskij "Пиеса не пойдет, так вексель ко взысканыо."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Он болен, может быть."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И это не резон,"
+
+        lyubskij "Уж мне наскучило терпеть."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да вот и он."
+
+        hide pososhkov
+
+    label Act_0_Scene_2:
+        "{b}ЯВЛЕНИЕ 2{/b}"
+
+        show biryulkin at truecenter
+
+        show biryulkin at truecenter
+
+        "<{i}Те же и Бирюлькин.{/i}>"
+
+        hide biryulkin
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Помилуй, батюшка! на что это похоже?"
+
+        hide lyubskij
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Простите, виноват!"
+
+        hide biryulkin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Всегда одно и то же!"
+
+        hide pososhkov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Делишки завелись: сейчас в Палате был,"
+
+        biryulkin "Насилу вырвался."
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}А это позабыл,"
+
+        lyubskij "Что ты еще путем своей не знаешь роли?"
+
+        hide lyubskij
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Не смея выступить никак из вашей воли,"
+
+        biryulkin "Я всячески твержу, учусь, измучен весь, -"
+
+        biryulkin "И если б не дела..."
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Дела-то, сударь, здесь."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Не знаете ль, куда Лилеев наш девался?"
+
+        hide pososhkov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Гуляет, кажется, сейчас лишь мне попался."
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Гуляет! Боже мой!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Ну есть ли совесть в нем!"
+
+        pososhkov "Уж скоро третий час, когда же мы начнем?"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Хоть этот раз его порядком побраните."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Всё это, братец, ты."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}За что ж меня вините?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "За то, что без тебя мне в ум бы не пришло"
+
+        lyubskij "Театры заводить."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Когда на то пошло,"
+
+        pososhkov "Позвольте ж вам сказать, и вы не слишком правы:"
+
+        pososhkov "Театр мы завели для собственной забавы,"
+
+        pososhkov "Так вам бы пригласить порядочных людей,"
+
+        pososhkov "На что Лилеев вам?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Уж подлинно злодей!"
+
+        lyubskij "И как смел думать он, что может нас дурачить?"
+
+        lyubskij "Откуда спесь взялась? И что он в свете значит?"
+
+        lyubskij "Беспутный мот, давно известный за глупца,"
+
+        lyubskij "Седой столетний франт, пленяющий сердца,"
+
+        lyubskij "Всемирный шут, нахал, болтун и лжец бесстыдный,"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "А сверх того талант нимало не завидный:"
+
+        pososhkov "Бормочет прозою, коверкает стихи,"
+
+        pososhkov "Ну словом, истинно актер он за грехи."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Какой актер! Пустой актеришка, превздорный!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Тс! тише, он идет."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Так что ж?.."
+
+        hide lyubskij
+
+    label Act_0_Scene_3:
+        "{b}ЯВЛЕНИЕ 3{/b}"
+
+        show lileev at truecenter
+
+        show lileev at truecenter
+
+        "<{i}Те же и Лилеев.{/i}>"
+
+        hide lileev
+
+        hide lileev
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        hide lileev
+
+        show lileev at truecenter
+
+        hide lileev
+
+        show lileev at truecenter
+
+        lileev "<{i}(кланяясь){/i}>"
+
+        show lileev at truecenter
+
+        show lileev at truecenter
+
+        lileev "{space=400}Слуга покорный!"
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Насилу дождались."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Здорово, милый мой!"
+
+        lyubskij "А я было хотел послать к тебе домой."
+
+        lyubskij "Скажи, пожалуйста, боишься ли ты бога!.."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "А что?"
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Уж третий час."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Я опоздал немного."
+
+        lileev "Ну что же? Не беда."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Конечно, не беда,"
+
+        pososhkov "И это может быть со всяким - иногда,"
+
+        pososhkov "Но каждый раз..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Мы всё сносили терпеливо,"
+
+        lyubskij "Теперь позволь сказать: ведь это неучтиво,"
+
+        lyubskij "Заставить ждать..."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Так что ж? Вина невелика."
+
+        lileev "К тому ж вы знаете, я ролю старика"
+
+        lileev "Взялся играть у вас единственно из дружбы."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Но вы..."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Ах, боже мой! да это хуже службы!"
+
+        lileev "Неужто должен я для ваших всех затей"
+
+        lileev "Забыть родных своих, знакомых и друзей,"
+
+        lileev "С утра до вечера ничем не заниматься,"
+
+        lileev "От всех веселостей охотой отказаться -"
+
+        lileev "И даже не гулять? - Нет, нет! благодарю!"
+
+        lileev "Да этак я себя в неделю уморю."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Зачем брались..."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Зачем?.. Вы точно, сударь, правы:"
+
+        lileev "Не должно бы никак, для собственной мне славы,"
+
+        lileev "Везде любовников играя молодых,"
+
+        lileev "Показывать себя в таких ролях пустых."
+
+        lileev "Возьмите, вот она!"
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И как тебе не стыдно!"
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "Да что ж? помилуйте! Мне это уж обидно:"
+
+        lileev "Я жертвую собой, хочу вам угодить,"
+
+        lileev "Меня ж бранят."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну вот! нельзя и пошутить."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        hide lileev
+
+        show lileev at left
+        show pososhkov at right
+
+        hide lileev
+
+        show lileev at left
+        show pososhkov at right
+
+        lileev "<{i}(Посошкову){/i}>"
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        lileev "Я, кажется, от вас нимало не завишу."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "И полно, брат!"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Прочесть позволите ль афишу?"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "А что, затейлива?"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Старался сколько мог."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Напрасно не сказал, а то бы я помог."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Уж верно, хороша! Он был актер придворный"
+
+        lyubskij "И малый умница - досужий и проворный."
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(кланяясь){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Помилуйте!"
+
+        hide izvedov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Да, да! и ловок и остер."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "К тому ж, при нем скажу, отличнейший суфлер."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(читает афишу){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"Сегодня, в пятницу, в доме Степана Ивановича Любского Обществом любителей театра представлена будет в первый раз \"Осмеянный опекун\", комедия в трех действиях, сочинение г-на Посошкова...\""
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Нельзя ли это вон?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Зачем, сударь? Напрасно!"
+
+        lyubskij "Комедия твоя написана прекрасно."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Но я бы не хотел..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И полно, братец, вздор!"
+
+        lyubskij "Пусть знают все, что ты и автор и актер."
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(читает){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"Действующие лица: г. Сундуков, опекун Лизы - Авдей Михайлович Посошков; Лиза, богатая сирота - Ольга Дмитриевна Любская...\""
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Смотри, племянница, всю ролю знать до слова!"
+
+        hide lyubskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Она уж у меня недели две готова."
+
+        hide olenka
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(читает){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"Эраст, влюбленный в Лизу, Андрей Степанович Вельский\"."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Вот истинный талант! От вас я без души."
+
+        pososhkov "В любовных сценах вы отлично хороши:"
+
+        pososhkov "Натура чистая!"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(читает){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"Сурский, дядя Лизы Сергей Иванович Лилеев; Антропка, Эрастов слуга Максим Петрович Бирюлькин; Машенька, служанка Лизы - госпожа... госпожа...\""
+
+        izvedov "{space=400}Признаться откровенно,"
+
+        izvedov "Об вас не сказано."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}А должно непременно."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Конечно, так, но я ужасно затруднен:"
+
+        izvedov "Не знаю, как назвать."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ты, право, мне смешон,"
+
+        lyubskij "Неужто позабыл? Она питомка наша,"
+
+        lyubskij "Дочь крестная моя, по имени Наташа."
+
+        lyubskij "Ну вот тебе и всё!"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Я это знаю сам."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Так что ж еще?"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Нельзя ж актрис по именам"
+
+        izvedov "В афише называть, - ведь это неучтиво:"
+
+        izvedov "Фамилия нужна."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Она, брат, неспесива."
+
+        lyubskij "Как хочешь назови. Отец ее Панфил"
+
+        lyubskij "Был управителем, а чванства не любил,"
+
+        lyubskij "Служил мне попросту и верен был до гроба,"
+
+        lyubskij "За то и дочь его люблю."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Когда же проба?"
+
+        pososhkov "Мы вечно не начнем."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Позвольте дочитать."
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(Читает){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"Начало в 7 часов. Все гости равно любезны хозяину, следовательно, и места все равные; плата за оные дружба и снисхождение зрителей: это отменно дорого, но хозяин дешевле уступить не может\"."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Прекрасно, милый мой!"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Так можно и в печать?"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Пошли скорей. Смотри, чтоб к вечеру поспела."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Теперь всё кончено, пора бы нам за дело."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "А что, позавтракать у вас охоты нет?"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "И, батюшка! к чему? Испортите обед."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Всё лучше закусить."
+
+        hide lyubskij
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}И я такой же веры."
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Пойдемте ж, господа, - по рюмочке мадеры,"
+
+        lyubskij "А там и на театр."
+
+        hide lyubskij
+
+        show izvedov at left
+        show natasha at right
+
+        show izvedov at left
+        show natasha at right
+
+        "<{i}Уходят все. Изведов останавливает Наташу.{/i}>"
+
+        hide izvedov
+        hide natasha
+
+        hide izvedov
+        hide natasha
+
+    label Act_0_Scene_4:
+        "{b}ЯВЛЕНИЕ 4{/b}"
+
+        show izvedov at left
+        show natasha at right
+
+        show izvedov at left
+        show natasha at right
+
+        "<{i}Изведов и Наташа.{/i}>"
+
+        hide izvedov
+        hide natasha
+
+        hide izvedov
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Постой, моя душа!"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Ну что?"
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Сегодня ты как ангел хороша."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Благодарю."
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(Хочет идти.){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=200}Куда ж?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}С тобой болтать пустого"
+
+        natasha "Мне некогда, прощай!"
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Позволь сказать два слова."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Какой привязчивый! - Чего же хочешь ты?"
+
+        natasha "Ну, говори скорей."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}О, чудо красоты!"
+
+        izvedov "Собор всех прелестей! и горничных царица!"
+
+        izvedov "Скажи, доколь судьбы жестокая десница,"
+
+        izvedov "Или ясней сказать: свирепая рука ..."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Ты что-то говоришь некстати свысока."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Служив пять месяцев с успехом Мельпомене,"
+
+        izvedov "Я точно так всегда говаривал на сцене."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Да здесь ведь не театр, и ты уж не актер."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Зато артист в душе - и страшный аматер."
+
+        izvedov "Но дело не о том: когда же наша свадьба?"
+
+        izvedov "Ты знаешь, у меня прекрасная усадьба"
+
+        izvedov "И домик щегольской; есть деньги по рукам,"
+
+        izvedov "И если крестный твой отец поможет нам,"
+
+        izvedov "Откроем здесь театр; лишь надобно терпенье,"
+
+        izvedov "А труппу заведем, без всякого сомненья;"
+
+        izvedov "Ты будешь представлять цариц, а я царей."
+
+        izvedov "Ну, что же, ангел мой, решайся поскорей."
+
+        izvedov "Тут думать нечего."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Прошу не торопиться."
+
+        natasha "Во-первых, барин мой..."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Он, верно, согласится."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Всё так, но признаюсь, мне свадьба в ум нейдет;"
+
+        natasha "Как вспомню барышню, так сердце и замрет."
+
+        natasha "Вот, милый, каково остаться сиротою!"
+
+        natasha "Что к Вельскому она привязана душою."
+
+        natasha "Ты это знаешь сам, а что еще верней -"
+
+        natasha "Несносный Посошков всего противней ей,"
+
+        natasha "И несмотря на то, ему уж слово дали."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Неужто Вельскому сегодня отказали?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "О, нет еще: теперь он надобен для нас."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Так завтра поутру..."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Решительный отказ."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "А всё, чай, дядюшка! Да как ему не стыдно"
+
+        izvedov "Губить племянницу! - Подумать-то обидно:"
+
+        izvedov "Ну этот Посошков годится ль ей в мужья?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "На месте Вельского на всё б решилась я."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Не знаю, как тебе, а мне он очень жалок:"
+
+        izvedov "Влюблен, надежды нет, и к этому вдобавок"
+
+        izvedov "Сегодня должен с ней любовника играть -"
+
+        izvedov "Не больно ли, скажи?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Уж нечего сказать."
+
+        natasha "Поверишь ли? На них измучилась я глядя."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "А что, мой друг, ведь ей Честонов также дядя."
+
+        izvedov "Неужели и он не хочет ей помочь?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "О нет! Он барышню любил всегда, как дочь,"
+
+        natasha "И этой свадьбою не может быть доволен,"
+
+        natasha "Но он теперь в Москве, два месяца как болен"
+
+        natasha "И - об заклад побьюсь - не знает ничего."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Нельзя ли как-нибудь уведомить его?"
+
+        izvedov "Что, если б ты к нему об этом написала?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Недолго написать, да пользы будет мало."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "А я так думаю, что он поможет нам."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Ох, трудно, милый мой! Старик наш так упрям,"
+
+        natasha "Что Вельскому помочь нет средства никакого."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Постигнуть не могу! И как для Посошкова"
+
+        izvedov "Решиться отказать такому молодцу!"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Молчи! Мне кажется, подъехали к крыльцу..."
+
+        natasha "Ну, так и есть."
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(Хочет идти.){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Постой! Чего ж ты испугалась?"
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Пусти! И так с тобой я слишком заболталась."
+
+        natasha "Прощай!"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(Убегает.){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        hide natasha
+
+    label Act_0_Scene_5:
+        "{b}ЯВЛЕНИЕ 5{/b}"
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        izvedov "<{i}(один, глядя вслед за Наташей){/i}>"
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}Вот золото! - Решительно скажу:"
+
+        izvedov "Женясь на ней, театр я смело завожу,"
+
+        izvedov "С такой актрисою мне нечего бояться."
+
+        izvedov "Ей только надобно на сцену показаться,"
+
+        izvedov "А то сведет с ума всю нашу молодежь."
+
+        izvedov "И подлинно, такой субретки не найдешь,"
+
+        izvedov "Хоть из конца в конец объезди всю Европу;"
+
+        izvedov "А здесь, в губернии, - сыграет и Меропу!"
+
+        hide izvedov
+
+    label Act_0_Scene_6:
+        "{b}ЯВЛЕНИЕ 6{/b}"
+
+        show izvedov at left
+        show chestonov at right
+
+        show izvedov at left
+        show chestonov at right
+
+        "<{i}Изведов и Честонов.{/i}>"
+
+        hide izvedov
+        hide chestonov
+
+        hide izvedov
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Возможно ль! Николай Степаныч - это вы!"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Изведов! Здравствуй, брат!"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Давно ли из Москвы?"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Вчера приехал в ночь."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Вы нас совсем забыли."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Я болен был; к тому ж мне голову вскружили,"
+
+        chestonov "Измучили совсем проклятые дела."
+
+        chestonov "Ну, что племянница? Здорова, весела?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "О нет, сударь! Она теперь..."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Степенней стала?"
+
+        chestonov "Тем лучше для нее."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Вы помните, бывало,"
+
+        izvedov "Смеется целый день, а нынче иногда..."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Не резвится? Так что ж? На всё свои года,"
+
+        chestonov "И резвость прежняя была бы не у места:"
+
+        chestonov "Ей скоро двадцать лет, к тому ж она невеста..."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Так вы уж знаете?.."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Сегодня поутру"
+
+        chestonov "Узнал я всё. Как жаль покойную сестру!"
+
+        chestonov "Какая б радость ей! Но жалобы напрасны:"
+
+        chestonov "Ее не воскресишь!"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(с удивлением){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}Так вы, сударь, согласны?"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "На что?.. На свадьбу их? А почему ж не так?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(в сторону){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Возможно ли! И вы!.. Попался я впросак!"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "И что тут странного! - Что Оленька счастлива,"
+
+        chestonov "Сомненья в этом нет. Хоть очень прихотлива"
+
+        chestonov "На выбор женихов покойница была,"
+
+        chestonov "А лучше б мужа ей, конечно, не нашла:"
+
+        chestonov "Он добр, умен; хотя фамилии незнатной,"
+
+        chestonov "Но старый дворянин, наружности приятной..."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Помилуйте!"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}К тому ж отменно скромен, тих..."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Кто? Он, сударь?"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Ну да! Племянницын жених."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Так вы найдете в нем большую перемену,"
+
+        izvedov "Позвольте вам сказать..."
+
+        hide izvedov
+
+    label Act_0_Scene_7:
+        "{b}ЯВЛЕНИЕ 7{/b}"
+
+        show biryulkin at truecenter
+
+        show biryulkin at truecenter
+
+        "<{i}Те же и Бирюлькин.{/i}>"
+
+        hide biryulkin
+
+        hide biryulkin
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        biryulkin "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        biryulkin "{space=400}Вас ждут давно на сцену."
+
+        hide biryulkin
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Начните без меня."
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Без вас нельзя никак."
+
+        hide biryulkin
+
+        show biryulkin at truecenter
+
+        hide biryulkin
+
+        show biryulkin at truecenter
+
+        biryulkin "<{i}(Тихо){/i}>"
+
+        show biryulkin at truecenter
+
+        show biryulkin at truecenter
+
+        biryulkin "Кто этот господин? Честонов, точно так!"
+
+        biryulkin "Позвольте, батюшка, с приездом вас поздравить."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "А, старый друг!"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Во сне не мог себе представить"
+
+        biryulkin "Такой я радости, - и вижу наяву."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Как поживаешь, брат?"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Да так, кой-как живу."
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        biryulkin "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        biryulkin "Ступайте же!"
+
+        hide biryulkin
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Мы вас должны оставить оба:"
+
+        izvedov "На пробу нас зовут."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да что у вас за проба?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Сегодня здесь театр."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=200}Театр?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}А после бал."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Театр? - Вот этого никак не ожидал!"
+
+        chestonov "Кой черт! Да кто ж у вас? Хозяин сам актером?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "О нет, сударь!"
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=200}Так вы?"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Я только что суфлером,"
+
+        izvedov "А вот один артист."
+
+        hide izvedov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Бирюлькин! Что ты, брат!"
+
+        chestonov "В своем ли ты уме!"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Отец! и сам не рад,"
+
+        biryulkin "Да делать нечего."
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        hide biryulkin
+
+        show biryulkin at left
+        show izvedov at right
+
+        biryulkin "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        biryulkin "{space=400}Уж вам прочтут рацею!"
+
+        biryulkin "Ступайте поскорей!"
+
+        hide biryulkin
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=200}А вы, сударь?"
+
+        hide izvedov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Успею."
+
+        biryulkin "Я в первом действии совсем не выхожу."
+
+        hide biryulkin
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at left
+        show chestonov at right
+
+        hide izvedov
+
+        show izvedov at left
+        show chestonov at right
+
+        izvedov "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        izvedov "Позвольте мне! - Об вас я братцу доложу."
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(Уходит.){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+    label Act_0_Scene_8:
+        "{b}ЯВЛЕНИЕ 8{/b}"
+
+        show biryulkin at left
+        show chestonov at right
+
+        show biryulkin at left
+        show chestonov at right
+
+        "<{i}Бирюлькин и Честонов.{/i}>"
+
+        hide biryulkin
+        hide chestonov
+
+        hide biryulkin
+        hide chestonov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(улыбаясь){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "Так вы, сударь, актер? Неужто в самом деле?"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Эх, батюшка! Чуть-чуть душа осталась в теле!"
+
+        biryulkin "Совсем замучили! - Пускай бы два стиха!"
+
+        biryulkin "Нет, сотню выучи!.. А память-та плоха:"
+
+        biryulkin "Твердить примусь - беда! начнет душить зевота,"
+
+        biryulkin "К тому же у меня и кашель и перхота -"
+
+        biryulkin "Ну что я за актер!"
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Нельзя же без труда"
+
+        chestonov "Актером быть. Когда старик в твои года"
+
+        chestonov "Захочет в резвостях тягаться с молодыми,"
+
+        chestonov "Так должен всё сносить."
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Конечно, так - кто с ними"
+
+        biryulkin "Проказит заодно, а я, почтенный мой,"
+
+        biryulkin "И знать их не хочу: мне надобен покой."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Но разве ты не мог отделаться от роли?"
+
+        chestonov "Зачем брался?"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Зачем? Возьмешься поневоле,"
+
+        biryulkin "Когда на старости пугнут тебя судом."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Судом?"
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Я думаю, известны вы о том,"
+
+        biryulkin "Что братцу вашему еще в запрошлом лете,"
+
+        biryulkin "Имея на беду покупочку в предмете,"
+
+        biryulkin "Рублей до тысячи я как-то задолжал."
+
+        biryulkin "Хоть тысяча рублей неважный капитал,"
+
+        biryulkin "Но так как у меня весь хлеб побило градом,"
+
+        biryulkin "А что осталося, пришлось продать с накладом,"
+
+        biryulkin "К тому же мужички не выслали оброк,"
+
+        biryulkin "Так деньги я внести по векселю не мог."
+
+        biryulkin "Ваш братец, знаете, зовет меня соседом"
+
+        biryulkin "И жалует. Ну вот - однажды за обедом"
+
+        biryulkin "Изволит говорить: \"Послушай-ка, сосед,"
+
+        biryulkin "Заводим мы театр, в тебе хоть толку нет,"
+
+        biryulkin "Однако ж так и быть, ступай и ты в актеры\"."
+
+        biryulkin "Вот я было и прочь! - Куда-те! Хоть до ссоры!"
+
+        biryulkin "Как крикнет, батюшка: \"Со мною не шути!"
+
+        biryulkin "Прошу играть, не то - по векселю плати!\""
+
+        biryulkin "-\"Да что я за актер? Ведь мне шестой десяток\"."
+
+        biryulkin "- \"Не хочешь, так плати!\" - \"Дождитеся хоть святок!"
+
+        biryulkin "Я всё с процентами сполна вам заплачу\"."
+
+        biryulkin "- \"Нет! В суд!\" - \"Помилуйте!\" - \"И слышать не хочу!"
+
+        biryulkin "А впрочем, не играй - ведь я, брат, не неволю\"."
+
+        biryulkin "Что делать? Замолчал. В карман пихнули ролю,"
+
+        biryulkin "Очнуться не дали..."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}И жалко и смешно."
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Дурачить так меня, ей-ей, отец, грешно!"
+
+        biryulkin "Во мне же вовсе нет способностей природных."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(улыбаясь){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "А, верно, ты попал на роли благородных"
+
+        chestonov "Отцов, - а может быть, и знатный господин?.."
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "И должно б так: ведь я природный дворянин."
+
+        biryulkin "Так нет, сударь. Меня упрятали в холопы."
+
+        biryulkin "Ну, легче б, кажется, идти мне в рудокопы,"
+
+        biryulkin "А делать нечего: хоть плачь, а будь актер."
+
+        biryulkin "Век с честию служил, уж двадцать лет майор -"
+
+        biryulkin "И мне лакеем быть!.."
+
+        hide biryulkin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}По чести, это больно."
+
+        hide chestonov
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Вестимо, батюшка! да дело-то не вольно."
+
+        biryulkin "Одно из двух: плати - не то играй слугу,"
+
+        biryulkin "Попробуй отказать, так он согнет в дугу."
+
+        hide biryulkin
+
+    label Act_0_Scene_9:
+        "{b}ЯВЛЕНИЕ 9{/b}"
+
+        show lyubskij at left
+        show lyubskaya at truecenter
+        show olenka at right
+
+        show lyubskij at left
+        show lyubskaya at truecenter
+        show olenka at right
+
+        "<{i}Те же, Любский, Любская и Оленька.{/i}>"
+
+        hide lyubskij
+        hide lyubskaya
+        hide olenka
+
+        hide lyubskij
+        hide lyubskaya
+        hide olenka
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(обнимается){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Насилу бог принес! Какими, брат, судьбами?"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Хотелось поскорей увидеться мне с вами."
+
+        hide chestonov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Любезный дядюшка!"
+
+        hide olenka
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(обнимая ее){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "{space=400}Здорово, милый друг."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ты здесь? - Послушай, брат! Теперь ей недосуг -"
+
+        lyubskij "Позволь..."
+
+        hide lyubskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}Ах, дядюшка!.. - А я было хотела..."
+
+        hide olenka
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ступай, сударыня!"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=200}Зачем?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да так, есть дело."
+
+        hide lyubskij
+
+        show lyubskij at left
+        show biryulkin at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show biryulkin at right
+
+        lyubskij "<{i}(Бирюлькину){/i}>"
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        lyubskij "А ты что здесь?"
+
+        hide lyubskij
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Охти! Попался я в беду!"
+
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ну, что стоишь! пошел!"
+
+        hide lyubskij
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Иду, сударь, иду!"
+
+        hide biryulkin
+
+        show biryulkin at left
+        show olenka at right
+
+        show biryulkin at left
+        show olenka at right
+
+        "<{i}Бирюлькин и Оленька уходят.{/i}>"
+
+        hide biryulkin
+        hide olenka
+
+        hide biryulkin
+        hide olenka
+
+    label Act_0_Scene_10:
+        "{b}ЯВЛЕНИЕ 10{/b}"
+
+        show olenka at truecenter
+
+        show olenka at truecenter
+
+        "<{i}Те же, без Бирюлькина и Оленьки.{/i}>"
+
+        hide olenka
+
+        hide olenka
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Как это, батюшка, пустился ты в дорогу?"
+
+        lyubskaya "Проезду вовсе нет."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Однако ж, слава богу,"
+
+        chestonov "Доехал как-нибудь."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ты, верно, брат, устал?"
+
+        lyubskij "Но делать нечего: у нас сегодня бал."
+
+        lyubskij "Как хочешь, а прошу со мною веселиться."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Нельзя ль помиловать?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Вот это не годится."
+
+        lyubskij "В столице побывал, так с ним не говори."
+
+        lyubskij "Наш город не Москва, однако ж посмотри,"
+
+        lyubskij "Как мы пируем здесь - не хуже вашей знати!"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Ох, эти мне пиры! Совсем бы нам некстати!"
+
+        lyubskaya "Доходов нет..."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну, так! Одно всё в голове!"
+
+        lyubskij "Да полно, матушка!"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        lyubskij "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Услышат и в Москве,"
+
+        lyubskij "Как мы живем. Ни в чем не будет упущенья:"
+
+        lyubskij "И танцы и театр - а что за угощенье!"
+
+        lyubskij "Какого подадут отличного вина!.."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "И верно, выпьют всё!"
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Уймешься ль ты, жена?"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        lyubskij "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        lyubskij "Послушай, милый мой, сказать ли по секрету?"
+
+        lyubskij "Есть свадебка у нас."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да я уж новость эту"
+
+        chestonov "Узнал и без тебя и всей душою рад."
+
+        chestonov "Жених мне по сердцу."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Не правда ли, что клад?"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Живет расчетисто, богат и здешний житель."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Преумный человек! Актер и сочинитель."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Я этого не знал."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да это ничего:"
+
+        lyubskij "Здесь в обществах и жить не могут без него,"
+
+        lyubskij "На всё готов: завесть игру, затеять фанты..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Так Вельский от меня скрывал свои таланты?"
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Что, что?"
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}По чести! Я совсем не знал об них."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Как Вельский? - Что за вздор!"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Кто ж Оленькин жених?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да разве жениха не может быть другого?"
+
+        lyubskij "С чего ты взял?"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Она идет за Посошкова."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Возможно ли!"
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Жених, надеюсь, не худой!"
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Старик!.."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Какой старик! Он малый молодой."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Ему за пятьдесят..."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Но все единогласно"
+
+        lyubskij "Со мною повторят, что можно даже страстно"
+
+        lyubskij "В него быть влюблену, - племянница сама..."
+
+        lyubskij "Со временем его полюбит без ума."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Когда со временем, так, видно, это значит..."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Что, может быть, теперь немного и поплачет,"
+
+        lyubskaya "Да слюбится вперед."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Эй! на душу греха"
+
+        chestonov "Не должно брать."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}На что ей лучше жениха?"
+
+        lyubskij "Известен всем, умен."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}И к этому придачи"
+
+        lyubskaya "Шестьсот наличных душ, луга, лесные дачи..."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "И десять тысяч душ без собственной души"
+
+        chestonov "Не значат ничего."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Эй, братец, не греши!"
+
+        lyubskaya "Не значит ничего богатое именье!"
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Богатство при слезах - плохое утешенье,"
+
+        chestonov "Оно должно быть здесь! - Поверь, кто сердцем чист..."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Ты судишь, батюшка, как сущий атеист:"
+
+        lyubskaya "Ведь деньги божий дар."
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}А чаще - наказанье."
+
+        chestonov "Но дело не о том. При первом я свиданьи"
+
+        chestonov "Намерен Волгина порядком побранить:"
+
+        chestonov "Он дядя Вельскому, и, кажется, шутить"
+
+        chestonov "Насчет племянника ему бы неприлично..."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Как! Волгин здесь?"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да, здесь! и говорит публично"
+
+        chestonov "О свадьбе Вельского."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}С чего ж он это взял?"
+
+        lyubskij "Хоть Вельский сватался..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Но ты ведь отказал?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Не то чтоб отказал... однако не дал слова."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Но если Оленька идет за Посошкова,"
+
+        chestonov "Так должно отказать."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Я это знаю сам."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Зачем же ты молчишь?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ответ я завтра дам,"
+
+        lyubskij "Всё кончу поутру."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}А что ж тебе мешает"
+
+        chestonov "Сказать теперь?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(вполголоса){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Нельзя! Сегодня он играет."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Сегодня? У тебя?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Вот то-то и беда!"
+
+        lyubskij "Пришлось молчать. Зато уж после никогда"
+
+        lyubskij "Я Вельскому к себе и ездить не позволю."
+
+        lyubskij "Лишь нынче б как-нибудь сыграл свою он ролю,"
+
+        lyubskij "А завтра кончено! Решительный отказ!"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Я, право, от тебя не ждал таких проказ:"
+
+        chestonov "Во всех делах твоих и тени нет рассудка."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "И, полно! Шутишь, брат."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Какая это шутка!"
+
+        chestonov "Ну, пусть племянница идет за старика,"
+
+        chestonov "За что ж из Вельского вам делать дурака?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Но мой театр..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Скажи! походит ли на дело?"
+
+        chestonov "По милости твоей теперь он может смело"
+
+        chestonov "С утра до вечера с ней роли проходить,"
+
+        chestonov "Шептать ей на ухо, о страсти говорить, -"
+
+        chestonov "И это всё сносить ты должен терпеливо."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Конечно, так, мой друг! Ты судишь справедливо,"
+
+        lyubskij "Да как же мой театр?.."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Эй, братец, не шути!"
+
+        chestonov "Ну, если Оленька задумает уйти?.."
+
+        chestonov "Хотя племянница во всем тебе послушна,"
+
+        chestonov "Но если к Вельскому она неравнодушна..."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Недолго до греха!"
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ты точно, милый, прав!"
+
+        lyubskij "И если б не театр..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Какой несносный нрав!"
+
+        chestonov "Кой черт! Да что тебя к театру привязало?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Меня?.. По мне, его хоть век бы не бывало,"
+
+        lyubskij "Но делать нечего - и плачу, да люблю:"
+
+        lyubskij "Ведь я, мой друг, один весь город веселю,"
+
+        lyubskij "Так хочешь или нет, а рассылай билеты."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Да, батюшка! Что день, то новые банкеты..."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Молчи, жена!"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Ну, вот! Всегда один ответ."
+
+        lyubskaya "Помилуй, мой отец! Расходам счету нет."
+
+        lyubskaya "Уж этот нас театр доедет непременно."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Пустое! Вздор! - Хотя, признаться откровенно,"
+
+        lyubskij "Он несколько и мне становится тяжел."
+
+        lyubskij "Что грех таить! С тех пор как я его завел,"
+
+        lyubskij "Покою нет; когда ж дойдет до представленья,"
+
+        lyubskij "Вот тут-то, брат, вертись: костюмы, освещенье..."
+
+        lyubskij "Ну, словом, голова у всех пойдет кругом."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Весь дом в последний раз поставили вверх дном;"
+
+        lyubskaya "А сколько извели холстины на кулисы!.."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Спасибо, что теперь домашние актрисы,"
+
+        lyubskij "А то - хоть из дому беги! С ума сойдешь."
+
+        lyubskij "Бывало, никого на пробу не сберешь:"
+
+        lyubskij "То некогда прийти, то роля не готова,"
+
+        lyubskij "То на вечер звана, другая нездорова..."
+
+        lyubskij "Поверишь ли? Тоска! - Подчас хоть в петлю рад."
+
+        lyubskij "Сегодня, например, хоть всё идет на лад,"
+
+        lyubskij "А несмотря на то дрожу, боюсь..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Чего же?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ну, если мой театр, чего избави боже!"
+
+        lyubskij "Навыворот пойдет? Что делать мне тогда?"
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "А что! И подлинно, большая ведь беда!"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Шути себе, шути! А я меж тем уверен,"
+
+        lyubskij "Что если бы и ты..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Я спорить не намерен,"
+
+        chestonov "А просто мнение мое тебе скажу:"
+
+        chestonov "Что ты завел театр, нимало не тужу,"
+
+        chestonov "Я сам любил играть, но только не для славы."
+
+        chestonov "Бывало - в два часа, для собственной забавы,"
+
+        chestonov "Готов я вытвердить хоть дюжину страниц,"
+
+        chestonov "Но если эта страсть выходит из границ,"
+
+        chestonov "То верь, мой друг, придет с веселостью проститься"
+
+        chestonov "И скуки ждать одной. Тот худо веселится,"
+
+        chestonov "Кто, смыслу здравому идя наперелом,"
+
+        chestonov "Забаву делает каким-то ремеслом."
+
+        chestonov "Вот сам ты, например, скажи мне, ради бога..."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да ты не знаешь, брат, судить-та будут строго."
+
+        lyubskij "Здесь много знатоков, недолго до беды:"
+
+        lyubskij "Распишут так..."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}И вот тщеславия плоды!"
+
+        chestonov "Чтоб только твой театр хорошим называли,"
+
+        chestonov "Готов ты уморить племянницу с печали,"
+
+        chestonov "Замучить сам себя, именье разорить..."
+
+        hide chestonov
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Ну, слышишь, батюшка?"
+
+        hide lyubskaya
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да что тут говорить!"
+
+        chestonov "Бывало, в старину мы резвимся для смеха,"
+
+        chestonov "А нынче заведи театр - пошла потеха!"
+
+        chestonov "Волненье страшное, тревога, кутерьма!"
+
+        chestonov "Хозяева в чаду, актеры без ума;"
+
+        chestonov "Тот пламенной игрой и чувством удивляет:"
+
+        chestonov "Забытого детьми Эдипа представляет,"
+
+        chestonov "А сам детей своих давно уже забыл."
+
+        chestonov "На сцене, для другой, один супруг лишь мил,"
+
+        chestonov "Им дышит, им живет - тогда как в самом деле"
+
+        chestonov "Действительный супруг лежит больной в постеле."
+
+        chestonov "Интригам нет конца, насмешки, сплетни, лесть..."
+
+        chestonov "А ссоры вздорные нельзя и перечесть:"
+
+        chestonov "Один желает быть отцом, другой тираном,"
+
+        chestonov "Тот ролю выплакал, тот взял ее обманом,"
+
+        chestonov "Та теткой хочет быть, тот просится в слуги,"
+
+        chestonov "Тому любовника давай - ну, вон беги!"
+
+        chestonov "И, словом, труппа вся, признаться должно в этом,"
+
+        chestonov "Прекрасным может быть комическим сюжетом."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Всё это пустяки, мой друг, одни слова!"
+
+        lyubskij "Хоть в этом мне поверь, я труппе всей глава;"
+
+        lyubskij "Так дело ведь мое, чтоб жили мы согласно."
+
+        hide lyubskij
+
+        show mestonov at truecenter
+
+        $ mestonov_var = "{noalt}Местонов"
+
+        mestonov "Не верю, милый мой."
+
+        hide mestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Зачем судить пристрастно?"
+
+        lyubskij "Ты прежде посмотри, а после уж брани."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "И вы не ссоритесь?"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}О! Боже сохрани!"
+
+        lyubskij "И знать не знаем мы, что есть на свете ссоры."
+
+        hide lyubskij
+
+    label Act_0_Scene_11:
+        "{b}ЯВЛЕНИЕ 11{/b}"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        "<{i}Те же и Наташа.{/i}>"
+
+        hide natasha
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show natasha at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show natasha at right
+
+        lyubskij "<{i}(Наташе){/i}>"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        lyubskij "Зачем?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Беда, сударь! Поссорились актеры."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Охти! За что?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}А вот, спросите сами их."
+
+        hide natasha
+
+    label Act_0_Scene_12:
+        "{b}ЯВЛЕНИЕ 12{/b}"
+
+        show velskij at left
+        show izvedov at truecenter
+        show olenka at right
+
+        show velskij at left
+        show izvedov at truecenter
+        show olenka at right
+
+        "<{i}Те же, Посошков, Лилеев, Бирюлькин, Вельский, Изведов и Оленька.{/i}>"
+
+        hide pososhkov
+        hide lileev
+        hide biryulkin
+        hide velskij
+        hide izvedov
+        hide olenka
+
+        hide pososhkov
+        hide lileev
+        hide biryulkin
+        hide velskij
+        hide izvedov
+        hide olenka
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "Я вам, сударь, сказал, что грубостей таких"
+
+        lileev "Сносить я не хочу."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Играть изволит франта!"
+
+        pososhkov "Тогда как надобно..."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Так нет во мне таланта?"
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Я это говорил, еще вам говорю"
+
+        pososhkov "И буду говорить."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show chestonov at right
+
+        lyubskij "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Сейчас их помирю."
+
+        lyubskij "Стыдитесь, господа! На что это похоже!"
+
+        lyubskij "За что вы ссоритесь?"
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Мне честь всего дороже,"
+
+        lileev "И я не дам себя обидеть никому!"
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да что, скажите мне!"
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Прилично ли тому,"
+
+        lileev "Кто сам плохой актер..."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И, как тебе не стыдно!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Торжественно скажу, он хочет, очевидно,"
+
+        pososhkov "Испортить всё."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да что? Добьюсь ли толку я?"
+
+        lyubskij "О чем вы спорите?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Так будьте ж вы судья!"
+
+        pososhkov "Он ролю старика взялся без принужденья,"
+
+        pososhkov "Охотой, сам, играть..."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Ну, да! Из снисхожденья."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "И что ж играет он? Терпенья, право, нет!"
+
+        pososhkov "Наместо старика - мальчишку в двадцать лет."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "За что ж винить меня? Вините в том натуру,"
+
+        lileev "Которая дала такую мне фигуру."
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Так знайте ж, господин столетний Селадон..."
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "Столетний!.."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Ну, беда!"
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Что значит этот тон?"
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Послушайте!"
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Кому вы это говорите?"
+
+        hide lileev
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "О, верно уж не вам! Вот зеркало, взгляните!"
+
+        hide pososhkov
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "Насмешки, дерзости... но я вам отплачу,"
+
+        lileev "Извольте ролю взять, играть я не хочу."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Как! Что! Помилуй, брат! Сегодня представленье,"
+
+        lyubskij "А ты..."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Чтоб я сносил такие оскорбленья!.."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Позволь..."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Я вам сказал, что честь мне дорога."
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да выслушай!.."
+
+        hide lyubskij
+
+        show lileev at truecenter
+
+        $ lileev_var = "{noalt}Лилеев"
+
+        lileev "{space=400}Нет, нет! Покорный ваш слуга!"
+
+        hide lileev
+
+        show lileev at truecenter
+
+        hide lileev
+
+        show lileev at truecenter
+
+        lileev "<{i}(Уходит.){/i}>"
+
+        show lileev at truecenter
+
+        show lileev at truecenter
+
+        hide lileev
+
+    label Act_0_Scene_13:
+        "{b}ЯВЛЕНИЕ 13{/b}"
+
+        show lileev at truecenter
+
+        show lileev at truecenter
+
+        "<{i}Те же, без Лилеева.{/i}>"
+
+        hide lileev
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        play sound1 running
+
+        hide lyubskij
+
+        show lyubskij at left
+        show lileev at right
+
+        play sound1 running
+
+        hide lyubskij
+
+        show lyubskij at left
+        show lileev at right
+
+        lyubskij "<{i}(бежит за Лилеевым){/i}>"
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        stop sound1
+
+        hide lileev
+
+        show lyubskij at truecenter
+
+        stop sound1
+
+        lyubskij "В уме ли ты! Постой!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}О, глупое созданье!"
+
+        pososhkov "Поверьте мне, в нем нет и капли дарованья."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(возвращаясь с отчаянием){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Ушел! Совсем ушел!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Тем лучше, очень рад!"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Зарезал без ножа!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Я бьюся об заклад,"
+
+        pososhkov "Что он и смолоду прескверным был актером,"
+
+        pososhkov "Ему под шестьдесят - а хочет быть Линдором."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Что делать мне теперь? Весь город приглашен,"
+
+        lyubskij "А наш театр..."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Никак попасть не может в тон."
+
+        pososhkov "Где должно говорить с душой - одни лишь крики."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Эх, братец!.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Никогда не ждет своей реплики."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Несносный человек!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Что скажет, то соврет."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да, слышишь ли, злодей! Театр наш не пойдет!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "И, что вы! Для него? Да это уж безбожно!"
+
+        pososhkov "Неужто заменить Лилеева не можно?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Посмотрим! Говори! Кого ты назовешь?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Хоть это не легко..."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Не вдруг теперь найдешь"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ну, что молчишь? Скорей зарежь одним уж разом!"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Послать бы, батюшка, скорей ко всем с отказом."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "С отказом! Боже мой! Вот дожил до чего!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Позвольте... точно так! Я знаю одного"
+
+        velskij "Охотника играть, старинный мой приятель,"
+
+        velskij "И дальний родственник... Уездный заседатель..."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да, кто такой?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Андрей Степаныч Прямиков."
+
+        velskij "Он был всегда в числе хороших знатоков,"
+
+        velskij "И мастер сам играть."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ах, сделай одолженье!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Возьмется ль выучить?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Без всякого сомненья."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "И! Роля ничего! Решился б только взять..."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Она ж невелика, всего страничек пять."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ступай же поскорей!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Я не прощаюсь с вами."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        chestonov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        chestonov "И я с тобой."
+
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}А ты куда? Обедай с нами."
+
+        hide lyubskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Нельзя, мне надобно кой-что распорядить."
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        chestonov "<{i}(Тихо Вельскому){/i}>"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        chestonov "С тобою должен я о многом говорить."
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(Уходят.){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+    label Act_0_Scene_14:
+        "{b}ЯВЛЕНИЕ 14{/b}"
+
+        show velskij at left
+        show chestonov at right
+
+        show velskij at left
+        show chestonov at right
+
+        "<{i}Те же, без Вельского и Честонова.{/i}>"
+
+        hide velskij
+        hide chestonov
+
+        hide velskij
+        hide chestonov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ох, этот мне театр! Прекрасная забава!"
+
+        lyubskij "Ложись да умирай!"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Зато какая слава!"
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Кто этот Прямиков? Я здесь живу давно,"
+
+        pososhkov "А что-то не слыхал."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Эх, братец, всё равно!"
+
+        lyubskij "Ну, что тут спрашивать? Актера нет другого,"
+
+        lyubskij "Пойдемте, господа! Чай, кушанье готово."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Придется попоздней сегодня нам начать."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        lyubskij "<{i}(уходя, Посошкову){/i}>"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        lyubskij "Добро, мой друг! За всё ты будешь отвечать."
+
+        hide lyubskij
+
+        "<{i}Все уходят в боковые двери.{/i}>"
+
+label Act_4:
+    play music "audio/music/44.mp3" fadeout 1.0 fadein 1.0
+
+    scene 67 with fade
+
+    "{b}ДЕЙСТВИЕ ВТОРОЕ{/b}"
+
+    "<{i}Та же комната.{/i}>"
+
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 1{/color}":
+            jump Act_1_Scene_1
+        "{color=#000}ЯВЛЕНИЕ 2{/color}":
+            jump Act_1_Scene_2
+        "{color=#000}ЯВЛЕНИЕ 3{/color}":
+            jump Act_1_Scene_3
+        "{color=#000}ЯВЛЕНИЕ 4{/color}":
+            jump Act_1_Scene_4
+        "{color=#000}ЯВЛЕНИЕ 5{/color}":
+            jump Act_1_Scene_5
+        "{color=#000}ЯВЛЕНИЕ 6{/color}":
+            jump Act_1_Scene_6
+        "{color=#000}>{/color}":
+            jump Further_Act_1_Scene_6_1
+
+label Further_Act_1_Scene_6_1:
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 7{/color}":
+            jump Act_1_Scene_7
+        "{color=#000}ЯВЛЕНИЕ 8{/color}":
+            jump Act_1_Scene_8
+        "{color=#000}ЯВЛЕНИЕ 9{/color}":
+            jump Act_1_Scene_9
+        "{color=#000}ЯВЛЕНИЕ 10{/color}":
+            jump Act_1_Scene_10
+
+    label Act_1_Scene_1:
+        "{b}ЯВЛЕНИЕ 1{/b}"
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(один){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Мы нынче, кажется, обедали по моде."
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(Смотрит на часы.){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Ну, так и есть! Легко ль! Четвертый час в исходе,"
+
+        izvedov "А Вельского всё нет как нет! Эй, быть беде!"
+
+        izvedov "Такого удальца не сыщет он нигде,"
+
+        izvedov "Кто б ролю выучил сурьезно, не для шутки,"
+
+        izvedov "Не только в несколько часов, но даже в сутки."
+
+        izvedov "Уж я ли в старину не делал чудеса?"
+
+        izvedov "Бывало, выучить придется в два часа"
+
+        izvedov "Осьмушек до шести, а всё, играть как станут,"
+
+        izvedov "Такую дичь начнешь пороть, что уши вянут."
+
+        izvedov "Нет! Видно по всему, театру не бывать."
+
+        izvedov "А право, жаль! - Старик наш будет горевать."
+
+        izvedov "Что, если б мне?.. А что ж? Чем хуже я другого? -"
+
+        izvedov "Лилеев дворянин - об этом я ни слова,"
+
+        izvedov "Зато какой актер, последней уж руки,"
+
+        izvedov "А я, сомненья нет, сыграю мастерски,"
+
+        izvedov "И мой талант..."
+
+        hide izvedov
+
+    label Act_1_Scene_2:
+        "{b}ЯВЛЕНИЕ 2{/b}"
+
+        show pososhkov at left
+        show olenka at truecenter
+        show natasha at right
+
+        show pososhkov at left
+        show olenka at truecenter
+        show natasha at right
+
+        "<{i}Тот же, Посошков, Оленька и Наташа.{/i}>"
+
+        hide pososhkov
+        hide olenka
+        hide natasha
+
+        hide pososhkov
+        hide olenka
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Да, да! Вам с Вельским должно вместе"
+
+        pososhkov "Всю сцену повторить. Ну, что? Какие вести?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Покуда никаких."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Так Вельский не бывал?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "И слуху нет о нем."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Куда же он пропал?"
+
+        pososhkov "Не стыдно ли ему! Он дал честное слово"
+
+        pososhkov "Как можно поскорей привесть к нам Прямикова..."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Да вряд ли приведет."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}И, что ты, братец! Вздор!"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(глядя в окно){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Постойте! Вот и он въезжает к нам на двор."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Один?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=200}Один, сударь."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Неужто в самом деле?"
+
+        play sound1 running
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        play sound1 running
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Бежит к нему навстречу){/i}>"
+
+        show pososhkov at truecenter
+
+        stop sound1
+
+        show pososhkov at truecenter
+
+        stop sound1
+
+        pososhkov "Ну, что? - Ах, боже мой! Войдите хоть в шинели,"
+
+        pososhkov "Да только поскорей."
+
+        hide pososhkov
+
+    label Act_1_Scene_3:
+        "{b}ЯВЛЕНИЕ 3{/b}"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        "<{i}Те же и Вельский.{/i}>"
+
+        hide velskij
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Скажите, отчего"
+
+        pososhkov "Не с вами Прямиков?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Нет в городе его."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Нет в городе!.. Так мы остались без актера?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(кланяясь){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Когда позволите, так я..."
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(прерывая){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Он очень скоро"
+
+        velskij "Воротится домой, наверно в пять часов."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(с досадою){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Да в роли у него не десять только слов:"
+
+        izvedov "Когда ж успеть ему..."
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Я вам ручаюсь смело,"
+
+        velskij "Что он..."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=200}Сыграет как-нибудь."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да что за дело?"
+
+        pososhkov "Лишь только бы сыграл, но точно ль будет он?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Сомненья в этом нет."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Попасть как должно в тон,"
+
+        izvedov "Реплики выучить - всё это не безделки."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "И, вздор!"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(в сторону){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}Ох, эти мне актеры-скороспелки!"
+
+        izvedov "Везде от них беда."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Так ровно через час"
+
+        pososhkov "Он будет здесь?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(тихо Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Теперь, сударыня, от вас"
+
+        velskij "Зависит всё."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}И вы уверены, что может"
+
+        pososhkov "Он к вечеру поспеть?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Старанье всё приложит,"
+
+        velskij "Ручаюсь за него."
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(стараясь отвлечь Посошкова){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        natasha "{space=400}Позвольте вас спросить:"
+
+        natasha "Здесь в роли у меня должны ошибки быть, -"
+
+        natasha "Вот тут?"
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=200}Посмотрим. Где?"
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(показывая рукою){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        natasha "{space=200}Внизу."
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(тихо Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Мне очень нужно"
+
+        velskij "Сказать вам слова два."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(читает ролю){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}\"С ним жить я стану дружно\"."
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "А, дружно? Точно так."
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(тихо Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Мне с вами говорить"
+
+        velskij "Теперь нельзя, но я..."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}А что б нам повторить..."
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(показывая свою ролю){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        natasha "Позвольте! Вот еще тут что-то непонятно."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(читает ролю){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Как этих стариков обманывать приятно!"
+
+        pososhkov "Ну им ли женщин быть умнее и хитрей\"."
+
+        pososhkov "Помилуй, матушка! Что ж этого ясней?"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Андрей Степанович! За чем же дело стало?"
+
+        pososhkov "Пройдемте сценки две."
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Не лучше ли сначала"
+
+        natasha "Заняться вам со мной?"
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}На что же нам одним?"
+
+        pososhkov "Мы сцены две иль три все вместе повторим."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Не правда ли?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}От всей души."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=200}А вы?"
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}Извольте."
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "С чего бы нам начать?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}Мне кажется..."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Постойте!"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Смотрит в тетрадь){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Явленье пятое... да! Точно с этих пор"
+
+        pososhkov "Мы можем повторить. А где же наш суфлер?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Я здесь, сударь."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Вот стул, прошу садиться."
+
+        pososhkov "Возьми комедию... Да, чур, не торопиться."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Вы в этом действии отменно хороши,"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "А в вас бы я желал поболее души."
+
+        pososhkov "Натура и душа! - без этих двух условий"
+
+        pososhkov "Искусство - ничего."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(в сторону){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}Нельзя без предисловий."
+
+        izvedov "Прикажете начать?"
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да, душенька, начни."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Явленье пятое. Сначала вы одни,"
+
+        izvedov "Потом Эраст."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Живей как можно эту сцену!"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        izvedov "<{i}(Наташе){/i}>"
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        izvedov "Извольте. Вам."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(Оленьке){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        natasha "{space=400}\"Я в вас большую перемену"
+
+        natasha "Сегодня нахожу."
+
+        natasha "Быть может, вас я этим рассержу,"
+
+        natasha "Но, право, мне смешно: вы плакали в постеле,"
+
+        natasha "Теперь вздыхаете... неужто в самом деле"
+
+        natasha "{space=200}Боитесь вы?..\""
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}\"Всего!"
+
+        olenka "Ах, Машенька! Я так люблю его!"
+
+        olenka "И вот уж пятый день...\""
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"К окну он не подходит."
+
+        natasha "Так это-то с ума вас сводит?"
+
+        natasha "Да он уж не живет напротив нас\"."
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Возможно ли? Эраст...\""
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Из нашего соседства"
+
+        natasha "Давно уж выехал и, верно, ищет средства"
+
+        natasha "Увидеть ближе вас."
+
+        natasha "Ваш опекун хитер, а он еще хитрее"
+
+        natasha "И, может быть...\""
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}\"А мне так кажется вернее,"
+
+        olenka "Что он уехал из Москвы\"."
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Да вот он налицо\"."
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Возможно ль! Это вы?\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Не то, совсем не то! Простое удивленье"
+
+        pososhkov "Не значит ничего. Где ж радость, восхищенье?"
+
+        pososhkov "Нет, нет, сударыня! Вы слишком холодны..."
+
+        pososhkov "Не правда ль, что в него вы страстно влюблены?"
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Конечно, так."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Что с ним и видеться хотели?"
+
+        pososhkov "Что он любовник ваш... Ну, вот и покраснели!"
+
+        pososhkov "Ох, эта скромность мне! Пора вам быть смелей."
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Я то же говорю."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Скажите веселей:"
+
+        pososhkov "\"Возможно ль! Это вы!\" Ну, что же! Говорите!"
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Возможно ль! Это вы...\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Куда же вы глядите?"
+
+        pososhkov "Смотрите на него: он главный персонаж."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Да, Лиза, это я - любовник верный ваш!"
+
+        velskij "Я с вами, вижу вас... и всё теперь, разлуку,"
+
+        velskij "Печаль, тоску... всё, всё забыл!\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Целуйте руку!"
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Вы здесь, Эраст! И вы пять дней могли"
+
+        olenka "Не видеться со мной!\""
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Да будьте ж с ним построже:"
+
+        natasha "Легко ль, пять дней! - На дело не похоже!"
+
+        natasha "Мы чуть было от вас в постелю не слегли,"
+
+        natasha "С утра до вечера всё плакали, грустили...\""
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Я ездил из Москвы\"."
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Вы ездили? Куда?\""
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "\"Но вы везде со мною вместе были!"
+
+        velskij "Вы здесь и навсегда!\""
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        hide olenka
+
+        show olenka at left
+        show natasha at right
+
+        hide olenka
+
+        show olenka at left
+        show natasha at right
+
+        olenka "<{i}(Наташе){/i}>"
+
+        hide natasha
+
+        show olenka at truecenter
+
+        hide natasha
+
+        show olenka at truecenter
+
+        olenka "\"Ах, как он мил!\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Я с вами расставался"
+
+        velskij "Затем, чтоб вечно вашим быть:"
+
+        velskij "Я ездил к дядюшке, во всем ему признался,"
+
+        velskij "Клялся ему вас век любить."
+
+        velskij "Кто чувствует, как я, тому красноречивым"
+
+        velskij "Нетрудно быть: я все сомненья превозмог,"
+
+        velskij "Он мне позволил быть счастливым."
+
+        velskij "Теперь я здесь, у ваших ног!"
+
+        velskij "От вашего зависит приговора"
+
+        velskij "Всё счастье, жизнь моя...\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Ах, если бы актера"
+
+        pososhkov "Еще такого нам!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Скажите только: да!"
+
+        velskij "И я навеки, навсегда"
+
+        velskij "Любовник ваш, супруг...\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Прекрасно, превосходно!"
+
+        pososhkov "Вот истинный талант!"
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}\"Притворство мне не сродно..."
+
+        olenka "Я вас люблю...\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Нежней, сударыня, нежней!"
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Я вас люблю, Эраст!..\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Подвиньтесь ближе к ней."
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Но я, к несчастию, свободы не имею"
+
+        olenka "Располагать собой\"."
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Я вас не разумею\"."
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Мой опекун...\""
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Да что он за указ?"
+
+        natasha "И есть ли что-нибудь с ним общего у вас?"
+
+        natasha "Он стар - вы молоды; он дурен - вы прекрасны\"."
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Что значит власть опекуна,"
+
+        velskij "Когда вы будете согласны"
+
+        velskij "Супругой быть моей?\""
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}\"Так я должна...\""
+
+        hide olenka
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "\"Должны, как следует, сначала колебаться,"
+
+        natasha "Твердить о том о сем,"
+
+        natasha "Поплакать, и потом -"
+
+        natasha "Сегодня убежать, а завтра обвенчаться\"."
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Что ждет меня? Насмешки, клеветы..."
+
+        olenka "Ах! Участь сироты"
+
+        olenka "Достойна сожаленья!\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Решитесь быть моей, и мы сегодня в ночь"
+
+        velskij "Уедем к дядюшке, он примет вас, как дочь...\""
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Но как решиться мне? Какое положенье!"
+
+        olenka "Предметом сделаться злословья, клеветы..."
+
+        olenka "Нет, нет, Эраст!\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"О, если всё напрасно,"
+
+        velskij "И просьбы, и любовь...\""
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Чего ж хотите вы?"
+
+        natasha "Не вдруг же ей сказать: - Извольте! Я согласна!\""
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Как долго я обманывал себя!"
+
+        velskij "Вас пламенно любя,"
+
+        velskij "Я смел мечтать, что те же чувства"
+
+        velskij "Понятны и для вас,"
+
+        velskij "Что с сердцем искренним, без всякого искусства,"
+
+        velskij "Сказав: люблю! мне в первый раз,"
+
+        velskij "Навек вы сделались моею...\""
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Вы сердитесь?..\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"О нет! Я холоден как лед,"
+
+        velskij "Упреки делать вам я права не имею, -"
+
+        velskij "Его любовь дает."
+
+        velskij "А вы...\""
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Помилуйте! Ну то ли"
+
+        natasha "Вам должно говорить?\""
+
+        hide natasha
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Но я не век остануся в неволе:"
+
+        olenka "Быть может, через год...\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Без вас год целый жить!"
+
+        velskij "Без вас! - Ах, боже мой! Кто может быть порукой,"
+
+        velskij "Что я, измученный тоской и скукой,"
+
+        velskij "Еще год целый проживу?\""
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "\"И больше проживете\"."
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Нет! Лучше навсегда оставлю я Москву,"
+
+        velskij "Тогда вы, верно, предпочтете"
+
+        velskij "Моей любви ваш собственный покой."
+
+        velskij "Тогда соперник мой...\""
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "{space=400}\"Соперник ваш?.. Какой?\""
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Ваш милый опекун...\""
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Ну, есть кого бояться!\""
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Быть может, наконец ему повиноваться"
+
+        velskij "Решитесь вы, и целый свет"
+
+        velskij "Вас будет прославлять. Он сам... Нет, Лиза, нет!"
+
+        velskij "Ему ль понять блаженство"
+
+        velskij "Супругом вашим быть!..\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Какое совершенство!"
+
+        pososhkov "Ну, Вельский, признаюсь, от вас я без ума!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Недурно я сыграл?"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Как Гаррик, как Тальма,"
+
+        pososhkov "Почти как я!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}О нет! Уж это слишком много."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Поверьте мне, я вас сужу отменно строго,"
+
+        pososhkov "Да иначе судить вас было бы грешно:"
+
+        pososhkov "Ведь вы талант! Вам всё натурою дано:"
+
+        pososhkov "Наружность славная, орган отлично гибок,"
+
+        pososhkov "Конечно, есть кой-что - нельзя же без ошибок,"
+
+        pososhkov "Подчас играете вы слишком горячо,"
+
+        pososhkov "Руками машете, да левое плечо"
+
+        pososhkov "Немножечко шалит."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Нет, это уж нападки:"
+
+        izvedov "Позвольте вам сказать, все эти недостатки"
+
+        izvedov "Так мелочны, что их смешно и замечать."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да Вельскому нельзя и мелочи прощать -"
+
+        pososhkov "Он истинный артист."
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Всё так, но рассудите..."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Нам спорить некогда. Извольте! Повторите"
+
+        pososhkov "Последние слова."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Последние?.. Да, да!"
+
+        velskij "\"Супругом вашим быть\"."
+
+        hide velskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Ну, барышня, беда!"
+
+        natasha "Нам нет спасенья никакого\"."
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(суфлируя){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "\"За сценой голос Сундукова\"."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(начиная играть свою ролю){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Эй, люди! Дурачье! Да слышите ль? Кто там?\""
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Ах, боже мой! Куда деваться нам?\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Я вас, разбойники!\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=200}\"Пропали мы!\""
+
+        hide natasha
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Пустое!"
+
+        velskij "Не бойтесь ничего!\""
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(суфлируя){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}\"Явление шестое."
+
+        izvedov "Лишь только я с двора...\""
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Эх, братец! Не спеши!"
+
+        pososhkov "\"Лишь только я с двора, так в доме ни души..."
+
+        pososhkov "Кой черт! Да здесь проезжая дорога\"."
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "\"Ах! ради бога,"
+
+        olenka "Уйдите поскорей!\""
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Ворота на запор! Ключи от всех дверей"
+
+        pososhkov "Принесть ко мне. Уж я тебя, скотина!"
+
+        pososhkov "Шататься всё, а нет, чтоб двор подместь..."
+
+        pososhkov "Пошел, болван!.. Эге! Да здесь и гости есть!"
+
+        pososhkov "Возможно ли - мужчина!"
+
+        pososhkov "Вы кто, сударь? Зачем и почему?"
+
+        pososhkov "Кого вам надобно?\""
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Извините!"
+
+        velskij "Я только что взошел\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Взошли... К кому?.."
+
+        pososhkov "Что вижу, к вам?.. Вот я вас! Погодите!"
+
+        pososhkov "Взошли!.. Зачем, сударь? Да разве здесь корчма?"
+
+        pososhkov "Взошли, когда хозяина нет дома...\""
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Вы всё узнаете из этого письма\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Рука, мне кажется, знакома\"."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"От дяди моего\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Да это всё равно."
+
+        pososhkov "Письмо - письмом, а вам бы не мешало"
+
+        pososhkov "Без спроса не входить\"."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Вы дружны с ним давно."
+
+        velskij "Степан Кондратьевич Окнов\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Окнов? Так стало,"
+
+        pososhkov "Он жив еще?"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Читает){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Любезный друг! Податель сего племянник мой Сурский...\""
+
+        pososhkov "{space=400}Вы Сурский? Очень рад!"
+
+        pososhkov "Покойный ваш отец со мной знаком был лично, -"
+
+        pososhkov "А всё скажу, что вовсе неприлично"
+
+        pososhkov "Вломиться силой в дом\"."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Что ж делать - виноват!\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(читает){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Он любит одну весьма достойную девицу, но, к несчастию, у него есть соперник. Я стараюсь уладить это дело, а между тем, боясь, чтоб он не наделал дурачеств, отправил его в Москву, не оставляйте его вашими советами. Надеясь на дружбу вашу, я уверен, и проч."
+
+        pososhkov "и проч.\""
+
+        pososhkov "\"Так вы намерены жениться?"
+
+        pososhkov "Вот это хорошо! Я с вами подружиться"
+
+        pososhkov "Душою рад... Да только вот беда!"
+
+        pososhkov "Вы ездить будете напрасно -"
+
+        pososhkov "Меня нет дома никогда."
+
+        pososhkov "Итак, вы любите? И очень страстно?..\""
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at left
+        show olenka at right
+
+        hide velskij
+
+        show velskij at left
+        show olenka at right
+
+        velskij "<{i}(глядя на Оленьку){/i}>"
+
+        hide olenka
+
+        show velskij at truecenter
+
+        hide olenka
+
+        show velskij at truecenter
+
+        velskij "\"И сердце и душа -"
+
+        velskij "Всё ей принадлежит\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Уж, верно, хороша?"
+
+        pososhkov "И спрашивать не надо\"."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"Все в мире женщины ее не стоят взгляда\"."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Похвально! Хорошо! Прошу ко мне вперед!"
+
+        pososhkov "А что, соперник ваш и молод и прекрасен?\""
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "\"О нет! Он вовсе не опасен:"
+
+        velskij "Седой старик, скупец, животное, урод...\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(своим голосом){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Эх, батюшка, не то! Вам должно обозначить"
+
+        pososhkov "Насмешку тут: ведь вы должны меня дурачить."
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Да он, мне кажется, и так дурачит вас."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Побольше тонкостей! Играя в первый раз,"
+
+        pososhkov "Их все нельзя схватить, а вы, сударь, не внове:"
+
+        pososhkov "Вам стыдно их не знать. - \"Урод!\" - При этом слове"
+
+        pososhkov "Взгляните на меня."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(повторяя){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}\"Седой старик! скупец!..\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Вот, так!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}\"Урод!\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=200}Брависсимо!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}\"Глупец!\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Отлично! Хорошо!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}\"А сверх того...\""
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(начинает опять играть){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}\"Увольте!.."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at truecenter
+        show olenka at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at truecenter
+        show olenka at right
+
+        pososhkov "<{i}(Наташе и Оленьке){/i}>"
+
+        hide natasha
+        hide olenka
+
+        show pososhkov at truecenter
+
+        hide natasha
+        hide olenka
+
+        show pososhkov at truecenter
+
+        pososhkov "Я брани не люблю. Ступайте вон!\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Позвольте"
+
+        natasha "Сказать вам слова два\"."
+
+        hide natasha
+
+        show natasha at left
+        show velskij at truecenter
+        show olenka at right
+
+        hide natasha
+
+        show natasha at left
+        show velskij at truecenter
+        show olenka at right
+
+        natasha "<{i}(Отводит Посошкова к стороне, а между тем Вельский и Оленька говорят тихо.){/i}>"
+
+        hide velskij
+        hide olenka
+
+        show natasha at truecenter
+
+        hide velskij
+        hide olenka
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Ну, что же, говори!\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "\"Хотите ли держать пари,"
+
+        natasha "Что этот господин приехал к вам недаром?\""
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Неужели?\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}\"Тут что-нибудь да есть."
+
+        natasha "Заметили ль, с каким он жаром"
+
+        natasha "Описывал любовь свою, а между тем"
+
+        natasha "Смотрел на барышню?\""
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Смотрел? Зачем?\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "\"Я этих сорванцов ужасно ненавижу."
+
+        natasha "От них того и жди...\""
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(своим голосом){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Да, стань сюда! Я вижу."
+
+        pososhkov "Закрой побольше их! Ах, нет! Еще вперед!"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}Вельский отдает записку Оленьке.{/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Всё вижу, матушка: записку отдает,"
+
+        pososhkov "Вот шепчет на ухо!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(тихо Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Прочтите поскорее!"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Не так!"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show olenka at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show olenka at right
+
+        pososhkov "<{i}(Берет у Оленьки записку){/i}>"
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        hide olenka
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Позвольте мне! Проворней и хитрее;"
+
+        pososhkov "Смотрите на меня! Совсем не тот прием."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Отдает записку Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Мы вот как, батюшка, записки отдаем."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at right
+
+        pososhkov "<{i}(Наташе, продолжая играть свою ролю){/i}>"
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Итак, мне должно опасаться?\""
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "\"Большой опасности тут нет\"."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Всё может статься."
+
+        pososhkov "Эх, Машенька, недолго до греха...\""
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Позвольте! У меня последнего стиха"
+
+        izvedov "В пиесе нет."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(берет тетрадь и смотрит){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Ну, так! Вперед я сам засяду"
+
+        pososhkov "И буду списывать. Тут две ошибки сряду."
+
+        pososhkov "Кто списывал ее?"
+
+        hide pososhkov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Фома, буфетчик наш."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        pososhkov "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        pososhkov "Ох, эти мне писцы! - Подай мне карандаш!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Угодно мой?"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Подает ему.){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show pososhkov at left
+        show olenka at right
+
+        show pososhkov at left
+        show olenka at right
+
+        "<{i}Посошков делает поправки, а между тем Оленька вполголоса читает письмо.{/i}>"
+
+        hide pososhkov
+        hide olenka
+
+        hide pososhkov
+        hide olenka
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        hide olenka
+
+        show olenka at truecenter
+
+        hide olenka
+
+        show olenka at truecenter
+
+        olenka "<{i}(читает){/i}>"
+
+        show olenka at truecenter
+
+        show olenka at truecenter
+
+        olenka "\"Я боялся, что не найду свободной минуты переговорить с вами, и для того заготовил это письмо. Почтенный благодетель мой, ваш дядюшка Честонов, и слышать не хочет, чтоб вы были за Посошковым. Он дал слово помогать нам, и если вы согласитесь...\""
+
+        hide olenka
+
+        show olenka at truecenter
+
+        hide olenka
+
+        show olenka at truecenter
+
+        olenka "<{i}(Прячет письмо.){/i}>"
+
+        show olenka at truecenter
+
+        show olenka at truecenter
+
+        hide olenka
+
+    label Act_1_Scene_4:
+        "{b}ЯВЛЕНИЕ 4{/b}"
+
+        show lyubskij at left
+        show lyubskaya at truecenter
+        show biryulkin at right
+
+        show lyubskij at left
+        show lyubskaya at truecenter
+        show biryulkin at right
+
+        "<{i}Те же, Любский, Любская и Бирюлькин.{/i}>"
+
+        hide lyubskij
+        hide lyubskaya
+        hide biryulkin
+
+        hide lyubskij
+        hide lyubskaya
+        hide biryulkin
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну, вот они! А мы искали"
+
+        lyubskij "Вас целый час в саду."
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Мы роли повторяли."
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(перевертывая листы в тетради){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Постой, еще! Да тут премножество грехов!"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ага! И Вельский здесь? Ну, что твой Прямиков?"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Уехал за город, однако же к обеду"
+
+        velskij "Хотел он быть домой."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Так что же ты?"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Я еду"
+
+        velskij "Опять к нему."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Боюсь, откажется злодей!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "О, верно, нет!"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да ты узнал бы от людей,"
+
+        lyubskij "Куда уехал он."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Теперь его застану,"
+
+        velskij "Уж скоро пятый час."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}А если нет?"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Так стану"
+
+        velskij "Искать его везде, и где-нибудь найду."
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Тихо Оленьке){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "Вы всё прочли?.."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Ступай, скорей!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Сейчас, иду."
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Уходит.){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        hide velskij
+
+    label Act_1_Scene_5:
+        "{b}ЯВЛЕНИЕ 5{/b}"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        "<{i}Те же, без Вельского.{/i}>"
+
+        hide velskij
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да этот Прямиков, как клад, нам не дается."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Эй, батюшка, поверь, нам вечером придется"
+
+        lyubskaya "С отказом посылать ко всем..."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Молчи, жена!"
+
+        lyubskij "И без тебя тоска!"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        lyubskij "<{i}(Посошкову){/i}>"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}А всё твоя вина."
+
+        lyubskij "Не знать наверное - да это хуже пытки!"
+
+        lyubskij "Один бы уж конец."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Напрасные убытки,"
+
+        lyubskaya "Расходы, хлопоты и больше ничего."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        lyubskij "<{i}(Посошкову, который смотрит в окно){/i}>"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        lyubskij "Ну, что?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=200}Отправился."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Нельзя ли без него"
+
+        lyubskij "Кой-что пройти? Ведь он не нужен вам?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Нимало,"
+
+        pososhkov "Мы можем повторить весь первый акт сначала."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Так что же? Повтори."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        pososhkov "<{i}(берет тетрадь у Изведова){/i}>"
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Извольте по местам."
+
+        pososhkov "Явленье первое."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Куда же вы?.. Не там,"
+
+        pososhkov "Вы здесь должны сидеть."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show natasha at right
+
+        pososhkov "<{i}(Наташе){/i}>"
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        hide natasha
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}А вы сюда поближе."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Держите голову немножечко пониже!"
+
+        pososhkov "Да кто же в горести так весело глядит?"
+
+        pososhkov "Задумайтесь! Вот так! Еще печальней вид,"
+
+        pososhkov "Чтоб тотчас же была заметна горесть ваша."
+
+        pososhkov "Явленье первое..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Постой, постой! Наташа,"
+
+        lyubskij "Подвинься-ка вперед - еще левей! Вот так."
+
+        hide lyubskij
+
+        show pervyj_sluga at truecenter
+
+        $ pervyj_sluga_var = "{noalt}Слуга"
+
+        hide pervyj_sluga
+
+        show pervyj_sluga at truecenter
+
+        hide pervyj_sluga
+
+        show pervyj_sluga at truecenter
+
+        pervyj_sluga "<{i}(входит и говорит громко){/i}>"
+
+        show pervyj_sluga at truecenter
+
+        show pervyj_sluga at truecenter
+
+        pervyj_sluga "Матрена Савишна Кутермина."
+
+        hide pervyj_sluga
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Дурак!"
+
+        lyubskij "Скажи, что дома нет."
+
+        hide lyubskij
+
+        show pervyj_sluga at truecenter
+
+        $ pervyj_sluga_var = "{noalt}Слуга"
+
+        pervyj_sluga "{space=200}Докладывал."
+
+        hide pervyj_sluga
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Так что же?"
+
+        hide lyubskij
+
+        show pervyj_sluga at truecenter
+
+        $ pervyj_sluga_var = "{noalt}Слуга"
+
+        pervyj_sluga "Изволит всё идти."
+
+        hide pervyj_sluga
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну, вот! На что похоже!"
+
+        lyubskij "Ступай, животное! Скажи, что я..."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Молчи!"
+
+        lyubskaya "Она идет!"
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Что мы..."
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=400}Да полно, не кричи!"
+
+        hide lyubskaya
+
+    label Act_1_Scene_6:
+        "{b}ЯВЛЕНИЕ 6{/b}"
+
+        show kutermina at left
+        show pervaja_plemyannica at truecenter
+        show vtoraja_plemyannica at right
+
+        show kutermina at left
+        show pervaja_plemyannica at truecenter
+        show vtoraja_plemyannica at right
+
+        "<{i}Те же, Кутермина, 1-я племянница и 2-я племянница.{/i}>"
+
+        hide kutermina
+        hide pervaja_plemyannica
+        hide vtoraja_plemyannica
+
+        hide kutermina
+        hide pervaja_plemyannica
+        hide vtoraja_plemyannica
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        kutermina "<{i}(Любской){/i}>"
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        kutermina "Здорово, матушка! А, здравствуй, Федор Львович!"
+
+        kutermina "Каков ты, мой отец?"
+
+        hide kutermina
+
+        show kutermina at left
+        show biryulkin at right
+
+        hide kutermina
+
+        show kutermina at left
+        show biryulkin at right
+
+        kutermina "<{i}(Бирюлькину){/i}>"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}Ты здесь, Максим Петрович?"
+
+        kutermina "Не стыдно ли? Совсем изволил нас забыть."
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        kutermina "<{i}(Любской, представляя племянниц){/i}>"
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        kutermina "Племянницы мои! Прошу их полюбить."
+
+        kutermina "Они сбирались к вам вчера, да поздно встали:"
+
+        kutermina "На дежене дансан всю ночь протанцевали."
+
+        kutermina "Прыгуньи страшные."
+
+        hide kutermina
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "{space=200}Давно ли здесь?"
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Дней пять."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Поверите ль, гляжу и не могу понять,"
+
+        lyubskij "Как можно вырость так."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}А что, ведь не узнаешь."
+
+        kutermina "Вот Софья, старшая. - Ну, что ж не приседаешь?"
+
+        kutermina "Вся в матушку свою, привычками, лицом,"
+
+        kutermina "Ну, словом, сходства нет с покойником отцом, -"
+
+        kutermina "Предобрая! А вот меньшая, Катерина,"
+
+        kutermina "Не правда ль, что в отца? - Красавец был мужчина,"
+
+        kutermina "А дочка вся в него."
+
+        hide kutermina
+
+        show pervaja_plemyannica at truecenter
+
+        $ pervaja_plemyannica_var = "{noalt}1-я племянница"
+
+        pervaja_plemyannica "{space=400}И полноте, {a=myshow|tooltip|text=Тетушка! (франц.). - Ред.}ma tante!{/a}"
+
+        hide pervaja_plemyannica
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Когда бы знали вы, какой у них талант!"
+
+        kutermina "Да вот на этих днях заедем к вам пораньше,"
+
+        kutermina "И вы услышите! Большие музыкантши:"
+
+        kutermina "Везде от их пенья все были без ума,"
+
+        kutermina "Об этом из Москвы писала мне кума,"
+
+        kutermina "Глафира Савишна, а кумушка не лгунья."
+
+        kutermina "Ты знаешь, чай, ее?"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(в сторону){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Проклятая болтунья!"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(Громко){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Я звал вас на вечер и очень буду рад..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "А кстати! Что у вас сегодня? Маскерад?.."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Театр, сударыня."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Да, точно - виновата!"
+
+        kutermina "Не знаю от кого, а помнится, от свата,"
+
+        kutermina "Андрея Карпыча, я слышала... иль нет!"
+
+        kutermina "От Ленской, кажется, что вы не то балет,"
+
+        kutermina "Не то трагедию, а что-то дать хотите."
+
+        kutermina "Да дело не о том: племянницы, просите,"
+
+        kutermina "Чтоб мне позволили и вас с собой привесть."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(в сторону){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Ну, так! Я это знал!.."
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(Громко){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Мы, верно бы, за честь"
+
+        lyubskij "Почли себе... и нам конечно... очень лестно,"
+
+        lyubskij "Что вы... Но, я боюсь, не будет ли им тесно..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        hide kutermina
+
+        show kutermina at left
+        show lyubskaya at right
+
+        kutermina "<{i}(Любской){/i}>"
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        hide lyubskaya
+
+        show kutermina at truecenter
+
+        kutermina "Я вас, мои друзья, считаю за родных,"
+
+        kutermina "Однако ж все-таки хотела прежде их"
+
+        kutermina "Представить вам сама."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Напрасно вы трудились."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Помилуй, матушка! На что б они годились,"
+
+        kutermina "Когда б учтивости не стали наблюдать?"
+
+        kutermina "А нынче, нечего, лишь стоит волю дать,"
+
+        kutermina "Тотчас нагрянут все - и даже есть нахалы,"
+
+        kutermina "Которые везде втираются на балы,"
+
+        kutermina "Хоть не были б никем туда приглашены."
+
+        kutermina "Вот я так нет! Люблю держаться старины"
+
+        kutermina "И долг мой не считать за вежливость пустую."
+
+        kutermina "Всегда, как следует, сперва рекомендую,"
+
+        kutermina "А там и привезу - и трудно ль в первый раз"
+
+        kutermina "С визитом побывать? Сегодня я приказ"
+
+        kutermina "Моим племянникам дала, и очень строго,"
+
+        kutermina "Чтоб им... Ты знаешь их?"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}У вас родных так много..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Отец их, Пустельгин, двоюродный мой брат."
+
+        kutermina "Я знала наперед, что ты им будешь рад,"
+
+        kutermina "Однако же сюда приехать им велела."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Помилуйте! На что?"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Я просто бы не смела"
+
+        kutermina "Их на вечер привесть."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(в сторону){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Да что же я молчу?"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(Громко){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Позвольте вам сказать..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}И слушать не хочу!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Вы беспокоили племянников напрасно."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Эх, батюшка, поверь, их баловать опасно:"
+
+        kutermina "Как раз зазнаются, повадку только дай!"
+
+        kutermina "Нет! Дружба дружбою, а долг свой наблюдай!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Не спорю, матушка, всё это справедливо..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "О, я на этот счет отменно щекотлива."
+
+        kutermina "Невежу не пущу к себе на полдвора."
+
+        kutermina "Да что ж они? Давно б приехать им нора,"
+
+        kutermina "Мне кажется: я к ним сегодня до рассвета"
+
+        kutermina "Отправила слугу..."
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Смотрит в окно){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}А вот и их карета!"
+
+        kutermina "Приехали!"
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Идет к дверям.){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        lyubskij "<{i}(Посошкову){/i}>"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}В ней нет и на волос стыда."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Какой в ней стыд!"
+
+        hide pososhkov
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Сюда, голубчики! Сюда!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ну, можно ль быть кому бесстыдней и наглее!"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Андрюша, Ванечка! Ступайте же скорее!"
+
+        hide kutermina
+
+    label Act_1_Scene_7:
+        "{b}ЯВЛЕНИЕ 7{/b}"
+
+        show pervyj_plemyannik at left
+        show vtoroj_plemyannik at right
+
+        show pervyj_plemyannik at left
+        show vtoroj_plemyannik at right
+
+        "<{i}Те же, 1-й племянник и 2-й племянник.{/i}>"
+
+        hide pervyj_plemyannik
+        hide vtoroj_plemyannik
+
+        hide pervyj_plemyannik
+        hide vtoroj_plemyannik
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Вот, батюшка, они! С рук на руки сдаю."
+
+        kutermina "Племянник мой Андрей, от вас не потаю,"
+
+        kutermina "Отцовский фаворит."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}О, в этом я уверен!"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Да то беда, служить он в коннице намерен,"
+
+        kutermina "И вот, как видите, усы уж отпустил."
+
+        kutermina "Ох, эта молодежь! Отец его просил,"
+
+        kutermina "Мы все: \"Андрюшенька, убьют!\" - Так нет! Всё даром -"
+
+        kutermina "Решительно сказал, что хочет быть гусаром,"
+
+        kutermina "И служба статская ему как острый нож."
+
+        kutermina "Вот Ванечка совсем на брата не похож,"
+
+        kutermina "Ученый человек и даже был студентом."
+
+        kutermina "Племянник не сочтет, конечно, комплиментом,"
+
+        kutermina "Когда при всех ему скажу в глаза, что он"
+
+        kutermina "Чуть-чуть не философ, учен, переучен,"
+
+        kutermina "Науки нет такой, где б он не отличился,"
+
+        kutermina "Всё знает, мой отец, и - физике учился."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да этой болтовне не будет и конца."
+
+        hide pososhkov
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Со свечкой поискать такого мудреца."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(тихо Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Отделайтесь скорей!"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Я крайне сожалею,"
+
+        lyubskij "Что не могу никак... и даже их не смею"
+
+        lyubskij "Сегодня пригласить. Я очень бы желал"
+
+        lyubskij "Иметь их у себя, но наш театр так мал,"
+
+        lyubskij "Ко мне же назвалось гостей, конечно, вдвое,"
+
+        lyubskij "Чем мог я ожидать..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}И, батюшка, пустое!"
+
+        kutermina "Два гостя лишние не значат ничего."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Клянусь вам, не могу..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Я ж места одного"
+
+        kutermina "Для Ванечки прошу."
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Показывая на другого племянника){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}Об этом, мой почтенный,"
+
+        kutermina "Прошу не хлопотать: ведь он полувоенный -"
+
+        kutermina "Протрется как-нибудь."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Охота ж время длить!"
+
+        pososhkov "Решитесь поскорей."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Извольте, так и быть!"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Спасибо, мой отец!.."
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Племянникам){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}Ну, что ж? Благодарите!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Быть может, господа, в дверях вы постоите -"
+
+        lyubskij "Вперед вам говорю."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Взойти бы только в дверь,"
+
+        kutermina "А там уж их беда."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Позвольте нам теперь"
+
+        lyubskij "Заняться пробою, нам, право, недосужно."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Сейчас, почтенный мой, сейчас! мне только нужно"
+
+        kutermina "Минутки две."
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Племянникам){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}При мне карету запрягли,"
+
+        kutermina "Так что ж они?"
+
+        hide kutermina
+
+        show pervyj_plemyannik at truecenter
+
+        $ pervyj_plemyannik_var = "{noalt}1-й племянник"
+
+        pervyj_plemyannik "{space=400}В одну усесться не могли."
+
+        hide pervyj_plemyannik
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ах, боже мой! Еще? Нет, это уж злодейство!"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Да, да! Еще кой-кто из нашего семейства:"
+
+        kutermina "Сейчас представлю вам, сейчас!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Напрасный труд!"
+
+        lyubskij "Я вам уж объяснял."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Их тотчас привезут."
+
+        kutermina "Что ж делать, мой отец! Уж я дала им слово!"
+
+        kutermina "К тому же всё свои, ни одного чужого:"
+
+        kutermina "Мусьё Ле Гро, жена его, мадам Ад ель,"
+
+        kutermina "Отличный человек; немецкая мамзель"
+
+        kutermina "Шарлотта Карловна, немножечко болтлива,"
+
+        kutermina "Зато уж как добра, тиха, неприхотлива!"
+
+        kutermina "Как ходит за детьми! На шаг не отстает."
+
+        kutermina "Старательна, умна и дешево берет."
+
+        kutermina "А там еще кой-кто, но этою безделкой"
+
+        kutermina "Не стоит затруднять тебя - народ всё мелкой."
+
+        kutermina "Послушай, душенька, голубчик, золотой!"
+
+        kutermina "Потешь моих внучат! - Всего-то их... постой!"
+
+        kutermina "Танюша, Верочка, Акуленька и Глаша,"
+
+        kutermina "Да, кажется, еще..."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Еще? - Нет, воля ваша..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        play sound1 running
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        play sound1 running
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(бежит к дверям){/i}>"
+
+        show kutermina at truecenter
+
+        stop sound1
+
+        show kutermina at truecenter
+
+        stop sound1
+
+        kutermina "Приехали. Сюда, мусьё, ведите их!"
+
+        hide kutermina
+
+    label Act_1_Scene_8:
+        "{b}ЯВЛЕНИЕ 8{/b}"
+
+        show uchitel at left
+        show guvernantka at truecenter
+        show nyanjushka at right
+
+        show uchitel at left
+        show guvernantka at truecenter
+        show nyanjushka at right
+
+        "<{i}Те же, учитель, гувернантка, нянюшка, четыре девочки и два мальчика.{/i}>"
+
+        hide uchitel
+        hide guvernantka
+        hide nyanjushka
+
+        hide uchitel
+        hide guvernantka
+        hide nyanjushka
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Что вижу! Боже мой! Весь род Кутерминых!"
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Позволь им, батюшка! Ты этим мне докажешь,"
+
+        kutermina "Что истинный мой друг! Неужели откажешь?"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Да что ж, помилуйте! Ведь дом мой не трактир."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "И! Что ты, мой отец!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Вы этак целый мир"
+
+        lyubskij "Готовы привести."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Но ты мне сам позволил..."
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Где видано?.."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}За что разгневаться изволил?"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "За что? Да вы ко мне пристали, как с ножом."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Ах, батюшки! - И век не загляну в твой дом,"
+
+        kutermina "А с горя не умру. Ступайте вон!.. Ну что же!"
+
+        hide kutermina
+
+        show kutermina at left
+        show uchitel at truecenter
+        show guvernantka at right
+
+        hide kutermina
+
+        show kutermina at left
+        show uchitel at truecenter
+        show guvernantka at right
+
+        kutermina "<{i}Учитель, гувернантка и дети уходят.{/i}>"
+
+        hide uchitel
+        hide guvernantka
+
+        show kutermina at truecenter
+
+        hide uchitel
+        hide guvernantka
+
+        show kutermina at truecenter
+
+        kutermina "Не знала, батюшка, что вам театр дороже"
+
+        kutermina "Таких друзей, как я! Возможно ль! Отказать"
+
+        kutermina "В такой безделице! А правду-то сказать:"
+
+        kutermina "Чего смотреть?"
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Чего? Нет, это уж бесстыдство"
+
+        pososhkov "Из меры вон!"
+
+        hide pososhkov
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Да, да! И что за любопытство?"
+
+        kutermina "Большая невидаль - театр! Ах, боже мой!"
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Племянницам){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "Вы с братьями сейчас в карету и домой!"
+
+        kutermina "Племянницы и племянники уходят."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Позвольте доложить! Вы сердитесь напрасно..."
+
+        hide pososhkov
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "За вежливость мою наказана прекрасно!"
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(В сторону){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "Добро, ты грубиян!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Мне, право, очень жаль..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Конечно, и для нас ужасная печаль!"
+
+        kutermina "Я знаю, ваш театр - осьмое в свете чудо."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(тихо Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        pososhkov "Мы целый день ее не выживем отсюда,"
+
+        pososhkov "Уйдемте поскорей."
+
+        hide pososhkov
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(в сторону){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}О, если б я могла"
+
+        kutermina "Порядком отплатить!"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show kutermina at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show kutermina at right
+
+        lyubskij "<{i}(Кутерминой){/i}>"
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        hide kutermina
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}У нас свои дела,"
+
+        lyubskij "Итак, позвольте нам..."
+
+        hide lyubskij
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Кто держит вас? Идите."
+
+        hide kutermina
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "На пробу нам пора."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Прошу вас, не взыщите,"
+
+        lyubskij "Что мы оставим вас одних. Пойдем, жена!"
+
+        hide lyubskij
+
+        show lyubskaya at truecenter
+
+        $ lyubskaya_var = "{noalt}Любская"
+
+        lyubskaya "Позволь хоть мне..."
+
+        hide lyubskaya
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И, вздор! Пускай сидит одна!"
+
+        hide lyubskij
+
+        show kutermina at left
+        show biryulkin at right
+
+        show kutermina at left
+        show biryulkin at right
+
+        "<{i}Все уходят; Кутермина останавливает Бирюлькина.{/i}>"
+
+        hide kutermina
+        hide biryulkin
+
+        hide kutermina
+        hide biryulkin
+
+    label Act_1_Scene_9:
+        "{b}ЯВЛЕНИЕ 9{/b}"
+
+        show kutermina at left
+        show biryulkin at right
+
+        show kutermina at left
+        show biryulkin at right
+
+        "<{i}Кутермина и Бирюлькин.{/i}>"
+
+        hide kutermina
+        hide biryulkin
+
+        hide kutermina
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Два слова, душенька! Но только с уговором:"
+
+        kutermina "Всю правду мне скажи! Ты также здесь актером?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Кто, я-с? Что грех таить! Уж, видно, так судьбе"
+
+        biryulkin "Угодно, матушка..."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Не стыдно ли тебе,"
+
+        kutermina "Проживши столько лет, на старости срамиться!"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Так, так, сударыня!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Ну, можно ль согласиться?.."
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Всё знаю, матушка! - Меня как на убой"
+
+        biryulkin "Ведут..."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Они в глаза смеются над тобой."
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "А что! И подлинно!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Да, это очевидно."
+
+        kutermina "Эх, батюшка, Максим Петрович! - Как не стыдно"
+
+        kutermina "Хотеть в твои лета нарядным шутом быть!"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Так, так!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Эй, будешь ты в бубенчиках ходить!"
+
+        kutermina "Ну, ежели они тебя оденут франтом?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Навеки осрамят."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Добро б ты был с талантом,"
+
+        kutermina "А то - подумай сам! Ну, что ты за актер?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Ох, точно так! Беда! - Бесчестье и позор!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Да что ты охаешь? К чему все эти вздохи?"
+
+        kutermina "Не сам ли ты пошел охотой в скоморохи?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Охотой, матушка? Да кто бы мне велел!"
+
+        biryulkin "Помилуйте, за что?"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Так ты, сударь, хотел"
+
+        kutermina "Всем разом угодить?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Какое угожденье!"
+
+        biryulkin "Я Любского боюсь: опишет всё именье."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Опишет? - Почему?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Ведь я его должник."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Должник?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}По векселю, хоть долг мой невелик,"
+
+        biryulkin "Но я уплатою отменно озабочен."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "И срок уже прошел?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Давным-давно просрочен -"
+
+        biryulkin "Как раз потянет в суд."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Смотри, какой злодей!"
+
+        kutermina "А сколько должен ты?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}До тысячи рублей."
+
+        biryulkin "Поверите ль, какой терплю я недостаток:"
+
+        biryulkin "Копейки в доме нет. Вот если бы до Святок"
+
+        biryulkin "Хотел он подождать, иль только до зимы..."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Послушай! Так и быть! Я дам тебе взаймы,"
+
+        kutermina "Но только с тем, чтоб ты от роли отказался."
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "Ах, боже мой! Да как?"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "{space=400}Чего ж ты испугался?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "А Любский, матушка? Беда! Ведь он презлой!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Так хочешь ты, чтоб все смеялись над тобой,"
+
+        kutermina "Не только взрослые, но даже и ребята?"
+
+        kutermina "Подумай, у тебя давно уж есть внучата,"
+
+        kutermina "Хоть их-то не срами!"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Всё так... я знаю сам..."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Послушай, душенька! Ведь я отсрочку дам"
+
+        kutermina "Еще на целый год."
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}О, если так - извольте!"
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Нельзя ль еще кого?.. Да много ль вас?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Постойте!"
+
+        biryulkin "Во-первых я, потом какой-то Прямиков,"
+
+        biryulkin "Которого все ждут, там Вельский, Посошков..."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "И этот Вельский здесь? - Мальчишка преупрямый,"
+
+        kutermina "Племянник Волгина?"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Да, матушка, тот самый."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Что, если б мне?.. А что ж? Попытка не беда."
+
+        kutermina "Отправлюсь к Волгину. - А ты ступай туда,"
+
+        kutermina "Молчи, и в пять часов иль около шестого"
+
+        kutermina "Явись ко мне домой. - Да слышишь ли - ни слова!"
+
+        kutermina "Чтобы никто не знал..."
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        $ biryulkin_var = "{noalt}Бирюлькин"
+
+        biryulkin "{space=400}Когда угодно вам,"
+
+        biryulkin "Так я, сударыня, и виду не подам."
+
+        hide biryulkin
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        kutermina "Ну то-то же, ступай!"
+
+        hide kutermina
+
+        show biryulkin at truecenter
+
+        show biryulkin at truecenter
+
+        "<{i}Бирюлькин уходит.{/i}>"
+
+        hide biryulkin
+
+        hide biryulkin
+
+    label Act_1_Scene_10:
+        "{b}ЯВЛЕНИЕ 10{/b}"
+
+        show kutermina at truecenter
+
+        $ kutermina_var = "{noalt}Кутермина"
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(одна){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        kutermina "{space=400}Теперь-то постараюсь!"
+
+        kutermina "Добро, мой друг! Уж я с тобою расквитаюсь,"
+
+        kutermina "Все мерзости твои на деле докажу:"
+
+        kutermina "Поеду к Волгину, о всем ему скажу,"
+
+        kutermina "Раскрашу, распишу, где надобно прибавлю,"
+
+        kutermina "Взбешу его - и ваш театр вверх дном поставлю."
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+        show kutermina at truecenter
+
+        kutermina "<{i}(Уходит.){/i}>"
+
+        show kutermina at truecenter
+
+        show kutermina at truecenter
+
+        hide kutermina
+
+label Act_5:
+    play music "audio/music/103.mp3" fadeout 1.0 fadein 1.0
+
+    scene 27 with fade
+
+    "{b}ДЕЙСТВИЕ ТРЕТЬЕ{/b}"
+
+    "<{i}Та же комната.{/i}>"
+
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 1{/color}":
+            jump Act_2_Scene_1
+        "{color=#000}ЯВЛЕНИЕ 2{/color}":
+            jump Act_2_Scene_2
+        "{color=#000}ЯВЛЕНИЕ 3{/color}":
+            jump Act_2_Scene_3
+        "{color=#000}ЯВЛЕНИЕ 4{/color}":
+            jump Act_2_Scene_4
+        "{color=#000}ЯВЛЕНИЕ 5{/color}":
+            jump Act_2_Scene_5
+        "{color=#000}ЯВЛЕНИЕ 6{/color}":
+            jump Act_2_Scene_6
+        "{color=#000}>{/color}":
+            jump Further_Act_2_Scene_6_1
+
+label Further_Act_2_Scene_6_1:
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 7{/color}":
+            jump Act_2_Scene_7
+        "{color=#000}ЯВЛЕНИЕ 8{/color}":
+            jump Act_2_Scene_8
+        "{color=#000}ЯВЛЕНИЕ 9{/color}":
+            jump Act_2_Scene_9
+        "{color=#000}ЯВЛЕНИЕ 10{/color}":
+            jump Act_2_Scene_10
+        "{color=#000}ЯВЛЕНИЕ 11{/color}":
+            jump Act_2_Scene_11
+
+    label Act_2_Scene_1:
+        "{b}ЯВЛЕНИЕ 1{/b}"
+
+        show velskij at left
+        show izvedov at right
+
+        show velskij at left
+        show izvedov at right
+
+        "<{i}Вельский и Изведов. Входят на сцену из средних дверей.{/i}>"
+
+        hide velskij
+        hide izvedov
+
+        hide velskij
+        hide izvedov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Итак, спектакель наш придется отложить?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Что ж делать? Прямиков..."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Неужто упросить"
+
+        izvedov "Его нельзя никак?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}К несчастию - нет средства,"
+
+        velskij "На днях он получил какое-то наследство"
+
+        velskij "И едет за сто верст."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=200}Когда?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Сегодня в ночь."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Так горю вашему придется мне помочь,"
+
+        izvedov "Отдайте ролю мне, я дело всё поправлю."
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Ты хочешь сам играть?"
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}За счастие поставлю."
+
+        izvedov "Не спорю, эта честь отменно велика,"
+
+        izvedov "Зато, ручаюсь вам, что в роли старика"
+
+        izvedov "Увидите во мне отличного актера."
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Всё так, но как же нам остаться без суфлера?"
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Да разве приказать не можно никому?"
+
+        izvedov "Заставьте, например, буфетчика Фому."
+
+        izvedov "Он малый грамотный: не только что свободно,"
+
+        izvedov "Читает мастерски - а впрочем, как угодно."
+
+        izvedov "Принять и не принять вольны вы мой совет,"
+
+        izvedov "А только, верьте мне, другого средства нет."
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Ступай же поскорей, узнай от Посошкова..."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Сейчас, сударь, иду! - Одно лишь только слово:"
+
+        izvedov "Скажите мне, что вам Честонов говорил?"
+
+        izvedov "За вас он или нет?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Он жизнь мне возвратил."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Так он не против вас?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}Нимало."
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Что за диво!"
+
+        izvedov "К чему ж он говорил: \"Племянница счастлива:"
+
+        izvedov "Жених мне по сердцу; он скромен, тих, с умом...\""
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Да знаешь ли, кого считал он женихом?"
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Кого? Неужто вас?"
+
+        hide izvedov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Насилу догадался!"
+
+        hide velskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Вот что! - Ах я дурак! Чего же я боялся?"
+
+        izvedov "Хоть дядя против вас, но это пустяки. -"
+
+        izvedov "Ура, сударь! Когда Честонов вам с руки,"
+
+        izvedov "Бояться нечего, теперь нам всё возможно."
+
+        hide izvedov
+
+    label Act_2_Scene_2:
+        "{b}ЯВЛЕНИЕ 2{/b}"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        "<{i}Те же и Честонов.{/i}>"
+
+        hide chestonov
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        chestonov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        chestonov "Скорей, мой друг, скорей! Тебе сейчас же должно"
+
+        chestonov "Отправиться домой. Ужасная беда!"
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "А что?.."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Твой дядюшка сбирается сюда."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Сюда?.."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Не знаю, кто изволил потрудиться"
+
+        chestonov "И всё ему сказать; он хочет объясниться,"
+
+        chestonov "От Любских получить решительный ответ,"
+
+        chestonov "Кричит, что совести ни на волос в них нет,"
+
+        chestonov "Что он никак не даст племянника дурачить,"
+
+        chestonov "Что свадьбы день должны сегодня же назначить,"
+
+        chestonov "Что быть игрушкой их никто не сотворен,"
+
+        chestonov "Бранит весь свет, шумит и, словом, так взбешен,"
+
+        chestonov "Что с братом он тебя поссорит непременно."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Ах, боже мой! Он всё испортит совершенно,"
+
+        velskij "Рассердит Любского."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}И наш расстроит план."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "А скоро будет он?"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}При мне надел кафтан,"
+
+        chestonov "И я его почти оставил за порогом."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Что ж делать мне?"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Скачи домой и под предлогом"
+
+        chestonov "Каким-нибудь его старайся удержать."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Но вот беда: пешком придется мне бежать."
+
+        velskij "Я дрожки отпустил."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Ступай в моей карете,"
+
+        chestonov "А я к своим пойду."
+
+        hide chestonov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Ваш братец в кабинете!"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(Показывая, куда идти){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "Вот здесь!"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(Уходит вместе с Честоновым.){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+    label Act_2_Scene_3:
+        "{b}ЯВЛЕНИЕ 3{/b}"
+
+        show velskij at left
+        show pososhkov at right
+
+        show velskij at left
+        show pososhkov at right
+
+        "<{i}Вельский и потом Посошков в французском шитом кафтане.{/i}>"
+
+        hide velskij
+        hide pososhkov
+
+        hide velskij
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Ну, если он?.. И вздумать не могу!"
+
+        hide velskij
+
+        show velskij at left
+        show pososhkov at right
+
+        hide velskij
+
+        show velskij at left
+        show pososhkov at right
+
+        velskij "<{i}(Хочет идти, но в дверях встречается с Посошковым){/i}>"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(оборотясь назад){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Я завтра с деньгами пришлю к нему слугу."
+
+        pososhkov "Что, что?.. И, вздор! Уж мы условились о плате"
+
+        pososhkov "С хозяином твоим, ступай! - А, Вельский! - Кстати!"
+
+        pososhkov "Я уважал всегда ваш тонкий вкус и ум -"
+
+        pososhkov "Извольте-ка взглянуть! - Каков, сударь, костюм?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Хорош..."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Не правда ли? Уж мы не ошибемся."
+
+        pososhkov "Ну, что ваш дядюшка? Когда его дождемся?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(с удивлением){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "Так вы уж знаете, что будет он сюда?"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да это знают все."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=200}Ах, боже мой!"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Хочет идти.){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(удерживая){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Куда?"
+
+        pososhkov "Позвольте вас спросить: он родственник вам дальний?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Кто? Дядя мой?"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Ну да! - Ваш дядя театральный,"
+
+        pososhkov "Вот этот - как его? - Не помню..."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Прямиков?"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да, точно так! - А что, он роли стариков"
+
+        pososhkov "Всегда играл?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(с нетерпением){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=200}Всегда."
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Хочет идти.){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(удерживая){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Да что за нетерпенье?"
+
+        pososhkov "Куда спешите вы? Итак - уж нет сомненья -"
+
+        pososhkov "Спектакель наш пойдет?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Пойдет! Я слышу стук!"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "И вы уверены..."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Мне, право, недосуг!"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Смотрит в окно){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "Так точно! - Дядюшка!"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}А можете ль ручаться,"
+
+        pososhkov "Что скоро будет он?"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Сейчас! - Куда деваться?"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Смотрите же!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(в сторону){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Пошлю Честонова скорей!"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(Уходит в боковую дверь.){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        hide velskij
+
+    label Act_2_Scene_4:
+        "{b}ЯВЛЕНИЕ 4{/b}"
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(один){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Куда же вы? - Чуть-чуть не изломал дверей."
+
+        pososhkov "Да что с ним сделалось? О чем он так хлопочет?"
+
+        pososhkov "Когда уж и меня он выслушать не хочет,"
+
+        pososhkov "Так, видно, чем-нибудь, а занят не шутя."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Смотрит в зеркало){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Какой костюм! Я рад и весел, как дитя!"
+
+        pososhkov "Куда, подумаешь, как мода прихотлива!"
+
+        pososhkov "Что лучше этого? - И прочно и красиво,"
+
+        pososhkov "Так нет! Дай выдумать - и что ж? Дурацкий фрак..."
+
+        pososhkov "Ну можно ли сравнить?.."
+
+        hide pososhkov
+
+    label Act_2_Scene_5:
+        "{b}ЯВЛЕНИЕ 5{/b}"
+
+        show pososhkov at left
+        show volgin at right
+
+        show pososhkov at left
+        show volgin at right
+
+        "<{i}Посошков и Волгин.{/i}>"
+
+        hide pososhkov
+        hide volgin
+
+        hide pososhkov
+        hide volgin
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(говорит человеку, который за ним входит){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Как нет? Ты врешь, дурак!"
+
+        volgin "Я видел их в окно."
+
+        hide volgin
+
+        "<{i}Человек уходит.{/i}>"
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        pososhkov "<{i}(продолжает смотреться в зеркало, не замечая Волгина){/i}>"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Хоть в этом я наряде"
+
+        pososhkov "Постарее кажусь, зато при первом взгляде"
+
+        pososhkov "Заметен уж актер, во всех движеньях жар,"
+
+        pososhkov "Экспрессия, душа!.."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(глядя с удивлением на Посошкова){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Что это за фигляр?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Прочесть бы мне теперь тирады две из роли."
+
+        pososhkov "Во фраке всё не то: нельзя и третьей доли"
+
+        pososhkov "Таланта показать, всего важней костюм."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Декламируя){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Постой! - да, да! \"Тебе наскучил этот шум,"
+
+        pososhkov "Так знай, сударыня, скажу тебе заране,"
+
+        pososhkov "Что я...\" - Опять забыл!"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Вынимает ролю.){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}В узорчатом кафтане..."
+
+        volgin "Бормочет про себя... Так точно! Это шут."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(читая по роле){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Все хитрости твои к чему тебя ведут?"
+
+        pososhkov "Что прибыли тебе в увертке бесполезной?"
+
+        pososhkov "Скажи, бесстыдная...\""
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(ударив по плечу Посошкова){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Послушай-ка, любезный!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Чего хотите вы? - Кто б это был таков?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Скажи, пожалуйста..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Неужто Прямиков?"
+
+        pososhkov "Кого вам надобно?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Хозяина мне нужно."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Хозяина? На что?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Мне, право, недосужно."
+
+        volgin "Ступай и доложи ему..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Какой чудак!"
+
+        pososhkov "Конечно, Вельский вас сюда..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Да, точно так,"
+
+        volgin "Я здесь для Вельского."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Теперь я понимаю."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Ты хочешь знать, кто я таков?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Всё знаю."
+
+        pososhkov "Мы ждали вас..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=200}Меня?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Ну да! конечно, вас."
+
+        pososhkov "Хоть с вами видимся мы в первый раз,"
+
+        pososhkov "Но я наслышался о вашем дарованьи,"
+
+        pososhkov "Давно хотел вас знать: теперь мое желанье"
+
+        pososhkov "Исполнилось, и я..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(в сторону){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Как Тришка мой, точь-в-точь!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Надеждой льщу себя..."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        pososhkov "<{i}(Подает Волгину руку.){/i}>"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(подавая ему также руку){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Пожалуй! Я не прочь."
+
+        volgin "До вашей братьи я охотник пресмертельный:"
+
+        volgin "Да ты ж, мне кажется, и вовсе неподдельный,"
+
+        volgin "С природы, так. - Давно ль ты к Любскому попал?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(в сторону){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Уж не ошибся ль я? Что ж это за нахал?"
+
+        pososhkov "Спрошу!.."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(в сторону){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Ну можно ли, на эту рожу глядя,"
+
+        volgin "Не треснуть со смеху?.."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Ведь вы должны быть дядя?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Конечно, я! - И что я этим дорожу,"
+
+        volgin "Сегодня же при всех на деле покажу."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Так точно - это он!"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Мне доказать нетрудно..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Хоть изъясняетесь вы несколько и чудно,"
+
+        pososhkov "Но вашим истинно любуюсь я лицом:"
+
+        pososhkov "Вы рождены, чтоб быть комическим отцом."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Каким?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Комическим, и точно есть надежда,"
+
+        pososhkov "Что в вашем амплуа..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=200}Что, что?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(в сторону){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Да он невежда!"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "О чем ты говоришь?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Я говорю о том,"
+
+        pososhkov "Что вы..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}И я хорош, связался с дураком."
+
+        volgin "Послушай, брат! С тобой я только время трачу,"
+
+        volgin "А мне бы надобно..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Пущуся наудачу!"
+
+        pososhkov "Позвольте прежде мне кой-что вам пояснить."
+
+        pososhkov "Характер ваш: его нетрудно вам схватить,"
+
+        pososhkov "Он прост, зато на вас племянник не походит"
+
+        pososhkov "И дядю, то есть вас, порядком за нос водит."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Ну так! Я это знал."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Племянник ваш влюблен,"
+
+        pososhkov "Так вас обманывать невольно принужден."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Вот что! - Прекрасную ж играть я должен ролю!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да, роля хороша!.."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}И я себя позволю..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Послушайте! Когда я вместе вас свожу,"
+
+        pososhkov "Вы скажете ему..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Я знаю, что скажу:"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(С жаром){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "Бессовестный! Тебя как сына я родного"
+
+        volgin "С ребячества любил! - Пусть дядю б ты другого"
+
+        volgin "Не ставил в грош, а то, кого ж? - Меня, злодей!"
+
+        volgin "Обманывать, срамить и всех честных людей"
+
+        volgin "Заставить надо мной почти в глаза смеяться!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Ого! Какой талант!"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Прошу со мной не знаться!"
+
+        volgin "Когда намеренье тобою принято"
+
+        volgin "Дурачить старика..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Прекрасно, - а не то!"
+
+        pososhkov "Горячий этот тон вам вовсе неприличен."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Таков характер мой..."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Он тем-то и отличен,"
+
+        pososhkov "Что вы других во всем гораздо холодней."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "С чего ты это взял?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Кому же знать верней?"
+
+        pososhkov "Вы смирный человек, ни бедны, ни богаты,"
+
+        pososhkov "Недальнего ума и даже глуповаты..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Кто? Я?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=200}Ну да! Вот весь характер ваш."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ты врешь!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Я вру? - Как смели вы?.."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Да что ты пристаешь?"
+
+        volgin "Пошел, дурак!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Дурак! - На что это похоже?"
+
+        pososhkov "Позвольте вам сказать - за это бьют по роже."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Эй, слушай, брат, отстань!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Зажмите, сударь, рот!"
+
+        pososhkov "Да знаете ль, кто вы? Вы сущий готтентот!"
+
+        pososhkov "Вы варвар, вы мужик, вы в лицах век прошедший..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Эге! Да он не шут, а просто сумасшедший."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Возможно ли? И как вам в голову взошло!.."
+
+        pososhkov "Как смели вы сказать!.."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Чтоб худо не пришло,"
+
+        volgin "Убраться поскорей!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Нет, кончено! Вам роли"
+
+        pososhkov "В пиэсе не даю."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ну можно ли по воле"
+
+        volgin "Пускать таких людей!"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(Хочет идти.){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}И кто вам право дал!"
+
+        pososhkov "Я вас не выпущу. - Куда?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Вот черт пристал!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Не думаете ль вы, что важную находку"
+
+        pososhkov "Мы в вас нашли?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ну, ну! - Я дам тебе на водку,"
+
+        volgin "Лишь только отвяжись! - На гривенник, возьми!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Как, гривенник! - Кому?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Да полно, не шуми!"
+
+        volgin "Я дам еще."
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Как? Что? - Так дерзко насмехаться!"
+
+        pososhkov "Да знаете ль, что я..."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ахти! Он хочет драться!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Куда, сударь! - Я вас заставлю отвечать!"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Ах, батюшки! - Да он презлой! Пришлось кричать!"
+
+        play sound1 running
+
+        hide volgin
+
+        show volgin at truecenter
+
+        play sound1 running
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(Бежит к дверям и кричит){/i}>"
+
+        show volgin at truecenter
+
+        stop sound1
+
+        show volgin at truecenter
+
+        stop sound1
+
+        volgin "Послушайте!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(становится в дверях){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Я вас не подпущу к порогу."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(кричит){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "Эй, кто-нибудь! - Сюда!"
+
+        hide volgin
+
+    label Act_2_Scene_6:
+        "{b}ЯВЛЕНИЕ 6{/b}"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        "<{i}Те же и Честонов.{/i}>"
+
+        hide chestonov
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Честонов! - Слава богу!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Ага! Вы струсили теперь!"
+
+        hide pososhkov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Что здесь за шум?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Поди сюда, скорей!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Ба-ба! - Любезный кум!"
+
+        chestonov "Давно ли здесь?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(прячется за него){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Постой! - Дай отдохнуть немного."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Что сделалось с тобой?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Боитесь ли вы бога?"
+
+        volgin "К чему держать таких опасных дураков?"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(отводя Честонова){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "Позвольте вас спросить - ведь это Прямиков?"
+
+        hide pososhkov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(в сторону){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "Вот кстати!"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(Громко){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "{space=200}Точно так."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Предерзкое творенье!"
+
+        pososhkov "Какой трактирный тон, какое обращенье!"
+
+        pososhkov "Таких людей, как он, животными зовут."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        volgin "<{i}(тихо Честонову){/i}>"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        volgin "Скажи, пожалуйста! Безумный он иль шут?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(так же){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "Да как тебе сказать? - Я думаю, всё вместе."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show chestonov at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show chestonov at right
+
+        pososhkov "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        pososhkov "Я вовсе не бретер, но ежели до чести"
+
+        pososhkov "Коснется кто моей, то боже сохрани!"
+
+        pososhkov "Я этим не шучу."
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        volgin "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        volgin "{space=400}Эх, братец! - Прогони"
+
+        volgin "Его!"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show chestonov at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show chestonov at right
+
+        pososhkov "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Чтоб я спустил такому грубияну!"
+
+        pososhkov "Во-первых, с ним играть решительно не стану,"
+
+        pososhkov "Хоть, правда, без него придется худо нам,"
+
+        pososhkov "Но так и быть."
+
+        hide pososhkov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да он совсем не нужен вам."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Вот то-то и беда! Актера нет другого."
+
+        hide pososhkov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Напротив, ваш театр идет без Прямикова."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Нет, шутите?"
+
+        hide pososhkov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        volgin "<{i}(Честонову){/i}>"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        volgin "{space=400}Ну, что ж! - Спровадь скорей его."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "И чтоб уладить всё, ждут вас лишь одного."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Иду, бегу, сейчас!"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show volgin at right
+
+        pososhkov "<{i}(Волгину){/i}>"
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        hide volgin
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Мне должно бы отчета"
+
+        pososhkov "От вас потребовать..."
+
+        hide pososhkov
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(отводя Посошкова){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        chestonov "{space=400}И что вам за охота!"
+
+        chestonov "Он человек простой, к тому же мне родня..."
+
+        hide chestonov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Ну, если бы не вы - узнал бы он меня!"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Уходит.){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+    label Act_2_Scene_7:
+        "{b}ЯВЛЕНИЕ 7{/b}"
+
+        show volgin at left
+        show chestonov at right
+
+        show volgin at left
+        show chestonov at right
+
+        "<{i}Волгин и Честонов.{/i}>"
+
+        hide volgin
+        hide chestonov
+
+        hide volgin
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Тьфу, черт его возьми! Насилу провалился!"
+
+        volgin "Когда б послушал ты, как он со мной бранился!"
+
+        volgin "Сначала всё шутил, да вдруг перед концом"
+
+        volgin "И ну ругать меня комическим отцом,"
+
+        volgin "Невежей, мужиком, - вот так и лез на драку."
+
+        volgin "Охота же держать такого забияку!"
+
+        volgin "Нет! Тришка мой хоть зол, а всё-таки смирней:"
+
+        volgin "С ним можно пошутить, а этого не смей"
+
+        volgin "Назвать и дураком..."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=200}А ты назвал?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Так что же!"
+
+        volgin "По-моему, дурак и шут - одно и то же."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Да что он говорил с тобой?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Какой-то вздор."
+
+        volgin "О роле мне твердил, как будто б я актер,"
+
+        volgin "Да это ничего - из этих слов лишь видно,"
+
+        volgin "Что вовсе он дурак, а вот что, брат, обидно,"
+
+        volgin "Что я теперь и сам попался в дураки."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Попался! - Как?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}А что? - Чай, скажешь пустяки?"
+
+        volgin "Вот этот глупый шут и тот, сударь, находит,"
+
+        volgin "Что дядю своего племянник за нос водит,"
+
+        volgin "А дядя-то ведь я!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Охота ж о пустом"
+
+        chestonov "Так долго толковать. - Да дело не о том:"
+
+        chestonov "Зачем приехал ты?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Зачем? Чтоб изъясниться,"
+
+        volgin "Ты это знаешь сам."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Эх, братец! Торопиться"
+
+        chestonov "Не должно бы."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Я ждал и так четыре дня,"
+
+        volgin "И буду ждать еще?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да выслушай меня!"
+
+        chestonov "Не лучше ль подождать, и, выбрав час свободный"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Чтоб я, премьер-майор и дворянин природный,"
+
+        volgin "Позволил над собой шутить?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}С чего ты взял?.."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "С чего? Так слушай же! Племянник мне писал,"
+
+        volgin "Что он посватался, что всё идет порядком:"
+
+        volgin "Девица умная, хорошая, с достатком,"
+
+        volgin "Что ей он нравится, и сам в нее влюблен,"
+
+        volgin "Обласкан дядею, родными ободрен"
+
+        volgin "И прочее. Вот я ну шить скорей наряды;"
+
+        volgin "Домашние дела: покос, жнитво, подряды -"
+
+        volgin "Бросаю всё, скачу, приехал наконец."
+
+        volgin "\"Здорово, брат! - Ну что? Когда же под венец?"
+
+        volgin "Я мешкать не люблю и на твоем бы месте"
+
+        volgin "Всё мигом повернул. Вези меня к невесте\"."
+
+        volgin "- \"Ах, дядюшка, нельзя! Ведь Оленька больна\"."
+
+        volgin "- \"А Любский?\" - \"Нездоров\". - \"Так Любского жена?..\""
+
+        volgin "- \"Могла бы вас принять, но также нездорова\"."
+
+        volgin "- \"Помилуй, что за мор? Неужто дали слово"
+
+        volgin "Все разом захворать?\" - \"Весь дом в постелю слег\"."
+
+        volgin "Ну, так и быть! Я ж сам с дороги занемог;"
+
+        volgin "Так нехотя пришлось мне дома оставаться."
+
+        volgin "Сегодня, лишь успел со мной ты распрощаться,"
+
+        volgin "Вдруг шасть ко мне на двор - и кто ж? Кутермина!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Матрена Савишна?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ты знаешь, что она"
+
+        volgin "Болтунья страшная."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}За ней одно лишь дело:"
+
+        chestonov "Злословить всех."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}А тут как будто онемела."
+
+        volgin "Я то, я се - молчит. Конечно, есть печаль,"
+
+        volgin "Подумал я. Спросил. \"Да, батюшка, мне ноль\"."
+
+        volgin "- \"Кого, сударыня?\" - \"О, если непременно"
+
+        volgin "Ты хочешь знать - тебя! Признайся откровенно:"
+
+        volgin "Зачем ты прискакал?\" - \"Племянника женить\"."
+
+        volgin "- \"Охота же себя на старости срамить!\""
+
+        volgin "- \"Как так?\" - \"Да так! Тебя с племянником дурачат\"."
+
+        volgin "- \"Но он ко мне писал\". - \"Что эти письма значат!"
+
+        volgin "Пустое, вздор! Его, бедняжку, завели."
+
+        volgin "Не веришь мне? Так что ж! Попробуй и вели"
+
+        volgin "Узнать ему: когда его судьба решится?"
+
+        volgin "А лучше и того, ступай-ка изъясниться"
+
+        volgin "И Любских сам спроси\". - \"Спросить-то я готов,"
+
+        volgin "Да только у кого? Ведь Любский нездоров,"
+
+        volgin "Жена его больна, племянница в постеле\"."
+
+        volgin "- \"Как! Любский нездоров? Неужто в самом деле?\""
+
+        volgin "- \"Добро б один; а то, как на смех, вся семья\"."
+
+        volgin "- \"Давно ли, мой отец?\" - \"Об этом слышал я"
+
+        volgin "Дня три тому назад\". -\"Дня три! Ах, мой создатель!"
+
+        volgin "Вчерась их угощал гражданский председатель,"
+
+        volgin "А нынче был у них губернский прокурор."
+
+        volgin "Ну, видишь ли теперь, что это всё подбор,"
+
+        volgin "И Любские тобой как пешкою играют\"."
+
+        volgin "Как пешкою! Меня за пешку почитают! -"
+
+        volgin "И после этого прикажешь мне молчать?"
+
+        volgin "Молчать! Нет, черт возьми! Да я готов кричать"
+
+        volgin "Не только здесь, везде - в Москве на лобном месте,"
+
+        volgin "Что в Любских нет стыда, ни совести, ни чести,"
+
+        volgin "Что братец твой..."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Злодей! Что вся его семья,"
+
+        chestonov "Весь Любских род: все братья, сваты, кумовья,"
+
+        chestonov "Сестрицы, тетушки в двенадцатом колене,"
+
+        chestonov "Все внуки, правнуки и даже предков тени"
+
+        chestonov "Тобой решительно, навеки прокляты."
+
+        chestonov "Довольно, кажется? - Теперь спокоен ты?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Да! Смейся, брат! Куда смешно! Умора!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Мы долго продолжать не можем разговора."
+
+        chestonov "Итак, прошу мне дать решительный ответ,"
+
+        chestonov "Но только в двух словах: ты хочешь или нет,"
+
+        chestonov "Чтоб Вельский был женат?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Хочу ль, чтоб он женился!"
+
+        volgin "Да разве двести верст я даром прокатился?"
+
+        volgin "Нет, вздор! Хоть плачь, а мне невесту подавай!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Так дело кончено. Теперь, мой друг, ступай"
+
+        chestonov "Скорей домой!"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=200}Домой?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Ты можешь быть спокоен:"
+
+        chestonov "Мне Вельский по сердцу, он Оленьки достоин"
+
+        chestonov "И будет мужем ей - за это я берусь."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Нет, милый, извини! - Пока не изъяснюсь,"
+
+        volgin "Я с места не сойду."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Но это изъясненье"
+
+        chestonov "Поссорит вас."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=200}Так что ж?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да сделай одолженье,"
+
+        chestonov "Послушайся меня! Ступай скорей домой!"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "И слышать не хочу."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Так знай, любезный мой,"
+
+        chestonov "Ты этой скоростью племянника погубишь."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Мне всё равно."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Равно? Так ты его не любишь?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Вот то-то и беда! К несчастию, люблю."
+
+        volgin "Ну, так и быть, изволь! Сегодня потерплю,"
+
+        volgin "Но завтра ни за что, я больше не намерен"
+
+        volgin "Минуты ждать одной."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Сегодня ж, я уверен,"
+
+        chestonov "Всё будет кончено."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ну, то-то же, смотри!"
+
+        volgin "Помолвка через день, а свадьба через три. -"
+
+        volgin "Даешь ли слово мне?"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да, да, мой друг! Согласен."
+
+        chestonov "Ступай!"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(идет и возвращается назад){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Чтоб был ответ решителен и ясен."
+
+        volgin "Иль да, иль нет..."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Я всё порядком поведу,"
+
+        chestonov "Лишь только уезжай скорей."
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(уходя){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "{space=400}Иду, иду!"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(Возвращаясь){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        volgin "Смотри! - Чтоб Вельскому сегодня ж слово дали,"
+
+        volgin "Не то - в кибитку с ним, и поминай как звали!"
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Уйдешь ли ты?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "{space=400}Ведь я на это молодец,"
+
+        volgin "И если уж решусь..."
+
+        hide volgin
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=400}Да будет ли конец?"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        $ volgin_var = "{noalt}Волгин"
+
+        volgin "Иду! - Но слушай, брат, ты дал мне обещанье,"
+
+        volgin "И я!.."
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        hide volgin
+
+        show volgin at left
+        show chestonov at right
+
+        volgin "<{i}Честонов показывает большое нетерпенье.{/i}>"
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        hide chestonov
+
+        show volgin at truecenter
+
+        volgin "{space=400}Ну-ну! - Прощай покамест, до свиданья!"
+
+        hide volgin
+
+        show volgin at truecenter
+
+        hide volgin
+
+        show volgin at truecenter
+
+        volgin "<{i}(Уходит.){/i}>"
+
+        show volgin at truecenter
+
+        show volgin at truecenter
+
+        hide volgin
+
+    label Act_2_Scene_8:
+        "{b}ЯВЛЕНИЕ 8{/b}"
+
+        show chestonov at left
+        show velskij at right
+
+        show chestonov at left
+        show velskij at right
+
+        "<{i}Честонов, один, и потом Вельский.{/i}>"
+
+        hide chestonov
+        hide velskij
+
+        hide chestonov
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Уйдет ли он? - Ахти! Никак, идет назад!"
+
+        chestonov "Ну, если как-нибудь с ним встретится мой брат?"
+
+        chestonov "Беда! Нет! Кажется, уехал. Слава богу!"
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(выглядывая из боковых дверей){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "Что дядюшка?"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "{space=200}Ушел."
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        hide chestonov
+
+        show chestonov at left
+        show velskij at right
+
+        chestonov "<{i}Вельский выходит.{/i}>"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        chestonov "{space=400}Наделал он тревогу!"
+
+        chestonov "С ним был соперник твой."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Я это ожидал."
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "И если бы меня позвать ты опоздал,"
+
+        chestonov "То плохо бы ему пришлось от Посошкова."
+
+        chestonov "Он дядю твоего почел за Прямикова,"
+
+        chestonov "А тот его назвать изволил дураком -"
+
+        chestonov "Чуть, чуть не подрались. Но дело не о том:"
+
+        chestonov "Мне Оленька во всем призналась откровенно,"
+
+        chestonov "Я наш открыл ей план, и должно непременно"
+
+        chestonov "Сегодня кончить всё. - Какой сюрприз для всех!"
+
+        chestonov "И смело можно бы ручаться за успех,"
+
+        chestonov "Да то беда - она ужасно боязлива."
+
+        chestonov "Послушай, милый мой! Любовь красноречива, -"
+
+        chestonov "Поверь, один твой взгляд подействует сильней,"
+
+        chestonov "Чем все мои слова, а чтоб успеть верней,"
+
+        chestonov "Решительно скажи, что средства нет другого."
+
+        hide chestonov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Она сюда прийти сейчас дала мне слово,"
+
+        velskij "И чтоб склонить ее, я всё употреблю."
+
+        velskij "Ах! если б знали вы, как я ее люблю!"
+
+        hide velskij
+
+        show chestonov at truecenter
+
+        $ chestonov_var = "{noalt}Честонов"
+
+        chestonov "Тем лучше, милый друг! На свете всё непрочно,"
+
+        chestonov "Но добрая жена... Идут! - Она? Так точно!"
+
+        chestonov "Смотри не опоздай! У заднего крыльца"
+
+        chestonov "Карета в шесть часов, а в восемь от венца."
+
+        chestonov "Прощай, мой друг!"
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+        show chestonov at truecenter
+
+        chestonov "<{i}(Уходит.){/i}>"
+
+        show chestonov at truecenter
+
+        show chestonov at truecenter
+
+        hide chestonov
+
+    label Act_2_Scene_9:
+        "{b}ЯВЛЕНИЕ 9{/b}"
+
+        show velskij at left
+        show olenka at right
+
+        show velskij at left
+        show olenka at right
+
+        "<{i}Вельский и Оленька.{/i}>"
+
+        hide velskij
+        hide olenka
+
+        hide velskij
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at left
+        show olenka at right
+
+        hide velskij
+
+        show velskij at left
+        show olenka at right
+
+        velskij "<{i}(идя навстречу к Оленьке){/i}>"
+
+        hide olenka
+
+        show velskij at truecenter
+
+        hide olenka
+
+        show velskij at truecenter
+
+        velskij "{space=400}С каким я ждал вас нетерпеньем!"
+
+        velskij "Всё кончено! Одно осталось нам спасеньем."
+
+        velskij "И если уж ничто не может тронуть вас,"
+
+        velskij "Так знайте же, что мы теперь в последний раз"
+
+        velskij "Не только говорим, но видимся друг с другом,"
+
+        velskij "Что нынче ж вы должны назвать меня супругом"
+
+        velskij "Иль, может быть, со мной расстаться навсегда."
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Расстаться? Боже мой! - Нет, Вельский! Никогда!"
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "А если завтра же откажут мне от дому?.."
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Хотя рука моя обещана другому,"
+
+        olenka "Хоть сердцем я могу лишь вам принадлежать,"
+
+        olenka "Но долг забыть к родным, решиться убежать..."
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Так будьте ж им во всем, сударыня, послушны,"
+
+        velskij "Когда к судьбе моей вы вовсе равнодушны..."
+
+        hide velskij
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Ах, нет!.. - Я вам клянусь!.."
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}Что значат все слова!"
+
+        velskij "Что клятвы все! Когда священные права"
+
+        velskij "И дружбы и любви и всё - забыто вами!"
+
+        velskij "Любви, в которой мне сто раз клялись вы сами,"
+
+        velskij "Мечтая с радостью о том счастливом дне,"
+
+        velskij "Когда я буду ваш навек! Ах! Верьте мне,"
+
+        velskij "Что счастие мое, а может быть и ваше,"
+
+        velskij "В руках теперь у вас. Я всё сказал Наташе -"
+
+        velskij "Сегодня в шесть часов нас будет ждать к себе"
+
+        velskij "Ваш дядюшка... - Когда и он в моей судьбе"
+
+        velskij "Участие берет,"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(бросаясь на колена){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}так вы ли захотите..."
+
+        hide velskij
+
+    label Act_2_Scene_10:
+        "{b}ЯВЛЕНИЕ 10{/b}"
+
+        show lyubskij at left
+        show pososhkov at right
+
+        show lyubskij at left
+        show pososhkov at right
+
+        "<{i}Те же, Любский и Посошков.{/i}>"
+
+        hide lyubskij
+        hide pososhkov
+
+        hide lyubskij
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Что вижу! Боже мой!.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Эх! Тише, не шумите!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at left
+        show lyubskij at truecenter
+        show pososhkov at right
+
+        hide velskij
+
+        show velskij at left
+        show lyubskij at truecenter
+        show pososhkov at right
+
+        velskij "<{i}(не видя Любского и Посошкова){/i}>"
+
+        hide lyubskij
+        hide pososhkov
+
+        show velskij at truecenter
+
+        hide lyubskij
+        hide pososhkov
+
+        show velskij at truecenter
+
+        velskij "Минуты дороги - решайтеся скорей!"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Возможно ли! - Одна!.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=200}Так что ж?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И Вельский с ней."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да как же иначе? Они проходят роли."
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "И вы колеблетесь! Когда от вашей воли"
+
+        velskij "Зависит всё."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Как сметь!.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Еще! Какой болтун!"
+
+        hide pososhkov
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Решитесь быть моей!.."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}Тут входит опекун.{/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at truecenter
+        show olenka at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at truecenter
+        show olenka at right
+
+        pososhkov "<{i}(Подходит к Вельскому и Оленьке){/i}>"
+
+        hide velskij
+        hide olenka
+
+        show pososhkov at truecenter
+
+        hide velskij
+        hide olenka
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}\"Ага, сударыня! Попались!\""
+
+        hide pososhkov
+
+        show olenka at truecenter
+
+        $ olenka_var = "{noalt}Оленька"
+
+        olenka "Ах, боже мой!"
+
+        hide olenka
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(в сторону){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=200}Ай, ай!"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"Чего ж вы испугались?"
+
+        pososhkov "Ведь я не муж, а только что жених."
+
+        pososhkov "Где видано!.. - Застать вдвоем - одних!"
+
+        pososhkov "Да как вы смели?"
+
+        pososhkov "К чему, сударыня, зачем он с вами был?"
+
+        pososhkov "Что, матушка! - Я вижу, онемели!.."
+
+        pososhkov "А вас, сударь... А вас...\" - Кой черт! Опять забыл."
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Вынимает ролю и читает по ней){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"А вас, сударь, велю...\""
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Подвиньтеся немножко!"
+
+        pososhkov "\"Велю сейчас я выкинуть в окошко!"
+
+        pososhkov "И этот сорванец, и этот глупый франт"
+
+        pososhkov "Подумать смел, что я...\""
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show lyubskij at right
+
+        pososhkov "<{i}(Любскому){/i}>"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Вот, батюшка, талант!"
+
+        pososhkov "Вот гений истинный! Смотрите, удивляйтесь!"
+
+        pososhkov "Каков испуг?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(с досадою){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=200}Хорош!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да что же! Восхищайтесь!"
+
+        pososhkov "Взгляните на него! Как истукан стоит!"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(Оленьке){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "И вы! Брависсимо! Какой смущенный вид!"
+
+        pososhkov "Вот это мимика! - Смотрите, побледнела!"
+
+        pososhkov "Давно ль двух слов сказать порядком не умела?"
+
+        pososhkov "А всё ведь я!.."
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show velskij at right
+
+        pososhkov "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        pososhkov "{space=400}Одно заметить должен вам, -"
+
+        pososhkov "Напрасно вы к ее бросаетесь ногам."
+
+        pososhkov "Оно не худо бы, да слишком театрально."
+
+        pososhkov "Но испугались вы..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show velskij at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show velskij at right
+
+        lyubskij "<{i}(поглядывая на Вельского){/i}>"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Да! Очень натурально."
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(Тихо Оленьке){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Сто раз я говорил, не быть наедине!"
+
+        lyubskij "Негодная!.."
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(Громко){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Ступай в гостиную, к жене."
+
+        hide lyubskij
+
+        show olenka at truecenter
+
+        show olenka at truecenter
+
+        "<{i}Оленька уходит.{/i}>"
+
+        hide olenka
+
+        hide olenka
+
+    label Act_2_Scene_11:
+        "{b}ЯВЛЕНИЕ 11{/b}"
+
+        show olenka at left
+        show izvedov at right
+
+        show olenka at left
+        show izvedov at right
+
+        "<{i}Те же, без Оленьки. Изведов, входит из средних дверей.{/i}>"
+
+        hide olenka
+        hide izvedov
+
+        hide olenka
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show izvedov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show izvedov at right
+
+        lyubskij "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        lyubskij "Ну что? Ты был в саду?"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "{space=400}Обегал все дорожки:"
+
+        izvedov "Его там нет."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Вели запречь скорее дрожки"
+
+        lyubskij "И съезди сам к нему."
+
+        hide lyubskij
+
+        show lyubskij at left
+        show izvedov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show izvedov at right
+
+        lyubskij "<{i}Изведов уходит и тотчас возвращается.{/i}>"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        lyubskij "{space=400}Бирюлькин наш пропал."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Да что с ним сделалось? На пробе он всё спал,"
+
+        pososhkov "Забыл все выходы, раз двадцать ошибался..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Вот я его пугну! Совсем избаловался."
+
+        hide lyubskij
+
+        show lyubskij at left
+        show velskij at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show velskij at right
+
+        lyubskij "<{i}(Вельскому){/i}>"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        lyubskij "А что же твой Андрей Степаныч Прямиков?"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Ушел домой."
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Эх, жаль!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Я повторить готов:"
+
+        pososhkov "В нем есть талант, но с ним играть - слуга покорный!"
+
+        pososhkov "Он страшный грубиян и человек превздорный."
+
+        pososhkov "К тому ж, и без него у нас охотник есть:"
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        hide pososhkov
+
+        show pososhkov at left
+        show izvedov at right
+
+        pososhkov "<{i}(Изведову){/i}>"
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        pososhkov "Ты, кажется, взялся?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        hide izvedov
+
+        show izvedov at truecenter
+
+        izvedov "<{i}(кланяясь){/i}>"
+
+        show izvedov at truecenter
+
+        show izvedov at truecenter
+
+        izvedov "{space=400}Я чувствую всю честь"
+
+        izvedov "Актером в труппе быть, где важные особы..."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Я думаю, что ты сыграешь и без пробы?"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Извольте, я готов."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Смотри, не осрамись."
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Кто? - Я, сударь?"
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да, ты! Не больно, брат, храбрись!"
+
+        lyubskij "Я что-то за тебя ужасно как робею."
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Но ролю выучить я к вечеру поспею."
+
+        hide izvedov
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "И! Как не выучить! Она невелика."
+
+        hide pososhkov
+
+        "<{i}Входит слуга.{/i}>"
+
+        show pervyj_sluga at truecenter
+
+        $ pervyj_sluga_var = "{noalt}Слуга"
+
+        hide pervyj_sluga
+
+        show pervyj_sluga at left
+        show lyubskij at right
+
+        hide pervyj_sluga
+
+        show pervyj_sluga at left
+        show lyubskij at right
+
+        pervyj_sluga "<{i}(подавая Любскому письмо){/i}>"
+
+        hide lyubskij
+
+        show pervyj_sluga at truecenter
+
+        hide lyubskij
+
+        show pervyj_sluga at truecenter
+
+        pervyj_sluga "Письмо, сударь!"
+
+        hide pervyj_sluga
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Подай! - Знакомая рука..."
+
+        lyubskij "Бирюлькин! Что за вздор!.. Как! Что!.. Ах, мой создатель!"
+
+        lyubskij "Возможно ли? - Злодей! Разбойник и предатель!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Что с вами сделалось?"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Что сделалось? - Нет сил!"
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show pososhkov at right
+
+        lyubskij "<{i}(Подает письмо Посошкову){/i}>"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        lyubskij "Прочти!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        hide pososhkov
+
+        show pososhkov at truecenter
+
+        pososhkov "<{i}(читает){/i}>"
+
+        show pososhkov at truecenter
+
+        show pososhkov at truecenter
+
+        pososhkov "\"Милостивый государь и благодетель! Убедись просьбами всех моих знакомых и чувствуя сам, что в мои лета неприлично быть актером, я решился не играть сегодня и возвращаю при сем мою ролю."
+
+        pososhkov "Должные мною тысячу рублей по векселю, с глубочайшей моей благодарностию, завтрешнего числа не премину к вам доставить. - По гроб обязанный вами и всепокорнейший слуга Максим Бирюлькин\"."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Что скажешь, брат?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да кто его подбил?"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Весь город - все!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}И, нет! Какой-нибудь проказник"
+
+        pososhkov "Некстати пошутил..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Чтоб наш испортить праздник!"
+
+        lyubskij "И после этого театры затевай!"
+
+        lyubskij "Придумывай, трудись, здоровье убивай,"
+
+        lyubskij "Тешь этих неучей! - Давай пиры и балы!"
+
+        lyubskij "О, варвары! Мордва!.. Чуваши!.. Камчадалы! .."
+
+        lyubskij "Вам хочется самим? - Извольте, господа!"
+
+        lyubskij "Театр мой не пойдет."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        hide velskij
+
+        show velskij at truecenter
+
+        hide velskij
+
+        show velskij at truecenter
+
+        velskij "<{i}(в сторону){/i}>"
+
+        show velskij at truecenter
+
+        show velskij at truecenter
+
+        velskij "{space=400}Вот новая беда!"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Неблагодарные!"
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "{space=400}За что ж на всех сердиться?"
+
+        hide velskij
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Посмотрим, без меня как станут веселиться!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Поверьте мне - всему виной Кутермина."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Матрена Савишна?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Она сотворена"
+
+        pososhkov "На эти мерзости."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну, так! Она хотела"
+
+        lyubskij "Сгубить меня за то, что я... Да что за дело!.."
+
+        lyubskij "Она иль нет - теперь и сам я не хочу:"
+
+        lyubskij "Велю сломать театр, в деревню ускачу..."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Постойте! Точно так! - Театр мы не отложим."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        hide lyubskij
+
+        show lyubskij at truecenter
+
+        lyubskij "<{i}(с радостию){/i}>"
+
+        show lyubskij at truecenter
+
+        show lyubskij at truecenter
+
+        lyubskij "Неужели?.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Да, да! Мы всё поправить можем,"
+
+        pososhkov "Но меры сильные теперь нам должно брать;"
+
+        pososhkov "Изведов может роль Бирюлькина сыграть -"
+
+        pososhkov "И очень будет мил в Антропкином наряде,"
+
+        pososhkov "А вы попробуйте, - сыграйте ролю дяди."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Кто? Я? - В уме ли ты? С чего ты взял?"
+
+        lyubskij "Да я и смолоду актером не бывал."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Всему начало есть."
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Попробуйте, начните!"
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Нет, братец! Ни за что!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Так вы себя вините,"
+
+        pososhkov "Что наш театр нейдет: я средство вам даю."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Я знаю наизусть комедию твою"
+
+        lyubskij "И мог бы, кажется, - мне роль учить не надо..."
+
+        lyubskij "Да нет! - Нельзя никак!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Уж как же будет рада"
+
+        pososhkov "Матрена Савишна! Начнет по всем домам"
+
+        pososhkov "Скакать, рассказывать, шутить - заедет к вам..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ко мне? - Нет, душенька! И носу не покажет."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Куда бы ни взошла - поклон и тотчас скажет:"
+
+        pososhkov "\"Что, матушка, каков вчерась спектакель был?"
+
+        pososhkov "Уж верно, Любский вас отлично угостил,"
+
+        pososhkov "Сбирался целый год, так диво ли?..\""
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Злодейка!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Ведь у него ребром последняя копейка\"."
+
+        pososhkov "- \"Театра не было\". - \"Так что же он кричал?"
+
+        pososhkov "Зачем так чванился? - По выбору всех звал?"
+
+        pososhkov "К чему? - Да он и тем быть должен благодарен,"
+
+        pososhkov "Что ездили к нему! - Ну, что за важный барин?"
+
+        pososhkov "С его ль именьишком мотать?..\""
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ах! Черт возьми!.."
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "\"Пусть это водится меж знатными людьми,"
+
+        pososhkov "А он-то что?..\""
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Как что!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}\"На дело не похоже!"
+
+        pososhkov "А уж хвастун какой! Хвастун - избави боже!"
+
+        pososhkov "\"Сегодня принимать гостей я не велю -"
+
+        pososhkov "Я так устал! Один весь город веселю,"
+
+        pososhkov "Театры завожу, актеров набираю...\""
+
+        pososhkov "Ан, вот ваш и театр!\""
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Так врет она! - Играю!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Решились наконец! Теперь мы спасены."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Я знаю, мне житья не будет от жены,"
+
+        lyubskij "Да так и быть! Пойдем!"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "{space=400}Я думаю, на сцену?"
+
+        pososhkov "Там лучше роль пройти."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}А что же я надену?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Кафтан, большой парик..."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да в нем на дурака"
+
+        lyubskij "Я буду походить! - Нельзя ль без парика?"
+
+        hide lyubskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Никак нельзя: таков характер вашей роли."
+
+        hide pososhkov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Хорош же буду я! Куда красив! - В камзоле,"
+
+        lyubskij "В косматом парике... в узорчатых чулках..."
+
+        hide lyubskij
+
+        show velskij at truecenter
+
+        $ velskij_var = "{noalt}Вельский"
+
+        velskij "Зато подумайте! - кто будет в дураках!"
+
+        hide velskij
+
+        show pososhkov at truecenter
+
+        $ pososhkov_var = "{noalt}Посошков"
+
+        pososhkov "Что этой может быть приятнее награды:"
+
+        pososhkov "Матрена Савишна задохнется с досады!"
+
+        hide pososhkov
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        izvedov "Да ништо ей! - А мы поставим на своем."
+
+        hide izvedov
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Так пусть задохнется! - Негодная!.. Пойдем!"
+
+        hide lyubskij
+
+        "<{i}Все уходят.{/i}>"
+
+label Act_6:
+    play music "audio/music/106.mp3" fadeout 1.0 fadein 1.0
+
+    scene 78 with fade
+
+    "{b}ДЕЙСТВИЕ ЧЕТВЕРТОЕ{/b}"
+
+    "<{i}Театр представляет комнату позади домашнего театра, на правой и левой стороне двери; прямо небольшая лесенка, приставленная к дверям, которыми входят на сцену; несколько кресел, два стола и большое зеркало.{/i}>"
+
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 1{/color}":
+            jump Act_3_Scene_1
+        "{color=#000}ЯВЛЕНИЕ 2{/color}":
+            jump Act_3_Scene_2
+        "{color=#000}ЯВЛЕНИЕ 3{/color}":
+            jump Act_3_Scene_3
+        "{color=#000}ЯВЛЕНИЕ 4{/color}":
+            jump Act_3_Scene_4
+        "{color=#000}ЯВЛЕНИЕ 5{/color}":
+            jump Act_3_Scene_5
+        "{color=#000}ЯВЛЕНИЕ 6{/color}":
+            jump Act_3_Scene_6
+        "{color=#000}>{/color}":
+            jump Further_Act_3_Scene_6_1
+
+label Further_Act_3_Scene_6_1:
+    menu:
+        "{color=#000}ЯВЛЕНИЕ 7{/color}":
             jump Act_3_Scene_7
-        "{color=#000}СЦЕНА ПЯТАЯ{/color}":
-            jump Characters_12
-        "{color=#000}(СЦЕНА ПЯТАЯ) ЛИЦА:{/color}":
+        "{color=#000}ЯВЛЕНИЕ 8{/color}":
+            jump Act_3_Scene_8
+        "{color=#000}ЯВЛЕНИЕ 9{/color}":
             jump Act_3_Scene_9
-        "{color=#000}СЦЕНА ШЕСТАЯ{/color}":
-            jump Characters_13
-        "{color=#000}(СЦЕНА ШЕСТАЯ) ЛИЦА:{/color}":
+        "{color=#000}ЯВЛЕНИЕ 10{/color}":
+            jump Act_3_Scene_10
+        "{color=#000}ЯВЛЕНИЕ 11{/color}":
             jump Act_3_Scene_11
+        "{color=#000}ЯВЛЕНИЕ 12{/color}":
+            jump Act_3_Scene_12
 
     label Act_3_Scene_1:
-        "{b}СЦЕНА ПЕРВАЯ{/b}"
+        "{b}ЯВЛЕНИЕ 1{/b}"
 
-        label Characters_8:
-            play music "audio/music/16.mp3" fadeout 1.0 fadein 1.0
+        show lyubskij at left
+        show pososhkov at right
 
-            scene 20 with fade
+        show lyubskij at left
+        show pososhkov at right
 
-            "{b}(СЦЕНА ПЕРВАЯ) ЛИЦА:{/b}"
+        "<{i}Любский сидит, Посошков расписывает ему лицо, парикмахер держит парик; слуга.{/i}>"
 
-            show dmitrij at truecenter
-            "Дмитрий."
-            hide dmitrij
+        hide lyubskij
+        hide pososhkov
 
-            show vasilij_shujskij at truecenter
-            "Василий Шуйский."
-            hide vasilij_shujskij
+        hide lyubskij
+        hide pososhkov
 
-            show mstislavskij at truecenter
-            "Мстиславский."
-            hide mstislavskij
+        show lyubskij at truecenter
 
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
+        $ lyubskij_var = "{noalt}Любский"
 
-            show tatischev at truecenter
-            "Татищев."
-            hide tatischev
+        hide lyubskij
 
-            show basmanov at truecenter
-            "Басманов."
-            hide basmanov
+        show lyubskij at truecenter
 
-            show belskij at truecenter
-            "Бельский."
-            hide belskij
+        hide lyubskij
 
-            show masalskij at truecenter
-            "Масальский."
-            hide masalskij
+        show lyubskij at truecenter
 
-            show buchinskij at truecenter
-            "Бучинский."
-            hide buchinskij
+        lyubskij "<{i}(одному слуге){/i}>"
 
-            show vlasev at truecenter
-            "Власьев, царский казначей."
-            hide vlasev
+        show lyubskij at truecenter
 
-            show osipov at truecenter
-            "Осипов, дьяк из приказа."
-            hide osipov
+        show lyubskij at truecenter
 
-        "<{i}У каждой двери по двое немцев с бердышами.{/i}>"
+        lyubskij "По окнам шкалики, а плошки на крыльцо."
 
-        "<{i}Передняя комната в новом дворце у самозванца; за ней широкая галерея с цветными стеклами.{/i}>"
+        lyubskij "Ступай!"
 
-        "<{i}(23 апреля 1606 года){/i}>"
+        hide lyubskij
 
-        show tatischev at left
-        show vasilij_shujskij at right
+        show lyubskij at truecenter
 
-        show tatischev at left
-        show vasilij_shujskij at right
+        hide lyubskij
 
-        "<{i}Выходят Татищев, за ним Василий Шуйский.{/i}>"
+        show lyubskij at truecenter
 
-        hide tatischev
-        hide vasilij_shujskij
+        lyubskij "<{i}Слуга уходит.{/i}>"
 
-        hide tatischev
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        lyubskij "{space=400}Эх, полно, брат! Испачкал всё лицо."
 
-        vasilij_shujskij "Куда бежишь? Аль речи не по мысли?"
+        lyubskij "Да будет ли конец?"
 
-        hide vasilij_shujskij
+        hide lyubskij
 
-        show tatischev at truecenter
+        show pososhkov at truecenter
 
-        $ tatischev_var = "{noalt}Татищев"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        tatischev "Ишь неучи! Уж это мы слыхали!"
+        pososhkov "{space=400}Еще одну морщину;"
 
-        tatischev "Обучимся и мы, не торопясь."
+        pososhkov "Ведь вы играете не средних лет мужчину,"
 
-        tatischev "Пусть вызовут из Греции монахов!"
+        pososhkov "Вам должно походить лицом на старика."
 
-        tatischev "Так нет, такой науки он не хочет..."
+        pososhkov "Взгляните на меня! - Да, левая щека"
 
-        tatischev "Отдай робят в ученье езовитам..."
+        pososhkov "Бледней, а вот сейчас мы разом подрумяним."
 
-        tatischev "Меня мороз по коже подирает,"
+        pososhkov "Сидите же смирней! Вот так! - Теперь мы станем"
 
-        tatischev "Готова брань сорваться с языка."
+        pososhkov "Прилаживать парик! - Подай!"
 
-        tatischev "На драку я пойду, на нож полезу,"
+        hide pososhkov
 
-        tatischev "Когда шутя о вере говорят."
+        show pososhkov at left
+        show lyubskij at right
 
-        tatischev "Какой он царь! Какой защитник церкви,"
+        hide pososhkov
 
-        tatischev "Когда латинской, езовитской веры"
+        show pososhkov at left
+        show lyubskij at right
 
-        tatischev "От греческой не может отличить!"
+        pososhkov "<{i}(Берет парик и надевает на Любского.){/i}>"
 
-        tatischev "Ему одно, что наше православье,"
+        hide lyubskij
 
-        tatischev "Что ересь их. Кабы одно-то было,"
+        show pososhkov at truecenter
 
-        tatischev "Анафеме бы их не предавали."
+        hide lyubskij
 
-        tatischev "А коль одно, так и пускай бы в нашу"
+        show pososhkov at truecenter
 
-        tatischev "Латинцы шли. Вот, значит, не одно."
+        hide pososhkov
 
-        tatischev "Татарин, жид, латинец, православный --"
+        show lyubskij at truecenter
 
-        tatischev "Всяк бережет свою; а у царя-то"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tatischev "Какая же?"
+        lyubskij "{space=400}Ну что, надел?"
 
-        hide tatischev
+        hide lyubskij
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "{space=400}Ну, значит, никакой."
+        pososhkov "Постойте! надобно, чтоб ловко он сидел."
 
-        hide vasilij_shujskij
+        hide pososhkov
 
-        show tatischev at truecenter
+        show lyubskij at truecenter
 
-        $ tatischev_var = "{noalt}Татищев"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tatischev "А ты молчишь, боярин, князь Василий"
+        lyubskij "Ай! Волосы дерешь! Терпения не стало!"
 
-        tatischev "Иванович, иль дакаешь ему"
+        hide lyubskij
 
-        hide tatischev
+        show pososhkov at truecenter
 
-        show tatischev at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide tatischev
+        pososhkov "Мне кажется, парик напудрен очень мало."
 
-        show tatischev at truecenter
+        hide pososhkov
 
-        tatischev "<{i}(сквозь зубы){/i}>"
+        show pososhkov at truecenter
 
-        show tatischev at truecenter
+        hide pososhkov
 
-        show tatischev at truecenter
+        show pososhkov at truecenter
 
-        tatischev "Проклятому."
+        pososhkov "<{i}(Парикмахеру){/i}>"
 
-        hide tatischev
+        show pososhkov at truecenter
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        pososhkov "Вот с этой стороны!"
 
-        vasilij_shujskij "{space=400}К чему же горячиться!"
+        hide pososhkov
 
-        vasilij_shujskij "Само себе защита православье,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Гонителей оно не побоится."
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "И Фока и Ульян-богоотступник"
+        lyubskij "{space=400}Да полно! Не тирань!"
 
-        vasilij_shujskij "На Бога шли войной, да много ль взяли..."
+        lyubskij "Пусти меня!"
 
-        vasilij_shujskij "Гонители погибли лютой смертью,"
+        hide lyubskij
 
-        vasilij_shujskij "А вера православная стоит."
+        show pososhkov at truecenter
 
-        hide vasilij_shujskij
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show vasilij_shujskij at left
-        show golitsyn at truecenter
-        show mstislavskij at right
+        pososhkov "{space=200}Сейчас!"
 
-        hide vasilij_shujskij
+        hide pososhkov
 
-        show vasilij_shujskij at left
-        show golitsyn at truecenter
-        show mstislavskij at right
+        show pososhkov at left
+        show lyubskij at right
 
-        vasilij_shujskij "<{i}Входят Голицын и Мстиславский.{/i}>"
+        hide pososhkov
 
-        hide golitsyn
-        hide mstislavskij
+        show pososhkov at left
+        show lyubskij at right
 
-        show vasilij_shujskij at truecenter
+        pososhkov "<{i}Парикмахер пудрит Любского.{/i}>"
 
-        hide golitsyn
-        hide mstislavskij
+        hide lyubskij
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        hide vasilij_shujskij
+        hide lyubskij
 
-        show golitsyn at truecenter
+        show pososhkov at truecenter
 
-        $ golitsyn_var = "{noalt}Голицын"
+        hide pososhkov
 
-        golitsyn "А вот у нас и свадьба подоспела;"
+        show lyubskij at truecenter
 
-        golitsyn "Опять пиры!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide golitsyn
+        hide lyubskij
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "{space=400}Всю зиму пировали,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Играли в зернь да пили без ума;"
+        lyubskij "<{i}(вспрыгивает с кресел){/i}>"
 
-        vasilij_shujskij "Опять за то ж!"
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show mstislavskij at truecenter
+        lyubskij "{space=400}Довольно! - Перестань!"
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        hide lyubskij
 
-        mstislavskij "{space=400}Мы свадьбу отпируем,"
+        show pososhkov at truecenter
 
-        mstislavskij "И кончено, снарядимся в поход."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide mstislavskij
+        hide pososhkov
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide pososhkov
 
-        vasilij_shujskij "Куда? Зачем?"
+        show pososhkov at truecenter
 
-        hide vasilij_shujskij
+        pososhkov "<{i}(парикмахеру){/i}>"
 
-        show mstislavskij at truecenter
+        show pososhkov at truecenter
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        show pososhkov at truecenter
 
-        mstislavskij "{space=400}На крымского Гирея."
+        pososhkov "Пошли Изведова."
 
-        hide mstislavskij
+        hide pososhkov
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Какая стать Казы-Гирея трогать"
+        hide lyubskij
 
-        vasilij_shujskij "И турского султана задирать!"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Кому нужда? Жигмонту, немцам, папе;"
+        hide lyubskij
 
-        vasilij_shujskij "А мы в чужом пиру похмелье примем."
+        show lyubskij at truecenter
 
-        vasilij_shujskij "На крымцев есть донские казаки:"
+        lyubskij "<{i}(смотрясь в зеркало){/i}>"
 
-        vasilij_shujskij "Пусть режутся; послать свинцу да зелья,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Да денег дать -- а после отпереться,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Что нам-де их, воров, не удержать..."
+        lyubskij "{space=400}Ну, так! Урод уродом!"
 
-        vasilij_shujskij "Две выгоды: дешевле и без драки;"
+        lyubskij "И кто мог следовать таким дурацким модам?"
 
-        vasilij_shujskij "И волки сыты, да и овцы целы,"
+        lyubskij "Какой нечистый дух придумал парики!"
 
-        vasilij_shujskij "Татары биты, да и мы с султаном"
+        lyubskij "Да ништо мне! Пошел охотой в дураки..."
 
-        vasilij_shujskij "В миру живем."
+        hide lyubskij
 
-        hide vasilij_shujskij
+        show pososhkov at truecenter
 
-        show tatischev at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ tatischev_var = "{noalt}Татищев"
+        pososhkov "А мне так кажется, что в этом вы наряде..."
 
-        tatischev "{space=400}Поход задуман в Риме,"
+        hide pososhkov
 
-        tatischev "И сгоряча наш царь пообещался"
+        show lyubskij at truecenter
 
-        tatischev "Начать войну, чтоб выманить от Польши"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tatischev "Жену да императорское титло."
+        lyubskij "Да, батюшка, красив! - И спереди и сзади"
 
-        tatischev "Со свейским мы поссорились за Польшу,"
+        lyubskij "Святочный пугало."
 
-        tatischev "С татарином и турским за нее ж..."
+        hide lyubskij
 
-        tatischev "Так с Польшей-то в ладах ли? Не бывало!"
+        show pososhkov at truecenter
 
-        tatischev "Поссоримся и с ней."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide tatischev
+        pososhkov "{space=400}Охота вам терзать"
 
-        show mstislavskij at truecenter
+        pososhkov "Самих себя..."
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        hide pososhkov
 
-        mstislavskij "{space=200}За что?"
+    label Act_3_Scene_2:
+        "{b}ЯВЛЕНИЕ 2{/b}"
 
-        hide mstislavskij
+        show izvedov at truecenter
 
-        show tatischev at truecenter
+        show izvedov at truecenter
 
-        $ tatischev_var = "{noalt}Татищев"
+        "<{i}Те же и Изведов, из средних дверей.{/i}>"
 
-        tatischev "{space=400}За титло"
+        hide izvedov
 
-        tatischev "Непобедимого. На печке сидя,"
+        hide izvedov
 
-        tatischev "Ни с кем не воевавши, заслужили"
+        show izvedov at truecenter
 
-        tatischev "Такую честь, так нам ее подай!"
+        $ izvedov_var = "{noalt}Изведов"
 
-        tatischev "Сбирались-то втроем идти на турок,"
+        hide izvedov
 
-        tatischev "А немцы прочь; Жигмонт, угодник папский,"
+        show izvedov at left
+        show pososhkov at right
 
-        tatischev "И рад бы в рай, да сеймом вяжут руки;"
+        hide izvedov
 
-        tatischev "Останемся как раки на мели."
+        show izvedov at left
+        show pososhkov at right
 
-        hide tatischev
+        izvedov "<{i}(Посошкову){/i}>"
 
-        show mstislavskij at truecenter
+        hide pososhkov
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        show izvedov at truecenter
 
-        mstislavskij "Одни пойдем; на что ж новогородцев"
+        hide pososhkov
 
-        mstislavskij "И псковичей пригнали на Ходынку?"
+        show izvedov at truecenter
 
-        hide mstislavskij
+        izvedov "{space=400}Что вам угодно приказать?"
 
-        show vasilij_shujskij at truecenter
+        hide izvedov
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Да много ль их? Всего восьмнадцать тысяч."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide vasilij_shujskij
+        pososhkov "Готово ль у тебя?"
 
-        show mstislavskij at truecenter
+        hide pososhkov
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        show izvedov at truecenter
 
-        mstislavskij "В Ельце еще сбираются войска."
+        $ izvedov_var = "{noalt}Изведов"
 
-        hide mstislavskij
+        izvedov "{space=400}На сцене всё готово."
 
-        show vasilij_shujskij at truecenter
+        hide izvedov
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "А деньги где?"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide vasilij_shujskij
+        lyubskij "А что, который час?"
 
-        show golitsyn at truecenter
+        hide lyubskij
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show izvedov at truecenter
 
-        golitsyn "{space=400}Велик калым платили;"
+        $ izvedov_var = "{noalt}Изведов"
 
-        golitsyn "Рекой течет московская казна"
+        izvedov "{space=400}Три четверти седьмого."
 
-        golitsyn "За польскую границу; Афанасий"
+        hide izvedov
 
-        golitsyn "Обозами возил туда два раза."
+        show lyubskij at truecenter
 
-        hide golitsyn
+        $ lyubskij_var = "{noalt}Любский"
 
-        show mstislavskij at truecenter
+        lyubskij "Что ж Оленька нейдет?"
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        hide lyubskij
 
-        mstislavskij "Нет, он один пойдет, не побоится!"
+        show pososhkov at truecenter
 
-        mstislavskij "Ему война -- потеха; спит и грезит"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        mstislavskij "Он о войне; ему без дела скучно."
+        pososhkov "{space=400}Я к ней сейчас послал."
 
-        hide mstislavskij
+        pososhkov "А Вельский где? И он опаздывать уж стал."
 
-        show tatischev at truecenter
+        pososhkov "Я прежде не знавал за ним привычки этой."
 
-        $ tatischev_var = "{noalt}Татищев"
+        hide pososhkov
 
-        tatischev "Война -- потеха, вера на потеху!"
+        show izvedov at truecenter
 
-        hide tatischev
+        $ izvedov_var = "{noalt}Изведов"
 
-        show tatischev at truecenter
+        izvedov "Он из дому хотел совсем уже одетый"
 
-        hide tatischev
+        izvedov "Приехать в шесть часов."
 
-        show tatischev at truecenter
+        hide izvedov
 
-        tatischev "<{i}(Показывая в окно.){/i}>"
+        show pososhkov at truecenter
 
-        show tatischev at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show tatischev at truecenter
+        pososhkov "{space=400}Нельзя ж ему забыть,"
 
-        tatischev "И у крыльца поставлен для потехи"
+        pososhkov "Что ровно в семь часов на сцене должно быть."
 
-        tatischev "Треглавый ад -- бряцание велико"
+        hide pososhkov
 
-        tatischev "От челюстей и пламя из ушей,"
+        "<{i}Входит слуга.{/i}>"
 
-        tatischev "Отверзты зубы, и готовы когти"
+        show lyubskij at truecenter
 
-        tatischev "На ухапление. И зрети страшно!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tatischev "Потехи всё; какое ж дело свято?"
+        lyubskij "Ну, что ты?"
 
-        hide tatischev
+        hide lyubskij
 
-        show mstislavskij at truecenter
+        show pervyj_sluga at truecenter
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        $ pervyj_sluga_var = "{noalt}Слуга"
 
-        mstislavskij "Татищев, ты не очень завирайся!"
+        pervyj_sluga "{space=400}Доложить, что начали съезжаться."
 
-        mstislavskij "Не попадись опять!"
+        hide pervyj_sluga
 
-        hide mstislavskij
+        show lyubskij at truecenter
 
-        show tatischev at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ tatischev_var = "{noalt}Татищев"
+        lyubskij "Ух! Сердце замерло! - Хоть вовсе отказаться."
 
-        tatischev "{space=400}Язык мой -- враг мой."
+        hide lyubskij
 
-        hide tatischev
+        show pososhkov at truecenter
 
-        show mstislavskij at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ mstislavskij_var = "{noalt}Мстиславский"
+        pososhkov "Помилуйте!"
 
-        mstislavskij "Басманову ты кланяйся, а то бы"
+        hide pososhkov
 
-        mstislavskij "Гулять тебе за Вологду иль Вятку,"
+        show lyubskij at truecenter
 
-        mstislavskij "Куда Макар телят не загонял."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide mstislavskij
+        lyubskij "{space=400}Да я наверно осрамлюсь,"
 
-        show mstislavskij at left
-        show tatischev at right
+        lyubskij "Я знаю наперед; лишь только появлюсь,"
 
-        hide mstislavskij
+        lyubskij "Все лопнут со смеху."
 
-        show mstislavskij at left
-        show tatischev at right
+        hide lyubskij
 
-        mstislavskij "<{i}Татищев уходит, махнув рукой.{/i}>"
+        show pososhkov at truecenter
 
-        hide tatischev
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show mstislavskij at truecenter
+        pososhkov "{space=400}Ах, как вы малодушны!"
 
-        hide tatischev
+        pososhkov "Не стыдно ли?"
 
-        show mstislavskij at truecenter
+        hide pososhkov
 
-        hide mstislavskij
+        show lyubskij at truecenter
 
-        show golitsyn at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        lyubskij "{space=200}Боюсь!"
 
-        golitsyn "Потише, царь идет."
+        hide lyubskij
 
-        hide golitsyn
+        show pososhkov at truecenter
 
-        show belskij at left
-        show masalskij at truecenter
-        show buchinskij at right
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide golitsyn
+        pososhkov "{space=400}Да будьте же послушны"
 
-        show belskij at left
-        show masalskij at truecenter
-        show buchinskij at right
+        pososhkov "Рассудку вашему. Чего бояться вам?"
 
-        golitsyn "<{i}Из царских комнат выходят Дмитрий, Басманов, Бельский, Масальский, из галереи показывается Бучинский с письмом.{/i}>"
+        hide pososhkov
 
-        hide dmitrij
-        hide basmanov
-        hide belskij
-        hide masalskij
-        hide buchinskij
+        show pososhkov at truecenter
 
-        show golitsyn at truecenter
+        hide pososhkov
 
-        hide dmitrij
-        hide basmanov
-        hide belskij
-        hide masalskij
-        hide buchinskij
+        show pososhkov at truecenter
 
-        show golitsyn at truecenter
+        pososhkov "<{i}(Слуге){/i}>"
 
-        hide golitsyn
+        show pososhkov at truecenter
 
-        show buchinskij at truecenter
+        show pososhkov at truecenter
 
-        $ buchinskij_var = "{noalt}Бучинский"
+        pososhkov "Ступай! Проси сюда скорее наших дам."
 
-        hide buchinskij
+        hide pososhkov
 
-        show buchinskij at left
-        show dmitrij at right
+        show lyubskij at truecenter
 
-        hide buchinskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show buchinskij at left
-        show dmitrij at right
+        lyubskij "Эй, братец, быть беде! - Недаром лихорадка"
 
-        buchinskij "<{i}(подавая Дмитрию письмо){/i}>"
+        lyubskij "Меня трясет."
 
-        hide dmitrij
+        hide lyubskij
 
-        show buchinskij at truecenter
+        show pososhkov at truecenter
 
-        hide dmitrij
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show buchinskij at truecenter
+        pososhkov "{space=200}Да вы сыграете..."
 
-        buchinskij "{space=400}Гонец с дороги."
+        hide pososhkov
 
-        hide buchinskij
+        show lyubskij at truecenter
 
-        show dmitrij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        lyubskij "{space=400}Прегадко!"
 
-        hide dmitrij
+        lyubskij "Я ж в этом парике на чучелу похож..."
 
-        show dmitrij at truecenter
+        lyubskij "Ах, батюшки мои! То бросит в жар, то в дрожь!"
 
-        hide dmitrij
+        hide lyubskij
 
-        show dmitrij at truecenter
+        show pososhkov at truecenter
 
-        dmitrij "<{i}(прочитав письмо){/i}>"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show dmitrij at truecenter
+        pososhkov "Неужели на вас не действуют примеры?"
 
-        show dmitrij at truecenter
+        pososhkov "Ну вот, боюсь ли я?"
 
-        dmitrij "Мне весело, бояре; нашу радость"
+        hide pososhkov
 
-        dmitrij "Желал бы я и с вами разделить."
+        show lyubskij at truecenter
 
-        dmitrij "Сегодня пир; придумайте потеху"
+        $ lyubskij_var = "{noalt}Любский"
 
-        dmitrij "Веселую для радости моей."
+        lyubskij "{space=400}Не выпить ли мадеры?"
 
-        dmitrij "Теперь, что день, то ближе наше счастье,"
+        hide lyubskij
 
-        dmitrij "И скоро мы московский трон украсим"
+        show pososhkov at truecenter
 
-        dmitrij "Жемчужиной, какой не обладают"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        dmitrij "Богатые индийские цари."
+        pososhkov "Помилуйте! Зачем? - Чтоб ролю позабыть?"
 
-        dmitrij "Как думаешь, Бучинский, по расчету,"
+        hide pososhkov
 
-        dmitrij "Далеко ли теперь невеста наша?"
+        show lyubskij at truecenter
 
-        hide dmitrij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show buchinskij at truecenter
+        lyubskij "Хоть рюмочку одну."
 
-        $ buchinskij_var = "{noalt}Бучинский"
+        hide lyubskij
 
-        buchinskij "Ее ясновельможность, цесаревна,"
+        show pososhkov at truecenter
 
-        buchinskij "Марина Юрьевна, теперь в Можайске;"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        buchinskij "Его мосць, воевода Сендомирский,"
+        pososhkov "{space=200}Нет, нет!"
 
-        buchinskij "Ясновельможный пан, в Вязёмах к ночи."
+        hide pososhkov
 
-        hide buchinskij
+        show lyubskij at truecenter
 
-        show dmitrij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        lyubskij "{space=400}Да как же быть?"
 
-        dmitrij "Табун коней послать ему для встречи!"
+        lyubskij "Смотри, я весь дрожу."
 
-        dmitrij "Не помнишь ли, какие мы подарки,"
+        hide lyubskij
 
-        dmitrij "Последние, послали с Афанасьем"
+        show pososhkov at truecenter
 
-        dmitrij "Навстречу ей, царице нашей, в Вязьму?"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide dmitrij
+        pososhkov "{space=400}Вам это не поможет."
 
-        show buchinskij at truecenter
+        pososhkov "И что, скажите мне, так сильно вас тревожит?"
 
-        $ buchinskij_var = "{noalt}Бучинский"
+        pososhkov "Вы знаете, у нас партер неприхотлив,"
 
-        buchinskij "Две запоны алмазные, корону"
+        pososhkov "Сыграйте как-нибудь!"
 
-        buchinskij "Алмазную, часы да жемчуг низан."
+        hide pososhkov
 
-        hide buchinskij
+        show lyubskij at truecenter
 
-        show dmitrij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        lyubskij "{space=400}Ты видишь, я чуть жив."
 
-        dmitrij "И только, Ян? Да это мало! Что бы"
+        hide lyubskij
 
-        dmitrij "Еще послать? А вот что, пан Бучинский:"
+        show pososhkov at truecenter
 
-        dmitrij "Свези еще ей восемь ожерельев"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        dmitrij "И столько же кусков парчи на платье..."
+        pososhkov "Добро, останьтесь здесь, а я пойду на сцену."
 
-        dmitrij "А жемчугу в казне какая пропасть!"
+        hide pososhkov
 
-        dmitrij "Берешь, берешь, а все не убывает;"
+        show lyubskij at truecenter
 
-        dmitrij "Куда девать, придумать не могу."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide dmitrij
+        lyubskij "Нет, вечно не прощу Бирюлькину измену!"
 
-        show basmanov at truecenter
+        lyubskij "По милости его теперь я в западне."
 
-        $ basmanov_var = "{noalt}Басманов"
+        hide lyubskij
 
-        basmanov "Да пусть лежит; не пролежал бы места,"
+        show pososhkov at truecenter
 
-        basmanov "И хлеба он не просит."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide basmanov
+        pososhkov "Когда сберутся все, махните только мне,"
 
-        show dmitrij at truecenter
+        pososhkov "И я начать велю тотчас же увертюру."
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide pososhkov
 
-        dmitrij "{space=400}Пан Басманов,"
+        show lyubskij at truecenter
 
-        dmitrij "Я твоего не спрашивал совета..."
+        $ lyubskij_var = "{noalt}Любский"
 
-        dmitrij "Готовы ли кареты? а возницам"
+        hide lyubskij
 
-        dmitrij "И конюхам под цвет каретный платье?"
+        show lyubskij at truecenter
 
-        dmitrij "А новые шатры -- встречать царицу?"
+        hide lyubskij
 
-        hide dmitrij
+        show lyubskij at truecenter
 
-        show basmanov at truecenter
+        lyubskij "<{i}(смотрясь в зеркало){/i}>"
 
-        $ basmanov_var = "{noalt}Басманов"
+        show lyubskij at truecenter
 
-        basmanov "Готово все, великий государь."
+        show lyubskij at truecenter
 
-        hide basmanov
+        lyubskij "И эту глупую, несчастную фигуру"
 
-        show dmitrij at truecenter
+        lyubskij "Я должен выставить сегодня напоказ!"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        lyubskij "Добро б я был талант!"
 
-        dmitrij "Там бархату в царицыны покои"
+        hide lyubskij
 
-        dmitrij "Недостает."
+        show pososhkov at truecenter
 
-        hide dmitrij
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show basmanov at truecenter
+        pososhkov "{space=400}Таланта много в вас."
 
-        $ basmanov_var = "{noalt}Басманов"
+        pososhkov "Хотя заметна в нем какая-то незрелость,"
 
-        basmanov "{space=400}В казне давно не стало,"
+        pososhkov "Но это ничего: вы знаете, что смелость"
 
-        basmanov "Да и в Москве едва ль его найдешь!"
+        pososhkov "Берет и города. - Смелей, сударь, смелей!"
 
-        basmanov "По всем купцам обегали."
+        hide pososhkov
 
-        hide basmanov
+        show pososhkov at truecenter
 
-        show dmitrij at truecenter
+        hide pososhkov
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        show pososhkov at truecenter
 
-        dmitrij "{space=400}Не знаю,"
+        pososhkov "<{i}(Уходит на сцену.){/i}>"
 
-        dmitrij "Вы бегали иль нет, а бархат нужен."
+        show pososhkov at truecenter
 
-        dmitrij "Найти его, чего бы он ни стоил!"
+        show pososhkov at truecenter
 
-        dmitrij "Что нужно нам, того не быть не может."
-
-        dmitrij "Хоть тысячу, хоть больше дай за лоскут"
-
-        dmitrij "В ладонь мою. Я денег не жалею."
-
-        dmitrij "Я прикажу, и будет мне готово"
-
-        dmitrij "Не только бархат, птичье молоко!"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Камки, парчей и бархату цветного"
-
-        basmanov "Истратили мы столько, государь."
-
-        basmanov "Что запрудить Москву-реку хватило 6;"
-
-        basmanov "А соболей, и камней многоцветных,"
-
-        basmanov "И денежной истрачено казны --"
-
-        basmanov "И сметы нет, и слов таких не знаем."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Истрачено! Басманов! Пан Басманов!"
-
-        dmitrij "Кого я жду! Истрачено! Да если б"
-
-        dmitrij "В моей казне алмазов было больше,"
-
-        dmitrij "Я б вымостил алмазами дорогу"
-
-        dmitrij "Для панны Мнишковны."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Да для чего же"
-
-        vasilij_shujskij "Копить, беречь их в темных кладовых?"
-
-        vasilij_shujskij "Алмаз, что человек, не виден в куче:"
-
-        vasilij_shujskij "А посади его на видном месте --"
-
-        vasilij_shujskij "И заблестит. Недаром их копили"
-
-        vasilij_shujskij "Родители твои; они как знали,"
-
-        vasilij_shujskij "Что Дмитрию придет пора их тратить"
-
-        vasilij_shujskij "На брачный пир, для славы государства,"
-
-        vasilij_shujskij "На диво и на зависть иноземцам."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "A ты забыл, что тотчас после пиру"
-
-        basmanov "Война у нас. Куда казна нужнее,"
-
-        basmanov "Подумай-ка!"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Да неужли, Басманов,"
-
-        dmitrij "Так много денег нужно на войну,"
-
-        dmitrij "Что их в казне у нас не хватит? Верьте,"
-
-        dmitrij "Поход короток будет; мы нагрянем,"
-
-        dmitrij "Как Божий гнев, на головы неверных,"
-
-        dmitrij "И долго будет страшно наше имя."
-
-        dmitrij "В пределах их -- великую добычу"
-
-        dmitrij "И славный мир мы завоюем разом."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Пословица у нас: \"Сбирайся на день,"
-
-        basmanov "А про запас бери на всю неделю!\""
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Война -- войной, а свадьба -- свадьбой! Разве"
-
-        vasilij_shujskij "Царю считать алтынами пригоже?"
-
-        vasilij_shujskij "Подьячему, на жалованье царском,"
-
-        vasilij_shujskij "На маленьком, а не царю -- алтыны"
-
-        vasilij_shujskij "Раскладывать на разные потребы;"
-
-        vasilij_shujskij "Один на кашу, на кафтан другой."
-
-        vasilij_shujskij "Война у нас не нынче и не завтра;"
-
-        vasilij_shujskij "Пошлет Господь, так деньги соберутся:"
-
-        vasilij_shujskij "Купцы дадут, в монастырях есть лишки."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "В монастырях они лежат без пользы."
-
-        dmitrij "Не прав ли я?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Без пользы, государь."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Подумайте, бояре, как бы лучше"
-
-        dmitrij "Расставить нам гостей ясновельможных,"
-
-        dmitrij "Родню мою. Бояре, не забудьте,"
-
-        dmitrij "Что польские паны -- не вам чета;"
-
-        dmitrij "Живут красно, богато, видеть любо,"
-
-        dmitrij "Не взаперти, а настежь, шумно, людно."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Под воеводу дом Борисов годен,"
-
-        vasilij_shujskij "А для панов бояре потеснятся."
-
-        hide vasilij_shujskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        mstislavskij "Нам негде взять раздолья и простору. Живем черно."
-
-        hide mstislavskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Зато радушно примем."
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Прислужников царицыных поставим"
-
-        vasilij_shujskij "По улицам Чертольским, по Арбату,"
-
-        vasilij_shujskij "В самом Кремле. Купцов, попов погоним"
-
-        vasilij_shujskij "Из их дворов; не маленькие, сыщут"
-
-        vasilij_shujskij "Приют себе. Хоть нынче ж вывозиться"
-
-        vasilij_shujskij "Прикажем им."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Зачем же гнать насильно?"
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Просить начни -- они ломаться будут;"
-
-        vasilij_shujskij "Ему толкуй, а он свое заладит,"
-
-        vasilij_shujskij "Что дом-де мой, что я-де в нем хозяин."
-
-        vasilij_shujskij "Народ простой -- не понимает чести."
-
-        vasilij_shujskij "Что в их дворах стоят царевы гости."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Великий царь, не одобряй насильства!"
-
-        basmanov "Прогнать попов -- в народе ропот будет."
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Неужто ж нам, для нашей царь-девицы."
-
-        vasilij_shujskij "Для матушки, красавицы царицы."
-
-        vasilij_shujskij "Невиданной, неслыханной нигде,"
-
-        vasilij_shujskij "Попов жалеть?!"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Да ты откуда знаешь"
-
-        dmitrij "Про красоту ее?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Да если б лучше"
-
-        vasilij_shujskij "Была у нас, зачем бы издалека"
-
-        vasilij_shujskij "И брать тебе: ты дома бы женился..."
-
-        vasilij_shujskij "А значит, нет."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=200}Конечно, нет."
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Давно ли,"
-
-        basmanov "Великий царь, ты разлюбил красавиц"
-
-        basmanov "Родной земли, смиренниц чернобровых?"
-
-        basmanov "Ты прежде их не обегал, кажись."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Красавицы в Москве у вас не редкость,"
-
-        dmitrij "По красоте им равных не найдешь..."
-
-        dmitrij "Но портит их излишняя покорность"
-
-        dmitrij "И преданность, бесспорная готовность,"
-
-        dmitrij "Всегдашние уступки и молчанье."
-
-        dmitrij "Литовские красавицы не то!"
-
-        dmitrij "В очах огонь, в речах замысловатость!"
-
-        dmitrij "То ласкою безмерною дарят."
-
-        dmitrij "То гордостью нежданною окинут."
-
-        dmitrij "Им приказать нельзя, нельзя принудить"
-
-        dmitrij "Любить тебя; а долго и прилежно"
-
-        dmitrij "Ухаживать тебя они заставят."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        dmitrij "<{i}(Указывая на Василия Шуйского.){/i}>"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        dmitrij "Смотрите-ка, у старика глаза-то"
-
-        dmitrij "Как прыгают. Ты, видно, Шуйский, любишь"
-
-        dmitrij "Хорошее? Товару цену знаешь?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(машет рукой){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Не без греха! Покаюсь, грешен, грешен!"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ну то-то же! Вот жалко, что сосватал"
-
-        dmitrij "Ты русскую, а то нашли бы польку."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ну, где уж мне! Я стар. По Сеньке шапка!"
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Нам некогда, великий государь,"
-
-        basmanov "За бабами ухаживать подолгу;"
-
-        basmanov "У нас дела с утра до самой ночи,"
-
-        basmanov "И для того нам русские способней."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ты очень строг, Басманов, нынче; Шуйский"
-
-        dmitrij "Добрей тебя."
-
-        hide dmitrij
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{space=400}Твоей великой мосци"
-
-        buchinskij "Дозволь сказать! Царицу беспокоит,"
-
-        buchinskij "Что усмотреть не можно за прислугой;"
-
-        buchinskij "Что наши грубы с русскими, и много"
-
-        buchinskij "И ссор и драк бывает на дороге."
-
-        buchinskij "Боится, чтоб в Москве не сталось то же."
-
-        hide buchinskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Мы, русские, с поляками роднимся."
-
-        vasilij_shujskij "Пускай дерутся, после помирятся."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Молю тебя, великий государь,"
-
-        basmanov "Унять скорей поляков! Мы дождемся"
-
-        basmanov "Беды большой. Вражда непримирима,"
-
-        basmanov "А новые обиды подольются."
-
-        basmanov "Что масло на огонь."
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Так что же делать?"
-
-        vasilij_shujskij "Не бить же нам гостей своих для свадьбы!"
-
-        vasilij_shujskij "Нельзя ж и русских заставлять терпеть"
-
-        vasilij_shujskij "И принимать с поклонами побои!"
-
-        vasilij_shujskij "А пусть они дают полякам сдачи,"
-
-        vasilij_shujskij "Так задирать поляки перестанут."
-
-        hide vasilij_shujskij
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "Такой раздор недоброе пророчит."
-
-        hide belskij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "Дозволь полякам обижать народ."
-
-        masalskij "Дозволь народу драться с поляками..."
-
-        masalskij "Натравливать -- охотники найдутся!"
-
-        hide masalskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "И вырастет из драки бунт народный."
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Молчите вы! Мне слушать надоело!"
-
-        dmitrij "Не школьник я, не вам меня учить!"
-
-        dmitrij "Поймите раз и навсегда, что Шуйский"
-
-        dmitrij "Умнее вас, и рта не разевайте,"
-
-        dmitrij "Когда мы с ним о деле говорим."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vlasev at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vlasev at right
-
-        dmitrij "<{i}Власьев с рабочими на галерее.{/i}>"
-
-        hide vlasev
-
-        show dmitrij at truecenter
-
-        hide vlasev
-
-        show dmitrij at truecenter
-
-        dmitrij "Ну, что ты, Власьев?"
-
-        hide dmitrij
-
-        show vlasev at truecenter
-
-        $ vlasev_var = "{noalt}Власьев"
-
-        vlasev "{space=400}Бархатом разжился,"
-
-        vlasev "Веду рабочих -- стены обивать."
-
-        hide vlasev
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Дождитесь здесь, бояре! Я в покои"
-
-        dmitrij "Царицыны схожу, взгляну работы."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Уходит.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at left
-        show vasilij_shujskij at right
-
-        hide basmanov
-
-        show basmanov at left
-        show vasilij_shujskij at right
-
-        basmanov "<{i}(Шуйскому){/i}>"
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        basmanov "Ты льстишь царю; твои советы -- гибель."
-
-        basmanov "Он молодой, горячий государь;"
-
-        basmanov "Любя его, ты будь руководитель,"
-
-        basmanov "Не поблажай, а на добро учи."
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Учить его, так быть умнее надо:"
-
-        vasilij_shujskij "А я себя умней его не ставлю."
-
-        hide vasilij_shujskij
-
-        show mstislavskij at truecenter
-
-        $ mstislavskij_var = "{noalt}Мстиславский"
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show basmanov at right
-
-        hide mstislavskij
-
-        show mstislavskij at left
-        show basmanov at right
-
-        mstislavskij "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show mstislavskij at truecenter
-
-        hide basmanov
-
-        show mstislavskij at truecenter
-
-        mstislavskij "Да и тебе не след умом кичиться"
-
-        mstislavskij "Перед царем."
-
-        hide mstislavskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Слуга не опекун."
-
-        hide vasilij_shujskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Покуда ты доверчивое сердце"
-
-        basmanov "Великого царя не портил лестью,"
-
-        basmanov "Он верных слуг своих любил советы,"
-
-        basmanov "За грубость речи гнева не держал;"
-
-        basmanov "Он верил нам, он спор любил, он помнил,"
-
-        basmanov "Что тот слуга, кто смело режет правду,"
-
-        basmanov "А наглый льстец -- изменник, не слуга."
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Вот я женюсь, да если будут дети,"
-
-        vasilij_shujskij "Так их учить -- обязанность моя."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at truecenter
-        show osipov at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at truecenter
-        show osipov at right
-
-        vasilij_shujskij "<{i}Выходит из галереи Дмитрий, за ним Осипов.{/i}>"
-
-        hide dmitrij
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-        hide osipov
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Мертвец, худой и бледный! Кто, зачем он?"
-
-        dmitrij "Спросить его! Остановить его!"
-
-        hide dmitrij
-
-        show nemtsy at left
-        show osipov at right
-
-        show nemtsy at left
-        show osipov at right
-
-        "<{i}Немцы загораживают Осипову дорогу{/i}>"
-
-        hide nemtsy
-        hide osipov
-
-        hide nemtsy
-        hide osipov
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Убогий смерд! Дьячишка из приказа!"
-
-        basmanov "Ты Осипов?"
-
-        hide basmanov
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Раб божий, Тимофей."
-
-        hide osipov
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Зачем? Как смел? Откуда ты?"
-
-        hide basmanov
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Из церкви."
-
-        hide osipov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Просить чего иль жаловаться хочешь"
-
-        dmitrij "На слуг моих? Обижен ты?"
-
-        hide dmitrij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Тобою."
-
-        hide osipov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не знаю, чем и как я мог напрасно"
-
-        dmitrij "Тебя обидеть, добрый человек."
-
-        hide dmitrij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "А тем, что ты в святых стенах кремлевских,"
-
-        osipov "Среди церквей, вертеп греха поставил,"
-
-        osipov "Нечестию и ереси поганой!"
-
-        osipov "Святую тишь молитвы православных"
-
-        osipov "Нарушил ты гуденьем мусикийским!"
-
-        osipov "Вхождением еретиков латинских"
-
-        osipov "И люторских ты храмы осквернил"
-
-        osipov "Где я молюсь, пред чем благоговею,"
-
-        osipov "Куда вступаю с трепетом священным,"
-
-        osipov "Туда со мной литвин и лях с руганьем"
-
-        osipov "И мерзостным кощунством вместе входят."
-
-        hide osipov
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Остановись!"
-
-        hide basmanov
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        belskij "{space=200}Молчи!"
-
-        hide belskij
-
-        show masalskij at truecenter
-
-        $ masalskij_var = "{noalt}Масальский"
-
-        masalskij "{space=400}Убить его!"
-
-        hide masalskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Какой смельчак!"
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(тихо){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "{space=400}Какой подвижник веры!"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Не трогайте! Ты, Осипов, чего же"
-
-        dmitrij "За брань свою желаешь заслужить"
-
-        dmitrij "От милостей моих царевых?"
-
-        hide dmitrij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "{space=400}Смерти!"
-
-        osipov "Какой ты царь! Тебе ль управить царством,"
-
-        osipov "Когда собой управить ты не в силах!"
-
-        osipov "Какой ты царь! Ты сам в оковах рабства!"
-
-        osipov "Ты раб греха! служитель сатаны,"
-
-        osipov "Сидящий на престоле всероссийском!"
-
-        osipov "Воистину расстрига, а не царь!"
-
-        hide osipov
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        hide belskij
-
-        show belskij at truecenter
-
-        hide belskij
-
-        show belskij at truecenter
-
-        belskij "<{i}(берет бердыш у немца){/i}>"
-
-        show belskij at truecenter
-
-        show belskij at truecenter
-
-        belskij "Нельзя терпеть! Освободи нам руки,"
-
-        belskij "И мы его на части разнесем!"
-
-        hide belskij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(берет бердыш у другого){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Изменник тот, кто может равнодушно"
-
-        basmanov "В глазах царя такие речи слушать!"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Ты, Осипов, себе желаешь смерти;"
-
-        dmitrij "Ты заслужил ее. Иди на казнь!"
-
-        hide dmitrij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Чего же ждать иного от расстриги!"
-
-        hide osipov
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(занося бердыш){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "Не изрыгай своих ругательств скверных,"
-
-        basmanov "А то убью!"
-
-        hide basmanov
-
-        show belskij at truecenter
-
-        $ belskij_var = "{noalt}Бельский"
-
-        hide belskij
-
-        show belskij at truecenter
-
-        hide belskij
-
-        show belskij at truecenter
-
-        belskij "<{i}(занося бердыш){/i}>"
-
-        show belskij at truecenter
-
-        show belskij at truecenter
-
-        belskij "{space=400}Молчи! Ни слова больше!"
-
-        hide belskij
-
-        show osipov at truecenter
-
-        $ osipov_var = "{noalt}Осипов"
-
-        osipov "Я смерти жду Постом и покаяньем"
-
-        osipov "Я оградил себя от страха смерти"
-
-        osipov "И, причастясь святых Христовых тайн,"
-
-        osipov "Пришел к тебе из Божьей церкви прямо"
-
-        osipov "Принять из рук твоих венец страдальца,"
-
-        osipov "С которым я на небеса предстану."
-
-        hide osipov
-
-        show osipov at left
-        show basmanov at truecenter
-        show belskij at right
-
-        hide osipov
-
-        show osipov at left
-        show basmanov at truecenter
-        show belskij at right
-
-        osipov "<{i}Басманов и Бельский опускают бердыши.{/i}>"
-
-        hide basmanov
-        hide belskij
-
-        show osipov at truecenter
-
-        hide basmanov
-        hide belskij
-
-        show osipov at truecenter
-
-        osipov "Придет пора, то время недалеко,"
-
-        osipov "И смерть моя тебе завидна будет."
-
-        hide osipov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Увесть его!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Идет к двери.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Пытать его прикажешь?"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Казнить его! Остановись, Басманов!"
-
-        dmitrij "Простить иль нет?"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Молчание ){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Жестокий, непреклонный,"
-
-        dmitrij "Бесчувственный и твердый, как железо,"
-
-        dmitrij "Безжалостен к себе народ московский;"
-
-        dmitrij "Он милостей не ценит и не стоит."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show osipov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show osipov at right
-
-        dmitrij "<{i}(Указывая на Осипова.){/i}>"
-
-        hide osipov
-
-        show dmitrij at truecenter
-
-        hide osipov
-
-        show dmitrij at truecenter
-
-        dmitrij "Стеречь его до моего приказа!"
-
-        dmitrij "Свести в тюрьму!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Быстро уходит.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Исполню, государь."
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Уходит. ){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        vasilij_shujskij "<{i}(Голицыну){/i}>"
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Вот мученик святой! Идя на смерть,"
-
-        vasilij_shujskij "Он вымолвил пророческое слово:"
-
-        vasilij_shujskij "\"Завидовать моей ты будешь смерти\"."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Уходит.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
+        hide pososhkov
 
     label Act_3_Scene_3:
-        "{b}СЦЕНА ВТОРАЯ{/b}"
+        "{b}ЯВЛЕНИЕ 3{/b}"
 
-        label Characters_9:
-            play music "audio/music/13.mp3" fadeout 1.0 fadein 1.0
+        "<{i}Те же, без Посошкова.{/i}>"
 
-            scene 11 with fade
+        show lyubskij at truecenter
 
-            "{b}(СЦЕНА ВТОРАЯ) ЛИЦА:{/b}"
+        $ lyubskij_var = "{noalt}Любский"
 
-            show dmitrij at truecenter
-            "Дмитрий."
-            hide dmitrij
+        lyubskij "Да, да! Толкуй! - А всё по милости твоей."
 
-            show mnishek at truecenter
-            "Пан Юрий Мнишек, воевода Сендомирский."
-            hide mnishek
+        lyubskij "Нет, душенька! Вперед театра не затеешь!"
 
-            show marina at truecenter
-            "Марина Юрьевна, его дочь."
-            hide marina
+        hide lyubskij
 
-            show kameristka at truecenter
-            "Камеристка."
-            hide kameristka
+        show lyubskij at left
+        show izvedov at right
 
-        "<{i}Деревянная келья в Москве.{/i}>"
+        hide lyubskij
 
-        "<{i}(5 мая 1606 года){/i}>"
+        show lyubskij at left
+        show izvedov at right
 
-        show mnishek at left
-        show marina at right
+        lyubskij "<{i}(Изведову){/i}>"
 
-        show mnishek at left
-        show marina at right
+        hide izvedov
 
-        "<{i}Входят Мнишек и Марина.{/i}>"
+        show lyubskij at truecenter
 
-        hide mnishek
-        hide marina
+        hide izvedov
 
-        hide mnishek
-        hide marina
+        show lyubskij at truecenter
 
-        show marina at truecenter
+        lyubskij "Признайся, брат! И ты немножечко робеешь?"
 
-        $ marina_var = "{noalt}Марина"
+        hide lyubskij
 
-        marina "Скажи, отец, зачем меня, как птичку,"
+        show izvedov at truecenter
 
-        marina "Здесь заперли?"
+        $ izvedov_var = "{noalt}Изведов"
 
-        hide marina
+        izvedov "Кто! - Я-с?"
 
-        show mnishek at truecenter
+        hide izvedov
 
-        $ mnishek_var = "{noalt}Мнишек"
+        show lyubskij at truecenter
 
-        mnishek "{space=400}Чтоб ты не улетела"
+        $ lyubskij_var = "{noalt}Любский"
 
-        mnishek "От сокола, московского царя."
+        lyubskij "{space=200}Чай, скажешь, нет?"
 
-        hide mnishek
+        hide lyubskij
 
-        show marina at truecenter
+        show izvedov at truecenter
 
-        $ marina_var = "{noalt}Марина"
+        $ izvedov_var = "{noalt}Изведов"
 
-        marina "Ты знаешь сам, какой тяжелой цепью"
+        izvedov "{space=400}Так это в первый раз."
 
-        marina "Взаимных клятв, обетов, вздохов нежных"
+        izvedov "Помилуйте! Ну, что за публика у вас?"
 
-        marina "Мы связаны с державным женихом."
+        izvedov "Кого робеть? - Друзья, приятели, старушки,"
 
-        marina "Как верны мы, и я и он, друг другу!"
+        izvedov "Полдюжины детей. Да это что? Игрушки!"
 
-        marina "И вот за то должна я в заключенье"
+        izvedov "И роля-то моя всего странички две."
 
-        marina "Сидеть и ждать, когда угодно будет"
+        izvedov "Нет, сударь! В старину, как я играл в Москве,"
 
-        marina "Великому царю с собою вместе"
+        izvedov "Так есть чего робеть: не мало и не много"
 
-        marina "Меня на трон московский посадить."
+        izvedov "Три тысячи персон. А судят-то как строго!"
 
-        marina "Смешной народ, обычаев старинных"
+        izvedov "Уж милости от них не жди и не проси:"
 
-        marina "Он изменить не может."
+        izvedov "Как шикать примутся, так боже упаси!"
 
-        hide marina
+        izvedov "Беда! - Не так, как здесь: там публика не наша,"
 
-        show mnishek at truecenter
+        izvedov "Соврать не смей!"
 
-        $ mnishek_var = "{noalt}Мнишек"
+        hide izvedov
 
-        mnishek "{space=400}Если хочешь"
+        show lyubskij at truecenter
 
-        mnishek "Любимой быть, старайся сохранить"
+        $ lyubskij_var = "{noalt}Любский"
 
-        mnishek "Обычаи и даже предрассудки"
+        lyubskij "{space=400}А вот идет сюда Наташа."
 
-        mnishek "Земли, теперь родной тебе."
+        hide lyubskij
 
-        hide mnishek
+    label Act_3_Scene_4:
+        "{b}ЯВЛЕНИЕ 4{/b}"
 
-        show marina at truecenter
+        play sound1 running
 
-        $ marina_var = "{noalt}Марина"
+        show natasha at truecenter
 
-        marina "{space=400}Стараюсь,"
+        play sound1 running
 
-        marina "Хоть трудно мне и скучно привыкать"
+        show natasha at truecenter
 
-        marina "К поклонам их тяжелым, к дикой речи"
+        "<{i}Те же и Наташа, входит с левой стороны и бежит на сцену.{/i}>"
 
-        marina "И поступи размеренной и тихой..."
-
-        marina "А мой жених рядиться очень любит:"
-
-        marina "На дню пять раз переменяет платье."
-
-        hide marina
-
-        show mnishek at truecenter
-
-        $ mnishek_var = "{noalt}Мнишек"
-
-        mnishek "Понравиться естественно желанье"
-
-        mnishek "В таком живом и страстном человеке."
-
-        hide mnishek
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Мне нравится царицей быть московской,"
-
-        marina "А царь Москвы и неуклюж, и груб."
-
-        marina "Ты на царя похож гораздо больше,"
-
-        marina "Чем Дмитрий мой, великий император."
-
-        hide marina
-
-        show mnishek at truecenter
-
-        $ mnishek_var = "{noalt}Мнишек"
-
-        mnishek "Учить тебя не стану; ты сумеешь"
-
-        mnishek "И Польши честь, и гонор родовитых"
-
-        mnishek "Панов ее достойно поддержать"
-
-        mnishek "В Московии; но, кажется мне, слишком"
-
-        mnishek "Ты холодна с царем. Он обезумел,"
-
-        mnishek "Он все забыл, одной любовью бредит,"
-
-        mnishek "То шлет тебе подарок за подарком."
-
-        mnishek "То рядится и только что не плачет."
-
-        hide mnishek
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "А если так, ну, значит, не напрасно"
-
-        marina "Я холодна к нему. Отец! ты знаешь,"
-
-        marina "Что, слабые и робкие созданья,"
-
-        marina "Мм, женщины, всю жизнь у вас под властью,"
-
-        marina "И только раз, когда страстей горячка"
-
-        marina "Безумная кипит в душе мужчины,"
-
-        marina "Холодностью и строгостью притворной --"
-
-        marina "Имеем мы и власть над ним и силу."
-
-        marina "В земле чужой нам золото и жемчуг"
-
-        marina "Не лишние, алмазы -- те же деньги."
-
-        marina "Он нам с тобой полцарства обещает,"
-
-        marina "Короновать меня царицей хочет;"
-
-        marina "Но я боюсь, что сам-то он недолго"
-
-        marina "Процарствует. Бояре Сигизмунду"
-
-        marina "Уж кланялись, просили Владислава,"
-
-        marina "А если он усядется и крепко"
-
-        marina "В Московии, кто знает, после свадьбы"
-
-        marina "Каков он будет! Грубая природа"
-
-        marina "В нем скажется. Отец, ты знаешь, z chama"
-
-        marina "{a=myshow|tooltip|text=из хама не будет пана (польск.)}Nie będzie pana{/a}."
-
-        hide marina
-
-        show mnishek at truecenter
-
-        $ mnishek_var = "{noalt}Мнишек"
-
-        mnishek "{space=400}Брось свои тревоги"
-
-        mnishek "О будущем! Живи и наслаждайся"
-
-        mnishek "Величием и баснословным блеском,"
-
-        mnishek "Дарованным тебе любовью царской"
-
-        mnishek "И неисчетной царскою казной!"
-
-        mnishek "Доверимся герою молодому:"
-
-        mnishek "Он ловко взял державу самовластья"
-
-        mnishek "И удержать ее сумеет крепко"
-
-        mnishek "В своих руках, а ты царя-героя"
-
-        mnishek "Великий дух любовью оковала"
-
-        mnishek "И удержать в цепях любви сумеешь."
-
-        hide mnishek
-
-        show mnishek at left
-        show kameristka at right
-
-        hide mnishek
-
-        show mnishek at left
-        show kameristka at right
-
-        mnishek "<{i}Музыка за сценой. Входит камеристка.{/i}>"
-
-        hide kameristka
-
-        show mnishek at truecenter
-
-        hide kameristka
-
-        show mnishek at truecenter
-
-        hide mnishek
-
-        show kameristka at truecenter
-
-        $ kameristka_var = "{noalt}Камеристка"
-
-        kameristka "Его величество войти изволил."
-
-        hide kameristka
-
-        show kameristka at left
-        show dmitrij at right
-
-        hide kameristka
-
-        show kameristka at left
-        show dmitrij at right
-
-        kameristka "<{i}Входит Дмитрий в венгерском платье.{/i}>"
-
-        hide dmitrij
-
-        show kameristka at truecenter
-
-        hide dmitrij
-
-        show kameristka at truecenter
-
-        hide kameristka
-
-        show mnishek at truecenter
-
-        $ mnishek_var = "{noalt}Мнишек"
-
-        mnishek "Ясновельможный панне, цесаревне"
-
-        mnishek "Марине Юрьевне всея России,"
-
-        mnishek "Отец ее, пан Мнишек, бьет челом"
-
-        mnishek "И милостям ее себя вручает."
-
-        mnishek "Между двоих влюбленных -- третий лишний."
-
-        hide mnishek
-
-        show mnishek at left
-        show dmitrij at right
-
-        hide mnishek
-
-        show mnishek at left
-        show dmitrij at right
-
-        mnishek "<{i}Кланяется Дмитрию и уходит.{/i}>"
-
-        hide dmitrij
-
-        show mnishek at truecenter
-
-        hide dmitrij
-
-        show mnishek at truecenter
-
-        hide mnishek
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Его величество мне извинит"
-
-        marina "Невольное смущенье; мы так рано"
-
-        marina "Не ждали вас..."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Холодное смиренье"
-
-        dmitrij "В речах твоих, почтительная гордость"
-
-        dmitrij "Навстречу ласк горячих и объятий."
-
-        dmitrij "Когда же я, у ног твоих, Марина,"
-
-        dmitrij "Дождусь любви?"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "{space=400}Величие героя"
-
-        marina "В челе твоем, высоко поднятом;"
-
-        marina "Все то, чем я гордилась издалека,"
-
-        marina "Вблизи меня пугает. Робкой деве"
-
-        marina "Слепят глаза блестящие наряды,"
-
-        marina "Толпы вельмож кругом тебя, и роскошь"
-
-        marina "Даров твоих, и раболепство слуг..."
-
-        marina "Почтительно сгибаются колена"
-
-        marina "Перед лицом твоим..."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Любви, Марина!"
-
-        dmitrij "Одной любви! Одной любовью беден"
-
-        dmitrij "На троне я. Все то, чем я владею,"
-
-        dmitrij "Все взято с бою, силой, отнятое."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Любовь лишь там, где равенство."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Забудем"
-
-        dmitrij "Различие! Не царь, а шляхтич вольный"
-
-        dmitrij "Перед тобой."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "{space=400}Вам забываться можно,"
-
-        marina "А мне нельзя."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Перенесися в Польшу"
-
-        dmitrij "Мечтой своей! Забудь, что ты в Москве!"
-
-        dmitrij "Глухая ночь, гремит и воет буря,"
-
-        dmitrij "Перед окном красавица тоскует"
-
-        dmitrij "О рыцаре. Чрез горы и потоки"
-
-        dmitrij "На бешеном, покрытом белой пеной,"
-
-        dmitrij "Аргамаке он мчится, чтоб украдкой"
-
-        dmitrij "Обнять свою любовницу."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marina at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marina at right
-
-        dmitrij "<{i}(Обнимает Марину.){/i}>"
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        hide marina
-
-        show marina at truecenter
-
-        hide marina
-
-        show marina at truecenter
-
-        marina "<{i}(освобождаясь){/i}>"
-
-        show marina at truecenter
-
-        show marina at truecenter
-
-        marina "{space=400}Довольно!"
-
-        marina "Велик простор тебе для самовольства"
-
-        marina "По всей Москве, а здесь мое владенье!"
-
-        marina "Царица я убогой этой кельи,"
-
-        marina "И здесь, за этой дверью, безопасной"
-
-        marina "Желаю быть."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Глаза твои, Марина,"
-
-        dmitrij "Презрением блеснули; эти взгляды"
-
-        dmitrij "Ужасны мне. Не повторяй их боле,"
-
-        dmitrij "Молю тебя. Они напоминают"
-
-        dmitrij "Дни жалкие холопства моего,"
-
-        dmitrij "Когда немой, трепещущий от страсти,"
-
-        dmitrij "Земли и ног не чуя под собой,"
-
-        dmitrij "Из-за угла следил я жадным взглядом"
-
-        dmitrij "Шаги твои, и ты, проникнув дерзость"
-
-        dmitrij "Надежд моих, с улыбкою змеиной"
-
-        dmitrij "Глядела на меня и обдавала"
-
-        dmitrij "Презрением от головы до ног."
-
-        dmitrij "Обиды нет обиднее тех взглядов:"
-
-        dmitrij "Их вынести не мог я никогда;"
-
-        dmitrij "Железная природа уступала"
-
-        dmitrij "Их жгучести -- и я, в слезах, без пищи,"
-
-        dmitrij "В горячечном бреду, больной, метался"
-
-        dmitrij "И день и ночь! Я болен и теперь:"
-
-        dmitrij "Дай руку мне, до головы дотронься!"
-
-        dmitrij "Вся кровь горит, дрожит и холодеет"
-
-        dmitrij "Рука моя, -- мой голос рвется, слезы"
-
-        dmitrij "Сжимают горло и готовы хлынуть,"
-
-        dmitrij "Свинцом лежит в груди тяжелым сердце!"
-
-        dmitrij "Скажи, Марина, чем, какою жертвой"
-
-        dmitrij "Мне заслужить любовь твою и ласку?"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Московский царь, я лаской не торгую."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Но если ты не хочешь оценить"
-
-        dmitrij "Даров моих, позволь же мне, Марина,"
-
-        dmitrij "Слезами и коленопреклоненьем"
-
-        dmitrij "Молить любви твоей"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "{space=400}Ни унижаться,"
-
-        marina "Ни унижать меня я не позволю."
-
-        marina "Сравнять меня с собой у вас есть средство --"
-
-        marina "Короновать меня. Перед царицей"
-
-        marina "Вы можете тогда склонять колена,"
-
-        marina "Не унижаясь, -- я тогда без страха"
-
-        marina "Могу обнять, как равного, тебя."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Короновать? Да разве ты не будешь"
-
-        dmitrij "Царицею, со мною повенчавшись?"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Нет! Русские царицы только жены"
-
-        marina "Мужей-царей -- по мужу лишь царицы;"
-
-        marina "Затворницы, пока мужья их живы,"
-
-        marina "По смерти их -- живые мертвецы,"
-
-        marina "Монахини без власти и значенья."
-
-        marina "А я хочу теперь короноваться,"
-
-        marina "Девицею, и мне твои бояре"
-
-        marina "И воинство пусть так же крест целуют"
-
-        marina "На подданство, как и тебе."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Не знаю,"
-
-        dmitrij "Не слыхано в Руси такое дело."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "А где ж любовь твоя?"
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}А где ж награда"
-
-        dmitrij "За все мои бесчисленные жертвы?"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Последнюю мою исполни волю,"
-
-        marina "И жди себе награды -- я твоя;"
-
-        marina "А без того назад уеду в Польшу."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Приказывай! Назначь нам день и час;"
-
-        dmitrij "Я прикажу собраться духовенству,"
-
-        dmitrij "И нынче же напишем чин венчанья."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Я завтра перееду во дворец,"
-
-        marina "А послезавтра день коронованья."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Исполню все."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "{space=400}Спешить приготовленьем"
-
-        marina "Мне надобно. Прощай, до новой встречи"
-
-        marina "В дворце твоем!"
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Хоть руку на прощанье"
-
-        dmitrij "Облобызать позволь."
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "{space=400}В твоем желанье"
-
-        marina "Не в силах отказать тебе. Изволь!"
-
-        marina "Прощай, мой царь."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        play sound1 kiss
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        play sound1 kiss
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(целуя руку){/i}>"
-
-        show dmitrij at truecenter
+        hide natasha
 
         stop sound1
 
-        show dmitrij at truecenter
+        hide natasha
 
         stop sound1
 
-        dmitrij "{space=400}Прощай, моя царица."
+        show natasha at truecenter
 
-        hide dmitrij
+        $ natasha_var = "{noalt}Наташа"
 
-        show marina at truecenter
+        hide natasha
 
-        $ marina_var = "{noalt}Марина"
+        show natasha at left
+        show lyubskij at right
 
-        hide marina
+        hide natasha
 
-        show marina at truecenter
+        show natasha at left
+        show lyubskij at right
 
-        hide marina
+        natasha "<{i}(не видя Любского){/i}>"
 
-        show marina at truecenter
+        hide lyubskij
 
-        marina "<{i}(обнимая его){/i}>"
+        show natasha at truecenter
 
-        show marina at truecenter
+        hide lyubskij
 
-        show marina at truecenter
+        show natasha at truecenter
 
-        marina "Иди! Иди! Безвременною лаской"
+        natasha "Где Федор Львович? - Где?"
 
-        marina "Не уменьшай бесспорных наслаждений!"
+        hide natasha
 
-        marina "Ты видишь ли, я берегу себя"
+        show lyubskij at truecenter
 
-        marina "Лишь для тебя, мой царь и повелитель!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide marina
+        lyubskij "{space=400}Куда бежишь? Куда?"
 
-        show dmitrij at truecenter
+        lyubskij "Я здесь."
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide lyubskij
 
-        dmitrij "Владычица моя, я власть слагаю"
+        show natasha at truecenter
 
-        dmitrij "У ног твоих; повелевай отныне"
+        $ natasha_var = "{noalt}Наташа"
 
-        dmitrij "И мной самим, и целым государством."
+        natasha "{space=200}Ах, боже мой!"
 
-        hide dmitrij
+        hide natasha
 
-        show marina at truecenter
+        show lyubskij at truecenter
 
-        $ marina_var = "{noalt}Марина"
+        $ lyubskij_var = "{noalt}Любский"
 
-        marina "Да будет так! Я принимаю! {a=myshow|tooltip|text=Аминь! (лат.)}Amen!{/a}"
+        lyubskij "{space=200}Что сделалось?"
 
-        hide marina
+        hide lyubskij
 
-        show marina at truecenter
+        show natasha at truecenter
 
-        hide marina
+        $ natasha_var = "{noalt}Наташа"
 
-        show marina at truecenter
+        natasha "{space=400}Беда!"
 
-        marina "<{i}(Кланяется и уходит.){/i}>"
+        hide natasha
 
-        show marina at truecenter
+        show lyubskij at truecenter
 
-        show marina at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide marina
+        lyubskij "Ахти! - Спектакель наш нейдет?"
 
-        show marina at left
-        show dmitrij at right
+        hide lyubskij
 
-        hide marina
+        show natasha at truecenter
 
-        show marina at left
-        show dmitrij at right
+        $ natasha_var = "{noalt}Наташа"
 
-        marina "<{i}Дмитрий быстро убегает.{/i}>"
+        natasha "{space=400}Ах, сударь! Хуже!"
 
-        hide dmitrij
+        natasha "Ведь Ольга Дмитревна..."
 
-        show marina at truecenter
+        hide natasha
 
-        hide dmitrij
+        show lyubskij at truecenter
 
-        show marina at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide marina
+        lyubskij "{space=400}Племянница? - Да ну же!"
+
+        lyubskij "Злодейка, говори!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=200}Она..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Я жду всего!.."
+
+        lyubskij "С ней дурно сделалось?.."
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Ох! Это б ничего,"
+
+        natasha "А то как вздумаю... Какое приключенье!"
+
+        natasha "Какой удар!"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ну вот, прошу иметь терпенье!"
+
+        lyubskij "Негодная! - Да что?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=200}Она..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Занемогла?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Нет, хуже..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Что за вздор?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Она, сударь... Ушла!"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ушла?.. Куда?.. Зачем?.. Не может это статься!"
+
+        hide lyubskij
+
+        show izvedov at truecenter
+
+        $ izvedov_var = "{noalt}Изведов"
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        hide izvedov
+
+        show izvedov at left
+        show natasha at right
+
+        izvedov "<{i}(тихо Наташе){/i}>"
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        hide natasha
+
+        show izvedov at truecenter
+
+        izvedov "Так барышня твоя."
+
+        hide izvedov
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        hide natasha
+
+        show natasha at truecenter
+
+        hide natasha
+
+        show natasha at truecenter
+
+        natasha "<{i}(так же){/i}>"
+
+        show natasha at truecenter
+
+        show natasha at truecenter
+
+        natasha "{space=400}Уехала венчаться."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ушла?.. Нет, нет! - Ты врешь!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Я всё вам расскажу."
+
+        natasha "Вот с час тому назад в уборной я сижу,"
+
+        natasha "И барышня со мной, совсем уже одета;"
+
+        natasha "Вдруг к заднему крыльцу подъехала карета..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Ну, ну!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Дверь скрипнула - и кто-то на крыльцо"
+
+        natasha "Тихонечко взошел; глядь барышне в лицо -"
+
+        natasha "Она - как смерть!"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Ну, ну!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Заплакала, вскочила,"
+
+        natasha "Накинула платок и в дверь..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}А ты пустила?.."
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Эх, сударь! Слушайте!"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=200}Ну, ну!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Я вслед за ней."
+
+        natasha "Выходим на крыльцо; гляжу - в сенях лакей,"
+
+        natasha "Он под руку ее, тут барышня взглянула"
+
+        natasha "Так жалко на меня, платочком мне махнула,"
+
+        natasha "В карету прыг! И след простыл..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}А ты? - Ну, ну!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Не вспомнилась."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}И ты не кликнула жену,"
+
+        lyubskij "Людей, весь дом?.."
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Без чувств я целый час лежала,"
+
+        natasha "А после, кажется - да, точно так -кричала."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Злодей-то кто?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Да как увидеть в темноте?"
+
+        natasha "Помилуйте!"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ты врешь! - Нет, душенька! Не те"
+
+        lyubskij "Уловки у тебя! Ты знала шашни эти!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Кто? - Я-с?"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Да, ты! - Сейчас скажи, кто был в карете?"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "Сказать наверное не смею я никак,"
+
+        natasha "А Вельский, кажется..."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "{space=400}Ах, старый я дурак!"
+
+        lyubskij "Так точно! Это он."
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Я, впрочем, не ручаюсь."
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        $ lyubskij_var = "{noalt}Любский"
+
+        lyubskij "Молчи, негодная! Чего ж я дожидаюсь?"
+
+        lyubskij "Пошлю! - Пойду! - Куда? - Я вовсе без ума."
+
+        hide lyubskij
+
+        show lyubskij at left
+        show natasha at right
+
+        hide lyubskij
+
+        show lyubskij at left
+        show natasha at right
+
+        lyubskij "<{i}(Наташе){/i}>"
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        hide natasha
+
+        show lyubskij at truecenter
+
+        lyubskij "Пошли жену!"
+
+        hide lyubskij
+
+        show natasha at truecenter
+
+        $ natasha_var = "{noalt}Наташа"
+
+        natasha "{space=400}Да вот она идет сама."
+
+        hide natasha
 
     label Act_3_Scene_5:
-        "{b}СЦЕНА ТРЕТЬЯ{/b}"
+        "{b}ЯВЛЕНИЕ 5{/b}"
 
-        label Characters_10:
-            play music "audio/music/6.mp3" fadeout 1.0 fadein 1.0
+        show lyubskaya at truecenter
 
-            scene 22 with fade
+        show lyubskaya at truecenter
 
-            "{b}(СЦЕНА ТРЕТЬЯ) ЛИЦА:{/b}"
+        "<{i}Те же и Любская.{/i}>"
 
-            show vasilij_shujskij at truecenter
-            "Василий Шуйский."
-            hide vasilij_shujskij
+        hide lyubskaya
 
-            show dmitrij_shujskij at truecenter
-            "Дмитрий Шуйский."
-            hide dmitrij_shujskij
+        hide lyubskaya
 
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
+        show lyubskaya at truecenter
 
-            show kurakin at truecenter
-            "Куракин."
-            hide kurakin
+        $ lyubskaya_var = "{noalt}Любская"
 
-            show tatischev at truecenter
-            "Татищев."
-            hide tatischev
+        lyubskaya "Ах я несчастная! - Ну, сгибла да пропала!"
 
-            show kalachnik at truecenter
-            "Калачник."
-            hide kalachnik
+        lyubskaya "Вот грех какой!"
 
-            show dvoretskij at truecenter
-            "Дворецкий."
-            hide dvoretskij
+        hide lyubskaya
 
-            show sotnik_streletskij at truecenter
-            "Дворяне, боярские дети, головы, сотники и стрельцы новгородские и псковские, купцы и простой народ."
-            hide sotnik_streletskij
+        show lyubskij at truecenter
 
-        show vasilij_shujskij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "{space=400}Ага! Теперь ты плакать стала!"
 
-        "<{i}Верхние сени в доме Шуйского. Темно.{/i}>"
+        lyubskij "Безумная!"
 
-        hide vasilij_shujskij
+        hide lyubskij
 
-        hide vasilij_shujskij
+        show lyubskaya at truecenter
 
-        "<{i}(11 мая 1606 года){/i}>"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show vasilij_shujskij at left
-        show kalachnik at truecenter
-        show dvoretskij at right
+        lyubskaya "{space=400}Кричи,сударик мой, кричи!"
 
-        show vasilij_shujskij at left
-        show kalachnik at truecenter
-        show dvoretskij at right
+        hide lyubskaya
 
-        "<{i}Выходят из освещенной комнаты Василий Шуйский, калачник с восковой свечой в руке и дворецкий.{/i}>"
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
-        hide kalachnik
-        hide dvoretskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide vasilij_shujskij
-        hide kalachnik
-        hide dvoretskij
+        lyubskij "Чего смотрела ты?"
 
-        show vasilij_shujskij at truecenter
+        hide lyubskij
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "А крепко ль мы живем, Иван? В кольчуге,"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "Я вижу, ты; меня-то бережете ль?"
+        lyubskaya "{space=200}А ты, сударь?"
 
-        hide vasilij_shujskij
+        hide lyubskaya
 
-        show kalachnik at truecenter
+        show lyubskij at truecenter
 
-        $ kalachnik_var = "{noalt}Калачник"
+        $ lyubskij_var = "{noalt}Любский"
 
-        kalachnik "И красные, и задние ворота"
+        lyubskij "{space=400}Молчи!"
 
-        kalachnik "С дубинами робята берегут;"
+        hide lyubskij
 
-        kalachnik "По улице в проулках, перекрестках"
+        show lyubskaya at truecenter
 
-        kalachnik "И по концам поставлены рогатки --"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        kalachnik "Ни конному, ни пешему нет ходу,"
+        lyubskaya "Чтоб стала я молчать! - Нет, батюшка, довольно!"
 
-        kalachnik "Кромя своих. На страже у рогаток,"
+        lyubskaya "Век целый поступать ты хочешь своевольно,"
 
-        kalachnik "Для случая, готовы верховые."
+        lyubskaya "А я должна..."
 
-        kalachnik "Я ставил сам и обходил дозором --"
+        hide lyubskaya
 
-        kalachnik "Я для того кольчугу и надел."
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "{space=200}Жена!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "Что бережно, то цело."
+        show lyubskaya at truecenter
 
-        hide vasilij_shujskij
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show kalachnik at truecenter
+        lyubskaya "{space=400}Так нет, не замолчу!"
 
-        $ kalachnik_var = "{noalt}Калачник"
+        lyubskaya "Терпеть не буду я, не стану, не хочу!"
 
-        kalachnik "{space=400}Мы кольчуги"
+        lyubskaya "Всё выскажу..."
 
-        kalachnik "По твоему приказу отобрали"
+        hide lyubskaya
 
-        kalachnik "Из кладовой. Кому раздать, я знаю."
+        show lyubskij at truecenter
 
-        kalachnik "Кого но жаль, кому и жизнь копейка,"
+        $ lyubskij_var = "{noalt}Любский"
 
-        kalachnik "И голова не стоит ничего,"
+        lyubskij "{space=200}Жена!"
 
-        kalachnik "На них-то я кольчуги и надену."
+        hide lyubskij
 
-        kalachnik "Я рать сбору из вольницы московской;"
+        show lyubskaya at truecenter
 
-        kalachnik "Мы выпустим сидельцев бражных тюрем,"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        kalachnik "Цепных воров с Варварского крестца!"
+        lyubskaya "{space=400}Ну вот твои затеи,"
 
-        kalachnik "И эту рать удалую навстречу"
+        lyubskaya "Вот глупый твой театр! Актеры все - злодеи,"
 
-        kalachnik "Пищального огня я поведу."
+        lyubskaya "Губители твои, и даже Посошков."
 
-        kalachnik "Мы вашу грудь своею загородим;"
+        lyubskaya "Кого ты набрал в дом? - Фигляров, дураков,"
 
-        kalachnik "За головы разумные бояр"
+        lyubskaya "Срамил себя, мотал, расстроил всё именье."
 
-        kalachnik "Мы головы дешевые положим..."
+        lyubskaya "Что праздники твои? - Беспутство, разоренье!"
 
-        kalachnik "Зажечь огня?"
+        lyubskaya "А твой театр..."
 
-        hide kalachnik
+        hide lyubskaya
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "{space=400}Одной свечи довольно."
+        lyubskij "{space=200}Жена!"
 
-        vasilij_shujskij "Держи в руках! Не свадьбу мы пируем..."
+        hide lyubskij
 
-        hide vasilij_shujskij
+        show lyubskaya at truecenter
 
-        show vasilij_shujskij at left
-        show dvoretskij at right
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide vasilij_shujskij
+        lyubskaya "{space=400}Разбойничий вертеп!"
 
-        show vasilij_shujskij at left
-        show dvoretskij at right
+        lyubskaya "Скажи мне, батюшка, иль вовсе ты ослеп?"
 
-        vasilij_shujskij "<{i}(Дворецкому.){/i}>"
+        lyubskaya "Бывало, при тебе шушуканье, бесстыдство,"
 
-        hide dvoretskij
+        lyubskaya "Одно лишь на уме: амуры, волокитство, -"
 
-        show vasilij_shujskij at truecenter
+        lyubskaya "И с кем? - С племянницей! Что ж вышло наконец"
 
-        hide dvoretskij
+        lyubskaya "Она из-за кулис бежала под венец."
 
-        show vasilij_shujskij at truecenter
+        lyubskaya "Не я ль сто раз одно и то же говорила..."
 
-        vasilij_shujskij "Сбираются?"
+        hide lyubskaya
 
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show dvoretskij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ dvoretskij_var = "{noalt}Дворецкий"
+        lyubskij "Ты только об одном, сударыня, вопила,"
 
-        dvoretskij "{space=400}Понабралось довольно,"
+        lyubskij "Что деньги трачу я..."
 
-        dvoretskij "Внизу полно. В сенях стрельцов поставил,"
+        hide lyubskij
 
-        dvoretskij "Торговый люд в поварне, в черных избах."
+        show lyubskaya at truecenter
 
-        hide dvoretskij
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show vasilij_shujskij at truecenter
+        lyubskaya "{space=400}А кто твердил о том,"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        lyubskaya "Что должно запереть от Вельского наш дом"
 
-        vasilij_shujskij "А лишних нет?"
+        lyubskaya "И выдать поскорей племянницу-злодейку!"
 
-        hide vasilij_shujskij
+        lyubskaya "Да я бы отдала последнюю копейку,"
 
-        show dvoretskij at truecenter
+        lyubskaya "Лишь только б этот срам поправить чем-нибудь,"
 
-        $ dvoretskij_var = "{noalt}Дворецкий"
+        lyubskaya "Лишь только б этот грех... Нет сил!.. - Стеснило грудь!.."
 
-        dvoretskij "{space=400}Кажись, что не бывало."
+        play sound1 punch
 
-        hide dvoretskij
+        hide lyubskaya
 
-        show vasilij_shujskij at truecenter
+        show lyubskaya at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        play sound1 punch
 
-        vasilij_shujskij "Осматривай по одному! Чужого"
+        hide lyubskaya
 
-        vasilij_shujskij "Опрашивай: зачем пришел, откуда,"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "И кто привел? Когда позвать прикажем,"
+        lyubskaya "<{i}(Падает на кресла.){/i}>"
 
-        vasilij_shujskij "Пускай наверх без шуму, с береженьем!"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Теперь ступай!"
+        stop sound1
 
-        hide vasilij_shujskij
+        show lyubskaya at truecenter
 
-        show vasilij_shujskij at left
-        show dvoretskij at right
+        stop sound1
 
-        hide vasilij_shujskij
+        hide lyubskaya
 
-        show vasilij_shujskij at left
-        show dvoretskij at right
+        show natasha at truecenter
 
-        vasilij_shujskij "<{i}Дворецкий уходит вниз.{/i}>"
+        $ natasha_var = "{noalt}Наташа"
 
-        hide dvoretskij
+        natasha "Пойдемте к вам..."
 
-        show vasilij_shujskij at truecenter
+        hide natasha
 
-        hide dvoretskij
+        show lyubskaya at truecenter
 
-        show vasilij_shujskij at truecenter
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "{space=400}Бояре, выходите!"
+        lyubskaya "{space=400}Нет, нет!.. - Пускай умру при муже!"
 
-        hide vasilij_shujskij
+        lyubskaya "Ах, душно!.. - Смерть моя!.."
 
-        show golitsyn at left
-        show kurakin at truecenter
-        show tatischev at right
+        hide lyubskaya
 
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show golitsyn at left
-        show kurakin at truecenter
-        show tatischev at right
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "<{i}Выходят Дмитрий Шуйский, Голицын, Куракин, Татищев, дворяне, дети боярские и головы стрелецкие.{/i}>"
+        lyubskij "{space=400}Час от часу всё хуже!"
 
-        hide dmitrij_shujskij
-        hide golitsyn
-        hide kurakin
-        hide tatischev
+        hide lyubskij
 
-        show vasilij_shujskij at truecenter
+        show natasha at truecenter
 
-        hide dmitrij_shujskij
-        hide golitsyn
-        hide kurakin
-        hide tatischev
+        $ natasha_var = "{noalt}Наташа"
 
-        show vasilij_shujskij at truecenter
+        hide natasha
 
-        hide vasilij_shujskij
+        show natasha at truecenter
 
-        show golitsyn at truecenter
+        hide natasha
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show natasha at truecenter
 
-        golitsyn "Довольно с нас обид и униженья"
+        natasha "<{i}(ищет в карманах){/i}>"
 
-        golitsyn "От гордости поляков, нестерпима"
+        show natasha at truecenter
 
-        golitsyn "Их пьяная хвастливость."
+        show natasha at truecenter
 
-        hide golitsyn
+        natasha "Куда девался спирт?"
 
-        show kurakin at truecenter
+        hide natasha
 
-        $ kurakin_var = "{noalt}Куракин"
+        show izvedov at truecenter
 
-        kurakin "{space=400}То и дело"
+        $ izvedov_var = "{noalt}Изведов"
 
-        kurakin "Мы слушаем от них, что нам, холопам,"
+        hide izvedov
 
-        kurakin "Приятеля паны на царство дали;"
+        show izvedov at truecenter
 
-        kurakin "Что служим мы холопски, что с панами"
+        hide izvedov
 
-        kurakin "Вельможными мы честью не равны."
+        show izvedov at truecenter
 
-        kurakin "Потешились над нами наши гости,"
+        izvedov "<{i}(подавая бутылку со стола){/i}>"
 
-        kurakin "И будет с них; пришел конец их панству,"
+        show izvedov at truecenter
 
-        kurakin "Конец царьку и нашему холопству."
+        show izvedov at truecenter
 
-        hide kurakin
+        izvedov "{space=400}Вот здесь ло-де-лаван."
 
-        show golitsyn at truecenter
+        hide izvedov
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show natasha at truecenter
 
-        golitsyn "Пора уж нам почет, боярам, видеть!"
+        $ natasha_var = "{noalt}Наташа"
 
-        golitsyn "Мы выберем себе царя меж нами,"
+        natasha "Подай сюда!"
 
-        golitsyn "Боярского царя."
+        hide natasha
 
-        hide golitsyn
+        show natasha at left
+        show lyubskaya at right
 
-        show dmitrij_shujskij at truecenter
+        hide natasha
 
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
+        show natasha at left
+        show lyubskaya at right
 
-        dmitrij_shujskij "{space=400}Опасный шаг!"
+        natasha "<{i}(Льет Любской на голову и трет виски.){/i}>"
 
-        dmitrij_shujskij "Храни Господь!"
+        hide lyubskaya
 
-        hide dmitrij_shujskij
+        show natasha at truecenter
 
-        show golitsyn at truecenter
+        hide lyubskaya
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show natasha at truecenter
 
-        golitsyn "{space=400}Не все ж играть в игрушки!"
+        hide natasha
 
-        golitsyn "Пора боярам послужить земле."
+        show lyubskij at truecenter
 
-        hide golitsyn
+        $ lyubskij_var = "{noalt}Любский"
 
-        show tatischev at truecenter
+        hide lyubskij
 
-        $ tatischev_var = "{noalt}Татищев"
+        show lyubskij at truecenter
 
-        tatischev "Боярами земля стоит от века,"
+        hide lyubskij
 
-        tatischev "Не выдать же чужим родную землю."
+        show lyubskij at truecenter
 
-        hide tatischev
+        lyubskij "<{i}(кричит){/i}>"
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Народ слепой, мы зрячие, мы видим,"
+        lyubskij "{space=400}Воды! Скорей воды стакан!"
 
-        vasilij_shujskij "Куда идти, чего хотеть народу."
+        hide lyubskij
 
-        vasilij_shujskij "Боярство -- Русь великая, а земство"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Идет туда, куда ведут бояре."
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "Народ возьмет, что мы ему дадим,"
+        hide lyubskaya
 
-        vasilij_shujskij "И будет знать, что мы ему велим."
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Для наших дней и для потомков наших"
+        hide lyubskaya
 
-        vasilij_shujskij "Покроем мы все замыслы и думы"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Глубокою и вековечной тайной."
+        lyubskaya "<{i}(хватает себя за голову и вскакивает){/i}>"
 
-        vasilij_shujskij "Пусть люди нас не судят, судит Бог!"
+        show lyubskaya at truecenter
 
-        hide vasilij_shujskij
+        show lyubskaya at truecenter
 
-        show dmitrij_shujskij at truecenter
+        lyubskaya "Ах, боже мой! - Ты век останешься скотиной!"
 
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
+        lyubskaya "Ну что ты, дура, льешь? - Бутылка два с полтиной."
 
-        dmitrij_shujskij "А страшно, брат!"
+        lyubskaya "Подай!"
 
-        hide dmitrij_shujskij
+        hide lyubskaya
 
-        show vasilij_shujskij at truecenter
+        show lyubskaya at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskaya
 
-        vasilij_shujskij "{space=400}Кого же нам бояться?"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "И царь слепой, и так же слеп и прост"
+        lyubskaya "<{i}(Берет бутылку и прячет в ридикюль.){/i}>"
 
-        vasilij_shujskij "Бесовозлюбленный его советник."
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Басманову ли править государством!"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Он под носом не видит ничего."
+        hide lyubskaya
 
-        vasilij_shujskij "Борисовы ученики, мы Грозным"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Воспитаны, и нас не проведешь!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Не им чета! Вот мы умеем править"
+        hide lyubskij
 
-        vasilij_shujskij "Землей своей, вести народ умеем."
+        show lyubskij at truecenter
 
-        vasilij_shujskij "По выбору и ложь и правда служат"
+        hide lyubskij
 
-        vasilij_shujskij "У нас в руках орудием для блага"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Народного. Нужна народу правда --"
+        lyubskij "<{i}(глядит в окно){/i}>"
 
-        vasilij_shujskij "И мы даем ее; мы правду прячем,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Когда обман народу во спасенье."
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Мы лжем ему: и мрут и оживают"
+        lyubskij "{space=400}Смотрите-ка! Полнехонек весь двор!"
 
-        vasilij_shujskij "По нашей воле люди; по базарам"
+        lyubskij "Карет до двадцати!"
 
-        vasilij_shujskij "Молва пройдет о знаменьях чудесных;"
+        hide lyubskij
 
-        vasilij_shujskij "Убогие, блаженные пророчат,"
+        show pervyj_sluga at truecenter
 
-        vasilij_shujskij "Застонет камень, дерево заплачет,"
+        $ pervyj_sluga_var = "{noalt}1-й слуга"
 
-        vasilij_shujskij "Из недр земли послышатся глаголы,"
+        pervyj_sluga "{space=400}Приехал прокурор!"
 
-        vasilij_shujskij "И наша ложь в народе будет правдой,"
+        hide pervyj_sluga
 
-        vasilij_shujskij "В хронографы за правду перейдет..."
+        show pervyj_sluga at truecenter
 
-        hide vasilij_shujskij
+        hide pervyj_sluga
 
-        show tatischev at truecenter
+        show pervyj_sluga at truecenter
 
-        $ tatischev_var = "{noalt}Татищев"
+        pervyj_sluga "<{i}(Уходит.){/i}>"
 
-        tatischev "Великая боярская опора,"
+        show pervyj_sluga at truecenter
 
-        tatischev "Василий, княж Иваныч, за тобою,"
+        show pervyj_sluga at truecenter
 
-        tatischev "Как стадо мы. Не закрывай уста!"
+        hide pervyj_sluga
 
-        hide tatischev
+        show lyubskij at truecenter
 
-        show vasilij_shujskij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        lyubskij "Зачем я звал его! - Ведь он московский житель,"
 
-        vasilij_shujskij "Была пора, нам ложь была нужна,"
+        lyubskij "Насмешник, зубоскал!"
 
-        vasilij_shujskij "Мы ею Русь спасали от Бориса;"
+        hide lyubskij
 
-        vasilij_shujskij "Но выросла та ложь треглавым змеем,"
+        show vtoroj_sluga at truecenter
 
-        vasilij_shujskij "Свила гнездо себе в чертогах царских"
+        $ vtoroj_sluga_var = "{noalt}2-й слуга"
 
-        vasilij_shujskij "И ересью дохнула на Россию,"
+        vtoroj_sluga "{space=400}Губернский предводитель."
 
-        vasilij_shujskij "Детенышей развесть грозится, хочет"
+        hide vtoroj_sluga
 
-        vasilij_shujskij "Облапить Русь погаными когтями."
+        show vtoroj_sluga at truecenter
 
-        vasilij_shujskij "Пришла пора покаяться, бояре,"
+        hide vtoroj_sluga
 
-        vasilij_shujskij "Пришла пора виниться в воровстве."
+        show vtoroj_sluga at truecenter
 
-        vasilij_shujskij "Мы про себя и про царя народу"
+        vtoroj_sluga "<{i}(Уходит.){/i}>"
 
-        vasilij_shujskij "Всю правду скажем. Эй! Зови народ!"
+        show vtoroj_sluga at truecenter
 
-        hide vasilij_shujskij
+        show vtoroj_sluga at truecenter
 
-        show kalachnik at truecenter
+        hide vtoroj_sluga
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show kalachnik at truecenter
+        lyubskij "И, верно, не один, с невесткой и женой!"
 
-        hide kalachnik
+        lyubskij "Съезжайтесь, господа! Потешьтесь надо мной!"
 
-        show kalachnik at truecenter
+        hide lyubskij
 
-        kalachnik "<{i}(с лестницы свищет){/i}>"
+        show pervyj_sluga at truecenter
 
-        show kalachnik at truecenter
+        $ pervyj_sluga_var = "{noalt}1-й слуга"
 
-        show kalachnik at truecenter
+        hide pervyj_sluga
 
-        hide kalachnik
+        show pervyj_sluga at truecenter
 
-        show kalachnik at left
-        show dvoretskij at right
+        hide pervyj_sluga
 
-        hide kalachnik
+        show pervyj_sluga at truecenter
 
-        show kalachnik at left
-        show dvoretskij at right
+        pervyj_sluga "<{i}(вбегает запыхавшись){/i}>"
 
-        kalachnik "<{i}Дворецкий показывается.{/i}>"
+        show pervyj_sluga at truecenter
 
-        hide dvoretskij
+        show pervyj_sluga at truecenter
 
-        show kalachnik at truecenter
+        pervyj_sluga "Его сиятельство!.."
 
-        hide dvoretskij
+        hide pervyj_sluga
 
-        show kalachnik at truecenter
+        show lyubskij at truecenter
 
-        kalachnik "Веди народ!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide kalachnik
+        lyubskij "{space=400}Гражданский губернатор?"
 
-        show vasilij_shujskij at truecenter
+        hide lyubskij
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show pervyj_sluga at truecenter
 
-        vasilij_shujskij "{space=400}Бояре, честь и место!"
+        $ pervyj_sluga_var = "{noalt}1-й слуга"
 
-        hide vasilij_shujskij
+        pervyj_sluga "И с ним приезжий князь."
 
-        show vasilij_shujskij at left
-        show ves_narod_1_2 at right
+        hide pervyj_sluga
 
-        hide vasilij_shujskij
+        show pervyj_sluga at truecenter
 
-        show vasilij_shujskij at left
-        show ves_narod_1_2 at right
+        hide pervyj_sluga
 
-        vasilij_shujskij "<{i}Усаживаются. Народ всходит по лестницам.{/i}>"
+        show pervyj_sluga at truecenter
 
-        hide ves_narod_1_2
+        pervyj_sluga "<{i}(Уходит.){/i}>"
 
-        show vasilij_shujskij at truecenter
+        show pervyj_sluga at truecenter
 
-        hide ves_narod_1_2
+        show pervyj_sluga at truecenter
 
-        show vasilij_shujskij at truecenter
+        hide pervyj_sluga
 
-        vasilij_shujskij "Вошли?"
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show dvoretskij at truecenter
+        lyubskij "{space=400}Возможно ли! - Сенатор!"
 
-        $ dvoretskij_var = "{noalt}Дворецкий"
+        lyubskij "Зачем?"
 
-        dvoretskij "{space=200}Вошли."
+        hide lyubskij
 
-        hide dvoretskij
+        show natasha at truecenter
 
-        show vasilij_shujskij at truecenter
+        $ natasha_var = "{noalt}Наташа"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        natasha "{space=400}Его Авдей Михайлыч пригласил."
 
-        vasilij_shujskij "{space=400}Закройте западни!"
+        hide natasha
 
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show golosa_2_3 at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        lyubskij "Негодный Посошков! - И кто его просил!"
 
-        golosa_2_3 "Челом тебе, боярин"
+        lyubskij "Подай его!"
 
-        hide golosa_2_3
+        hide lyubskij
 
-        show kalachnik at truecenter
+        show izvedov at truecenter
 
-        $ kalachnik_var = "{noalt}Калачник"
+        $ izvedov_var = "{noalt}Изведов"
 
-        kalachnik "{space=400}Тише, тише!"
+        hide izvedov
 
-        hide kalachnik
+        show izvedov at truecenter
 
-        show odin_iz_tolpy at truecenter
+        hide izvedov
 
-        $ odin_iz_tolpy_var = "{noalt}Один из толпы"
+        show izvedov at truecenter
 
-        odin_iz_tolpy "Бояре все, князья да воеводы,"
+        izvedov "<{i}(подходит к средним дверям и кричит){/i}>"
 
-        odin_iz_tolpy "И кланяться кому, не разберешь."
+        show izvedov at truecenter
 
-        hide odin_iz_tolpy
+        show izvedov at truecenter
 
-        show kalachnik at truecenter
+        izvedov "{space=400}Авдей Михайлович! - Два слова!"
 
-        $ kalachnik_var = "{noalt}Калачник"
+        hide izvedov
 
-        kalachnik "Один поклон отвесь на всех, и будет."
+        show natasha at truecenter
 
-        hide kalachnik
+        $ natasha_var = "{noalt}Наташа"
 
-        show vasilij_shujskij at truecenter
+        hide natasha
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show natasha at left
+        show lyubskij at right
 
-        vasilij_shujskij "Честной народ, господним попущеньем"
+        hide natasha
 
-        vasilij_shujskij "Мы нажили беду себе на плечи,"
+        show natasha at left
+        show lyubskij at right
 
-        vasilij_shujskij "Великую и земскую беду."
+        natasha "<{i}(Любскому){/i}>"
 
-        vasilij_shujskij "Нам жить нельзя. А если б можно было,"
+        hide lyubskij
 
-        vasilij_shujskij "Не стали б мы -- бояре -- собираться,"
+        show natasha at truecenter
 
-        vasilij_shujskij "Совет держать украдкой, по ночам,"
+        hide lyubskij
 
-        vasilij_shujskij "Не стали б мы и люд честной тревожить."
+        show natasha at truecenter
 
-        hide vasilij_shujskij
+        natasha "Он сделать вам сюрприз хотел."
 
-        show golosa_2_3 at truecenter
+        hide natasha
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        show pososhkov at truecenter
 
-        golosa_2_3 "Само собой! -- Известно, что не стали б."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide golosa_2_3
+        hide pososhkov
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide pososhkov
 
-        vasilij_shujskij "Диавольской мечтой и омраченьем,"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "И нашим воровством у нас на царстве"
+        pososhkov "<{i}(показываясь в дверях){/i}>"
 
-        vasilij_shujskij "Не царь, а вор, расстрига утвердился."
+        show pososhkov at truecenter
 
-        vasilij_shujskij "За воровство простите нас! Я первый"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Прошу у вас прощенья!"
+        pososhkov "{space=400}Что? - Всё готово?"
 
-        hide vasilij_shujskij
+        pososhkov "Сейчас!"
 
-        show vasilij_shujskij at truecenter
+        hide pososhkov
 
-        hide vasilij_shujskij
+        show pososhkov at truecenter
 
-        show vasilij_shujskij at truecenter
+        hide pososhkov
 
-        vasilij_shujskij "<{i}(Кланяется.){/i}>"
+        show pososhkov at truecenter
 
-        show vasilij_shujskij at truecenter
+        pososhkov "<{i}(Уходит.){/i}>"
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        vasilij_shujskij "{space=400}Мне царевич"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Известен был -- я хоронил его."
+        hide pososhkov
 
-        hide vasilij_shujskij
+        show lyubskij at truecenter
 
-        show golosa_2_3 at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        lyubskij "{space=400}Постой! Постой! Куда бежишь? Зачем?"
 
-        golosa_2_3 "Ну, как тебе не знать! -- Известно, страхом"
+        hide lyubskij
 
-        golosa_2_3 "Заставили расстриге поклониться."
+        show lyubskij at truecenter
 
-        hide golosa_2_3
+        hide lyubskij
 
-        show vasilij_shujskij at truecenter
+        show lyubskij at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        lyubskij "<{i}За кулисами начинают играть увертюру.{/i}>"
 
-        vasilij_shujskij "Когда Борис холопам за доносы"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Стал вотчины боярские давать,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Давил, как мух, боярство, половину"
+        lyubskij "Что слышу! Музыка!.. Прирезали совсем!.."
 
-        vasilij_shujskij "Извел его, а черного народу"
+        lyubskij "Всё кончено!.. - Погиб!.. - Куда себя я дену? .."
 
-        vasilij_shujskij "И счету нет, терпенья нам не стало."
+        lyubskij "Где спрятаться?.."
 
-        vasilij_shujskij "Щадя себя, мы думали, гадали"
+        hide lyubskij
 
-        vasilij_shujskij "Избыть его, и нам Господь помог."
+    label Act_3_Scene_6:
+        "{b}ЯВЛЕНИЕ 6{/b}"
 
-        vasilij_shujskij "Явился вор в Украйне, объявился"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Димитрием, Литва заликовала,"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Вся Сивера без бою отдалась,"
+        "<{i}Те же и Посошков, сходит поспешно вниз.{/i}>"
 
-        vasilij_shujskij "За ней Рязань, казачество толпами"
+        hide pososhkov
 
-        vasilij_shujskij "Пошло к нему -- войска и воеводы"
+        hide pososhkov
 
-        vasilij_shujskij "Борисовы служили неохотно"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "И скоро все передались за вора,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Винясь ему в измене небывалой."
+        pososhkov "{space=400}Ну, что нейдете вы на сцену?"
 
-        vasilij_shujskij "Вздохнула Русь. Греха таить не стану,"
+        hide pososhkov
 
-        vasilij_shujskij "Заведомо мы вору покорились;"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Кто волей шел к нему, а кто от страха..."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide vasilij_shujskij
+        lyubskij "Идти?.. Куда идти?.. На что?.. Зачем?.. К чему?.."
 
-        show golitsyn at truecenter
+        lyubskij "Ну! Что молчишь?"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        hide lyubskij
 
-        golitsyn "И воля нам невольная была."
+        show pososhkov at truecenter
 
-        golitsyn "Небось своя рубашка к телу ближе."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        golitsyn "Мы ведали, что волей, что неволей"
+        pososhkov "{space=200}Играть пора."
 
-        golitsyn "Бесчестною, с веревкою на шее,"
+        hide pososhkov
 
-        golitsyn "А быть за ним; так лучше волей с честью"
+        show lyubskij at truecenter
 
-        golitsyn "Служить ему, и шли к нему охотой."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide golitsyn
+        lyubskij "{space=400}Играть?.. Кому?"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "Играй, голубчик мой!.. - Играй! И точно кстати!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        lyubskij "Не хочешь ли один попрыгать на канате?"
 
-        vasilij_shujskij "Разумен он и молод; мы гадали"
+        hide lyubskij
 
-        vasilij_shujskij "И чаяли, что будет он боярский"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Совет любить и нас держать в почете,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Блюсти закон и чтить святую церковь,"
+        pososhkov "Что с вами сделалось?"
 
-        vasilij_shujskij "Обычаев отеческих держаться."
+        hide pososhkov
 
-        vasilij_shujskij "Ошиблись мы! Вы видите и сами,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Таков ли он! Среди церквей соборных"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Поставил он костелы езовитам,"
+        lyubskij "{space=400}Со мною?.. Ничего!.."
 
-        vasilij_shujskij "Навел орду гостей разноязычных,"
+        lyubskij "Я здесь... а Вельский где?"
 
-        vasilij_shujskij "Еретиками Кремль заполонил,"
+        hide lyubskij
 
-        vasilij_shujskij "Священников и нас, бояр, повыгнал,"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Забрал дворы и отдал их полякам."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Из Польши взял латинской веры девку,"
+        pososhkov "{space=400}Неужто нет его?"
 
-        vasilij_shujskij "И, не крестя ее, венчался с нею"
+        hide pososhkov
 
-        vasilij_shujskij "Под пятницу, под праздник годовой!"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "В монастыре держал ее до свадьбы;"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Суреньщиков с гудками, трубачеев"
+        lyubskij "А где племянница?.."
 
-        vasilij_shujskij "Водил туда и всяких скоморохов."
+        hide lyubskij
 
-        vasilij_shujskij "Толпы бродяг с ругательством и шумом,"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Оружием звеня, по храмам бродят,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Бесчинствуя над нашею святыней."
+        pososhkov "{space=200}Как где?"
 
-        vasilij_shujskij "Так вот дела! Как знаете, судите,"
+        hide pososhkov
 
-        vasilij_shujskij "Друзья мои!"
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show golosa_2_3 at truecenter
+        lyubskij "{space=400}Я жду ответа."
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        lyubskij "Ну, что же? Говори!"
 
-        golosa_2_3 "{space=400}Не нам судить! -- Не наша --"
+        hide lyubskij
 
-        golosa_2_3 "Боярская забота думу думать. --"
+        show pososhkov at truecenter
 
-        golosa_2_3 "Судите вы, бояре; мы за вами."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide golosa_2_3
+        pososhkov "{space=400}Она была одета... -"
 
-        show vasilij_shujskij at truecenter
+        pososhkov "Я это видел сам."
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide pososhkov
 
-        vasilij_shujskij "Ограбил всю и промотал дотла"
+        show natasha at truecenter
 
-        vasilij_shujskij "Копленую казну царей московских."
+        $ natasha_var = "{noalt}Наташа"
 
-        vasilij_shujskij "То в Польшу шлет, то здесь дарит полякам"
+        natasha "{space=400}И даже прежде всех."
 
-        vasilij_shujskij "Без разума, без счета -- точно ворог"
+        hide natasha
 
-        vasilij_shujskij "Земле своей и царству разоритель."
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Сплотили мы, скрепили государство,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "А он его опять разносит врозь."
+        pososhkov "Что с нею сделаться могло?"
 
-        vasilij_shujskij "Всю Сиверу за дочь сулит он тестю,"
+        hide pososhkov
 
-        vasilij_shujskij "А королю за сватовство -- Смоленск."
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "А вас, друзья мои, новогородцы,"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "Со всей землей и Псков еще в придачу --"
+        lyubskaya "{space=400}Такой-то грех,"
 
-        vasilij_shujskij "Жене своей, Марине, отдает,"
+        lyubskaya "Что вымолвить нельзя!"
 
-        vasilij_shujskij "И вольно ей латинские костелы"
+        hide lyubskaya
 
-        vasilij_shujskij "По городам новогородским ставить."
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show novgorodskie_streltsy at truecenter
+        lyubskij "{space=400}Ступай к своей невесте!"
 
-        $ novgorodskie_streltsy_var = "{noalt}Новгородские стрельцы"
+        lyubskij "Ступай! Ищи ее!.. Она и Вельский вместе."
 
-        novgorodskie_streltsy "О Господи! Вот грех какой! -- Боярин,"
+        hide lyubskij
 
-        novgorodskie_streltsy "Вступись за нас! -- Василий, княж Иваныч,"
+        show pososhkov at truecenter
 
-        novgorodskie_streltsy "Твой род служил новогородской воле"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        novgorodskie_streltsy "До самого конца ее."
+        pososhkov "Как вместе? Где? - Так что ж! Зовите их сюда."
 
-        hide novgorodskie_streltsy
+        hide pososhkov
 
-        show pskovskie_streltsy at truecenter
+        show lyubskij at truecenter
 
-        $ pskovskie_streltsy_var = "{noalt}Псковские стрельцы"
+        $ lyubskij_var = "{noalt}Любский"
 
-        pskovskie_streltsy "{space=400}Твой братец"
+        lyubskij "Так знай! - Племянница ушла."
 
-        pskovskie_streltsy "Двоюродный, Иван Петрович, Пскову"
+        hide lyubskij
 
-        pskovskie_streltsy "Защитник был от страшного Батуры."
+        show pososhkov at truecenter
 
-        hide pskovskie_streltsy
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show vasilij_shujskij at truecenter
+        pososhkov "{space=400}Ушла?.. - Куда?"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        pososhkov "Возможно ль! - Как ушла?"
 
-        vasilij_shujskij "Терпеть ли нам и ждать сложивши руки,"
+        hide pososhkov
 
-        vasilij_shujskij "Пока бояр поляки изведут"
+        show natasha at truecenter
 
-        vasilij_shujskij "И волости московские поделят,"
+        $ natasha_var = "{noalt}Наташа"
 
-        vasilij_shujskij "Погонят вас, как стадо на убой,"
+        natasha "{space=400}Да так, как все уходят."
 
-        vasilij_shujskij "Латинские обедни слушать силой!"
+        hide natasha
 
-        vasilij_shujskij "Терпеть ли нам? Судите как хотите!"
+        show lyubskij at truecenter
 
-        hide vasilij_shujskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show golosa_2_3 at truecenter
+        lyubskij "Что, видишь ли теперь? - Вот роли как проходят!"
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        hide lyubskij
 
-        golosa_2_3 "Нельзя терпеть! -- Нельзя терпеть, боярин!"
+        show pososhkov at truecenter
 
-        golosa_2_3 "Избыть беды! -- Избыть! Чего тут думать!"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        golosa_2_3 "Немало нас -- мы встанем за один."
+        pososhkov "Уйти, когда гостей полнехонек весь двор!"
 
-        hide golosa_2_3
+        hide pososhkov
 
-        show vasilij_shujskij at truecenter
+        show lyubskaya at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "Я раз лежал под топором на плахе,"
+        lyubskaya "Когда назначены помолвка и сговор!"
 
-        vasilij_shujskij "Народ молчал, никто не шелохнулся."
+        hide lyubskaya
 
-        hide vasilij_shujskij
+        show pososhkov at truecenter
 
-        show golosa_2_3 at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        pososhkov "Как будто б убежать и завтра не успела!"
 
-        golosa_2_3 "Прости ты нас, боярин! -- Нам расстригу"
+        pososhkov "Ах, боже мой!"
 
-        golosa_2_3 "Доподлинным царевичем казали."
+        hide pososhkov
 
-        golosa_2_3 "Мы верили боярам."
+        show lyubskij at truecenter
 
-        hide golosa_2_3
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "{space=400}Тебе, голубчик мой, за дело!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "{space=400}Виноватых"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Я не ищу. Меня небесный промысл"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Помиловал и сохранил для мести."
+        pososhkov "Да я чем виноват?"
 
-        vasilij_shujskij "Я смерти ждал; мальчишка вздумал шутки"
+        hide pososhkov
 
-        vasilij_shujskij "Шутить со мной -- я шуток не люблю,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Для шуток стар я. Вывесть на потеху"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Народную седого старика,"
+        lyubskij "{space=400}Кто в петлю-то втащил"
 
-        vasilij_shujskij "Боярина, опору государства,"
+        lyubskij "Себя, меня, всех нас - зарезал, погубил?"
 
-        vasilij_shujskij "Под топором держать его на плахе,"
+        lyubskij "Злодей! - Не ты ль завел все эти представлень"
 
-        vasilij_shujskij "Потом дарить непрошеным прощеньем!"
+        lyubskij "По милости твоей в каком мы положеньи!"
 
-        vasilij_shujskij "Я осужден соборным приговором:"
+        lyubskij "Что делать нам?"
 
-        vasilij_shujskij "Казни меня, но не шути со мной!"
+        hide lyubskij
 
-        vasilij_shujskij "С врагом шутить и глупо и опасно!"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "Врагов губи! Будь он в моих руках,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Я с ним шутить и нянчиться не стану."
+        pososhkov "{space=400}Театр вам должно отказать."
 
-        vasilij_shujskij "Я видел смерть и, если будет нужно,"
+        hide pososhkov
 
-        vasilij_shujskij "Готов опять идти навстречу смерти,"
+        show lyubskij at truecenter
 
-        vasilij_shujskij "Но головы терять не стану даром."
+        $ lyubskij_var = "{noalt}Любский"
 
-        vasilij_shujskij "Уж умирать, так всем: мы смертью купим"
+        lyubskij "Но как и для чего?"
 
-        vasilij_shujskij "Живот себе."
+        hide lyubskij
 
-        hide vasilij_shujskij
+        show pososhkov at truecenter
 
-        show golosa_2_3 at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        pososhkov "{space=400}Вы можете сказать,"
 
-        golosa_2_3 "{space=400}Мы все умрем, боярин!"
+        pososhkov "Что Оленька больна."
 
-        golosa_2_3 "Какая жизнь у нехристей под властью!"
+        hide pososhkov
 
-        golosa_2_3 "Душа нужней -- без Бога не прожить! --"
+        show lyubskij at truecenter
 
-        golosa_2_3 "Антихристу служить тяжеле смерти! --"
+        $ lyubskij_var = "{noalt}Любский"
 
-        golosa_2_3 "Ордой идти не страшно! -- Грянем разом,"
+        lyubskij "{space=400}И все единогласно"
 
-        golosa_2_3 "Так дым столбом -- сыра-земля застонет."
+        lyubskij "Начнут кричать..."
 
-        golosa_2_3 "Кажите нам дорогу, мы за вами! --"
+        hide lyubskij
 
-        golosa_2_3 "Мы шапками поляков забросаем! --"
+        show lyubskaya at truecenter
 
-        golosa_2_3 "Давайте нам работу!"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide golosa_2_3
+        lyubskaya "{space=400}К чему убытчиться напрасно!"
 
-        show kalachnik at truecenter
+        lyubskaya "Отказывай скорей!"
 
-        $ kalachnik_var = "{noalt}Калачник"
+        hide lyubskaya
 
-        kalachnik "{space=400}Тише, тише!"
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "{space=400}Эх, матушка! Молчи!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "Ну, если так, и ладно. Вы, покуда"
+        show lyubskaya at truecenter
 
-        vasilij_shujskij "Пора придет, товарищей сбирайте:"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        vasilij_shujskij "Вы, головы и сотники, по сотням,"
+        hide lyubskaya
 
-        vasilij_shujskij "А вы, купцы-торговцы, по рядам!"
+        show lyubskaya at left
+        show izvedov at right
 
-        hide vasilij_shujskij
+        hide lyubskaya
 
-        show tatischev at truecenter
+        show lyubskaya at left
+        show izvedov at right
 
-        $ tatischev_var = "{noalt}Татищев"
+        lyubskaya "<{i}(Изведову){/i}>"
 
-        tatischev "Вы кучами, толпами не сходитесь!"
+        hide izvedov
 
-        tatischev "По одному, тихонько, с глазу на глаз"
+        show lyubskaya at truecenter
 
-        tatischev "Ведите речь толково: что, мол, время"
+        hide izvedov
 
-        tatischev "За веру стать, что больше православным"
+        show lyubskaya at truecenter
 
-        tatischev "Терпеть нельзя."
+        lyubskaya "Ступай, вели гасить все лампы и свечи!"
 
-        hide tatischev
+        hide lyubskaya
 
-        show golosa_2_3 at truecenter
+        show lyubskij at truecenter
 
-        $ golosa_2_3_var = "{noalt}Голоса"
+        $ lyubskij_var = "{noalt}Любский"
 
-        golosa_2_3 "{space=400}Да ладно, ладно! -- Знаем,"
+        lyubskij "Зачем, сударыня! - Всё думаешь о вздоре!"
 
-        golosa_2_3 "Кому и как сказать. -- Святое дело"
-
-        golosa_2_3 "Без разума и толка не начнем."
-
-        hide golosa_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Так по рукам!"
-
-        hide vasilij_shujskij
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "{space=400}Ударимся, бояре!"
-
-        hide golosa_2_3
-
-        show golosa_2_3 at left
-        show ves_narod_1_2 at right
-
-        hide golosa_2_3
-
-        show golosa_2_3 at left
-        show ves_narod_1_2 at right
-
-        golosa_2_3 "<{i}Бояре встают и подходят к народу.{/i}>"
-
-        hide ves_narod_1_2
-
-        show golosa_2_3 at truecenter
-
-        hide ves_narod_1_2
-
-        show golosa_2_3 at truecenter
-
-        hide golosa_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Давай друг другу! Помните: где руки,"
-
-        vasilij_shujskij "Там -- головы. Рука божбы дороже!"
-
-        hide vasilij_shujskij
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "Моя рука! -- Еще рука! -- За братьев,"
-
-        golosa_2_3 "За всех своих товарищев!"
-
-        hide golosa_2_3
-
-        show sotnik_2_3 at truecenter
-
-        $ sotnik_2_3_var = "{noalt}Сотник"
-
-        sotnik_2_3 "{space=400}За сотню!"
-
-        hide sotnik_2_3
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "За тысячу!"
-
-        hide golosa_2_3
-
-        show kupets_2_3 at truecenter
-
-        $ kupets_2_3_var = "{noalt}Купец"
-
-        kupets_2_3 "{space=400}За весь иконный ряд!"
-
-        hide kupets_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Ну, слушайте, робята!"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Тише, тише!"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Неделю вам я сроку дам; в субботу"
-
-        vasilij_shujskij "Зарю встречай и поджидай работу!"
-
-        hide vasilij_shujskij
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        tatischev "Готовь мечи, ножи, точи булатны!"
-
-        hide tatischev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "И разом в сход, как загудет набатный."
-
-        hide vasilij_shujskij
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "В набат!--В набат!"
-
-        hide golosa_2_3
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Готовься, жди набата!"
-
-        hide golitsyn
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Всю ночь не спать, набата ждать!"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Робята!"
-
-        vasilij_shujskij "Заслыша звон, со всех сторон московских"
-
-        vasilij_shujskij "Сбирайся в сход вблизи ворот Фроловских"
-
-        vasilij_shujskij "И в Кремль за мной вались толпой!"
-
-        hide vasilij_shujskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Укажем,"
-
-        golitsyn "Кого искать, с кого начать."
-
-        hide golitsyn
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        tatischev "{space=400}Намажем"
-
-        tatischev "Дворы чужих, кресты на них напишем."
-
-        hide tatischev
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Всю ночь сиди, набата жди!"
-
-        hide kalachnik
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "{space=400}Услышим!"
-
-        golosa_2_3 "Глухие, что ль! -- Невесть отколь нагрянем!"
-
-        hide golosa_2_3
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Поможет Бог, врагов врасплох застанем!"
-
-        hide golitsyn
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "Зачем сбирать большую рать и силу!"
-
-        golosa_2_3 "Один с копьем, другой с дубьем под силу!"
-
-        golosa_2_3 "Ведите нас! -- Идем сейчас на драку!"
-
-        golosa_2_3 "Зачем терпеть, чего жалеть собаку!"
-
-        golosa_2_3 "Робята -- в Кремль!"
-
-        hide golosa_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=200}Потише!"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Тише, тише!"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Смирней, друзья! Не бунт мы затеваем!"
-
-        vasilij_shujskij "О чем шуметь! Святое наше дело."
-
-        vasilij_shujskij "Придет пора и время; мы за веру"
-
-        vasilij_shujskij "Иконами, крестами ополчимся,"
-
-        vasilij_shujskij "Помолимся и скажем: с нами Бог!"
-
-        hide vasilij_shujskij
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "Ты всем глава. -- Что скажешь, то и будет."
-
-        hide golosa_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(кланяясь){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Спасибо вам за ласку и раденье!"
-
-        vasilij_shujskij "Бог помочь вам и нам! Ступайте с Богом,"
-
-        vasilij_shujskij "По одному, без шума, не спеша!"
-
-        hide vasilij_shujskij
-
-        show golosa_2_3 at truecenter
-
-        $ golosa_2_3_var = "{noalt}Голоса"
-
-        golosa_2_3 "Челом тебе, боярин, за науку! --"
-
-        golosa_2_3 "Челом тебе за ласковое слово!--"
-
-        golosa_2_3 "За все челом, и вдвое за любовь."
-
-        hide golosa_2_3
-
-        show golosa_2_3 at truecenter
-
-        hide golosa_2_3
-
-        show golosa_2_3 at truecenter
-
-        golosa_2_3 "<{i}Кланяются и сходят с лестницы.{/i}>"
-
-        show golosa_2_3 at truecenter
-
-        show golosa_2_3 at truecenter
-
-        hide golosa_2_3
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(боярам){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Пойдем, друзья, досиживать до свету!"
-
-        vasilij_shujskij "В Кремле сидят, а мы не хуже их!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        vasilij_shujskij "<{i}Уходят все, кроме Голицына и Куракина.{/i}>"
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Толкуй себе: \"Не бунт мы начинаем!\""
-
-        golitsyn "Чего ж еще, коль это уж не бунт!"
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "Какой же бунт! Василий свет Иваныч,"
-
-        kurakin "Что ни начни, все свято у него!"
-
-        kurakin "Заведомо мошенничать сберется"
-
-        kurakin "Иль видимую пакость норовит,"
-
-        kurakin "А сам, гляди, вздыхает с постной рожей"
-
-        kurakin "И говорит: \"Святое дело, братцы!\""
-
-        hide kurakin
-
-        show kurakin at truecenter
-
-        hide kurakin
-
-        show kurakin at truecenter
-
-        kurakin "<{i}Уходят.{/i}>"
-
-        show kurakin at truecenter
-
-        show kurakin at truecenter
-
-        hide kurakin
+        hide lyubskij
 
     label Act_3_Scene_7:
-        "{b}СЦЕНА ЧЕТВЕРТАЯ{/b}"
+        "{b}ЯВЛЕНИЕ 7{/b}"
 
-        label Characters_11:
-            play music "audio/music/4.mp3" fadeout 1.0 fadein 1.0
+        show chestonov at truecenter
 
-            scene 19 with fade
+        show chestonov at truecenter
 
-            "{b}(СЦЕНА ЧЕТВЕРТАЯ) ЛИЦА:{/b}"
+        "<{i}Те же и Честонов.{/i}>"
 
-            show kalachnik at truecenter
-            "Калачник."
-            hide kalachnik
+        hide chestonov
 
-            "Юродивый."
+        hide chestonov
 
-            "Иванушка-дурак."
+        show lyubskij at truecenter
 
-            show povar at truecenter
-            "Повар дворцовый."
-            hide povar
+        $ lyubskij_var = "{noalt}Любский"
 
-            show starik at truecenter
-            "Старик столетний из Углича."
-            hide starik
+        hide lyubskij
 
-        show ves_narod_1_2 at left
-        show kapitan at truecenter
-        show desjatskie at right
+        show lyubskij at truecenter
 
-        show ves_narod_1_2 at left
-        show kapitan at truecenter
-        show desjatskie at right
+        hide lyubskij
 
-        "<{i}Купцы, стрельцы, разные мелкие торговцы, мальчишки, простой народ и странники. Рота немецких алебардщиков с капитаном; десятские.{/i}>"
+        show lyubskij at truecenter
 
-        hide kuptsy
-        hide strelets
-        hide malchishki
-        hide ves_narod_1_2
-        hide kapitan
-        hide desjatskie
+        lyubskij "<{i}(идя к нему навстречу){/i}>"
 
-        hide kuptsy
-        hide strelets
-        hide malchishki
-        hide ves_narod_1_2
-        hide kapitan
-        hide desjatskie
+        show lyubskij at truecenter
 
-        "<{i}Улица в Китай-городе.{/i}>"
+        show lyubskij at truecenter
 
-        "<{i}(12 мая 1606 года){/i}>"
+        lyubskij "Ты здесь? Поди сюда! - Ты слышал наше горе"
 
-        show ves_narod_1_2 at truecenter
+        hide lyubskij
 
-        show ves_narod_1_2 at truecenter
+        show chestonov at truecenter
 
-        "<{i}Проходит толпа разного народа. Четверо купцов; кругом разговаривающих постепенно собирается толпа.{/i}>"
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide ves_narod_1_2
+        chestonov "Какое горе?"
 
-        hide ves_narod_1_2
+        hide chestonov
 
-        show pervyj_kupets at truecenter
+        show lyubskij at truecenter
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        $ lyubskij_var = "{noalt}Любский"
 
-        pervyj_kupets "Чего нам ждать! Час от часу не легче!"
+        lyubskij "{space=400}Как! Не знаешь ничего?"
 
-        pervyj_kupets "Приехали на свадьбу, а возами"
+        lyubskij "Ведь Оленька..."
 
-        pervyj_kupets "Оружия с собою навезли..."
+        hide lyubskij
 
-        pervyj_kupets "И понимай как знаешь!"
+        show chestonov at truecenter
 
-        hide pervyj_kupets
+        $ chestonov_var = "{noalt}Честонов"
 
-        show vtoroj_kupets at truecenter
+        chestonov "{space=200}Ушла."
 
-        $ vtoroj_kupets_var = "{noalt}2-й купец"
+        hide chestonov
 
-        vtoroj_kupets "{space=400}Понимать-то"
+        show lyubskij at truecenter
 
-        vtoroj_kupets "Тут нечего! Яснее свету дело:"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vtoroj_kupets "Пришел конец, забрались волки в стадо."
+        lyubskij "{space=400}Ты слышал? От кого?"
 
-        hide vtoroj_kupets
+        hide lyubskij
 
-        show pervyj_kupets at truecenter
+        show chestonov at truecenter
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        $ chestonov_var = "{noalt}Честонов"
 
-        pervyj_kupets "Большой наряд за Деревянный город"
+        chestonov "Я видел их."
 
-        pervyj_kupets "Поволокли и ставят на лужку,"
+        hide chestonov
 
-        pervyj_kupets "У Сретенских ворот, полево Красных"
+        show lyubskij at truecenter
 
-        pervyj_kupets "Слобод."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide pervyj_kupets
+        lyubskij "{space=400}Ага, голубчики! Попались!"
 
-        show tretij_kupets at truecenter
+        lyubskij "Ну, где ж они?.. - Пойдем!"
 
-        $ tretij_kupets_var = "{noalt}3-й купец"
+        hide lyubskij
 
-        tretij_kupets "{space=200}Зачем?"
+        show chestonov at truecenter
 
-        hide tretij_kupets
+        $ chestonov_var = "{noalt}Честонов"
 
-        show pervyj_kupets at truecenter
+        chestonov "{space=400}Они при мне венчались."
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        hide chestonov
 
-        pervyj_kupets "{space=400}А разве ты не знаешь!"
+        show lyubskij at truecenter
 
-        pervyj_kupets "Бояр губить -- своих поляков тешить."
+        $ lyubskij_var = "{noalt}Любский"
 
-        pervyj_kupets "Назначен бой примерный в воскресенье,"
+        lyubskij "Возможно ли! Они венчались при тебе?.."
 
-        pervyj_kupets "И перебьют бояр до одного."
+        lyubskij "И ты?.."
 
-        hide pervyj_kupets
+        hide lyubskij
 
-        show chetvertyj_kupets at truecenter
+        show chestonov at truecenter
 
-        $ chetvertyj_kupets_var = "{noalt}4-й купец"
+        $ chestonov_var = "{noalt}Честонов"
 
-        chetvertyj_kupets "Не может быть! А волости царевы"
+        chestonov "{space=400}Послушай, брат! Противиться судьбе"
 
-        chetvertyj_kupets "Кому держать?"
+        chestonov "Не должно и нельзя."
 
-        hide chetvertyj_kupets
+        hide chestonov
 
-        show pervyj_kupets at truecenter
+        show lyubskij at truecenter
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        $ lyubskij_var = "{noalt}Любский"
 
-        pervyj_kupets "{space=400}Поделят их полякам,"
+        lyubskij "{space=400}Эге, сударь! Так, стало,"
 
-        pervyj_kupets "По городам латинство заведут."
+        lyubskij "Вы были заодно?"
 
-        hide pervyj_kupets
+        hide lyubskij
 
-        show tretij_kupets at truecenter
+        show chestonov at truecenter
 
-        $ tretij_kupets_var = "{noalt}3-й купец"
+        $ chestonov_var = "{noalt}Честонов"
 
-        tretij_kupets "Беда бедой, живой ложись в могилу!"
+        chestonov "{space=400}Сердиться пользы мало:"
 
-        hide tretij_kupets
+        chestonov "Они обвенчаны. - Что думать, брат, решись!"
 
-        show pervyj_kupets at truecenter
+        hide chestonov
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        show lyubskij at truecenter
 
-        pervyj_kupets "Велик Господь! Ты бойся, да не очень!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        pervyj_kupets "Вы помните, что прежде воскресенья"
+        lyubskij "Простить племянницу?"
 
-        pervyj_kupets "Субботний день бывает."
+        hide lyubskij
 
-        hide pervyj_kupets
+        show chestonov at truecenter
 
-        show chetvertyj_kupets at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        $ chetvertyj_kupets_var = "{noalt}4-й купец"
+        chestonov "{space=400}Да полно, не сердись!"
 
-        chetvertyj_kupets "{space=400}Это верно."
+        chestonov "Что сделано, того поправить невозможно."
 
-        hide chetvertyj_kupets
+        hide chestonov
 
-        show pervyj_kupets at truecenter
+        show lyubskij at truecenter
 
-        $ pervyj_kupets_var = "{noalt}1-й купец"
+        $ lyubskij_var = "{noalt}Любский"
 
-        pervyj_kupets "Сиди да жди субботы!"
+        lyubskij "Чтоб я простил ее! - Она, сударь, безбожно,"
 
-        hide pervyj_kupets
+        lyubskij "Злодейским образом зарезала меня."
 
-        show pervyj_kupets at truecenter
+        lyubskij "Представь себе, пойдет какая болтовня:"
 
-        hide pervyj_kupets
+        lyubskij "Прибавки, выдумки, расспросы, пересуды!"
 
-        show pervyj_kupets at truecenter
+        lyubskij "И завтра же ко мне приятели - Иуды"
 
-        pervyj_kupets "<{i}(Уходит.){/i}>"
+        lyubskij "Нагрянут все! А что мне будет от старух!"
 
-        show pervyj_kupets at truecenter
+        lyubskij "Начнут терзать меня - не шепотом, а вслух,"
 
-        show pervyj_kupets at truecenter
+        lyubskij "Читать мораль, бранить, ругать, давать советы;"
 
-        hide pervyj_kupets
+        lyubskij "Засудят, заказнят... а здешние газеты..."
 
-        show vtoroj_kupets at truecenter
+        lyubskij "Матрена Савишна!.. Нет! Вечно не прощу!"
 
-        $ vtoroj_kupets_var = "{noalt}2-й купец"
+        hide lyubskij
 
-        vtoroj_kupets "{space=400}Не мешает"
+        show chestonov at truecenter
 
-        vtoroj_kupets "Дубинки нам, робята, заготовить,"
+        $ chestonov_var = "{noalt}Честонов"
 
-        vtoroj_kupets "Чтоб было чем подчас оборониться."
+        chestonov "Но выслушай!.."
 
-        hide vtoroj_kupets
+        hide chestonov
 
-        show vtoroj_kupets at left
-        show vishnevetskij at right
+        show lyubskij at truecenter
 
-        hide vtoroj_kupets
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vtoroj_kupets at left
-        show vishnevetskij at right
+        lyubskij "{space=200}Нет, нет!"
 
-        vtoroj_kupets "<{i}Выходит толпа поляков, слуг Вишневецкого.{/i}>"
+        hide lyubskij
 
-        hide vishnevetskij
+        show chestonov at truecenter
 
-        show vtoroj_kupets at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide vishnevetskij
+        chestonov "{space=400}Пожалуй, замолчу."
 
-        show vtoroj_kupets at truecenter
+        chestonov "А жаль! Они теперь сыграли б превосходно."
 
-        hide vtoroj_kupets
+        hide chestonov
 
-        show poljaki at truecenter
+        show lyubskij at truecenter
 
-        $ poljaki_var = "{noalt}Поляки"
+        $ lyubskij_var = "{noalt}Любский"
 
-        poljaki "Эй, хлопы! Прочь с дороги!"
+        lyubskij "Что, что?"
 
-        hide poljaki
+        hide lyubskij
 
-        show golosa_2_4 at truecenter
+        show chestonov at truecenter
 
-        $ golosa_2_4_var = "{noalt}Голоса"
+        $ chestonov_var = "{noalt}Честонов"
 
-        golosa_2_4 "{space=400}Разойдемся!"
+        chestonov "{space=400}Так, братец, вздор!.. - Вам это не угодно..."
 
-        golosa_2_4 "Простор велик в Москве, гуляй где хочешь! --"
+        chestonov "Так что ж и говорить."
 
-        golosa_2_4 "А тесно вам у нас -- гуляйте в Польшу!"
+        hide chestonov
 
-        hide golosa_2_4
+        show lyubskij at truecenter
 
-        show poljaki at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ poljaki_var = "{noalt}Поляки"
+        lyubskij "{space=400}Ты холоден как лед,"
 
-        poljaki "Стрелять по вас, холопская порода!"
+        lyubskij "Тогда как я - твой брат..."
 
-        hide poljaki
+        hide lyubskij
 
-        show malchishki at truecenter
+        show chestonov at truecenter
 
-        $ malchishki_var = "{noalt}Мальчишки"
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide malchishki
+        chestonov "{space=400}Спектакель ваш пойдет,"
 
-        show malchishki at truecenter
+        chestonov "И даже не с тобой, мой друг! С другим актером."
 
-        hide malchishki
+        hide chestonov
 
-        show malchishki at truecenter
+        show lyubskij at truecenter
 
-        malchishki "<{i}(прыгая){/i}>"
+        $ lyubskij_var = "{noalt}Любский"
 
-        show malchishki at truecenter
+        lyubskij "Неужели пойдет?"
 
-        show malchishki at truecenter
+        hide lyubskij
 
-        malchishki "Ну, застрели! Ну, застрели! Не смеешь! --"
+        show chestonov at truecenter
 
-        malchishki "Поляки! У! -- Безмозглые поляки! --"
+        $ chestonov_var = "{noalt}Честонов"
 
-        malchishki "Пучки, глаголи, лысые затылки!"
+        chestonov "{space=400}Но только с уговором:"
 
-        hide malchishki
+        chestonov "Прости племянницу."
 
-        show malchishki at left
-        show poljaki at right
+        hide chestonov
 
-        hide malchishki
+        show lyubskij at truecenter
 
-        show malchishki at left
-        show poljaki at right
+        $ lyubskij_var = "{noalt}Любский"
 
-        malchishki "<{i}Поляки бросаются с саблями на мальчишек.{/i}>"
+        lyubskij "{space=400}Нет, братец! Ни за что!"
 
-        hide poljaki
+        hide lyubskij
 
-        show malchishki at truecenter
+        show chestonov at truecenter
 
-        hide poljaki
+        $ chestonov_var = "{noalt}Честонов"
 
-        show malchishki at truecenter
+        chestonov "О, если так!.. - Прощай!"
 
-        hide malchishki
+        hide chestonov
 
-        show golosa_2_4 at truecenter
+        show chestonov at truecenter
 
-        $ golosa_2_4_var = "{noalt}Голоса"
+        hide chestonov
 
-        golosa_2_4 "У нас не так; по-нашему-то вот как! --"
+        show chestonov at truecenter
 
-        golosa_2_4 "Валяйте их каменьями, робята."
+        chestonov "<{i}(Хочет идти.){/i}>"
 
-        hide golosa_2_4
+        show chestonov at truecenter
 
-        show golosa_2_4 at left
-        show vishnevetskij at right
+        show chestonov at truecenter
 
-        hide golosa_2_4
+        hide chestonov
 
-        show golosa_2_4 at left
-        show vishnevetskij at right
+        show lyubskij at truecenter
 
-        golosa_2_4 "<{i}Бросают каменьями в поляков, те скрываются в ворота дома, занимаемого Вишневецким; выходят пятеро небогатых посадских.{/i}>"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide vishnevetskij
+        lyubskij "{space=400}Постой!.. - Да я не то"
 
-        show golosa_2_4 at truecenter
+        lyubskij "Хотел сказать... Злодей! Как он меня терзает!"
 
-        hide vishnevetskij
+        lyubskij "Добро! Уж так и быть... пускай она играет."
 
-        show golosa_2_4 at truecenter
+        hide lyubskij
 
-        hide golosa_2_4
+        show chestonov at truecenter
 
-        show pervyj_posadskij at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        chestonov "Так ты прощаешь их? - Ну, милый! Очень рад!"
 
-        pervyj_posadskij "Fro с двора прогнали, а поляков"
+        hide chestonov
 
-        pervyj_posadskij "Поставили."
+        show lyubskij at truecenter
 
-        hide pervyj_posadskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vtoroj_kupets at truecenter
+        lyubskij "Да, да!.. - Я... завтра их прощу."
 
-        $ vtoroj_kupets_var = "{noalt}2-й купец"
+        hide lyubskij
 
-        vtoroj_kupets "{space=200}Кого его?"
+        show chestonov at truecenter
 
-        hide vtoroj_kupets
+        $ chestonov_var = "{noalt}Честонов"
 
-        show pervyj_posadskij at truecenter
+        chestonov "{space=400}Нет, шутишь, брат!"
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        chestonov "Теперь иль никогда."
 
-        pervyj_posadskij "{space=400}Попа"
+        hide chestonov
 
-        pervyj_posadskij "Чертольского, от Знаменья. Строптивый"
+        show lyubskij at truecenter
 
-        pervyj_posadskij "Старик такой."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide pervyj_posadskij
+        lyubskij "{space=400}Так вздор! Я не намерен..."
 
-        show vtoroj_posadskij at truecenter
+        hide lyubskij
 
-        $ vtoroj_posadskij_var = "{noalt}2-й посадский"
+        show chestonov at truecenter
 
-        vtoroj_posadskij "{space=200}Ну, что же?"
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide vtoroj_posadskij
+        chestonov "О, если так..."
 
-        show pervyj_posadskij at truecenter
+        hide chestonov
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        show chestonov at truecenter
 
-        pervyj_posadskij "{space=400}Ну, и слушай!"
+        hide chestonov
 
-        pervyj_posadskij "Обедню он, как надо, отслужил;"
+        show chestonov at truecenter
 
-        pervyj_posadskij "Ектению проговорил честь честью;"
+        chestonov "<{i}(Хочет идти.){/i}>"
 
-        pervyj_posadskij "\"Благочестивого\" сказал порядком,"
+        show chestonov at truecenter
 
-        pervyj_posadskij "А после в алтаре тихонько проклял."
+        show chestonov at truecenter
 
-        hide pervyj_posadskij
+        hide chestonov
 
-        show tretij_posadskij at truecenter
+        show lyubskij at truecenter
 
-        $ tretij_posadskij_var = "{noalt}3-й посадский"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tretij_posadskij "Анафемой?"
+        lyubskij "{space=400}Постой! Да точно ль ты уверен,"
 
-        hide tretij_posadskij
+        lyubskij "Что наш театр..."
 
-        show pervyj_posadskij at truecenter
+        hide lyubskij
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        show chestonov at truecenter
 
-        pervyj_posadskij "{space=200}Анафемой!"
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide pervyj_posadskij
+        chestonov "{space=200}Пойдет."
 
-        show chetvertyj_posadskij at truecenter
+        hide chestonov
 
-        $ chetvertyj_posadskij_var = "{noalt}4-й посадский"
+        show lyubskij at truecenter
 
-        chetvertyj_posadskij "{space=400}Да правда ль?"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide chetvertyj_posadskij
+        lyubskij "{space=400}Кто ж выкупит меня?"
 
-        show pervyj_posadskij at truecenter
+        hide lyubskij
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        show chestonov at truecenter
 
-        pervyj_posadskij "Все слышали."
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide pervyj_posadskij
+        chestonov "Найдем кого-нибудь."
 
-        show vtoroj_posadskij at truecenter
+        hide chestonov
 
-        $ vtoroj_posadskij_var = "{noalt}2-й посадский"
+        show lyubskij at truecenter
 
-        vtoroj_posadskij "{space=400}Зачем бы гнать попов?"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vtoroj_posadskij "Помимо их других дворов довольно."
+        lyubskij "{space=400}Кого? - Моя родня,"
 
-        hide vtoroj_posadskij
+        lyubskij "Приятели, весь свет составлен из злодеев."
 
-        show pervyj_posadskij at truecenter
+        hide lyubskij
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        show chestonov at truecenter
 
-        pervyj_posadskij "Монастыри хотят теперь очистить,"
+        $ chestonov_var = "{noalt}Честонов"
 
-        pervyj_posadskij "Прогнать из них монахов и монахинь."
+        chestonov "А прежний друг - Сергей Иванович Лилеев?"
 
-        hide pervyj_posadskij
+        hide chestonov
 
-        show tretij_posadskij at truecenter
+        show lyubskij at truecenter
 
-        $ tretij_posadskij_var = "{noalt}3-й посадский"
+        $ lyubskij_var = "{noalt}Любский"
 
-        tretij_posadskij "А где ж им жить? В миру соблазна много."
+        lyubskij "Возможно ли?"
 
-        hide tretij_posadskij
+        hide lyubskij
 
-        show pervyj_posadskij at truecenter
+        show chestonov at truecenter
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        $ chestonov_var = "{noalt}Честонов"
 
-        pervyj_posadskij "Монахам жен дадут, монахинь замуж"
+        chestonov "{space=400}Я с ним об этом говорил."
 
-        pervyj_posadskij "Повыдадут. А кто не пожелает,"
+        chestonov "Вы с ним поссорились, но я вас помирил."
 
-        pervyj_posadskij "Тому конец."
+        hide chestonov
 
-        hide pervyj_posadskij
+        show lyubskij at truecenter
 
-        show pjatyj_posadskij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ pjatyj_posadskij_var = "{noalt}5-й посадский"
+        lyubskij "Да точно ли?.."
 
-        pjatyj_posadskij "{space=400}Ни в жизнь я не поверю."
+        hide lyubskij
 
-        hide pjatyj_posadskij
+        show chestonov at truecenter
 
-        show pervyj_posadskij at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        chestonov "{space=400}Уж я за это отвечаю."
 
-        pervyj_posadskij "Ты верь не верь, а деньги обирают"
+        hide chestonov
 
-        pervyj_posadskij "В монастырях; не проживешь без денег."
+        show lyubskij at truecenter
 
-        hide pervyj_posadskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vtoroj_posadskij at truecenter
+        lyubskij "Ну! Делать нечего!.. - Изволь, мой друг!.. прощаю!"
 
-        $ vtoroj_posadskij_var = "{noalt}2-й посадский"
+        lyubskij "Давай же их скорей."
 
-        vtoroj_posadskij "И деньги-то святые: на строенье"
+        hide lyubskij
 
-        vtoroj_posadskij "Да за душу миряне подавали;"
+        show lyubskaya at truecenter
 
-        vtoroj_posadskij "А их возьмут, полякам раздадут."
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide vtoroj_posadskij
+        lyubskaya "{space=400}А я так не прощу."
 
-        show desjatskij_2_4 at truecenter
+        hide lyubskaya
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        show lyubskij at truecenter
 
-        desjatskij_2_4 "Чего вы тут! Зачем собрались кучей?"
+        $ lyubskij_var = "{noalt}Любский"
 
-        desjatskij_2_4 "Петр Федорыч толпиться не велел"
+        lyubskij "Вот выскочка! - Когда уж я простить хочу,"
 
-        desjatskij_2_4 "По улицам."
+        lyubskij "Так кстати ли тебе!.."
 
-        hide desjatskij_2_4
+        hide lyubskij
 
-        show pervyj_posadskij at truecenter
+        show chestonov at truecenter
 
-        $ pervyj_posadskij_var = "{noalt}1-й посадский"
+        $ chestonov_var = "{noalt}Честонов"
 
-        pervyj_posadskij "{space=400}Иди своей дорогой,"
+        chestonov "{space=400}Сестра! Побойся бога!"
 
-        pervyj_posadskij "Покамест цел. Не трогают тебя."
+        chestonov "Ведь ты их уморишь!"
 
-        pervyj_posadskij "Не приставай и ты, дружок!"
+        hide chestonov
 
-        hide pervyj_posadskij
+        show lyubskaya at truecenter
 
-        show pervyj_posadskij at left
-        show kalachnik at right
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide pervyj_posadskij
+        lyubskaya "{space=400}Туда им и дорога!"
 
-        show pervyj_posadskij at left
-        show kalachnik at right
+        hide lyubskaya
 
-        pervyj_posadskij "<{i}Входит калачник и уставляет лоток.{/i}>"
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show pervyj_posadskij at truecenter
+        lyubskij "Жена!"
 
-        hide kalachnik
+        hide lyubskij
 
-        show pervyj_posadskij at truecenter
+        show lyubskaya at truecenter
 
-        hide pervyj_posadskij
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show kalachnik at truecenter
+        lyubskaya "{space=400}Ну слыхано ль! Невесте уходить!.."
 
-        $ kalachnik_var = "{noalt}Калачник"
+        hide lyubskaya
 
-        kalachnik "{space=400}Торгую!"
+        show chestonov at truecenter
 
-        kalachnik "Вались народ со всех ворот. Горячи!"
+        $ chestonov_var = "{noalt}Честонов"
 
-        kalachnik "Горяченьки калачики!"
+        chestonov "А что б вам стоило их свадьбу снарядить?"
 
-        hide kalachnik
+        chestonov "Скромненько обвенчать нельзя - не те уж годы."
 
-        show kalachnik at left
-        show povar at right
+        chestonov "Какие бы тогда пошли у вас расходы?"
 
-        hide kalachnik
+        chestonov "На мелочи, на вздор последний рубль отдашь:"
 
-        show kalachnik at left
-        show povar at right
+        chestonov "Подумай-ка, сочти! - Нарядный экипаж,"
 
-        kalachnik "<{i}Входит дворцовый повар, пьяный.{/i}>"
+        chestonov "Четверка вороных, богатые ливреи,"
 
-        hide povar
+        chestonov "Кафтаны кучерам и прочие затеи,"
 
-        show kalachnik at truecenter
+        chestonov "Которым нет конца..."
 
-        hide povar
+        hide chestonov
 
-        show kalachnik at truecenter
+        show lyubskaya at truecenter
 
-        hide kalachnik
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show povar at truecenter
+        lyubskaya "{space=400}Так, батюшка! Ты прав!"
 
-        $ povar_var = "{noalt}Повар"
+        lyubskaya "Беда!"
 
-        hide povar
+        hide lyubskaya
 
-        show povar at truecenter
+        show chestonov at truecenter
 
-        hide povar
+        $ chestonov_var = "{noalt}Честонов"
 
-        show povar at truecenter
+        chestonov "{space=400}Вот то-то же! Ты знаешь братнин нрав:"
 
-        povar "<{i}(сам с собою){/i}>"
+        chestonov "Что вышло б у него на разные предметы?"
 
-        show povar at truecenter
+        chestonov "Чего бы стоили сюрпризы и конфекты,"
 
-        show povar at truecenter
+        chestonov "Один вечерний стол, десерт, питье, еда,"
 
-        povar "{space=400}Утя ли"
+        chestonov "Шампанское вино..."
 
-        povar "Перченое... кострец лосин... осердье"
+        hide chestonov
 
-        povar "Крошеное... рожновое куря..."
+        show lyubskaya at truecenter
 
-        povar "Иль ряб под сливами... я всё умею!"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide povar
+        lyubskaya "{space=400}Ох, подлинно беда!"
 
-        show kalachnik at truecenter
+        hide lyubskaya
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show chestonov at truecenter
 
-        kalachnik "Один подшел, почин пошел, горячих!"
+        $ chestonov_var = "{noalt}Честонов"
 
-        kalachnik "Не обожгись, смотри!"
+        chestonov "Вот то-то же! - А там визиты, посещенья,"
 
-        hide kalachnik
+        chestonov "Обеды, вечера, театры, угощенья..."
 
-        show torgovka at truecenter
+        chestonov "Да боже сохрани! Он сряду б целый год"
 
-        $ torgovka_var = "{noalt}Торговка"
+        chestonov "Пиры давал."
 
-        hide torgovka
+        hide chestonov
 
-        show torgovka at truecenter
+        show lyubskaya at truecenter
 
-        hide torgovka
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show torgovka at truecenter
+        lyubskaya "{space=200}Так, так!"
 
-        torgovka "<{i}(с грешневиками){/i}>"
+        hide lyubskaya
 
-        show torgovka at truecenter
+        show chestonov at truecenter
 
-        show torgovka at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        torgovka "{space=400}Напек, нажарил"
+        chestonov "{space=400}Теперь же без хлопот:"
 
-        torgovka "Кривой хозяин; скриву не видал."
+        chestonov "Они обвенчаны без всякого парада."
 
-        torgovka "Больших давал. Подуйте, да и жуйте!"
+        chestonov "Эх, матушка, прости! - Приданого не надо!"
 
-        hide torgovka
+        hide chestonov
 
-        show povar at truecenter
+        show lyubskaya at truecenter
 
-        $ povar_var = "{noalt}Повар"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        povar "Опять же гусь, и лебедь, и журав..."
+        lyubskaya "Пришлось простить."
 
-        povar "Как хочешь их... и потрохи, и крылья..."
+        hide lyubskaya
 
-        povar "В рассол могу инбирный с огурцы..."
+        show chestonov at truecenter
 
-        hide povar
+        $ chestonov_var = "{noalt}Честонов"
 
-        show povar at left
-        show strelets at truecenter
-        show ves_narod_1_2 at right
+        chestonov "{space=400}Так дело и с концом!"
 
-        hide povar
+        hide chestonov
 
-        show povar at left
-        show strelets at truecenter
-        show ves_narod_1_2 at right
+        show pososhkov at truecenter
 
-        povar "<{i}Выходят странник и молодой стрелец; их окружает всякий народ.{/i}>"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide strelets
-        hide ves_narod_1_2
+        pososhkov "А я-то, сударь, что?"
 
-        show povar at truecenter
+        hide pososhkov
 
-        hide strelets
-        hide ves_narod_1_2
+        show chestonov at truecenter
 
-        show povar at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide povar
+        chestonov "{space=400}Вы были женихом..."
 
-        show strannik_2_4 at truecenter
+        hide chestonov
 
-        $ strannik_2_4_var = "{noalt}Странник"
+        show pososhkov at truecenter
 
-        strannik_2_4 "Он вор прямой! Я лгать тебе не стану;"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        strannik_2_4 "Убей меня Господь на этом месте!"
+        pososhkov "И точно был любим."
 
-        strannik_2_4 "Какая стать природному царю"
+        hide pososhkov
 
-        strannik_2_4 "Закон менять, а он его меняет."
+        show chestonov at truecenter
 
-        strannik_2_4 "Не то что царь, а мы, простые люди..."
+        $ chestonov_var = "{noalt}Честонов"
 
-        strannik_2_4 "Примерно ты, пойдешь ли ты венчаться"
+        chestonov "{space=400}Не Оленькой, а братом."
 
-        strannik_2_4 "Под пятницу, под вешнего Николу?"
+        hide chestonov
 
-        hide strannik_2_4
+        show pososhkov at truecenter
 
-        show strelets at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ strelets_var = "{noalt}Стрелец"
+        pososhkov "Да что же я теперь?"
 
-        strelets "Болтай еще! Какая мне неволя!"
+        hide pososhkov
 
-        hide strelets
+        show lyubskij at truecenter
 
-        show strannik_2_4 at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        $ strannik_2_4_var = "{noalt}Странник"
+        lyubskij "{space=400}Остался, брат, за штатом."
 
-        strannik_2_4 "А кто его неволил!.. Это раз!"
+        hide lyubskij
 
-        strannik_2_4 "Другой тебе: венчался с некрещёной."
+        show pososhkov at truecenter
 
-        hide strannik_2_4
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show strelets at truecenter
+        pososhkov "Так я же не один останусь в дураках."
 
-        $ strelets_var = "{noalt}Стрелец"
+        hide pososhkov
 
-        strelets "А патриарх?"
+        show lyubskaya at truecenter
 
-        hide strelets
+        $ lyubskaya_var = "{noalt}Любская"
 
-        show strannik_2_4 at truecenter
+        lyubskaya "Что, что еще?"
 
-        $ strannik_2_4_var = "{noalt}Странник"
+        hide lyubskaya
 
-        strannik_2_4 "{space=400}Игнатий-то? Потатчик,"
+        show pososhkov at truecenter
 
-        strannik_2_4 "И пьяница, и еретик известный..."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        strannik_2_4 "А вот тебе и третий: в бане не был"
+        pososhkov "{space=400}Теперь вы все в моих руках:"
 
-        strannik_2_4 "До сей поры, не мывшись в церковь ходит."
+        pososhkov "Театр ваш не пойдет."
 
-        hide strannik_2_4
+        hide pososhkov
 
-        show strelets at truecenter
+        show lyubskij at truecenter
 
-        $ strelets_var = "{noalt}Стрелец"
+        $ lyubskij_var = "{noalt}Любский"
 
-        strelets "Да правда ль, друг?"
+        lyubskij "{space=400}Ну, так! - Недоставало,"
 
-        hide strelets
+        lyubskij "Чтоб он еще!.. Злодей! - Бессовестный! Так стало..."
 
-        show strannik_2_4 at truecenter
+        lyubskij "Да нет! - Ты шутишь, брат!.."
 
-        $ strannik_2_4_var = "{noalt}Странник"
+        hide lyubskij
 
-        strannik_2_4 "{space=400}Спроси других. С царицей"
+        show pososhkov at truecenter
 
-        strannik_2_4 "По пятницам телятину едят."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide strannik_2_4
+        pososhkov "{space=400}Поверьте, не шучу."
 
-        show povar at truecenter
+        pososhkov "Играть не буду я."
 
-        $ povar_var = "{noalt}Повар"
+        hide pososhkov
 
-        hide povar
+        show lyubskaya at truecenter
 
-        show povar at truecenter
+        $ lyubskaya_var = "{noalt}Любская"
 
-        hide povar
+        lyubskaya "{space=200}Не хочешь?"
 
-        show povar at truecenter
+        hide lyubskaya
 
-        povar "<{i}(прислушиваясь){/i}>"
+        show pososhkov at truecenter
 
-        show povar at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show povar at truecenter
+        pososhkov "{space=400}Не хочу."
 
-        povar "Телячьих мяс я жарить не согласен"
+        hide pososhkov
 
-        povar "По пятницам... и что за сласть такая!"
+        show chestonov at truecenter
 
-        povar "Показана тебе в писанье пища..."
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide povar
+        hide chestonov
 
-        show strelets at truecenter
+        show chestonov at left
+        show pososhkov at right
 
-        $ strelets_var = "{noalt}Стрелец"
+        hide chestonov
 
-        strelets "Ты кто такой, приятель?"
+        show chestonov at left
+        show pososhkov at right
 
-        hide strelets
+        chestonov "<{i}(Посошкову){/i}>"
 
-        show povar at truecenter
+        hide pososhkov
 
-        $ povar_var = "{noalt}Повар"
+        show chestonov at truecenter
 
-        povar "{space=400}Царский повар."
+        hide pososhkov
 
-        hide povar
+        show chestonov at truecenter
 
-        show strannik_2_4 at truecenter
+        chestonov "Авдей Михайлович! - Мы все молчим покуда,"
 
-        $ strannik_2_4_var = "{noalt}Странник"
+        chestonov "А как рассердимся, так не было б вам худо:"
 
-        strannik_2_4 "Ну вот, спроси!"
+        chestonov "Сыграют и без вас."
 
-        hide strannik_2_4
+        hide chestonov
 
-        show strelets at truecenter
+        show pososhkov at truecenter
 
-        $ strelets_var = "{noalt}Стрелец"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        strelets "{space=400}Скажи, дружок, по чести,"
+        hide pososhkov
 
-        strelets "Телят у вас к столу цареву носят?"
+        show pososhkov at truecenter
 
-        hide strelets
+        hide pososhkov
 
-        show povar at truecenter
+        show pososhkov at truecenter
 
-        $ povar_var = "{noalt}Повар"
+        pososhkov "<{i}(в сторону){/i}>"
 
-        povar "Неужто ж нет! Нарядят, изукрасят"
+        show pososhkov at truecenter
 
-        povar "Всего, как есть, с рогами постановят,"
+        show pososhkov at truecenter
 
-        povar "Да так и жрут. Поганая Марина"
+        pososhkov "{space=400}Не хочет ли уж он..."
 
-        povar "И поваров из Польши привезла,"
+        hide pososhkov
 
-        povar "А нас прогнали, друг; мы не умеем..."
+        show chestonov at truecenter
 
-        povar "Гуляй теперь по всей Москве, где знаешь."
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide povar
+        chestonov "Нам стоит выкинуть всю ролю вашу вон."
 
-        show povar at left
-        show starik at right
+        hide chestonov
 
-        hide povar
+        show lyubskij at truecenter
 
-        show povar at left
-        show starik at right
+        $ lyubskij_var = "{noalt}Любский"
 
-        povar "<{i}Входит старик.{/i}>"
+        lyubskij "Но как?.."
 
-        hide starik
+        hide lyubskij
 
-        show povar at truecenter
+        show izvedov at truecenter
 
-        hide starik
+        $ izvedov_var = "{noalt}Изведов"
 
-        show povar at truecenter
+        izvedov "{space=400}Помилуйте! - Да это сплошь бывает."
 
-        hide povar
+        hide izvedov
 
-        show kalachnik at truecenter
+        show lyubskij at truecenter
 
-        $ kalachnik_var = "{noalt}Калачник"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide kalachnik
+        lyubskij "Неужели?"
 
-        show kalachnik at left
-        show starik at right
+        hide lyubskij
 
-        hide kalachnik
+        show izvedov at truecenter
 
-        show kalachnik at left
-        show starik at right
+        $ izvedov_var = "{noalt}Изведов"
 
-        kalachnik "<{i}(старику){/i}>"
+        izvedov "{space=400}Один лишь автор пострадает,"
 
-        hide starik
+        izvedov "А мы свое возьмем."
 
-        show kalachnik at truecenter
+        hide izvedov
 
-        hide starik
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        kalachnik "А, дедушка! Отколь Господь несет?"
+        pososhkov "{space=400}Но автор-то ведь я!"
 
-        hide kalachnik
+        hide pososhkov
 
-        show starik at truecenter
+        show lyubskij at truecenter
 
-        $ starik_var = "{noalt}Старик"
+        $ lyubskij_var = "{noalt}Любский"
 
-        starik "Из Углича, родимый, поклониться"
+        lyubskij "Твоя комедия и так галиматья:"
 
-        starik "Угодникам московским."
+        lyubskij "Так всё равно!"
 
-        hide starik
+        hide lyubskij
 
-        show kalachnik at truecenter
+        show lyubskij at left
+        show izvedov at right
 
-        $ kalachnik_var = "{noalt}Калачник"
+        hide lyubskij
 
-        kalachnik "{space=400}Дело вздумал!"
+        show lyubskij at left
+        show izvedov at right
 
-        kalachnik "Честной народ, подвиньтесь-ка поближе!"
+        lyubskij "<{i}(Изведову){/i}>"
 
-        kalachnik "Нам дедушка про Углич порасскажет."
+        hide izvedov
 
-        hide kalachnik
+        show lyubskij at truecenter
 
-        show kalachnik at left
-        show ves_narod_1_2 at truecenter
-        show starik at right
+        hide izvedov
 
-        hide kalachnik
+        show lyubskij at truecenter
 
-        show kalachnik at left
-        show ves_narod_1_2 at truecenter
-        show starik at right
+        lyubskij "{space=200}Марай!"
 
-        kalachnik "<{i}Народ окружает старика.{/i}>"
+        hide lyubskij
 
-        hide ves_narod_1_2
-        hide starik
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide ves_narod_1_2
-        hide starik
+        pososhkov "{space=400}Но я вам не позволю..."
 
-        show kalachnik at truecenter
+        hide pososhkov
 
-        kalachnik "Ты в Угличе Димитрия видал ли"
+        show lyubskij at truecenter
 
-        kalachnik "Царевичем? А буде не случалось,"
+        $ lyubskij_var = "{noalt}Любский"
 
-        kalachnik "Так погляди его царем у нас!"
+        lyubskij "Да! Стану я смотреть!"
 
-        hide kalachnik
+        hide lyubskij
 
-        show starik at truecenter
+        show lyubskij at left
+        show izvedov at right
 
-        $ starik_var = "{noalt}Старик"
+        hide lyubskij
 
-        starik "Сто лет живу, из Углича ни шагу"
+        show lyubskij at left
+        show izvedov at right
 
-        starik "Не выходя: царя Ивана помню."
+        lyubskij "<{i}(Изведову){/i}>"
 
-        starik "Назад тому лет будет полусотня,"
+        hide izvedov
 
-        starik "Он был у нас в гостях, у брата Юрья"
+        show lyubskij at truecenter
 
-        starik "Василича, и с ним на богомолье"
+        hide izvedov
 
-        starik "В обители окрестные ходили."
+        show lyubskij at truecenter
 
-        starik "А Дмитрия-царевича не то что"
+        lyubskij "{space=400}Вымарывай всю ролю!"
 
-        starik "Я видывал, и нянчить приходилось."
+        hide lyubskij
 
-        starik "Кораблики ему, бывало, строил"
+        show pososhkov at truecenter
 
-        starik "Лубочные -- потешиться: по Волге"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        starik "Любил пускать..."
+        pososhkov "Помилуйте!"
 
-        hide starik
+        hide pososhkov
 
-        show golos_iz_tolpy_2_4a at truecenter
+        show lyubskij at truecenter
 
-        $ golos_iz_tolpy_2_4a_var = "{noalt}Голос из толпы"
+        $ lyubskij_var = "{noalt}Любский"
 
-        golos_iz_tolpy_2_4a "Ступай к нему; он вспомнит,"
+        lyubskij "{space=200}Ступай!"
 
-        golos_iz_tolpy_2_4a "Пожалует тебя."
+        hide lyubskij
 
-        hide golos_iz_tolpy_2_4a
+        show chestonov at truecenter
 
-        show starik at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        $ starik_var = "{noalt}Старик"
+        hide chestonov
 
-        starik "{space=400}Кривить душою"
+        show chestonov at truecenter
 
-        starik "В мои лета какая мне неволя!"
+        hide chestonov
 
-        starik "Царевич жил и рос в моих глазах,"
+        show chestonov at truecenter
 
-        starik "Я, в самый день безбожного убийства,"
+        chestonov "<{i}(подавая карандаш){/i}>"
 
-        starik "Его живого видел у обедни;"
+        show chestonov at truecenter
 
-        starik "К убитому всех прежде прибежал,"
+        show chestonov at truecenter
 
-        starik "Стоял над ним, зарезанным, и плакал."
+        chestonov "{space=400}А вот и карандаш."
 
-        starik "При мне его в могилу опустили."
+        hide chestonov
 
-        starik "И с той поры наш Углич запустел;"
+        show pososhkov at truecenter
 
-        starik "Унес с собой царевич наше счастье."
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide starik
+        pososhkov "Как можно выкинуть главнейший персонаж?"
 
-        show golosa_2_4 at truecenter
+        hide pososhkov
 
-        $ golosa_2_4_var = "{noalt}Голоса в толпе"
+        show lyubskij at truecenter
 
-        golosa_2_4 "Болтай еще! -- В застенке побываешь! --"
+        $ lyubskij_var = "{noalt}Любский"
 
-        golosa_2_4 "Пойдемте прочь; мы глухи, не слыхали."
+        lyubskij "А вот увидишь как!"
 
-        hide golosa_2_4
+        hide lyubskij
 
-        show starik at truecenter
+        show pososhkov at truecenter
 
-        $ starik_var = "{noalt}Старик"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        starik "Ни в милостях его я не нуждаюсь,"
+        pososhkov "{space=400}Совсем не будет связи!.."
 
-        starik "Ни гнева не боюсь! Сто лет я прожил,"
+        pososhkov "За что ж срамить меня при публике, при князе?"
 
-        starik "Еще ста лет не проживу; о лишнем"
+        hide pososhkov
 
-        starik "Десятке дней и спорить нет расчета."
+        show lyubskij at truecenter
 
-        hide starik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show desjatskij_2_4 at truecenter
+        lyubskij "Всё это, душенька, зависит от тебя -"
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        lyubskij "Играй!"
 
-        desjatskij_2_4 "Вязать его! Робята, помогите!"
+        hide lyubskij
 
-        desjatskij_2_4 "Десятские!"
+        show chestonov at truecenter
 
-        hide desjatskij_2_4
+        $ chestonov_var = "{noalt}Честонов"
 
-        show kalachnik at truecenter
+        hide chestonov
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show chestonov at left
+        show pososhkov at right
 
-        kalachnik "{space=400}Кричи, сбирай десятских!"
+        hide chestonov
 
-        kalachnik "Помогут ли они тебе, посмотрим!"
+        show chestonov at left
+        show pososhkov at right
 
-        kalachnik "Ты лет не чтишь, ты сдуру поднял руки"
+        chestonov "<{i}(Посошкову){/i}>"
 
-        kalachnik "На старика седого! Ну, так стой же!"
+        hide pososhkov
 
-        kalachnik "Учливости я выучу тебя."
+        show chestonov at truecenter
 
-        hide kalachnik
+        hide pososhkov
 
-        show kalachnik at truecenter
+        show chestonov at truecenter
 
-        hide kalachnik
+        chestonov "{space=400}Послушайте! Вас искренно любя,"
 
-        show kalachnik at truecenter
+        chestonov "Я должен вам сказать, что это представленье..."
 
-        kalachnik "<{i}(Хватает его за ворот.){/i}>"
+        hide chestonov
 
-        show kalachnik at truecenter
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide kalachnik
+        pososhkov "Убьет комедию!.."
 
-        show desjatskij_2_4 at truecenter
+        hide pososhkov
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        show chestonov at truecenter
 
-        desjatskij_2_4 "Ты что шумишь? Ты сам-то что за птица?"
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide desjatskij_2_4
+        chestonov "{space=400}Без всякого сомненья."
 
-        show kalachnik at truecenter
+        chestonov "Вы знаете: кому охота разбирать,"
 
-        $ kalachnik_var = "{noalt}Калачник"
+        chestonov "Кто прав, кто виноват..."
 
-        kalachnik "Что я-то?! Я не сыщик, не доносчик;"
+        hide chestonov
 
-        kalachnik "Я -- весь народ московский; вот кто я!"
+        show lyubskij at truecenter
 
-        kalachnik "Ты радуйся, что мы покуда тихи."
+        $ lyubskij_var = "{noalt}Любский"
 
-        kalachnik "Берись за ум, одну с народом песню"
+        hide lyubskij
 
-        kalachnik "Затягивай! А то беды дождешься;"
+        show lyubskij at left
+        show pososhkov at right
 
-        kalachnik "Возьмем дубье, и вам, с панами вместе,"
+        hide lyubskij
 
-        kalachnik "Достанется, басмановские псы!"
+        show lyubskij at left
+        show pososhkov at right
 
-        hide kalachnik
+        lyubskij "<{i}(Посошкову){/i}>"
 
-        show desjatskij_2_4 at truecenter
+        hide pososhkov
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        show lyubskij at truecenter
 
-        desjatskij_2_4 "Тебя, дружок, вязать-то! Эй, робята,"
+        hide pososhkov
 
-        desjatskij_2_4 "Держи его!"
+        show lyubskij at truecenter
 
-        hide desjatskij_2_4
+        lyubskij "{space=200}Ну, что?"
 
-        show kalachnik at truecenter
+        hide lyubskij
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show pososhkov at truecenter
 
-        kalachnik "{space=400}Убью тебя на месте,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        kalachnik "Анафема! Зубами загрызу!"
+        pososhkov "{space=400}Пришлось играть."
 
-        hide kalachnik
+        hide pososhkov
 
-        show kalachnik at truecenter
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show kalachnik at truecenter
+        lyubskij "Вот так-то лучше, брат!"
 
-        kalachnik "<{i}(Роняет десятского){/i}>"
+        hide lyubskij
 
-        show kalachnik at truecenter
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        kalachnik "Давайте нож! Берите, братцы, колья!"
+        pososhkov "{space=400}Но будьте справедливы:"
 
-        kalachnik "Убьем его до смерти! Жил собакой,"
+        pososhkov "Легко ли мне сносить! - Они теперь счастливы,"
 
-        kalachnik "И умирать ему собачьей смертью!"
+        pososhkov "А я..."
 
-        hide kalachnik
+        hide pososhkov
 
-        show desjatskij_2_4 at truecenter
+        show lyubskij at truecenter
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        $ lyubskij_var = "{noalt}Любский"
 
-        desjatskij_2_4 "Да смилуйся! И сам не стану трогать"
+        lyubskij "{space=400}А ты кричал: \"Им надо роль пройти!"
 
-        desjatskij_2_4 "Честной народ, и закажу другим."
+        lyubskij "Не троньте их!..\""
 
-        hide desjatskij_2_4
+        hide lyubskij
 
-        show golosa_2_4 at truecenter
+        show chestonov at truecenter
 
-        $ golosa_2_4_var = "{noalt}Голоса"
+        $ chestonov_var = "{noalt}Честонов"
 
-        golosa_2_4 "Убей его! -- Туда ему дорога! --"
+        hide chestonov
 
-        golosa_2_4 "Кончай его скорей!"
+        show chestonov at truecenter
 
-        hide golosa_2_4
+        hide chestonov
 
-        show desjatskij_2_4 at truecenter
+        show chestonov at truecenter
 
-        $ desjatskij_2_4_var = "{noalt}Десятский"
+        chestonov "<{i}(в боковые двери){/i}>"
 
-        desjatskij_2_4 "{space=400}Пустите душу"
+        show chestonov at truecenter
 
-        desjatskij_2_4 "Покаяться!"
+        show chestonov at truecenter
 
-        hide desjatskij_2_4
+        chestonov "{space=400}Теперь вы можете взойти."
 
-        show kalachnik at truecenter
+        hide chestonov
 
-        $ kalachnik_var = "{noalt}Калачник"
+    label Act_3_Scene_8:
+        "{b}ЯВЛЕНИЕ 8{/b}"
 
-        kalachnik "{space=400}Ну, черт с тобой! Смотри же"
+        show velskij at left
+        show olenka at truecenter
+        show lileev at right
 
-        kalachnik "Держи язык на привязи! Своруешь --"
+        show velskij at left
+        show olenka at truecenter
+        show lileev at right
 
-        kalachnik "Везде найду, и не проси пощады!"
+        "<{i}Те же, Вельский, Оленька и Лилеев, в костюме.{/i}>"
 
-        kalachnik "Не жить тебе!"
+        hide velskij
+        hide olenka
+        hide lileev
 
-        hide kalachnik
+        hide velskij
+        hide olenka
+        hide lileev
 
-        show kalachnik at truecenter
+        show olenka at truecenter
 
-        hide kalachnik
+        $ olenka_var = "{noalt}Оленька"
 
-        show kalachnik at truecenter
+        olenka "Ах, дядюшка!"
 
-        kalachnik "<{i}Входит юродивый в польской шапке.{/i}>"
+        hide olenka
 
-        show kalachnik at truecenter
+        show chestonov at truecenter
 
-        show kalachnik at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide kalachnik
+        hide chestonov
 
-        show golos_iz_tolpy_2_4b at truecenter
+        show chestonov at truecenter
 
-        $ golos_iz_tolpy_2_4b_var = "{noalt}Голос из толпы"
+        hide chestonov
 
-        golos_iz_tolpy_2_4b "{space=400}Афоня, ты отколе?"
+        show chestonov at truecenter
 
-        hide golos_iz_tolpy_2_4b
+        chestonov "<{i}(Оленьке){/i}>"
 
-        show jurodivyj at truecenter
+        show chestonov at truecenter
 
-        $ jurodivyj_var = "{noalt}Юродивый"
+        show chestonov at truecenter
 
-        jurodivyj "На свадьбе был и мед и пиво пил."
+        chestonov "{space=400}Смелей! Всё кончилось прощеньем."
 
-        jurodivyj "Невесело!"
+        hide chestonov
 
-        hide jurodivyj
+        show velskij at truecenter
 
-        show golos_2_4c at truecenter
+        $ velskij_var = "{noalt}Вельский"
 
-        $ golos_2_4c_var = "{noalt}Голос"
+        hide velskij
 
-        golos_2_4c "{space=400}Зачем ты в польской шапке?"
+        show velskij at left
+        show lyubskij at right
 
-        hide golos_2_4c
+        hide velskij
 
-        show jurodivyj at truecenter
+        show velskij at left
+        show lyubskij at right
 
-        $ jurodivyj_var = "{noalt}Юродивый"
+        velskij "<{i}(Любскому){/i}>"
 
-        jurodivyj "Наденем все. Митрополит казанский"
+        hide lyubskij
 
-        jurodivyj "Не захотел надеть, его сослали --"
+        show velskij at truecenter
 
-        jurodivyj "Сослали, да! В цепях и заключенье"
+        hide lyubskij
 
-        jurodivyj "Томят его."
+        show velskij at truecenter
 
-        hide jurodivyj
+        velskij "Одна любовь моя мне служит извиненьем..."
 
-        show kalachnik at truecenter
+        hide velskij
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show lyubskij at truecenter
 
-        kalachnik "{space=400}Садись со мной, убогий!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        kalachnik "Сыграем в зернь! Покажем православным,"
+        lyubskij "Добро! Уж так и быть."
 
-        kalachnik "Какой игрой своих поляков тешит"
+        hide lyubskij
 
-        kalachnik "Московский царь, чтоб им не скучно было."
+        show lyubskaya at truecenter
 
-        kalachnik "На тебе шапка кругла,"
+        $ lyubskaya_var = "{noalt}Любская"
 
-        kalachnik "На четыре угла;"
+        lyubskaya "{space=400}И я прощаю вас."
 
-        kalachnik "Ты будешь поляк,"
+        hide lyubskaya
 
-        kalachnik "А я русак --"
+        show chestonov at truecenter
 
-        kalachnik "И будет дело так."
+        $ chestonov_var = "{noalt}Честонов"
 
-        kalachnik "Мы наперво на Новгород сыграем!"
+        hide chestonov
 
-        hide kalachnik
+        show chestonov at left
+        show lyubskij at truecenter
+        show lileev at right
 
-        show kalachnik at truecenter
+        hide chestonov
 
-        hide kalachnik
+        show chestonov at left
+        show lyubskij at truecenter
+        show lileev at right
 
-        show kalachnik at truecenter
+        chestonov "<{i}(подводя к Любскому Лилеева){/i}>"
 
-        kalachnik "<{i}Играют вместо костей камешками.{/i}>"
+        hide lyubskij
+        hide lileev
 
-        show kalachnik at truecenter
+        show chestonov at truecenter
 
-        show kalachnik at truecenter
+        hide lyubskij
+        hide lileev
 
-        kalachnik "Ну, Новгород тебе я проиграл."
+        show chestonov at truecenter
 
-        kalachnik "Теперь на Псков..."
+        chestonov "А вот вам и актер!"
 
-        hide kalachnik
+        hide chestonov
 
-        show kalachnik at left
-        show ves_narod_1_2 at right
+        show lyubskij at truecenter
 
-        hide kalachnik
+        $ lyubskij_var = "{noalt}Любский"
 
-        show kalachnik at left
-        show ves_narod_1_2 at right
+        hide lyubskij
 
-        kalachnik "<{i}(Народу.){/i}>"
+        show lyubskij at left
+        show lileev at right
 
-        hide ves_narod_1_2
+        hide lyubskij
 
-        show kalachnik at truecenter
+        show lyubskij at left
+        show lileev at right
 
-        hide ves_narod_1_2
+        lyubskij "<{i}(Лилееву){/i}>"
 
-        show kalachnik at truecenter
+        hide lileev
 
-        kalachnik "{space=400}Да что же это, братцы!"
+        show lyubskij at truecenter
 
-        kalachnik "Никак, ему и Псков я проиграл."
+        hide lileev
 
-        kalachnik "Куда ни шло, на Северскую землю!.."
+        show lyubskij at truecenter
 
-        kalachnik "Ахти, беда! Совсем я проигрался."
+        lyubskij "{space=400}Наделал ты проказ!"
 
-        kalachnik "Осталось мне московские соборы"
+        lyubskij "Не стыдно ли тебе?"
 
-        kalachnik "Проигрывать полякам."
+        hide lyubskij
 
-        hide kalachnik
+        show lileev at truecenter
 
-        show kalachnik at truecenter
+        $ lileev_var = "{noalt}Лилеев"
 
-        hide kalachnik
+        lileev "{space=400}Забудемте об этом!"
 
-        show kalachnik at truecenter
+        hide lileev
 
-        kalachnik "<{i}Вбегает купец.{/i}>"
+        show chestonov at truecenter
 
-        show kalachnik at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        show kalachnik at truecenter
+        chestonov "Ему не надобно сидеть за туалетом:"
 
-        hide kalachnik
+        chestonov "Как видишь, он готов."
 
-        show kupets_2_4 at truecenter
+        hide chestonov
 
-        $ kupets_2_4_var = "{noalt}Купец"
+        show pososhkov at truecenter
 
-        kupets_2_4 "{space=400}Защитите,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        kupets_2_4 "Родимые! Напали полячишки"
+        hide pososhkov
 
-        kupets_2_4 "Проклятые, отбили силой дочку."
+        show pososhkov at left
+        show izvedov at right
 
-        hide kupets_2_4
+        hide pososhkov
 
-        show kalachnik at truecenter
+        show pososhkov at left
+        show izvedov at right
 
-        $ kalachnik_var = "{noalt}Калачник"
+        pososhkov "<{i}(Изведову){/i}>"
 
-        kalachnik "А где они?"
+        hide izvedov
 
-        hide kalachnik
+        show pososhkov at truecenter
 
-        show kupets_2_4 at truecenter
+        hide izvedov
 
-        $ kupets_2_4_var = "{noalt}Купец"
+        show pososhkov at truecenter
 
-        kupets_2_4 "{space=400}Да вон бегут! Родную"
+        pososhkov "{space=400}Совсем не стариком"
 
-        kupets_2_4 "К себе тащат."
+        pososhkov "Одет."
 
-        hide kupets_2_4
+        hide pososhkov
 
-        show kupets_2_4 at left
-        show poljaki at truecenter
-        show vishnevetskij at right
+        show lyubskij at truecenter
 
-        hide kupets_2_4
+        $ lyubskij_var = "{noalt}Любский"
 
-        show kupets_2_4 at left
-        show poljaki at truecenter
-        show vishnevetskij at right
+        lyubskij "{space=400}Так я могу расстаться с париком!"
 
-        kupets_2_4 "<{i}Поляки с девушкой у ворот дома, где стоит Вишневецкий.{/i}>"
+        lyubskij "Долой его!"
 
-        hide poljaki
-        hide vishnevetskij
+        hide lyubskij
 
-        show kupets_2_4 at truecenter
+        show lyubskij at truecenter
 
-        hide poljaki
-        hide vishnevetskij
+        hide lyubskij
 
-        show kupets_2_4 at truecenter
+        show lyubskij at truecenter
 
-        hide kupets_2_4
+        lyubskij "<{i}(Сбрасывает парик.){/i}>"
 
-        show kalachnik at truecenter
+        show lyubskij at truecenter
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show lyubskij at truecenter
 
-        kalachnik "{space=400}Денной разбой, робята!"
+        lyubskij "{space=400}Теперь играйте как хотите!"
 
-        kalachnik "На выручку! Работай чем попало."
+        hide lyubskij
 
-        hide kalachnik
+        show pososhkov at truecenter
 
-        show kalachnik at left
-        show vishnevetskij at right
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide kalachnik
+        hide pososhkov
 
-        show kalachnik at left
-        show vishnevetskij at right
+        show pososhkov at truecenter
 
-        kalachnik "<{i}Разбивают разножки, на которых ставят лотки, и обломками дерутся с поляками. Отбивают девушку. Из ворот выходят люди Вишневецкого с ружьями.{/i}>"
+        hide pososhkov
 
-        hide vishnevetskij
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        pososhkov "<{i}(Оленьке){/i}>"
 
-        hide vishnevetskij
+        show pososhkov at truecenter
 
-        show kalachnik at truecenter
+        show pososhkov at truecenter
 
-        hide kalachnik
+        pososhkov "Ну, Ольга Дмитревна!.."
 
-        show kalachnik at truecenter
+        hide pososhkov
 
-        $ kalachnik_var = "{noalt}Калачник"
+        show olenka at truecenter
 
-        kalachnik "С пищалями?! Скликай народ, робята!"
+        $ olenka_var = "{noalt}Оленька"
 
-        hide kalachnik
+        hide olenka
 
-        show golos_2_4d at truecenter
+        show olenka at truecenter
 
-        $ golos_2_4d_var = "{noalt}Голос"
+        hide olenka
 
-        golos_2_4d "Вались, народ! Обидели поляки!"
+        show olenka at truecenter
 
-        hide golos_2_4d
+        olenka "<{i}(приседая){/i}>"
 
-        show golos_2_4d at left
-        show ivan at right
+        show olenka at truecenter
 
-        hide golos_2_4d
+        show olenka at truecenter
 
-        show golos_2_4d at left
-        show ivan at right
+        olenka "{space=400}Что ж делать! Извините!"
 
-        golos_2_4d "<{i}Прибегают несколько человек и Иван-дурачок.{/i}>"
+        hide olenka
 
-        hide ivan
+        show lyubskij at truecenter
 
-        show golos_2_4d at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide ivan
+        hide lyubskij
 
-        show golos_2_4d at truecenter
+        show lyubskij at truecenter
 
-        hide golos_2_4d
+        hide lyubskij
 
-        show malchishki at truecenter
+        show lyubskij at truecenter
 
-        $ malchishki_var = "{noalt}Мальчишки"
+        lyubskij "<{i}(жене){/i}>"
 
-        malchishki "Иванушка! Иванушка-дурак!"
+        show lyubskij at truecenter
 
-        hide malchishki
+        show lyubskij at truecenter
 
-        show kalachnik at truecenter
+        lyubskij "А ты, сударыня, ступай теперь к гостям."
 
-        $ kalachnik_var = "{noalt}Калачник"
+        hide lyubskij
 
-        kalachnik "Иванушка! Кричи, что силы хватит;"
+        show lyubskaya at truecenter
 
-        kalachnik "Сзывай народ! Кричи: поляки бьют!"
+        show lyubskaya at truecenter
 
-        hide kalachnik
+        "<{i}Любская уходит.{/i}>"
 
-        show ivan at truecenter
+        hide lyubskaya
 
-        $ ivan_var = "{noalt}Иван"
-
-        ivan "Поляки бьют! Поляки наших бьют!"
-
-        hide ivan
-
-        show ivan at left
-        show ves_narod_1_2 at truecenter
-        show vishnevetskij at right
-
-        hide ivan
-
-        show ivan at left
-        show ves_narod_1_2 at truecenter
-        show vishnevetskij at right
-
-        ivan "<{i}Сбегается народ, слуги Вишневецкого стреляют холостыми зарядами, уходят в ворота и запирают их.{/i}>"
-
-        hide ves_narod_1_2
-        hide vishnevetskij
-
-        show ivan at truecenter
-
-        hide ves_narod_1_2
-        hide vishnevetskij
-
-        show ivan at truecenter
-
-        hide ivan
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Давай сюда камней, поленьев, бревен!"
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}Несут бревно.{/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "Берись дружней, высаживай ворота!"
-
-        kalachnik "Раскачивай! Затягивай дубинку!"
-
-        hide kalachnik
-
-        show kalachnik at left
-        show kapitan at truecenter
-        show ves_narod_1_2 at right
-
-        hide kalachnik
-
-        show kalachnik at left
-        show kapitan at truecenter
-        show ves_narod_1_2 at right
-
-        kalachnik "<{i}Несколько человек запевают песню \"Ах ты, дубинушка, ухни!\", раскачивают бревно и бьют в ворота; дурак кричит. Показывается рота немцев с капитаном и начинает напирать на народ.{/i}>"
-
-        hide kapitan
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        hide kapitan
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kapitan at truecenter
-
-        $ kapitan_var = "{noalt}Капитан"
-
-        hide kapitan
-
-        show kapitan at left
-        show ves_narod_1_2 at right
-
-        hide kapitan
-
-        show kapitan at left
-        show ves_narod_1_2 at right
-
-        kapitan "<{i}(народу){/i}>"
-
-        hide ves_narod_1_2
-
-        show kapitan at truecenter
-
-        hide ves_narod_1_2
-
-        show kapitan at truecenter
-
-        kapitan "Пошел домой! Ходи домой! {a=myshow|tooltip|text=Вы, негодяи (нем.)}Ihr, Schurken!{/a}"
-
-        hide kapitan
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(прячась за дурака){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "Иванушка, сучи кулак на немцев!"
-
-        hide kalachnik
-
-        show ivan at truecenter
-
-        $ ivan_var = "{noalt}Иван"
-
-        hide ivan
-
-        show ivan at truecenter
-
-        hide ivan
-
-        show ivan at truecenter
-
-        ivan "<{i}(засучив рукав){/i}>"
-
-        show ivan at truecenter
-
-        show ivan at truecenter
-
-        ivan "Ну, выходи!"
-
-        hide ivan
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Ругни их хорошенько!"
-
-        hide kalachnik
-
-        show ivan at truecenter
-
-        $ ivan_var = "{noalt}Иван"
-
-        ivan "Проклятые, с своим царем проклятым!"
-
-        hide ivan
-
-        show kapitan at truecenter
-
-        $ kapitan_var = "{noalt}Капитан"
-
-        kapitan "Бери его! Вяжи! {a=myshow|tooltip|text=Это их атаман! (нем.)}Das ist ihr Hauptmann!{/a}"
-
-        hide kapitan
-
-        show kapitan at left
-        show ves_narod_1_2 at truecenter
-        show nemtsy at right
-
-        hide kapitan
-
-        show kapitan at left
-        show ves_narod_1_2 at truecenter
-        show nemtsy at right
-
-        kapitan "<{i}Весь народ разбегается. Дурака уводят немцы.{/i}>"
-
-        hide ves_narod_1_2
-        hide nemtsy
-
-        show kapitan at truecenter
-
-        hide ves_narod_1_2
-        hide nemtsy
-
-        show kapitan at truecenter
-
-        hide kapitan
+        hide lyubskaya
 
     label Act_3_Scene_9:
-        "{b}СЦЕНА ПЯТАЯ{/b}"
+        "{b}ЯВЛЕНИЕ 9{/b}"
 
-        label Characters_12:
-            play music "audio/music/12.mp3" fadeout 1.0 fadein 1.0
+        show lyubskaya at truecenter
 
-            scene 17 with fade
+        show lyubskaya at truecenter
 
-            "{b}(СЦЕНА ПЯТАЯ) ЛИЦА:{/b}"
+        "<{i}Те же, без Любской.{/i}>"
 
-            show dmitrij at truecenter
-            "Дмитрий."
-            hide dmitrij
+        hide lyubskaya
 
-            show marina at truecenter
-            "Марина."
-            hide marina
+        hide lyubskaya
 
-            show olesnitskij at truecenter
-            "Олесницкий, каштелян мологоский; посол Сигизмунда."
-            hide olesnitskij
+        show lyubskij at truecenter
 
-            show vasilij_shujskij at truecenter
-            "Шуйский."
-            hide vasilij_shujskij
+        $ lyubskij_var = "{noalt}Любский"
 
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
+        lyubskij "Ну что же, господа!"
 
-            show mnishek at truecenter
-            "Юрий Мнишек."
-            hide mnishek
+        hide lyubskij
 
-            show vishnevetskij at truecenter
-            "Вишневецкий Константин."
-            hide vishnevetskij
+        show izvedov at truecenter
 
-            show buchinskij at truecenter
-            "Бучинский."
-            hide buchinskij
+        $ izvedov_var = "{noalt}Изведов"
 
-            show ivan at truecenter
-            "Иван-дурак."
-            hide ivan
+        hide izvedov
 
-            show poljaki at truecenter
-            "Музыканты, песельники, стража; поляки и польки, родственники Марины и гости."
-            hide poljaki
+        show izvedov at left
+        show natasha at right
 
-        "<{i}Зала в новом дворце.{/i}>"
+        hide izvedov
 
-        "<{i}(13 мая 1606 года){/i}>"
+        show izvedov at left
+        show natasha at right
 
-        show mnishek at left
-        show vishnevetskij at truecenter
-        show marina at right
+        izvedov "<{i}(подводя Наташу){/i}>"
 
-        show mnishek at left
-        show vishnevetskij at truecenter
-        show marina at right
+        hide natasha
 
-        "<{i}Выходят Дмитрий и Олесницкий; за ними бояре: Шуйский, Голицын; паны: Мнишек, Вишневецкий и другие; Марина со своей свитой.{/i}>"
+        show izvedov at truecenter
 
-        hide dmitrij
-        hide olesnitskij
-        hide vasilij_shujskij
-        hide golitsyn
-        hide mnishek
-        hide vishnevetskij
-        hide marina
+        hide natasha
 
-        hide dmitrij
-        hide olesnitskij
-        hide vasilij_shujskij
-        hide golitsyn
-        hide mnishek
-        hide vishnevetskij
-        hide marina
+        show izvedov at truecenter
 
-        show dmitrij at truecenter
+        izvedov "{space=400}Позвольте уж и нам..."
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide izvedov
 
-        dmitrij "Пан мологоский! брага Сигизмунда"
+        show lyubskij at truecenter
 
-        dmitrij "Сомнительно ко мне расположенье."
+        $ lyubskij_var = "{noalt}Любский"
 
-        dmitrij "Не вижу я любви его. Скитальцем"
+        lyubskij "На всех пошло! И вы жениться захотели?"
 
-        dmitrij "Я в Кракове почету больше видел,"
+        hide lyubskij
 
-        dmitrij "Чем здесь теперь, когда я сел на царства"
+        show izvedov at truecenter
 
-        dmitrij "Великие, когда страны полночной"
+        $ izvedov_var = "{noalt}Изведов"
 
-        dmitrij "Единым обладателем я стал."
+        izvedov "Когда позволите, на будущей неделе..."
 
-        dmitrij "По-братски ли не признавать титулов"
+        hide izvedov
 
-        dmitrij "Наследственных, от Бога нашим предкам"
+        show lyubskij at truecenter
 
-        dmitrij "Дарованных? Титулы много значат,"
+        $ lyubskij_var = "{noalt}Любский"
 
-        dmitrij "Когда они действительны: не словом,"
+        lyubskij "Хоть завтра поутру, лишь только не теперь."
 
-        dmitrij "А делом я коронами владею"
+        lyubskij "Гей, малый! Кто-нибудь!"
 
-        dmitrij "Великих царств. Мы брата Сигизмунда"
+        hide lyubskij
 
-        dmitrij "Наследственных титулов не лишаем"
+        show lyubskij at truecenter
 
-        dmitrij "И королем наследным свейским пишем,"
+        hide lyubskij
 
-        dmitrij "А он король -- лишь только на бумаге."
+        show lyubskij at truecenter
 
-        dmitrij "Дивлюсь ему! Иметь в своем титуле"
+        lyubskij "<{i}Входит слуга.{/i}>"
 
-        dmitrij "Наследные права и спать спокойно!"
+        show lyubskij at truecenter
 
-        dmitrij "Имей-ка я хоть тень такого права,"
+        show lyubskij at truecenter
 
-        dmitrij "Я б свейскую корону с боя отнял."
+        lyubskij "{space=400}Смотри, чтоб в эту дверь"
 
-        hide dmitrij
+        lyubskij "Никто не проходил."
 
-        show olesnitskij at truecenter
+        hide lyubskij
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        show lyubskij at truecenter
 
-        olesnitskij "У нас земля свободная: не могут,"
+        hide lyubskij
 
-        olesnitskij "Для личных прав и выгод, короли"
+        show lyubskij at truecenter
 
-        olesnitskij "Покой страны и подданных нарушить."
+        lyubskij "<{i}(Показывает направо.){/i}>"
 
-        hide olesnitskij
+        show lyubskij at truecenter
 
-        show dmitrij at truecenter
+        show lyubskij at truecenter
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide lyubskij
 
-        dmitrij "А если так, я б вашу Польшу бросил,"
+        show pososhkov at truecenter
 
-        dmitrij "Без вас бы отнял свейскую корону,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        dmitrij "Потом бы стал и Польшу доставать..."
+        hide pososhkov
 
-        dmitrij "А впрочем, пан, оставим разговоры."
+        show pososhkov at left
+        show velskij at truecenter
+        show olenka at right
 
-        dmitrij "Мы вечер посвящаем на забавы."
+        hide pososhkov
 
-        dmitrij "Я утром -- Царь, а вечером -- любовник,"
+        show pososhkov at left
+        show velskij at truecenter
+        show olenka at right
 
-        dmitrij "Вздыхающий у ног своей богини."
+        pososhkov "<{i}(Вельскому и Оленьке){/i}>"
 
-        hide dmitrij
+        hide velskij
+        hide olenka
 
-        show marina at truecenter
+        show pososhkov at truecenter
 
-        $ marina_var = "{noalt}Марина"
+        hide velskij
+        hide olenka
 
-        marina "Мы танцевать хотим!"
+        show pososhkov at truecenter
 
-        hide marina
+        pososhkov "{space=400}Подите, подрумяньтесь:"
 
-        show dmitrij at truecenter
+        pososhkov "Вам так играть нельзя."
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide pososhkov
 
-        dmitrij "{space=400}Здесь ваша воля --"
+        show izvedov at truecenter
 
-        dmitrij "Закон для нас. Эй! Музыку и песен!"
+        $ izvedov_var = "{noalt}Изведов"
 
-        hide dmitrij
+        hide izvedov
 
-        show dmitrij at left
-        show poljaki at right
+        show izvedov at truecenter
 
-        hide dmitrij
+        hide izvedov
 
-        show dmitrij at left
-        show poljaki at right
+        show izvedov at truecenter
 
-        dmitrij "<{i}Музыка. Царь с царицей и поляки танцуют польский.{/i}>"
+        izvedov "<{i}(отворяя дверь налево){/i}>"
 
-        hide poljaki
+        show izvedov at truecenter
 
-        show dmitrij at truecenter
+        show izvedov at truecenter
 
-        hide poljaki
+        izvedov "{space=200}Пожалуйте!"
 
-        show dmitrij at truecenter
+        hide izvedov
 
-        hide dmitrij
+        show lileev at truecenter
 
-        show olesnitskij at truecenter
+        $ lileev_var = "{noalt}Лилеев"
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        hide lileev
 
-        hide olesnitskij
+        show lileev at left
+        show izvedov at right
 
-        show olesnitskij at left
-        show vasilij_shujskij at right
+        hide lileev
 
-        hide olesnitskij
+        show lileev at left
+        show izvedov at right
 
-        show olesnitskij at left
-        show vasilij_shujskij at right
+        lileev "<{i}(Изведову){/i}>"
 
-        olesnitskij "<{i}(Василию Шуйскому){/i}>"
+        hide izvedov
 
-        hide vasilij_shujskij
+        show lileev at truecenter
 
-        show olesnitskij at truecenter
+        hide izvedov
 
-        hide vasilij_shujskij
+        show lileev at truecenter
 
-        show olesnitskij at truecenter
+        lileev "{space=400}Останьтесь!"
 
-        olesnitskij "Москва шумит, поляков обижают."
+        lileev "Я это сделаю."
 
-        hide olesnitskij
+        hide lileev
 
-        show vasilij_shujskij at truecenter
+        show pososhkov at truecenter
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "Вельможный пан боится хлопов глупых?"
+        hide pososhkov
 
-        hide vasilij_shujskij
+        show pososhkov at truecenter
 
-        show olesnitskij at truecenter
+        hide pososhkov
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        show pososhkov at truecenter
 
-        olesnitskij "Вельможный пан боится или нет,"
+        pososhkov "<{i}(с насмешкою){/i}>"
 
-        olesnitskij "Он знает сам про то; а Шуйский знает,"
+        show pososhkov at truecenter
 
-        olesnitskij "Что чернь в Москве недаром зашумела."
+        show pososhkov at truecenter
 
-        hide olesnitskij
+        pososhkov "{space=400}И, верно, лучше всех,"
 
-        show vasilij_shujskij at truecenter
+        pososhkov "Кто опытен, как вы..."
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide pososhkov
 
-        vasilij_shujskij "Послов не бьют."
+        show lileev at truecenter
 
-        hide vasilij_shujskij
+        $ lileev_var = "{noalt}Лилеев"
 
-        show olesnitskij at truecenter
+        lileev "{space=400}Что значит этот смех?"
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        hide lileev
 
-        olesnitskij "{space=400}Пока страна покойна."
+        show lyubskij at truecenter
 
-        hide olesnitskij
+        $ lyubskij_var = "{noalt}Любский"
 
-        show vasilij_shujskij at truecenter
+        lyubskij "Эх, полноте!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "Скажи царю, просите для защиты"
+        show lyubskij at left
+        show lileev at right
 
-        vasilij_shujskij "Стрельцов себе!"
+        hide lyubskij
 
-        hide vasilij_shujskij
+        show lyubskij at left
+        show lileev at right
 
-        show olesnitskij at truecenter
+        lyubskij "<{i}(Лилееву){/i}>"
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        hide lileev
 
-        olesnitskij "{space=400}Царю мы говорили;"
+        show lyubskij at truecenter
 
-        olesnitskij "Не верит нам."
+        hide lileev
 
-        hide olesnitskij
+        show lyubskij at truecenter
 
-        show vasilij_shujskij at truecenter
+        lyubskij "{space=200}Ступай!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lyubskij
 
-        vasilij_shujskij "{space=400}Басманову скажите!"
+        show velskij at left
+        show lileev at truecenter
+        show olenka at right
 
-        hide vasilij_shujskij
+        show velskij at left
+        show lileev at truecenter
+        show olenka at right
 
-        show olesnitskij at truecenter
+        "<{i}Вельский, Лилеев и Оленька уходят налево.{/i}>"
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        hide velskij
+        hide lileev
+        hide olenka
 
-        olesnitskij "Покойней нам, вернее, если Шуйский"
+        hide velskij
+        hide lileev
+        hide olenka
 
-        olesnitskij "Поручится за нашу безопасность."
+    label Act_3_Scene_10:
+        "{b}ЯВЛЕНИЕ 10{/b}"
 
-        olesnitskij "Дай руку, пан!"
+        show olenka at left
+        show velskij at truecenter
+        show volgin at right
 
-        hide olesnitskij
+        show olenka at left
+        show velskij at truecenter
+        show volgin at right
 
-        show vasilij_shujskij at truecenter
+        "<{i}Те же, без Лилеева, Оленьки и Вельского; а вскоре Волгин.{/i}>"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide lileev
+        hide olenka
+        hide velskij
+        hide volgin
 
-        vasilij_shujskij "{space=400}Изволь! Ручаюсь Богом,"
+        hide lileev
+        hide olenka
+        hide velskij
+        hide volgin
 
-        vasilij_shujskij "Что волосом тебя никто не тронет."
+        show izvedov at truecenter
 
-        hide vasilij_shujskij
+        $ izvedov_var = "{noalt}Изведов"
 
-        show olesnitskij at truecenter
+        izvedov "{space=200}Он сердится."
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        hide izvedov
 
-        hide olesnitskij
+        show lyubskij at truecenter
 
-        show olesnitskij at truecenter
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide olesnitskij
+        lyubskij "{space=400}Вот то-то!"
 
-        show olesnitskij at truecenter
+        lyubskij "К чему шутить! И что за смертная охота"
 
-        olesnitskij "<{i}(показывая на Юрия Мнишка){/i}>"
+        lyubskij "Дразнить Лилеева!"
 
-        show olesnitskij at truecenter
+        hide lyubskij
 
-        show olesnitskij at truecenter
+        show volgin at truecenter
 
-        olesnitskij "Без шапки воевода Сендомирский"
+        $ volgin_var = "{noalt}Волгин"
 
-        olesnitskij "И спину гнет на старости кольцом."
+        hide volgin
 
-        hide olesnitskij
+        show volgin at truecenter
 
-        show vasilij_shujskij at truecenter
+        hide volgin
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show volgin at truecenter
 
-        vasilij_shujskij "Тебе пример дает."
+        volgin "<{i}(за кулисами с правой стороны){/i}>"
 
-        hide vasilij_shujskij
+        show volgin at truecenter
 
-        show olesnitskij at truecenter
+        show volgin at truecenter
 
-        $ olesnitskij_var = "{noalt}Олесницкий"
+        volgin "{space=400}Прошу же не толкать!"
 
-        olesnitskij "{space=400}Я понимаю."
+        hide volgin
 
-        hide olesnitskij
+        show pervyj_sluga at truecenter
 
-        show olesnitskij at truecenter
+        $ pervyj_sluga_var = "{noalt}Слуга"
 
-        hide olesnitskij
+        hide pervyj_sluga
 
-        show olesnitskij at truecenter
+        show pervyj_sluga at truecenter
 
-        olesnitskij "<{i}Проходят.{/i}>"
+        hide pervyj_sluga
 
-        show olesnitskij at truecenter
+        show pervyj_sluga at truecenter
 
-        show olesnitskij at truecenter
+        pervyj_sluga "<{i}(за кулисами){/i}>"
 
-        hide olesnitskij
+        show pervyj_sluga at truecenter
 
-        show vishnevetskij at truecenter
+        show pervyj_sluga at truecenter
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        pervyj_sluga "Нельзя, сударь!"
 
-        hide vishnevetskij
+        hide pervyj_sluga
 
-        show vishnevetskij at truecenter
+        show volgin at truecenter
 
-        hide vishnevetskij
+        $ volgin_var = "{noalt}Волгин"
 
-        show vishnevetskij at truecenter
+        hide volgin
 
-        vishnevetskij "<{i}(Мнишку){/i}>"
+        show volgin at truecenter
 
-        show vishnevetskij at truecenter
+        hide volgin
 
-        show vishnevetskij at truecenter
+        show volgin at truecenter
 
-        vishnevetskij "Случись еще подобная тревога,"
+        volgin "<{i}(врываясь насильно){/i}>"
 
-        vishnevetskij "Я жолнерам стрелять велю."
+        show volgin at truecenter
 
-        hide vishnevetskij
+        show volgin at truecenter
 
-        show mnishek at truecenter
+        volgin "{space=200}Пусти!"
 
-        $ mnishek_var = "{noalt}Мнишек"
+        hide volgin
 
-        mnishek "{space=400}Потише!"
+        show pervyj_sluga at truecenter
 
-        mnishek "Мы гости здесь."
+        $ pervyj_sluga_var = "{noalt}Слуга"
 
-        hide mnishek
+        pervyj_sluga "{space=400}Не велено пускать!"
 
-        show vishnevetskij at truecenter
+        hide pervyj_sluga
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        show pososhkov at truecenter
 
-        vishnevetskij "{space=400}Тем хуже! Царь московский,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vishnevetskij "Не выдавай гостей своих в обиду!"
+        pososhkov "Возможно ль! - Прямиков!"
 
-        vishnevetskij "Кацапов глупых тысячи четыре"
+        hide pososhkov
 
-        vishnevetskij "Вчера сошлось с дубьем к моим воротам."
+        show lyubskij at truecenter
 
-        vishnevetskij "Аль царь забыл, так я ему напомню"
+        $ lyubskij_var = "{noalt}Любский"
 
-        vishnevetskij "И подданным его, что Вишневецким"
+        lyubskij "{space=400}Как? Этот заседатель,"
 
-        vishnevetskij "Он сам служил холопом при конюшне."
+        lyubskij "Что к нам в актеры-то хотел?"
 
-        vishnevetskij "Он должен бы беречь моих холопов,"
+        hide lyubskij
 
-        vishnevetskij "Они ему товарищами были."
+        show volgin at truecenter
 
-        hide vishnevetskij
+        $ volgin_var = "{noalt}Волгин"
 
-        show mnishek at truecenter
+        hide volgin
 
-        $ mnishek_var = "{noalt}Мнишек"
+        show volgin at left
+        show chestonov at right
 
-        mnishek "Не обижай меня и дочь-царицу,"
+        hide volgin
 
-        mnishek "Прошу тебя! Мы после, Вишневецкий,"
+        show volgin at left
+        show chestonov at right
 
-        mnishek "Поговорим с царем наедине"
+        volgin "<{i}(Честонову){/i}>"
 
-        mnishek "И выпросим охраны понадежней."
+        hide chestonov
 
-        hide mnishek
+        show volgin at truecenter
 
-        show mnishek at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
+        hide chestonov
 
-        hide mnishek
+        show volgin at truecenter
 
-        show mnishek at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
+        volgin "{space=400}Ага, приятель!"
 
-        mnishek "<{i}Подходят Шуйский и Голицын.{/i}>"
+        volgin "Ты спрятался!.. - Да вздор! Тебя везде найдут."
 
-        hide vasilij_shujskij
-        hide golitsyn
+        volgin "Скажи-ка мне..."
 
-        show mnishek at truecenter
+        hide volgin
 
-        hide vasilij_shujskij
-        hide golitsyn
+        show volgin at truecenter
 
-        show mnishek at truecenter
+        hide volgin
 
-        hide mnishek
+        show volgin at truecenter
 
-        show golitsyn at truecenter
+        volgin "<{i}(Увидя Посошкова){/i}>"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show volgin at truecenter
 
-        golitsyn "У вас паны мазурку лихо пляшут,"
+        show volgin at truecenter
 
-        golitsyn "Глядеть на вас потешно."
+        volgin "{space=400}Ахти! Опять проклятый шут!"
 
-        hide golitsyn
+        volgin "И, кажется, хмелен..."
 
-        show vasilij_shujskij at truecenter
+        hide volgin
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        show pososhkov at truecenter
 
-        vasilij_shujskij "{space=400}Не мешает"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        vasilij_shujskij "И нам себе завесть такую пляску,"
+        pososhkov "{space=400}Да что ж он в самом деле!"
 
-        vasilij_shujskij "Особенно на свадьбах."
+        pososhkov "Вот я его!"
 
-        hide vasilij_shujskij
+        hide pososhkov
 
-        show vishnevetskij at truecenter
+        show pososhkov at left
+        show volgin at right
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        hide pososhkov
 
-        vishnevetskij "{space=400}Мы, поляки,"
+        show pososhkov at left
+        show volgin at right
 
-        vishnevetskij "Когда у нас нет дела иль войны,"
+        pososhkov "<{i}(Кричит Волгину){/i}>"
 
-        vishnevetskij "Хоть каждый день плясать готовы."
+        hide volgin
 
-        hide vishnevetskij
+        show pososhkov at truecenter
 
-        show golitsyn at truecenter
+        hide volgin
 
-        $ golitsyn_var = "{noalt}Голицын"
+        show pososhkov at truecenter
 
-        golitsyn "{space=400}То же"
+        pososhkov "{space=400}Зачем вы здесь? - И как вы смели?"
 
-        golitsyn "И мужики у нас: как пьян, так праздник,"
+        pososhkov "Ступайте, сударь, вон!"
 
-        golitsyn "И заплясал."
+        hide pososhkov
 
-        hide golitsyn
+        show volgin at truecenter
 
-        show vishnevetskij at truecenter
+        $ volgin_var = "{noalt}Волгин"
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        volgin "{space=400}Ну, так! Совсем готов!"
 
-        vishnevetskij "{space=400}Вам надо поучиться"
+        hide volgin
 
-        vishnevetskij "У рыцарей и делу и забавам."
+        show volgin at left
+        show lyubskij at right
 
-        hide vishnevetskij
+        hide volgin
 
-        show golitsyn at truecenter
+        show volgin at left
+        show lyubskij at right
 
-        $ golitsyn_var = "{noalt}Голицын"
+        volgin "<{i}(Увидя Изведова и Любского в костюмах){/i}>"
 
-        golitsyn "Ну, дело-то мы знаем без ученья,"
+        hide lyubskij
 
-        golitsyn "А пляскам вот не худо поучиться."
+        show volgin at truecenter
 
-        golitsyn "Да только мы, паны, не будем сами"
+        hide lyubskij
 
-        golitsyn "Боярских ног ломать другим в потеху:"
+        show volgin at truecenter
 
-        golitsyn "Холопов мы по-польски изнарядим"
+        volgin "Ах, батюшки! Да здесь коллекция шутов!"
 
-        golitsyn "И забавлять себя велим мазуркой."
+        volgin "Один, два... три!.."
 
-        hide golitsyn
+        hide volgin
 
-        show vishnevetskij at truecenter
+        show pososhkov at truecenter
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide vishnevetskij
+        hide pososhkov
 
-        show vishnevetskij at truecenter
+        show pososhkov at left
+        show volgin at right
 
-        hide vishnevetskij
+        hide pososhkov
 
-        show vishnevetskij at truecenter
+        show pososhkov at left
+        show volgin at right
 
-        vishnevetskij "<{i}(Мнишку){/i}>"
+        pososhkov "<{i}(подходя ближе к Волгину){/i}>"
 
-        show vishnevetskij at truecenter
+        hide volgin
 
-        show vishnevetskij at truecenter
+        show pososhkov at truecenter
 
-        vishnevetskij "{a=myshow|tooltip|text=Московское варварство (польск.).}Moskiewskie barbarzyństwo{/a}."
+        hide volgin
 
-        hide vishnevetskij
+        show pososhkov at truecenter
 
-        show vishnevetskij at truecenter
+        pososhkov "{space=400}Вы что! - Упрямы или глупы?"
 
-        hide vishnevetskij
+        pososhkov "Вам, сударь, сказано, что вы для нашей труппы"
 
-        show vishnevetskij at truecenter
+        pososhkov "Ненадобны, - и вам актером не бывать!"
 
-        vishnevetskij "<{i}Отходят.{/i}>"
+        pososhkov "Ступайте вон сейчас!"
 
-        show vishnevetskij at truecenter
+        hide pososhkov
 
-        show vishnevetskij at truecenter
+        show volgin at truecenter
 
-        hide vishnevetskij
+        $ volgin_var = "{noalt}Волгин"
 
-        show golitsyn at truecenter
+        volgin "{space=400}Прошу не приставать!"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        volgin "Послушай, брат! Ведь я сердит! - Ей, будет схватка!"
 
-        golitsyn "{space=400}Так-то лучше!"
+        hide volgin
 
-        hide golitsyn
+        show volgin at left
+        show chestonov at right
 
-        show basmanov at truecenter
+        hide volgin
 
-        $ basmanov_var = "{noalt}Басманов"
+        show volgin at left
+        show chestonov at right
 
-        hide basmanov
+        volgin "<{i}(Честонову){/i}>"
 
-        show basmanov at left
-        show vasilij_shujskij at right
+        hide chestonov
 
-        hide basmanov
+        show volgin at truecenter
 
-        show basmanov at left
-        show vasilij_shujskij at right
+        hide chestonov
 
-        basmanov "<{i}(Шуйскому){/i}>"
+        show volgin at truecenter
 
-        hide vasilij_shujskij
+        volgin "Уйми его! - Кой черт! Пристал, как лихорадка!"
 
-        show basmanov at truecenter
+        hide volgin
 
-        hide vasilij_shujskij
+        show chestonov at truecenter
 
-        show basmanov at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        basmanov "Скажи мне, князь Василий, ты московский"
+        chestonov "Не трогайте его!"
 
-        basmanov "Простой народ как на ладони видишь,"
+        hide chestonov
 
-        basmanov "Откуда в нем такая перемена?"
+        show volgin at truecenter
 
-        hide basmanov
+        $ volgin_var = "{noalt}Волгин"
 
-        show vasilij_shujskij at truecenter
+        volgin "{space=400}Пожалуйста, отстань!"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        volgin "Поди-ка, брат, сюда! - Вот так, - поближе стань!"
 
-        vasilij_shujskij "А как мне знать! С утра до поздней ночи"
+        hide volgin
 
-        vasilij_shujskij "Я во дворце толкусь, у государя;"
+        show chestonov at truecenter
 
-        vasilij_shujskij "Сегодня пьян, а завтра сплю с похмелья --"
+        $ chestonov_var = "{noalt}Честонов"
 
-        vasilij_shujskij "Я ничего не вижу и не слышу."
+        chestonov "Что значит твой приезд?"
 
-        hide vasilij_shujskij
+        hide chestonov
 
-        show basmanov at truecenter
+        show volgin at truecenter
 
-        $ basmanov_var = "{noalt}Басманов"
+        $ volgin_var = "{noalt}Волгин"
 
-        basmanov "Мятеж в Москве."
+        volgin "{space=400}А это, сударь, значит,"
 
-        hide basmanov
+        volgin "Что Волгина никто никак не одурачит."
 
-        show vasilij_shujskij at truecenter
+        volgin "Ты что мне обещал?.. Твердил и то и се..."
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        volgin "Нет, шутишь, душенька! - Теперь я знаю всё."
 
-        vasilij_shujskij "{space=400}Ты что ж не унимаешь?"
+        volgin "Подай племянника! Подай!"
 
-        hide vasilij_shujskij
+        hide volgin
 
-        show basmanov at truecenter
+        show chestonov at truecenter
 
-        $ basmanov_var = "{noalt}Басманов"
+        $ chestonov_var = "{noalt}Честонов"
 
-        basmanov "Унять народ легко -- добраться нужно,"
+        chestonov "{space=400}А что ты знаешь?"
 
-        basmanov "Кто возмутил, кто вести распускает."
+        hide chestonov
 
-        hide basmanov
+        show volgin at truecenter
 
-        show golitsyn at truecenter
+        $ volgin_var = "{noalt}Волгин"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        volgin "Что ты со мной и с ним прескверно поступаешь,"
 
-        golitsyn "Разыскивай!"
+        volgin "Что все вы заодно, - твой брат, его жена"
 
-        hide golitsyn
+        volgin "И даже Оленька. Сейчас Кутермина,"
 
-        show basmanov at truecenter
+        volgin "Матрена Савишна, мне всё пересказала."
 
-        $ basmanov_var = "{noalt}Басманов"
+        volgin "Вот дело в чем: у вас актера недостало -"
 
-        basmanov "{space=400}Сказать ли государю,"
+        volgin "Так вы племянника ласкали для того,"
 
-        basmanov "Иль подождать?"
+        volgin "Чтоб он играл. Теперь вы держите его"
 
-        hide basmanov
+        volgin "Для ваших нужд, игры, комиссий и рассылок,"
 
-        show vasilij_shujskij at truecenter
+        volgin "А после этого забреете затылок?"
 
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
+        hide volgin
 
-        vasilij_shujskij "{space=400}Скажи, правее будешь."
+        show chestonov at truecenter
 
-        hide vasilij_shujskij
+        $ chestonov_var = "{noalt}Честонов"
 
-        show vasilij_shujskij at left
-        show basmanov at truecenter
-        show dmitrij at right
+        chestonov "Но выслушай меня!.."
 
-        hide vasilij_shujskij
+        hide chestonov
 
-        show vasilij_shujskij at left
-        show basmanov at truecenter
-        show dmitrij at right
+        show volgin at truecenter
 
-        vasilij_shujskij "<{i}Басманов тихо говорит с Дмитрием.{/i}>"
+        $ volgin_var = "{noalt}Волгин"
 
-        hide basmanov
-        hide dmitrij
+        volgin "{space=400}Нет! Я ведь не дурак..."
 
-        show vasilij_shujskij at truecenter
+        volgin "Подай племянника!"
 
-        hide basmanov
-        hide dmitrij
+        hide volgin
 
-        show vasilij_shujskij at truecenter
+        show chestonov at truecenter
 
-        hide vasilij_shujskij
+        $ chestonov_var = "{noalt}Честонов"
 
-        show golitsyn at truecenter
+        chestonov "{space=200}Да он женат!"
 
-        $ golitsyn_var = "{noalt}Голицын"
+        hide chestonov
 
-        hide golitsyn
+        show volgin at truecenter
 
-        show golitsyn at truecenter
+        $ volgin_var = "{noalt}Волгин"
 
-        hide golitsyn
+        volgin "{space=400}Кто!.. Как!.."
 
-        show golitsyn at truecenter
+        volgin "На ком?.."
 
-        golitsyn "<{i}(Мнишку){/i}>"
+        hide volgin
 
-        show golitsyn at truecenter
+        show chestonov at truecenter
 
-        show golitsyn at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        golitsyn "Вельможный пан, ты видишь, мы хлопочем"
+        chestonov "{space=200}На Оленьке."
 
-        golitsyn "О тишине и вашем успокое."
+        hide chestonov
 
-        hide golitsyn
+        show volgin at truecenter
 
-        show mnishek at truecenter
+        $ volgin_var = "{noalt}Волгин"
 
-        $ mnishek_var = "{noalt}Мнишек"
+        volgin "{space=400}Когда ж они успели?"
 
-        mnishek "{a=myshow|tooltip|text=Благодарим (польск.).}Dziękuję{/a}, пан Голицын; мы за ласку"
+        hide volgin
 
-        mnishek "Заплатим вам."
+        show chestonov at truecenter
 
-        hide mnishek
+        $ chestonov_var = "{noalt}Честонов"
 
-        show vishnevetskij at truecenter
+        chestonov "Сейчас лишь от венца."
 
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
+        hide chestonov
 
-        vishnevetskij "{space=400}Мы вас за то похвалим"
+        show volgin at truecenter
 
-        vishnevetskij "Перед царем, которого из Польши"
+        $ volgin_var = "{noalt}Волгин"
 
-        vishnevetskij "Мы дали вам."
+        volgin "{space=400}Неужто в самом деле?"
 
-        hide vishnevetskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}А из чего ж мы бьемся."
-
-        hide golitsyn
-
-        show golitsyn at left
-        show dmitrij at truecenter
-        show basmanov at right
-
-        hide golitsyn
-
-        show golitsyn at left
-        show dmitrij at truecenter
-        show basmanov at right
-
-        golitsyn "<{i}Дмитрий и Басманов подходят.{/i}>"
-
-        hide dmitrij
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        hide dmitrij
-        hide basmanov
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vishnevetskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vishnevetskij at right
-
-        dmitrij "<{i}(Мнишку и Вишневецкому){/i}>"
-
-        hide vishnevetskij
-
-        show dmitrij at truecenter
-
-        hide vishnevetskij
-
-        show dmitrij at truecenter
-
-        dmitrij "Мой глаз везде, мне тотчас все известно;"
-
-        dmitrij "Без ведома и воли нашей, царской,"
-
-        dmitrij "Ничто в Москве не может совершиться."
-
-        dmitrij "Вам можно спать спокойно. Мы за это"
-
-        dmitrij "Поручимся. Разведайте, бояре,"
-
-        dmitrij "О чем шумит народ, чего он хочет?"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Признаться, я большой беды не вижу"
-
-        vasilij_shujskij "От драки пьяных польских челядинцев"
-
-        vasilij_shujskij "С торговцами московскими. Однако ж"
-
-        vasilij_shujskij "И разыскать виновных не мешает."
-
-        hide vasilij_shujskij
-
-        show vishnevetskij at truecenter
-
-        $ vishnevetskij_var = "{noalt}Вишневецкий"
-
-        vishnevetskij "Вдвоем, втроем дерутся -- будет драка;"
-
-        vishnevetskij "А в тысячах не драка уж, а бунт."
-
-        hide vishnevetskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Пословица такая есть: \"У страха"
-
-        vasilij_shujskij "Глаза велики\", -- пан ясновельможный!"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Народный шум гостей моих пугает;"
-
-        dmitrij "Уверьте их, бояре, что я принял"
-
-        dmitrij "Свою державу крепкою рукой."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Бог дал, у нас народ не то, что в Польше:"
-
-        vasilij_shujskij "Земля царю, а царь народу верит."
-
-        vasilij_shujskij "У вас мятеж и {a=myshow|tooltip|text=Рокош -- крамола, измена, мятеж}рокош{/a} каждый день."
-
-        vasilij_shujskij "А если вам и тут все рокош снится,"
-
-        vasilij_shujskij "Для верности прикажем днем и ночью"
-
-        vasilij_shujskij "По улицам стрельцам ходить дозором..."
-
-        vasilij_shujskij "Не разберешь, кто прав, кто виноват!"
-
-        vasilij_shujskij "Вчера, в ночи, поляки на Никитской"
-
-        vasilij_shujskij "Боярыню насильно из повозки"
-
-        vasilij_shujskij "Уволокли."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Вы слышите, паны!"
-
-        dmitrij "Все разыскать и наказать виновных!"
-
-        dmitrij "Потачки нет ни русским, ни полякам."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        dmitrij "<{i}Бучинский входит.{/i}>"
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        dmitrij "Ты, Ян, зачем?"
-
-        hide dmitrij
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{space=400}От немцев с донесеньем."
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "О чем еще?"
-
-        hide dmitrij
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{space=400}Они уведомляют"
-
-        buchinskij "О мятеже в Москве."
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Вы надоели"
-
-        dmitrij "Мне с мятежом."
-
-        hide dmitrij
-
-        show buchinskij at truecenter
-
-        $ buchinskij_var = "{noalt}Бучинский"
-
-        buchinskij "{space=400}Мятежников прогнали,"
-
-        buchinskij "Разбили в пух. Зачинщик-предводитель"
-
-        buchinskij "Попался в плен и приведен сюда."
-
-        buchinskij "Он поносил тебя позорной бранью."
-
-        hide buchinskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "Диковина! Откуда только смелость"
-
-        vasilij_shujskij "Доносчики берут царя тревожить"
-
-        vasilij_shujskij "В такие дни! У государя гости,"
-
-        vasilij_shujskij "Он целый год царицу ждал в Москву;"
-
-        vasilij_shujskij "Привел Господь, соединил их браком;"
-
-        vasilij_shujskij "На первых днях медовых друг на друга"
-
-        vasilij_shujskij "Глядеть бы им да любоваться только,"
-
-        vasilij_shujskij "А немцы тут с доносами. Басманов,"
-
-        vasilij_shujskij "И ты туда ж! Да разве нет боярства!"
-
-        vasilij_shujskij "Иль думы нет у цесаря! Не хуже"
-
-        vasilij_shujskij "Басманова мы бережем его!"
-
-        vasilij_shujskij "Скажите нам, мы разберем, в чем дело,"
-
-        vasilij_shujskij "Не доводя напрасно до кручины"
-
-        vasilij_shujskij "Державную чету."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Скажите немцам,"
-
-        dmitrij "Что верности их верю и доволен"
-
-        dmitrij "Их службою, за преданность хвалю;"
-
-        dmitrij "Но если преданность еще покажут"
-
-        dmitrij "Такую же, велю их батогами."
-
-        dmitrij "Пойдем, паны, и снова отдадимся"
-
-        dmitrij "Веселию -- тяжелые заботы"
-
-        dmitrij "Правления на верных слуг возложим."
-
-        dmitrij "Бояре, вы сейчас же допросите"
-
-        dmitrij "Изменника и разберите дело!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
-
-        dmitrij "<{i}Шуйский и Голицын уходят.{/i}>"
-
-        hide vasilij_shujskij
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        hide vasilij_shujskij
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        hide basmanov
-
-        show basmanov at left
-        show dmitrij at right
-
-        hide basmanov
-
-        show basmanov at left
-        show dmitrij at right
-
-        basmanov "<{i}(Дмитрию){/i}>"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        basmanov "Темна вода во облацех небесных!"
-
-        basmanov "Не Шуйский ли затейщик этой смуты?"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Подозревать бояр своих ближайших"
-
-        dmitrij "И каждый час беречься их измены --"
-
-        dmitrij "Так жить нельзя. Ты выведи мне ясно"
-
-        dmitrij "Изменников, я их не пожалею,"
-
-        dmitrij "Не только Шуйских, половину думы"
-
-        dmitrij "Казнить велю сейчас; а без улики"
-
-        dmitrij "Они -- друзья мои, и я им верю..."
-
-        dmitrij "Басманов! нам с тобой бояре нужны."
-
-        dmitrij "Правители плохие мы: не знаем"
-
-        dmitrij "Цены казне, цены своим речам --"
-
-        dmitrij "Мы воины. Сноровка вековая."
-
-        dmitrij "Боярская, за нас управит землю,"
-
-        dmitrij "Поддержит честь ее в делах посольских;"
-
-        dmitrij "А мы с тобой все лето воевать,"
-
-        dmitrij "А зиму всю гулять да пировать."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Жмет ему руку.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        hide marina
-
-        show marina at left
-        show dmitrij at right
-
-        hide marina
-
-        show marina at left
-        show dmitrij at right
-
-        marina "<{i}(Дмитрию){/i}>"
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        marina "Какой-то бунт, я слышала, бояре"
-
-        marina "Затеяли. О чем они бунтуют,"
-
-        marina "Вели спросить да запереть их крепче,"
-
-        marina "И танцевать начнем с тобою снова."
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Иду, иду! Живее нам мазурку!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at truecenter
-        show golitsyn at right
-
-        dmitrij "<{i}Музыка. Танцы и песни. Шуйский и Голицын входят.{/i}>"
-
-        hide vasilij_shujskij
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        hide vasilij_shujskij
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        vasilij_shujskij "<{i}(Дмитрию){/i}>"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Великий царь, мятежника я видел"
-
-        vasilij_shujskij "И опросил. И смех и горе с ним:"
-
-        vasilij_shujskij "Дурак и пьян!"
-
-        hide vasilij_shujskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Мотает головою"
-
-        golitsyn "И языком лепечет, как спросонков;"
-
-        golitsyn "Не разберешь. Глядеть и слушать дивно."
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "И трезвый он умней того не будет,"
-
-        vasilij_shujskij "Каков теперь. Вели его покликать,"
-
-        vasilij_shujskij "Изволь взглянуть! Увидишь, что не стоит"
-
-        vasilij_shujskij "И гнева он."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Позвать его сюда!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show buchinskij at right
-
-        dmitrij "<{i}Бучинский уходит.{/i}>"
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        hide buchinskij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show marina at truecenter
-
-        $ marina_var = "{noalt}Марина"
-
-        marina "Зови гостей ко мне, в мои покои,"
-
-        marina "Я приказала маски приготовить."
-
-        play sound1 male_laughter
-
-        hide marina
-
-        show marina at left
-        show ivan at right
-
-        play sound1 male_laughter
-
-        hide marina
-
-        show marina at left
-        show ivan at right
-
-        marina "<{i}Стража вводит дурака Ивана; он хохочет, мотает головой и показывает на всех пальцами.{/i}>"
-
-        hide ivan
-
-        show marina at truecenter
-
-        stop sound1
-
-        hide ivan
-
-        show marina at truecenter
-
-        stop sound1
-
-        marina "Прогнать его!"
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=200}Освободить!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}Дурака выводят.{/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}А немцам,"
-
-        dmitrij "За глупость их, построже пригрозить!"
-
-        dmitrij "Так вот чего, паны, вы испугались!.."
-
-        dmitrij "Пойдемте все в царицыны покои;"
-
-        dmitrij "Она своих гостей потешить хочет"
-
-        dmitrij "Невиданной еще в Москве утехой."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marina at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show marina at right
-
-        dmitrij "<{i}(Марине.){/i}>"
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        hide marina
-
-        show dmitrij at truecenter
-
-        dmitrij "Краса моя, я счастлив бесконечно!"
-
-        dmitrij "Моя любовь достигла торжества."
-
-        dmitrij "Она меня звездою путеводной"
-
-        dmitrij "К величию и трону привела;"
-
-        dmitrij "Безумную, кипучую отвагу"
-
-        dmitrij "Вливала в грудь. И стала мне знакома"
-
-        dmitrij "Безмерная та сила Александра"
-
-        dmitrij "И Цезаря, которая героям"
-
-        dmitrij "Владычество над миром даровала!"
-
-        dmitrij "Ты, гордая красавица, просила"
-
-        dmitrij "У бедного, бездомного скитальца"
-
-        dmitrij "Венца себе. Тебя короновал я"
-
-        dmitrij "И посадил царицей стран полночных."
-
-        dmitrij "Я сам сковал себе свое блаженство,"
-
-        dmitrij "И тем оно дороже для меня!"
-
-        dmitrij "Героем я рожден! Великой доле"
-
-        dmitrij "И доблести завидовать лишь можно,"
-
-        dmitrij "Отнять нельзя -- отнимет только смерть!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        dmitrij "<{i}Все уходят за царицей, кроме Дмитрия и Басманова.{/i}>"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show basmanov at right
-
-        dmitrij "<{i}(Басманову){/i}>"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        dmitrij "Голицына и Шуйского без шуму,"
-
-        dmitrij "Когда пиры мы кончим, посадить"
-
-        dmitrij "За приставы, всю их родню, знакомых"
-
-        dmitrij "И близких им! Не подавай и виду:"
-
-        dmitrij "Пусть думают, что мы не бережемся."
-
-        dmitrij "У них в глазах недоброе!"
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "{space=400}Исполню!"
-
-        hide basmanov
+        hide volgin
 
     label Act_3_Scene_11:
-        "{b}СЦЕНА ШЕСТАЯ{/b}"
+        "{b}ЯВЛЕНИЕ 11{/b}"
 
-        label Characters_13:
-            play music "audio/music/9.mp3" fadeout 1.0 fadein 1.0
+        show velskij at left
+        show lileev at truecenter
+        show olenka at right
 
-            scene 10 with fade
+        show velskij at left
+        show lileev at truecenter
+        show olenka at right
 
-            "{b}(СЦЕНА ШЕСТАЯ) ЛИЦА:{/b}"
+        "<{i}Те же и Вельский, а вскоре Лилеев и Оленька выходят из левых дверей.{/i}>"
 
-            show dmitrij at truecenter
-            "Дмитрий."
-            hide dmitrij
+        hide velskij
+        hide lileev
+        hide olenka
 
-            show basmanov at truecenter
-            "Басманов."
-            hide basmanov
+        hide velskij
+        hide lileev
+        hide olenka
 
-            show vasilij_shujskij at truecenter
-            "Шуйские, Василий и Дмитрий."
-            hide vasilij_shujskij
+        show velskij at truecenter
 
-            show golitsyn at truecenter
-            "Голицын."
-            hide golitsyn
+        $ velskij_var = "{noalt}Вельский"
 
-            show kurakin at truecenter
-            "Куракин."
-            hide kurakin
+        velskij "Ах, дядюшка! Вы здесь!"
 
-            show tatischev at truecenter
-            "Татищев."
-            hide tatischev
+        hide velskij
 
-            show molchanov at truecenter
-            "Молчанов."
-            hide molchanov
+        show volgin at truecenter
 
-            show valuev at truecenter
-            "Валуев и Воейков, дворяне."
-            hide valuev
+        $ volgin_var = "{noalt}Волгин"
 
-            show kalachnik at truecenter
-            "Калачник."
-            hide kalachnik
+        volgin "{space=400}Поди сюда, пострел!"
 
-            show sotnik_streletskij at truecenter
-            "Сотник стрелецкий."
-            hide sotnik_streletskij
+        volgin "Так ты меня позвать на свадьбу не хотел?"
 
-            show strelets at truecenter
-            "Стрельцы; немецкая стража; народ."
-            hide strelets
+        volgin "Он женится, а я себе и в ус не дую."
 
-        "<{i}Передняя зала с выходом на галерею в новом дворце.{/i}>"
+        hide volgin
 
-        "<{i}(17 мая 1606 года){/i}>"
+        show chestonov at truecenter
 
-        show basmanov at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        show basmanov at truecenter
+        chestonov "Где Оленька?"
 
-        "<{i}Выходит Басманов.{/i}>"
+        hide chestonov
 
-        hide basmanov
+        show chestonov at left
+        show lileev at truecenter
+        show olenka at right
 
-        hide basmanov
+        hide chestonov
 
-        show basmanov at truecenter
+        show chestonov at left
+        show lileev at truecenter
+        show olenka at right
 
-        $ basmanov_var = "{noalt}Басманов"
+        chestonov "<{i}Лилеев и Оленька входят.{/i}>"
 
-        basmanov "А солнце уж высоко поднялось!"
+        hide lileev
+        hide olenka
 
-        basmanov "Со свадьбой мы все время перебили,"
+        show chestonov at truecenter
 
-        basmanov "Смотали с ног дворцовую прислугу;"
+        hide lileev
+        hide olenka
 
-        basmanov "Коморники встают позднее нас --"
+        show chestonov at truecenter
 
-        basmanov "Ни одного в покоях."
+        hide chestonov
 
-        hide basmanov
+        show velskij at truecenter
 
-        show basmanov at truecenter
+        $ velskij_var = "{noalt}Вельский"
 
-        hide basmanov
+        velskij "{space=200}А вот она."
 
-        show basmanov at truecenter
+        hide velskij
 
-        basmanov "<{i}Набат.{/i}>"
+        show velskij at left
+        show volgin at right
 
-        show basmanov at truecenter
+        hide velskij
 
-        show basmanov at truecenter
+        show velskij at left
+        show volgin at right
 
-        basmanov "{space=400}Ударяют!"
+        velskij "<{i}(Подводит ее к Волгину){/i}>"
 
-        basmanov "Что рано так? Аль праздник где? Сегодня"
+        hide volgin
 
-        basmanov "Андроника, Стефана... Где-то близко..."
+        show velskij at truecenter
 
-        basmanov "Никак, набат? И то набат! Вот горе!"
+        hide volgin
 
-        basmanov "Пожар теперь -- беда! Перепугает"
+        show velskij at truecenter
 
-        basmanov "Гостей у нас! Москва гореть горазда:"
+        velskij "{space=400}Рекомендую!"
 
-        basmanov "Как примется -- и не уймешь, покуда"
+        hide velskij
 
-        basmanov "Не выгорит поболе половины."
+        show chestonov at truecenter
 
-        hide basmanov
+        $ chestonov_var = "{noalt}Честонов"
 
-        show basmanov at truecenter
+        chestonov "Его жена, мой друг."
 
-        hide basmanov
+        hide chestonov
 
-        show basmanov at truecenter
+        show volgin at truecenter
 
-        basmanov "<{i}Повсеместный набат.{/i}>"
+        $ volgin_var = "{noalt}Волгин"
 
-        show basmanov at truecenter
+        volgin "{space=400}Я очень, очень рад!"
 
-        show basmanov at truecenter
+        volgin "Прошу любить меня!.."
 
-        basmanov "По всем церквам. Ужасен звон набата,"
+        hide volgin
 
-        basmanov "Отрывистый и частый! За ударом"
+        show volgin at left
+        show velskij at right
 
-        basmanov "Гудит удар и обливает сердце"
+        hide volgin
 
-        basmanov "Томительной тоской перед бедою"
+        show volgin at left
+        show velskij at right
 
-        basmanov "Неведомой!"
+        volgin "<{i}(Вельскому){/i}>"
 
-        hide basmanov
+        hide velskij
 
-        show basmanov at left
-        show dmitrij at right
+        show volgin at truecenter
 
-        hide basmanov
+        hide velskij
 
-        show basmanov at left
-        show dmitrij at right
+        show volgin at truecenter
 
-        basmanov "<{i}Дмитрий входит.{/i}>"
+        volgin "{space=400}Да точно ль ты женат?"
 
-        hide dmitrij
+        volgin "Смотри!"
 
-        show basmanov at truecenter
+        hide volgin
 
-        hide dmitrij
+        show chestonov at truecenter
 
-        show basmanov at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        hide basmanov
+        chestonov "{space=400}О! В этом нет сомненья никакого."
 
-        show dmitrij at truecenter
+        hide chestonov
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        show pososhkov at truecenter
 
-        dmitrij "{space=400}Басманов, что такое?"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide dmitrij
+        pososhkov "Что это значит всё?"
 
-        show basmanov at truecenter
+        hide pososhkov
 
-        $ basmanov_var = "{noalt}Басманов"
+        show pososhkov at left
+        show lyubskij at right
 
-        basmanov "Должно, пожар."
+        hide pososhkov
 
-        hide basmanov
+        show pososhkov at left
+        show lyubskij at right
 
-        show dmitrij at truecenter
+        pososhkov "<{i}(Любскому){/i}>"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide lyubskij
 
-        dmitrij "{space=400}Поди узнай скорее."
+        show pososhkov at truecenter
 
-        hide dmitrij
+        hide lyubskij
 
-        show dmitrij at left
-        show basmanov at right
+        show pososhkov at truecenter
 
-        hide dmitrij
+        pososhkov "{space=200}Вы поняли?"
 
-        show dmitrij at left
-        show basmanov at right
+        hide pososhkov
 
-        dmitrij "<{i}Басманов уходит на галерею.{/i}>"
+        show lyubskij at truecenter
 
-        hide basmanov
+        $ lyubskij_var = "{noalt}Любский"
 
-        show dmitrij at truecenter
+        lyubskij "{space=400}Ни слова!"
 
-        hide basmanov
+        hide lyubskij
 
-        show dmitrij at truecenter
+        show chestonov at truecenter
 
-        hide dmitrij
+        $ chestonov_var = "{noalt}Честонов"
 
-        show basmanov at truecenter
+        hide chestonov
 
-        $ basmanov_var = "{noalt}Басманов"
+        show chestonov at left
+        show volgin at truecenter
+        show lyubskij at right
 
-        hide basmanov
+        hide chestonov
 
-        show basmanov at truecenter
+        show chestonov at left
+        show volgin at truecenter
+        show lyubskij at right
 
-        hide basmanov
+        chestonov "<{i}(Волгину, подводя его к Любскому){/i}>"
 
-        show basmanov at truecenter
+        hide volgin
+        hide lyubskij
 
-        basmanov "<{i}(с галереи){/i}>"
+        show chestonov at truecenter
 
-        show basmanov at truecenter
+        hide volgin
+        hide lyubskij
 
-        show basmanov at truecenter
+        show chestonov at truecenter
 
-        basmanov "Бояре! Эй! Бояре!.. За набатом"
+        chestonov "А вот мой брат."
 
-        basmanov "Речей не слышно... Ась!.. Зачем в набат"
+        hide chestonov
 
-        basmanov "Ударили?"
+        show volgin at truecenter
 
-        hide basmanov
+        $ volgin_var = "{noalt}Волгин"
 
-        show golos_2_6 at truecenter
+        hide volgin
 
-        $ golos_2_6_var = "{noalt}Голос"
+        show volgin at left
+        show lyubskij at right
 
-        hide golos_2_6
+        hide volgin
 
-        show golos_2_6 at truecenter
+        show volgin at left
+        show lyubskij at right
 
-        hide golos_2_6
+        volgin "<{i}(Любскому){/i}>"
 
-        show golos_2_6 at truecenter
+        hide lyubskij
 
-        golos_2_6 "<{i}(за сценой){/i}>"
+        show volgin at truecenter
 
-        show golos_2_6 at truecenter
+        hide lyubskij
 
-        show golos_2_6 at truecenter
+        show volgin at truecenter
 
-        golos_2_6 "{space=400}Горит неподалеку."
+        volgin "{space=400}С тобой мы с лишком сорок лет"
 
-        hide golos_2_6
+        volgin "Не виделись..."
 
-        show basmanov at truecenter
+        hide volgin
 
-        $ basmanov_var = "{noalt}Басманов"
+        show lyubskij at truecenter
 
-        basmanov "Кричат: горит! а дыму не видать."
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide basmanov
+        lyubskij "{space=200}Так вы?.."
 
-        show basmanov at left
-        show dmitrij at right
+        hide lyubskij
 
-        hide basmanov
+        show volgin at truecenter
 
-        show basmanov at left
-        show dmitrij at right
+        $ volgin_var = "{noalt}Волгин"
 
-        basmanov "<{i}(Дмитрию.){/i}>"
+        volgin "{space=400}Гусарский тот корнет,"
 
-        hide dmitrij
+        volgin "Проказник, балагур, твой старый сослуживец,"
 
-        show basmanov at truecenter
+        volgin "Ну - Волгин!"
 
-        hide dmitrij
+        hide volgin
 
-        show basmanov at truecenter
+        show lyubskij at truecenter
 
-        basmanov "Никак, в Кремле! Чу! слышишь, зашумели,"
+        $ lyubskij_var = "{noalt}Любский"
 
-        basmanov "Валят толпы народные."
+        lyubskij "{space=200}Как?"
 
-        hide basmanov
+        hide lyubskij
 
-        show dmitrij at truecenter
+        show volgin at truecenter
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        $ volgin_var = "{noalt}Волгин"
 
-        hide dmitrij
+        hide volgin
 
-        show dmitrij at truecenter
+        show volgin at truecenter
 
-        hide dmitrij
+        hide volgin
 
-        show dmitrij at truecenter
+        show volgin at truecenter
 
-        dmitrij "<{i}(у окна){/i}>"
+        volgin "<{i}(обнимая его){/i}>"
 
-        show dmitrij at truecenter
+        show volgin at truecenter
 
-        show dmitrij at truecenter
+        show volgin at truecenter
 
-        dmitrij "{space=400}Разведай,"
+        volgin "{space=400}Да, да! - Ты был всегда счастливец"
 
-        dmitrij "Куда бегут они, зачем, откуда?"
+        volgin "И в картах и в любви, теперь, чай, не таков?"
 
-        hide dmitrij
+        hide volgin
 
-        show dmitrij at left
-        show basmanov at right
+        show chestonov at truecenter
 
-        hide dmitrij
+        $ chestonov_var = "{noalt}Честонов"
 
-        show dmitrij at left
-        show basmanov at right
+        hide chestonov
 
-        dmitrij "<{i}Басманов уходит.{/i}>"
+        show chestonov at truecenter
 
-        hide basmanov
+        hide chestonov
 
-        show dmitrij at truecenter
+        show chestonov at truecenter
 
-        hide basmanov
+        chestonov "<{i}(подводя Посошкова){/i}>"
 
-        show dmitrij at truecenter
+        show chestonov at truecenter
 
-        dmitrij "Не шум, а вопль несется. Нет, со страха"
+        show chestonov at truecenter
 
-        dmitrij "Не так шумят. Оружие! Угрозы!"
+        chestonov "Приятель наш, Авдей Михайлыч Посошков."
 
-        dmitrij "Ужель мятеж? Ужель Басманов прав?"
+        hide chestonov
 
-        dmitrij "Ужели смерть и страшный суд так близко!"
+        show volgin at truecenter
 
-        dmitrij "Застыла кровь, и каждый волос дыбом"
+        $ volgin_var = "{noalt}Волгин"
 
-        dmitrij "Становится. Не страх ли то? О нет,"
+        volgin "Неужели?"
 
-        dmitrij "Не робок я; зачем же, против воли,"
+        hide volgin
 
-        dmitrij "Прошедшее толпой теснится в грудь?"
+        show chestonov at truecenter
 
-        dmitrij "И юности моей бродячей годы"
+        $ chestonov_var = "{noalt}Честонов"
 
-        dmitrij "Встают теперь в моем воспоминанье,"
+        chestonov "{space=400}Вы с ним немного посчитались..."
 
-        dmitrij "Самборский пир и киевская келья,"
+        hide chestonov
 
-        dmitrij "Московский Кремль, народа ликованье,"
+        show volgin at truecenter
 
-        dmitrij "И битвы шум, и звон колоколов,"
+        $ volgin_var = "{noalt}Волгин"
 
-        dmitrij "Венчание и, наконец, победа"
+        volgin "Так вы, сударь, не шут?"
 
-        dmitrij "Над гордостью красавицы любимой!"
+        hide volgin
 
-        hide dmitrij
+        show pososhkov at truecenter
 
-        show dmitrij at left
-        show basmanov at right
+        $ pososhkov_var = "{noalt}Посошков"
 
-        hide dmitrij
+        pososhkov "{space=400}Мы оба ошибались,"
 
-        show dmitrij at left
-        show basmanov at right
+        pososhkov "И я вас принимал совсем не за того."
 
-        dmitrij "<{i}Входит Басманов, десятка три немцев с алебардами. Звон оружия и крики.{/i}>"
+        hide pososhkov
 
-        hide basmanov
+        show volgin at truecenter
 
-        show dmitrij at truecenter
+        $ volgin_var = "{noalt}Волгин"
 
-        hide basmanov
+        volgin "Мне, право, совестно..."
 
-        show dmitrij at truecenter
+        hide volgin
 
-        hide dmitrij
+        show pososhkov at truecenter
 
-        show basmanov at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        $ basmanov_var = "{noalt}Басманов"
+        pososhkov "{space=400}И, сударь, - ничего!"
 
-        basmanov "Ахти, беда! Спасайся, государь!"
+        hide pososhkov
 
-        basmanov "Я говорил не раз: ты мне не верил."
+        show lyubskij at truecenter
 
-        hide basmanov
+        $ lyubskij_var = "{noalt}Любский"
 
-        show dmitrij at truecenter
+        lyubskij "А что - который час?"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide lyubskij
 
-        dmitrij "Изменники, бояре, вы согнали"
+        show izvedov at truecenter
 
-        dmitrij "Во львиное гнездо овечье стадо!"
+        $ izvedov_var = "{noalt}Изведов"
 
-        dmitrij "Крамольники! Своими головами"
+        izvedov "{space=400}Без малого уж восемь."
 
-        dmitrij "Заплатите за кровь невинной черни."
+        hide izvedov
 
-        dmitrij "Я с виселиц высоких вас заставлю"
+        show lyubskij at truecenter
 
-        dmitrij "Пересчитать все жертвы мятежа!"
+        $ lyubskij_var = "{noalt}Любский"
 
-        hide dmitrij
+        lyubskij "Пора бы начинать."
 
-        show basmanov at truecenter
+        hide lyubskij
 
-        $ basmanov_var = "{noalt}Басманов"
+        show pososhkov at truecenter
 
-        basmanov "Беги скорей! Внизу дерутся немцы,"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        basmanov "А этих здесь поставим у дверей."
+        pososhkov "{space=200}Сейчас!"
 
-        hide basmanov
+        hide pososhkov
 
-        show basmanov at left
-        show molchanov at right
+        show pososhkov at truecenter
 
-        hide basmanov
+        hide pososhkov
 
-        show basmanov at left
-        show molchanov at right
+        show pososhkov at truecenter
 
-        basmanov "<{i}Вбегает Молчанов.{/i}>"
+        pososhkov "<{i}(К другим актерам){/i}>"
 
-        hide molchanov
+        show pososhkov at truecenter
 
-        show basmanov at truecenter
+        show pososhkov at truecenter
 
-        hide molchanov
+        pososhkov "{space=400}Покорно просим!"
 
-        show basmanov at truecenter
+        hide pososhkov
 
-        hide basmanov
+        show chestonov at truecenter
 
-        show molchanov at truecenter
+        $ chestonov_var = "{noalt}Честонов"
 
-        $ molchanov_var = "{noalt}Молчанов"
+        hide chestonov
 
-        molchanov "Мятеж! Мятеж! Я кое-как пробился..."
+        show chestonov at left
+        show volgin at right
 
-        molchanov "Москва идет на нас, купцы, бояре."
+        hide chestonov
 
-        hide molchanov
+        show chestonov at left
+        show volgin at right
 
-        show dmitrij at truecenter
+        chestonov "<{i}(Волгину){/i}>"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide volgin
 
-        dmitrij "Собрать скорей всех немцев и поляков"
+        show chestonov at truecenter
 
-        dmitrij "И верных нам стрельцов. Микулин где?"
+        hide volgin
 
-        hide dmitrij
+        show chestonov at truecenter
 
-        show molchanov at truecenter
+        chestonov "Пойдем-ка, милый мой! Посмотрим молодых."
 
-        $ molchanov_var = "{noalt}Молчанов"
+        hide chestonov
 
-        molchanov "Пройти нельзя: все заняты ворота."
+        show volgin at truecenter
 
-        hide molchanov
+        $ volgin_var = "{noalt}Волгин"
 
-        show dmitrij at truecenter
+        volgin "Вот так-то бы всегда, без вычуров пустых,"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        volgin "Женились, да и всё! - А то, глядишь, бедняжки"
 
-        dmitrij "Кто занял их? Басманов, не робей!"
+        volgin "Прождали б целый год. Отсрочки да оттяжки! -"
 
-        hide dmitrij
+        volgin "А всё ведь я, мой друг, их свадьбой повернул!"
 
-        show molchanov at truecenter
+        hide volgin
 
-        $ molchanov_var = "{noalt}Молчанов"
+        show chestonov at truecenter
 
-        molchanov "Мятежников, стрельцов новогородских,"
+        $ chestonov_var = "{noalt}Честонов"
 
-        molchanov "Впустили в город ночью. Много их."
+        chestonov "Конечно, ты!.. - Пойдем!"
 
-        hide molchanov
+        hide chestonov
 
-        show dmitrij at truecenter
+        show chestonov at truecenter
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide chestonov
 
-        dmitrij "Проклятые! Басманов, будем тверды!"
+        show chestonov at truecenter
 
-        hide dmitrij
+        chestonov "<{i}(Уходят.){/i}>"
 
-        show molchanov at truecenter
+        show chestonov at truecenter
 
-        $ molchanov_var = "{noalt}Молчанов"
+        show chestonov at truecenter
 
-        molchanov "И видимо-невидимо народу"
+        hide chestonov
 
-        molchanov "Московского сошлось со всех сторон."
+        show lyubskij at truecenter
 
-        hide molchanov
+        $ lyubskij_var = "{noalt}Любский"
 
-        show dmitrij at truecenter
+        lyubskij "{space=400}Насилу отдохнул."
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        lyubskij "Ступайте же!"
 
-        dmitrij "А предводитель кто?"
+        hide lyubskij
 
-        hide dmitrij
+        show lyubskij at truecenter
 
-        show molchanov at truecenter
+        hide lyubskij
 
-        $ molchanov_var = "{noalt}Молчанов"
+        show lyubskij at truecenter
 
-        molchanov "{space=400}Василий Шуйский,"
+        lyubskij "<{i}(Уходит на сцену.){/i}>"
 
-        molchanov "С крестом в одной руке, с мечом в другой."
+        show lyubskij at truecenter
 
-        hide molchanov
+        show lyubskij at truecenter
 
-        show dmitrij at truecenter
+        hide lyubskij
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        show pososhkov at truecenter
 
-        dmitrij "Коварным плут святыней прикрывает"
+        $ pososhkov_var = "{noalt}Посошков"
 
-        dmitrij "Свой замысел, достой ими сатаны."
+        hide pososhkov
 
-        dmitrij "Подайте меч!"
+        show pososhkov at left
+        show lileev at right
 
-        hide dmitrij
+        hide pososhkov
 
-        show dmitrij at truecenter
+        show pososhkov at left
+        show lileev at right
 
-        hide dmitrij
+        pososhkov "<{i}(Лилееву){/i}>"
 
-        show dmitrij at truecenter
+        hide lileev
 
-        dmitrij "<{i}(Берет меч.){/i}>"
+        show pososhkov at truecenter
 
-        show dmitrij at truecenter
+        hide lileev
 
-        show dmitrij at truecenter
+        show pososhkov at truecenter
 
-        hide dmitrij
+        pososhkov "{space=400}Я вас прошу: не молодитесь!"
 
-        show basmanov at truecenter
+        pososhkov "Играйте старика!"
 
-        $ basmanov_var = "{noalt}Басманов"
+        hide pososhkov
 
-        basmanov "{space=400}Мятеж во всем разгаре:"
+        show lileev at truecenter
 
-        basmanov "Там ад кипит! Куда ты, государь?"
+        $ lileev_var = "{noalt}Лилеев"
 
-        basmanov "Остановись!"
+        lileev "{space=400}Тьфу пропасть! - Отвяжитесь!"
 
-        hide basmanov
+        lileev "Я знаю лучше вас, как должно мне играть."
 
-        show dmitrij at truecenter
+        hide lileev
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        show lileev at truecenter
 
-        dmitrij "{space=400}Пусти меня, Басманов!"
+        hide lileev
 
-        dmitrij "Я умереть хочу с мечом в руках."
+        show lileev at truecenter
 
-        hide dmitrij
+        lileev "<{i}(Уходит.){/i}>"
 
-        show dmitrij at truecenter
+        show lileev at truecenter
 
-        hide dmitrij
+        show lileev at truecenter
 
-        show dmitrij at truecenter
+        hide lileev
 
-        dmitrij "<{i}(Выбегает на галерею.){/i}>"
+        show pososhkov at truecenter
 
-        show dmitrij at truecenter
+        $ pososhkov_var = "{noalt}Посошков"
 
-        show dmitrij at truecenter
+        pososhkov "Ну, вот увидите! Он точно будет врать!"
 
-        dmitrij "Зачем вы здесь? Крамольники, злодеи,"
+        hide pososhkov
 
-        dmitrij "Изменники! Я вам не Годунов!"
+        show natasha at left
+        show izvedov at right
 
-        dmitrij "Поклонами холопскими, слезами"
+        show natasha at left
+        show izvedov at right
 
-        dmitrij "Укланяли его да умолили"
+        "<{i}Все уходят на сцену, кроме Наташи и Изведова.{/i}>"
 
-        dmitrij "На царство сесть, и сами же спихнули!"
+        hide natasha
+        hide izvedov
 
-        dmitrij "Не вы меня на царство посадили,"
+        hide natasha
+        hide izvedov
 
-        dmitrij "Я с бою взял его и вас, холопов."
+    label Act_3_Scene_12:
+        "{b}ЯВЛЕНИЕ 12{/b}"
 
-        hide dmitrij
+        show izvedov at left
+        show natasha at right
 
-        show golosa_tolpa_2_6 at truecenter
+        show izvedov at left
+        show natasha at right
 
-        $ golosa_tolpa_2_6_var = "{noalt}Голоса"
+        "<{i}Изведов и Наташа.{/i}>"
 
-        golosa_tolpa_2_6 "Руби его! -- Стреляй! -- Да бейте немцев."
+        hide izvedov
+        hide natasha
 
-        hide golosa_tolpa_2_6
+        hide izvedov
+        hide natasha
 
-        show golosa_tolpa_2_6 at truecenter
+        show izvedov at truecenter
 
-        hide golosa_tolpa_2_6
+        $ izvedov_var = "{noalt}Изведов"
 
-        show golosa_tolpa_2_6 at truecenter
+        izvedov "Я счастья своего никак не постигаю:"
 
-        golosa_tolpa_2_6 "<{i}Выстрелы.{/i}>"
+        izvedov "Афишку сочинял, женюсь - и сам играю!"
 
-        show golosa_tolpa_2_6 at truecenter
+        hide izvedov
 
-        show golosa_tolpa_2_6 at truecenter
+        show natasha at truecenter
 
-        golosa_tolpa_2_6 "Что их жалеть! -- Чего они мешают!"
+        $ natasha_var = "{noalt}Наташа"
 
-        hide golosa_tolpa_2_6
+        natasha "Всё это хорошо; однако же пойдем!"
 
-        show golosa_tolpa_2_6 at left
-        show dmitrij at truecenter
-        show osipov at right
+        hide natasha
 
-        hide golosa_tolpa_2_6
+        show izvedov at truecenter
 
-        show golosa_tolpa_2_6 at left
-        show dmitrij at truecenter
-        show osipov at right
+        $ izvedov_var = "{noalt}Изведов"
 
-        golosa_tolpa_2_6 "<{i}Дмитрий входит в комнату. Врывается Осипов.{/i}>"
+        izvedov "Теперь сомненья нет, театр мы заведем"
 
-        hide dmitrij
-        hide osipov
+        izvedov "И, верно, с честию поддержим наше званье!"
 
-        show golosa_tolpa_2_6 at truecenter
+        hide izvedov
 
-        hide dmitrij
-        hide osipov
+        show natasha at truecenter
 
-        show golosa_tolpa_2_6 at truecenter
+        $ natasha_var = "{noalt}Наташа"
 
-        hide golosa_tolpa_2_6
+        natasha "Ну, что ж! Пойдем!"
 
-        show osipov at truecenter
+        hide natasha
 
-        $ osipov_var = "{noalt}Осипов"
+        show izvedov at truecenter
 
-        osipov "Проспался ль ты, безвременный царек?"
+        $ izvedov_var = "{noalt}Изведов"
 
-        osipov "Поди сюда! Покайся пред народом!"
+        izvedov "{space=400}Постой! - Еще одно желанье:"
 
-        hide osipov
+        izvedov "Без этого, мой друг, всё прочее хоть брось,"
 
-        show basmanov at left
-        show vasilij_shujskij at truecenter
-        show ves_narod_1_2 at right
+        izvedov "А признаюсь, когда б и это удалось -"
 
-        hide osipov
+        izvedov "Афишку бы тогда я в рамочки повесил..."
 
-        show basmanov at left
-        show vasilij_shujskij at truecenter
-        show ves_narod_1_2 at right
+        hide izvedov
 
-        osipov "<{i}Басманов бросается на него и убивает. На галерее показываются Василий Шуйский и народ.{/i}>"
+        show natasha at truecenter
 
-        hide basmanov
-        hide vasilij_shujskij
-        hide ves_narod_1_2
+        $ natasha_var = "{noalt}Наташа"
 
-        show osipov at truecenter
+        natasha "Что ж надобно?"
 
-        hide basmanov
-        hide vasilij_shujskij
-        hide ves_narod_1_2
+        hide natasha
 
-        show osipov at truecenter
+        show izvedov at truecenter
 
-        hide osipov
+        $ izvedov_var = "{noalt}Изведов"
 
-        show dmitrij at truecenter
+        izvedov "{space=400}Чтоб нам похлопали из кресел!"
 
-        $ dmitrij_var = "{noalt}Дмитрий"
+        hide izvedov
 
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(бросается с мечом){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Тебя-то мне и нужно!"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Я не прячусь,"
-
-        vasilij_shujskij "Я сам тебя ищу."
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Вам нужен Грозный!"
-
-        dmitrij "Так знай же ты, что я сумею быть"
-
-        dmitrij "Грозней его."
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Про то мы сами знаем,"
-
-        vasilij_shujskij "Кто нужен нам, да только лишь не вор."
-
-        hide vasilij_shujskij
-
-        show ves_narod_1_2 at left
-        show basmanov at truecenter
-        show nemtsy at right
-
-        hide vasilij_shujskij
-
-        show ves_narod_1_2 at left
-        show basmanov at truecenter
-        show nemtsy at right
-
-        vasilij_shujskij "<{i}Дмитрий бросается на Шуйского; народ загораживает его. Басманов насильно уводит Дмитрия; немцы загораживают собою дверь, запирают ее и заваливают мебелью.{/i}>"
-
-        hide dmitrij
-        hide ves_narod_1_2
-        hide basmanov
-        hide nemtsy
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-        hide ves_narod_1_2
-        hide basmanov
-        hide nemtsy
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(с отчаянием){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Не вор! Не вор! О! {a=myshow|tooltip|text=черт возьми! (польск.)}wszyscy djabli!{/a} Знали"
-
-        dmitrij "И прежде вы... Зачем же я на троне!"
-
-        dmitrij "Зачем меня вы прежде не убили."
-
-        dmitrij "Пока я был ничтожен, как и вы!"
-
-        dmitrij "Зачем меня на царство допустили"
-
-        dmitrij "И дали мне изведать сладость власти,"
-
-        dmitrij "Начать дела геройские и славу"
-
-        dmitrij "Побед своих заране предвкушать!"
-
-        dmitrij "И накануне подвигов всемирных"
-
-        dmitrij "Пришли в глаза мне бросить слово- \"Вор!\""
-
-        dmitrij "Вы дали мне забыться на престоле."
-
-        dmitrij "Вы опьянили раболепством вашим,"
-
-        dmitrij "Ласкательством и лестью и земными"
-
-        dmitrij "Поклонами! Вы дали львиной силе"
-
-        dmitrij "Уснуть у ног небесной красоты!"
-
-        hide dmitrij
-
-        show golosa_tolpa_2_6 at truecenter
-
-        $ golosa_tolpa_2_6_var = "{noalt}Голоса"
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at truecenter
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at truecenter
-
-        golosa_tolpa_2_6 "<{i}(за дверями){/i}>"
-
-        show golosa_tolpa_2_6 at truecenter
-
-        show golosa_tolpa_2_6 at truecenter
-
-        golosa_tolpa_2_6 "Ломайте дверь! -- Рубите топорами!"
-
-        hide golosa_tolpa_2_6
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Беги! Беги!"
-
-        hide basmanov
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Марина! Ах, Марина!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(Убегает.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show kurakin at left
-        show tatischev at truecenter
-        show kalachnik at right
-
-        hide dmitrij
-
-        show kurakin at left
-        show tatischev at truecenter
-        show kalachnik at right
-
-        dmitrij "<{i}Разламывают двери. Немцы отбиваются. За дверями видны бояре: Василий и Дмитрий Шуйские, Голицын, Куракин, Татищев и другие, все в кольчугах. Калачник предводительствует толпой.{/i}>"
-
-        hide nemtsy
-        hide dmitrij_shujskij
-        hide golitsyn
-        hide kurakin
-        hide tatischev
-        hide kalachnik
-
-        show dmitrij at truecenter
-
-        hide nemtsy
-        hide dmitrij_shujskij
-        hide golitsyn
-        hide kurakin
-        hide tatischev
-        hide kalachnik
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show basmanov at truecenter
-
-        $ basmanov_var = "{noalt}Басманов"
-
-        basmanov "Опомнитесь, бояре! Что вам нужно?"
-
-        basmanov "Зачем народ вы подняли?"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Немцам.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "{space=400}Держитесь,"
-
-        basmanov "Друзья мои!"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}(Боярам.){/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        basmanov "{space=400}Просите государя,"
-
-        basmanov "Он вас простит и все, чего хотите,"
-
-        basmanov "Пожалует, лишь чернь остановите!"
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show basmanov at truecenter
-
-        basmanov "<{i}Толпа опрокидывает немцев. Бояре входят в комнату.{/i}>"
-
-        show basmanov at truecenter
-
-        show basmanov at truecenter
-
-        hide basmanov
-
-        show golosa_tolpa_2_6 at truecenter
-
-        $ golosa_tolpa_2_6_var = "{noalt}Голоса"
-
-        golosa_tolpa_2_6 "Показывай, где царь твой самозванный! --"
-
-        golosa_tolpa_2_6 "Давай его! -- Веди его к народу!"
-
-        hide golosa_tolpa_2_6
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        tatischev "Сначала пса убьем сторожевого,"
-
-        tatischev "К хозяину тогда добраться легче!"
-
-        play sound1 punch
-
-        hide tatischev
-
-        show tatischev at left
-        show basmanov at right
-
-        play sound1 punch
-
-        hide tatischev
-
-        show tatischev at left
-        show basmanov at right
-
-        tatischev "<{i}(Ударяет Басманова ножом, тот падает.){/i}>"
-
-        hide basmanov
-
-        show tatischev at truecenter
-
-        stop sound1
-
-        hide basmanov
-
-        show tatischev at truecenter
-
-        stop sound1
-
-        tatischev "Бросай его с крыльца долой, на копья"
-
-        tatischev "Стрелецкие!"
-
-        hide tatischev
-
-        show tatischev at truecenter
-
-        hide tatischev
-
-        show tatischev at truecenter
-
-        tatischev "<{i}Басманова уносят. Толпа бросается в царские покои.{/i}>"
-
-        show tatischev at truecenter
-
-        show tatischev at truecenter
-
-        hide tatischev
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Проворнее, робята!"
-
-        vasilij_shujskij "Не забывать, зачем пришли! Пограбить"
-
-        vasilij_shujskij "Успеете. Ищите нам расстригу!"
-
-        vasilij_shujskij "Уйти нельзя. Тащите к нам живого"
-
-        vasilij_shujskij "Иль мертвого! Обезоружьте немцев!"
-
-        vasilij_shujskij "Не трогать их, они вперед годятся."
-
-        vasilij_shujskij "Спасайте баб! Возьми, Татищев, стражу."
-
-        vasilij_shujskij "Поставь при них; царицыны покои"
-
-        vasilij_shujskij "Оберегай! Не с бабами воюем!"
-
-        hide vasilij_shujskij
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "Побережет!.. Пусти козла в капусту."
-
-        hide kurakin
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        tatischev "Ин сам бы шел!"
-
-        hide tatischev
-
-        show tatischev at truecenter
-
-        hide tatischev
-
-        show tatischev at truecenter
-
-        tatischev "<{i}(Уходит.){/i}>"
-
-        show tatischev at truecenter
-
-        show tatischev at truecenter
-
-        hide tatischev
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kalachnik at truecenter
-
-        kalachnik "<{i}(вбегая){/i}>"
-
-        show kalachnik at truecenter
-
-        show kalachnik at truecenter
-
-        kalachnik "{space=400}Беда! Нигде не сыщем"
-
-        kalachnik "Еретика!"
-
-        hide kalachnik
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Ищите, как иголку."
-
-        vasilij_shujskij "Уйдет от нас, тогда не ждать пощады,"
-
-        vasilij_shujskij "Огнем спалит, живых зароет в землю."
-
-        hide vasilij_shujskij
-
-        show golosa_tolpa_2_6 at truecenter
-
-        $ golosa_tolpa_2_6_var = "{noalt}Голоса"
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at truecenter
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at truecenter
-
-        golosa_tolpa_2_6 "<{i}(на -галерее){/i}>"
-
-        show golosa_tolpa_2_6 at truecenter
-
-        show golosa_tolpa_2_6 at truecenter
-
-        golosa_tolpa_2_6 "Он там, внизу, на Житном. -- Обступили"
-
-        golosa_tolpa_2_6 "Его стрельцы московские; народу"
-
-        golosa_tolpa_2_6 "Пищалями грозятся. -- Чу! Стреляют!"
-
-        golosa_tolpa_2_6 "Народ бежит."
-
-        hide golosa_tolpa_2_6
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show golitsyn at right
-
-        vasilij_shujskij "<{i}(хватаясь за Голицына){/i}>"
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        hide golitsyn
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "{space=400}Земля заколебалась"
-
-        vasilij_shujskij "Под нашими ногами. Ну, Голицын,"
-
-        vasilij_shujskij "Пропали мы! Давно живу на свете,"
-
-        vasilij_shujskij "А в первый раз колена задрожали..."
-
-        vasilij_shujskij "Народ, за мной! Робята, выручайте!"
-
-        hide vasilij_shujskij
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Пусти меня вперед! За мной, робята!"
-
-        kalachnik "До нас дошло; пришла к рукам работа."
-
-        kalachnik "Не страшны нам пищальные орехи:"
-
-        kalachnik "За ними шли!"
-
-        hide kalachnik
-
-        show kalachnik at left
-        show vasilij_shujskij at truecenter
-        show ves_narod_1_2 at right
-
-        hide kalachnik
-
-        show kalachnik at left
-        show vasilij_shujskij at truecenter
-        show ves_narod_1_2 at right
-
-        kalachnik "<{i}Шуйский и калачник с толпой народа уходят.{/i}>"
-
-        hide vasilij_shujskij
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        hide vasilij_shujskij
-        hide ves_narod_1_2
-
-        show kalachnik at truecenter
-
-        hide kalachnik
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        hide kurakin
-
-        show kurakin at truecenter
-
-        hide kurakin
-
-        show kurakin at truecenter
-
-        kurakin "<{i}(у окна){/i}>"
-
-        show kurakin at truecenter
-
-        show kurakin at truecenter
-
-        kurakin "{space=400}Народу прибывает!"
-
-        kurakin "Как вкопаны стрельцы -- не подаются,"
-
-        kurakin "Стеной стоят. Вот наши подоспели"
-
-        kurakin "С калачником и Шуйским, пошатнули,"
-
-        kurakin "Попятили стрельцов, к крыльцу прижали."
-
-        kurakin "На лестницу их гонят. Отбиваясь,"
-
-        kurakin "Стрельцы царька несут с собой в покои."
-
-        hide kurakin
-
-        show strelets at left
-        show dmitrij at truecenter
-        show ves_narod_1_2 at right
-
-        hide kurakin
-
-        show strelets at left
-        show dmitrij at truecenter
-        show ves_narod_1_2 at right
-
-        kurakin "<{i}Входят стрельцы: одни вносят Дмитрия, другие удерживают народ.{/i}>"
-
-        hide strelets
-        hide dmitrij
-        hide ves_narod_1_2
-
-        show kurakin at truecenter
-
-        hide strelets
-        hide dmitrij
-        hide ves_narod_1_2
-
-        show kurakin at truecenter
-
-        hide kurakin
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(подает руку немцам обезоруженным){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Благодарю, друзья!.. В очах темнеет!"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(В обмороке; его кладут на скамью.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show streltsy at truecenter
-
-        $ streltsy_var = "{noalt}Стрельцы"
-
-        hide streltsy
-
-        show streltsy at left
-        show dmitrij at right
-
-        hide streltsy
-
-        show streltsy at left
-        show dmitrij at right
-
-        streltsy "<{i}(окружающие Дмитрия){/i}>"
-
-        hide dmitrij
-
-        show streltsy at truecenter
-
-        hide dmitrij
-
-        show streltsy at truecenter
-
-        streltsy "Осаживай!"
-
-        hide streltsy
-
-        show drugie_streltsy at truecenter
-
-        $ drugie_streltsy_var = "{noalt}Другие стрельцы"
-
-        drugie_streltsy "{space=400}Не подходите близко!"
-
-        drugie_streltsy "Стрелять начнем, не разбирая. -- Право,"
-
-        drugie_streltsy "Хорошего немного: брат на брата!.."
-
-        drugie_streltsy "Крещеные! Заставите неволей,"
-
-        drugie_streltsy "Так на себя пеняйте! -- Отойдите!"
-
-        drugie_streltsy "Начнем стрелять: пожалуй, и боярам"
-
-        drugie_streltsy "Достанется."
-
-        hide drugie_streltsy
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "{space=400}Ну, выстрели! живому"
-
-        kalachnik "Не быть тебе! Положим всех на месте."
-
-        hide kalachnik
-
-        show sotnik_streletskij at truecenter
-
-        $ sotnik_streletskij_var = "{noalt}Сотник стрелецкий"
-
-        sotnik_streletskij "Грозить еще задумал! Целовали"
-
-        sotnik_streletskij "Мы крест ему, не побоимся смерти."
-
-        sotnik_streletskij "На то стрельцы; такая наша служба,"
-
-        sotnik_streletskij "Что умирать."
-
-        hide sotnik_streletskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Да было б за кого!"
-
-        vasilij_shujskij "Чего же вам! С царицей говорили;"
-
-        vasilij_shujskij "Голицын к ней ходил Иван Васильич;"
-
-        vasilij_shujskij "Не признает своим, сказать велела:"
-
-        vasilij_shujskij "\"Не сын он мне\"! Пожалуй, умирайте;"
-
-        vasilij_shujskij "И мы не прочь! А что угодней Богу:"
-
-        vasilij_shujskij "За веру умереть иль за расстригу,"
-
-        vasilij_shujskij "Еретика? Москвы не удержать мне!"
-
-        vasilij_shujskij "На чьей душе кроворазлитье будет?"
-
-        hide vasilij_shujskij
-
-        show sotnik_streletskij at truecenter
-
-        $ sotnik_streletskij_var = "{noalt}Сотник"
-
-        sotnik_streletskij "Да как-то все, боярин.. Нет, ты лучше"
-
-        sotnik_streletskij "Посторонись!"
-
-        hide sotnik_streletskij
-
-        show streltsy at truecenter
-
-        $ streltsy_var = "{noalt}Стрельцы"
-
-        streltsy "{space=400}Убьем, не лезьте близко!"
-
-        hide streltsy
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Калачник"
-
-        kalachnik "Да что ж вы, псы!.. Вались гурьбой, робята,"
-
-        kalachnik "В стрелецкую! Душите их отродье!"
-
-        hide kalachnik
-
-        show kalachnik at left
-        show strelets at right
-
-        hide kalachnik
-
-        show kalachnik at left
-        show strelets at right
-
-        kalachnik "<{i}(Стрельцам.){/i}>"
-
-        hide strelets
-
-        show kalachnik at truecenter
-
-        hide strelets
-
-        show kalachnik at truecenter
-
-        kalachnik "Вы стойте здесь, расстригу берегите!"
-
-        kalachnik "А мы детей и жен изгубим ваших"
-
-        kalachnik "И на ветер подымем ваши домы!"
-
-        hide kalachnik
-
-        show sotnik_streletskij at truecenter
-
-        $ sotnik_streletskij_var = "{noalt}Сотник"
-
-        sotnik_streletskij "Постой, постой! Боярин, мы поверим"
-
-        sotnik_streletskij "Словам твоим; а на душу возьмешь ли"
-
-        sotnik_streletskij "Ты грех за нас?"
-
-        hide sotnik_streletskij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=200}Возьму."
-
-        hide vasilij_shujskij
-
-        show sotnik_streletskij at truecenter
-
-        $ sotnik_streletskij_var = "{noalt}Сотник"
-
-        sotnik_streletskij "{space=400}Теперь в ответе"
-
-        sotnik_streletskij "Пред господом не мы. За мной, робята!"
-
-        hide sotnik_streletskij
-
-        show sotnik_streletskij at truecenter
-
-        hide sotnik_streletskij
-
-        show sotnik_streletskij at truecenter
-
-        sotnik_streletskij "<{i}Уходят.{/i}>"
-
-        show sotnik_streletskij at truecenter
-
-        show sotnik_streletskij at truecenter
-
-        hide sotnik_streletskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(очнувшись){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Зачем я здесь! Ах, ногу! грудь!.. Бояре,"
-
-        dmitrij "Крамольники!"
-
-        hide dmitrij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        dmitrij_shujskij "{space=400}Очнулся? Говори же,"
-
-        dmitrij_shujskij "Ты кто таков?"
-
-        hide dmitrij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Я сын царя Ивана"
-
-        dmitrij "Василича, твой царь и повелитель."
-
-        dmitrij "Ты не узнал меня, холоп!"
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show vasilij_shujskij at right
-
-        dmitrij "<{i}(Василию Шуйскому.){/i}>"
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Ты, Шуйский,"
-
-        dmitrij "Мятежников собрал! Пойдем к народу,"
-
-        dmitrij "На лобное, к мятежникам твоим!.."
-
-        dmitrij "Я не боюсь, я прав; пускай рассудят"
-
-        dmitrij "Меня с тобой! Я отдаюсь на волю"
-
-        dmitrij "Народную... Боишься ты, не смеешь"
-
-        dmitrij "Своей души народу обнажить?"
-
-        dmitrij "Я все скажу! И пусть народ узнает,"
-
-        dmitrij "Что я честней тебя, неблагодарный"
-
-        dmitrij "Клятвопреступник!"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        $ vasilij_shujskij_var = "{noalt}Василий Шуйский"
-
-        vasilij_shujskij "{space=400}Нам судиться поздно!"
-
-        vasilij_shujskij "Ты осужден!.. Кончайте с ним, робята!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        vasilij_shujskij "<{i}(Нагибаясь к Дмитрию самозванцу.){/i}>"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "У нас народ для зверя ямы роет"
-
-        vasilij_shujskij "И в яме бьет, а выпусти -- уйдет!"
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij_shujskij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij_shujskij at right
-
-        vasilij_shujskij "<{i}(Дмитрию Шуйскому.){/i}>"
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "Ты, Дмитрий, здесь побудь и пригляди."
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at truecenter
-
-        vasilij_shujskij "<{i}(Уходит.){/i}>"
-
-        show vasilij_shujskij at truecenter
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        hide vasilij_shujskij
-
-        show vasilij_shujskij at left
-        show dmitrij at right
-
-        vasilij_shujskij "<{i}Один из мятежников замахивается на Дмитрия.{/i}>"
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide dmitrij
-
-        show vasilij_shujskij at truecenter
-
-        hide vasilij_shujskij
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "Остановись! Ты видишь, безоружен"
-
-        dmitrij "И ранен я..."
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(В бреду.){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Подайте меч!.. Шварцгоф!"
-
-        dmitrij "Мой меч, Шварцгоф!.. За мной, за мной, казаки!.."
-
-        dmitrij "Вы видите, вдали белеют стены!"
-
-        dmitrij "Возьмемте их."
-
-        hide dmitrij
-
-        show dmitrij at left
-        show tatischev at truecenter
-        show valuev at right
-
-        hide dmitrij
-
-        show dmitrij at left
-        show tatischev at truecenter
-        show valuev at right
-
-        dmitrij "<{i}Все окружают его и смотрят с изумлением. Входит Татищев и ведет за собой дворян Валуева и Воейкова.{/i}>"
-
-        hide tatischev
-        hide valuev
-
-        show dmitrij at truecenter
-
-        hide tatischev
-        hide valuev
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        hide tatischev
-
-        show tatischev at left
-        show ves_narod_1_2 at right
-
-        hide tatischev
-
-        show tatischev at left
-        show ves_narod_1_2 at right
-
-        tatischev "<{i}(народу){/i}>"
-
-        hide ves_narod_1_2
-
-        show tatischev at truecenter
-
-        hide ves_narod_1_2
-
-        show tatischev at truecenter
-
-        tatischev "{space=400}Чего же вы стоите!"
-
-        tatischev "Народу тьма сошлась, невесть отколе,"
-
-        tatischev "Спасать царя бегут. Сболтнул им кто-то,"
-
-        tatischev "Что бьют его поляки."
-
-        hide tatischev
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at left
-        show ves_narod_1_2 at right
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at left
-        show ves_narod_1_2 at right
-
-        dmitrij_shujskij "<{i}(в окно народу){/i}>"
-
-        hide ves_narod_1_2
-
-        show dmitrij_shujskij at truecenter
-
-        hide ves_narod_1_2
-
-        show dmitrij_shujskij at truecenter
-
-        dmitrij_shujskij "{space=400}Эй! Винится!"
-
-        dmitrij_shujskij "Во всем, во всем расстрига повинился."
-
-        hide dmitrij_shujskij
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        hide golitsyn
-
-        show golitsyn at truecenter
-
-        golitsyn "<{i}(отворачиваясь){/i}>"
-
-        show golitsyn at truecenter
-
-        show golitsyn at truecenter
-
-        golitsyn "Кровавый день!"
-
-        hide golitsyn
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(в бреду){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "{space=400}Несись, мой конь ретивый,"
-
-        dmitrij "Несись быстрей! До цели недалеко."
-
-        dmitrij "Труба гремит..."
-
-        hide dmitrij
-
-        show tatischev at truecenter
-
-        $ tatischev_var = "{noalt}Татищев"
-
-        hide tatischev
-
-        show tatischev at left
-        show valuev at right
-
-        hide tatischev
-
-        show tatischev at left
-        show valuev at right
-
-        tatischev "<{i}(Валуеву и Воейкову){/i}>"
-
-        hide valuev
-
-        show tatischev at truecenter
-
-        hide valuev
-
-        show tatischev at truecenter
-
-        tatischev "{space=400}Вы что ж остановились?"
-
-        tatischev "Зачем пришли? Кончай его скорее!"
-
-        hide tatischev
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        hide dmitrij
-
-        show dmitrij at truecenter
-
-        dmitrij "<{i}(в бреду){/i}>"
-
-        show dmitrij at truecenter
-
-        show dmitrij at truecenter
-
-        dmitrij "Смелей, в пролом! К стенам давайте лестниц!"
-
-        dmitrij "Ворота сбить!.."
-
-        hide dmitrij
-
-        show valuev at truecenter
-
-        $ valuev_var = "{noalt}Валуев"
-
-        valuev "{space=400}Благословить уж разве"
-
-        valuev "По-своему тебя, свистун!"
-
-        hide valuev
-
-        show dmitrij at truecenter
-
-        $ dmitrij_var = "{noalt}Дмитрий"
-
-        dmitrij "{space=400}Ворота!.."
-
-        dmitrij "Олегов щит!.. Ворота Цареграда..."
-
-        play sound1 punch
-
-        hide dmitrij
-
-        show dmitrij at left
-        show valuev at right
-
-        play sound1 punch
-
-        hide dmitrij
-
-        show dmitrij at left
-        show valuev at right
-
-        dmitrij "<{i}Валуев стреляет. Дмитрий падает ниц.{/i}>"
-
-        hide valuev
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        hide valuev
-
-        show dmitrij at truecenter
-
-        stop sound1
-
-        hide dmitrij
-
-        show dmitrij_shujskij at truecenter
-
-        $ dmitrij_shujskij_var = "{noalt}Дмитрий Шуйский"
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        hide dmitrij_shujskij
-
-        show dmitrij_shujskij at truecenter
-
-        dmitrij_shujskij "<{i}(в окно){/i}>"
-
-        show dmitrij_shujskij at truecenter
-
-        show dmitrij_shujskij at truecenter
-
-        dmitrij_shujskij "Покончили!"
-
-        hide dmitrij_shujskij
-
-        show golosa_tolpa_2_6 at truecenter
-
-        $ golosa_tolpa_2_6_var = "{noalt}Толпа"
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at left
-        show dmitrij at right
-
-        hide golosa_tolpa_2_6
-
-        show golosa_tolpa_2_6 at left
-        show dmitrij at right
-
-        golosa_tolpa_2_6 "<{i}(окружает Дмитрия){/i}>"
-
-        hide dmitrij
-
-        show golosa_tolpa_2_6 at truecenter
-
-        hide dmitrij
-
-        show golosa_tolpa_2_6 at truecenter
-
-        golosa_tolpa_2_6 "{space=400}Тащи его, робята,"
-
-        golosa_tolpa_2_6 "К народу вниз!"
-
-        hide golosa_tolpa_2_6
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "{space=400}Я слышу крик народный!"
-
-        hide golitsyn
-
-        show neskolko_golosov at truecenter
-
-        $ neskolko_golosov_var = "{noalt}Несколько голосов"
-
-        hide neskolko_golosov
-
-        show neskolko_golosov at truecenter
-
-        hide neskolko_golosov
-
-        show neskolko_golosov at truecenter
-
-        neskolko_golosov "<{i}(за сценой){/i}>"
-
-        show neskolko_golosov at truecenter
-
-        show neskolko_golosov at truecenter
-
-        neskolko_golosov "Храни тебя господь на многи лета!"
-
-        neskolko_golosov "Великий князь и государь Василий"
-
-        neskolko_golosov "Иванович!"
-
-        hide neskolko_golosov
-
-        show kalachnik at truecenter
-
-        $ kalachnik_var = "{noalt}Голос калачника"
-
-        kalachnik "{space=400}Кричите: многи лета"
-
-        kalachnik "Великому царю и государю!"
-
-        hide kalachnik
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Не рано ли?"
-
-        hide golitsyn
-
-        show kurakin at truecenter
-
-        $ kurakin_var = "{noalt}Куракин"
-
-        kurakin "{space=400}Пораньше-то вернее,"
-
-        kurakin "Пока с умом собраться не успели."
-
-        hide kurakin
-
-        show golitsyn at truecenter
-
-        $ golitsyn_var = "{noalt}Голицын"
-
-        golitsyn "Крамольник он от головы до пяток!"
-
-        golitsyn "Боярином ему б и оставаться,"
-
-        golitsyn "Крамольнику не след короноваться."
-
-        golitsyn "Крамолой сел Борис, а Дмитрий силой:"
-
-        golitsyn "Обоим трон московский был могилой."
-
-        golitsyn "Для Шуйского примеров не довольно;"
-
-        golitsyn "Он хочет сесть на царство самовольно --"
-
-        golitsyn "Не царствовать ему! На трон свободный"
-
-        golitsyn "Садится лишь избранник всенародный."
-
-        hide golitsyn
+"<{i}<1828>{/i}>"
 
 

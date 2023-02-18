@@ -91,9 +91,9 @@
           <person xml:id="DrugojRytsar_2" sex="MALE">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Rytsari_2" sex="MALE">
-            <persName>Рыцари</persName>
-          </person>
+          <personGrp xml:id="Rytsari_2" sex="MALE">
+            <name>Рыцари</name>
+          </personGrp>
           <person xml:id="Rytsar" sex="MALE">
             <persName>Рыцарь</persName>
           </person>

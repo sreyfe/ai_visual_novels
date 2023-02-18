@@ -77,10 +77,12 @@
           </person>
           <person xml:id="pervyj_chinovnik" sex="MALE">
             <persName>Первый чиновник</persName>
+            <persName type="variant">Чиновник 1-й</persName>
             <persName xml:lang="ger">Erster Beamter</persName>
           </person>
           <person xml:id="vtoroj_chinovnik" sex="MALE">
             <persName>Второй чиновник</persName>
+            <persName type="variant">Чиновник 2-й</persName>
             <persName xml:lang="ger">Zweiter Beamter</persName>
           </person>
           <person xml:id="devushka" sex="FEMALE">
@@ -137,6 +139,7 @@
           </person>
           <person xml:id="sharmanshchik" sex="MALE">
             <persName>Шарманщик</persName>
+            <persName type="variant">Шарманка</persName>
             <persName xml:lang="ger">Der Leierkastenmann</persName>
           </person>
           <person xml:id="ulita_prohorovna" sex="FEMALE">
@@ -192,10 +195,18 @@
         <castList>
           <head>ЛИЦА:</head>
           <castItem>Павел Прохорович Оброшенов, отставной чиновник.</castItem>
-          <castItem>Анна Павловна, 25-ти лет, Верочка, 17-ти лет, дочери его.</castItem>
+          <castGroup>
+            <castItem>Анна Павловна, 25-ти лет,</castItem>
+            <castItem>Верочка, 17-ти лет,</castItem>
+            <roleDesc>дочери его.</roleDesc>
+          </castGroup>
           <castItem>Александр Петрович Гольцов, очень молодой человек, чиновник.</castItem>
           <castItem>Филимон Протасьич Хрюков, богатый купец, 60-ти лет.</castItem>
-          <castItem>Недоносков, Недоростков, молодые люди, одетые по последней моде.</castItem>
+          <castGroup>
+            <castItem>Недоносков,</castItem>
+            <castItem>Недоростков,</castItem>
+            <roleDesc>молодые люди, одетые по последней моде.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Небольшой садик, направо крылечко и окно дома; прямо забор; в нем, рядом с домом,
           калитка; налево забор. Под деревом круглый стол и несколько стульев.</stage>
@@ -1738,9 +1749,11 @@
           <castItem>Шарманка.</castItem>
           <castItem>Певица.</castItem>
           <castItem>Лакей в ливрее.</castItem>
-          <castItem>Лица разных наций, званий и пола: военные, чиновники, купцы, приказчики,
+          <castGroup>
+            <roleDesc>Лица разных наций, званий и пола: военные, чиновники, купцы, приказчики,
             мальчики, разносчики, татары, армяне, евреи, барыни, купчихи, мастерички,
-            торговки.</castItem>
+            торговки.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Ворота, где торгуют картинками.</stage>
         <div type="scene">

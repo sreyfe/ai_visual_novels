@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {...мать учения.} in 'Est mater studiorum {...мать учения.}. Да, это правда. Налей.'.:
-  File "game/script.rpy", line 6758, in script
-    benevolenskij "Est mater studiorum {...мать учения.}. Да, это правда. Налей."
-Exception: Unknown text tag '...мать учения.'
+While loading <renpy.display.im.Image object ('images/characters/druzhina.png') at 0x7fd466f3f670>:
+  File "game/script.rpy", line 463, in script
+    "и Дружина,"
+OSError: Couldn't find file 'images/characters/druzhina.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 6758, in script
-    benevolenskij "Est mater studiorum {...мать учения.}. Да, это правда. Налей."
+  File "game/script.rpy", line 463, in script
+    "и Дружина,"
   File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/ast.py", line 921, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/exports.py", line 1373, in say
@@ -42,31 +42,29 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/transform.py", line 747, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/image.py", line 506, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/image.py", line 309, in wrap_render
+    rend = render(child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/layout.py", line 1334, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/text/text.py", line 2109, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/text/text.py", line 627, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/text/text.py", line 1278, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag '...мать учения.'
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/im.py", line 627, in render
+    return cache.get(self, render=True)
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/im.py", line 295, in get
+    surf = image.load()
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/im.py", line 720, in load
+    raise e
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/display/im.py", line 685, in load
+    filelike = renpy.loader.load(self.filename)
+  File "/Users/happypuffin/Desktop/code/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/characters/druzhina.png'.
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.0.3.22090809
 test 1.0
-Sat Feb 11 20:56:13 2023
+Wed Feb 15 21:55:16 2023

@@ -154,7 +154,9 @@
         <castItem>Еремка, кузнец.</castItem>
         <castItem>Яков, ямщик.</castItem>
         <castItem>Иван, молодец в доме Петра.</castItem>
-        <castItem>Девушки и парни.</castItem>
+        <castGroup>
+          <roleDesc>Девушки и парни.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в Москве, в конце XVIII столетия, на масленице. Содержание взято из

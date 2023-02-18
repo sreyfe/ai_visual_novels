@@ -166,7 +166,9 @@
         <castItem>Федор — камердинер Кречинского.</castItem>
         <castItem>Тишка — швейцар в доме Муромских.</castItem>
         <castItem>Полицейский чиновник.</castItem>
-        <castItem>Слуги.</castItem>
+        <castGroup>
+          <roleDesc>Слуги.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в Москве.</p>

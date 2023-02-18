@@ -82,6 +82,9 @@
           <person xml:id="ivan" sex="MALE">
             <persName>Иван</persName>
           </person>
+          <person xml:id="kazachok" sex="MALE">
+            <persName>Казачок</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#kleshnin #kleshnina" passive="#lenushka"/>
             <relation name="lover_of" active="#lidin" passive="#lenushka"/>

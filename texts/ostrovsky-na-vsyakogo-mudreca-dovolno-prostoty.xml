@@ -54,6 +54,7 @@
           </person>
           <person xml:id="glumova" sex="FEMALE">
             <persName>Глумова</persName>
+            <persName type="variant">Глафира Климовна</persName>
             <persName xml:lang="ger">Glumowa</persName>
           </person>
           <person xml:id="kurchaev" sex="MALE">
@@ -82,6 +83,7 @@
           </person>
           <person xml:id="mamaeva" sex="FEMALE">
             <persName>Мамаева</persName>
+            <persName type="variant">Клеопатра Львовна</persName>
             <persName xml:lang="ger">Mamajewa</persName>
           </person>
           <person xml:id="gorodulin" sex="MALE">
@@ -102,10 +104,12 @@
           </person>
           <person xml:id="pervaja_prizhivalka" sex="FEMALE">
             <persName>1-я приживалка</persName>
+            <persName type="variant">Приживалка 1-я</persName>
             <persName xml:lang="ger">Erste Alte</persName>
           </person>
           <person xml:id="vtoraja_prizhivalka" sex="FEMALE">
             <persName>2-я приживалка</persName>
+            <persName type="variant">Приживалка 2-я</persName>
             <persName xml:lang="ger">Zweite Alte</persName>
           </person>
           <person xml:id="chelovek_krutickogo" sex="MALE">

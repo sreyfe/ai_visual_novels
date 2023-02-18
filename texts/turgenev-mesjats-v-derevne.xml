@@ -87,6 +87,7 @@
           </person>
           <person xml:id="vera" sex="FEMALE">
             <persName>Вера</persName>
+            <persName type="variant">Верочка</persName>
             <persName xml:lang="ger">Wera</persName>
           </person>
           <person xml:id="islaev" sex="MALE">
@@ -204,8 +205,8 @@
         <sp who="#rakitin">
           <speaker>Ракитин</speaker>
           <stage>(медленно поднимая книгу).</stage>
-          <p>«Monte-Cristo se redressa haletant...»<note place="foot">«Монте-Кристо вскочил,
-              прерывисто дыша...» (Франц.)</note> Наталья Петровна, вас это занимает?</p>
+          <note place="foot"><key>«Monte-Cristo se redressa haletant...»</key><value>«Монте-Кристо вскочил, прерывисто дыша...» (Франц.)</value></note>
+          <p>«Monte-Cristo se redressa haletant...» Наталья Петровна, вас это занимает?</p>
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
@@ -668,8 +669,9 @@
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
+          <note place="foot"><key>ce que vous êtes pour moi</key><value>что́ вы для меня (франц.).</value></note>
           <p>Полноте... <stage>(Понизив голос)</stage> Как будто вы не знаете... ce que vous êtes
-            pour moi<note place="foot">что́ вы для меня (франц.).</note>.</p>
+            pour moi.</p>
         </sp>
         <sp who="#rakitin">
           <speaker>Ракитин.</speaker>
@@ -898,7 +900,8 @@
         <sp who="#shpigelskij">
           <speaker>Шпигельский</speaker>
           <stage>(Шаафу, подавая ему табакерку).</stage>
-          <p>Ну, Адам Иваныч, ви бефинден зи зих?<note place="foot">как поживаете? (Нем.)</note></p>
+          <note place="foot"><key>ви бефинден зи зих?</key><value>как поживаете? (Нем.)</value></note>
+          <p>Ну, Адам Иваныч, ви бефинден зи зих?</p>
         </sp>
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
@@ -934,8 +937,9 @@
           <speaker>Наталья Петровна.</speaker>
           <p>Вот как... вы меня пугаете.</p>
         </sp>
+        <note place="foot"><key>«Ja, ja, ja, jawohl, jawohl, sehr gut»</key><value>«Да, да, да, конечно, конечно, очень хорошо» (нем.).</value></note>
         <stage>(Ракитин между тем взял Шаафа под руку, ходит с ним взад и вперед и шепчет ему что-то
-          по-немецки. Шааф смеется и говорит вполголоса: «Ja, ja, ja, jawohl, jawohl, sehr gut»<note place="foot">«Да, да, да, конечно, конечно, очень хорошо» (нем.).</note>.</stage>
+          по-немецки. Шааф смеется и говорит вполголоса: «Ja, ja, ja, jawohl, jawohl, sehr gut».</stage>
         <sp who="#shpigelskij">
           <speaker>Шпигельский</speaker>
           <stage>(понизив голос).</stage>
@@ -1030,20 +1034,22 @@
         </sp>
         <sp who="#shaaf">
           <speaker>Шааф.</speaker>
-          <p>Erlauben Sie...<note place="foot">Позвольте... (Нем.)</note> Каспадин Колия сифодне
-            сфой лекцион не брочидал... <stage>(Берет Колю за руку.)</stage> Kommen Sie<note place="foot">Идемте (нем.).</note>.</p>
+          <note place="foot"><key>Erlauben Sie...</key><value>Позвольте... (Нем.)</value></note>
+          <note place="foot"><key>Kommen Sie</key><value>Идемте (нем.).</value></note>
+          <p>Erlauben Sie... Каспадин Колия сифодне
+            сфой лекцион не брочидал... <stage>(Берет Колю за руку.)</stage> Kommen Sie.</p>
         </sp>
         <sp who="#kolja">
           <speaker>Коля</speaker>
           <stage>(печально).</stage>
-          <p>Morgen, Herr Schaaf, morgen...<note place="foot">Завтра, господин Шааф, завтра...
-              (Нем.)</note></p>
+          <note place="foot"><key>Morgen, Herr Schaaf, morgen...</key><value>Завтра, господин Шааф, завтра... (Нем.)</value></note>
+          <p>Morgen, Herr Schaaf, morgen...</p>
         </sp>
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
           <stage>(резко).</stage>
-          <p>Morgen, morgen, nur nicht heute, sagen alle faulen Leute... Kommen Sie...<note place="foot">Завтра, завтра, не сегодня, так ленивцы говорят... Идемте...
-              (Нем.)</note>
+          <note place="foot"><key>Morgen, morgen, nur nicht heute, sagen alle faulen Leute... Kommen Sie...</key><value>Завтра, завтра, не сегодня, так ленивцы говорят... Идемте... (Нем.)</value></note>
+          <p>Morgen, morgen, nur nicht heute, sagen alle faulen Leute... Kommen Sie...
             <stage>(Коля упирается.)</stage></p>
         </sp>
         <sp who="#natalja_petrovna">
@@ -1072,7 +1078,8 @@
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
           <stage>(с чувством достоинства).</stage>
-          <p>Gnädige Frau...<note place="foot">Сударыня... (Нем.)</note></p>
+          <note place="foot"><key>Gnädige Frau...</key><value>Сударыня... (Нем.)</value></note>
+          <p>Gnädige Frau...</p>
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна</speaker>
@@ -1082,7 +1089,8 @@
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
           <stage>(уводя Колю в залу).</stage>
-          <p>Es ist unerhört!<note place="foot">Это неслыханно! (Нем.)</note></p>
+          <note place="foot"><key>Es ist unerhört!</key><value>Это неслыханно! (Нем.)</value></note>
+          <p>Es ist unerhört!</p>
         </sp>
         <sp who="#kolja">
           <speaker>Коля</speaker>
@@ -1092,7 +1100,8 @@
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
           <stage>(дергая Колю).</stage>
-          <p>Kommen Sie, mein Herr...<note place="foot">Идемте, сударь... (Нем.)</note>
+          <note place="foot"><key>Kommen Sie, mein Herr...</key><value>Идемте, сударь... (Нем.)</value></note>
+          <p>Kommen Sie, mein Herr...
             <stage>(Уходит с ним в залу. Ракитин уходит вслед за ними.)</stage></p>
         </sp>
         <sp who="#natalja_petrovna">
@@ -1194,7 +1203,8 @@
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
-          <p>Mon enfant, vous feriez bien de mettre une autre robe pour le diner...<note place="foot">Дитя мое, вы бы надели другое платье к обеду... (Франц.)</note>
+          <note place="foot"><key>Mon enfant, vous feriez bien de mettre une autre robe pour le diner...</key><value>Дитя мое, вы бы надели другое платье к обеду... (Франц.)</value></note>
+          <p>Mon enfant, vous feriez bien de mettre une autre robe pour le diner...
             <stage>(Вера встает.)</stage> Подойди ко мне... <stage>(Целует ее в лоб.)</stage> Дитя,
             дитя. <stage>(Вера целует у ней руку и идет в кабинет.)</stage></p>
         </sp>
@@ -1719,9 +1729,9 @@
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
+          <note place="foot"><key>On n’entre pas comme cela dans une chambre... Cela ne convient pas.</key><value>Так не входят в комнату... Это неприлично. (Франц.)</value></note>
           <p>А! <stage>(Вполголоса Вере.)</stage> On n’entre pas comme cela dans une chambre... Cela
-            ne convient pas.<note place="foot">Так не входят в комнату... Это неприлично.
-              (Франц.)</note>
+            ne convient pas.
             <stage>(Обращаясь к Шпигельскому.)</stage> Да который час, доктор? У вас всегда верные
             часы... Пора обедать.</p>
         </sp>
@@ -1794,8 +1804,9 @@
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
+          <note place="foot"><key>allez en avant avec monsieur</key><value>идите вперед с месье (франц.).</value></note>
           <p>А! ну, так пойдемте. <stage>(Указывая на Беляева.)</stage> Вера, allez en avant avec
-              monsieur<note place="foot">идите вперед с месье (франц.).</note>
+              monsieur
             <stage>(Матвей выходит, за ним идут Беляев и Вера.)</stage></p>
         </sp>
         <sp who="#shpigelskij">
@@ -1931,7 +1942,8 @@
         <sp who="#shaaf">
           <speaker>Шааф</speaker>
           <stage>(принимая суровый вид, вполголоса).</stage>
-          <p>Das ist dumm...<note place="foot">Это глупо... (Нем.)</note></p>
+          <note place="foot"><key>Das ist dumm...</key><value>Это глупо... (Нем.)</value></note>
+          <p>Das ist dumm...</p>
         </sp>
         <stage>(Входит справа Наталья Петровна, под руку с Ракитиным.)</stage>
         <sp who="#natalja_petrovna">
@@ -1985,8 +1997,8 @@
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна</speaker>
           <stage>(Ракитину).</stage>
-          <p>Пойдемте, пойдемте, beau ténébreux...<note place="foot">демоническое существо
-              (франц.).</note>
+          <note place="foot"><key>beau ténébreux</key><value>демоническое существо (франц.).</value></note>
+          <p>Пойдемте, пойдемте, beau ténébreux...
             <stage>(Все трое уходят направо.)</stage></p>
         </sp>
         <sp who="#katja">
@@ -2716,7 +2728,8 @@
         </sp>
         <sp who="#rakitin">
           <speaker>Ракитин.</speaker>
-          <p>Quelle tirade!<note place="foot">Какая тирада! (Франц.)</note> Природа здорова... то
+          <note place="foot"><key>Quelle tirade!</key><value>Какая тирада! (Франц.)</value></note>
+          <p>Quelle tirade! Природа здорова... то
             есть, другими словами, я болезненное существо.</p>
         </sp>
         <sp who="#natalja_petrovna">
@@ -2755,8 +2768,8 @@
         </sp>
         <sp who="#rakitin">
           <speaker>Ракитин.</speaker>
-          <p>А! я понимаю... Вы завидуете их... naïveté<note place="foot">простодушию
-              (франц.).</note>, их свежести, невинности... словом, их глупости...</p>
+          <note place="foot"><key>naïveté</key><value>простодушию (франц.).</value></note>
+          <p>А! я понимаю... Вы завидуете их... naïveté, их свежести, невинности... словом, их глупости...</p>
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
@@ -3185,9 +3198,10 @@
         <sp who="#rakitin">
           <speaker>Ракитин</speaker>
           <stage>(глядя им вслед).</stage>
+          <note place="foot"><key>Souvent femme varie...</key><value>Как изменчива женщина... (Франц.)</value></note>
           <p>Что за живость... что за веселость... Я никогда у ней на лице такого выражения не
             видал. И какая внезапная перемена! <stage>(Помолчав.)</stage> Souvent femme
-              varie...<note place="foot">Как изменчива женщина... (Франц.)</note> Но я... я
+              varie... Но я... я
             решительно ей сегодня не по нутру. Это ясно. <stage>(Помолчав.)</stage> Что ж! Увидим,
             что далее будет. <stage>(Медленно.)</stage> Неужели же... <stage>(Махает рукой.)</stage>
             Быть не может!.. Но эта улыбка, этот приветный, мягкий, светлый взгляд... Ах, не дай бог
@@ -3613,8 +3627,8 @@
         </sp>
         <sp who="#natalja_petrovna">
           <speaker>Наталья Петровна.</speaker>
-          <p>Monsieur le diplomate<note place="foot">Господин дипломат (франц.).</note>, вы более и
-            более путаетесь.</p>
+          <note place="foot"><key>Monsieur le diplomate</key><value>Господин дипломат (франц.).</value></note>
+          <p>Monsieur le diplomate, вы более и более путаетесь.</p>
         </sp>
         <sp who="#kolja">
           <speaker>Коля</speaker>

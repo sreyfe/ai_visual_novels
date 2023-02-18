@@ -65,6 +65,7 @@
           </person>
           <person xml:id="natasha" sex="FEMALE">
             <persName>Наташа</persName>
+            <persName type="variant">Наталья Петровна Сизакова</persName>
           </person>
           <person xml:id="poliksena" sex="FEMALE">
             <persName>Поликсена</persName>
@@ -233,7 +234,8 @@
           <sp who="#korpelov">
             <speaker>Корпелов</speaker>
             <stage>(громко и затыкая уши).</stage>
-            <p>Satis!<note place="foot">Довольно! (лат.)</note></p>
+            <note type="foot"><key>Satis!</key><value>Довольно! (лат.)</value></note>
+            <p>Satis!</p>
           </sp>
           <sp who="#malanya">
             <speaker>Маланья.</speaker>
@@ -269,7 +271,8 @@
           <sp who="#gruncov">
             <speaker>Грунцов</speaker>
             <stage>(едва переводя дух).</stage>
-            <p>Здравствуй, domine!<note place="foot">Dominus -- господин (лат.)</note></p>
+            <note type="foot"><key>domine</key><value>Dominus -- господин (лат.)</value></note>
+            <p>Здравствуй, domine!</p>
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
@@ -294,8 +297,9 @@
           </sp>
           <sp who="#gruncov">
             <speaker>Грунцов.</speaker>
+            <note type="foot"><key>Nihil</key><value>Ничто (лат.)</value></note>
             <p>Nihil. Пристяжную новую покупает, самому нужны. Показывал, в кольцо вьется. Велел
-              после приходить.<note place="foot">Ничто (лат.)</note></p>
+              после приходить.</p>
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
@@ -426,9 +430,9 @@
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
+            <note type="foot"><key>Ergo</key><value>Следовательно (лат.)</value></note>
             <p>Я у него денег попросил, он тоже не заспорил; а хотел часы заложить да заплатить за
-              нас хозяину за квартиру. Ergo, он не спорщик.<note place="foot">Следовательно
-                (лат.)</note></p>
+              нас хозяину за квартиру. Ergo, он не спорщик.</p>
           </sp>
           <sp who="#evgeniya">
             <speaker>Евгения.</speaker>
@@ -651,8 +655,8 @@
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
-            <p>Вот как это было, stultissime!<note place="foot">превосходная степень от stultus:
-                глупец, дурак (лат.)</note> Сестра моя была красавица, выдали ее замуж за горького,
+            <note type="foot"><key>stultissime</key><value>превосходная степень от stultus: глупец, дурак (лат.)</value></note>
+            <p>Вот как это было, stultissime! Сестра моя была красавица, выдали ее замуж за горького,
               бессчастного чиновника Сизакова. Маялась с ним, маялась она; года через два и
               овдовела; осталась с дочерью без копейки, хоть по миру идти. Тут один барин, старый
               знакомый, и пригласил ее к себе в экономки. Ну, и жила она, точно, покойно; только не
@@ -697,7 +701,8 @@
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
-            <p>Ты... asinus.<note place="foot">осел (лат.)</note></p>
+            <note type="foot"><key>asinus</key><value>осел (лат.)</value></note>
+            <p>Ты... asinus.</p>
           </sp>
           <sp who="#chepurin">
             <speaker>Чепурин.</speaker>
@@ -1746,7 +1751,8 @@
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
-            <p>Homo sum.<note place="foot">Человек я (лат.)</note></p>
+            <note type="foot"><key>Homo sum</key><value>Человек я (лат.)</value></note>
+            <p>Homo sum.</p>
           </sp>
           <sp who="#poliksena">
             <speaker>Поликсена.</speaker>
@@ -4146,7 +4152,8 @@
           </sp>
           <sp who="#korpelov">
             <speaker>Корпелов.</speaker>
-            <p>Ого, барышня! Optime!<note place="foot">Превосходно, отлично! (лат.)</note></p>
+            <note type="foot"><key>Optime!</key><value>Превосходно, отлично! (лат.)</value></note>
+            <p>Ого, барышня! Optime!</p>
           </sp>
           <sp who="#evgeniya">
             <speaker>Евгения.</speaker>
@@ -4216,9 +4223,10 @@
             <p>Давай выпьем. Юноша, иди! <stage>(Грунцов подходит.)</stage> Погодите! Чепурин!
               становись с нами в ряд! <stage>(Чепурин подходит.)</stage> Вот так!
                 <stage>(Запевает.)</stage></p>
+            <note type="foot"><key>Gaudeamus igitur</key><value>Так будем же радоваться, (лат.)</value></note>
             <l>Gaudeamus igitur,</l>
-            <l>Juvenes dum sumus!<note place="foot">Так будем же радоваться, пока мы молоды!
-                (лат.)</note></l>
+            <note type="foot"><key>Juvenes dum sumus!</key><value>пока мы молоды! (лат.)</value></note>
+            <l>Juvenes dum sumus!</l>
           </sp>
         </div>
       </div>

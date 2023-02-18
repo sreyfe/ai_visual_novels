@@ -65,6 +65,7 @@
           </person>
           <person xml:id="knyaz_batog-batyev" sex="MALE">
             <persName>Кн. Батог-Батыев</persName>
+            <persName type="variant">Батог-Батыев</persName>
             <persName xml:lang="ger">Fürst Batog-Batyev</persName>
           </person>
           <person xml:id="libental" sex="MALE">
@@ -74,6 +75,9 @@
           <person xml:id="razorvaki" sex="FEMALE">
             <persName>Г-жа Разорваки</persName>
             <persName xml:lang="ger">Frau Razorvaki</persName>
+          </person>
+          <person xml:id="kamerdiner" sex="MALE">
+            <persName>Камердинер</persName>
           </person>
         </listPerson>
       </particDesc>

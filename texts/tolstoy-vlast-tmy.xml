@@ -145,6 +145,9 @@
             <persName>Староста</persName>
             <persName xml:lang="ger">Dorfschulze</persName>
           </person>
+          <person xml:id="zhenich" sex="MALE">
+            <persName>Жених Акулины</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#petr" passive="#akulina"/>
             <relation name="parent_of" active="#petr" passive="#anjutka"/>
@@ -201,8 +204,6 @@
         <titlePart type="main">Власть тьмы, или 'коготок увяз, всей птичке пропасть'</titlePart>
         <titlePart type="sub">Драма в пяти действиях</titlePart>
       </docTitle>
-    </front>
-    <body>
       <epigraph>
         <cit>
           <quote>
@@ -214,6 +215,8 @@
         </cit>
         <bibl>Мф. V, 28, 29</bibl>
       </epigraph>
+    </front>
+    <body>
       <div type="act">
         <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
         <castList>
@@ -1546,7 +1549,9 @@
           <castItem>Никита.</castItem>
           <castItem>Матрена.</castItem>
           <castItem>Кума — соседка.</castItem>
-          <castItem>Народ.</castItem>
+          <castGroup>
+            <roleDesc>Народ.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Сцена представляет улицу и избу Петра. Слева от зрителя — изба в две связи, сени, с
           крыльцом в середине; справа — ворота и край двора. У края двора Анисья треплет пеньку.
@@ -5531,7 +5536,9 @@
           <castItem>Сваха.</castItem>
           <castItem>Жених Акулины.</castItem>
           <castItem>Староста.</castItem>
-          <castItem>Гости, бабы, девки, народ на свадьбе.</castItem>
+          <castGroup>
+            <roleDesc>Гости, бабы, девки, народ на свадьбе.</roleDesc>
+          </castGroup>
         </castList>
         <div type="tableau">
           <head>СЦЕНА ПЕРВАЯ</head>

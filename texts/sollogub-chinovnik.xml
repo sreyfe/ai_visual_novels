@@ -50,6 +50,8 @@
         <listPerson>
           <person xml:id="strelskij_polkovnik" sex="MALE">
             <persName>Стрельский/Полковник</persName>
+            <persName type="variant">Стрельский</persName>
+            <persName type="variant">Полковник</persName>
           </person>
           <person xml:id="grafinja" sex="FEMALE">
             <persName>Графиня</persName>
@@ -64,7 +66,7 @@
             <persName>Слуга</persName>
           </person>
           <person xml:id="drobinkin" sex="MALE">
-            <persName>Полковник</persName>
+            <persName>Дробинкин</persName>
           </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#drobinkin" passive="#grafinja"/>
@@ -111,14 +113,11 @@
       </docTitle>
       <castList>
         <head>Действующие лица</head>
-        <castItem>ГРАФИНЯ <lb/>
-          <emph>богатая вдова</emph>.</castItem>
+        <castItem>ГРАФИНЯ <emph>богатая вдова</emph>.</castItem>
         <castItem>МИСХОРИН.</castItem>
         <castItem>НАДИМОВ.</castItem>
-        <castItem>СТРЕЛЬСКИЙ <lb/>
-          <emph>отставной полковник</emph>.</castItem>
-        <castItem>ДРОБИНКИН <lb/>
-          <emph>сосед графини</emph>.</castItem>
+        <castItem>СТРЕЛЬСКИЙ <emph>отставной полковник</emph>.</castItem>
+        <castItem>ДРОБИНКИН <emph>сосед графини</emph>.</castItem>
         <castItem>СЛУГА.</castItem>
       </castList>
       <set>
@@ -1705,9 +1704,10 @@
         </sp>
         <sp who="#drobinkin">
           <speaker>Дробинкин.</speaker>
+          <note place="foot"><key>а la framboise</key><value>Под мухой (фр.).</value></note>
           <p>Да мне что... Не женихом же быть. Мне деток только бы пристроить. Ну, стал ли бы я о
             себе думать?.. На что оно мне, богатство-то?.. Века моего немного; сам я, как видите, не
-            избалован. Затей таких, чтобы в картишки или за галстук а la framboise<note place="foot">Под мухой (фр.).</note>, за мною, ваше сиятельство, и смолоду не бывало. Что деньги?
+            избалован. Затей таких, чтобы в картишки или за галстук а la framboise, за мною, ваше сиятельство, и смолоду не бывало. Что деньги?
             суета, прах! Да вот, хотя бы в настоящем случае, верьте чести, ни душою, ни телом не
             виноват, истинно не виноват! Ну, посмел ли бы я против вас, ваше сиятельство? Да если бы
             вы знали, что про вас-то, про нашу голубушку, говорят в губернии!.. Так и говорят, что

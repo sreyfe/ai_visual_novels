@@ -77,6 +77,7 @@
           </person>
           <person xml:id="golos_pevtsa" sex="MALE">
             <persName>Голос певца</persName>
+            <persName type="variant">Певец</persName>
             <persName xml:lang="ger">Stimme des Sängers</persName>
           </person>
           <listRelation type="personal">
@@ -181,41 +182,44 @@
           <sp who="#sluga">
             <speaker>Слуга</speaker>
             <stage>(наклоняясь вперед всем телом).</stage>
-            <p>'Celenza comanda?<note place="foot">Ваше сиятельство, звонили? (франц.)</note></p>
+            <note place="foot"><key>'Celenza comanda?</key><value>Ваше сиятельство, звонили? (франц.)</value></note>
+            <p>'Celenza comanda?</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков</speaker>
             <stage>(глядя на него сбоку).</stage>
+            <note place="foot"><key>Пуркуа — не вене ву па тудсюит?</key><value>Почему вы не приходите сразу? (франц.)</value></note>
             <p>Эка зубы скалит! — странное дело! все эти слуги в гостиницах друг на друга похожи — в
               Париже, в Германии, здесь, везде… Точно одно племя… <stage>(К слуге.)</stage> Пуркуа —
-              не вене ву па тудсюит?<note place="foot">Почему вы не приходите сразу? (франц.)</note>
+              не вене ву па тудсюит?
               <stage>(Аваков не совсем чисто говорит по-французски.)</stage></p>
           </sp>
           <sp who="#sluga">
             <speaker>Слуга</speaker>
             <stage>(улыбаясь и вертя салфеткой).</stage>
-            <p>'Celenza, jé… moua… héhé…<note place="foot">Ваше сиятельство, я… я…
-              (франц.)</note></p>
+            <note place="foot"><key>'Celenza, jé… moua… héhé…</key><value>Ваше сиятельство, я… я… (франц.)</value></note>
+            <p>'Celenza, jé… moua… héhé…</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков.</speaker>
-            <p>У э…у сон се дам?<note place="foot">Где дамы? (франц.)</note></p>
+            <note place="foot"><key>У э…у сон се дам?</key><value>Где дамы? (франц.)</value></note>
+            <p>У э…у сон се дам?</p>
           </sp>
           <sp who="#sluga">
             <speaker>Слуга.</speaker>
+            <note place="foot"><key>Soun sourti… per passeggiare… pour proumené… Madama la Countessa, aveco la Signorina e aveco Moussu lou Counte — l'otro Counte Rousso…</key><value>Они вышли… чтобы прогуляться… Госпожа графиня вместе с барышней и с господином графом другим русским графом… (исковерк. франц.)</value></note>
             <p>Soun sourti… per passeggiare… pour proumené… Madama la Countessa, aveco la Signorina
-              e aveco Moussu lou Counte — l'otro Counte Rousso…<note place="foot">Они вышли… чтобы
-                прогуляться… Госпожа графиня вместе с барышней и с господином графом другим русским
-                графом… (исковерк. франц.)</note></p>
+              e aveco Moussu lou Counte — l'otro Counte Rousso…</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков.</speaker>
-            <p>Се биень — се биень… Аллé.<note place="foot">Хорошо, хорошо… Идите.
-              (франц.)</note></p>
+            <note place="foot"><key>Се биень — се биень… Аллé.</key><value>Хорошо, хорошо… Идите. (франц.)</value></note>
+            <p>Се биень — се биень… Аллé.</p>
           </sp>
           <sp who="#sluga">
             <speaker>Слуга.</speaker>
-            <p>Si signore.<note place="foot">Да, синьор. (итал.)</note>
+            <note place="foot"><key>Si signore.</key><value>Да, синьор. (итал.)</value></note>
+            <p>Si signore.
               <stage>(Выскакивает вон.)</stage></p>
           </sp>
         </div>
@@ -229,14 +233,15 @@
                 <stage>(Опять ходит по комнате.)</stage> Господи боже мой! когда-то это она
               успокоится, когда-то ей наскучат, наконец, все эти новые лица…</p>
           </sp>
+          <note place="foot"><key>à l'enfant</key><value>Детский. (франц.)</value></note>
           <stage>Дверь из передней наполовину отворяется, и выказывается M-r Рореlin — на нем
-            курточка с большими клетками, галстучек à l'enfant.<note place="foot">Детский.
-              (франц.)</note> — Он в бороде и длинных волосах.</stage>
+            курточка с большими клетками, галстучек à l'enfant. — Он в бороде и длинных волосах.</stage>
         </div>
         <div type="configuration">
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin.</speaker>
-            <p>Pardon, Monsieur...<note place="foot">Простите, сударь… (франц.)</note></p>
+            <note place="foot"><key>Pardon, Monsieur...</key><value>Простите, сударь… (франц.)</value></note>
+            <p>Pardon, Monsieur...</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков</speaker>
@@ -246,29 +251,32 @@
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin</speaker>
             <stage>(все еще не входя).</stage>
-            <p>Pardon, c'est ici que demeure Madame la comtesse de Geletska?<note place="foot">Простите, здесь живет госпожа графиня Елецкая? (франц.)</note></p>
+            <note place="foot"><key>Pardon, c'est ici que demeure Madame la comtesse de Geletska?</key><value>Простите, здесь живет госпожа графиня Елецкая? (франц.)</value></note>
+            <p>Pardon, c'est ici que demeure Madame la comtesse de Geletska?</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков</speaker>
             <stage>(помолчав).</stage>
-            <p>Вуй — кеске ву вулe?<note place="foot">Да что вы хотите? (франц.)</note></p>
+            <note place="foot"><key>Вуй — кеске ву вулe?</key><value>Да что вы хотите? (франц.)</value></note>
+            <p>Вуй — кеске ву вулe?</p>
           </sp>
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin</speaker>
             <stage>(входит. У него небольшой портфель подмышкой).</stage>
-            <p>Et… pardon… Madame est-elle à la maison?<note place="foot">Простите… она дома?
-                (франц.)</note></p>
+            <note place="foot"><key>Et… pardon… Madame est-elle à la maison?</key><value>Простите… она дома? (франц.)</value></note>
+            <p>Et… pardon… Madame est-elle à la maison?</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков</speaker>
             <stage>(все не двигаясь с места).</stage>
-            <p>Нон. Кеске ву вулe?<note place="foot">Нет. Что вы хотите? (франц.)</note></p>
+            <note place="foot"><key>Нон. Кеске ву вулe?</key><value>Нет. Что вы хотите? (франц.)</value></note>
+            <p>Нон. Кеске ву вулe?</p>
           </sp>
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin.</speaker>
+            <note place="foot"><key>Ah! que c'est dommage! — Pardon, Monsieur, vous ne savez pas — reviendra-t-elle bientôt?</key><value>Ах, как это досадно! Простите. Сударь, вы не знаете она скоро вернется? (франц.)</value></note>
             <p>Ah! que c'est dommage! — Pardon, Monsieur, vous ne savez pas — reviendra-t-elle
-                bientôt?<note place="foot">Ах, как это досадно! Простите. Сударь, вы не знаете она
-                скоро вернется? (франц.)</note></p>
+                bientôt?</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков.</speaker>
@@ -277,8 +285,8 @@
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin</speaker>
             <stage>(поглядев на него с некоторым изумленьем).</stage>
-            <p>Pardon, Monsieur… C'est à Monsieur le comte que j'ai l'honneur de parler?<note place="foot">Простите, сударь… Я имею честь говорить с господином графом?
-                (франц.)</note></p>
+            <note place="foot"><key>Pardon, Monsieur… C'est à Monsieur le comte que j'ai l'honneur de parler?</key><value>Простите, сударь… Я имею честь говорить с господином графом? (франц.)</value></note>
+            <p>Pardon, Monsieur… C'est à Monsieur le comte que j'ai l'honneur de parler?</p>
           </sp>
           <sp who="#avakov">
             <speaker>Аваков.</speaker>
@@ -286,14 +294,13 @@
           </sp>
           <sp who="#mr_popelin">
             <speaker>M-r Рореlin.</speaker>
+            <note place="foot"><key>Et bien, Monsieur, vous aurez la complaisance de dire à Madame que M-r Popelin, artiste peintre, est venu la voir — d'aprés sa propre invitation et qu'il regrette beaucoup…</key><value>Сударь, будьте так любезны сказать мадам, что господин Поплен, артист-художник, пришел к ней, по ее собственному приглашению, и что он очень сожалеет… (франц.)</value></note>
+            <note place="foot"><key>Monsieur, j'ai l'honneur de vous saluer.</key><value>Сударь, честь имею кланяться. (франц.)</value></note>
             <p>Ah! <stage>(С некоторым достоинством.)</stage> Et bien, Monsieur, vous aurez la
               complaisance de dire à Madame que M-r Popelin, artiste peintre, est venu la voir —
-              d'aprés sa propre invitation et qu'il regrette beaucoup…<note place="foot">Сударь,
-                будьте так любезны сказать мадам, что господин Поплен, артист-художник, пришел к
-                ней, по ее собственному приглашению, и что он очень сожалеет… (франц.)</note>
+              d'aprés sa propre invitation et qu'il regrette beaucoup…
               <stage>(Видя, что Аваков делает нетерпеливые движения.)</stage> Monsieur, j'ai
-              l'honneur de vous saluer.<note place="foot">Сударь, честь имею кланяться.
-                (франц.)</note>
+              l'honneur de vous saluer.
               <stage>(Надевает шляпу и уходит.)</stage></p>
           </sp>
         </div>
@@ -433,7 +440,8 @@
           </sp>
           <sp who="#marija_petrovna">
             <speaker>Мария Петровна.</speaker>
-            <p>Ма tante?<note place="foot">Тетушка? (франц.)</note></p>
+            <note place="foot"><key>Ма tante?</key><value>Тетушка? (франц.)</value></note>
+            <p>Ма tante?</p>
           </sp>
           <sp who="#nadezhda_pavlovna">
             <speaker>Надежда Павловна.</speaker>
@@ -847,9 +855,9 @@
           </sp>
           <sp who="#nadezhda_pavlovna">
             <speaker>Надежда Павловна.</speaker>
+            <note place="foot"><key>Apportez des lumières.</key><value>Зажгите свет. (франц.)</value></note>
             <p>А вы здесь останетесь… Да, что это так темно здесь? <stage>(Звонит. Входит
-                слуга.)</stage> Apportez des lumières.<note place="foot">Зажгите свет.
-                (франц.)</note>
+                слуга.)</stage> Apportez des lumières.
               <stage>(Слуга выходит.)</stage> Вы можете, если хотите, читать? Впрочем, я вас
               оставляю в обществе Маши. Вы, кажется, еще не наговорились с ней… Или, может быть, вы
               опять пойдете отыскивать M-r Popelin? <stage>(Бельский глядит на нее с
@@ -1072,8 +1080,8 @@
             браво, браво…</stage>
           <sp who="#golos_pevtsa">
             <speaker>Голос певца.</speaker>
-            <p>Qualche cosa рег il musico, signore…<note place="foot">Подайте что-нибудь музыканту…
-                (итал.)</note></p>
+            <note place="foot"><key>Qualche cosa рег il musico, signore…</key><value>Подайте что-нибудь музыканту… (итал.)</value></note>
+            <p>Qualche cosa рег il musico, signore…</p>
           </sp>
           <sp who="#marija_petrovna">
             <speaker>Мария Петровна</speaker>
@@ -1087,8 +1095,8 @@
           </sp>
           <sp who="#golos_pevtsa">
             <speaker>Голос певца.</speaker>
-            <p>Grazie, mille grazie…<note place="foot">Благодарю, тысячу раз благодарю…
-                (итал.)</note></p>
+            <note place="foot"><key>Grazie, mille grazie…</key><value>Благодарю, тысячу раз благодарю… (итал.)</value></note>
+            <p>Grazie, mille grazie…</p>
           </sp>
           <sp who="#marija_petrovna">
             <speaker>Мария Петровна</speaker>
@@ -1111,7 +1119,8 @@
           </sp>
           <sp who="#golos_pevtsa">
             <speaker>Голос певца.</speaker>
-            <p>Ah, que bella ragazza!<note place="foot">Ах, какая красавица (итал.)</note></p>
+            <note place="foot"><key>Ah, que bella ragazza</key><value>Ах, какая красавица (итал.)</value></note>
+            <p>Ah, que bella ragazza!</p>
           </sp>
           <sp who="#marija_petrovna">
             <speaker>Мария Петровна</speaker>
@@ -1273,11 +1282,13 @@
           <sp who="#marija_petrovna">
             <speaker>Мария Петровна</speaker>
             <stage>(подходя к Надежде Павловне).</stage>
-            <p>Chère tante?<note place="foot">Дорогая тетушка… (франц.)</note></p>
+            <note place="foot"><key>Chère tante</key><value>Дорогая тетушка… (франц.)</value></note>
+            <p>Chère tante?</p>
           </sp>
           <sp who="#nadezhda_pavlovna">
             <speaker>Надежда Павловна.</speaker>
-            <p>Хорошо, хорошо. <stage>(Треплет ее по щеке.)</stage> Vous êtes fine, ma nièce…<note place="foot">Вы хитры, моя племянница… (франц.)</note>
+            <note place="foot"><key>Vous êtes fine, ma nièce…</key><value>Вы хитры, моя племянница… (франц.)</value></note>
+            <p>Хорошо, хорошо. <stage>(Треплет ее по щеке.)</stage> Vous êtes fine, ma nièce…
               <stage>(Обращаясь к Авакову.)</stage> А не правда ли, Сергей Платоныч, как ваши
               догадки были верны… и безошибочны…</p>
           </sp>

@@ -301,9 +301,15 @@
         <castItem>Жена Фомы.</castItem>
         <castItem>Рабочий на носилках.</castItem>
         <castItem>Подросток.</castItem>
-        <castItem>Комсомольцы.</castItem>
-        <castItem>Рабочие.</castItem>
-        <castItem>Жены-работницы.</castItem>
+        <castGroup>
+          <roleDesc>Комсомольцы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Рабочие.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Жены-работницы.</roleDesc>
+        </castGroup>
         <castItem>Курьер.</castItem>
       </castList>
       <set>

@@ -93,6 +93,9 @@
           <person xml:id="karpachov" sex="MALE">
             <persName>Карпачов</persName>
           </person>
+          <person xml:id="vaska" sex="MALE">
+            <persName>Васька</persName>
+          </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#kuzovkin" passive="#olga #eletskij"/>
             <relation name="associated_with" active="#tropachev" passive="#olga #eletskij"/>
@@ -144,10 +147,10 @@
   </standOff>
   <text>
     <front>
-      <div type="front">
-        <head>Нахлебник</head>
-        <p>Комедия в двух действиях</p>
-      </div>
+      <docTitle>
+        <titlePart type="main">Нахлебник</titlePart>
+        <titlePart type="sub">Комедия в двух действиях</titlePart>
+      </docTitle>
       <castList>
         <head>Действующие лица</head>
         <castItem>Павел Николаевич Елецкий, коллежский советник, 32 лет. Петербургский чиновник;
@@ -647,7 +650,12 @@
         <sp who="#kuzovkin">
           <speaker>Кузовкин</speaker>
           <stage>(в большом волненьи).</stage>
-          <p>Едут? Едут? Васька <stage>(кричит)</stage>. Махальный знак подал — едут!</p>
+          <p>Едут? Едут?</p>
+        </sp>
+        <sp who="#vaska">
+          <speaker>Васька</speaker>
+          <stage>(кричит).</stage>
+          <p>Махальный знак подал — едут!</p>
         </sp>
         <stage>Из гостиной раздается голос Трембинского: «Что такое? господа — господа едут?» Он
           вместе с Петром выбегает из гостиной.</stage>
@@ -4206,7 +4214,7 @@
           <p>О помилуйте! Вы слишком добры…</p>
         </sp>
         <stage>Занавес падает.</stage>
-        <p>1849 г.</p>
+        <stage>1849 г.</stage>
       </div>
     </body>
   </text>

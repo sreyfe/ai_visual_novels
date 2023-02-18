@@ -78,6 +78,12 @@
           <person xml:id="arina_fedotovna" sex="FEMALE">
             <persName>Арина Федотовна</persName>
           </person>
+          <person xml:id="malchik" sex="MALE">
+            <persName>Мальчик</persName>
+          </person>
+          <person xml:id="devushka" sex="FEMALE">
+            <persName>Девушка</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#rusakov" passive="#avdotya_maksimovna"/>
             <relation name="siblings" active="#arina_fedotovna" passive="#rusakov"/>
@@ -137,7 +143,8 @@
         <castItem>Андрей Андреич Баранчевский, чиновник.</castItem>
         <castItem>Степан, слуга Вихорева.</castItem>
         <castItem>Половой в гостинице.</castItem>
-        <castItem>Мальчик и девушка (без речей).</castItem>
+        <castItem>Мальчик.</castItem>
+        <castItem>и девушка (без речей).</castItem>
       </castList>
       <set>
         <p>Действие происходит в уездном городе Черемухине.</p>
@@ -760,10 +767,11 @@
           </sp>
           <sp who="#vihorev">
             <speaker>Вихорев.</speaker>
+            <note type="foot"><key>a la lettre, mon cher</key><value>Буквально, мой милый.</value></note>
             <p>Баранчевский! Да ты великий человек! Счастливчик просто! А мне так вот нет счастья. Я
               было в Москве тоже присватался за одну -- куш порядочный; влюбилась, сдуру, ужас как,
               просто средств нет никаких, да не отдают ни за какие благополучия. Я так, сяк, увезти
-              хотел, да с ней-то не столкуешь -- дура ужаснейшая! Дура a la lettre, mon cher,<note place="foot">Буквально, мой милый.</note> такое несчастие!</p>
+              хотел, да с ней-то не столкуешь -- дура ужаснейшая! Дура a la lettre, mon cher, такое несчастие!</p>
           </sp>
           <sp who="#baranchevskij">
             <speaker>Баранчевский.</speaker>

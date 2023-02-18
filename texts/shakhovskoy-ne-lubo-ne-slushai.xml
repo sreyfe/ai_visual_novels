@@ -542,9 +542,10 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Так, вузаве резон<note place="foot">Vous avez raison - вы правы (фр.). - Ред.</note>, и
-            мы; мон шер<note place="foot">Mon cher - мой дорогой (фр.). - Ред.</note>, мон
-              фреры<note place="foot">Mon frer - мой брат (фр.). - Ред.</note>.</l>
+          <note place="foot"><key>вузаве резон</key><value>Vous avez raison - вы правы (фр.). - Ред.</value></note>
+          <note place="foot"><key>мон шер</key><value>Mon cher - мой дорогой (фр.). - Ред.</value></note>
+          <note place="foot"><key>мон фреры</key><value>Mon frer - мой брат (фр.). - Ред.</value></note>
+          <l>Так, вузаве резон, и мы; мон шер, мон фреры.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкий</speaker>
@@ -553,11 +554,11 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <l>И в Петербурге нас не скоро перечтешь,</l>
-          <l>Да ваши, мон кузень<note place="foot">Mon cousin - мой кузен (фр.). - Ред.</note>,
-            пустились в гран манеры<note place="foot">Grands maniers - хорошие манеры (фр.). -
-              Ред.</note></l>
-          <l>А мы, ан неглиже<note place="foot">En negligee-по-домашнему (фр.). - Ред.</note>, в
-            костюме цеховом.</l>
+          <note place="foot"><key>мон кузень</key><value>Mon cousin - мой кузен (фр.). - Ред.</value></note>
+          <note place="foot"><key>гран манеры</key><value>Grands maniers - хорошие манеры (фр.). - Ред.</value></note>
+          <l>Да ваши, мон кузень, пустились в гран манеры</l>
+          <note place="foot"><key>ан неглиже</key><value>En negligee-по-домашнему (фр.). - Ред.</value></note>
+          <l>А мы, ан неглиже, в костюме цеховом.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкин</speaker>
@@ -566,8 +567,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Туцвит<note place="foot">Tout de suite - тотчас же (фр.). - Ред.</note> готов: хлебнул
-            и закусил.</l>
+          <note place="foot"><key>Туцвит</key><value>Tout de suite - тотчас же (фр.). - Ред.</value></note>
+          <l>Туцвит готов: хлебнул и закусил.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкин</speaker>
@@ -576,7 +577,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Аллон<note place="foot">Allons - пойдемте (фр.). - Ред.</note>.</l>
+          <note place="foot"><key>Аллон</key><value>Allons - пойдемте (фр.). - Ред.</value></note>
+          <l>Аллон.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкин</speaker>
@@ -604,8 +606,8 @@
         <stage>Дашенька и Митяй.</stage>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Ну, что, ма сер кадет!<note place="foot">Ma soeur cadette - моя младшая сестра (фр.). -
-              Ред.</note> каков сокол залетный?</l>
+          <note place="foot"><key>ма сер кадет</key><value>Ma soeur cadette - моя младшая сестра (фр.). - Ред.</value></note>
+          <l>Ну, что, ма сер кадет! каков сокол залетный?</l>
         </sp>
         <sp who="#dashenka">
           <speaker>Дашенька</speaker>
@@ -622,8 +624,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Его премье лаке<note place="foot">Premier laqais - старший лакей (фр.). -
-            Ред.</note></l>
+          <note place="foot"><key>премье лаке</key><value>Premier laqais - старший лакей (фр.). - Ред.</value></note>
+          <l>Его премье лаке</l>
           <l>Филат, детина словохотный,</l>
           <l>Так, знаешь, нам с руки.</l>
           <l>Я Ваньку попросил таскать их сундуки,</l>
@@ -638,20 +640,20 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>О! я туцвит<note place="foot">Tout de suite - тотчас же (фр.). - Ред.</note>
-            смекнул,</l>
+          <note place="foot"><key>туцвит</key><value>Tout de suite - тотчас же (фр.). - Ред.</value></note>
+          <l>О! я туцвит смекнул,</l>
           <l>Что с барином они наследство промотали,</l>
-          <l>Что наш мон шер неве<note place="foot">Mon cher neveu - мой дорогой племянник (фр.). -
-              Ред.</note> от должников лизнул.</l>
+          <note place="foot"><key>мон шер неве</key><value>Mon cher neveu - мой дорогой племянник (фр.). - Ред.</value></note>
+          <l>Что наш мон шер неве от должников лизнул.</l>
           <l>И чтоб они учтиво не сказали:</l>
-          <l>Аллон, мон анж<note place="foot">Allon mon ange - пойдемте, мой ангел (фр.). -
-              Ред.</note>, в тюрьму, -</l>
+          <note place="foot"><key>Аллон, мон анж</key><value>Allon mon ange - пойдемте, мой ангел (фр.). - Ред.</value></note>
+          <l>Аллон, мон анж, в тюрьму, -</l>
           <l>Так вздумалось ему</l>
           <l>Отделаться вояжем.</l>
           <l>И у него теперь, ты видишь, в голове,</l>
           <l>Чтоб в матушке Москве</l>
-          <l>Подняться на ноги а бон креди марьяжем<note place="foot">A bon credit mariage -
-              выгодная женитьба (фр.). - Ред.</note>.</l>
+          <note place="foot"><key>а бон креди марьяжем</key><value>A bon credit mariage - выгодная женитьба (фр.). - Ред.</value></note>
+          <l>Подняться на ноги а бон креди марьяжем.</l>
         </sp>
         <sp who="#dashenka">
           <speaker>Дашенька</speaker>
@@ -667,8 +669,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Шарман<note place="foot">Charmant - очаровательный (фр.). - Ред.</note> мусье!.. его-то
-            нам и надо;</l>
+          <note place="foot"><key>Шарман</key><value>Charmant - очаровательный (фр.). - Ред.</value></note>
+          <l>Шарман мусье!.. его-то нам и надо;</l>
           <l>Он будет лгать,</l>
           <l>Я стану полыгать,</l>
           <l>А тетушка всему, что хочешь, верить рада...</l>
@@ -683,12 +685,12 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <stage>(глядя в окошко)</stage>
-          <l>Ага! наш фрер<note place="foot">Frere - брат (фр.). - Ред.</note> уж прикатил
-            назад,</l>
+          <note place="foot"><key>фрер</key><value>Frere - брат (фр.). - Ред.</value></note>
+          <l>Ага! наш фрер уж прикатил назад,</l>
           <l>К княгине, видно, он заехал невпопад.</l>
           <l>Гей, вы, голубчики!.. лакейчики!.. дворецкий!</l>
-          <l>Аллон, маршир<note place="foot">Allons, marschieren - идемте (фр., нем.). - Ред.</note>
-            все на крыльцо,</l>
+          <note place="foot"><key>Аллон, маршир</key><value>Allons, marschieren - идемте (фр., нем.). - Ред.</value></note>
+          <l>Аллон, маршир все на крыльцо,</l>
           <l>Наш фрер мусье Мезецкий</l>
           <l>Явился налицо,</l>
           <l>А я проспал его, так встречу за подъездом.</l>
@@ -708,13 +710,14 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <stage>(встречая Мезецкого)</stage>
-          <l>С масерским<note place="foot">Ma soeur - сестра (фр.). - Ред.</note> ангелом, с
-              невеновским<note place="foot">Neveu - племянник (фр.). - Ред.</note> приездом:</l>
-          <l>Мон шер!.. мон фрер!.. мон анж!..<note place="foot">Mon cher! mon frere! mon ange! -
-              Мой дорогой! мой брат! мой ангел! (фр.). - Ред.</note></l>
+          <note place="foot"><key>масерским</key><value>Ma soeur - сестра (фр.). - Ред.</value></note>
+          <note place="foot"><key>невеновским</key><value>Neveu - племянник (фр.). - Ред.</value></note>
+          <l>С масерским ангелом, с невеновским приездом:</l>
+          <note place="foot"><key>Мон шер!.. мон фрер!.. мон анж!..</key><value>Mon cher! mon frere! mon ange! - Мой дорогой! мой брат! мой ангел! (фр.). - Ред.</value></note>
+          <l>Мон шер!.. мон фрер!.. мон анж!..</l>
           <l>Тебя формально поздравляю:</l>
-          <l>Бон жур и бон вояж.<note place="foot">Bon jour, bon voyage - здравствуйте, счастливого
-              пути (фр.). - Ред.</note></l>
+          <note place="foot"><key>Бон жур и бон вояж</key><value>Bon jour, bon voyage - здравствуйте, счастливого пути (фр.). - Ред.</value></note>
+          <l>Бон жур и бон вояж.</l>
         </sp>
         <sp who="#mezetskij">
           <speaker>Мезецкий</speaker>
@@ -1672,8 +1675,8 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <stage>(вбегая)</stage>
-          <l>Прочь, прочь, штафет<note place="foot">Estafet - эстафета (нем.). - Ред.</note>
-            катит.</l>
+          <note place="foot"><key>штафет</key><value>Estafet - эстафета (нем.). - Ред.</value></note>
+          <l>Прочь, прочь, штафет катит.</l>
           <stage>(Подает письмо Мезецкому.)</stage>
         </sp>
         <sp who="#mezetskij">
@@ -1698,8 +1701,8 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <l>Рассыпалась в расспросах;</l>
-          <l>А наш мон шер неве<note place="foot">Mon cher neveux - мой дорогой племянник (фр.). -
-              Ред.</note> так льется, как река,</l>
+          <note place="foot"><key>мон шер неве</key><value>Mon cher neveux - мой дорогой племянник (фр.). - Ред.</value></note>
+          <l>А наш мон шер неве так льется, как река,</l>
           <l>И подпускает ей турусы на колесах.</l>
         </sp>
         <sp who="#mezetskij">
@@ -1826,9 +1829,10 @@
           <speaker>Митяй</speaker>
           <l>Не верь ему, ма сер;</l>
           <l>То ль дело наш неве: уж тот, что слово скажет,</l>
-          <l>То пур тужур<note place="foot">Pour toujour - навсегда (фр.). - Ред.</note> обяжет.</l>
-          <l>Он давеча мне посулил в презан<note place="foot">Present - подарок (фр.). -
-            Ред.</note></l>
+          <note place="foot"><key>пур тужур</key><value>Pour toujour - навсегда (фр.). - Ред.</value></note>
+          <l>То пур тужур обяжет.</l>
+          <note place="foot"><key>презан</key><value>Present - подарок (фр.). - Ред.</value></note>
+          <l>Он давеча мне посулил в презан</l>
           <l>На праздничный кафтан</l>
           <l>Заморского сукна не толще паутины.</l>
         </sp>
@@ -2006,8 +2010,8 @@
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
           <stage>(Дашеньке)</stage>
-          <l>Адье, мон шер<note place="foot">Adieu, mon cher - прощай, мой дорогой (фр.). -
-              Ред.</note> кафтан.</l>
+          <note place="foot"><key>Адье, мон шер</key><value>Adieu, mon cher - прощай, мой дорогой (фр.). - Ред.</value></note>
+          <l>Адье, мон шер кафтан.</l>
         </sp>
         <sp who="#dashenka">
           <speaker>Дашенька</speaker>
@@ -2057,8 +2061,8 @@
           <l>А радость та, чтоб с вами быть скорее.</l>
           <l>Ах! как досадно мне,</l>
           <l>Что удовольствия я вам не мог доставить</l>
-          <l>Для ваших именин, - ведь, к счастью ж, дежене<note place="foot">Dejeuner - сервиз для
-              завтрака (фр.). - Ред.</note></l>
+          <note place="foot"><key>дежене</key><value>Dejeuner - сервиз для завтрака (фр.). - Ред.</value></note>
+          <l>Для ваших именин, - ведь, к счастью ж, дежене</l>
           <l>На долгих выдумал дворецкий мой отправить,</l>
           <l>Люблю его за то, что осторожен он.</l>
         </sp>
@@ -2070,8 +2074,8 @@
           <speaker>Зарницкин</speaker>
           <l>На семьдесят персон</l>
           <l>Фарфора щегольского,</l>
-          <l>С гербами вашими; а цветом... коклико.<note place="foot">Coquelicot - мак (фр.). -
-              Ред.</note></l>
+          <note place="foot"><key>коклико</key><value>Coquelicot - мак (фр.). - Ред.</value></note>
+          <l>С гербами вашими; а цветом... коклико.</l>
         </sp>
         <sp who="#mezetskij">
           <speaker>Мезецкий</speaker>
@@ -2201,8 +2205,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Так, ву заве резон,<note place="foot">Vous avez raison - вы правы (фр.). - Ред.</note>
-            да мать-то умерла.</l>
+          <note place="foot"><key>ву заве резон</key><value>Vous avez raison - вы правы (фр.). - Ред.</value></note>
+          <l>Так, ву заве резон, да мать-то умерла.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкин</speaker>
@@ -2256,8 +2260,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Да и со мной, мон шер, ком си ком са<note place="foot">Mon cher, comme ci comme сa -
-              мой дорогой, кое-как (фр). - Ред.</note> бывало</l>
+          <note place="foot"><key>мон шер, ком си ком са</key><value>Mon cher, comme ci comme сa - мой дорогой, кое-как (фр). - Ред.</value></note>
+          <l>Да и со мной, мон шер, ком си ком са бывало</l>
           <l>Как через край хвачу.</l>
         </sp>
         <sp who="#handrina">
@@ -2267,8 +2271,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Тре бьен, ма сер<note place="foot">Tres bien, ma soeur - очень хорошо, сестрица (фр.).-
-              Ред.</note> молчу.</l>
+          <note place="foot"><key>Тре бьен, ма сер</key><value>Tres bien, ma soeur - очень хорошо, сестрица (фр.).- Ред.</value></note>
+          <l>Тре бьен, ма сер молчу.</l>
         </sp>
         <sp who="#mezetskij">
           <speaker>Мезецкий</speaker>
@@ -2670,8 +2674,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Ну, вот тебе бон жур!<note place="foot">Bon jour - здравствуйте (фр.). -
-            Ред.</note></l>
+          <note place="foot"><key>бон жур</key><value>Bon jour - здравствуйте (фр.). - Ред.</value></note>
+          <l>Ну, вот тебе бон жур!</l>
         </sp>
         <sp who="#knjaginja">
           <speaker>Княгиня</speaker>
@@ -2853,8 +2857,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>А вот, мон шер<note place="foot">Mon cher - мой дорогой (фр.). - Ред.</note>,
-            гадаю,</l>
+          <note place="foot"><key>мон шер</key><value>Mon cher - мой дорогой (фр.). - Ред.</value></note>
+          <l>А вот, мон шер, гадаю,</l>
           <l>Уедешь ты иль нет?</l>
         </sp>
         <sp who="#zarnitskin">
@@ -2864,8 +2868,8 @@
         </sp>
         <sp who="#mitjaj">
           <speaker>Митяй</speaker>
-          <l>Туцвит, мон анж,<note place="foot">Tout de suite, mon ange - сейчас, мой ангел (фр.). -
-              Ред.</note> готов, что хочешь прикажи.</l>
+          <note place="foot"><key>Туцвит, мон анж</key><value>Tout de suite, mon ange - сейчас, мой ангел (фр.). - Ред.</value></note>
+          <l>Туцвит, мон анж, готов, что хочешь прикажи.</l>
         </sp>
         <sp who="#zarnitskin">
           <speaker>Зарницкин</speaker>

@@ -102,14 +102,17 @@
           </person>
           <person xml:id="pervyj_meshchanin" sex="MALE">
             <persName>1-й мещанин</persName>
+            <persName type="variant">1-й</persName>
             <persName xml:lang="ger">Erster Kleinbürger</persName>
           </person>
           <person xml:id="vtoroj_meshchanin" sex="MALE">
             <persName>2-й мещанин</persName>
+            <persName type="variant">2-й</persName>
             <persName xml:lang="ger">Zweiter Kleinbürger</persName>
           </person>
           <person xml:id="tretij_meshchanin" sex="MALE">
             <persName>3-й мещанин</persName>
+            <persName type="variant">3-й</persName>
             <persName xml:lang="ger">Dritter Kleinbürger</persName>
           </person>
           <person xml:id="soldat" sex="MALE">
@@ -131,6 +134,9 @@
           <person xml:id="sluga" sex="MALE">
             <persName>Слуга</persName>
             <persName xml:lang="ger">Der Diener (IV/1/2)</persName>
+          </person>
+          <person xml:id="devushka" sex="FEMALE">
+            <persName>Девушка</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#kuroslepov" passive="#parasha"/>
@@ -1514,7 +1520,9 @@
             городничего.</castItem>
           <castItem>Жигунов, будочник.</castItem>
           <castItem>Девушка.</castItem>
-          <castItem>Рабочие Курослепова.</castItem>
+          <castGroup>
+            <roleDesc>Рабочие Курослепова.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Декорация первого действия. 10-й час. К концу действия на сцене темно.</stage>
         <div type="scene">
@@ -2813,8 +2821,12 @@
             <castItem>3-й</castItem>
             <roleDesc>Мещане.</roleDesc>
           </castGroup>
-          <castItem>Гребцы, песенники, инвалидные солдаты, арестанты.</castItem>
-          <castItem>Разные люди.</castItem>
+          <castGroup>
+            <roleDesc>Гребцы, песенники, инвалидные солдаты, арестанты.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>Разные люди.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Площадь на выезде из города. Налево от зрителя городнический дом с крыльцом; направо
           арестантская, окна с железными решетками; у ворот инвалидный солдат; прямо река и
@@ -2823,12 +2835,15 @@
           <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
           <stage>Аристарх сидит на пристани, ловит рыбу на удочку. Силан подходит и молча смотрит. У
             городнического крыльца стоит куча людей.</stage>
-          <p>Аристарх <stage>(не замечая Силана.)</stage> Ишь хитрит, ишь лукавит. Погоди ж ты, я
+          <sp who="#aristarh">
+            <speaker>Аристарх</speaker>
+            <p><stage>(не замечая Силана.)</stage> Ишь хитрит, ишь лукавит. Погоди ж ты, я
             тебя перехитрю. <stage>(Вынимает удочку и поправляет.)</stage> Ты хитра, а я хитрей
             тебя; рыба хитра, а человек премудр, божьим произволением... <stage>(Закидывает
               удочку.)</stage> Человеку такая хитрость дана, что он надо всеми, иже на земле и под
             землею и в водах... Поди сюда! <stage>(Тащит удочку.)</stage> Что? Попалась?</p>
-          <stage>(Снимает рыбу с крючка и сажает в садок.)</stage>
+            <stage>(Снимает рыбу с крючка и сажает в садок.)</stage>
+          </sp>
           <sp who="#silan">
             <speaker>Силан.</speaker>
             <p>Вот ты как ловишь-то!</p>
@@ -4141,7 +4156,9 @@
             <castItem>Курослепов.</castItem>
             <castItem>Градобоев.</castItem>
             <castItem>Вася.</castItem>
-            <castItem>Прислуга.</castItem>
+            <castGroup>
+              <roleDesc>Прислуга.</roleDesc>
+            </castGroup>
           </castList>
           <div type="scene">
             <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
@@ -4699,8 +4716,13 @@
             <castItem>Вася.</castItem>
             <castItem>Параша.</castItem>
             <castItem>Гаврило.</castItem>
-            <castItem>Люди Хлынова.</castItem>
-            <castItem>Наркис и прохожие люди.</castItem>
+            <castGroup>
+              <roleDesc>Люди Хлынова.</roleDesc>
+            </castGroup>
+            <castItem>Наркис</castItem>
+            <castGroup>
+              <roleDesc>и прохожие люди.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Поляна в лесу. Налево небольшой плетеный сарай для сена, у сарая, со стороны,
             обращенной к зрителям, положена доска на двух обрубках в виде скамьи; на правой стороне
@@ -5430,7 +5452,9 @@
           <castItem>Вася.</castItem>
           <castItem>Сидоренко.</castItem>
           <castItem>Жигунов.</castItem>
-          <castItem>Рабочие и будочники.</castItem>
+          <castGroup>
+            <roleDesc>Рабочие и будочники.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Декорация первого действия. 10 часов вечера.</stage>
         <div type="scene">

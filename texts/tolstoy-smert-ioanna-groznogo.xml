@@ -105,6 +105,7 @@
           </person>
           <person xml:id="ioann" sex="MALE">
             <persName>Иоанн</persName>
+            <persName type="variant">Иван Васильевич</persName>
             <persName xml:lang="ger">Ioann</persName>
           </person>
           <person xml:id="gonets" sex="MALE">
@@ -129,10 +130,12 @@
           </person>
           <person xml:id="tsaritsa_mariya_fedorovna_nagaya" sex="FEMALE" ana="http://www.wikidata.org/entity/Q151623">
             <persName>Царица Мария Федоровна</persName>
+            <persName type="variant">Царица</persName>
             <persName xml:lang="ger">Die Zarin</persName>
           </person>
           <person xml:id="mamka_tsarevicha_dmitrija" sex="FEMALE">
             <persName>Мамка царевича Дмитрия</persName>
+            <persName type="variant">Мамка царевича Димитрия</persName>
             <persName xml:lang="ger">Die Amme</persName>
           </person>
           <person xml:id="sennaja_devushka" sex="FEMALE">
@@ -253,6 +256,7 @@
           </person>
           <person xml:id="marija_godunova" sex="FEMALE">
             <persName>Мария Годунова</persName>
+            <persName type="variant">Мария Григорьевна</persName>
             <persName xml:lang="ger">Mariâ Godunova</persName>
           </person>
           <person xml:id="tsarevna_irina" sex="FEMALE">
@@ -397,24 +401,55 @@
         <castItem>Царица Мария Федоровна, из рода Нагих, седьмая жена его.</castItem>
         <castItem>Царевич Федор Иванович, сын его от первой жены.</castItem>
         <castItem>Царевна Ирина, жена Федора, сестра Бориса Годунова.</castItem>
-        <castItem>Князь Мстиславский, Захарьин-Юрьев (брат первой жены царя), Князь Шуйский,
-          Бельский, Князь Щербатый, Князь Голицын, Князь Трубецкой, Князь Сицкий, Шереметев,
-          Татищев, Салтыков, Михайло Нагой (брат царицы Марии Федоровны), Борис Годунов (шурин
-          царевича Федора) – члены Боярской думы.</castItem>
+        <castGroup>
+          <castItem>Князь Мстиславский,</castItem>
+          <castItem>Захарьин-Юрьев (брат первой жены царя),</castItem>
+          <castItem>Князь Шуйский,</castItem>
+          <castItem>Бельский,</castItem>
+          <castItem>Князь Щербатый,</castItem>
+          <castItem>Князь Голицын,</castItem>
+          <castItem>Князь Трубецкой,</castItem>
+          <castItem>Князь Сицкий,</castItem>
+          <castItem>Шереметев,</castItem>
+          <castItem>Татищев,</castItem>
+          <castItem>Салтыков,</castItem>
+          <castItem>Михайло Нагой (брат царицы Марии Федоровны),</castItem>
+          <castItem>Борис Годунов (шурин царевича Федора)</castItem>
+          <roleDesc>– члены Боярской думы.</roleDesc>
+        </castGroup>
         <castItem>Гонец из Пскова.</castItem>
         <castItem>Мария Григорьевна, жена Годунова.</castItem>
-        <castItem>Григорий Годунов (родственник Бориса), Григорий Нагой (второй брат царицы Марии
-          Федоровны) – окольничьи.</castItem>
+        <castGroup>
+          <castItem>Григорий Годунов (родственник Бориса),</castItem>
+          <castItem>Григорий Нагой (второй брат царицы Марии Федоровны)</castItem>
+          <roleDesc>– окольничьи.</roleDesc>
+        </castGroup>
         <castItem>Гарабурда, посол Стефана Батория.</castItem>
-        <castItem>Битяговский, Кикин – дворяне.</castItem>
+        <castGroup>
+          <castItem>Битяговский,</castItem>
+          <castItem>Кикин</castItem>
+          <roleDesc>– дворяне.</roleDesc>
+        </castGroup>
         <castItem>Схимник.</castItem>
         <castItem>Мамка царевича Дмитрия.</castItem>
         <castItem>Дворецкий Кремлевского дворца.</castItem>
         <castItem>Дворецкий Александровой слободы.</castItem>
         <castItem>Дворецкий Годунова.</castItem>
-        <castItem>1-й, 2-й – волхвы.</castItem>
-        <castItem>Эльмс, Якоби – врачи</castItem>
-        <castItem>1-й, 2-й – пристава.</castItem>
+        <castGroup>
+          <castItem id="pervyj_volhv">1-й,</castItem>
+          <castItem id="vtoroj_volhv">2-й</castItem>
+          <roleDesc>– волхвы.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem>Эльмс,</castItem>
+          <castItem>Якоби</castItem>
+          <roleDesc>– врачи</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem id="pervyj_pristav">1-й,</castItem>
+          <castItem id="vtoroj_pristav">2-й</castItem>
+          <roleDesc>– пристава.</roleDesc>
+        </castGroup>
         <castItem>Шут.</castItem>
         <castItem>Ключник.</castItem>
         <castItem>Стрелецкий голова.</castItem>
@@ -423,7 +458,9 @@
         <castItem>Лабазник.</castItem>
         <castItem>Сенная девушка.</castItem>
         <castItem>Слуга князя Шуйского.</castItem>
-        <castItem>Бояре, окольничьи, рынды, стрельцы, народ, скоморохи, слуги.</castItem>
+        <castGroup>
+          <roleDesc>Бояре, окольничьи, рынды, стрельцы, народ, скоморохи, слуги.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие – в Москве 1584 года.</p>

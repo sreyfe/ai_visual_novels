@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 PLAY_NAME = "test"
 MAIN_DIRECTORY = f"{PLAY_NAME}/game"
-PATH_TO_INPUT_FILE: str = "texts/ostrovsky-dmitrij-samozvanets-i-vasilij-shujskij.xml"
+PATH_TO_INPUT_FILE: str = "texts/mayakovsky-misteriya-buff.xml"
 PATH_TO_OUTPUT_FILE: str = f"{MAIN_DIRECTORY}/script.rpy"
 
 PATH_TO_IMAGES_DIRECTORY: str = f"{MAIN_DIRECTORY}/images"
@@ -51,6 +51,7 @@ CHARACTERS_NAME: str = ''  # name of the `CHARACTERS` label
 NUM_OF_CHARACTERS: int = 0  # number of castLists
 ACT: str = "Act"
 SCENE: str = "Scene"
+SUB_SCENE: str = "Subscene"
 FURTHER: str = "Further"
 
 # ACTS lists
@@ -60,6 +61,10 @@ ACT_NAMES: List[str] = []
 # SCENES lists
 SCENE_CODES: List[str] = []
 SCENE_NAMES: List[str] = []
+
+# SUB_SCENES lists
+SUB_SCENE_CODES: List[str] = []
+SUB_SCENE_NAMES: List[str] = []
 
 # COLORS
 KELLY_COLORS_HEX: List[str] = [
@@ -139,6 +144,11 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
             if elem.tag in ["persName", "name"]:
                 name = get_text(elem)
                 CHARACTER_NAME_TO_CODE[name] = pers_code
+                for property in ["фам", "имя", "отч"]:
+                    for key in get_lexemes(name, properties=[property], return_text=True):
+                        key = key.lower()
+                        if key not in CHARACTER_NAME_TO_CODE:
+                            CHARACTER_NAME_TO_CODE[key] = pers_code
                 # if not name.endswith("а"):
                 #     # adding "а" in case of an error in morphological analysis
                 #     CHARACTER_NAME_TO_CODE[name + "а"] = pers_code
@@ -192,9 +202,9 @@ def get_root_menu(indent: str = ""):
 
     indent += TAB
 
-    if CHARACTERS:
+    if CHARACTERS_NAME:
         s += f'{indent}"{{color={BLACK_COLOR}}}{CHARACTERS_NAME}{{/color}}":\n'
-        s += f'    {indent}jump {CHARACTERS}\n'
+        s += f'    {indent}jump {CHARACTERS}_1\n'
 
     num_of_pages: int = (len(ACT_CODES) - 1) // MAX_NUM_OF_VALUES_IN_LIST + 1
     for i in range(num_of_pages):
@@ -272,11 +282,12 @@ def text_splitter(func):
     def inner_func(*args, **kwargs):
         item = args[0]
 
+        s: str = ''
+
         text = re.sub(r"\s+", " ", item.text)
 
         text_parts: List[str] = get_text_parts(item, text)
 
-        s: str = ''
         for text_part in text_parts:
             inner_elem = copy(item)
             inner_elem.text = text_part
@@ -315,7 +326,7 @@ def parse_cast_item(elem, indent: str = "", notes: List = None) -> str:
     characters = elem.attrib.get("characters").split()
     identifier: str = characters[0] if characters else None
     if "id" in elem.attrib:
-        identifier = elem.attrib["id"]
+        identifier = elem.attrib["id"].lower()
 
     global IDENTIFIER
     if identifier is None:
@@ -705,14 +716,13 @@ def search_for_characters(elem, items, characters, main_character, lexemes, text
                           character_code_to_index, index_to_character_code, index_to_character_name):
     split_text_lexemes = character_name_to_lexemes(text)
 
-    for character_name, character_code in items:
-        if character_code == main_character:
-            continue
+    for text_lexemes in [split_text_lexemes, lexemes]:
+        for character_name, character_code in items:
+            if character_code == main_character:
+                continue
 
-        character_name_lexemes = character_name_to_lexemes(character_name)
+            character_name_lexemes = character_name_to_lexemes(character_name)
 
-        for text_lexemes in [lexemes, split_text_lexemes]:
-            was_break = False
             for i in range(0, len(text_lexemes) - len(character_name_lexemes) + 1):
                 if character_name_lexemes and \
                         [value.lower() for value in text_lexemes[i: i + len(character_name_lexemes)]] == \
@@ -748,11 +758,7 @@ def search_for_characters(elem, items, characters, main_character, lexemes, text
                     index_to_character_name[index] = character_name
                     characters.append(character_code)
 
-                    was_break = True
                     break
-
-            if was_break:
-                break
 
 
 def enrich_elem(elem, main_character: str = None):
@@ -814,22 +820,22 @@ def enrich_elem(elem, main_character: str = None):
     enrich_stage(elem, characters[0] if characters else main_character)
 
 
-def get_act_menu(indent: str) -> str:
+def get_menu(codes: List[str], names: List[str], indent: str) -> str:
     s: str = ""
 
-    if not SCENE_CODES:
+    if not codes:
         return s
 
     s += f"{indent}menu:\n"
 
     indent += TAB
 
-    num_of_pages: int = (len(SCENE_CODES) - 1) // MAX_NUM_OF_VALUES_IN_LIST + 1
+    num_of_pages: int = (len(codes) - 1) // MAX_NUM_OF_VALUES_IN_LIST + 1
     for i in range(num_of_pages):
         scene_code: int = 0
         for scene_num, scene_code in \
-                enumerate(SCENE_CODES[MAX_NUM_OF_VALUES_IN_LIST * i:MAX_NUM_OF_VALUES_IN_LIST * (i + 1)]):
-            s += f'{indent}"{{color={BLACK_COLOR}}}{SCENE_NAMES[MAX_NUM_OF_VALUES_IN_LIST * i + scene_num]}{{/color}}":\n'
+                enumerate(codes[MAX_NUM_OF_VALUES_IN_LIST * i:MAX_NUM_OF_VALUES_IN_LIST * (i + 1)]):
+            s += f'{indent}"{{color={BLACK_COLOR}}}{names[MAX_NUM_OF_VALUES_IN_LIST * i + scene_num]}{{/color}}":\n'
             s += f'    {indent}jump {scene_code}\n'
         if i < num_of_pages - 1:
             further_code = f'{FURTHER}_{scene_code}_{i + 1}'
@@ -844,13 +850,13 @@ def get_act_menu(indent: str) -> str:
     return s
 
 
-def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
+def parse_scene_div(scene_div, act_num: str, indent: str, scene_codes: List[str], scene_names: List[str]) -> str:
     s: str = ""
 
     global PREV_CHARACTER
     PREV_CHARACTER = None
 
-    scene_num = len(SCENE_CODES) + 1
+    scene_num = len(scene_codes) + 1
     scene_code: str = f'{ACT}_{act_num}_{SCENE}_{scene_num}'
 
     s += f'{indent}label {scene_code}:\n'
@@ -867,7 +873,7 @@ def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
 
     if not scene_div.findall("head"):
         s += f'{indent}"{{b}}{scene_name}{{/b}}"\n\n'
-        SCENE_NAMES.append(scene_name)
+        scene_names.append(scene_name)
 
     characters = []
     notes: List = []
@@ -879,7 +885,7 @@ def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
             scene_text: str = get_text(elem)
             scene_parts: List[str] = re.split(r"(?<=[.])", scene_text)
             scene_name: str = scene_parts[0]
-            SCENE_NAMES.append(scene_name)
+            scene_names.append(scene_name)
 
             elem.text = scene_name
             s += add_line(elem, characters, indent, notes)
@@ -896,22 +902,25 @@ def parse_scene_div(scene_div, act_num: int, indent: str) -> str:
 
     PREV_CHARACTER = None
 
-    SCENE_CODES.append(scene_code)
+    scene_codes.append(scene_code)
 
     return s
 
 
-def parse_act_div(act_div, indent: str) -> str:
+def parse_act_div(act_div, indent: str, scene_codes: List[str], scene_names: List[str],
+                  act_codes: List[str], act_names: List[str], act: str) -> str:
     s: str = ""
 
     global PREV_CHARACTER
     PREV_CHARACTER = None
 
-    global ACT_CODES
-    global ACT_NAMES
-    act_num = len(ACT_CODES) + 1
-    act_code: str = f'{ACT}_{act_num}'
-    ACT_CODES.append(act_code)
+    act_num: str = f'{len(ACT_CODES) + 1}' \
+        if act == ACT \
+        else f'{len(ACT_CODES) + 1}_{len(act_codes) + 1}_{len(scene_codes) + 1}'
+    act_code: str = f'{act}_{act_num}'
+
+    act_num: int = len([elem for elem in act_codes if elem.startswith(act)])
+    act_codes.append(act_code)
 
     s += f'{indent}label {act_code}:\n'
 
@@ -923,15 +932,11 @@ def parse_act_div(act_div, indent: str) -> str:
     # background
     s += show_background(act_div, indent, get_random=True)
 
-    act_name = act_div.attrib.get("type") if "type" in act_div.attrib else act_div.tag
-
-    num_of_act_names_with_the_same_name = len([name for name in ACT_NAMES if name == act_name])
-    if num_of_act_names_with_the_same_name > 1:
-        act_name += f'_{num_of_act_names_with_the_same_name}'
+    act_name = f'{act_div.attrib.get("type")}_{act_num + 1}' if act_div.attrib.get("type") else act_div.tag
 
     if not act_div.findall("head"):
         s += f'{indent}"{{b}}{act_name}{{/b}}"\n\n'
-        ACT_NAMES.append(act_name)
+        act_names.append(act_name)
 
     s_content: str = ""
 
@@ -939,46 +944,62 @@ def parse_act_div(act_div, indent: str) -> str:
     scenes: str = ''
     notes = []
 
+    was_sp_or_div: bool = False
+
     for elem in act_div:
+        if elem.tag in ["sp", "div"]:
+            was_sp_or_div = True
+
+        tmp_s = scenes if was_sp_or_div else s_content
+
         if elem.tag == "head":
             act_text: str = get_text(elem)
             act_parts: List[str] = re.split(r"(?<=[.])", act_text)
             act_name: str = act_parts[0]
-            if len(ACT_CODES) != len(ACT_NAMES):
-                ACT_NAMES.append(act_name)
+            if len(act_codes) != len(act_names):
+                act_names.append(act_name)
 
             elem.text = act_name
-            s_content += add_line(elem, characters, indent, notes)
+            tmp_s += add_line(elem, characters, indent, notes)
 
             if len(act_parts) > 1 and not (len(act_parts) == 2 and not act_parts[1]):
                 act_stage = etree.Element("stage")
                 act_stage.text = "".join(act_parts[1:]).strip()
 
-                s_content += add_stage(act_stage, [], indent, notes)
+                tmp_s += add_stage(act_stage, [], indent, notes)
+        elif elem.tag == "div" and elem.attrib["type"] == "scene":
+            tmp_s += parse_scene_div(elem, act_num, indent,
+                                     SUB_SCENE_CODES if act == SCENE else SCENE_CODES,
+                                     SUB_SCENE_NAMES if act == SCENE else SCENE_NAMES)
         elif elem.tag == "div":
-            scenes += parse_scene_div(elem, act_num, indent)
+            tmp_s += parse_act_div(elem, indent, SUB_SCENE_CODES, SUB_SCENE_NAMES, SCENE_CODES, SCENE_NAMES, SCENE)
         elif elem.tag in ["trailer", "dateline"]:
-            scenes += add_stage(elem, characters, indent, notes)
+            tmp_s += add_stage(elem, characters, indent, notes)
         elif act_div.tag == "set" and elem.tag in ["p", "l"]:  # hardcode
             elem.tag = "stage"
-            scenes += add_stage(elem, characters, indent, notes)
+            tmp_s += add_stage(elem, characters, indent, notes)
         elif elem.tag == "castList":
             scenes += parse_cast_list(elem, indent, from_tag="act")
         else:
-            s_content += parse_any(elem, characters, indent, notes)
+            tmp_s += parse_any(elem, characters, indent, notes)
 
-    s_content += get_act_menu(indent)
+        if was_sp_or_div:
+            scenes = tmp_s
+        else:
+            s_content = tmp_s
+
+    s_content += get_menu(scene_codes, scene_names, indent)
 
     s_content += f'\n{scenes}'
 
-    SCENE_CODES.clear()
-    SCENE_NAMES.clear()
+    scene_codes.clear()
+    scene_names.clear()
 
     if s_content.strip():
         s += s_content
     else:
-        ACT_CODES = ACT_CODES[:-1]
-        ACT_NAMES = ACT_NAMES[:-1]
+        del act_codes[-1]
+        del act_names[-1]
         s = ''
 
     return s
@@ -987,9 +1008,12 @@ def parse_act_div(act_div, indent: str) -> str:
 def parse_body(body, indent: str = "") -> str:
     s: str = ""
 
+    SCENE_CODES.clear()
+    SCENE_NAMES.clear()
+
     for elem in body:
         if elem.tag == "div":  # and elem.attrib["type"] in ["act", "scene"]
-            s += parse_act_div(elem, indent)
+            s += parse_act_div(elem, indent, SCENE_CODES, SCENE_NAMES, ACT_CODES, ACT_NAMES, ACT)
         else:
             s += parse_any(elem, [], indent)
 
@@ -1149,8 +1173,8 @@ def parse_tei_header(tei_header, indent: str) -> str:
 def parse_stand_off(stand_off, indent: str) -> str:
     s: str = ""
 
-    global STAND_OFF
-    STAND_OFF = parse_act_div(stand_off, indent)
+    # global STAND_OFF
+    # STAND_OFF = parse_act_div(stand_off, indent)
 
     return s
 
@@ -1184,34 +1208,29 @@ def parse_doc_title(doc_title, indent: str) -> str:
 def parse_cast_group(cast_group, indent: str, notes: List = None) -> str:
     s: str = ""
 
-    role_descs = []
-    cast_items = []
-
     for elem in cast_group:
-        if elem.tag == "head":
-            s += add_line(elem, [], indent)
-        elif elem.tag == "roleDesc":
-            role_descs.append(elem)
+        if elem.tag in ["head", "roleDesc"]:
+            s += add_line(elem, [], indent, notes=notes)
         elif elem.tag == "castItem":
             if elem:
                 for inner_elem in elem:
-                    cast_items.append(inner_elem)
+                    if inner_elem.tag == "note":
+                        notes.append(inner_elem)
+                    else:
+                        s += parse_cast_item(inner_elem, indent, notes=notes)
             else:
-                cast_items.append(elem)
+                s += parse_cast_item(elem, indent, notes=notes)
+
+            notes.clear()
         elif elem.tag == "castGroup":
-            cast_items.append(elem)
+            s += parse_cast_group(elem, indent, notes=notes)
+
+            notes.clear()
+        elif elem.tag == "note":
+            notes.append(elem)
         else:
             print(elem.tag)
             raise NotImplementedError
-
-    for role_desc in role_descs:
-        s += add_line(role_desc, [], indent)
-
-    for cast_item in cast_items:
-        if cast_item.tag == "castGroup":
-            s += parse_cast_group(cast_item, indent, notes=notes)
-        else:
-            s += parse_cast_item(cast_item, indent, notes=notes)
 
     return s
 
@@ -1224,7 +1243,10 @@ def parse_cast_list(cast_list, indent: str, from_tag: str) -> str:
     NUM_OF_CHARACTERS += 1
     scene_code: str = f'{CHARACTERS}_{NUM_OF_CHARACTERS}'
     global SCENE_CODES
-    SCENE_CODES.append(scene_code)
+    if from_tag == "scene":
+        SCENE_CODES.insert(-1, scene_code)
+    else:
+        SCENE_CODES.append(scene_code)
 
     s += f'{indent}label {scene_code}:\n'
 
@@ -1242,20 +1264,24 @@ def parse_cast_list(cast_list, indent: str, from_tag: str) -> str:
         if elem.tag == "head":
             elem_text: str = get_text(elem)
 
-            if from_tag == "scene":  # TODO
+            if from_tag == "scene":
                 elem_text = f"({SCENE_NAMES[-1]}) {elem_text}"
-
-            SCENE_NAMES.append(elem_text)
+                SCENE_NAMES.insert(-1, elem_text)
+            else:
+                SCENE_NAMES.append(elem_text)
 
             if from_tag == "front":
                 global CHARACTERS_NAME
                 CHARACTERS_NAME = elem_text
 
-            s += f'{indent}"{{b}}{SCENE_NAMES[-1]}{{/b}}"\n\n'
+            s += f'{indent}"{{b}}{elem_text}{{/b}}"\n\n'
         elif elem.tag == "castItem":
             if elem:
                 for inner_elem in elem:
-                    s += parse_cast_item(inner_elem, indent, notes=notes)
+                    if inner_elem.tag == "note":
+                        notes.append(inner_elem)
+                    else:
+                        s += parse_cast_item(inner_elem, indent, notes=notes)
             else:
                 s += parse_cast_item(elem, indent, notes=notes)
 
@@ -1273,7 +1299,9 @@ def parse_cast_list(cast_list, indent: str, from_tag: str) -> str:
 def add_cast_list_from_header(indent: str) -> str:
     s: str = ""
 
-    s += f'{indent}label {CHARACTERS}:\n'
+    global NUM_OF_CHARACTERS
+    NUM_OF_CHARACTERS += 1
+    s += f'{indent}label {CHARACTERS}_{NUM_OF_CHARACTERS}:\n'
 
     indent += TAB
 
@@ -1283,7 +1311,7 @@ def add_cast_list_from_header(indent: str) -> str:
     # background
     s += show_background(None, indent, get_random=True)
 
-    s += f'{indent}"{{b}}Characters{{/b}}"\n\n'
+    s += f'{indent}"{{b}}{CHARACTERS}{{/b}}"\n\n'
 
     for character_code, character_name in CHARACTER_CODE_TO_NAME.items():
         s += f'{indent}show {character_code} at truecenter\n'  # with dissolve
@@ -1305,16 +1333,20 @@ def parse_front(front, indent: str) -> str:
             CHARACTERS_TEXT = parse_cast_list(elem, indent, "front")
 
             was_cast_list = True
+            SCENE_CODES.clear()
+            SCENE_NAMES.clear()
         elif elem.tag in ["performance", "div", "set", "epigraph"]:
             global FRONT_TEXTS
 
-            FRONT_TEXTS.append(parse_act_div(elem, indent))
+            FRONT_TEXTS.append(parse_act_div(
+                elem, indent, SCENE_CODES, SCENE_NAMES, ACT_CODES, ACT_NAMES, elem.tag.upper()
+            ))
         else:
             s += parse_any(elem, [], indent)
 
     if not was_cast_list:
         global CHARACTERS_NAME
-        CHARACTERS_NAME = "Characters"
+        CHARACTERS_NAME = CHARACTERS
         CHARACTERS_TEXT = add_cast_list_from_header(indent)
 
     return s
@@ -1323,13 +1355,21 @@ def parse_front(front, indent: str) -> str:
 def parse_text_elem(text_elem, indent: str) -> str:
     s: str = ""
 
+    was_front: bool = False
     for elem in text_elem:
         if elem.tag == "front":
             s += parse_front(elem, indent)
+            was_front = True
         elif elem.tag == "body":
             global ACTS_TEXT
 
             ACTS_TEXT = parse_body(elem)
+
+    if not was_front:
+        global CHARACTERS_NAME
+        global CHARACTERS_TEXT
+        CHARACTERS_NAME = CHARACTERS
+        CHARACTERS_TEXT = add_cast_list_from_header(indent)
 
     return s
 
@@ -1350,7 +1390,7 @@ def parse_list_person(list_person, indent: str) -> str:
 
 
 def is_line(value):
-    return value.tag in ["p", "l", "bibl", "head", "docAuthor"] and \
+    return value.tag in ["p", "l", "bibl", "head", "docAuthor", "ab"] and \
         (value.text is not None or value.itertext())
 
 

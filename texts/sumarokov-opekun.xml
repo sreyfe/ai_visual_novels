@@ -120,7 +120,9 @@
         <castItem>Пасквин, слуга Чужехватов.</castItem>
         <castItem>Палемон, друг покойного отца Валериева.</castItem>
         <castItem>Секретарь.</castItem>
-        <castItem>Солдаты.</castItem>
+        <castGroup>
+          <roleDesc>Солдаты.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Санктпетербурге.</p>

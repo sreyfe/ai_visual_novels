@@ -81,6 +81,9 @@
           <person xml:id="voin" sex="MALE">
             <persName>Воин</persName>
           </person>
+          <person xml:id="vestnik" sex="MALE">
+            <persName>Вестник</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#oleg" passive="#rostislav"/>
             <relation name="lover_of" active="#semira" passive="#rostislav"/>
@@ -146,7 +149,9 @@
         <castItem>Витозар, наперсник Олегов</castItem>
         <castItem>Избрана, наперсница Семиры</castItem>
         <castItem>Вестник</castItem>
-        <castItem>Воины</castItem>
+        <castGroup>
+          <roleDesc>Воины</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие в Киеве, в княжеском доме</p>

@@ -129,9 +129,8 @@
   <text>
     <front>
       <docTitle>
-        <titlePart type="main">Праздничный сон — до обеда<note place="foot">По народному поверью,
-            сон, виденный под праздник, сбывается только до обеда (Примеч. авт.)</note>
-        </titlePart>
+        <note type="foot"><key>Праздничный сон — до обеда</key><value>По народному поверью, сон, виденный под праздник, сбывается только до обеда (Примеч. авт.)</value></note>
+        <titlePart type="main">Праздничный сон — до обеда</titlePart>
         <titlePart type="sub">Картины из московской жизни</titlePart>
       </docTitle>
       <castList>

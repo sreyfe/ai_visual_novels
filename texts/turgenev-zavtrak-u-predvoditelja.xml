@@ -126,9 +126,9 @@
   </standOff>
   <text>
     <front>
-      <div type="front">
-        <head>Завтрак у предводителя</head>
-      </div>
+      <docTitle>
+        <titlePart type="main">Завтрак у предводителя</titlePart>
+      </docTitle>
       <castList>
         <head>Действующие лица</head>
         <castItem>Николай Иванович Балагалаев, предводитель, 45 лет.</castItem>

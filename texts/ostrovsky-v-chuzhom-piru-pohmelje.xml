@@ -274,7 +274,8 @@
           </sp>
           <sp who="#ivan_ksenofontych">
             <speaker>Иван Ксенофонтыч.</speaker>
-            <p>O tempora, o mores!<note place="foot">О времена, о нравы</note></p>
+            <note type="foot"><key>O tempora, o mores</key><value>О времена, о нравы</value></note>
+            <p>O tempora, o mores!</p>
           </sp>
           <sp who="#agrafena_platonovna">
             <speaker>Аграфена Платоновна.</speaker>

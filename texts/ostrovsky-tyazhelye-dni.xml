@@ -81,6 +81,9 @@
           <person xml:id="neizvestnyj" sex="MALE">
             <persName>Неизвестный</persName>
           </person>
+          <person xml:id="devushka" sex="FEMALE">
+            <persName>Девушка</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -131,7 +134,10 @@
             праздношатающийся человек.</castItem>
           <castItem>Александра Петровна Круглова, купеческая дочь.</castItem>
           <castItem>Молодой человек, незначительный чиновник.</castItem>
-          <castItem>Девушка и разные проходящие лица без речей.</castItem>
+          <castItem>Девушка</castItem>
+          <castGroup>
+            <roleDesc>и разные проходящие лица без речей.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Грот в Кремлевском саду, перед ним площадка. Через сцену изредка проходят люди
           разного звания.</stage>

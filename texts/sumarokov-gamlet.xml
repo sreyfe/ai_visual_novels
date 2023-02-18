@@ -77,6 +77,9 @@
           <person xml:id="voin" sex="MALE">
             <persName>Воин</persName>
           </person>
+          <person xml:id="pazh" sex="MALE">
+            <persName>Паж</persName>
+          </person>
           <listRelation type="personal">
             <relation name="spouses" mutual="#gertruda #klavdij"/>
             <relation name="parent_of" active="#gertruda" passive="#gamlet"/>
@@ -139,7 +142,9 @@
         <castItem>Флемина, наперсница Офелиина.</castItem>
         <castItem>Ратуда, наперсница Гертрудина.</castItem>
         <castItem>Паж Гамлетов.</castItem>
-        <castItem>Воины.</castItem>
+        <castGroup>
+          <roleDesc>Воины.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие есть в Дании, в столичном городе, в королевском доме.</p>
@@ -157,8 +162,8 @@
             <l>Ступайте из ума, любезны взоры, вон!</l>
             <l>Наполни яростью, о сердце! нежны мысли,</l>
             <l>И днесь между врагов Офелию мне числи!</l>
-            <l>Офелию, — — —<note place="foot">Специфический знак сумароковской пунктуации тройной
-                дефис, обозначающий паузы и прочие прерывистые фразы.</note> увы! едино имя то</l>
+            <note place="foot"><key>— — —</key><value>Специфический знак сумароковской пунктуации тройной дефис, обозначающий паузы и прочие прерывистые фразы.</value></note>
+            <l>Офелию, — — — увы! едино имя то</l>
             <l>Преобращает всё намеренье в ничто,</l>
             <l>И нудит во уме загладить ужас ночи.</l>
             <l>Что ж сделают потом ея драгие очи?!</l>

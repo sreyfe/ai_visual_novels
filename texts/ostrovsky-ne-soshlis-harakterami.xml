@@ -74,6 +74,7 @@
           </person>
           <person xml:id="karp_karpych" sex="MALE">
             <persName>Карп Карпыч</persName>
+            <persName type="variant">Карп Карпович Толстогораздов</persName>
           </person>
           <person xml:id="vtoroj_kucher" sex="MALE">
             <persName>2-й кучер</persName>
@@ -161,7 +162,8 @@
           <sp who="#prezhneva">
             <speaker>Прежнева</speaker>
             <stage>(опустив книгу).</stage>
-            <p>Это жестоко! это ужасно! я бы никогда так не поступила! Nous autres femmes...<note place="foot">Мы женщины...</note> мы... о! мы верим, мы слепо верим, мы никогда не
+            <note type="foot"><key>Nous autres femmes...</key><value>Мы женщины...</value></note>
+            <p>Это жестоко! это ужасно! я бы никогда так не поступила! Nous autres femmes... мы... о! мы верим, мы слепо верим, мы никогда не
               анализируем. Нет, я не стану дальше читать этот роман. Молодой человек хорошего
               происхождения, красив, умен, служит в военной службе, выражает ей свою любовь таким
               прекрасным языком... и она... она имела силы отказать ему! Нет, она не женщина!
@@ -224,7 +226,8 @@
             несколько ломаясь.</stage>
           <sp who="#pol">
             <speaker>Поль.</speaker>
-            <p>Bonjour, maman!<note place="foot">Добрый день, мамаша!</note></p>
+            <note type="foot"><key>Bonjour, maman!</key><value>Добрый день, мамаша!</value></note>
+            <p>Bonjour, maman!</p>
           </sp>
           <sp who="#prezhneva">
             <speaker>Прежнева</speaker>
@@ -394,7 +397,8 @@
           </sp>
           <sp who="#prezhneva">
             <speaker>Прежнева.</speaker>
-            <p>Драма, mon cher!<note place="foot">Мой дорогой!</note></p>
+            <note type="foot"><key>mon cher!</key><value>Мой дорогой!</value></note>
+            <p>Драма, mon cher!</p>
           </sp>
           <sp who="#pol">
             <speaker>Поль.</speaker>
@@ -1490,15 +1494,13 @@
       </div>
       <div type="tableau">
         <head>КАРТИНА ТРЕТЬЯ</head>
-        <stage>Между 2-й и 3-й картиной проходит месяц.<note place="foot">(Прим.
-          автора.)</note>
-        </stage>
+        <note type="foot"><key>Между 2-й и 3-й картиной проходит месяц.</key><value>(Прим. автора.)</value></note>
+        <stage>Между 2-й и 3-й картиной проходит месяц.</stage>
         <castList>
           <head>ЛИЦА:</head>
           <castItem>Поль.</castItem>
           <castItem>Серафима Карповна, жена его.</castItem>
-          <castItem>Софья Ивановна.</castItem>
-          <castItem>Прежнева.</castItem>
+          <castItem>Софья Ивановна. Прежнева.</castItem>
           <castItem>Неизвестный, приятель Поля, человек средних лет с греческим профилем и мрачным
             выражением лица.</castItem>
           <castItem>Горничная.</castItem>

@@ -79,6 +79,7 @@
           </person>
           <person xml:id="voin" sex="MALE">
             <persName>Воин</persName>
+            <persName type="variant">Вестник</persName>
           </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#otan" passive="#orkant #fedima"/>
@@ -129,7 +130,9 @@
         <castItem>Мальмира, наперсница Федимы.</castItem>
         <castItem>Вестник.</castItem>
         <castItem>Паж.</castItem>
-        <castItem>Воины.</castItem>
+        <castGroup>
+          <roleDesc>Воины.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие есть в царском доме.</p>

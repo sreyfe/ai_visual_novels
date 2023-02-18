@@ -108,6 +108,9 @@
             <persName>Мавра (горничная)</persName>
             <persName xml:lang="eng">Mavra (parlor-maid)</persName>
           </person>
+          <person xml:id="prazdnikov" sex="MALE">
+            <persName>Праздников</persName>
+          </person>
           <listRelation type="personal">
             <relation name="parent_of" active="#vasilisa_parfentevna" passive="#mavra_gornichnaya"/>
             <relation name="parent_of" active="#lobastov" passive="#prokofij_ivanych"/>
@@ -2914,7 +2917,8 @@
           </sp>
           <sp who="#lenochka">
             <speaker>Леночка.</speaker>
-            <p>Bonjour, grand-papa!<note place="foot">Здравствуйте, дедушка!</note></p>
+            <note place="foot"><key>Bonjour, grand-papa!</key><value>Здравствуйте, дедушка!</value></note>
+            <p>Bonjour, grand-papa!</p>
           </sp>
           <sp who="#lobastov">
             <speaker>Лобастов.</speaker>
@@ -3712,7 +3716,9 @@
           <castItem>Баев.</castItem>
           <castItem>Дмитрий, лакей.</castItem>
           <castItem>Мавра, горничная.</castItem>
-          <castItem>Лакеи, горничные, сторожа, кучера и проч.</castItem>
+          <castGroup>
+            <roleDesc>Лакеи, горничные, сторожа, кучера и проч.</roleDesc>
+          </castGroup>
         </castList>
         <div type="scene">
           <head>СЦЕНА I</head>

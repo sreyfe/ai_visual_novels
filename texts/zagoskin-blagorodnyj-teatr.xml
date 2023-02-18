@@ -83,6 +83,7 @@
           </person>
           <person xml:id="pervyj_sluga" sex="MALE">
             <persName>Слуга/1-й слуга</persName>
+            <persName type="variant">1-й слуга</persName>
           </person>
           <person xml:id="kutermina" sex="FEMALE">
             <persName>Кутермина</persName>
@@ -90,14 +91,29 @@
           <person xml:id="pervaja_plemyannica" sex="FEMALE">
             <persName>1-я племянница</persName>
           </person>
+          <person xml:id="vtoraja_plemyannica" sex="FEMALE">
+            <persName>2-я племянница</persName>
+          </person>
           <person xml:id="pervyj_plemyannik" sex="MALE">
             <persName>1-й племянник</persName>
+          </person>
+          <person xml:id="vtoroj_plemyannik" sex="MALE">
+            <persName>2-й племянник</persName>
           </person>
           <person xml:id="volgin" sex="MALE">
             <persName>Волгин</persName>
           </person>
           <person xml:id="vtoroj_sluga" sex="MALE">
             <persName>2-й слуга</persName>
+          </person>
+          <person xml:id="uchitel" sex="MALE">
+            <persName>Учитель</persName>
+          </person>
+          <person xml:id="guvernantka" sex="FEMALE">
+            <persName>Гувернантка</persName>
+          </person>
+          <person xml:id="nyanjushka" sex="FEMALE">
+            <persName>Нянюшка</persName>
           </person>
           <listRelation type="personal">
             <relation name="related_with" active="#lyubskij" passive="#olenka"/>
@@ -153,13 +169,13 @@
       <epigraph>
         <cit>
           <quote>
+            <note place="foot"><key>C'est a qui sera jeune, amant, prince ou princesse. Et la troupe est souvent un beau sujet de piece.</key><value>Это для тех, кто молод, влюблен, для принцев или принцесс. А театр - часто прелестный сюжет для пьесы.</value></note>
             <p>C'est a qui sera jeune, amant, prince ou princesse. Et la troupe est souvent un beau
-              sujet de piece.<note place="foot">Это для тех, кто молод, влюблен, для принцев или
-                принцесс. А театр - часто прелестный сюжет для пьесы.</note></p>
+              sujet de piece.</p>
           </quote>
         </cit>
-        <bibl>Delille<note place="foot">Делиль (франц.). - Ред.</note>
-        </bibl>
+        <note place="foot"><key>Delille</key><value>Делиль (франц.). - Ред.</value></note>
+        <bibl>Delille</bibl>
       </epigraph>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
@@ -185,10 +201,18 @@
           <castItem>2-й племянник</castItem>
           <roleDesc>Кутерминой.</roleDesc>
         </castGroup>
-        <castItem>1-й и 2-й слуги Любского</castItem>
         <castGroup>
-          <castItem>4 девочки</castItem>
-          <castItem>2 мальчика</castItem>
+          <castItem id="pervyj_sluga">1-й</castItem>
+          <castItem id="vtoroj_sluga">и 2-й</castItem>
+          <roleDesc>слуги Любского</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castGroup>
+            <roleDesc>4 девочки</roleDesc>
+          </castGroup>
+          <castGroup>
+            <roleDesc>2 мальчика</roleDesc>
+          </castGroup>
           <castItem>Учитель</castItem>
           <castItem>Гувернантка</castItem>
           <castItem>Нянюшка</castItem>
@@ -3264,7 +3288,8 @@
           </sp>
           <sp who="#pervaja_plemyannica">
             <speaker>1-я племянница</speaker>
-            <l part="F">И полноте, ma tante!<note place="foot">Тетушка! (франц.). - Ред.</note></l>
+            <note place="foot"><key>ma tante!</key><value>Тетушка! (франц.). - Ред.</value></note>
+            <l part="F">И полноте, ma tante!</l>
           </sp>
           <sp who="#kutermina">
             <speaker>Кутермина</speaker>

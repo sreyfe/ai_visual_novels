@@ -66,6 +66,7 @@
           </person>
           <person xml:id="masha" sex="FEMALE">
             <persName>Маша</persName>
+            <persName type="variant">Марья Васильевна Белова</persName>
             <persName xml:lang="ger">Marja</persName>
           </person>
           <person xml:id="vilitskij" sex="MALE">
@@ -2225,11 +2226,12 @@
         </sp>
         <sp who="#fonk">
           <speaker>Фонк.</speaker>
+          <note place="foot"><key>Je le protege</key><value>Я ему покровительствую (франц.).</value></note>
           <p>Он вам на днях свою повесть принесет. <stage>(Вставая и отводя немного Вилицкого в
               сторону.)</stage> Вы видите, он довольно странный человек, что называется, чудак; но
             это-то мне в нем и нравится. Все настоящие писатели большие чудаки. Признаюсь, я очень
             рад моему открытию. <stage>(С важностью.)</stage> Che le brodeche. <stage>(Фонк
-              выговаривает «Je le protege»<note place="foot">Я ему покровительствую (франц.).</note>
+              выговаривает «Je le protege»
               на немецкий лад.)</stage> Ну, а вы что поделываете, любезный мой Петр Ильич? Как ваши
             дела?</p>
         </sp>
@@ -2327,7 +2329,8 @@
           <stage>Подходит к Созомэносу, который заснул, свесив голову на грудь, и в продолжение
             всего следующего разговора только изредка вздрагивает и, как говорится, «удит
             рыбу».</stage>
-          <p>Ах да, это очень забавно! <stage>(Про себя.)</stage> Eine allerliebste Geschichte!<note place="foot">Излюбленная история! (нем.).</note>
+          <note place="foot"><key>Eine allerliebste Geschichte!</key><value>Излюбленная история! (нем.).</value></note>
+          <p>Ах да, это очень забавно! <stage>(Про себя.)</stage> Eine allerliebste Geschichte!
             <stage>(Громко.)</stage> Это с ним довольно часто случается… Что за чудаки эти господа
             сочинители! <stage>(Нагинаясь к нему.)</stage> Спит, как моська! Но мне, право, это
             очень нравится. Это очень оригинально — а?</p>

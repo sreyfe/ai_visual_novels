@@ -83,6 +83,8 @@
           </person>
           <person xml:id="kupec" sex="MALE">
             <persName>Купец</persName>
+            <persName type="variant">Вавила Осипович Густомесов</persName>
+            <persName type="variant">Вавила Осипыч</persName>
             <persName xml:lang="ger">Der Kaufmann</persName>
           </person>
           <person xml:id="prositel" sex="MALE">

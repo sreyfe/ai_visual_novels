@@ -88,6 +88,8 @@
           </person>
           <person xml:id="jurodivyj" sex="MALE">
             <persName>Юродивый (Афоня)</persName>
+            <persName type="variant">Юродивый</persName>
+            <persName type="variant">Афоня</persName>
           </person>
           <person xml:id="melochnoj_torgovets" sex="MALE">
             <persName>Мелочной торговец</persName>
@@ -100,6 +102,9 @@
           </person>
           <person xml:id="vasilij_shujskij" sex="MALE" ana="http://www.wikidata.org/entity/Q193232">
             <persName>Василий Шуйский</persName>
+            <persName type="variant">Василий</persName>
+            <persName type="variant">Василий Иванович Шуйский</persName>
+            <persName type="variant">Шуйский, князь Василий Иванович</persName>
             <persName type="variant">Шуйский</persName>
           </person>
           <personGrp xml:id="kuptsy" sex="MALE">
@@ -110,6 +115,8 @@
           </person>
           <person xml:id="dmitrij_shujskij" sex="MALE">
             <persName>Дмитрий Шуйский</persName>
+            <persName type="variant">Шуйский, князь Дмитрий Иванович</persName>
+            <persName type="variant">Дмитрий Иванович Шуйский</persName>
           </person>
           <personGrp xml:id="golosa_v_narode" sex="UNKNOWN">
             <name>Голоса в народе</name>
@@ -160,7 +167,7 @@
           <person xml:id="kutska" sex="MALE">
             <persName>Куцька</persName>
           </person>
-          <person xml:id="korela" sex="FEMALE">
+          <person xml:id="korela" sex="MALE">
             <persName>Корела</persName>
           </person>
           <personGrp xml:id="nemtsy" sex="MALE">
@@ -301,6 +308,7 @@
           </person>
           <person xml:id="ivan" sex="MALE">
             <persName>Иван</persName>
+            <persName type="variant">Иванушка</persName>
           </person>
           <person xml:id="kapitan" sex="MALE">
             <persName>Капитан</persName>
@@ -337,6 +345,9 @@
           <personGrp xml:id="neskolko_golosov" sex="UNKNOWN">
             <name>Несколько голосов</name>
           </personGrp>
+          <person xml:id="voeykov" sex="MALE">
+            <persName>Воейков</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -391,8 +402,10 @@
             <castItem>Федор Конёв, купец московский.</castItem>
             <castItem>Иван, калачник.</castItem>
             <castItem>Афоня, юродивый.</castItem>
-            <castItem>Московский, новгородские, псковские купцы; подьячие, попы безместные,
-              странники, мелочные торговцы, разносчики и крестьяне.</castItem>
+            <castGroup>
+              <roleDesc>Московский, новгородские, псковские купцы; подьячие, попы безместные,
+              странники, мелочные торговцы, разносчики и крестьяне.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Сени в доме Василия Шуйского.</stage>
           <stage>(19 июня 1605 года)</stage>
@@ -1531,8 +1544,10 @@
             <castItem>Савицкий, иезуит.</castItem>
             <castItem>Конёв.</castItem>
             <castItem>Калачник.</castItem>
-            <castItem>Десятские, венгры, поляки, запорожцы, казаки, татары, немцы, польские латники,
-              бояре, дворяне, купцы, стрельцы и всякий народ обоего пола.</castItem>
+            <castGroup>
+              <roleDesc>Десятские, венгры, поляки, запорожцы, казаки, татары, немцы, польские латники,
+              бояре, дворяне, купцы, стрельцы и всякий народ обоего пола.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Кремль.</stage>
           <stage>(20 июня 1605 года)</stage>
@@ -2441,7 +2456,9 @@
             </castGroup>
             <castItem>М. В. Скопин-Шуйский, великий мечник</castItem>
             <castItem>В. Щелкалов, дьяк.</castItem>
-            <castItem>Окольничие, думные дворяне, выборные люди, рынды, стражи.</castItem>
+            <castGroup>
+              <roleDesc>Окольничие, думные дворяне, выборные люди, рынды, стражи.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Грановитая палата.</stage>
           <stage>Трон; по обе стороны трона скамьи; близ трона на столе три короны царские.</stage>
@@ -3115,7 +3132,10 @@
             <castItem>Дмитрий Иванович, самозванец.</castItem>
             <castItem>Царица Марфа, мать Дмитрия-царевича.</castItem>
             <castItem>Михаило Скопин-Шуйский.</castItem>
-            <castItem>Басманов и народ.</castItem>
+            <castItem>Басманов</castItem>
+            <castGroup>
+              <roleDesc>и народ.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Шатер в селе Тайнинском.</stage>
           <stage>(18 июля 1605 года)</stage>
@@ -5060,8 +5080,10 @@
             <castItem>Татищев.</castItem>
             <castItem>Калачник.</castItem>
             <castItem>Дворецкий.</castItem>
-            <castItem>Дворяне, боярские дети, головы, сотники и стрельцы новгородские и псковские,
-              купцы и простой народ.</castItem>
+            <castGroup>
+              <roleDesc>Дворяне, боярские дети, головы, сотники и стрельцы новгородские и псковские,
+              купцы и простой народ.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Верхние сени в доме Шуйского. Темно.</stage>
           <stage>(11 мая 1606 года)</stage>
@@ -6227,8 +6249,10 @@
             <castItem>Вишневецкий Константин.</castItem>
             <castItem>Бучинский.</castItem>
             <castItem>Иван-дурак.</castItem>
-            <castItem>Музыканты, песельники, стража; поляки и польки, родственники Марины и
-              гости.</castItem>
+            <castGroup>
+              <roleDesc>Музыканты, песельники, стража; поляки и польки, родственники Марины и
+              гости.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Зала в новом дворце.</stage>
           <stage>(13 мая 1606 года)</stage>
@@ -6723,15 +6747,25 @@
             <head>ЛИЦА:</head>
             <castItem>Дмитрий.</castItem>
             <castItem>Басманов.</castItem>
-            <castItem>Шуйские, Василий и Дмитрий.</castItem>
+            <castGroup>
+              <roleDesc>Шуйские,</roleDesc>
+              <castItem>Василий</castItem>
+              <castItem id="dmitrij_shujskij">и Дмитрий.</castItem>
+            </castGroup>
             <castItem>Голицын.</castItem>
             <castItem>Куракин.</castItem>
             <castItem>Татищев.</castItem>
             <castItem>Молчанов.</castItem>
-            <castItem>Валуев и Воейков, дворяне.</castItem>
+            <castGroup>
+              <castItem>Валуев</castItem>
+              <castItem>и Воейков,</castItem>
+              <roleDesc>дворяне.</roleDesc>
+            </castGroup>
             <castItem>Калачник.</castItem>
             <castItem>Сотник стрелецкий.</castItem>
-            <castItem>Стрельцы; немецкая стража; народ.</castItem>
+            <castGroup>
+              <roleDesc>Стрельцы; немецкая стража; народ.</roleDesc>
+            </castGroup>
           </castList>
           <stage>Передняя зала с выходом на галерею в новом дворце.</stage>
           <stage>(17 мая 1606 года)</stage>

@@ -52,6 +52,7 @@
           </person>
           <person xml:id="vyshnevskaya" sex="FEMALE">
             <persName>Вышневская</persName>
+            <persName type="variant">Анна Павловна</persName>
           </person>
           <person xml:id="anton" sex="MALE">
             <persName>Антон</persName>
@@ -91,9 +92,14 @@
           </person>
           <person xml:id="pervyj_chinovnik" sex="MALE">
             <persName>1-й чиновник</persName>
+            <persName type="variant">1-й</persName>
           </person>
           <person xml:id="vtoroj_chinovnik" sex="MALE">
             <persName>2-й чиновник</persName>
+            <persName type="variant">2-й</persName>
+          </person>
+          <person xml:id="malchik" sex="MALE">
+            <persName>Мальчик</persName>
           </person>
           <listRelation type="personal">
             <relation name="associated_with" active="#belogubov" passive="#yusov"/>
@@ -2314,7 +2320,9 @@
             <castItem>Василий</castItem>
             <roleDesc>половые.</roleDesc>
           </castGroup>
-          <castItem>Гости и половые в другой комнате.</castItem>
+          <castGroup>
+            <roleDesc>Гости и половые в другой комнате.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Трактир. Задняя занавесь на втором плане, посреди машина, направо отворенная дверь, в
           которую видна комната, налево вешалка для платья, на авансцене по обе стороны столы с
@@ -3170,12 +3178,13 @@
           </sp>
           <sp who="#dosuzhev">
             <speaker>Досужев.</speaker>
+            <note place="foot"><key>Adieu</key><value>Прощай (фр.).</value></note>
             <p>Ну, прощай! Вперед будем знакомы! Захмелел, брат! <stage>(Жмет Жадову руку.)</stage>
               Василий, манто! <stage>(Надевает шинель.)</stage> Ты меня строго не суди! Я человек
               потерянный. Постарайся быть лучше меня, коли можешь. <stage>(Идет к двери и
                 возвращается.)</stage> Да! вот тебе еще мой совет. Может быть, с моей легкой руки,
               запьешь, так вина не пей, а пей водку. Вино нам не по карману, а водка, брат, лучше
-              всего: и горе забудешь, и дешево! Adieu!<note place="foot">Прощай (фр.).</note>
+              всего: и горе забудешь, и дешево! Adieu!
               <stage>(Уходит.)</stage></p>
           </sp>
           <sp who="#zhadov">

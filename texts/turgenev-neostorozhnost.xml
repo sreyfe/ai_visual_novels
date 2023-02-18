@@ -107,9 +107,9 @@
   </standOff>
   <text>
     <front>
-      <div type="front">
-        <head>Неосторожность</head>
-      </div>
+      <docTitle>
+        <titlePart type="main">Неосторожность</titlePart>
+      </docTitle>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Дон Бальтазар д'Эстуриз — 55 лет.</castItem>

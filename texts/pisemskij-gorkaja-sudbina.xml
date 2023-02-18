@@ -201,8 +201,21 @@
         <castItem>Исправник.</castItem>
         <castItem>Стряпчий.</castItem>
         <castItem>Сотский.</castItem>
-        <castItem>Мужики: Федор Петров; выборный; Давыд Иванов; молодой парень; кривой мужик; рябой
-          мужик; понятые; бабы.</castItem>
+        <castGroup>
+          <roleDesc>Мужики:</roleDesc>
+          <castItem>Федор Петров;</castItem>
+          <castItem>выборный;</castItem>
+          <castItem>Давыд Иванов;</castItem>
+          <castItem>молодой парень;</castItem>
+          <castItem>кривой мужик;</castItem>
+          <castItem>рябой мужик;</castItem>
+        </castGroup>
+        <castGroup>
+          <roleDesc>понятые;</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>бабы.</roleDesc>
+        </castGroup>
       </castList>
       <set>
         <p>Действие происходит в деревне Соковина.</p>

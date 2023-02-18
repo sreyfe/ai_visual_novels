@@ -132,7 +132,7 @@
         <head>Действующие лица</head>
         <castItem>Анна Васильевна Либанова, помещица, 40 лет.</castItem>
         <castItem>Вера Николаевна, ее дочь, 19 лет.</castItem>
-        <castItem>М-lle Bienaimé, компаньонка и гувернантка, 42 лет.</castItem>
+        <castItem>M-lle Bienaimé, компаньонка и гувернантка, 42 лет.</castItem>
         <castItem>Варвара Ивановна Морозова, родственница Либановой, 45 лет.</castItem>
         <castItem>Владимир Петрович Станицын, сосед, 28 лет.</castItem>
         <castItem>Евгений Андреич Горский, сосед, 26 лет.</castItem>
@@ -1964,7 +1964,7 @@
       </div>
       <div type="configuration">
         <sp who="#mademoiselle_bienaime">
-          <speaker>М-lle Bienaimé</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <stage>(сухеньким голосом).</stage>
           <p>Eh bien, que ferons nous?</p>
         </sp>
@@ -2004,7 +2004,7 @@
           <p>Придумал, Иван Павлыч! Мы вот что сделаем. Сядем все кругом стола…</p>
         </sp>
         <sp who="#mademoiselle_bienaime">
-          <speaker>М-lle Bienaimé.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Oh, ce sera charmant!</p>
         </sp>
         <sp who="#gorskij">

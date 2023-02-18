@@ -111,6 +111,7 @@
           </person>
           <person xml:id="liza" sex="FEMALE">
             <persName>Лиза</persName>
+            <persName type="variant">Лизанька</persName>
             <persName xml:lang="ger">Lisanka</persName>
           </person>
           <person xml:id="aksinya" sex="FEMALE">
@@ -178,7 +179,9 @@
           <castItem>Глафира Пудовна, их дочь, 18 лет.</castItem>
           <castItem>Луп Лупыч Переярков, чиновник.</castItem>
           <castItem>Ион Ионович Турунтаев, военный в отставке.</castItem>
-          <castItem>Гуляющие обоего пола.</castItem>
+          <castGroup>
+            <roleDesc>Гуляющие обоего пола.</roleDesc>
+          </castGroup>
         </castList>
         <stage>Нескучный сад. Луг между деревьями; впереди дорожка и скамья; в глубине дорожка, за
           дорожкой деревья и вид на Москву-реку. Около 30 лет назад.</stage>

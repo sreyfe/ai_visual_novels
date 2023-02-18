@@ -128,12 +128,24 @@
         <castItem>Михаил Бренский, оруженосец Димитрия.</castItem>
         <castItem>Боярин Московский.</castItem>
         <castItem>Посол Мамаев.</castItem>
-        <castItem>Воины.</castItem>
-        <castItem>Князья Русские.</castItem>
-        <castItem>Бояре Московские.</castItem>
-        <castItem>Рынды.</castItem>
-        <castItem>Войско Русское.</castItem>
-        <castItem>Татары, пришедшие с послом.</castItem>
+        <castGroup>
+          <roleDesc>Воины.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Князья Русские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Бояре Московские.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Рынды.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Войско Русское.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <roleDesc>Татары, пришедшие с послом.</roleDesc>
+        </castGroup>
       </castList>
     </front>
     <body>
@@ -371,11 +383,11 @@
             <l>Я именем его вам милость обещаю.</l>
             <l>Раскаяние зря, решится он простить</l>
             <l>И вашу жизнь еще позволит вам продлить.</l>
-          </sp>
-          <note>{* <l>Одно несчастие Мамая сокрушает,</l>
+            <note place="foot"><key>Одно несчастие Мамая сокрушает,</key><value>(Ломоносов, в трагедии "Темира и Селим")}</value></note>
+            <l>Одно несчастие Мамая сокрушает,</l>
             <l>Что сильный Челубей пронзен в крови лежит,</l>
-            <l>Лежит и поля часть велику покрывает.</l> (Ломоносов, в трагедии "Темира и
-            Селим")}</note>
+            <l>Лежит и поля часть велику покрывает.</l>
+          </sp>
           <sp who="#dimitrij">
             <speaker>Димитрий</speaker>
             <l>О, дерзостный посол надменнейшего хана!</l>
