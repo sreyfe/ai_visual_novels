@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 PLAY_NAME = "test"
 MAIN_DIRECTORY = f"{PLAY_NAME}/game"
-PATH_TO_INPUT_FILE: str = "texts/mayakovsky-misteriya-buff.xml"
+PATH_TO_INPUT_FILE: str = "texts/gogol-teatralnyi-razezd.xml"
 PATH_TO_OUTPUT_FILE: str = f"{MAIN_DIRECTORY}/script.rpy"
 
 PATH_TO_IMAGES_DIRECTORY: str = f"{MAIN_DIRECTORY}/images"
