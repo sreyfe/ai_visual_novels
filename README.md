@@ -1,2 +1,2 @@
 # visual_novels
-Visual novels from rusdracor: https://dracor.org/rus
+AI generation of visual novels from plays on DraCor.org
