@@ -4,12 +4,10 @@ import shutil
 import tempfile
 import warnings
 import openai
-from rembg import remove, new_session
 import requests
 from copy import copy
 from pathlib import Path
 from typing import *
-import cv2
 import numpy as np
 from PIL import Image
 from PIL import ImageFilter
@@ -22,9 +20,8 @@ from pymystem3 import Mystem
 warnings.filterwarnings("ignore")
 
 
-openai.api_key = "put your key here"
+openai.api_key = ""
 
-REMBG_SESSION = new_session("u2net_human_seg")
 FOLDER_NAME = "output"
 PLAY_NAME = ""
 AUTHOR = ""
@@ -151,7 +148,6 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
 
     characters = []
 
-    global REMBG_SESSION
 
     for character_elem in character_elems:
         sex_attrib: str = character_elem.attrib['sex']
@@ -187,13 +183,6 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
 
             characters.append(pers_code)
 
-    num_of_pictures = len(list(Path(f'{PATH_TO_CHARACTERS_PICTURES}/{sex.lower()}').glob('*')))
-
-    assert len(characters) <= num_of_pictures, \
-        f'actual: {len(characters)}, current: {num_of_pictures}'
-
-    numbers = random.sample(range(1, num_of_pictures), len(characters))
-
     Path(PATH_TO_CHARACTERS_DIRECTORY).mkdir(exist_ok=True)
 
     for i, sex_character in enumerate(characters):
@@ -224,11 +213,6 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
         filename_output = "./pictures/characters/" + str(sex_character) + ".png"
         open(filename_input, 'wb').write(r.content)
 
-        #with open(filename_input, 'rb') as i:
-        #    with open(filename_output, 'wb') as o:
-        #        input = i.read()
-        #        output = remove(input, session=REMBG_SESSION)
-        #        o.write(output)
 
         RADIUS = 10
 

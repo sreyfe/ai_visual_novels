@@ -57,7 +57,7 @@ define orsina = Character("orsina_var", color="#FF8E00", dynamic=True)
 "(ff) formalities"
 
 label start:
-    play music "audio/music/18.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/7.mp3" fadeout 1.0 fadein 1.0
 
     "Gotthold Ephraim Lessing"
 
@@ -80,7 +80,7 @@ label start:
             jump Act_5
 
     label Characters_1:
-        play music "audio/music/44.mp3" fadeout 1.0 fadein 1.0
+        play music "audio/music/35.mp3" fadeout 1.0 fadein 1.0
 
         "{b}Personen.{/b}"
 
@@ -136,7 +136,7 @@ label start:
 
 
 label Act_1:
-    play music "audio/music/72.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/12.mp3" fadeout 1.0 fadein 1.0
 
     scene 1 with fade
 
@@ -2204,7 +2204,7 @@ label Further_Act_0_Scene_6_1:
         hide camillo_rota
 
 label Act_2:
-    play music "audio/music/43.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/99.mp3" fadeout 1.0 fadein 1.0
 
     scene 2 with fade
 
@@ -4629,7 +4629,7 @@ label Further_Act_1_Scene_6_1:
         hide appiani
 
 label Act_3:
-    play music "audio/music/90.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/53.mp3" fadeout 1.0 fadein 1.0
 
     scene 3 with fade
 
@@ -6471,7 +6471,7 @@ label Further_Act_2_Scene_6_1:
         hide claudia
 
 label Act_4:
-    play music "audio/music/32.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/14.mp3" fadeout 1.0 fadein 1.0
 
     scene 4 with fade
 
@@ -9323,7 +9323,7 @@ label Further_Act_3_Scene_6_1:
         hide odoardo
 
 label Act_5:
-    play music "audio/music/21.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/music/108.mp3" fadeout 1.0 fadein 1.0
 
     scene 5 with fade
 
