@@ -1,0 +1,80 @@
+Mon Mar 13 13:25:39 2023
+Linux-5.19.9-200.fc36.x86_64-x86_64-with-glibc2.35
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.03s
+Early init took 0.00s
+Loader init took 0.00s
+Loading error handling took 0.04s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/jonah/projects/play_vis/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.02s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Mesa Intel(R) Xe Graphics (TGL GT2)'
+Version: b'4.6 (Compatibility Profile) Mesa 22.1.7'
+Display Info: None
+Screen sizes: virtual=(1024, 1024) physical=(978, 978) drawable=(978, 978)
+Maximum texture size: 4096x4096
+Traceback (most recent call last):
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/lib/py3-linux-x86_64/../../renpy.py", line 251, in <module>
+    main()
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/lib/py3-linux-x86_64/../../renpy.py", line 247, in main
+    renpy.bootstrap.bootstrap(renpy_base)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/main.py", line 660, in main
+    run(restart)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/execution.py", line 938, in run_context
+    context.run()
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/execution.py", line 581, in run
+    node.execute()
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/character.py", line 927, in do_display
+    display_say(who,
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/display/core.py", line 4048, in interact_core
+    ev = self.event_wait()
+  File "/home/jonah/projects/play_vis/renpy-8.0.3-sdk/renpy/display/core.py", line 2944, in event_wait
+    ev = pygame.event.wait()
+KeyboardInterrupt

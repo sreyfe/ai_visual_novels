@@ -3,18 +3,33 @@ import re
 import shutil
 import tempfile
 import warnings
+import openai
+from rembg import remove, new_session
+import requests
 from copy import copy
 from pathlib import Path
 from typing import *
+import cv2
+import numpy as np
+from PIL import Image
+from PIL import ImageFilter
+
+
 
 from lxml import etree, objectify
 from pymystem3 import Mystem
 
 warnings.filterwarnings("ignore")
 
-PLAY_NAME = "test"
-MAIN_DIRECTORY = f"{PLAY_NAME}/game"
-PATH_TO_INPUT_FILE: str = "texts/gogol-teatralnyi-razezd.xml"
+
+openai.api_key = "put your key here"
+
+REMBG_SESSION = new_session("u2net_human_seg")
+FOLDER_NAME = "output"
+PLAY_NAME = ""
+AUTHOR = ""
+MAIN_DIRECTORY = f"{FOLDER_NAME}/game"
+PATH_TO_INPUT_FILE: str = "texts/lessing-emilia-galotti.xml"
 PATH_TO_OUTPUT_FILE: str = f"{MAIN_DIRECTORY}/script.rpy"
 
 PATH_TO_IMAGES_DIRECTORY: str = f"{MAIN_DIRECTORY}/images"
@@ -53,6 +68,9 @@ ACT: str = "Act"
 SCENE: str = "Scene"
 SUB_SCENE: str = "Subscene"
 FURTHER: str = "Further"
+
+#What background we're on
+BACKGROUND_NUM = 0
 
 # ACTS lists
 ACT_CODES: List[str] = []
@@ -128,11 +146,12 @@ def get_random_colour():
 
     return "#" + ''.join([random.choice('0123456789ABCDEF') for _ in range(6)])
 
-
 def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
     s: str = ""
 
     characters = []
+
+    global REMBG_SESSION
 
     for character_elem in character_elems:
         sex_attrib: str = character_elem.attrib['sex']
@@ -178,10 +197,64 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
     Path(PATH_TO_CHARACTERS_DIRECTORY).mkdir(exist_ok=True)
 
     for i, sex_character in enumerate(characters):
+        natural_character = sex_character.replace("_", " ").capitalize()
+        character_query = "Write a description, restating the play's name, for the costume, face and physical appearance of " + natural_character + " from " + PLAY_NAME + " by " + str(AUTHOR) + " in one sentence."
+
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo", 
+            messages=[{"role": "user", "content": character_query}]
+        )
+
+        completion = "Profile visual novel sprite of " + completion["choices"][0]["message"]["content"].replace("\n", "") + " head in center of frame, ornate background, in yugioh style."
+        print(completion)
+
+        #completion = natural_character + " from " + PLAY_NAME + " by " + str(AUTHOR) + " in yugioh style."
+
+        response = openai.Image.create(
+            prompt=str(completion),
+            model="image-alpha-001",
+            size="256x256",
+            response_format="url"
+        )
+
+        print(response["data"][0]["url"])
+        url = response["data"][0]["url"]
+        r = requests.get(url, allow_redirects=True)
+        filename_input = "./pictures/characters/" + str(sex_character) + "_1.png"
+        filename_output = "./pictures/characters/" + str(sex_character) + ".png"
+        open(filename_input, 'wb').write(r.content)
+
+        #with open(filename_input, 'rb') as i:
+        #    with open(filename_output, 'wb') as o:
+        #        input = i.read()
+        #        output = remove(input, session=REMBG_SESSION)
+        #        o.write(output)
+
+        RADIUS = 10
+
+        # Open an image
+        im = Image.open(filename_input)
+
+        # Paste image on white background
+        diam = 2*RADIUS
+        back = Image.new('RGBA', (im.size[0]+diam, im.size[1]+diam), (255,0,0,0))
+        back.paste(im, (RADIUS, RADIUS))
+
+        # Create blur mask
+        mask = Image.new('L', (im.size[0]+diam, im.size[1]+diam), 255)
+        blck = Image.new('L', (im.size[0]-diam, im.size[1]-diam), 0)
+        mask.paste(blck, (diam, diam)) 
+
+        # Blur image and paste blurred edge according to mask
+        blur = back.filter(ImageFilter.GaussianBlur(RADIUS/2))
+        back.paste(blur, mask=mask)
+        back.save(filename_output)
+
         shutil.copy(
-            Path(f'{PATH_TO_CHARACTERS_PICTURES}/{sex.lower()}/{numbers[i]}.png'),
+            Path(f'{PATH_TO_CHARACTERS_PICTURES}/{sex_character}.png'),
             Path(f'{PATH_TO_CHARACTERS_DIRECTORY}/{sex_character}.png')
         )
+
 
     return s
 
@@ -499,7 +572,7 @@ def add_stage(elem, characters: List[str], indent: str, notes: List) -> str:
 
     s: str = ""
 
-    s += show_background(elem, indent)
+    #s += show_background(elem, indent)
 
     s += play_sound(elem, indent)
 
@@ -640,26 +713,21 @@ def show_background(tag, indent: str = "", get_random: bool = False) -> str:
     s: str = ''
 
     # background
+    global BACKGROUND_NUM
+    this_act = BACKGROUND_NUM + 1
     if tag is not None and "background" in tag.attrib:
         s += f'{indent}scene {tag.attrib["background"]} with fade\n\n'
-    elif get_random:
+    else:
         Path(PATH_TO_BACKGROUNDS_DIRECTORY).mkdir(exist_ok=True)
 
-        num_of_background_pictures: int = len(list(Path(PATH_TO_BACKGROUNDS_PICTURES).glob('*')))
-
-        num: int = random.randint(1, num_of_background_pictures)
-
-        while num in BACKGROUNDS_TAKEN:
-            num = random.randint(1, num_of_background_pictures)
-
-        BACKGROUNDS_TAKEN.add(num)
-
         shutil.copy(
-            Path(f'{PATH_TO_BACKGROUNDS_PICTURES}/{num}.jpeg'),
-            Path(f'{PATH_TO_BACKGROUNDS_DIRECTORY}/{num}.jpeg')
+            Path(f'{PATH_TO_BACKGROUNDS_PICTURES}/{this_act}.jpeg'),
+            Path(f'{PATH_TO_BACKGROUNDS_DIRECTORY}/{this_act}.jpeg')
         )
 
-        s += f'{indent}scene {num} with fade\n\n'
+        s += f'{indent}scene {this_act} with fade\n\n'
+
+        BACKGROUND_NUM = this_act
 
     return s
 
@@ -867,7 +935,7 @@ def parse_scene_div(scene_div, act_num: str, indent: str, scene_codes: List[str]
     s += play_music(scene_div, indent)
 
     # background
-    s += show_background(scene_div, indent)
+    #s += show_background(scene_div, indent)
 
     scene_name = f'{scene_div.attrib.get("type")}_{scene_num}'
 
@@ -930,9 +998,11 @@ def parse_act_div(act_div, indent: str, scene_codes: List[str], scene_names: Lis
     s += play_music(act_div, indent, get_random=True)
 
     # background
-    s += show_background(act_div, indent, get_random=True)
+    #s += show_background(act_div, indent, get_random=True)
 
     act_name = f'{act_div.attrib.get("type")}_{act_num + 1}' if act_div.attrib.get("type") else act_div.tag
+    if(act_div.attrib.get("type") == "act"):
+        s += show_background(act_div, indent, get_random=True)
 
     if not act_div.findall("head"):
         s += f'{indent}"{{b}}{act_name}{{/b}}"\n\n'
@@ -1037,6 +1107,8 @@ style slider_slider:
     variant "small"
     xsize 900
 
+
+
 style myFrame is default:
     background Solid("#ffffff")
 
@@ -1050,6 +1122,9 @@ screen tooltip(text):
         text text
 
 init python:
+    config.screen_width = 1024
+    config.screen_height = 1024
+
     def hyperlink_styler(hi):
         return style.hyperlink_text
 
@@ -1127,7 +1202,7 @@ init python:
     with open(f'{MAIN_DIRECTORY}/gui.rpy', 'w', encoding='utf-8') as gui_f:
         gui_f.writelines(gui_text_lines)
 
-    main_menu_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{PLAY_NAME}/main_menu.jpeg')
+    main_menu_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{FOLDER_NAME}/main_menu.jpeg')
     if main_menu_file.is_file():
         shutil.copy(
             main_menu_file,
@@ -1139,21 +1214,21 @@ init python:
             Path(f'{PATH_TO_GUI_DIRECTORY}/main_menu.jpeg')
         )
 
-    textbox_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{PLAY_NAME}/textbox.png')
+    textbox_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{FOLDER_NAME}/textbox.png')
     if textbox_file.is_file():
         shutil.copy(
             textbox_file,
             Path(f'{PATH_TO_GUI_DIRECTORY}/textbox.png')
         )
 
-    window_icon_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{PLAY_NAME}/window_icon.png')
+    window_icon_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{FOLDER_NAME}/window_icon.png')
     if textbox_file.is_file():
         shutil.copy(
             window_icon_file,
             Path(f'{PATH_TO_GUI_DIRECTORY}/window_icon.png')
         )
 
-    poster_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{PLAY_NAME}/poster.jpeg')
+    poster_file = Path(f'{PATH_TO_PICTURES_DIRECTORY}/{FOLDER_NAME}/poster.jpeg')
     if poster_file.is_file():
         shutil.copy(
             poster_file,
@@ -1256,7 +1331,7 @@ def parse_cast_list(cast_list, indent: str, from_tag: str) -> str:
     s += play_music(cast_list, indent, get_random=True)
 
     # background
-    s += show_background(cast_list, indent, get_random=True)
+    #s += show_background(cast_list, indent, get_random=True)
 
     global SCENE_NAMES
     notes: List = []
@@ -1309,7 +1384,7 @@ def add_cast_list_from_header(indent: str) -> str:
     s += play_music(None, indent, get_random=True)
 
     # background
-    s += show_background(None, indent, get_random=True)
+    #s += show_background(None, indent, get_random=True)
 
     s += f'{indent}"{{b}}{CHARACTERS}{{/b}}"\n\n'
 
@@ -1485,7 +1560,7 @@ def parse_root(root) -> str:
             if Path(f'{PATH_TO_BACKGROUNDS_DIRECTORY}/poster.jpeg').is_file():
                 root.set("background", "poster")
 
-            s += show_background(root, indent, get_random=True)
+            #s += show_background(root, indent, get_random=True)
         elif elem.tag == "standOff":
             s += parse_stand_off(elem, indent)
         elif elem.tag == "text":
@@ -1511,8 +1586,40 @@ def parse_root(root) -> str:
 
     return s
 
+def get_backgrounds(PLAY_NAME, AUTHOR, number_of_acts):
+    act_num = 1
+    while(act_num <= number_of_acts):
+        query = "Write a stage direction describing the scenery of Act " + str(act_num) + " of " + str(PLAY_NAME) + " by " + str(AUTHOR) + " in one sentence, without using the word stage."
+
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo", 
+            messages=[{"role": "user", "content": query}]
+        )
+
+        completion = completion["choices"][0]["message"]["content"]
+        print(completion)
+
+        response = openai.Image.create(
+            prompt=str(completion),
+            model="image-alpha-001",
+            size="1024x1024",
+            response_format="url"
+        )
+
+        print(response["data"][0]["url"])
+        url = response["data"][0]["url"]
+        r = requests.get(url, allow_redirects=True)
+        filename = "./pictures/background/" + str(act_num) + ".jpeg"
+        open(filename, 'wb').write(r.content)
+
+
+        act_num = act_num+1
+
 
 def main():
+    global PLAY_NAME
+    global AUTHOR
+
     with open(PATH_TO_INPUT_FILE, 'r', encoding='utf-8') as f:
         text = f.read()
 
@@ -1526,6 +1633,14 @@ def main():
         tree = etree.parse(tmp.name, parser)
 
     root = tree.getroot()
+    PLAY_NAME = root[0][0][0][0].text
+    for child in root[0][0][0].iter('{http://www.tei-c.org/ns/1.0}author'):
+         for child in child[0].iter('{http://www.tei-c.org/ns/1.0}surname'):
+                 AUTHOR = child.text
+    number_of_acts = text.count('<div type="act">')
+    get_backgrounds(PLAY_NAME, AUTHOR, number_of_acts)
+
+
 
     for elem in root.getiterator():
         if not hasattr(elem.tag, 'find'):
@@ -1539,7 +1654,6 @@ def main():
 
     with open(PATH_TO_OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(s)
-
 
 if __name__ == '__main__':
     main()
