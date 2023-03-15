@@ -4,17 +4,27 @@ AI generation of visual novels from plays on DraCor.org. Uses ChatGPT and DALL-E
 You can either input your OpenAI API key as an option (`--key`) or modify the code (`openai.api_key = ""`). 
 
 Usage:
+`
 positional arguments:
+
   text
 
 options:
+
   -h, --help            show this help message and exit
+  
   --key KEY             Your OpenAI key
+  
   --output OUTPUT       Specifies an output directory
+  
   --character_style CHARACTER_STYLE
+  
                         Gives a style reference for the character sprites. Defaults to "yugioh."
+                        
   --background_style BACKGROUND_STYLE
+  
                         Gives a style reference for the backgrounds.
+                        `
 
 
 Some screenshots from Lessing's Emilia Galotti:
