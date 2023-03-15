@@ -5,6 +5,7 @@ import tempfile
 import warnings
 import openai
 import requests
+import argparse
 from copy import copy
 from pathlib import Path
 from typing import *
@@ -19,14 +20,18 @@ from pymystem3 import Mystem
 
 warnings.filterwarnings("ignore")
 
-
+#################################
+#Place your OpenAI API key here:#
+#################################
 openai.api_key = ""
 
 FOLDER_NAME = "output"
 PLAY_NAME = ""
 AUTHOR = ""
+CHAR_STYLE = ""
+BG_STYLE = ""
 MAIN_DIRECTORY = f"{FOLDER_NAME}/game"
-PATH_TO_INPUT_FILE: str = "texts/lessing-emilia-galotti.xml"
+PATH_TO_INPUT_FILE: str = ""
 PATH_TO_OUTPUT_FILE: str = f"{MAIN_DIRECTORY}/script.rpy"
 
 PATH_TO_IMAGES_DIRECTORY: str = f"{MAIN_DIRECTORY}/images"
@@ -194,7 +199,10 @@ def create_character_variables_with_given_sex(character_elems, sex: str) -> str:
             messages=[{"role": "user", "content": character_query}]
         )
 
-        completion = "Profile visual novel sprite of " + completion["choices"][0]["message"]["content"].replace("\n", "") + " head in center of frame, ornate background, in yugioh style."
+        if (CHAR_STYLE != None):
+            completion = "Profile visual novel sprite of " + completion["choices"][0]["message"]["content"].replace("\n", "") + " head in center of frame, ornate background, in " + CHAR_STYLE + " style."
+        else:
+            completion = "Profile visual novel sprite of " + completion["choices"][0]["message"]["content"].replace("\n", "") + " head in center of frame, ornate background, in yugioh style."
         print(completion)
 
         #completion = natural_character + " from " + PLAY_NAME + " by " + str(AUTHOR) + " in yugioh style."
@@ -1573,7 +1581,10 @@ def parse_root(root) -> str:
 def get_backgrounds(PLAY_NAME, AUTHOR, number_of_acts):
     act_num = 1
     while(act_num <= number_of_acts):
-        query = "Write a stage direction describing the scenery of Act " + str(act_num) + " of " + str(PLAY_NAME) + " by " + str(AUTHOR) + " in one sentence, without using the word stage."
+        if(BG_STYLE != None):
+            query = "Write a stage direction describing the scenery of Act " + str(act_num) + " of " + str(PLAY_NAME) + " by " + str(AUTHOR) + " in one sentence, without using the word stage."
+        else:
+            query = "Write a stage direction describing the scenery of Act " + str(act_num) + " of " + str(PLAY_NAME) + " by " + str(AUTHOR) + " in one sentence, without using the word stage."
 
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo", 
@@ -1581,6 +1592,10 @@ def get_backgrounds(PLAY_NAME, AUTHOR, number_of_acts):
         )
 
         completion = completion["choices"][0]["message"]["content"]
+
+        if(BG_STYLE != None):
+            completion = completion + " in the style of " + BG_STYLE + "."
+
         print(completion)
 
         response = openai.Image.create(
@@ -1600,9 +1615,21 @@ def get_backgrounds(PLAY_NAME, AUTHOR, number_of_acts):
         act_num = act_num+1
 
 
-def main():
+def main(key, input_path, output_directory, character_style, background_style):
     global PLAY_NAME
     global AUTHOR
+    global PATH_TO_INPUT_FILE
+    global CHAR_STYLE, BG_STYLE
+    global FOLDER_NAME
+
+    openai.api_key = key
+    PATH_TO_INPUT_FILE = input_path
+    CHAR_STYLE = character_style
+    BG_STYLE = background_style
+
+    if(output_directory != None):
+        FOLDER_NAME = output_directory
+
 
     with open(PATH_TO_INPUT_FILE, 'r', encoding='utf-8') as f:
         text = f.read()
@@ -1640,4 +1667,15 @@ def main():
         f.write(s)
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(
+                    prog='AI Visual Novels from DraCor')
+
+    parser.add_argument('text')
+    parser.add_argument('--key', help='Your OpenAI key')
+    parser.add_argument('--output', help='Specifies an output directory')
+    parser.add_argument('--character_style', help='Gives a style reference for the character sprites. Defaults to "yugioh."')
+    parser.add_argument('--background_style', help='Gives a style reference for the backgrounds.')
+
+    args = parser.parse_args()
+
+    main(args.key, args.text, args.output, args.character_style, args.background_style)
