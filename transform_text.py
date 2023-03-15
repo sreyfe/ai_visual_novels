@@ -1670,7 +1670,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
                     prog='AI Visual Novels from DraCor')
 
-    parser.add_argument('text')
+    parser.add_argument('text', help='Path to DraCor tagged drama to be transformed')
     parser.add_argument('--key', help='Your OpenAI key')
     parser.add_argument('--output', help='Specifies an output directory')
     parser.add_argument('--character_style', help='Gives a style reference for the character sprites. Defaults to "yugioh."')
