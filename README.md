@@ -1,5 +1,5 @@
 # ai_visual_novels
-AI generation of visual novels from plays on DraCor.org. Uses ChatGPT and DALL-E to generate backgrounds and character sprites.
+AI generation of RenPy visual novels from tagged plays on [DraCor.org]. Uses ChatGPT and DALL-E to generate backgrounds and character sprites.
 
 You can either input your OpenAI API key as an option (`--key`) or modify the code (`openai.api_key = ""`). 
 
