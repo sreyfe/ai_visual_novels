@@ -1,7 +1,19 @@
 # ai_visual_novels
-AI generation of visual novels from plays on DraCor.org
+AI generation of visual novels from plays on DraCor.org. Uses ChatGPT and DALL-E to generate backgrounds and character sprites.
 
-Uses ChatGPT and DALL-E to generate backgrounds and character sprites.
+Usage:
+positional arguments:
+  text
+
+options:`
+  -h, --help            show this help message and exit
+  --key KEY             Your OpenAI key
+  --output OUTPUT       Specifies an output directory
+  --character_style CHARACTER_STYLE
+                        Gives a style reference for the character sprites. Defaults to "yugioh."
+  --background_style BACKGROUND_STYLE
+                        Gives a style reference for the backgrounds.`
+
 
 Some screenshots from Lessing's Emilia Galotti:
 ![Screenshot from 2023-03-13 13-51-51](https://user-images.githubusercontent.com/127442578/224787010-aaba4d56-5b87-4305-9fc7-b5c16258541b.jpg)
